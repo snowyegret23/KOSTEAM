@@ -43,9 +43,17 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
       - name: Install dependencies
-        run: npm install
+        run: |
+          npm install
+          pip install -r requirements.txt
         
       - name: Run steamapp scraper
         if: github.event.inputs.scraper == 'all' || github.event.inputs.scraper == 'steamapp' || github.event_name == 'schedule'
@@ -55,8 +63,7 @@ jobs:
       - name: Run quasarplay scraper
         if: github.event.inputs.scraper == 'all' || github.event.inputs.scraper == 'quasarplay' || github.event_name == 'schedule'
         env:
-          QUASARPLAY_PROXY: ${{ secrets.QUASARPLAY_PROXY }}
-          QUASARPLAY_COOKIE: ${{ secrets.QUASARPLAY_COOKIE }}
+          TWO_CAPTCHA_API_KEY: ${{ secrets.TWO_CAPTCHA_API_KEY }}
         run: npm run scrape:quasarplay
         continue-on-error: true
         

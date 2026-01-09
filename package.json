@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "scrape:steamapp": "node scrapers/steamapp.js",
-    "scrape:quasarplay": "node scrapers/quasarplay.js",
+    "scrape:quasarplay": "python scrapers/quasarplay.py",
     "scrape:directg": "node scrapers/directg.js",
     "scrape:stove": "node scrapers/stove.js",
     "scrape:all": "npm run scrape:steamapp && npm run scrape:quasarplay && npm run scrape:directg && npm run scrape:stove",
