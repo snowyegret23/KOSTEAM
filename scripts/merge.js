@@ -164,11 +164,14 @@ async function main() {
         const resultLinks = [];
         const resultDescs = [];
         const resultSources = [];
+        const sourcesWithLinks = new Set();
 
         for (let i = 0; i < links.length; i++) {
             const link = links[i];
             const desc = descriptions[i] || '';
             const source = sources[i] || '';
+
+            sourcesWithLinks.add(source);
 
             if (!seen.has(link)) {
                 seen.set(link, resultLinks.length);
@@ -182,7 +185,12 @@ async function main() {
             }
         }
 
-        return { links: resultLinks, descriptions: resultDescs, sources: resultSources };
+        return {
+            links: resultLinks,
+            descriptions: resultDescs,
+            sources: resultSources,
+            sourcesWithLinks: [...sourcesWithLinks]
+        };
     };
 
     const withSteamLink = Array.from(mergedByAppId.values()).map(entry => {
@@ -197,6 +205,7 @@ async function main() {
             patch_links: deduplicated.links,
             patch_descriptions: deduplicated.descriptions,
             patch_sources: deduplicated.sources,
+            sources_with_links: deduplicated.sourcesWithLinks,
             sources: [...new Set(entry.sources)]
         };
     });
@@ -213,6 +222,7 @@ async function main() {
             patch_links: deduplicated.links,
             patch_descriptions: deduplicated.descriptions,
             patch_sources: deduplicated.sources,
+            sources_with_links: deduplicated.sourcesWithLinks,
             sources: [...new Set(entry.sources)]
         };
     });
@@ -253,6 +263,7 @@ async function main() {
             links: game.patch_links,
             patch_descriptions: game.patch_descriptions || [],
             patch_sources: game.patch_sources || [],
+            sources_with_links: game.sources_with_links || [],
             source_site_urls: game.source_site_urls || {},
             description: game.description || ''
         };

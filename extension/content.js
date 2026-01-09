@@ -7,9 +7,7 @@
 
     chrome.runtime.sendMessage({ type: 'GET_PATCH_INFO', appId }, response => {
         const info = response?.info;
-        if (info || !hasOfficialKorean) {
-            injectPatchInfo(info, hasOfficialKorean);
-        }
+        injectPatchInfo(info, hasOfficialKorean);
     });
 
     function checkOfficialKoreanSupport() {
@@ -129,11 +127,12 @@
             if (info) {
                 const siteUrls = info.source_site_urls || {};
                 const patchSources = info.patch_sources || [];
+                const sourcesWithLinks = info.sources_with_links || [];
 
-                const hasSpecificLinks = (source) => patchSources.includes(source);
+                const hasLinksFromSource = (source) => sourcesWithLinks.includes(source) || patchSources.includes(source);
 
                 if (isSourceEnabled('steamapp') && siteUrls.steamapp) {
-                    const hasLinks = hasSpecificLinks('steamapp');
+                    const hasLinks = hasLinksFromSource('steamapp');
                     const isRedundant = isOfficialGame && !hasLinks;
 
                     if (!isRedundant) {
@@ -149,7 +148,7 @@
                 }
 
                 if (isSourceEnabled('quasarplay') && siteUrls.quasarplay) {
-                    const hasLinks = hasSpecificLinks('quasarplay');
+                    const hasLinks = hasLinksFromSource('quasarplay');
                     const isRedundant = isOfficialGame && !hasLinks;
 
                     if (!isRedundant) {
@@ -214,11 +213,7 @@
                 });
                 contentHtml += '</div>';
             } else if (isOfficial) {
-                if (noKoreanBox || !hasOfficialKorean) {
-                    contentHtml = '<div class="kr-patch-official-text">공식으로 한국어를 지원하는 게임입니다.</div>';
-                } else {
-                    return;
-                }
+                contentHtml = '<div class="kr-patch-official-text">공식으로 한국어를 지원하는 게임입니다.</div>';
             } else if (patchTypeInfo.cssClass === 'none') {
                 contentHtml = '<div class="kr-patch-none-text">현재 데이터베이스에 등록된 한국어 패치 정보가 없습니다.</div>';
             } else {
