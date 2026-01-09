@@ -1,1 +1,4638 @@
-[]
+[
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "13253",
+    "stove_product_no": "103151",
+    "game_title": "백합, 즐겨보실래요 (Love Yuri)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/103151"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/103151",
+    "last_verification_date": "2026-01-09T10:14:14.428Z",
+    "updated_at": "2026-01-09T10:14:14.429Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "13254",
+    "stove_product_no": "103152",
+    "game_title": "내 고양이 여친님 (My Cat Girl Lover)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/103152"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/103152",
+    "last_verification_date": "2026-01-09T10:14:14.429Z",
+    "updated_at": "2026-01-09T10:14:14.429Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "11907",
+    "stove_product_no": "101821",
+    "game_title": "드로바 - 포세이큰 킨 (Drova - Forsaken Kin)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/101821"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/101821",
+    "last_verification_date": "2026-01-09T10:14:14.429Z",
+    "updated_at": "2026-01-09T10:14:14.429Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "11838",
+    "stove_product_no": "101753",
+    "game_title": "캐틀 컨트리 (Cattle Country)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/101753"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/101753",
+    "last_verification_date": "2026-01-09T10:14:14.429Z",
+    "updated_at": "2026-01-09T10:14:14.429Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "12869",
+    "stove_product_no": "102775",
+    "game_title": "슈퍼 판타지 킹덤 (Super Fantasy Kingdom)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/102775"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/102775",
+    "last_verification_date": "2026-01-09T10:14:14.429Z",
+    "updated_at": "2026-01-09T10:14:14.429Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "12258",
+    "stove_product_no": "102169",
+    "game_title": "론스타 헌터 (LONESTAR)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/102169"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/102169",
+    "last_verification_date": "2026-01-09T10:14:14.429Z",
+    "updated_at": "2026-01-09T10:14:14.429Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "7627",
+    "stove_product_no": "4190",
+    "game_title": "요그 소토스의 정원",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/4190"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/4190",
+    "last_verification_date": "2026-01-09T10:14:14.429Z",
+    "updated_at": "2026-01-09T10:14:14.429Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "11753",
+    "stove_product_no": "101668",
+    "game_title": "리턴 프롬 코어 (Return from Core)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/101668"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/101668",
+    "last_verification_date": "2026-01-09T10:14:14.429Z",
+    "updated_at": "2026-01-09T10:14:14.429Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "12447",
+    "stove_product_no": "102358",
+    "game_title": "보더 타운 (Border Town)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/102358"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/102358",
+    "last_verification_date": "2026-01-09T10:14:14.429Z",
+    "updated_at": "2026-01-09T10:14:14.429Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "12437",
+    "stove_product_no": "102348",
+    "game_title": "원소와 빌드 (Elements and Build)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/102348"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/102348",
+    "last_verification_date": "2026-01-09T10:14:14.429Z",
+    "updated_at": "2026-01-09T10:14:14.429Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "11712",
+    "stove_product_no": "101627",
+    "game_title": "굶주린 새끼양 (The Hungry Lamb: Traveling in the Late Ming Dynasty)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/101627"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/101627",
+    "last_verification_date": "2026-01-09T10:14:14.429Z",
+    "updated_at": "2026-01-09T10:14:14.429Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "12267",
+    "stove_product_no": "102178",
+    "game_title": "알데이아: 아페리의 분노 (Altheia: The Wrath of Aferi)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/102178"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/102178",
+    "last_verification_date": "2026-01-09T10:14:14.429Z",
+    "updated_at": "2026-01-09T10:14:14.429Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "11784",
+    "stove_product_no": "101699",
+    "game_title": "아르티스 임팩트 (Artis Impact)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/101699"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/101699",
+    "last_verification_date": "2026-01-09T10:14:14.429Z",
+    "updated_at": "2026-01-09T10:14:14.429Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "8961",
+    "stove_product_no": "4627",
+    "game_title": "노른자 용사: 옛나~알 옛적에 (Yolk Heroes: A Long Tamago)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/4627"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/4627",
+    "last_verification_date": "2026-01-09T10:14:14.429Z",
+    "updated_at": "2026-01-09T10:14:14.429Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "6714",
+    "stove_product_no": "3677",
+    "game_title": "리서치 스토리 (Research Story)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/3677"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/3677",
+    "last_verification_date": "2026-01-09T10:14:14.429Z",
+    "updated_at": "2026-01-09T10:14:14.429Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "11527",
+    "stove_product_no": "101442",
+    "game_title": "아포칼립스 익스프레스",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/101442"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/101442",
+    "last_verification_date": "2026-01-09T10:14:14.429Z",
+    "updated_at": "2026-01-09T10:14:14.429Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "11556",
+    "stove_product_no": "101471",
+    "game_title": "주인님, 세이라가 꿈만 같은 끈적달콤 봉사를 해 드릴게요 (Dreamlike Love with Seira)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/101471"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/101471",
+    "last_verification_date": "2026-01-09T10:14:14.429Z",
+    "updated_at": "2026-01-09T10:14:14.429Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "10816",
+    "stove_product_no": "100735",
+    "game_title": "SAEKO: 거대한 그녀와의 기묘한 동거",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/100735"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/100735",
+    "last_verification_date": "2026-01-09T10:14:14.429Z",
+    "updated_at": "2026-01-09T10:14:14.429Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "10801",
+    "stove_product_no": "100720",
+    "game_title": "다음은 너야 - 진실게임 (You are the next)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/100720"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/100720",
+    "last_verification_date": "2026-01-09T10:14:14.429Z",
+    "updated_at": "2026-01-09T10:14:14.429Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "9809",
+    "stove_product_no": "5028",
+    "game_title": "투 스트라이크 (Two Strikes)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/5028"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/5028",
+    "last_verification_date": "2026-01-09T10:14:14.429Z",
+    "updated_at": "2026-01-09T10:14:14.429Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "3334",
+    "stove_product_no": "2230",
+    "game_title": "위스퍼 (Wisper)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/2230"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/2230",
+    "last_verification_date": "2026-01-09T10:14:14.429Z",
+    "updated_at": "2026-01-09T10:14:14.429Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "6397",
+    "stove_product_no": "3510",
+    "game_title": "다크 데이티 2 (Dark Deity 2)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/3510"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/3510",
+    "last_verification_date": "2026-01-09T10:14:14.429Z",
+    "updated_at": "2026-01-09T10:14:14.429Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "5644",
+    "stove_product_no": "3054",
+    "game_title": "카타클리스모 (Cataclismo)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/3054"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/3054",
+    "last_verification_date": "2026-01-09T10:14:14.429Z",
+    "updated_at": "2026-01-09T10:14:14.429Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "6756",
+    "stove_product_no": "4302",
+    "game_title": "양쯔강 살인사건 (Murders on the Yangtze River)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/4302"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/4302",
+    "last_verification_date": "2026-01-09T10:14:14.429Z",
+    "updated_at": "2026-01-09T10:14:14.429Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "8188",
+    "stove_product_no": "4853",
+    "game_title": "트라인 3: 힘의 유물 (Trine 3: The Artifacts of Power)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/4853"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/4853",
+    "last_verification_date": "2026-01-09T10:14:14.429Z",
+    "updated_at": "2026-01-09T10:14:14.429Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "8186",
+    "stove_product_no": "4855",
+    "game_title": "트라인 인챈티드 에디션 (Trine Enchanted Edition)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/4855"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/4855",
+    "last_verification_date": "2026-01-09T10:14:14.429Z",
+    "updated_at": "2026-01-09T10:14:14.429Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "7865",
+    "stove_product_no": "4260",
+    "game_title": "건도그 - 태양계 이야기 (Stories from Sol: The Gun-Dog)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/4260"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/4260",
+    "last_verification_date": "2026-01-09T10:14:14.429Z",
+    "updated_at": "2026-01-09T10:14:14.429Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "7480",
+    "stove_product_no": "4179",
+    "game_title": "메타 고스트: 더 브레이킹 쇼 (Meta-Ghost: The Breaking Show)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/4179"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/4179",
+    "last_verification_date": "2026-01-09T10:14:14.429Z",
+    "updated_at": "2026-01-09T10:14:14.429Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "8082",
+    "stove_product_no": "4400",
+    "game_title": "이터널 스트랜드 (Eternal Strands)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/4400"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/4400",
+    "last_verification_date": "2026-01-09T10:14:14.429Z",
+    "updated_at": "2026-01-09T10:14:14.429Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "8828",
+    "stove_product_no": "4574",
+    "game_title": "바벨호의 여행 안내서",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/4574"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/4574",
+    "last_verification_date": "2026-01-09T10:14:14.429Z",
+    "updated_at": "2026-01-09T10:14:14.429Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "7989",
+    "stove_product_no": "4382",
+    "game_title": "결사전 노래 (Songs of Death)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/4382"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/4382",
+    "last_verification_date": "2026-01-09T10:14:14.429Z",
+    "updated_at": "2026-01-09T10:14:14.429Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "2350",
+    "stove_product_no": "4087",
+    "game_title": "천연만화 (Senren * Banka)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/4087"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/4087",
+    "last_verification_date": "2026-01-09T10:14:14.429Z",
+    "updated_at": "2026-01-09T10:14:14.429Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "8885",
+    "stove_product_no": "4614",
+    "game_title": "프리티 걸스 팝 매치 (Pretty Girls Pop Match)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/4614"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/4614",
+    "last_verification_date": "2026-01-09T10:14:14.429Z",
+    "updated_at": "2026-01-09T10:14:14.429Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "7302",
+    "stove_product_no": "3959",
+    "game_title": "샌드 오브 살자르 (Sands of Salzaar)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/3959"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/3959",
+    "last_verification_date": "2026-01-09T10:14:14.429Z",
+    "updated_at": "2026-01-09T10:14:14.429Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "7013",
+    "stove_product_no": "4311",
+    "game_title": "비홀더 3 (Beholder 3)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/4311"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/4311",
+    "last_verification_date": "2026-01-09T10:14:14.429Z",
+    "updated_at": "2026-01-09T10:14:14.429Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "8057",
+    "stove_product_no": "4376",
+    "game_title": "우주 저 너머로 (To the Stars)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/4376"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/4376",
+    "last_verification_date": "2026-01-09T10:14:14.429Z",
+    "updated_at": "2026-01-09T10:14:14.429Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "7168",
+    "stove_product_no": "4319",
+    "game_title": "어비스 시커 심연의 끝에서 무엇을 볼 것인가 (ABYSS SEEKER)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/4319"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/4319",
+    "last_verification_date": "2026-01-09T10:14:15.882Z",
+    "updated_at": "2026-01-09T10:14:15.882Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "8105",
+    "stove_product_no": "4427",
+    "game_title": "미제사건의 비밀들 (Little Locked Rooms)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/4427"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/4427",
+    "last_verification_date": "2026-01-09T10:14:15.882Z",
+    "updated_at": "2026-01-09T10:14:15.882Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "7167",
+    "stove_product_no": "3895",
+    "game_title": "시스터즈: 여름의 마지막 날 (Sisters: Last Day of Summer)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/3895"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/3895",
+    "last_verification_date": "2026-01-09T10:14:15.882Z",
+    "updated_at": "2026-01-09T10:14:15.882Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "6378",
+    "stove_product_no": "3430",
+    "game_title": "로코 모티브: 로이스 특급 살인",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/3430"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/3430",
+    "last_verification_date": "2026-01-09T10:14:15.882Z",
+    "updated_at": "2026-01-09T10:14:15.882Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "7573",
+    "stove_product_no": "4081",
+    "game_title": "드라이브 미 크레이지 (Drive Me Crazy)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/4081"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/4081",
+    "last_verification_date": "2026-01-09T10:14:15.882Z",
+    "updated_at": "2026-01-09T10:14:15.882Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "7066",
+    "stove_product_no": "3816",
+    "game_title": "요그의 서 (Book Of Yog)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/3816"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/3816",
+    "last_verification_date": "2026-01-09T10:14:15.882Z",
+    "updated_at": "2026-01-09T10:14:15.882Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "7985",
+    "stove_product_no": "4340",
+    "game_title": "버디와 친구들의 할로윈 (Buddy and Friends on Halloween)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/4340"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/4340",
+    "last_verification_date": "2026-01-09T10:14:15.882Z",
+    "updated_at": "2026-01-09T10:14:15.882Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "3333",
+    "stove_product_no": "4299",
+    "game_title": "시뮬라크로스 (Simulakros)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/4299"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/4299",
+    "last_verification_date": "2026-01-09T10:14:15.882Z",
+    "updated_at": "2026-01-09T10:14:15.882Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "7348",
+    "stove_product_no": "4082",
+    "game_title": "리들 조커 (Riddle Joker)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/4082"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/4082",
+    "last_verification_date": "2026-01-09T10:14:15.882Z",
+    "updated_at": "2026-01-09T10:14:15.882Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "6898",
+    "stove_product_no": "3720",
+    "game_title": "앵커 포인트: 봉쇄 구역 (Anchors: Blockade Zone)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/3720"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/3720",
+    "last_verification_date": "2026-01-09T10:14:15.882Z",
+    "updated_at": "2026-01-09T10:14:15.882Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "7829",
+    "stove_product_no": "4243",
+    "game_title": "KBF: 나이트 바 파이트 (KBF: Knight Bar Fight)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/4243"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/4243",
+    "last_verification_date": "2026-01-09T10:14:15.882Z",
+    "updated_at": "2026-01-09T10:14:15.882Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "6686",
+    "stove_product_no": "3784",
+    "game_title": "크리켓: 재이의 정말 별난 게임",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/3784"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/3784",
+    "last_verification_date": "2026-01-09T10:14:15.882Z",
+    "updated_at": "2026-01-09T10:14:15.882Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "6301",
+    "stove_product_no": "3379",
+    "game_title": "렐름 오브 잉크 (Realm of Ink)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/3379"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/3379",
+    "last_verification_date": "2026-01-09T10:14:15.882Z",
+    "updated_at": "2026-01-09T10:14:15.882Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "7121",
+    "stove_product_no": "3839",
+    "game_title": "Anarkade",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/3839"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/3839",
+    "last_verification_date": "2026-01-09T10:14:15.882Z",
+    "updated_at": "2026-01-09T10:14:15.882Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "3329",
+    "stove_product_no": "3795",
+    "game_title": "카라반 샌드위치 (Caravan Sandwitch)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/3795"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/3795",
+    "last_verification_date": "2026-01-09T10:14:15.882Z",
+    "updated_at": "2026-01-09T10:14:15.882Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "6841",
+    "stove_product_no": "3685",
+    "game_title": "로드 앤 빌레인",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/3685"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/3685",
+    "last_verification_date": "2026-01-09T10:14:15.882Z",
+    "updated_at": "2026-01-09T10:14:15.882Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "6045",
+    "stove_product_no": "3404",
+    "game_title": "마녀와 개념의 병 (The witch and the bottle of concepts)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/3404"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/3404",
+    "last_verification_date": "2026-01-09T10:14:15.882Z",
+    "updated_at": "2026-01-09T10:14:15.882Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "5621",
+    "stove_product_no": "3200",
+    "game_title": "미스트 슬레이어 (Mist Slayer)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/3200"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/3200",
+    "last_verification_date": "2026-01-09T10:14:15.882Z",
+    "updated_at": "2026-01-09T10:14:15.882Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "7191",
+    "stove_product_no": "3908",
+    "game_title": "카믈라",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/3908"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/3908",
+    "last_verification_date": "2026-01-09T10:14:15.882Z",
+    "updated_at": "2026-01-09T10:14:15.882Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "6900",
+    "stove_product_no": "3722",
+    "game_title": "Without You",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/3722"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/3722",
+    "last_verification_date": "2026-01-09T10:14:15.882Z",
+    "updated_at": "2026-01-09T10:14:15.882Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "7097",
+    "stove_product_no": "3824",
+    "game_title": "인투나이트 (Intonight)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/3824"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/3824",
+    "last_verification_date": "2026-01-09T10:14:15.882Z",
+    "updated_at": "2026-01-09T10:14:15.882Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "6370",
+    "stove_product_no": "3421",
+    "game_title": "콥스 키퍼 (Corpse Keeper)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/3421"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/3421",
+    "last_verification_date": "2026-01-09T10:14:15.882Z",
+    "updated_at": "2026-01-09T10:14:15.882Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "6538",
+    "stove_product_no": "3531",
+    "game_title": "킹 아서: 제9군단 (King Arthur - Legion IX)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/3531"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/3531",
+    "last_verification_date": "2026-01-09T10:14:15.882Z",
+    "updated_at": "2026-01-09T10:14:15.882Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "6408",
+    "stove_product_no": "3894",
+    "game_title": "헤븐 시커 이 잔혹한 세계를 구원하는 법 (HEAVEN SEEKER)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/3894"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/3894",
+    "last_verification_date": "2026-01-09T10:14:15.882Z",
+    "updated_at": "2026-01-09T10:14:15.882Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "7336",
+    "stove_product_no": "3980",
+    "game_title": "크로니콘: 서바이버즈",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/3980"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/3980",
+    "last_verification_date": "2026-01-09T10:14:15.882Z",
+    "updated_at": "2026-01-09T10:14:15.882Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "6265",
+    "stove_product_no": "3352",
+    "game_title": "브레이브 던전 -정의의 의미-",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/3352"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/3352",
+    "last_verification_date": "2026-01-09T10:14:15.882Z",
+    "updated_at": "2026-01-09T10:14:15.882Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "6736",
+    "stove_product_no": "3623",
+    "game_title": "PC방 시뮬레이터 (Internet Cafe Evolution)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/3623"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/3623",
+    "last_verification_date": "2026-01-09T10:14:15.882Z",
+    "updated_at": "2026-01-09T10:14:15.882Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "6186",
+    "stove_product_no": "3363",
+    "game_title": "스페이스 프레셔 3D: 서막 (Space Pressure 3D: Prelude)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/3363"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/3363",
+    "last_verification_date": "2026-01-09T10:14:15.882Z",
+    "updated_at": "2026-01-09T10:14:15.882Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "5693",
+    "stove_product_no": "3204",
+    "game_title": "천사의 제국 4 (Empire of Angels IV)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/3204"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/3204",
+    "last_verification_date": "2026-01-09T10:14:15.882Z",
+    "updated_at": "2026-01-09T10:14:15.882Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "6393",
+    "stove_product_no": "3459",
+    "game_title": "타이론 vs 짭새 (TYRONE vs COPS)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/3459"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/3459",
+    "last_verification_date": "2026-01-09T10:14:15.882Z",
+    "updated_at": "2026-01-09T10:14:15.882Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "5729",
+    "stove_product_no": "3473",
+    "game_title": "엘든 블링 (ELDEN BLING)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/3473"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/3473",
+    "last_verification_date": "2026-01-09T10:14:15.882Z",
+    "updated_at": "2026-01-09T10:14:15.882Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "6394",
+    "stove_product_no": "3458",
+    "game_title": "타이론 소울 (TYRONE SOULZ)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/3458"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/3458",
+    "last_verification_date": "2026-01-09T10:14:15.882Z",
+    "updated_at": "2026-01-09T10:14:15.882Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "6623",
+    "stove_product_no": "3673",
+    "game_title": "로터스 랜턴: 보련등 이야기 (Lotus Lantern: Rescue Mother)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/3673"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/3673",
+    "last_verification_date": "2026-01-09T10:14:15.882Z",
+    "updated_at": "2026-01-09T10:14:15.882Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "6710",
+    "stove_product_no": "3644",
+    "game_title": "프리티 걸스 이스케이프 플러스 (Pretty Girls Escape PLUS)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/3644"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/3644",
+    "last_verification_date": "2026-01-09T10:14:15.882Z",
+    "updated_at": "2026-01-09T10:14:15.882Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "5728",
+    "stove_product_no": "3128",
+    "game_title": "던전 디펜더스: 어웨이큰드 (Dungeon Defenders: Awakened)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/3128"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/3128",
+    "last_verification_date": "2026-01-09T10:14:15.882Z",
+    "updated_at": "2026-01-09T10:14:15.882Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "4759",
+    "stove_product_no": "2470",
+    "game_title": "올드 월드 (Old World)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/2470"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/2470",
+    "last_verification_date": "2026-01-09T10:14:15.882Z",
+    "updated_at": "2026-01-09T10:14:15.882Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "3304",
+    "stove_product_no": "3211",
+    "game_title": "연애기담 - 존재하지 않는 진실",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/3211"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/3211",
+    "last_verification_date": "2026-01-09T10:14:17.235Z",
+    "updated_at": "2026-01-09T10:14:17.235Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "3327",
+    "stove_product_no": "3214",
+    "game_title": "페이블덤 (Fabledom)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/3214"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/3214",
+    "last_verification_date": "2026-01-09T10:14:17.235Z",
+    "updated_at": "2026-01-09T10:14:17.235Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "5332",
+    "stove_product_no": "2842",
+    "game_title": "포켓 오아시스 (Pocket Oasis)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/2842"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/2842",
+    "last_verification_date": "2026-01-09T10:14:17.235Z",
+    "updated_at": "2026-01-09T10:14:17.235Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "3120",
+    "stove_product_no": "1561",
+    "game_title": "터보 슬로스 (Turbo Sloths)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1561"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1561",
+    "last_verification_date": "2026-01-09T10:14:17.235Z",
+    "updated_at": "2026-01-09T10:14:17.235Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "6030",
+    "stove_product_no": "3210",
+    "game_title": "아킬레우스: 알려지지 않은 전설",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/3210"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/3210",
+    "last_verification_date": "2026-01-09T10:14:17.235Z",
+    "updated_at": "2026-01-09T10:14:17.235Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "6013",
+    "stove_product_no": "3187",
+    "game_title": "Yet Another Fantasy Title (YAFT)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/3187"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/3187",
+    "last_verification_date": "2026-01-09T10:14:17.235Z",
+    "updated_at": "2026-01-09T10:14:17.235Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "6015",
+    "stove_product_no": "3221",
+    "game_title": "맨 인 더 다크 (Man in the Dark)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/3221"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/3221",
+    "last_verification_date": "2026-01-09T10:14:17.235Z",
+    "updated_at": "2026-01-09T10:14:17.235Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "3476",
+    "stove_product_no": "1991",
+    "game_title": "러브 앤 워: 어쩌다 군주 (Love n War: Warlord by Chance)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1991"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1991",
+    "last_verification_date": "2026-01-09T10:14:17.235Z",
+    "updated_at": "2026-01-09T10:14:17.235Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "3477",
+    "stove_product_no": "1992",
+    "game_title": "러브 앤 워: 어쩌다 영웅 II (Love n War: Hero by Chance II)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1992"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1992",
+    "last_verification_date": "2026-01-09T10:14:17.235Z",
+    "updated_at": "2026-01-09T10:14:17.235Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "5382",
+    "stove_product_no": "2892",
+    "game_title": "파르케 (PARQUET)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/2892"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/2892",
+    "last_verification_date": "2026-01-09T10:14:17.235Z",
+    "updated_at": "2026-01-09T10:14:17.235Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "4555",
+    "stove_product_no": "3206",
+    "game_title": "씨 호라이즌 (Sea Horizon)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/3206"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/3206",
+    "last_verification_date": "2026-01-09T10:14:17.235Z",
+    "updated_at": "2026-01-09T10:14:17.235Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "5163",
+    "stove_product_no": "2828",
+    "game_title": "비쇼조 배틀 마작 솔리테어 (Bishoujo Battle Mahjong Solitaire)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/2828"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/2828",
+    "last_verification_date": "2026-01-09T10:14:17.235Z",
+    "updated_at": "2026-01-09T10:14:17.235Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "5202",
+    "stove_product_no": "2917",
+    "game_title": "펠 씰: 아비터의 표식 (Fell Seal: Arbiter's Mark)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/2917"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/2917",
+    "last_verification_date": "2026-01-09T10:14:17.235Z",
+    "updated_at": "2026-01-09T10:14:17.235Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "5355",
+    "stove_product_no": "2864",
+    "game_title": "로그 글리치 울트라 (Rogue Glitch Ultra)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/2864"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/2864",
+    "last_verification_date": "2026-01-09T10:14:17.235Z",
+    "updated_at": "2026-01-09T10:14:17.235Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "5525",
+    "stove_product_no": "2959",
+    "game_title": "러브 앤 라이프: 럭키 티처 (Love n Life: Lucky Teacher)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/2959"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/2959",
+    "last_verification_date": "2026-01-09T10:14:17.235Z",
+    "updated_at": "2026-01-09T10:14:17.235Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "5300",
+    "stove_product_no": "2819",
+    "game_title": "환상조조전2 (Fantasy of Caocao2)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/2819"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/2819",
+    "last_verification_date": "2026-01-09T10:14:17.235Z",
+    "updated_at": "2026-01-09T10:14:17.235Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "5433",
+    "stove_product_no": "2919",
+    "game_title": "스카이 브레이커스 (Skybreakers)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/2919"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/2919",
+    "last_verification_date": "2026-01-09T10:14:17.235Z",
+    "updated_at": "2026-01-09T10:14:17.235Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "2396",
+    "stove_product_no": "1248",
+    "game_title": "사야의 노래",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1248"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1248",
+    "last_verification_date": "2026-01-09T10:14:17.235Z",
+    "updated_at": "2026-01-09T10:14:17.235Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "5193",
+    "stove_product_no": "2733",
+    "game_title": "후크 앤 루프 - 플러피 랜드 어드벤처",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/2733"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/2733",
+    "last_verification_date": "2026-01-09T10:14:17.235Z",
+    "updated_at": "2026-01-09T10:14:17.235Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "5162",
+    "stove_product_no": "2826",
+    "game_title": "비쇼조 배틀 사이버 패닉! (Bishoujo Battle Cyber Panic!)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/2826"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/2826",
+    "last_verification_date": "2026-01-09T10:14:17.235Z",
+    "updated_at": "2026-01-09T10:14:17.235Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "5161",
+    "stove_product_no": "2822",
+    "game_title": "프리티 걸스 클론다이크 솔리테어 플러스 (Pretty Girls Klondike Solitaire PLUS)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/2822"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/2822",
+    "last_verification_date": "2026-01-09T10:14:17.235Z",
+    "updated_at": "2026-01-09T10:14:17.235Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "4880",
+    "stove_product_no": "2547",
+    "game_title": "부즈 마스터: 방구석 브루잉 (Booze Masters: Freezing Moonshine)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/2547"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/2547",
+    "last_verification_date": "2026-01-09T10:14:17.235Z",
+    "updated_at": "2026-01-09T10:14:17.235Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "3725",
+    "stove_product_no": "1937",
+    "game_title": "화산의 딸 (Volcano Princess)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1937"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1937",
+    "last_verification_date": "2026-01-09T10:14:17.235Z",
+    "updated_at": "2026-01-09T10:14:17.235Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "1798",
+    "stove_product_no": "1073",
+    "game_title": "언다잉 (UNDYING)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1073"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1073",
+    "last_verification_date": "2026-01-09T10:14:17.235Z",
+    "updated_at": "2026-01-09T10:14:17.235Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "3328",
+    "stove_product_no": "2202",
+    "game_title": "본 오브 브레드: 반죽이의 대모험 (Born of Bread)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/2202"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/2202",
+    "last_verification_date": "2026-01-09T10:14:17.235Z",
+    "updated_at": "2026-01-09T10:14:17.235Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "4688",
+    "stove_product_no": "2437",
+    "game_title": "슬라빅펑크: 올드타이머 (SlavicPunk: Oldtimer)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/2437"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/2437",
+    "last_verification_date": "2026-01-09T10:14:17.235Z",
+    "updated_at": "2026-01-09T10:14:17.235Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "5109",
+    "stove_product_no": "2686",
+    "game_title": "버스트 히어로 (Burst Hero)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/2686"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/2686",
+    "last_verification_date": "2026-01-09T10:14:17.235Z",
+    "updated_at": "2026-01-09T10:14:17.235Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "4829",
+    "stove_product_no": "2677",
+    "game_title": "스도쿠 젠카이 (Sudoku Zenkai)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/2677"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/2677",
+    "last_verification_date": "2026-01-09T10:14:17.235Z",
+    "updated_at": "2026-01-09T10:14:17.235Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "4155",
+    "stove_product_no": "2198",
+    "game_title": "삼국지: 여정 (Three Kingdom: The Journey)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/2198"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/2198",
+    "last_verification_date": "2026-01-09T10:14:17.235Z",
+    "updated_at": "2026-01-09T10:14:17.235Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "3886",
+    "stove_product_no": "2036",
+    "game_title": "적인걸: 금장미 살인사건 (Detective Di: The Silk Rose Murders)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/2036"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/2036",
+    "last_verification_date": "2026-01-09T10:14:17.235Z",
+    "updated_at": "2026-01-09T10:14:17.235Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "4133",
+    "stove_product_no": "2180",
+    "game_title": "삼국진용전",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/2180"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/2180",
+    "last_verification_date": "2026-01-09T10:14:17.235Z",
+    "updated_at": "2026-01-09T10:14:17.235Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "4125",
+    "stove_product_no": "2473",
+    "game_title": "나흘벅의 던전 마스터 (Naheulbeuk's Dungeon Master)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/2473"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/2473",
+    "last_verification_date": "2026-01-09T10:14:17.235Z",
+    "updated_at": "2026-01-09T10:14:17.235Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "4823",
+    "stove_product_no": "2523",
+    "game_title": "혼돈의 추적 (Chaotic Pursuit)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/2523"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/2523",
+    "last_verification_date": "2026-01-09T10:14:17.235Z",
+    "updated_at": "2026-01-09T10:14:17.235Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "4724",
+    "stove_product_no": "2463",
+    "game_title": "각성자: 잊혀진 맹세 (The Awakener: Forgotten Oath)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/2463"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/2463",
+    "last_verification_date": "2026-01-09T10:14:17.235Z",
+    "updated_at": "2026-01-09T10:14:17.235Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "4022",
+    "stove_product_no": "2260",
+    "game_title": "마켓 워페어 (Market Warfare)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/2260"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/2260",
+    "last_verification_date": "2026-01-09T10:14:17.235Z",
+    "updated_at": "2026-01-09T10:14:17.235Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "4137",
+    "stove_product_no": "2182",
+    "game_title": "전투 함대 2 (Battle Fleet 2)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/2182"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/2182",
+    "last_verification_date": "2026-01-09T10:14:17.235Z",
+    "updated_at": "2026-01-09T10:14:17.235Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "4138",
+    "stove_product_no": "2183",
+    "game_title": "스카이트로폴리스 (Skytropolis)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/2183"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/2183",
+    "last_verification_date": "2026-01-09T10:14:18.694Z",
+    "updated_at": "2026-01-09T10:14:18.694Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "4360",
+    "stove_product_no": "2279",
+    "game_title": "세트리스(SETTRIS)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/2279"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/2279",
+    "last_verification_date": "2026-01-09T10:14:18.694Z",
+    "updated_at": "2026-01-09T10:14:18.694Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "4356",
+    "stove_product_no": "2275",
+    "game_title": "프리티 걸스 브레이크아웃 플러스 (Pretty Girls Breakout PLUS)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/2275"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/2275",
+    "last_verification_date": "2026-01-09T10:14:18.694Z",
+    "updated_at": "2026-01-09T10:14:18.694Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "4357",
+    "stove_product_no": "2276",
+    "game_title": "프리티 걸스 이스케이프(Pretty Girls Escape)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/2276"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/2276",
+    "last_verification_date": "2026-01-09T10:14:18.694Z",
+    "updated_at": "2026-01-09T10:14:18.694Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "4358",
+    "stove_product_no": "2277",
+    "game_title": "프리티 걸스 포 킹스 솔리테어 (Pretty Girls Four Kings Solitaire)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/2277"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/2277",
+    "last_verification_date": "2026-01-09T10:14:18.694Z",
+    "updated_at": "2026-01-09T10:14:18.694Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "4355",
+    "stove_product_no": "2274",
+    "game_title": "프리티 걸스 2048 스트라이크 (Pretty Girls 2048 Strike)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/2274"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/2274",
+    "last_verification_date": "2026-01-09T10:14:18.694Z",
+    "updated_at": "2026-01-09T10:14:18.694Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "4359",
+    "stove_product_no": "2278",
+    "game_title": "프리티 걸스 타일 매치(Pretty Girls Tile Match)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/2278"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/2278",
+    "last_verification_date": "2026-01-09T10:14:18.694Z",
+    "updated_at": "2026-01-09T10:14:18.694Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "2316",
+    "stove_product_no": "1076",
+    "game_title": "포스탈 4 : 후회는 ㅇ벗다 (POSTAL 4: No Regerts)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1076"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1076",
+    "last_verification_date": "2026-01-09T10:14:18.694Z",
+    "updated_at": "2026-01-09T10:14:18.694Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "4228",
+    "stove_product_no": "2205",
+    "game_title": "난 (다른) 동물이 싫어! [I HATE (other) Animals!]",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/2205"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/2205",
+    "last_verification_date": "2026-01-09T10:14:18.694Z",
+    "updated_at": "2026-01-09T10:14:18.694Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "4063",
+    "stove_product_no": "2140",
+    "game_title": "통신방 - 신선의 길 (Noobs Want to Live)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/2140"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/2140",
+    "last_verification_date": "2026-01-09T10:14:18.694Z",
+    "updated_at": "2026-01-09T10:14:18.694Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "3301",
+    "stove_product_no": "1963",
+    "game_title": "연애기담 - 존재하지 않는 여름",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1963"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1963",
+    "last_verification_date": "2026-01-09T10:14:18.694Z",
+    "updated_at": "2026-01-09T10:14:18.694Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "3481",
+    "stove_product_no": "1772",
+    "game_title": "고도해요 (The Sea-demon)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1772"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1772",
+    "last_verification_date": "2026-01-09T10:14:18.694Z",
+    "updated_at": "2026-01-09T10:14:18.694Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "3450",
+    "stove_product_no": "1753",
+    "game_title": "플라워즈 -겨울편-",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1753"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1753",
+    "last_verification_date": "2026-01-09T10:14:18.694Z",
+    "updated_at": "2026-01-09T10:14:18.694Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "4078",
+    "stove_product_no": "2156",
+    "game_title": "스택, 클랙, 클락! (Stack,Clack, Clock!)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/2156"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/2156",
+    "last_verification_date": "2026-01-09T10:14:18.694Z",
+    "updated_at": "2026-01-09T10:14:18.694Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "3938",
+    "stove_product_no": "2067",
+    "game_title": "갓 오브 웨폰(God Of Weapons)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/2067"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/2067",
+    "last_verification_date": "2026-01-09T10:14:18.694Z",
+    "updated_at": "2026-01-09T10:14:18.694Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "3331",
+    "stove_product_no": "1724",
+    "game_title": "렘포 (Lempo)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1724"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1724",
+    "last_verification_date": "2026-01-09T10:14:18.694Z",
+    "updated_at": "2026-01-09T10:14:18.694Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "3281",
+    "stove_product_no": "1653",
+    "game_title": "스피릿 오브 아일랜드 (Spirit of the Island)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1653"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1653",
+    "last_verification_date": "2026-01-09T10:14:18.694Z",
+    "updated_at": "2026-01-09T10:14:18.694Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "3596",
+    "stove_product_no": "1851",
+    "game_title": "헤이븐독 (Havendock)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1851"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1851",
+    "last_verification_date": "2026-01-09T10:14:18.694Z",
+    "updated_at": "2026-01-09T10:14:18.694Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "3763",
+    "stove_product_no": "1972",
+    "game_title": "우리 X됐어 (We Are Screwed!)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1972"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1972",
+    "last_verification_date": "2026-01-09T10:14:18.694Z",
+    "updated_at": "2026-01-09T10:14:18.694Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "3332",
+    "stove_product_no": "1723",
+    "game_title": "그래비티 서킷 (Gravity Circuit)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1723"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1723",
+    "last_verification_date": "2026-01-09T10:14:18.694Z",
+    "updated_at": "2026-01-09T10:14:18.694Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "2393",
+    "stove_product_no": "1361",
+    "game_title": "플라워즈 -가을편-",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1361"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1361",
+    "last_verification_date": "2026-01-09T10:14:18.694Z",
+    "updated_at": "2026-01-09T10:14:18.694Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "3638",
+    "stove_product_no": "2001",
+    "game_title": "시질 오브 더 메자이(Sigil of the Magi)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/2001"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/2001",
+    "last_verification_date": "2026-01-09T10:14:18.694Z",
+    "updated_at": "2026-01-09T10:14:18.694Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "3634",
+    "stove_product_no": "1893",
+    "game_title": "아톰 RPG 트루도그라드 (ATOM RPG Trudograd)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1893"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1893",
+    "last_verification_date": "2026-01-09T10:14:18.694Z",
+    "updated_at": "2026-01-09T10:14:18.694Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "2487",
+    "stove_product_no": "1148",
+    "game_title": "안개 탐정: 네온 바다의 이야기 (Tales of the Neon Sea)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1148"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1148",
+    "last_verification_date": "2026-01-09T10:14:18.694Z",
+    "updated_at": "2026-01-09T10:14:18.694Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "3114",
+    "stove_product_no": "1556",
+    "game_title": "헌트 오어 헌트 (Hunt-or-Haunt)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1556"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1556",
+    "last_verification_date": "2026-01-09T10:14:18.694Z",
+    "updated_at": "2026-01-09T10:14:18.694Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "2394",
+    "stove_product_no": "1108",
+    "game_title": "당신과 그녀와 그녀의 사랑 (YOU and ME and HER: A Love Story)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1108"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1108",
+    "last_verification_date": "2026-01-09T10:14:18.694Z",
+    "updated_at": "2026-01-09T10:14:18.694Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "3326",
+    "stove_product_no": "1965",
+    "game_title": "녹터널 (Nocturnal)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1965"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1965",
+    "last_verification_date": "2026-01-09T10:14:18.694Z",
+    "updated_at": "2026-01-09T10:14:18.694Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "3509",
+    "stove_product_no": "1898",
+    "game_title": "퍼펙트 골드 (Perfect Gold)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1898"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1898",
+    "last_verification_date": "2026-01-09T10:14:18.694Z",
+    "updated_at": "2026-01-09T10:14:18.694Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "2208",
+    "stove_product_no": "1782",
+    "game_title": "이블 위저드 (Evil Wizard)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1782"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1782",
+    "last_verification_date": "2026-01-09T10:14:18.694Z",
+    "updated_at": "2026-01-09T10:14:18.694Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "3426",
+    "stove_product_no": "1720",
+    "game_title": "홈 스위트 홈 (Home Sweet Home)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1720"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1720",
+    "last_verification_date": "2026-01-09T10:14:18.694Z",
+    "updated_at": "2026-01-09T10:14:18.694Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "3330",
+    "stove_product_no": "1725",
+    "game_title": "일립스 (Elypse)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1725"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1725",
+    "last_verification_date": "2026-01-09T10:14:18.694Z",
+    "updated_at": "2026-01-09T10:14:18.694Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "2392",
+    "stove_product_no": "1360",
+    "game_title": "플라워즈 -여름편-",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1360"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1360",
+    "last_verification_date": "2026-01-09T10:14:18.694Z",
+    "updated_at": "2026-01-09T10:14:18.694Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "3663",
+    "stove_product_no": "1905",
+    "game_title": "레인 월드 (Rain World)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1905"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1905",
+    "last_verification_date": "2026-01-09T10:14:18.694Z",
+    "updated_at": "2026-01-09T10:14:18.694Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "3608",
+    "stove_product_no": "1866",
+    "game_title": "무한의 주술 (Infinite Incantation)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1866"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1866",
+    "last_verification_date": "2026-01-09T10:14:18.694Z",
+    "updated_at": "2026-01-09T10:14:18.694Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "3408",
+    "stove_product_no": "1862",
+    "game_title": "해피 가이",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1862"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1862",
+    "last_verification_date": "2026-01-09T10:14:18.694Z",
+    "updated_at": "2026-01-09T10:14:18.694Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "3412",
+    "stove_product_no": "1779",
+    "game_title": "러브 앤 드림: 버추얼 해피니스",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1779"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1779",
+    "last_verification_date": "2026-01-09T10:14:18.694Z",
+    "updated_at": "2026-01-09T10:14:18.694Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "3410",
+    "stove_product_no": "1841",
+    "game_title": "러브 앤 드림",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1841"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1841",
+    "last_verification_date": "2026-01-09T10:14:20.051Z",
+    "updated_at": "2026-01-09T10:14:20.051Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "3407",
+    "stove_product_no": "1816",
+    "game_title": "요괴도: 백귀야행 컴플리트 에디션",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1816"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1816",
+    "last_verification_date": "2026-01-09T10:14:20.051Z",
+    "updated_at": "2026-01-09T10:14:20.051Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "3409",
+    "stove_product_no": "1882",
+    "game_title": "해피 퀘스트",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1882"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1882",
+    "last_verification_date": "2026-01-09T10:14:20.051Z",
+    "updated_at": "2026-01-09T10:14:20.051Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "3380",
+    "stove_product_no": "1691",
+    "game_title": "메트로 시뮬레이터 2 (Metro Simulator 2)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1691"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1691",
+    "last_verification_date": "2026-01-09T10:14:20.051Z",
+    "updated_at": "2026-01-09T10:14:20.051Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "2243",
+    "stove_product_no": "1359",
+    "game_title": "플라워즈 -봄편-",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1359"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1359",
+    "last_verification_date": "2026-01-09T10:14:20.051Z",
+    "updated_at": "2026-01-09T10:14:20.051Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "2409",
+    "stove_product_no": "1698",
+    "game_title": "크로니콘 (Chronicon) 컴플리트 에디션",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1698"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1698",
+    "last_verification_date": "2026-01-09T10:14:20.051Z",
+    "updated_at": "2026-01-09T10:14:20.051Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "3324",
+    "stove_product_no": "1677",
+    "game_title": "트레인 밸리 (Train Valley)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1677"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1677",
+    "last_verification_date": "2026-01-09T10:14:20.051Z",
+    "updated_at": "2026-01-09T10:14:20.051Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "3317",
+    "stove_product_no": "1674",
+    "game_title": "뻐꾸기남 시뮬레이터: 베타 메일 뻐꾸기로서의 삶",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1674"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1674",
+    "last_verification_date": "2026-01-09T10:14:20.051Z",
+    "updated_at": "2026-01-09T10:14:20.051Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "3216",
+    "stove_product_no": "1604",
+    "game_title": "슈퍼 알로이 레인저 (Super Alloy Ranger)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1604"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1604",
+    "last_verification_date": "2026-01-09T10:14:20.051Z",
+    "updated_at": "2026-01-09T10:14:20.051Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "2788",
+    "stove_product_no": "1539",
+    "game_title": "안녕 (Once Again)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1539"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1539",
+    "last_verification_date": "2026-01-09T10:14:20.051Z",
+    "updated_at": "2026-01-09T10:14:20.051Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "2261",
+    "stove_product_no": "1033",
+    "game_title": "에피스토리 (Epistory)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1033"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1033",
+    "last_verification_date": "2026-01-09T10:14:20.051Z",
+    "updated_at": "2026-01-09T10:14:20.051Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "2214",
+    "stove_product_no": "1006",
+    "game_title": "배를 버려라 (Abandon Ship)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1006"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1006",
+    "last_verification_date": "2026-01-09T10:14:20.051Z",
+    "updated_at": "2026-01-09T10:14:20.051Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "2379",
+    "stove_product_no": "1153",
+    "game_title": "에인션트 갓: 신들의 이야기 (Ancient Gods)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1153"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1153",
+    "last_verification_date": "2026-01-09T10:14:20.051Z",
+    "updated_at": "2026-01-09T10:14:20.051Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "2121",
+    "stove_product_no": "963",
+    "game_title": "봄바건 (Bombagun)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/963"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/963",
+    "last_verification_date": "2026-01-09T10:14:20.051Z",
+    "updated_at": "2026-01-09T10:14:20.051Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "2715",
+    "stove_product_no": "1325",
+    "game_title": "돌멘요르트 - 바이킹 아일랜드 (Dolmenjord - Viking Islands)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1325"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1325",
+    "last_verification_date": "2026-01-09T10:14:20.051Z",
+    "updated_at": "2026-01-09T10:14:20.051Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "2543",
+    "stove_product_no": "1217",
+    "game_title": "핵커 (Haccer)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1217"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1217",
+    "last_verification_date": "2026-01-09T10:14:20.051Z",
+    "updated_at": "2026-01-09T10:14:20.051Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "2589",
+    "stove_product_no": "1216",
+    "game_title": "워박스 샌드박스 (Warbox Sandbox)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1216"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1216",
+    "last_verification_date": "2026-01-09T10:14:20.051Z",
+    "updated_at": "2026-01-09T10:14:20.051Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "2412",
+    "stove_product_no": "1112",
+    "game_title": "Monument",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1112"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1112",
+    "last_verification_date": "2026-01-09T10:14:20.051Z",
+    "updated_at": "2026-01-09T10:14:20.051Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "2356",
+    "stove_product_no": "1251",
+    "game_title": "스퀴시 (Squish)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1251"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1251",
+    "last_verification_date": "2026-01-09T10:14:20.051Z",
+    "updated_at": "2026-01-09T10:14:20.051Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "2101",
+    "stove_product_no": "1074",
+    "game_title": "이모탈 라이프 - 신령의 밭 (Immortal Life)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1074"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1074",
+    "last_verification_date": "2026-01-09T10:14:20.051Z",
+    "updated_at": "2026-01-09T10:14:20.051Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "501",
+    "stove_product_no": "1027",
+    "game_title": "던전 오브 나흘벅: 더 아뮬렛 오브 카오스",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1027"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1027",
+    "last_verification_date": "2026-01-09T10:14:20.051Z",
+    "updated_at": "2026-01-09T10:14:20.051Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "2364",
+    "stove_product_no": "1146",
+    "game_title": "잉글렛 (Ynglet)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1146"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1146",
+    "last_verification_date": "2026-01-09T10:14:20.051Z",
+    "updated_at": "2026-01-09T10:14:20.051Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "2232",
+    "stove_product_no": "1075",
+    "game_title": "귀곡팔황 (Tale of Immortal)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1075"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1075",
+    "last_verification_date": "2026-01-09T10:14:20.051Z",
+    "updated_at": "2026-01-09T10:14:20.051Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "2471",
+    "stove_product_no": "1137",
+    "game_title": "노마드 서바이벌 (Nomad Survival)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1137"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1137",
+    "last_verification_date": "2026-01-09T10:14:20.051Z",
+    "updated_at": "2026-01-09T10:14:20.051Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "2267",
+    "stove_product_no": "1037",
+    "game_title": "브레이브 레이지 (Brave's Rage)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1037"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1037",
+    "last_verification_date": "2026-01-09T10:14:20.051Z",
+    "updated_at": "2026-01-09T10:14:20.051Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "2264",
+    "stove_product_no": "1034",
+    "game_title": "인스턴트 파머 (Instant Farmer)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1034"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1034",
+    "last_verification_date": "2026-01-09T10:14:20.051Z",
+    "updated_at": "2026-01-09T10:14:20.051Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "2284",
+    "stove_product_no": "1053",
+    "game_title": "나의 어린 왕자 - 직소 퍼즐 이야기",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1053"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1053",
+    "last_verification_date": "2026-01-09T10:14:20.051Z",
+    "updated_at": "2026-01-09T10:14:20.051Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "2283",
+    "stove_product_no": "1052",
+    "game_title": "완드 계곡의 마법 수업 - 직소 퍼즐 이야기",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1052"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1052",
+    "last_verification_date": "2026-01-09T10:14:20.051Z",
+    "updated_at": "2026-01-09T10:14:20.051Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "2262",
+    "stove_product_no": "1035",
+    "game_title": "이상한 나라의 앨리스 - 직소 퍼즐 이야기",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1035"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1035",
+    "last_verification_date": "2026-01-09T10:14:20.051Z",
+    "updated_at": "2026-01-09T10:14:20.051Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "2281",
+    "stove_product_no": "1050",
+    "game_title": "버디의 엄마와 아빠가 만났을 때 - 직소 퍼즐 이야기",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1050"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1050",
+    "last_verification_date": "2026-01-09T10:14:20.051Z",
+    "updated_at": "2026-01-09T10:14:20.051Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "2282",
+    "stove_product_no": "1051",
+    "game_title": "럭키와 멋진 삶 - 직소 퍼즐 이야기",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1051"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1051",
+    "last_verification_date": "2026-01-09T10:14:20.051Z",
+    "updated_at": "2026-01-09T10:14:20.051Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "1969",
+    "stove_product_no": "884",
+    "game_title": "카베지 (Carbage)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/884"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/884",
+    "last_verification_date": "2026-01-09T10:14:20.051Z",
+    "updated_at": "2026-01-09T10:14:20.051Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "2185",
+    "stove_product_no": "1056",
+    "game_title": "포커 프리티 걸스 배틀 : 텍사스 홀덤",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1056"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1056",
+    "last_verification_date": "2026-01-09T10:14:20.051Z",
+    "updated_at": "2026-01-09T10:14:20.051Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "2179",
+    "stove_product_no": "1057",
+    "game_title": "포커 프리티 걸스 배틀 판타지 월드 에디션",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/1057"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/1057",
+    "last_verification_date": "2026-01-09T10:14:20.051Z",
+    "updated_at": "2026-01-09T10:14:20.051Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "1555",
+    "stove_product_no": "656",
+    "game_title": "태권도 그랑프리 (Taekwondo Grand Prix)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/656"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/656",
+    "last_verification_date": "2026-01-09T10:14:20.051Z",
+    "updated_at": "2026-01-09T10:14:20.051Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "1735",
+    "stove_product_no": "849",
+    "game_title": "문웨이브 오버드라이브 (Moonwave Overdrive)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/849"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/849",
+    "last_verification_date": "2026-01-09T10:14:20.051Z",
+    "updated_at": "2026-01-09T10:14:20.051Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "497",
+    "stove_product_no": "134",
+    "game_title": "ATOM RPG",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/134"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/134",
+    "last_verification_date": "2026-01-09T10:14:21.504Z",
+    "updated_at": "2026-01-09T10:14:21.504Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "1986",
+    "stove_product_no": "936",
+    "game_title": "회소의존 (The Chrono Jotter)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/936"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/936",
+    "last_verification_date": "2026-01-09T10:14:21.504Z",
+    "updated_at": "2026-01-09T10:14:21.504Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "1308",
+    "stove_product_no": "538",
+    "game_title": "에반의 유산 (Evan's Remains)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/538"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/538",
+    "last_verification_date": "2026-01-09T10:14:21.504Z",
+    "updated_at": "2026-01-09T10:14:21.504Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "2063",
+    "stove_product_no": "942",
+    "game_title": "ATOM RPG 서포터 에디션",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/942"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/942",
+    "last_verification_date": "2026-01-09T10:14:21.504Z",
+    "updated_at": "2026-01-09T10:14:21.504Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "1904",
+    "stove_product_no": "838",
+    "game_title": "브란테 경의 삶과 고난 (The Life and Suffering of Sir Brante)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/838"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/838",
+    "last_verification_date": "2026-01-09T10:14:21.504Z",
+    "updated_at": "2026-01-09T10:14:21.504Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "1405",
+    "stove_product_no": "589",
+    "game_title": "릭 헨더슨 (Rick Henderson)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/589"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/589",
+    "last_verification_date": "2026-01-09T10:14:21.504Z",
+    "updated_at": "2026-01-09T10:14:21.504Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "1481",
+    "stove_product_no": "781",
+    "game_title": "카캇테 코이 요! (Kakatte Koi Yo!)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/781"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/781",
+    "last_verification_date": "2026-01-09T10:14:21.504Z",
+    "updated_at": "2026-01-09T10:14:21.504Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "1996",
+    "stove_product_no": "922",
+    "game_title": "본리스 좀비 (Boneless Zombie)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/922"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/922",
+    "last_verification_date": "2026-01-09T10:14:21.504Z",
+    "updated_at": "2026-01-09T10:14:21.504Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "2042",
+    "stove_product_no": "923",
+    "game_title": "케이크 인베이더 (Cake Invaders)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/923"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/923",
+    "last_verification_date": "2026-01-09T10:14:21.504Z",
+    "updated_at": "2026-01-09T10:14:21.504Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "2043",
+    "stove_product_no": "924",
+    "game_title": "닌자 캐슬 이스케이프 (Ninja Castle Escape)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/924"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/924",
+    "last_verification_date": "2026-01-09T10:14:21.504Z",
+    "updated_at": "2026-01-09T10:14:21.504Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "2044",
+    "stove_product_no": "925",
+    "game_title": "로그 익스플로러 (Rogue Explorer)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/925"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/925",
+    "last_verification_date": "2026-01-09T10:14:21.504Z",
+    "updated_at": "2026-01-09T10:14:21.504Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "1925",
+    "stove_product_no": "910",
+    "game_title": "더스트 투 디 엔드 (Dust to the End)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/910"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/910",
+    "last_verification_date": "2026-01-09T10:14:21.504Z",
+    "updated_at": "2026-01-09T10:14:21.504Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "1470",
+    "stove_product_no": "892",
+    "game_title": "오버시어 (Overseer)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/892"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/892",
+    "last_verification_date": "2026-01-09T10:14:21.504Z",
+    "updated_at": "2026-01-09T10:14:21.504Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "1836",
+    "stove_product_no": "893",
+    "game_title": "이카이 (Ikai)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/893"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/893",
+    "last_verification_date": "2026-01-09T10:14:21.504Z",
+    "updated_at": "2026-01-09T10:14:21.504Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "1416",
+    "stove_product_no": "888",
+    "game_title": "퍼서비어런스: 파트 2 (Perseverance: Part 2)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/888"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/888",
+    "last_verification_date": "2026-01-09T10:14:21.504Z",
+    "updated_at": "2026-01-09T10:14:21.504Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "1966",
+    "stove_product_no": "883",
+    "game_title": "애즈 파 애즈 디 아이 (As Far As The Eye)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/883"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/883",
+    "last_verification_date": "2026-01-09T10:14:21.504Z",
+    "updated_at": "2026-01-09T10:14:21.504Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "1778",
+    "stove_product_no": "890",
+    "game_title": "스타리 나이트 (Starry Knight)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/890"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/890",
+    "last_verification_date": "2026-01-09T10:14:21.504Z",
+    "updated_at": "2026-01-09T10:14:21.504Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "1478",
+    "stove_product_no": "626",
+    "game_title": "엑소더스 보레알리스 (Exodus Borealis)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/626"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/626",
+    "last_verification_date": "2026-01-09T10:14:21.504Z",
+    "updated_at": "2026-01-09T10:14:21.504Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "1837",
+    "stove_product_no": "860",
+    "game_title": "거츠 앤 골즈 (Guts And Goals)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/860"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/860",
+    "last_verification_date": "2026-01-09T10:14:21.504Z",
+    "updated_at": "2026-01-09T10:14:21.504Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "1464",
+    "stove_product_no": "861",
+    "game_title": "인트러비너스 (Intravenous)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/861"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/861",
+    "last_verification_date": "2026-01-09T10:14:21.504Z",
+    "updated_at": "2026-01-09T10:14:21.504Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "578",
+    "stove_product_no": "848",
+    "game_title": "호드코어 (HordeCore)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/848"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/848",
+    "last_verification_date": "2026-01-09T10:14:21.504Z",
+    "updated_at": "2026-01-09T10:14:21.504Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "1475",
+    "stove_product_no": "625",
+    "game_title": "플로팅 파머 - 직소 퍼즐 (Floating Farmer - Jigsaw Puzzle)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/625"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/625",
+    "last_verification_date": "2026-01-09T10:14:21.504Z",
+    "updated_at": "2026-01-09T10:14:21.504Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "1469",
+    "stove_product_no": "657",
+    "game_title": "닉토포비아 : 데빌 언리쉬드 (Nyctophobia: Devil Unleashed)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/657"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/657",
+    "last_verification_date": "2026-01-09T10:14:21.504Z",
+    "updated_at": "2026-01-09T10:14:21.504Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "1710",
+    "stove_product_no": "813",
+    "game_title": "아스테릭스와 오벨릭스 XXL 로마스터드 (Asterix and Obelix XXL: Romastered)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/813"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/813",
+    "last_verification_date": "2026-01-09T10:14:21.504Z",
+    "updated_at": "2026-01-09T10:14:21.504Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "1465",
+    "stove_product_no": "621",
+    "game_title": "어 사운드 플랜 (A Sound Plan)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/621"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/621",
+    "last_verification_date": "2026-01-09T10:14:21.504Z",
+    "updated_at": "2026-01-09T10:14:21.504Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "1784",
+    "stove_product_no": "777",
+    "game_title": "오스트리치 러너 (Ostrich Runner)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/777"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/777",
+    "last_verification_date": "2026-01-09T10:14:21.504Z",
+    "updated_at": "2026-01-09T10:14:21.504Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "1314",
+    "stove_product_no": "788",
+    "game_title": "캘리코 (Calico)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/788"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/788",
+    "last_verification_date": "2026-01-09T10:14:21.504Z",
+    "updated_at": "2026-01-09T10:14:21.504Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "1715",
+    "stove_product_no": "783",
+    "game_title": "가디언 오브 로어 (Guardian of Lore)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/783"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/783",
+    "last_verification_date": "2026-01-09T10:14:21.504Z",
+    "updated_at": "2026-01-09T10:14:21.504Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "1309",
+    "stove_product_no": "539",
+    "game_title": "배너스 오브 루인 (Banners of Ruin)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/539"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/539",
+    "last_verification_date": "2026-01-09T10:14:21.504Z",
+    "updated_at": "2026-01-09T10:14:21.504Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "563",
+    "stove_product_no": "156",
+    "game_title": "에코 (Eco)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/156"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/156",
+    "last_verification_date": "2026-01-09T10:14:21.504Z",
+    "updated_at": "2026-01-09T10:14:21.504Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "1686",
+    "stove_product_no": "753",
+    "game_title": "테일 오브 닌자: 미요시 가문의 몰락 (Tale of Ninja: Fall of the Miyoshi)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/753"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/753",
+    "last_verification_date": "2026-01-09T10:14:21.504Z",
+    "updated_at": "2026-01-09T10:14:21.504Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "878",
+    "stove_product_no": "287",
+    "game_title": "BPM: 불렛 퍼 미닛 (BPM: Bullets Per Minute)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/287"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/287",
+    "last_verification_date": "2026-01-09T10:14:21.504Z",
+    "updated_at": "2026-01-09T10:14:21.504Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "575",
+    "stove_product_no": "675",
+    "game_title": "헬헤임 해슬 (Helheim Hassle)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/675"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/675",
+    "last_verification_date": "2026-01-09T10:14:21.504Z",
+    "updated_at": "2026-01-09T10:14:21.504Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "1734",
+    "stove_product_no": "748",
+    "game_title": "노바 드리프트 (Nova Drift)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/748"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/748",
+    "last_verification_date": "2026-01-09T10:14:21.504Z",
+    "updated_at": "2026-01-09T10:14:21.504Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "1559",
+    "stove_product_no": "745",
+    "game_title": "니게이트 테일 (Nigate Tale)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/745"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/745",
+    "last_verification_date": "2026-01-09T10:14:21.504Z",
+    "updated_at": "2026-01-09T10:14:21.504Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "1472",
+    "stove_product_no": "622",
+    "game_title": "아일랜드 파머 - 직소 퍼즐 (Island Farmer - Jigsaw Puzzle)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/622"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/622",
+    "last_verification_date": "2026-01-09T10:14:21.504Z",
+    "updated_at": "2026-01-09T10:14:21.504Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "1540",
+    "stove_product_no": "718",
+    "game_title": "1993 스페이스 머신 (1993 Space Machine)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/718"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/718",
+    "last_verification_date": "2026-01-09T10:14:22.888Z",
+    "updated_at": "2026-01-09T10:14:22.888Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "1196",
+    "stove_product_no": "466",
+    "game_title": "퍼서비어런스: 파트 1 (Perseverance: Part 1)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/466"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/466",
+    "last_verification_date": "2026-01-09T10:14:22.888Z",
+    "updated_at": "2026-01-09T10:14:22.888Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "572",
+    "stove_product_no": "587",
+    "game_title": "드리프트랜드: 더 매직 리바이벌 (Driftland: the Magic Revival)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/587"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/587",
+    "last_verification_date": "2026-01-09T10:14:22.888Z",
+    "updated_at": "2026-01-09T10:14:22.888Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "1151",
+    "stove_product_no": "440",
+    "game_title": "헌드레드 데이즈 - 와인메이킹 시뮬레이터 (Hundred Days - Winemaking Simulator)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/440"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/440",
+    "last_verification_date": "2026-01-09T10:14:22.888Z",
+    "updated_at": "2026-01-09T10:14:22.888Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "1158",
+    "stove_product_no": "443",
+    "game_title": "레이더스 오브 더 로스트 아일랜드 (Raiders Of The Lost Island)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/443"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/443",
+    "last_verification_date": "2026-01-09T10:14:22.888Z",
+    "updated_at": "2026-01-09T10:14:22.888Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "582",
+    "stove_product_no": "221",
+    "game_title": "발티리안 아크 (Valthirian Arc)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/221"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/221",
+    "last_verification_date": "2026-01-09T10:14:22.888Z",
+    "updated_at": "2026-01-09T10:14:22.888Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "523",
+    "stove_product_no": "161",
+    "game_title": "인터스텔라 리프트 (Interstellar Rift)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/161"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/161",
+    "last_verification_date": "2026-01-09T10:14:22.888Z",
+    "updated_at": "2026-01-09T10:14:22.888Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "970",
+    "stove_product_no": "331",
+    "game_title": "사이버헌트 (Cyberhunt)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/331"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/331",
+    "last_verification_date": "2026-01-09T10:14:22.888Z",
+    "updated_at": "2026-01-09T10:14:22.888Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "1008",
+    "stove_product_no": "348",
+    "game_title": "타니나니 (TaniNani)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/348"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/348",
+    "last_verification_date": "2026-01-09T10:14:22.888Z",
+    "updated_at": "2026-01-09T10:14:22.888Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "715",
+    "stove_product_no": "206",
+    "game_title": "웰컴 투 엘크 (Welcome to Elk)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/206"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/206",
+    "last_verification_date": "2026-01-09T10:14:22.888Z",
+    "updated_at": "2026-01-09T10:14:22.888Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "1085",
+    "stove_product_no": "405",
+    "game_title": "분더링 (Wunderling)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/405"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/405",
+    "last_verification_date": "2026-01-09T10:14:22.888Z",
+    "updated_at": "2026-01-09T10:14:22.888Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "877",
+    "stove_product_no": "330",
+    "game_title": "유카-레일리와 불가능의 소굴 (Yooka-Laylee and the Impossible Lair)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/330"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/330",
+    "last_verification_date": "2026-01-09T10:14:22.888Z",
+    "updated_at": "2026-01-09T10:14:22.888Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "966",
+    "stove_product_no": "326",
+    "game_title": "디스트로폴리스 (Destropolis)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/326"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/326",
+    "last_verification_date": "2026-01-09T10:14:22.888Z",
+    "updated_at": "2026-01-09T10:14:22.888Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "1133",
+    "stove_product_no": "426",
+    "game_title": "왓 컴즈 애프터 (What Comes After)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/426"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/426",
+    "last_verification_date": "2026-01-09T10:14:22.888Z",
+    "updated_at": "2026-01-09T10:14:22.888Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "958",
+    "stove_product_no": "347",
+    "game_title": "어몽 더 슬립 (Among The Sleep - Enhanced Edition)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/347"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/347",
+    "last_verification_date": "2026-01-09T10:14:22.888Z",
+    "updated_at": "2026-01-09T10:14:22.888Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "522",
+    "stove_product_no": "183",
+    "game_title": "스틸데어 (Still There)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/183"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/183",
+    "last_verification_date": "2026-01-09T10:14:22.888Z",
+    "updated_at": "2026-01-09T10:14:22.888Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "521",
+    "stove_product_no": "198",
+    "game_title": "더 소전 (The Sojourn)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/198"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/198",
+    "last_verification_date": "2026-01-09T10:14:22.888Z",
+    "updated_at": "2026-01-09T10:14:22.888Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "571",
+    "stove_product_no": "237",
+    "game_title": "댄저 스캐빈저 (Danger Scavenger)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/237"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/237",
+    "last_verification_date": "2026-01-09T10:14:22.888Z",
+    "updated_at": "2026-01-09T10:14:22.888Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "524",
+    "stove_product_no": "140",
+    "game_title": "던전탑 (DungeonTop)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/140"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/140",
+    "last_verification_date": "2026-01-09T10:14:22.888Z",
+    "updated_at": "2026-01-09T10:14:22.888Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "484",
+    "stove_product_no": "157",
+    "game_title": "데빌 슬레이어 - 락사시",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/157"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/157",
+    "last_verification_date": "2026-01-09T10:14:22.888Z",
+    "updated_at": "2026-01-09T10:14:22.888Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "232",
+    "stove_product_no": "51",
+    "game_title": "제노 크라이시스",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/51"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/51",
+    "last_verification_date": "2026-01-09T10:14:22.888Z",
+    "updated_at": "2026-01-09T10:14:22.888Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "212",
+    "stove_product_no": "92",
+    "game_title": "나트 (Naught)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/92"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/92",
+    "last_verification_date": "2026-01-09T10:14:22.888Z",
+    "updated_at": "2026-01-09T10:14:22.888Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "213",
+    "stove_product_no": "20",
+    "game_title": "플라잉 솔져스 (Flying Soldiers)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/20"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/20",
+    "last_verification_date": "2026-01-09T10:14:22.888Z",
+    "updated_at": "2026-01-09T10:14:22.888Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "197",
+    "stove_product_no": "75",
+    "game_title": "브로큰 라인즈",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/75"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/75",
+    "last_verification_date": "2026-01-09T10:14:22.888Z",
+    "updated_at": "2026-01-09T10:14:22.888Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "206",
+    "stove_product_no": "10",
+    "game_title": "마이 러블리 도터",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/10"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/10",
+    "last_verification_date": "2026-01-09T10:14:22.888Z",
+    "updated_at": "2026-01-09T10:14:22.888Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "202",
+    "stove_product_no": "65",
+    "game_title": "레전드 오브 키퍼: 프롤로그",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/65"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/65",
+    "last_verification_date": "2026-01-09T10:14:22.888Z",
+    "updated_at": "2026-01-09T10:14:22.888Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "204",
+    "stove_product_no": "12",
+    "game_title": "헤븐 더스트",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/12"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/12",
+    "last_verification_date": "2026-01-09T10:14:22.888Z",
+    "updated_at": "2026-01-09T10:14:22.888Z"
+  },
+  {
+    "source": "stove",
+    "app_id": null,
+    "stove_game_no": "188",
+    "stove_product_no": "72",
+    "game_title": "고디안 퀘스트",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "https://store.onstove.com/ko/games/72"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "description": "",
+    "stove_url": "https://store.onstove.com/ko/games/72",
+    "last_verification_date": "2026-01-09T10:14:22.888Z",
+    "updated_at": "2026-01-09T10:14:22.888Z"
+  }
+]

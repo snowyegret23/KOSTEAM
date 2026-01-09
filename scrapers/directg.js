@@ -25,7 +25,7 @@ async function loadExistingData() {
 async function scrapePage(pageNum) {
     const url = `${BASE_URL}?page=${pageNum}&sort=release&exclusive_korean=Y`;
     console.log(`Fetching: ${url}`);
-    
+
     const response = await fetch(url, {
         headers: {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
@@ -34,50 +34,42 @@ async function scrapePage(pageNum) {
             'Referer': 'https://www.directg.net/'
         }
     });
-    
+
     if (!response.ok) {
         console.error(`Failed to fetch page ${pageNum}: ${response.status}`);
         return [];
     }
-    
+
     const html = await response.text();
     const $ = cheerio.load(html);
     const games = [];
-    
+
     $('#thumb_list div.card').each((_, el) => {
         const $card = $(el);
-        
+
         const $titleLink = $card.find('.card-header a');
         const gameTitle = $titleLink.find('h5.card-title').text().trim() || '';
         const productLink = $titleLink.attr('href') || '';
-        
-        const $badge = $card.find('.card-body .badge');
-        const gameType = $badge.text().trim() || '';
-        
-        const $prices = $card.find('.card-footer .won');
-        let price = '';
-        if ($prices.length > 0) {
-            price = $prices.last().text().trim();
-        }
-        
+
         if (gameTitle && productLink) {
-            const fullUrl = productLink.startsWith('http') ? productLink : `https://www.directg.net${productLink}`;
-            
+            const directgUrl = productLink.startsWith('http') ? productLink : `https://www.directg.net${productLink}`;
+
             games.push({
                 source: 'directg',
                 app_id: null,
                 game_title: gameTitle,
                 steam_link: '',
                 patch_type: 'official',
-                patch_links: [fullUrl],
-                description: `${gameType} | ${price}`.trim(),
-                directg_url: fullUrl,
+                patch_links: directgUrl ? [directgUrl] : [],
+                patch_descriptions: [''],
+                description: '',
+                directg_url: directgUrl,
                 last_verification_date: new Date().toISOString(),
                 updated_at: new Date().toISOString()
             });
         }
     });
-    
+
     return games;
 }
 
@@ -90,7 +82,7 @@ async function getTotalCount(html) {
 
 async function scrapeAll() {
     const allGames = new Map();
-    
+
     const firstResponse = await fetch(`${BASE_URL}?page=1&sort=release&exclusive_korean=Y`, {
         headers: {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
@@ -102,21 +94,14 @@ async function scrapeAll() {
     const firstHtml = await firstResponse.text();
     const totalCount = await getTotalCount(firstHtml);
     console.log(`Total games found: ${totalCount}`);
-    
+
     const $ = cheerio.load(firstHtml);
     $('#thumb_list div.card').each((_, el) => {
         const $card = $(el);
         const $titleLink = $card.find('.card-header a');
         const gameTitle = $titleLink.find('h5.card-title').text().trim() || '';
         const productLink = $titleLink.attr('href') || '';
-        const $badge = $card.find('.card-body .badge');
-        const gameType = $badge.text().trim() || '';
-        const $prices = $card.find('.card-footer .won');
-        let price = '';
-        if ($prices.length > 0) {
-            price = $prices.last().text().trim();
-        }
-        
+
         if (gameTitle && productLink) {
             const fullUrl = productLink.startsWith('http') ? productLink : `https://www.directg.net${productLink}`;
             allGames.set(gameTitle, {
@@ -126,60 +111,59 @@ async function scrapeAll() {
                 steam_link: '',
                 patch_type: 'official',
                 patch_links: [fullUrl],
-                description: `${gameType} | ${price}`.trim(),
+                description: '',
                 directg_url: fullUrl,
                 last_verification_date: new Date().toISOString(),
                 updated_at: new Date().toISOString()
             });
         }
     });
-    
+
     console.log(`Page 1: ${allGames.size} games`);
-    
+
     const gamesPerPage = 20;
     const totalPages = Math.ceil(totalCount / gamesPerPage);
     const pagesToFetch = Math.min(totalPages, MAX_PAGES);
-    
+
     for (let page = 2; page <= pagesToFetch; page++) {
         try {
             const games = await scrapePage(page);
-            
+
             if (games.length === 0) {
                 console.log(`No games found on page ${page}, stopping.`);
                 break;
             }
-            
+
             for (const game of games) {
                 if (!allGames.has(game.game_title)) {
                     allGames.set(game.game_title, game);
                 }
             }
-            
+
             console.log(`Page ${page}: ${games.length} games (total: ${allGames.size})`);
-            
         } catch (err) {
             console.error(`Error on page ${page}:`, err.message);
         }
         await delay(800);
     }
-    
+
     return Array.from(allGames.values());
 }
 
 async function main() {
     console.log('Starting directg.net scraper...');
-    
+
     await fs.mkdir(DATA_DIR, { recursive: true });
-    
+
     const existingData = await loadExistingData();
     const existingMap = new Map(existingData.map(g => [g.game_title, g]));
-    
+
     const newData = await scrapeAll();
-    
+
     for (const game of newData) {
         const key = game.game_title;
         const existing = existingMap.get(key);
-        
+
         if (existing) {
             existingMap.set(key, {
                 ...game,
@@ -190,12 +174,11 @@ async function main() {
             existingMap.set(key, game);
         }
     }
-    
+
     const merged = Array.from(existingMap.values());
-    
+
     await fs.writeFile(OUTPUT_FILE, JSON.stringify(merged, null, 2), 'utf-8');
     console.log(`Saved ${merged.length} games to ${OUTPUT_FILE}`);
-    console.log('Note: steam_link must be manually added for DirectG entries.');
 }
 
 main().catch(console.error);

@@ -9,6 +9,7 @@
     "scrape:directg": "node scrapers/directg.js",
     "scrape:stove": "node scrapers/stove.js",
     "scrape:all": "npm run scrape:steamapp && npm run scrape:quasarplay && npm run scrape:directg && npm run scrape:stove",
+    "scrape:merge": "npm run merge",
     "merge": "node scripts/merge.js",
     "resolve-links": "node scripts/resolve-links.js",
     "resolve-links:verify": "node scripts/resolve-links.js --verify",

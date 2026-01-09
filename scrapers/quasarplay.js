@@ -4,7 +4,7 @@ import * as cheerio from 'cheerio';
 import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import fetch from 'node-fetch'; // Use node-fetch for API calls
+import fetch from 'node-fetch';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = path.join(__dirname, '..', 'data');
@@ -16,8 +16,6 @@ const MAX_PAGES = 100;
 puppeteer.use(StealthPlugin());
 
 const delay = ms => new Promise(r => setTimeout(r, ms));
-
-// --- CaptchaService Implementation (Ported from dcrmrf) ---
 
 class CaptchaService {
     constructor(apiKey) {
@@ -70,7 +68,6 @@ class CaptchaService {
 
                 if (result.status === 'ready') {
                     response = result.solution.token || result.solution.gRecaptchaResponse;
-                    // 2Captcha Turnstile returns 'token', Recaptcha returns 'gRecaptchaResponse'
                 } else if (result.errorId > 0) {
                     throw new Error(`Captcha error: ${result.errorDescription}`);
                 }
@@ -88,8 +85,6 @@ class CaptchaService {
     }
 }
 
-// ---------------------------------------------------------
-
 async function loadExistingData() {
     try {
         const content = await fs.readFile(OUTPUT_FILE, 'utf-8');
@@ -106,26 +101,15 @@ function extractSteamAppId(onclickAttr) {
 }
 
 async function findSiteKey(page) {
-    // Strategy 1: Look for Cloudflare Turnstile explicitly
     try {
         const siteKey = await page.evaluate(() => {
             const el = document.querySelector('.cf-turnstile, .g-recaptcha');
             if (el) return el.getAttribute('data-sitekey');
-
-            // Check global turnstile object
-            // Cloudflare Turnstile often exposes window.turnstile
-            try {
-                // This is a heuristic that works on some implementations
-                // But usually the widget is rendered with a config object.
-                // We might need to intercept the render call, but that's hard post-load.
-            } catch (e) { }
-
             return null;
         });
         if (siteKey) return siteKey;
     } catch (e) { }
 
-    // Strategy 2: Look into iframes
     const frames = page.frames();
     for (const frame of frames) {
         try {
@@ -145,8 +129,6 @@ async function handleCaptcha(page, service) {
     if (!service) return false;
 
     console.log('Attempting to detect and solve CAPTCHA...');
-
-    // Wait a moment for things to render
     await delay(2000);
 
     const siteKey = await findSiteKey(page);
@@ -154,7 +136,6 @@ async function handleCaptcha(page, service) {
     if (siteKey) {
         console.log(`Found SiteKey: ${siteKey}`);
 
-        // Determine type - default to Turnstile for Cloudflare, but could be Recaptcha
         const isTurnstile = await page.evaluate(() => !!document.querySelector('.cf-turnstile') || window.turnstile);
         const taskType = isTurnstile ? 'TurnstileTaskProxyless' : 'RecaptchaV2TaskProxyless';
 
@@ -165,7 +146,6 @@ async function handleCaptcha(page, service) {
             console.log('Token obtained. Injecting...');
 
             await page.evaluate((token) => {
-                // Determine target elements
                 const turnstileInput = document.querySelector('input[name="cf-turnstile-response"]');
                 const challengeInput = document.querySelector('input[name="cf-challenge-response"]');
                 const recaptchaInput = document.querySelector('input[name="g-recaptcha-response"]');
@@ -174,28 +154,16 @@ async function handleCaptcha(page, service) {
                 if (challengeInput) challengeInput.value = token;
                 if (recaptchaInput) recaptchaInput.value = token;
 
-                // Trigger events (Cloudflare often listens for change)
                 [turnstileInput, challengeInput, recaptchaInput].forEach(el => {
                     if (el) {
                         el.dispatchEvent(new Event('change', { bubbles: true }));
                         el.dispatchEvent(new Event('input', { bubbles: true }));
                     }
                 });
-
             }, token);
 
-            // Wait to see if redirection happens automatically
             console.log('Waiting for redirection...');
             await delay(5000);
-
-            // If still on the same page (same title), try finding a form to submit?
-            // Usually the challenge page is a form that posts to itself.
-            /*
-            await page.evaluate(() => {
-                const form = document.querySelector('form');
-                if (form) form.submit();
-            });
-            */
 
             return true;
         } else {
@@ -203,13 +171,50 @@ async function handleCaptcha(page, service) {
         }
     } else {
         console.log('Could not find SiteKey on the page.');
-        // Debug: Log all iframes
         const frames = page.frames();
         console.log(`Debug: Found ${frames.length} frames.`);
         frames.forEach(f => console.log(`- Frame: ${f.url()}`));
     }
 
     return false;
+}
+
+function parseDetailInfo(infoHtml) {
+    const patches = [];
+    if (!infoHtml) return patches;
+
+    const lines = infoHtml.split(/<\/?p>/).map(s => s.trim()).filter(Boolean);
+
+    let currentPatch = null;
+
+    for (const line of lines) {
+        const cleanLine = line.replace(/<br\s*\/?>/gi, '').trim();
+        if (!cleanLine) continue;
+
+        if (cleanLine.startsWith('유저 한글 패치') || cleanLine.startsWith('공식 한글')) {
+            if (currentPatch && currentPatch.link) {
+                patches.push(currentPatch);
+            }
+            currentPatch = { desc: cleanLine, link: '' };
+        } else {
+            const linkMatch = cleanLine.match(/href="([^"]+)"/);
+            if (linkMatch && currentPatch) {
+                currentPatch.link = linkMatch[1];
+                patches.push(currentPatch);
+                currentPatch = { desc: '', link: '' };
+            } else if (cleanLine.startsWith('http') && currentPatch) {
+                currentPatch.link = cleanLine;
+                patches.push(currentPatch);
+                currentPatch = { desc: '', link: '' };
+            }
+        }
+    }
+
+    if (currentPatch && currentPatch.link) {
+        patches.push(currentPatch);
+    }
+
+    return patches;
 }
 
 async function scrapePage(page, pageNum, captchaService) {
@@ -226,7 +231,6 @@ async function scrapePage(page, pageNum, captchaService) {
             console.log('Cloudflare challenge detected! initiating solver...');
             await handleCaptcha(page, captchaService);
 
-            // Check again after solving
             await delay(5000);
             title = await page.title();
             console.log(`Page Title after solve attempt: ${title}`);
@@ -236,9 +240,6 @@ async function scrapePage(page, pageNum, captchaService) {
             await page.waitForSelector('table tbody tr.item', { timeout: 10000 });
         } catch (e) {
             console.log(`No games found on page ${pageNum} (selector timeout).`);
-            console.log('Taking debug screenshot...');
-            await page.screenshot({ path: path.join(DATA_DIR, 'debug_screenshot.png') });
-            await fs.writeFile(path.join(DATA_DIR, 'debug_page.html'), await page.content());
             return [];
         }
 
@@ -261,12 +262,36 @@ async function scrapePage(page, pageNum, captchaService) {
             const gameTitle = $details.find('p.title').text().trim() || '';
 
             const $downloadLink = $details.find('p.download_link a.forward');
-            const patchLink = $downloadLink.attr('href') || '';
+            const mainPatchLink = $downloadLink.attr('href') || '';
 
             const producerSpans = $details.find('p.producer span').not('.colorGray3');
             const producer = producerSpans.text().trim() || '';
 
             const steamLink = steamAppId ? `https://store.steampowered.com/app/${steamAppId}` : '';
+
+            const rowId = $row.attr('id');
+            const korId = rowId ? rowId.replace('kr_', '') : '';
+            const $detailRow = $(`#kr_detail_${korId}`);
+
+            const patchLinks = [];
+            const patchDescriptions = [];
+
+            if ($detailRow.length) {
+                const infoHtml = $detailRow.find('td.info').html() || '';
+                const detailPatches = parseDetailInfo(infoHtml);
+
+                for (const patch of detailPatches) {
+                    if (patch.link) {
+                        patchLinks.push(patch.link);
+                        patchDescriptions.push(patch.desc || '');
+                    }
+                }
+            }
+
+            if (patchLinks.length === 0 && mainPatchLink) {
+                patchLinks.push(mainPatchLink);
+                patchDescriptions.push(producer ? `제작자: ${producer}` : '');
+            }
 
             if (gameTitle) {
                 games.push({
@@ -274,9 +299,11 @@ async function scrapePage(page, pageNum, captchaService) {
                     app_id: steamAppId,
                     game_title: gameTitle,
                     steam_link: steamLink,
+                    source_site_url: `${BASE_URL}?game_name=${encodeURIComponent(gameTitle)}`,
                     patch_type: patchType,
-                    patch_links: patchLink ? [patchLink] : [],
-                    description: producer ? `제작자: ${producer}` : '',
+                    patch_links: patchLinks,
+                    patch_descriptions: patchDescriptions,
+                    description: '',
                     updated_at: new Date().toISOString()
                 });
             }
@@ -296,7 +323,6 @@ async function scrapeAll(existingMap) {
 
     const launchArgs = ['--no-sandbox', '--disable-setuid-sandbox'];
 
-    // Proxy support
     let proxyUrl = null;
     if (process.env.QUASARPLAY_PROXY) {
         try {
@@ -308,7 +334,6 @@ async function scrapeAll(existingMap) {
         }
     }
 
-    // 2Captcha Service
     let captchaService = null;
     if (process.env.TWO_CAPTCHA_API_KEY) {
         captchaService = new CaptchaService(process.env.TWO_CAPTCHA_API_KEY);
@@ -327,7 +352,6 @@ async function scrapeAll(existingMap) {
     });
     const page = await browser.newPage();
 
-    // Authenticate proxy
     if (proxyUrl && proxyUrl.username && proxyUrl.password) {
         await page.authenticate({
             username: decodeURIComponent(proxyUrl.username),
@@ -335,7 +359,6 @@ async function scrapeAll(existingMap) {
         });
     }
 
-    // Load Cookies
     if (process.env.QUASARPLAY_COOKIE) {
         const cookieStr = process.env.QUASARPLAY_COOKIE;
         const cookies = cookieStr.split(';')

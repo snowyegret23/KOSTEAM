@@ -16,9 +16,15 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://store.steampowered.com/app/*"],
-      "js": ["content.js"],
-      "css": ["styles.css"],
+      "matches": [
+        "https://store.steampowered.com/app/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "styles.css"
+      ],
       "run_at": "document_idle"
     }
   ],
