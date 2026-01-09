@@ -53,7 +53,6 @@ async function main() {
         for (const entry of data) {
             let appId = normalizeAppId(entry.app_id) || extractAppIdFromLink(entry.steam_link);
 
-            // Normalize AppID using alias mapping (Alias maps new_id -> old_id)
             if (appId && alias[appId]) {
                 const originalId = alias[appId];
                 console.log(`  [Alias] Normalizing ${appId} -> ${originalId}`);
@@ -190,7 +189,6 @@ async function main() {
 
             sourcesWithLinks.add(source);
 
-            // Deduplicate only if Link, Description, AND Source are all the same
             const key = `${link}|${desc}|${source}`;
             if (!seen.has(key)) {
                 seen.add(key);

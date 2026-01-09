@@ -39,7 +39,6 @@
         const hasDbInfo = !!info;
         const isDbOfficial = type === 'official';
 
-        // 1. Steam Official Check
         if (hasOfficialKorean) {
             if (hasUserPatches) {
                 return { label: '공식(유저패치 존재)', cssClass: 'official-with-user', color: '#4c9a2a' };
@@ -47,27 +46,21 @@
             return { label: '공식', cssClass: 'official-steam', color: '#4c9a2a' };
         }
 
-        // 2. DirectG Check
         if (hasDirectG) {
             return { label: '다이렉트 게임즈', cssClass: 'official-directg', color: '#0C7CED' };
         }
 
-        // 3. Stove Check
         if (hasStove) {
             return { label: '스토브', cssClass: 'official-stove', color: '#FF8126' };
         }
 
-        // 4. DB Info Check
         if (hasDbInfo) {
-            // User rule: User Patch Info O, Type Official -> "공식 추정"
             if (isDbOfficial) {
                 return { label: '공식지원 추정', cssClass: 'official', color: '#4c9a2a' };
             }
-            // User rule: User Patch Info O, Type User -> "유저패치"
             return { label: '유저패치', cssClass: 'user', color: '#B921FF' };
         }
 
-        // 5. Else
         return { label: '한국어 없음', cssClass: 'none', color: '#e74c3c' };
     }
 

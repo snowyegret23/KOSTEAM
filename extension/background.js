@@ -33,7 +33,7 @@ async function fetchData(versionInfo) {
     try {
         const [dataRes, aliasRes] = await Promise.all([
             fetch(DATA_URL),
-            fetch(ALIAS_URL).catch(() => ({ ok: false })) // Alias might not exist yet
+            fetch(ALIAS_URL).catch(() => ({ ok: false }))
         ]);
 
         if (!dataRes.ok) throw new Error(`HTTP ${dataRes.status}`);

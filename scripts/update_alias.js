@@ -9,7 +9,7 @@ const MERGED_FILE = path.join(DATA_DIR, 'merged.json');
 const ALIAS_FILE = path.join(DATA_DIR, 'alias.json');
 const VERSION_FILE = path.join(DATA_DIR, 'version.json');
 
-const REQUEST_DELAY = 100; // Faster than full resolver for alias check
+const REQUEST_DELAY = 100;
 
 const delay = ms => new Promise(r => setTimeout(r, ms));
 
@@ -45,7 +45,6 @@ async function main() {
         const originalAppId = game.app_id;
         if (!originalAppId || !game.steam_link) continue;
 
-        // Try to resolve the link
         const result = await resolveUrl(game.steam_link);
 
         if (result.redirected && !result.skipped_reason) {
@@ -66,11 +65,9 @@ async function main() {
         await delay(REQUEST_DELAY);
     }
 
-    // Save alias.json
     await fs.writeFile(ALIAS_FILE, JSON.stringify(newAlias, null, 2), 'utf-8');
     console.log(`\nSaved ${Object.keys(newAlias).length} aliases to ${ALIAS_FILE}`);
 
-    // Update version.json
     let versionInfo = {};
     try {
         const content = await fs.readFile(VERSION_FILE, 'utf-8');

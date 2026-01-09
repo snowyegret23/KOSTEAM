@@ -186,11 +186,9 @@ function parseDetailInfo(infoHtml) {
     const $ = cheerio.load(infoHtml);
     let currentDesc = '';
 
-    // Traverse contents (includes text nodes) within the body
     $('body').contents().each((_, el) => {
         const $el = $(el);
 
-        // Handle Text Nodes
         if (el.type === 'text') {
             const text = $el.text().trim();
             if (text) {
@@ -200,22 +198,19 @@ function parseDetailInfo(infoHtml) {
             return;
         }
 
-        // Handle Element Nodes (recursively get text if not a link)
         let $link = $el.is('a[href^="http"]') ? $el : $el.find('a[href^="http"]');
 
         if ($link.length) {
             const href = $link.attr('href');
             if (href) {
                 const textBeforeArr = [];
-                // Capture text nodes before the link within this element, if any
                 $el.contents().each((i, subEl) => {
-                    if (subEl === $link[0]) return false; // Stop at link
+                    if (subEl === $link[0]) return false;
                     if (subEl.type === 'text') textBeforeArr.push($(subEl).text().trim());
                 });
 
                 let combinedDesc = currentDesc;
                 if (textBeforeArr.length > 0) {
-                    // Filter out "링크:" or "링크" from preceding text
                     const filteredBefore = textBeforeArr.filter(t => t !== '링크:' && t !== '링크');
                     if (filteredBefore.length > 0) {
                         const beforeText = filteredBefore.join(' ').trim();
@@ -224,10 +219,9 @@ function parseDetailInfo(infoHtml) {
                 }
 
                 patches.push({ desc: combinedDesc.trim(), link: href });
-                currentDesc = ''; // Reset
+                currentDesc = '';
             }
         } else {
-            // It's an element but not a link (e.g. <p>Description</p>)
             const text = $el.text().trim();
             if (text && !text.startsWith('링크:')) {
                 if (!currentDesc) {
@@ -239,12 +233,10 @@ function parseDetailInfo(infoHtml) {
         }
     });
 
-    // Handle case where detail row has text but NO links found at all
     if (patches.length === 0 && currentDesc.trim()) {
         patches.push({ desc: currentDesc.trim(), link: '' });
     }
 
-    // Final cleanup of descriptions (remove "님," etc if they appear at the end)
     return patches;
 }
 
@@ -327,16 +319,11 @@ async function scrapePage(page, pageNum, captchaService) {
             if (patchLinks.length === 0 && mainPatchLink) {
                 patchLinks.push(mainPatchLink);
 
-                // Use the description found in detail section if available
-                // If parseDetailInfo found only text but no links, it puts it in entries with link=''
-                // We need to capture that "orphan" description
-
                 let orphanDesc = '';
                 const $detailRow = $(`#kr_detail_${korId}`);
                 if ($detailRow.length) {
                     const infoHtml = $detailRow.find('td.info').html() || '';
                     const parsed = parseDetailInfo(infoHtml);
-                    // Find entry with empty link but has description
                     const orphan = parsed.find(p => !p.link && p.desc);
                     if (orphan) orphanDesc = orphan.desc;
                 }
@@ -344,7 +331,6 @@ async function scrapePage(page, pageNum, captchaService) {
                 if (orphanDesc) {
                     patchDescriptions.push(orphanDesc);
                 } else {
-                    // Fallback to producer
                     patchDescriptions.push(producer || '');
                 }
             }
