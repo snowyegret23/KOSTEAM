@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "generated_at": "2026-01-09T04:46:46.426Z",
+    "total_with_steam_link": 0,
+    "total_without_steam_link": 0,
+    "sources": [
+      "steamapp",
+      "quasarplay",
+      "directg",
+      "stove"
+    ]
+  },
+  "games": [],
+  "games_no_steam_link": []
+}
