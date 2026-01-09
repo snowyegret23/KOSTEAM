@@ -269,7 +269,7 @@ async function main() {
 
     const lookupPath = path.join(DATA_DIR, 'lookup.json');
     await fs.writeFile(lookupPath, JSON.stringify(lookupByAppId, null, 2), 'utf-8');
-    console.log(`Lookup table saved to ${lookupPath}`);
+    console.log(`Lookup table saved to ${lookupPath} (Games: ${withSteamLink.length})`);
 
     const versionInfo = {
         generated_at: generatedAt,

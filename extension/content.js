@@ -116,7 +116,7 @@
             banner.className = 'kr-patch-banner';
 
             let contentHtml = '';
-            const linksWithDescs = [];
+            const linksBySource = new Map();
 
             if (info && info.links) {
                 const siteUrls = info.source_site_urls || {};
@@ -128,32 +128,42 @@
                     const source = patchSources[i];
                     if (!isSourceEnabled(source)) continue;
 
-                    const labelPrefix = source === 'stove' ? 'STOVE' :
-                        source === 'directg' ? '다이렉트게임즈' :
-                            source === 'quasarplay' ? 'quasarplay' : 'steamapp';
+                    if (!linksBySource.has(source)) {
+                        linksBySource.set(source, {
+                            url: siteUrls[source] || links[i],
+                            descriptions: []
+                        });
+                    }
 
-                    linksWithDescs.push({
-                        url: siteUrls[source] || links[i],
-                        name: source,
-                        label: `${labelPrefix} 연결`,
-                        desc: formatSingleDescription(patchDescriptions[i] || '')
-                    });
+                    const desc = formatSingleDescription(patchDescriptions[i]);
+                    if (desc) {
+                        linksBySource.get(source).descriptions.push(desc);
+                    }
                 }
             }
 
             const isOfficial = patchTypeInfo.label.includes('공식');
-            const hasLinks = linksWithDescs.length > 0;
+            const hasLinks = linksBySource.size > 0;
 
             if (hasLinks) {
                 contentHtml = '<div class="kr-patch-links-list">';
-                linksWithDescs.forEach((item, index) => {
+                let index = 1;
+                linksBySource.forEach((data, source) => {
+                    const labelPrefix = source === 'stove' ? 'STOVE' :
+                        source === 'directg' ? '다이렉트게임즈' :
+                            source === 'quasarplay' ? 'quasarplay' : 'steamapp';
+
                     contentHtml += `
                         <div class="kr-patch-link-item">
                             <div class="kr-patch-link-header">
-                                <span class="kr-patch-link-label">링크 ${index + 1}:</span>
-                                <a href="${item.url}" target="_blank" rel="noopener" class="kr-patch-link-text">[ ${item.label} ]</a>
+                                <span class="kr-patch-link-label">링크 ${index++}:</span>
+                                <a href="${data.url}" target="_blank" rel="noopener" class="kr-patch-link-text">[ ${labelPrefix} 연결 ]</a>
                             </div>
-                            ${item.desc ? `<div class="kr-patch-link-description">${item.desc}</div>` : ''}
+                            ${data.descriptions.length > 0 ? `
+                                <div class="kr-patch-link-description">
+                                    ${data.descriptions.map(d => `<span>${d}</span>`).join('<br>')}
+                                </div>
+                            ` : ''}
                         </div>`;
                 });
                 contentHtml += '</div>';
