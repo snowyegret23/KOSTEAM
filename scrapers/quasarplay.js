@@ -36,13 +36,20 @@ async function scrapePage(page, pageNum) {
     console.log(`Fetching: ${url}`);
 
     try {
-        await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 });
+        await page.goto(url, { waitUntil: 'networkidle2', timeout: 60000 });
+
+        const title = await page.title();
+        console.log(`Page Title: ${title}`);
 
         // Wait for the table to appear, or check for no results
         try {
-            await page.waitForSelector('table tbody tr.item', { timeout: 5000 });
+            await page.waitForSelector('table tbody tr.item', { timeout: 10000 });
         } catch (e) {
             console.log(`No games found on page ${pageNum} (selector timeout).`);
+            console.log('Taking debug screenshot...');
+            await page.screenshot({ path: path.join(DATA_DIR, 'debug_screenshot.png') });
+            await fs.writeFile(path.join(DATA_DIR, 'debug_page.html'), await page.content());
+            console.log(`Saved debug info to ${DATA_DIR}`);
             return [];
         }
 
