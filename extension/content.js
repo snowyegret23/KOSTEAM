@@ -30,41 +30,45 @@
     }
 
     function getPatchTypeInfo(info, hasOfficialKorean) {
-        if (!info) {
-            if (hasOfficialKorean) {
-                return { label: '공식', cssClass: 'official-steam', color: '#4c9a2a' };
-            }
-            return { label: '없음', cssClass: 'none', color: '#e74c3c' };
-        }
+        const hasUserPatches = info && info.links && info.links.length > 0;
+        const sources = info ? (info.sources || []) : [];
+        const type = info ? info.type : null;
 
-        const isOfficial = info.type === 'official';
-        const hasUserPatches = info.links && info.links.length > 0;
-        const sources = info.sources || [];
+        const hasDirectG = sources.includes('directg');
+        const hasStove = sources.includes('stove');
+        const hasDbInfo = !!info;
+        const isDbOfficial = type === 'official';
 
-        if (sources.includes('stove')) {
-            return { label: '공식(스토브)', cssClass: 'official-stove', color: '#FF8126' };
-        }
-
-        if (sources.includes('directg')) {
-            return { label: '공식(다이렉트게임즈)', cssClass: 'official-directg', color: '#0C7CED' };
-        }
-
+        // 1. Steam Official Check
         if (hasOfficialKorean) {
             if (hasUserPatches) {
-                return { label: '공식(관련 유저패치 있음)', cssClass: 'official-with-user', color: '#4c9a2a' };
+                return { label: '공식(유저패치 존재)', cssClass: 'official-with-user', color: '#4c9a2a' };
             }
             return { label: '공식', cssClass: 'official-steam', color: '#4c9a2a' };
         }
 
-        if (isOfficial && hasUserPatches) {
-            return { label: '공식(관련 유저패치 있음)', cssClass: 'official-with-user', color: '#4c9a2a' };
+        // 2. DirectG Check
+        if (hasDirectG) {
+            return { label: '다이렉트 게임즈', cssClass: 'official-directg', color: '#0C7CED' };
         }
 
-        if (isOfficial) {
-            return { label: '공식', cssClass: 'official', color: '#4c9a2a' };
+        // 3. Stove Check
+        if (hasStove) {
+            return { label: '스토브', cssClass: 'official-stove', color: '#FF8126' };
         }
 
-        return { label: '유저패치', cssClass: 'user', color: '#B921FF' };
+        // 4. DB Info Check
+        if (hasDbInfo) {
+            // User rule: User Patch Info O, Type Official -> "공식 추정"
+            if (isDbOfficial) {
+                return { label: '공식 (추정)', cssClass: 'official', color: '#4c9a2a' };
+            }
+            // User rule: User Patch Info O, Type User -> "유저패치"
+            return { label: '유저패치', cssClass: 'user', color: '#B921FF' };
+        }
+
+        // 5. Else
+        return { label: '한국어 없음', cssClass: 'none', color: '#e74c3c' };
     }
 
     function formatSingleDescription(desc) {
