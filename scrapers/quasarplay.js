@@ -215,8 +215,12 @@ function parseDetailInfo(infoHtml) {
 
                 let combinedDesc = currentDesc;
                 if (textBeforeArr.length > 0) {
-                    const beforeText = textBeforeArr.join(' ').trim();
-                    if (beforeText) combinedDesc = combinedDesc ? combinedDesc + ' ' + beforeText : beforeText;
+                    // Filter out "링크:" or "링크" from preceding text
+                    const filteredBefore = textBeforeArr.filter(t => t !== '링크:' && t !== '링크');
+                    if (filteredBefore.length > 0) {
+                        const beforeText = filteredBefore.join(' ').trim();
+                        if (beforeText) combinedDesc = combinedDesc ? combinedDesc + ' ' + beforeText : beforeText;
+                    }
                 }
 
                 patches.push({ desc: combinedDesc.trim(), link: href });
@@ -241,10 +245,7 @@ function parseDetailInfo(infoHtml) {
     }
 
     // Final cleanup of descriptions (remove "님," etc if they appear at the end)
-    return patches.map(p => ({
-        ...p,
-        desc: p.desc.replace(/님,\s*$/, '').trim()
-    }));
+    return patches;
 }
 
 async function scrapePage(page, pageNum, captchaService) {
