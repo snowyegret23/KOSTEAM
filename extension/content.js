@@ -160,8 +160,8 @@
                                 <a href="${data.url}" target="_blank" rel="noopener" class="kr-patch-link-text">[ ${labelPrefix} 연결 ]</a>
                             </div>
                             ${data.descriptions.length > 0 ? `
-                                <div class="kr-patch-link-description">
-                                    ${data.descriptions.map(d => `<span>${d}</span>`).join('<br>')}
+                                <div style="margin-top: 5px;">
+                                    ${data.descriptions.map(d => `<div class="kr-patch-link-description" style="margin-bottom: 4px;">${d}</div>`).join('')}
                                 </div>
                             ` : ''}
                         </div>`;
