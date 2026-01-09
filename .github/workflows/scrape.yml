@@ -57,6 +57,7 @@ jobs:
         env:
           TWO_CAPTCHA_API_KEY: ${{ secrets.TWO_CAPTCHA_API_KEY }}
           QUASARPLAY_COOKIE: ${{ secrets.QUASARPLAY_COOKIE }}
+          QUASARPLAY_PROXY: ${{ secrets.QUASARPLAY_PROXY }}
         run: npm run scrape:quasarplay
         continue-on-error: true
         
