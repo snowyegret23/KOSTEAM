@@ -10,6 +10,28 @@ const SOURCES = ['steamapp', 'quasarplay', 'directg', 'stove'];
 const MAX_REDIRECTS = 5;
 const REQUEST_DELAY = 300;
 
+const IGNORED_REDIRECT_PATTERNS = [
+    /store\.steampowered\.com\/agecheck\//,
+    /store\.steampowered\.com\/login\//,
+    /steampowered\.com\/login/,
+    /steampowered\.com\/age/
+];
+
+function isIgnoredRedirect(originalUrl, redirectedUrl) {
+    if (!redirectedUrl) return false;
+    
+    const hasValidSteamAppId = /store\.steampowered\.com\/app\/\d+/.test(originalUrl);
+    if (!hasValidSteamAppId) return false;
+    
+    for (const pattern of IGNORED_REDIRECT_PATTERNS) {
+        if (pattern.test(redirectedUrl)) {
+            return true;
+        }
+    }
+    
+    return false;
+}
+
 const delay = ms => new Promise(r => setTimeout(r, ms));
 
 async function resolveUrl(url, maxRedirects = MAX_REDIRECTS) {
@@ -32,15 +54,27 @@ async function resolveUrl(url, maxRedirects = MAX_REDIRECTS) {
             if (response.status >= 300 && response.status < 400) {
                 const location = response.headers.get('location');
                 if (location) {
+                    let nextUrl;
                     if (location.startsWith('/')) {
                         const urlObj = new URL(currentUrl);
-                        currentUrl = `${urlObj.protocol}//${urlObj.host}${location}`;
+                        nextUrl = `${urlObj.protocol}//${urlObj.host}${location}`;
                     } else if (!location.startsWith('http')) {
                         const urlObj = new URL(currentUrl);
-                        currentUrl = `${urlObj.protocol}//${urlObj.host}/${location}`;
+                        nextUrl = `${urlObj.protocol}//${urlObj.host}/${location}`;
                     } else {
-                        currentUrl = location;
+                        nextUrl = location;
                     }
+                    
+                    if (isIgnoredRedirect(url, nextUrl)) {
+                        return {
+                            original: url,
+                            final: url,
+                            redirected: false,
+                            skipped_reason: 'steam_agecheck_or_login'
+                        };
+                    }
+                    
+                    currentUrl = nextUrl;
                     redirected = true;
                     redirectCount++;
                 } else {
@@ -49,6 +83,15 @@ async function resolveUrl(url, maxRedirects = MAX_REDIRECTS) {
             } else {
                 break;
             }
+        }
+        
+        if (isIgnoredRedirect(url, currentUrl)) {
+            return {
+                original: url,
+                final: url,
+                redirected: false,
+                skipped_reason: 'steam_agecheck_or_login'
+            };
         }
         
         return {
@@ -82,13 +125,14 @@ async function resolveLinksForSource(sourceName) {
         data = JSON.parse(content);
     } catch (err) {
         console.log(`Skipping ${sourceName}: ${err.message}`);
-        return { processed: 0, updated: 0 };
+        return { processed: 0, updated: 0, skipped: 0 };
     }
     
     console.log(`\nProcessing ${sourceName}: ${data.length} entries`);
     
     let processed = 0;
     let updated = 0;
+    let skipped = 0;
     
     for (const entry of data) {
         processed++;
@@ -96,7 +140,9 @@ async function resolveLinksForSource(sourceName) {
         if (entry.steam_link && !entry.steam_link_resolved) {
             const result = await resolveUrl(entry.steam_link);
             
-            if (result.redirected) {
+            if (result.skipped_reason) {
+                skipped++;
+            } else if (result.redirected) {
                 entry.steam_link_original = entry.steam_link;
                 entry.steam_link = result.final;
                 entry.steam_link_resolved = true;
@@ -121,11 +167,17 @@ async function resolveLinksForSource(sourceName) {
             for (const link of entry.patch_links) {
                 if (link.startsWith('http')) {
                     const result = await resolveUrl(link);
-                    resolvedLinks.push(result.final);
                     
-                    if (result.redirected) {
-                        linksUpdated = true;
-                        console.log(`  [${processed}/${data.length}] Patch link: ${link} → ${result.final}`);
+                    if (result.skipped_reason) {
+                        resolvedLinks.push(link);
+                        skipped++;
+                    } else {
+                        resolvedLinks.push(result.final);
+                        
+                        if (result.redirected) {
+                            linksUpdated = true;
+                            console.log(`  [${processed}/${data.length}] Patch link: ${link} → ${result.final}`);
+                        }
                     }
                     
                     await delay(REQUEST_DELAY);
@@ -142,14 +194,14 @@ async function resolveLinksForSource(sourceName) {
         }
         
         if (processed % 50 === 0) {
-            console.log(`  Progress: ${processed}/${data.length}`);
+            console.log(`  Progress: ${processed}/${data.length} (updated: ${updated}, skipped: ${skipped})`);
         }
     }
     
     await fs.writeFile(filePath, JSON.stringify(data, null, 2), 'utf-8');
-    console.log(`Saved ${sourceName}: ${updated} entries updated`);
+    console.log(`Saved ${sourceName}: ${updated} updated, ${skipped} skipped (agecheck/login)`);
     
-    return { processed, updated };
+    return { processed, updated, skipped };
 }
 
 async function verifyAllSteamLinks() {
@@ -171,6 +223,7 @@ async function verifyAllSteamLinks() {
     
     let verified = 0;
     let changed = 0;
+    let skipped = 0;
     
     for (const game of games) {
         if (!game.steam_link) continue;
@@ -187,6 +240,13 @@ async function verifyAllSteamLinks() {
             });
             
             const finalUrl = response.url;
+            
+            if (isIgnoredRedirect(game.steam_link, finalUrl)) {
+                skipped++;
+                game.last_verified = new Date().toISOString();
+                continue;
+            }
+            
             const finalAppId = extractSteamAppId(finalUrl);
             
             if (finalAppId && finalAppId !== game.app_id) {
@@ -214,7 +274,7 @@ async function verifyAllSteamLinks() {
     merged.meta.verification_changes = changed;
     
     await fs.writeFile(mergedPath, JSON.stringify(merged, null, 2), 'utf-8');
-    console.log(`\nVerification complete: ${changed} links changed out of ${verified}`);
+    console.log(`\nVerification complete: ${changed} changed, ${skipped} skipped (agecheck/login)`);
 }
 
 async function main() {
@@ -232,17 +292,19 @@ async function main() {
     }
     
     const sourcesToProcess = specificSource ? [specificSource] : SOURCES;
-    const stats = { total_processed: 0, total_updated: 0 };
+    const stats = { total_processed: 0, total_updated: 0, total_skipped: 0 };
     
     for (const source of sourcesToProcess) {
         const result = await resolveLinksForSource(source);
         stats.total_processed += result.processed;
         stats.total_updated += result.updated;
+        stats.total_skipped += result.skipped;
     }
     
     console.log('\n=== Summary ===');
     console.log(`Total processed: ${stats.total_processed}`);
     console.log(`Total updated: ${stats.total_updated}`);
+    console.log(`Total skipped (agecheck/login): ${stats.total_skipped}`);
 }
 
 main().catch(console.error);

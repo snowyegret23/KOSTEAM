@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
     
     githubBtn.addEventListener('click', () => {
-        chrome.tabs.create({ url: 'https://github.com/USER/Steam_KRLocInfo' });
+        chrome.tabs.create({ url: 'https://github.com/snowyegret23/Steam_KRLocInfo' });
     });
     
     await loadStats();

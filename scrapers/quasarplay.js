@@ -22,9 +22,9 @@ async function loadExistingData() {
     }
 }
 
-function extractAppId(steamLink) {
-    if (!steamLink) return null;
-    const match = steamLink.match(/\/app\/(\d+)/);
+function extractSteamAppId(onclickAttr) {
+    if (!onclickAttr) return null;
+    const match = onclickAttr.match(/store\.steampowered\.com\/app\/(\d+)/);
     return match ? match[1] : null;
 }
 
@@ -34,7 +34,16 @@ async function scrapePage(pageNum) {
     
     const response = await fetch(url, {
         headers: {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
+            'Accept-Language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7',
+            'Accept-Encoding': 'gzip, deflate, br',
+            'Connection': 'keep-alive',
+            'Upgrade-Insecure-Requests': '1',
+            'Sec-Fetch-Dest': 'document',
+            'Sec-Fetch-Mode': 'navigate',
+            'Sec-Fetch-Site': 'none',
+            'Sec-Fetch-User': '?1'
         }
     });
     
@@ -50,26 +59,29 @@ async function scrapePage(pageNum) {
     $('table tbody tr.item').each((_, el) => {
         const $row = $(el);
         
-        const appId = $row.attr('data-appid') || null;
-        
-        const typeArea = $row.find('td.type_area').text().trim();
-        const patchType = typeArea.includes('유저') ? 'user' : 'official';
+        const typeText = $row.find('td.type_area span.type').text().trim();
+        const patchType = typeText.includes('유저') ? 'user' : 'official';
         
         const $details = $row.find('td.details-control');
+        
+        const $thumbnail = $details.find('.thumbnail_wrapper');
+        const onclickAttr = $thumbnail.attr('onclick') || '';
+        const steamAppId = extractSteamAppId(onclickAttr);
         
         const gameTitle = $details.find('p.title').text().trim() || '';
         
         const $downloadLink = $details.find('p.download_link a.forward');
         const patchLink = $downloadLink.attr('href') || '';
         
-        const producer = $details.find('p.producer span').not('.colorGray3').text().trim() || '';
+        const producerSpans = $details.find('p.producer span').not('.colorGray3');
+        const producer = producerSpans.text().trim() || '';
         
-        const steamLink = appId ? `https://store.steampowered.com/app/${appId}` : '';
+        const steamLink = steamAppId ? `https://store.steampowered.com/app/${steamAppId}` : '';
         
         if (gameTitle) {
             games.push({
                 source: 'quasarplay',
-                app_id: appId,
+                app_id: steamAppId,
                 game_title: gameTitle,
                 steam_link: steamLink,
                 patch_type: patchType,
@@ -123,7 +135,7 @@ async function scrapeAll(existingMap) {
         } catch (err) {
             console.error(`Error on page ${page}:`, err.message);
         }
-        await delay(500);
+        await delay(1000);
     }
     
     return Array.from(allGames.values());

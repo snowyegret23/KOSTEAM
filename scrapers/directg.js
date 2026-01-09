@@ -9,7 +9,7 @@ const DATA_DIR = path.join(__dirname, '..', 'data');
 const OUTPUT_FILE = path.join(DATA_DIR, 'directg.json');
 
 const BASE_URL = 'https://www.directg.net/game/game_search_thumb.html';
-const MAX_PAGES = 50;
+const MAX_PAGES = 10;
 
 const delay = ms => new Promise(r => setTimeout(r, ms));
 
@@ -30,7 +30,8 @@ async function scrapePage(pageNum) {
         headers: {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-            'Accept-Language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7'
+            'Accept-Language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7',
+            'Referer': 'https://www.directg.net/'
         }
     });
     
@@ -43,26 +44,34 @@ async function scrapePage(pageNum) {
     const $ = cheerio.load(html);
     const games = [];
     
-    $('div.game-card, div.product-card, article.game-item, div[class*="game"]').each((_, el) => {
+    $('#thumb_list div.card').each((_, el) => {
         const $card = $(el);
         
-        const gameTitle = $card.find('h3, h4, .title, .game-title, .name').first().text().trim() ||
-                         $card.find('a[title]').attr('title') || '';
+        const $titleLink = $card.find('.card-header a');
+        const gameTitle = $titleLink.find('h5.card-title').text().trim() || '';
+        const productLink = $titleLink.attr('href') || '';
         
-        const productLink = $card.find('a').first().attr('href') || '';
+        const $badge = $card.find('.card-body .badge');
+        const gameType = $badge.text().trim() || '';
         
-        const priceText = $card.find('.price, .game-price, [class*="price"]').text().trim() || '';
+        const $prices = $card.find('.card-footer .won');
+        let price = '';
+        if ($prices.length > 0) {
+            price = $prices.last().text().trim();
+        }
         
         if (gameTitle && productLink) {
+            const fullUrl = productLink.startsWith('http') ? productLink : `https://www.directg.net${productLink}`;
+            
             games.push({
                 source: 'directg',
                 app_id: null,
                 game_title: gameTitle,
                 steam_link: '',
                 patch_type: 'official',
-                patch_links: [productLink.startsWith('http') ? productLink : `https://www.directg.net${productLink}`],
-                description: priceText,
-                directg_url: productLink.startsWith('http') ? productLink : `https://www.directg.net${productLink}`,
+                patch_links: [fullUrl],
+                description: `${gameType} | ${price}`.trim(),
+                directg_url: fullUrl,
                 last_verification_date: new Date().toISOString(),
                 updated_at: new Date().toISOString()
             });
@@ -72,10 +81,66 @@ async function scrapePage(pageNum) {
     return games;
 }
 
+async function getTotalCount(html) {
+    const $ = cheerio.load(html);
+    const countText = $('span:contains("총")').text();
+    const match = countText.match(/총\s*(\d+)\s*개/);
+    return match ? parseInt(match[1], 10) : 0;
+}
+
 async function scrapeAll() {
     const allGames = new Map();
     
-    for (let page = 1; page <= MAX_PAGES; page++) {
+    const firstResponse = await fetch(`${BASE_URL}?page=1&sort=release&exclusive_korean=Y`, {
+        headers: {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+            'Accept-Language': 'ko-KR,ko;q=0.9',
+            'Referer': 'https://www.directg.net/'
+        }
+    });
+    const firstHtml = await firstResponse.text();
+    const totalCount = await getTotalCount(firstHtml);
+    console.log(`Total games found: ${totalCount}`);
+    
+    const $ = cheerio.load(firstHtml);
+    $('#thumb_list div.card').each((_, el) => {
+        const $card = $(el);
+        const $titleLink = $card.find('.card-header a');
+        const gameTitle = $titleLink.find('h5.card-title').text().trim() || '';
+        const productLink = $titleLink.attr('href') || '';
+        const $badge = $card.find('.card-body .badge');
+        const gameType = $badge.text().trim() || '';
+        const $prices = $card.find('.card-footer .won');
+        let price = '';
+        if ($prices.length > 0) {
+            price = $prices.last().text().trim();
+        }
+        
+        if (gameTitle && productLink) {
+            const fullUrl = productLink.startsWith('http') ? productLink : `https://www.directg.net${productLink}`;
+            allGames.set(gameTitle, {
+                source: 'directg',
+                app_id: null,
+                game_title: gameTitle,
+                steam_link: '',
+                patch_type: 'official',
+                patch_links: [fullUrl],
+                description: `${gameType} | ${price}`.trim(),
+                directg_url: fullUrl,
+                last_verification_date: new Date().toISOString(),
+                updated_at: new Date().toISOString()
+            });
+        }
+    });
+    
+    console.log(`Page 1: ${allGames.size} games`);
+    
+    const gamesPerPage = 20;
+    const totalPages = Math.ceil(totalCount / gamesPerPage);
+    const pagesToFetch = Math.min(totalPages, MAX_PAGES);
+    
+    for (let page = 2; page <= pagesToFetch; page++) {
         try {
             const games = await scrapePage(page);
             
@@ -85,13 +150,12 @@ async function scrapeAll() {
             }
             
             for (const game of games) {
-                const key = game.game_title;
-                if (!allGames.has(key)) {
-                    allGames.set(key, game);
+                if (!allGames.has(game.game_title)) {
+                    allGames.set(game.game_title, game);
                 }
             }
             
-            console.log(`Page ${page}: ${games.length} games`);
+            console.log(`Page ${page}: ${games.length} games (total: ${allGames.size})`);
             
         } catch (err) {
             console.error(`Error on page ${page}:`, err.message);
