@@ -1,8 +1,10 @@
 const REMOTE_BASE_URL = 'https://raw.githubusercontent.com/snowyegret23/Steam_KRLocInfo/refs/heads/main/data';
 const VERSION_URL = `${REMOTE_BASE_URL}/version.json`;
 const DATA_URL = `${REMOTE_BASE_URL}/lookup.json`;
+const ALIAS_URL = `${REMOTE_BASE_URL}/alias.json`;
 
 const CACHE_KEY = 'kr_patch_data';
+const CACHE_ALIAS_KEY = 'kr_patch_alias';
 const CACHE_VERSION_KEY = 'kr_patch_version';
 
 async function checkForUpdates() {
@@ -14,8 +16,8 @@ async function checkForUpdates() {
         const local = await chrome.storage.local.get([CACHE_VERSION_KEY]);
         const localVersion = local[CACHE_VERSION_KEY];
 
-        if (!localVersion || localVersion.generated_at !== remoteVersion.generated_at) {
-            console.log('[KR Patch] New version available, downloading...');
+        if (!localVersion || localVersion.generated_at !== remoteVersion.generated_at || localVersion.alias_updated_at !== remoteVersion.alias_updated_at) {
+            console.log('[KR Patch] New version or alias available, downloading...');
             return await fetchData(remoteVersion);
         }
 
@@ -29,18 +31,28 @@ async function checkForUpdates() {
 
 async function fetchData(versionInfo) {
     try {
-        const response = await fetch(DATA_URL);
-        if (!response.ok) throw new Error(`HTTP ${response.status}`);
-        const data = await response.json();
+        const [dataRes, aliasRes] = await Promise.all([
+            fetch(DATA_URL),
+            fetch(ALIAS_URL).catch(() => ({ ok: false })) // Alias might not exist yet
+        ]);
+
+        if (!dataRes.ok) throw new Error(`HTTP ${dataRes.status}`);
+        const data = await dataRes.json();
+
+        let alias = {};
+        if (aliasRes.ok) {
+            alias = await aliasRes.json();
+        }
 
         const version = versionInfo || data._meta || { generated_at: new Date().toISOString() };
 
         await chrome.storage.local.set({
             [CACHE_KEY]: data,
+            [CACHE_ALIAS_KEY]: alias,
             [CACHE_VERSION_KEY]: version
         });
 
-        console.log('[KR Patch] Data updated:', Object.keys(data).length - 1, 'games');
+        console.log('[KR Patch] Data updated:', Object.keys(data).length - 1, 'games,', Object.keys(alias).length, 'aliases');
         return data;
     } catch (err) {
         console.error('[KR Patch] Fetch failed:', err);
@@ -49,14 +61,19 @@ async function fetchData(versionInfo) {
 }
 
 async function getData() {
-    const result = await chrome.storage.local.get([CACHE_KEY]);
-    return result[CACHE_KEY] || {};
+    const result = await chrome.storage.local.get([CACHE_KEY, CACHE_ALIAS_KEY]);
+    return {
+        data: result[CACHE_KEY] || {},
+        alias: result[CACHE_ALIAS_KEY] || {}
+    };
 }
 
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     if (message.type === 'GET_PATCH_INFO') {
-        getData().then(data => {
-            const info = data[message.appId] || null;
+        getData().then(({ data, alias }) => {
+            const appId = message.appId;
+            const targetId = alias[appId] || appId;
+            const info = data[targetId] || null;
             sendResponse({ success: true, info });
         }).catch(err => {
             sendResponse({ success: false, error: err.message });

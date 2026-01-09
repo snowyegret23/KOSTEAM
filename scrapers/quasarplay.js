@@ -183,38 +183,44 @@ function parseDetailInfo(infoHtml) {
     const patches = [];
     if (!infoHtml) return patches;
 
-    const lines = infoHtml.split(/<\/?p>/).map(s => s.trim()).filter(Boolean);
+    const $ = cheerio.load(infoHtml);
+    let currentDesc = '';
 
-    let currentPatch = null;
+    // Traverse elements within the body
+    $('body').children().each((_, el) => {
+        const $el = $(el);
+        const text = $el.text().trim();
 
-    for (const line of lines) {
-        const cleanLine = line.replace(/<br\s*\/?>/gi, '').trim();
-        if (!cleanLine) continue;
+        // Skip empty text unless it's a break or contains a link
+        if (!text && !$el.find('a').length) return;
 
-        if (cleanLine.startsWith('유저 한글 패치') || cleanLine.startsWith('공식 한글')) {
-            if (currentPatch && currentPatch.link) {
-                patches.push(currentPatch);
-            }
-            currentPatch = { desc: cleanLine, link: '' };
-        } else {
-            const linkMatch = cleanLine.match(/href="([^"]+)"/);
-            if (linkMatch && currentPatch) {
-                currentPatch.link = linkMatch[1];
-                patches.push(currentPatch);
-                currentPatch = { desc: '', link: '' };
-            } else if (cleanLine.startsWith('http') && currentPatch) {
-                currentPatch.link = cleanLine;
-                patches.push(currentPatch);
-                currentPatch = { desc: '', link: '' };
+        const $link = $el.find('a[href^="http"]');
+        const href = $link.attr('href');
+
+        if (href) {
+            // Found a link! Pair it with the current accumulated description.
+            patches.push({ desc: currentDesc.trim(), link: href });
+            currentDesc = ''; // Reset for next pair
+        } else if (text && !text.startsWith('링크:')) {
+            // Accumulate text as description (avoiding boilerplate prefixes like "링크:")
+            if (!currentDesc) {
+                currentDesc = text;
+            } else {
+                currentDesc += ' ' + text;
             }
         }
+    });
+
+    // Handle case where detail row has text but NO links found at all
+    if (patches.length === 0 && currentDesc.trim()) {
+        patches.push({ desc: currentDesc.trim(), link: '' });
     }
 
-    if (currentPatch && currentPatch.link) {
-        patches.push(currentPatch);
-    }
-
-    return patches;
+    // Final cleanup of descriptions (remove "님," etc if they appear at the end)
+    return patches.map(p => ({
+        ...p,
+        desc: p.desc.replace(/님,\s*$/, '').trim()
+    }));
 }
 
 async function scrapePage(page, pageNum, captchaService) {
@@ -290,7 +296,7 @@ async function scrapePage(page, pageNum, captchaService) {
 
             if (patchLinks.length === 0 && mainPatchLink) {
                 patchLinks.push(mainPatchLink);
-                patchDescriptions.push(producer ? `제작자: ${producer}` : '');
+                patchDescriptions.push(''); // Default to empty as requested by user
             }
 
             if (gameTitle) {

@@ -32,6 +32,16 @@ function extractAppIdFromLink(steamLink) {
 async function main() {
     console.log('Merging data from all sources...');
 
+    const ALIAS_FILE = path.join(DATA_DIR, 'alias.json');
+    let alias = {};
+    try {
+        const aliasContent = await fs.readFile(ALIAS_FILE, 'utf-8');
+        alias = JSON.parse(aliasContent);
+        console.log(`Loaded ${Object.keys(alias).length} aliases from alias.json`);
+    } catch (err) {
+        console.log('No alias.json found, skipping alias normalization.');
+    }
+
     const mergedByAppId = new Map();
     const mergedByTitle = new Map();
     const noSteamLink = [];
@@ -41,7 +51,14 @@ async function main() {
         console.log(`Loaded ${data.length} entries from ${source}`);
 
         for (const entry of data) {
-            const appId = normalizeAppId(entry.app_id) || extractAppIdFromLink(entry.steam_link);
+            let appId = normalizeAppId(entry.app_id) || extractAppIdFromLink(entry.steam_link);
+
+            // Normalize AppID using alias mapping (Alias maps new_id -> old_id)
+            if (appId && alias[appId]) {
+                const originalId = alias[appId];
+                console.log(`  [Alias] Normalizing ${appId} -> ${originalId}`);
+                appId = originalId;
+            }
 
             if (appId) {
                 const existing = mergedByAppId.get(appId);

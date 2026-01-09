@@ -18,7 +18,7 @@
             if (!firstCell) continue;
             const text = firstCell.textContent.trim();
             if (text === '한국어' || text === 'Korean') {
-                const checks = row.querySelectorAll('td.check');
+                const checks = row.querySelectorAll('td.checkcol');
                 for (const check of checks) {
                     if (check.textContent.includes('✔') || check.querySelector('span')) {
                         return true;

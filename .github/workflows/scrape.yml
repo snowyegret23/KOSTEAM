@@ -2,8 +2,7 @@ name: Scrape Korean Patch Info
 
 on:
   schedule:
-    - cron: '0 21 * * 0,2,4'
-    - cron: '0 21 1 * *'
+    - cron: '0 21 * * 1,4,6'
   workflow_dispatch:
     inputs:
       scraper:
@@ -17,16 +16,8 @@ on:
           - quasarplay
           - directg
           - stove
-      resolve_links:
-        description: '리다이렉트 링크 해결 실행'
-        required: false
-        default: false
-        type: boolean
-      verify_links:
-        description: '월간 Steam 링크 검증 실행'
-        required: false
-        default: false
-        type: boolean
+          - update_alias
+          - merge
 
 permissions:
   contents: write
@@ -49,7 +40,11 @@ jobs:
         
       - name: Run steamapp scraper
         if: github.event.inputs.scraper == 'all' || github.event.inputs.scraper == 'steamapp' || github.event_name == 'schedule'
-        run: npm run scrape:steamapp
+        run: |
+          if [ "${{ github.event_name }}" == "schedule" ] || [ "${{ github.event.inputs.scraper }}" == "steamapp" ] || [ "${{ github.event.inputs.scraper }}" == "all" ]; then
+             rm data/steamapp.json || true
+          fi
+          npm run scrape:steamapp
         continue-on-error: true
         
       - name: Run quasarplay scraper
@@ -58,7 +53,11 @@ jobs:
           TWO_CAPTCHA_API_KEY: ${{ secrets.TWO_CAPTCHA_API_KEY }}
           QUASARPLAY_COOKIE: ${{ secrets.QUASARPLAY_COOKIE }}
           QUASARPLAY_PROXY: ${{ secrets.QUASARPLAY_PROXY }}
-        run: npm run scrape:quasarplay
+        run: |
+          if [ "${{ github.event_name }}" == "schedule" ] || [ "${{ github.event.inputs.scraper }}" == "quasarplay" ] || [ "${{ github.event.inputs.scraper }}" == "all" ]; then
+             rm data/quasarplay.json || true
+          fi
+          npm run scrape:quasarplay
         continue-on-error: true
         
       - name: Run directg scraper
@@ -70,15 +69,10 @@ jobs:
         if: github.event.inputs.scraper == 'all' || github.event.inputs.scraper == 'stove' || github.event_name == 'schedule'
         run: npm run scrape:stove
         continue-on-error: true
-        
-      - name: Resolve redirect links
-        if: github.event.inputs.resolve_links == 'true'
-        run: npm run resolve-links
-        continue-on-error: true
-        
-      - name: Monthly link verification
-        if: github.event.inputs.verify_links == 'true' || (github.event_name == 'schedule' && github.event.schedule == '0 21 1 * *')
-        run: npm run resolve-links:verify
+
+      - name: Run update alias
+        if: github.event.inputs.scraper == 'update_alias'
+        run: node scripts/update_alias.js
         continue-on-error: true
         
       - name: Merge data
