@@ -129,7 +129,7 @@ async function handleCaptcha(page, service) {
     if (!service) return false;
 
     console.log('Attempting to detect and solve CAPTCHA...');
-    await delay(2000);
+    await delay(1000);
 
     const siteKey = await findSiteKey(page);
 
@@ -163,7 +163,7 @@ async function handleCaptcha(page, service) {
             }, token);
 
             console.log('Waiting for redirection...');
-            await delay(5000);
+            await delay(2500);
 
             return true;
         } else {
@@ -231,7 +231,7 @@ async function scrapePage(page, pageNum, captchaService) {
             console.log('Cloudflare challenge detected! initiating solver...');
             await handleCaptcha(page, captchaService);
 
-            await delay(5000);
+            await delay(2500);
             title = await page.title();
             console.log(`Page Title after solve attempt: ${title}`);
         }
@@ -413,7 +413,7 @@ async function scrapeAll(existingMap) {
                 consecutiveDuplicates = 0;
             }
 
-            await delay(1000 + Math.random() * 2000);
+            await delay(1000 + Math.random() * 1000);
         }
     } finally {
         await browser.close();

@@ -160,7 +160,7 @@ async function main() {
     };
 
     const deduplicateLinksWithDescriptions = (links, descriptions, sources) => {
-        const seen = new Map();
+        const seen = new Set();
         const resultLinks = [];
         const resultDescs = [];
         const resultSources = [];
@@ -173,15 +173,13 @@ async function main() {
 
             sourcesWithLinks.add(source);
 
-            if (!seen.has(link)) {
-                seen.set(link, resultLinks.length);
+            // Deduplicate only if Link, Description, AND Source are all the same
+            const key = `${link}|${desc}|${source}`;
+            if (!seen.has(key)) {
+                seen.add(key);
                 resultLinks.push(link);
                 resultDescs.push(desc);
                 resultSources.push(source);
-            } else {
-                if (desc && !resultDescs[seen.get(link)]) {
-                    resultDescs[seen.get(link)] = desc;
-                }
             }
         }
 

@@ -129,7 +129,9 @@
                 const patchSources = info.patch_sources || [];
                 const sourcesWithLinks = info.sources_with_links || [];
 
-                const hasLinksFromSource = (source) => sourcesWithLinks.includes(source) || patchSources.includes(source);
+                const hasLinksFromSource = (source) => {
+                    return sourcesWithLinks.includes(source) || patchSources.includes(source);
+                };
 
                 if (isSourceEnabled('steamapp') && siteUrls.steamapp) {
                     const hasLinks = hasLinksFromSource('steamapp');
@@ -202,10 +204,12 @@
             if (hasLinks) {
                 contentHtml = '<div class="kr-patch-links-list">';
                 linksWithDescs.forEach((item, index) => {
+                    const label = SOURCE_LABELS[item.name] || item.name;
+
                     contentHtml += `
                         <div class="kr-patch-link-item">
                             <div class="kr-patch-link-header">
-                                <span class="kr-patch-link-label">링크 ${index + 1}:</span>
+                                <span class="kr-patch-link-label">링크 ${index + 1}: ${label}</span>
                                 <a href="${item.url}" target="_blank" rel="noopener" class="kr-patch-link-text">[ ${item.label} ]</a>
                             </div>
                             ${item.desc ? `<div class="kr-patch-link-description">${item.desc}</div>` : ''}
