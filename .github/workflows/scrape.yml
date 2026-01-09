@@ -1,0 +1,89 @@
+name: Scrape Korean Patch Info
+
+on:
+  schedule:
+    - cron: '0 21 * * 0,2,4'
+    - cron: '0 21 1 * *'
+  workflow_dispatch:
+    inputs:
+      scraper:
+        description: '실행할 스크래퍼 선택'
+        required: true
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - steamapp
+          - quasarplay
+          - directg
+          - stove
+      resolve_links:
+        description: '리다이렉트 링크 해결 실행'
+        required: false
+        default: false
+        type: boolean
+      verify_links:
+        description: '월간 Steam 링크 검증 실행'
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          
+      - name: Install dependencies
+        run: npm install
+        
+      - name: Run steamapp scraper
+        if: github.event.inputs.scraper == 'all' || github.event.inputs.scraper == 'steamapp' || github.event_name == 'schedule'
+        run: npm run scrape:steamapp
+        continue-on-error: true
+        
+      - name: Run quasarplay scraper
+        if: github.event.inputs.scraper == 'all' || github.event.inputs.scraper == 'quasarplay' || github.event_name == 'schedule'
+        run: npm run scrape:quasarplay
+        continue-on-error: true
+        
+      - name: Run directg scraper
+        if: github.event.inputs.scraper == 'all' || github.event.inputs.scraper == 'directg' || github.event_name == 'schedule'
+        run: npm run scrape:directg
+        continue-on-error: true
+        
+      - name: Run stove scraper
+        if: github.event.inputs.scraper == 'all' || github.event.inputs.scraper == 'stove' || github.event_name == 'schedule'
+        run: npm run scrape:stove
+        continue-on-error: true
+        
+      - name: Resolve redirect links
+        if: github.event.inputs.resolve_links == 'true'
+        run: npm run resolve-links
+        continue-on-error: true
+        
+      - name: Monthly link verification
+        if: github.event.inputs.verify_links == 'true' || (github.event_name == 'schedule' && github.event.schedule == '0 21 1 * *')
+        run: npm run resolve-links:verify
+        continue-on-error: true
+        
+      - name: Merge data
+        run: npm run merge
+        
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/
+          git diff --staged --quiet || git commit -m "Update Korean patch data - $(TZ='Asia/Seoul' date +'%Y-%m-%d %H:%M') KST"
+          git push

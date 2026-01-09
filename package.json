@@ -1,0 +1,26 @@
+{
+  "name": "steam-krlocinfo",
+  "version": "1.0.0",
+  "description": "Steam Korean Localization Info Scraper & Chrome Extension",
+  "type": "module",
+  "scripts": {
+    "scrape:steamapp": "node scrapers/steamapp.js",
+    "scrape:quasarplay": "node scrapers/quasarplay.js",
+    "scrape:directg": "node scrapers/directg.js",
+    "scrape:stove": "node scrapers/stove.js",
+    "scrape:all": "npm run scrape:steamapp && npm run scrape:quasarplay && npm run scrape:directg && npm run scrape:stove",
+    "merge": "node scripts/merge.js",
+    "resolve-links": "node scripts/resolve-links.js",
+    "resolve-links:verify": "node scripts/resolve-links.js --verify",
+    "build": "npm run scrape:all && npm run merge",
+    "build:full": "npm run scrape:all && npm run resolve-links && npm run merge"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

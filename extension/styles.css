@@ -1,0 +1,84 @@
+.kr-patch-banner {
+    background: linear-gradient(135deg, #1b2838 0%, #2a475e 100%);
+    border: 1px solid #4a90d9;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 15px;
+    font-family: "Motiva Sans", Arial, sans-serif;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.kr-patch-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.kr-patch-icon {
+    font-size: 24px;
+}
+
+.kr-patch-title {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    flex-grow: 1;
+}
+
+.kr-patch-type {
+    padding: 4px 10px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.kr-patch-type.official {
+    background-color: #4caf50;
+    color: #ffffff;
+}
+
+.kr-patch-type.user {
+    background-color: #66c0f4;
+    color: #1b2838;
+}
+
+.kr-patch-sources {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 10px;
+}
+
+.kr-patch-source {
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-size: 11px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.kr-patch-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.kr-patch-link {
+    display: inline-block;
+    padding: 8px 16px;
+    background: linear-gradient(90deg, #47bfff 0%, #1a44c2 60%);
+    border-radius: 3px;
+    color: #ffffff !important;
+    text-decoration: none !important;
+    font-size: 13px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.kr-patch-link:hover {
+    background: linear-gradient(90deg, #66c0f4 0%, #4a90d9 60%);
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steam 한국어 패치 정보</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            width: 320px;
+            font-family: "Malgun Gothic", "맑은 고딕", sans-serif;
+            background: linear-gradient(135deg, #1b2838 0%, #2a475e 100%);
+            color: #c7d5e0;
+            padding: 16px;
+        }
+        
+        .header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 16px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid #4a90d9;
+        }
+        
+        .header-icon {
+            font-size: 28px;
+        }
+        
+        .header-title {
+            font-size: 16px;
+            font-weight: bold;
+            color: #ffffff;
+        }
+        
+        .stats {
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 4px;
+            padding: 12px;
+            margin-bottom: 12px;
+        }
+        
+        .stat-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 6px;
+        }
+        
+        .stat-item:last-child {
+            margin-bottom: 0;
+        }
+        
+        .stat-label {
+            color: #8f98a0;
+        }
+        
+        .stat-value {
+            color: #66c0f4;
+            font-weight: bold;
+        }
+        
+        .btn {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            margin-bottom: 8px;
+        }
+        
+        .btn-primary {
+            background: linear-gradient(90deg, #47bfff 0%, #1a44c2 60%);
+            color: #ffffff;
+        }
+        
+        .btn-primary:hover {
+            background: linear-gradient(90deg, #66c0f4 0%, #4a90d9 60%);
+        }
+        
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.1);
+            color: #c7d5e0;
+            border: 1px solid #4a90d9;
+        }
+        
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+        
+        .status {
+            text-align: center;
+            font-size: 12px;
+            color: #8f98a0;
+            margin-top: 8px;
+        }
+        
+        .status.success {
+            color: #4caf50;
+        }
+        
+        .status.error {
+            color: #e74c3c;
+        }
+        
+        .footer {
+            margin-top: 12px;
+            padding-top: 12px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            font-size: 11px;
+            color: #8f98a0;
+            text-align: center;
+        }
+        
+        .footer a {
+            color: #66c0f4;
+            text-decoration: none;
+        }
+        
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <span class="header-icon">🇰🇷</span>
+        <span class="header-title">Steam 한국어 패치 정보</span>
+    </div>
+    
+    <div class="stats">
+        <div class="stat-item">
+            <span class="stat-label">등록된 게임</span>
+            <span class="stat-value" id="gameCount">-</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-label">마지막 업데이트</span>
+            <span class="stat-value" id="lastUpdate">-</span>
+        </div>
+    </div>
+    
+    <button class="btn btn-primary" id="refreshBtn">
+        🔄 데이터 새로고침
+    </button>
+    
+    <button class="btn btn-secondary" id="githubBtn">
+        📂 GitHub 저장소
+    </button>
+    
+    <div class="status" id="status"></div>
+    
+    <div class="footer">
+        데이터 출처: SteamApp, QuasarPlay, DirectG, STOVE<br>
+        <a href="https://github.com/USER/Steam_KRLocInfo" target="_blank">GitHub</a>
+    </div>
+    
+    <script src="popup.js"></script>
+</body>
+</html>
