@@ -59000,27 +59000,33 @@
     "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "links": [
       "https://directg.net/game/game_page.html?product_code=50001890",
-      "https://www.directg.net/game/game_page.html?product_code=50001890"
+      "https://www.directg.net/game/game_page.html?product_code=50001890",
+      "https://www.directg.net/game/game_view.html?product_id=07c1a063-e4e8-440a-ae32-5d1017ba93fd&sku=ec8c0cca-5992-432b-af4f-050ea36a85ab&platform=1"
     ],
     "patch_descriptions": [
       "다이렉트 게임즈 독점 한국어화",
-      "다이렉트 게임즈 구매 시 한국어"
+      "다이렉트 게임즈 구매 시 한국어",
+      ""
     ],
     "patch_sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "sources_with_links": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/817540",
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=SpellForce%203%3A%20Soul%20Harvest"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=SpellForce%203%3A%20Soul%20Harvest",
+      "directg": "https://www.directg.net/game/game_view.html?product_id=07c1a063-e4e8-440a-ae32-5d1017ba93fd&sku=ec8c0cca-5992-432b-af4f-050ea36a85ab&platform=1"
     },
     "description": "SA: 다이렉트 게임즈 독점 한국어화"
   },
@@ -132441,7 +132447,7 @@
     "description": ""
   },
   "_meta": {
-    "generated_at": "2026-01-09T13:20:17.143Z",
+    "generated_at": "2026-01-09T13:24:38.589Z",
     "total": 6954
   }
 }
