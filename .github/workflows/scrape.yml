@@ -64,6 +64,7 @@ jobs:
         if: github.event.inputs.scraper == 'all' || github.event.inputs.scraper == 'quasarplay' || github.event_name == 'schedule'
         env:
           TWO_CAPTCHA_API_KEY: ${{ secrets.TWO_CAPTCHA_API_KEY }}
+          QUASARPLAY_COOKIE: ${{ secrets.QUASARPLAY_COOKIE }}
         run: npm run scrape:quasarplay
         continue-on-error: true
         

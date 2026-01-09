@@ -41,6 +41,18 @@ def create_scraper():
         },
         captcha=captcha_config
     )
+
+    # Load cookies from env if present (fallback for 403)
+    cookie_str = os.environ.get('QUASARPLAY_COOKIE')
+    if cookie_str:
+        cookies = {}
+        for part in cookie_str.split(';'):
+            if '=' in part:
+                name, value = part.strip().split('=', 1)
+                cookies[name] = value
+        scraper.cookies.update(cookies)
+        print(f"Loaded {len(cookies)} cookies from QUASARPLAY_COOKIE")
+
     return scraper
 
 def scrape_page(scraper, page_num):
@@ -51,6 +63,9 @@ def scrape_page(scraper, page_num):
         response = scraper.get(url)
         if response.status_code != 200:
             print(f"Failed to fetch page {page_num}: {response.status_code}")
+            # Debug: Print headers and small body snippet
+            print("Response Headers:", dict(response.headers))
+            print("Response Body Snippet:", response.text[:500])
             return []
 
         soup = BeautifulSoup(response.text, 'html.parser')
