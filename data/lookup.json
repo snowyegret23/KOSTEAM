@@ -8606,25 +8606,31 @@
     "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "links": [
       "https://www.directg.net/game/game_page.html?product_code=50005029",
-      "https://gall.dcinside.com/m/aoegame/27676538"
+      "https://gall.dcinside.com/m/aoegame/27676538",
+      "https://www.directg.net/game/game_view.html?product_id=1862855a-3c54-4289-8281-22157da87fdb&sku=5274d043-febe-4a77-8a82-5237b52e842d&platform=1"
     ],
     "patch_descriptions": [
       "다이렉트 게임즈에서 구매 시 한국어 패치 제공",
-      "브리그모어의 마녀들 DLC 유저 한글 패치"
+      "브리그모어의 마녀들 DLC 유저 한글 패치",
+      ""
     ],
     "patch_sources": [
       "quasarplay",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Dishonored"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Dishonored",
+      "directg": "https://www.directg.net/game/game_view.html?product_id=1862855a-3c54-4289-8281-22157da87fdb&sku=5274d043-febe-4a77-8a82-5237b52e842d&platform=1"
     },
     "description": "SA: 정발패키지, 다이렉트 게임즈 구매시 한글"
   },
@@ -11916,27 +11922,33 @@
     "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "links": [
       "https://directg.net/game/game_page.html?product_code=10000451",
-      "https://directg.net/game/game_page.html?product_code=10000451"
+      "https://directg.net/game/game_page.html?product_code=10000451",
+      "https://www.directg.net/game/game_view.html?product_id=2a632616-5fe7-4db6-a136-8b3edf531ff8&sku=446aaf1b-f08e-45c7-897d-6860eb7eb132&platform=1"
     ],
     "patch_descriptions": [
       "다이렉트 게임즈 독점 한국어화",
-      "정발 패키지 & 다이렉트 게임즈 구매 시 한국어 지원,"
+      "정발 패키지 & 다이렉트 게임즈 구매 시 한국어 지원,",
+      ""
     ],
     "patch_sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "sources_with_links": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/231330",
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Deadfall%20Adventures"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Deadfall%20Adventures",
+      "directg": "https://www.directg.net/game/game_view.html?product_id=2a632616-5fe7-4db6-a136-8b3edf531ff8&sku=446aaf1b-f08e-45c7-897d-6860eb7eb132&platform=1"
     },
     "description": "SA: 다이렉트 게임즈 독점 한국어화"
   },
@@ -13105,27 +13117,33 @@
     "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "links": [
       "https://directg.net/game/game_page.html?product_code=10000540",
-      "https://www.directg.net/game/game_page.html?product_code=10000540"
+      "https://www.directg.net/game/game_page.html?product_code=10000540",
+      "https://www.directg.net/game/game_view.html?product_id=e1d98b1b-3121-48af-b3f4-5f46e0b2bb88&sku=c441ea96-73b2-4635-ae9f-387a2cce5d40&platform=1"
     ],
     "patch_descriptions": [
       "다이렉트 게임즈 독점 한국어화",
-      "다이렉트 게임즈 독점 한국어화,"
+      "다이렉트 게임즈 독점 한국어화,",
+      ""
     ],
     "patch_sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "sources_with_links": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/240760",
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Wasteland%202%3A%20Director's%20Cut"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Wasteland%202%3A%20Director's%20Cut",
+      "directg": "https://www.directg.net/game/game_view.html?product_id=e1d98b1b-3121-48af-b3f4-5f46e0b2bb88&sku=c441ea96-73b2-4635-ae9f-387a2cce5d40&platform=1"
     },
     "description": "SA: 다이렉트 게임즈 독점 한국어화"
   },
@@ -15299,30 +15317,36 @@
     "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "links": [
       "https://blog.naver.com/freemagick/220202722325",
       "https://www.directg.net/game/game_page.html?product_code=10001256",
-      "https://blog.naver.com/freemagick/220202722325"
+      "https://blog.naver.com/freemagick/220202722325",
+      "https://www.directg.net/game/game_view.html?product_id=f500b901-daae-4414-94bb-1266da038343&sku=e917a7db-9834-4517-9145-39a113bae33f&platform=1"
     ],
     "patch_descriptions": [
       "prelude님 제작",
       "다이렉트 게임즈 독점 한국어 패치 제공,",
-      "유저 한국어 패치 - 차민수 님,"
+      "유저 한국어 패치 - 차민수 님,",
+      ""
     ],
     "patch_sources": [
       "steamapp",
       "quasarplay",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "sources_with_links": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/258520",
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=The%20Vanishing%20of%20Ethan%20Carter"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=The%20Vanishing%20of%20Ethan%20Carter",
+      "directg": "https://www.directg.net/game/game_view.html?product_id=f500b901-daae-4414-94bb-1266da038343&sku=e917a7db-9834-4517-9145-39a113bae33f&platform=1"
     },
     "description": "SA: prelude님 제작"
   },
@@ -15722,27 +15746,33 @@
     "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "links": [
       "https://directg.net/game/game_page.html?product_code=10001143",
-      "https://directg.net/game/game_page.html?product_code=10001143"
+      "https://directg.net/game/game_page.html?product_code=10001143",
+      "https://www.directg.net/game/game_view.html?product_id=e9f40c34-954f-40ee-ab54-c99e7e2b1af0&sku=aa5c79cb-1068-4061-985d-ca94cef1ead5&platform=1"
     ],
     "patch_descriptions": [
       "다이렉트 게임즈 독점 한국어화",
-      "다이렉트 게임즈에서 구매 시에만 한국어 지원,"
+      "다이렉트 게임즈에서 구매 시에만 한국어 지원,",
+      ""
     ],
     "patch_sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "sources_with_links": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/262280",
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Dungeons%202"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Dungeons%202",
+      "directg": "https://www.directg.net/game/game_view.html?product_id=e9f40c34-954f-40ee-ab54-c99e7e2b1af0&sku=aa5c79cb-1068-4061-985d-ca94cef1ead5&platform=1"
     },
     "description": "SA: 다이렉트 게임즈 독점 한국어화"
   },
@@ -16128,22 +16158,28 @@
     "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "links": [
-      "https://directg.net/game/game_page.html?product_code=10000948"
+      "https://directg.net/game/game_page.html?product_code=10000948",
+      "https://www.directg.net/game/game_view.html?product_id=6b55d37f-d9fa-4395-ba05-a9e2c7b1d890&sku=93840b7b-ff31-4053-b318-05f5b192a04f&platform=1"
     ],
     "patch_descriptions": [
-      "정발 패키지 & 다이렉트 게임즈 구매 시 한국어 패치 제공,"
+      "정발 패키지 & 다이렉트 게임즈 구매 시 한국어 패치 제공,",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=The%20Evil%20Within"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=The%20Evil%20Within",
+      "directg": "https://www.directg.net/game/game_view.html?product_id=6b55d37f-d9fa-4395-ba05-a9e2c7b1d890&sku=93840b7b-ff31-4053-b318-05f5b192a04f&platform=1"
     },
     "description": "SA: 정발 및 DirectG 구입시 지원"
   },
@@ -16495,22 +16531,28 @@
     "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "links": [
-      "https://www.directg.net/game/game_page.html?product_code=50001421"
+      "https://www.directg.net/game/game_page.html?product_code=50001421",
+      "https://www.directg.net/game/game_view.html?product_id=eaec72e0-c669-442b-9ee9-65c3be51d700&sku=76ba804d-eb5a-4973-ab32-6b0397b618e2&platform=1"
     ],
     "patch_descriptions": [
-      "다이렉트 게임즈 구매 시 한국어"
+      "다이렉트 게임즈 구매 시 한국어",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Torment%3A%20Tides%20of%20Numenera"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Torment%3A%20Tides%20of%20Numenera",
+      "directg": "https://www.directg.net/game/game_view.html?product_id=eaec72e0-c669-442b-9ee9-65c3be51d700&sku=76ba804d-eb5a-4973-ab32-6b0397b618e2&platform=1"
     },
     "description": ""
   },
@@ -17167,27 +17209,33 @@
     "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "links": [
       "https://directg.net/game/game_page.html?product_code=50001391",
-      "https://www.directg.net/game/game_page.html?product_code=50001391"
+      "https://www.directg.net/game/game_page.html?product_code=50001391",
+      "https://www.directg.net/game/game_view.html?product_id=9c420a52-1d8a-4e17-bc72-202e9b0e1f6f&sku=fbbe6921-0b5b-4c9b-8e3f-a4a6cc354399&platform=1"
     ],
     "patch_descriptions": [
       "다이렉트 게임즈 독점 한국어화",
-      "다이렉트 게임즈 구매 시 한국어"
+      "다이렉트 게임즈 구매 시 한국어",
+      ""
     ],
     "patch_sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "sources_with_links": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/280180",
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Hover"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Hover",
+      "directg": "https://www.directg.net/game/game_view.html?product_id=9c420a52-1d8a-4e17-bc72-202e9b0e1f6f&sku=fbbe6921-0b5b-4c9b-8e3f-a4a6cc354399&platform=1"
     },
     "description": "SA: 다이렉트 게임즈 독점 한국어화"
   },
@@ -18414,27 +18462,33 @@
     "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "links": [
       "https://directg.net/game/game_page.html?product_code=10001394",
-      "https://www.directg.net/game/game_page.html?product_code=10001394"
+      "https://www.directg.net/game/game_page.html?product_code=10001394",
+      "https://www.directg.net/game/game_view.html?product_id=0604b3ac-690c-4870-83c7-7ccf6606d8df&sku=e8531d98-5aa1-4680-b907-5245b58f4ee7&platform=1"
     ],
     "patch_descriptions": [
       "다이렉트 게임즈 독점 한국어화",
-      "정발 패키지 & 다이렉트 게임즈 구매 시 한국어 지원"
+      "정발 패키지 & 다이렉트 게임즈 구매 시 한국어 지원",
+      ""
     ],
     "patch_sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "sources_with_links": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/290790",
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Grey%20Goo"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Grey%20Goo",
+      "directg": "https://www.directg.net/game/game_view.html?product_id=0604b3ac-690c-4870-83c7-7ccf6606d8df&sku=e8531d98-5aa1-4680-b907-5245b58f4ee7&platform=1"
     },
     "description": "SA: 다이렉트 게임즈 독점 한국어화"
   },
@@ -19278,36 +19332,42 @@
   },
   "304240": {
     "title": "biohazard HD REMASTER",
-    "type": "user",
+    "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "links": [
       "https://emuland.tistory.com/37",
       "https://lastkingdom.tistory.com/1256",
       "https://emuland.tistory.com/37",
-      "https://bbs.ruliweb.com/family/508/board/102916/read/9404950"
+      "https://bbs.ruliweb.com/family/508/board/102916/read/9404950",
+      "https://www.directg.net/game/game_view.html?product_id=4b38e684-ed62-4a60-b952-d3b64e7a5445&sku=5f93ffd4-db8d-40ca-87a1-18c3397ec1f6&platform=1"
     ],
     "patch_descriptions": [
       "",
       "",
       "유저 한글 패치 - 촌닭투",
-      "오류 리팩 파일 - 패킹왕자"
+      "오류 리팩 파일 - 패킹왕자",
+      ""
     ],
     "patch_sources": [
       "steamapp",
       "steamapp",
       "quasarplay",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "sources_with_links": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/304240",
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=biohazard%20HD%20REMASTER"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=biohazard%20HD%20REMASTER",
+      "directg": "https://www.directg.net/game/game_view.html?product_id=4b38e684-ed62-4a60-b952-d3b64e7a5445&sku=5f93ffd4-db8d-40ca-87a1-18c3397ec1f6&platform=1"
     },
     "description": ""
   },
@@ -19949,27 +20009,33 @@
     "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "links": [
       "https://directg.net/game/game_page.html?product_code=50001542",
-      "https://www.directg.net/game/game_page.html?product_code=50001542"
+      "https://www.directg.net/game/game_page.html?product_code=50001542",
+      "https://www.directg.net/game/game_view.html?product_id=85ac1aae-e234-4425-9853-f980d6116080&sku=53f074af-081e-4c54-bdc2-b04476d3bd1e&platform=1"
     ],
     "patch_descriptions": [
       "다이렉트 게임즈 독점 한국어화",
-      "다이렉트 게임즈 구매 시 한국어"
+      "다이렉트 게임즈 구매 시 한국어",
+      ""
     ],
     "patch_sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "sources_with_links": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/311290",
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=SpellForce%203%20Reforced"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=SpellForce%203%20Reforced",
+      "directg": "https://www.directg.net/game/game_view.html?product_id=85ac1aae-e234-4425-9853-f980d6116080&sku=53f074af-081e-4c54-bdc2-b04476d3bd1e&platform=1"
     },
     "description": "SA: 다이렉트 게임즈 독점 한국어화"
   },
@@ -23174,6 +23240,29 @@
     "source_site_urls": {},
     "description": ""
   },
+  "345180": {
+    "title": "빅터 브란",
+    "type": "official",
+    "sources": [
+      "directg"
+    ],
+    "links": [
+      "https://www.directg.net/game/game_view.html?product_id=656c43f0-50f7-4c4d-97bb-8339202f0508&sku=3de8c255-3048-4376-a37b-df29eda95bf5&platform=1"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "directg"
+    ],
+    "sources_with_links": [
+      "directg"
+    ],
+    "source_site_urls": {
+      "directg": "https://www.directg.net/game/game_view.html?product_id=656c43f0-50f7-4c4d-97bb-8339202f0508&sku=3de8c255-3048-4376-a37b-df29eda95bf5&platform=1"
+    },
+    "description": ""
+  },
   "345350": {
     "title": "LIGHTNING RETURNS™: FINAL FANTASY® XIII",
     "type": "official",
@@ -23845,13 +23934,24 @@
     "title": "Urban Empire",
     "type": "official",
     "sources": [
-      "steamapp"
+      "steamapp",
+      "directg"
     ],
-    "links": [],
-    "patch_descriptions": [],
-    "patch_sources": [],
-    "sources_with_links": [],
-    "source_site_urls": {},
+    "links": [
+      "https://www.directg.net/game/game_view.html?product_id=7fe7d388-45ea-4202-a0d1-5e19b58ae0de&sku=2c9157fc-5df0-487c-bc8f-59db5a3dfef7&platform=1"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "directg"
+    ],
+    "sources_with_links": [
+      "directg"
+    ],
+    "source_site_urls": {
+      "directg": "https://www.directg.net/game/game_view.html?product_id=7fe7d388-45ea-4202-a0d1-5e19b58ae0de&sku=2c9157fc-5df0-487c-bc8f-59db5a3dfef7&platform=1"
+    },
     "description": ""
   },
   "352720": {
@@ -26757,27 +26857,33 @@
     "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "links": [
       "https://directgames.co.kr/game/game_page.html?product_code=10001495",
-      "https://www.directg.net/game/game_page.html?product_code=10001495"
+      "https://www.directg.net/game/game_page.html?product_code=10001495",
+      "https://www.directg.net/game/game_view.html?product_id=bce15fd3-1ed4-4520-b410-445069415119&sku=af679336-f75e-4e84-b7dd-76143d95ece9&platform=1"
     ],
     "patch_descriptions": [
       "DirectG에서 구입시 한글",
-      "다이렉트 게임즈에서 구매 시 한국어 지원,"
+      "다이렉트 게임즈에서 구매 시 한국어 지원,",
+      ""
     ],
     "patch_sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "sources_with_links": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/380750",
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Anima%3A%20Gate%20of%20Memories"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Anima%3A%20Gate%20of%20Memories",
+      "directg": "https://www.directg.net/game/game_view.html?product_id=bce15fd3-1ed4-4520-b410-445069415119&sku=af679336-f75e-4e84-b7dd-76143d95ece9&platform=1"
     },
     "description": "SA: DirectG에서 구입시 한글"
   },
@@ -26867,6 +26973,52 @@
     ],
     "source_site_urls": {
       "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Eco"
+    },
+    "description": ""
+  },
+  "382400": {
+    "title": "던전스 2 - 겨울의 게임",
+    "type": "official",
+    "sources": [
+      "directg"
+    ],
+    "links": [
+      "https://www.directg.net/game/dlc_view.html?sku=7143c2da-4d5d-479a-94dd-56e4bf458524&platform=1"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "directg"
+    ],
+    "sources_with_links": [
+      "directg"
+    ],
+    "source_site_urls": {
+      "directg": "https://www.directg.net/game/dlc_view.html?sku=7143c2da-4d5d-479a-94dd-56e4bf458524&platform=1"
+    },
+    "description": ""
+  },
+  "382410": {
+    "title": "던전스 2 - 찬스 오브 드래곤",
+    "type": "official",
+    "sources": [
+      "directg"
+    ],
+    "links": [
+      "https://www.directg.net/game/dlc_view.html?sku=24d7b94c-2f87-4a4d-b6e3-d4df6a28292a&platform=1"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "directg"
+    ],
+    "sources_with_links": [
+      "directg"
+    ],
+    "source_site_urls": {
+      "directg": "https://www.directg.net/game/dlc_view.html?sku=24d7b94c-2f87-4a4d-b6e3-d4df6a28292a&platform=1"
     },
     "description": ""
   },
@@ -27800,6 +27952,29 @@
       "steamapp": "https://steamapp.net/app/389730"
     },
     "description": "SA: 캐릭터 선택 화면 한국어화 (CANTATA Climax님 제작)"
+  },
+  "390180": {
+    "title": "던전스 2 - 모래와 불의 노래",
+    "type": "official",
+    "sources": [
+      "directg"
+    ],
+    "links": [
+      "https://www.directg.net/game/dlc_view.html?sku=d9d634bb-2cc6-4ea3-8070-6a824e1bf301&platform=1"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "directg"
+    ],
+    "sources_with_links": [
+      "directg"
+    ],
+    "source_site_urls": {
+      "directg": "https://www.directg.net/game/dlc_view.html?sku=d9d634bb-2cc6-4ea3-8070-6a824e1bf301&platform=1"
+    },
+    "description": ""
   },
   "390200": {
     "title": "Queen's Quest: Tower of Darkness",
@@ -29222,27 +29397,33 @@
     "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "links": [
       "https://directg.net/game/game_page.html?product_code=50001168",
-      "https://www.directg.net/game/game_page.html?product_code=50001168"
+      "https://www.directg.net/game/game_page.html?product_code=50001168",
+      "https://www.directg.net/game/game_view.html?product_id=8a4efe3e-a2f5-4763-aad2-fbecb44295ad&sku=803d21a2-6f28-44be-8609-6b7878590fa5&platform=1"
     ],
     "patch_descriptions": [
       "다이렉트 게임즈 구매시 한국어화 패치 제공",
-      "다이렉트 게임즈에서 구매 시 한국어 패치 제공,"
+      "다이렉트 게임즈에서 구매 시 한국어 패치 제공,",
+      ""
     ],
     "patch_sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "sources_with_links": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/403640",
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Dishonored%202"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Dishonored%202",
+      "directg": "https://www.directg.net/game/game_view.html?product_id=8a4efe3e-a2f5-4763-aad2-fbecb44295ad&sku=803d21a2-6f28-44be-8609-6b7878590fa5&platform=1"
     },
     "description": "SA: 다이렉트 게임즈 구매시 한국어화 패치 제공"
   },
@@ -29251,27 +29432,33 @@
     "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "links": [
       "https://directg.net/game/game_page.html?product_code=50001234",
-      "https://www.directg.net/game/game_page.html?product_code=50001234"
+      "https://www.directg.net/game/game_page.html?product_code=50001234",
+      "https://www.directg.net/game/game_view.html?product_id=dc1be395-31a5-471a-94b3-a27383c401ce&sku=c2c6b594-7267-4258-adcc-62cd966161ee&platform=1"
     ],
     "patch_descriptions": [
       "다이렉트 게임즈 독점 한국어화",
-      "다이렉트 게임즈 구매 시 한국어"
+      "다이렉트 게임즈 구매 시 한국어",
+      ""
     ],
     "patch_sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "sources_with_links": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/403970",
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=The%20Dwarves"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=The%20Dwarves",
+      "directg": "https://www.directg.net/game/game_view.html?product_id=dc1be395-31a5-471a-94b3-a27383c401ce&sku=c2c6b594-7267-4258-adcc-62cd966161ee&platform=1"
     },
     "description": "SA: 다이렉트 게임즈 독점 한국어화"
   },
@@ -29305,22 +29492,28 @@
     "title": "Vikings - Wolves of Midgard",
     "type": "official",
     "sources": [
-      "steamapp"
+      "steamapp",
+      "directg"
     ],
     "links": [
-      "https://directg.net/game/game_page.html?product_code=50001327"
+      "https://directg.net/game/game_page.html?product_code=50001327",
+      "https://www.directg.net/game/game_view.html?product_id=f0586696-b9b3-4db7-8b64-4ab401f2d5fa&sku=a49193e3-3302-434c-8cc7-236d4edad7b8&platform=1"
     ],
     "patch_descriptions": [
-      "다이렉트 게임즈 독점 한국어화"
+      "다이렉트 게임즈 독점 한국어화",
+      ""
     ],
     "patch_sources": [
-      "steamapp"
+      "steamapp",
+      "directg"
     ],
     "sources_with_links": [
-      "steamapp"
+      "steamapp",
+      "directg"
     ],
     "source_site_urls": {
-      "steamapp": "https://steamapp.net/app/404590"
+      "steamapp": "https://steamapp.net/app/404590",
+      "directg": "https://www.directg.net/game/game_view.html?product_id=f0586696-b9b3-4db7-8b64-4ab401f2d5fa&sku=a49193e3-3302-434c-8cc7-236d4edad7b8&platform=1"
     },
     "description": "SA: 다이렉트 게임즈 독점 한국어화"
   },
@@ -29926,27 +30119,33 @@
     "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "links": [
       "https://directg.net/game/game_page.html?product_code=50001604",
-      "https://directg.net/game/game_page.html?product_code=50001604"
+      "https://directg.net/game/game_page.html?product_code=50001604",
+      "https://www.directg.net/game/game_view.html?product_id=85a1c6f1-c892-4e09-96f0-35b5e50c677d&sku=4708d1e0-494c-4fab-93f8-9e8a2cf7f233&platform=1"
     ],
     "patch_descriptions": [
       "다이렉트 게임즈 독점 한국어화",
-      "다이렉트 게임즈 구매 시 한국어"
+      "다이렉트 게임즈 구매 시 한국어",
+      ""
     ],
     "patch_sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "sources_with_links": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/411300",
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=ELEX"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=ELEX",
+      "directg": "https://www.directg.net/game/game_view.html?product_id=85a1c6f1-c892-4e09-96f0-35b5e50c677d&sku=4708d1e0-494c-4fab-93f8-9e8a2cf7f233&platform=1"
     },
     "description": "SA: 다이렉트 게임즈 독점 한국어화"
   },
@@ -32872,27 +33071,33 @@
     "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "links": [
       "https://directg.net/game/game_page.html?product_code=50001301",
-      "https://www.directg.net/game/game_page.html?product_code=50001301"
+      "https://www.directg.net/game/game_page.html?product_code=50001301",
+      "https://www.directg.net/game/game_view.html?product_id=846e35bf-16da-4913-94e0-3faba7ae0ff5&sku=632f827e-ab2e-40a8-abbd-685eed141df5&platform=1"
     ],
     "patch_descriptions": [
       "다이렉트 게임즈 독점 한국어화",
-      "다이렉트 게임즈 구매 시 한국어"
+      "다이렉트 게임즈 구매 시 한국어",
+      ""
     ],
     "patch_sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "sources_with_links": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/446840",
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Splasher"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Splasher",
+      "directg": "https://www.directg.net/game/game_view.html?product_id=846e35bf-16da-4913-94e0-3faba7ae0ff5&sku=632f827e-ab2e-40a8-abbd-685eed141df5&platform=1"
     },
     "description": "SA: 다이렉트 게임즈 독점 한국어화"
   },
@@ -33280,27 +33485,33 @@
     "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "links": [
       "https://directg.net/game/game_page.html?product_code=10001498",
-      "https://directg.net/game/game_page.html?product_code=10001498"
+      "https://directg.net/game/game_page.html?product_code=10001498",
+      "https://www.directg.net/game/game_view.html?product_id=a29d3b2b-309d-4329-93b0-0fc1d23ecb91&sku=83362c5d-9caf-4e33-8648-3e473fc2138b&platform=1"
     ],
     "patch_descriptions": [
       "다이렉트 게임즈 독점 한국어화",
-      "다이렉트 게임즈 구매 시 한국어"
+      "다이렉트 게임즈 구매 시 한국어",
+      ""
     ],
     "patch_sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "sources_with_links": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/452510",
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=UNDER%20NIGHT%20IN-BIRTH%20Exe%3ALate"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=UNDER%20NIGHT%20IN-BIRTH%20Exe%3ALate",
+      "directg": "https://www.directg.net/game/game_view.html?product_id=a29d3b2b-309d-4329-93b0-0fc1d23ecb91&sku=83362c5d-9caf-4e33-8648-3e473fc2138b&platform=1"
     },
     "description": "SA: 다이렉트 게임즈 독점 한국어화"
   },
@@ -34084,27 +34295,33 @@
     "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "links": [
       "https://directg.net/game/game_page.html?product_code=50001532",
-      "https://www.directg.net/game/game_page.html?product_code=50001532"
+      "https://www.directg.net/game/game_page.html?product_code=50001532",
+      "https://www.directg.net/game/game_view.html?product_id=70a3c613-941c-44db-8a90-1281ea002bce&sku=11f7adca-1070-4b31-bcb3-84d602607251&platform=1"
     ],
     "patch_descriptions": [
       "다이렉트 게임즈 독점 한국어화",
-      "다이렉트 게임즈 구매 시 한국어"
+      "다이렉트 게임즈 구매 시 한국어",
+      ""
     ],
     "patch_sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "sources_with_links": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/462250",
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Boiling%20Bolt"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Boiling%20Bolt",
+      "directg": "https://www.directg.net/game/game_view.html?product_id=70a3c613-941c-44db-8a90-1281ea002bce&sku=11f7adca-1070-4b31-bcb3-84d602607251&platform=1"
     },
     "description": "SA: 다이렉트 게임즈 독점 한국어화"
   },
@@ -35232,27 +35449,33 @@
     "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "links": [
       "https://directg.net/game/game_page.html?product_code=50001356",
-      "https://www.directg.net/game/game_page.html?product_code=50001356"
+      "https://www.directg.net/game/game_page.html?product_code=50001356",
+      "https://www.directg.net/game/game_view.html?product_id=634121d7-fa60-48e5-b065-d143370434e6&sku=a71545be-7d28-41c3-8186-18238e1854ec&platform=1"
     ],
     "patch_descriptions": [
       "다이렉트 게임즈 독점 한국어화",
-      "다이렉트 게임즈 구매 시 독점 한국어 패치 제공,"
+      "다이렉트 게임즈 구매 시 독점 한국어 패치 제공,",
+      ""
     ],
     "patch_sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "sources_with_links": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/480490",
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Prey"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Prey",
+      "directg": "https://www.directg.net/game/game_view.html?product_id=634121d7-fa60-48e5-b065-d143370434e6&sku=a71545be-7d28-41c3-8186-18238e1854ec&platform=1"
     },
     "description": "SA: 다이렉트 게임즈 독점 한국어화"
   },
@@ -37921,27 +38144,33 @@
     "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "links": [
       "https://directg.net/game/game_page.html?product_code=50001577",
-      "https://www.directg.net/game/game_page.html?product_code=50001577"
+      "https://www.directg.net/game/game_page.html?product_code=50001577",
+      "https://www.directg.net/game/game_view.html?product_id=4f42a099-8714-4f08-868b-0bfba86f4ea1&sku=61f32a62-bce6-47eb-937b-f2a7bc776474&platform=1"
     ],
     "patch_descriptions": [
       "다이렉트 게임즈 독점 한국어화",
-      "다이렉트 게임즈 구매 시 한국어"
+      "다이렉트 게임즈 구매 시 한국어",
+      ""
     ],
     "patch_sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "sources_with_links": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/520670",
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Strikers%20Edge"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Strikers%20Edge",
+      "directg": "https://www.directg.net/game/game_view.html?product_id=4f42a099-8714-4f08-868b-0bfba86f4ea1&sku=61f32a62-bce6-47eb-937b-f2a7bc776474&platform=1"
     },
     "description": "SA: 다이렉트 게임즈 독점 한국어화"
   },
@@ -41341,27 +41570,33 @@
     "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "links": [
       "https://directg.net/game/game_page.html?product_code=50001633",
-      "https://www.directg.net/game/game_page.html?product_code=50001633"
+      "https://www.directg.net/game/game_page.html?product_code=50001633",
+      "https://www.directg.net/game/game_view.html?product_id=38c6747e-0d19-4bea-a799-bf17552b4f7b&sku=9c3c5233-751a-401d-9d91-dc9add71fbec&platform=1"
     ],
     "patch_descriptions": [
       "다이렉트 게임즈 공식 한국어화",
-      "다이렉트 게임즈 및 정발 패키지 구매 시 독점 한국어 지원"
+      "다이렉트 게임즈 및 정발 패키지 구매 시 독점 한국어 지원",
+      ""
     ],
     "patch_sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "sources_with_links": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/560130",
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Pillars%20of%20Eternity%20II%3A%20Deadfire"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Pillars%20of%20Eternity%20II%3A%20Deadfire",
+      "directg": "https://www.directg.net/game/game_view.html?product_id=38c6747e-0d19-4bea-a799-bf17552b4f7b&sku=9c3c5233-751a-401d-9d91-dc9add71fbec&platform=1"
     },
     "description": "SA: 다이렉트 게임즈 공식 한국어화"
   },
@@ -45719,27 +45954,33 @@
     "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "links": [
       "https://directg.net/game/game_page.html?product_code=50001507",
-      "https://www.directg.net/game/game_page.html?product_code=50001507"
+      "https://www.directg.net/game/game_page.html?product_code=50001507",
+      "https://www.directg.net/game/game_view.html?product_id=e9c8a325-7f3d-4c94-997d-47f08df39da9&sku=25d325a9-8968-4d41-a35b-ce39e407bb02&platform=1"
     ],
     "patch_descriptions": [
       "다이렉트 게임즈 독점 한국어화",
-      "※ 다이렉트 게임즈에서 구매 시 한국어 패치 파일 제공"
+      "※ 다이렉트 게임즈에서 구매 시 한국어 패치 파일 제공",
+      ""
     ],
     "patch_sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "sources_with_links": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/612880",
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Wolfenstein%20II%3A%20The%20New%20Colossus"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Wolfenstein%20II%3A%20The%20New%20Colossus",
+      "directg": "https://www.directg.net/game/game_view.html?product_id=e9c8a325-7f3d-4c94-997d-47f08df39da9&sku=25d325a9-8968-4d41-a35b-ce39e407bb02&platform=1"
     },
     "description": "SA: 다이렉트 게임즈 독점 한국어화"
   },
@@ -45813,27 +46054,33 @@
     "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "links": [
       "https://directg.net/game/game_page.html?product_code=50001467",
-      "https://www.directg.net/game/game_page.html?product_code=50001467"
+      "https://www.directg.net/game/game_page.html?product_code=50001467",
+      "https://www.directg.net/game/game_view.html?product_id=6d976f5e-fb7a-4667-b439-19ce503d1e2b&sku=8b3ec080-84e7-4f17-b69b-b0ceeba911ff&platform=1"
     ],
     "patch_descriptions": [
       "디스아너드: 방관자의 죽음 다이렉트 게임즈 독점 한국어화 패치 공개",
-      "다이렉트 게임즈에서 구매 시 한국어 패치 제공,"
+      "다이렉트 게임즈에서 구매 시 한국어 패치 제공,",
+      ""
     ],
     "patch_sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "sources_with_links": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "directg"
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/614570",
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Dishonored%C2%AE%3A%20Death%20of%20the%20Outsider%E2%84%A2"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Dishonored%C2%AE%3A%20Death%20of%20the%20Outsider%E2%84%A2",
+      "directg": "https://www.directg.net/game/game_view.html?product_id=6d976f5e-fb7a-4667-b439-19ce503d1e2b&sku=8b3ec080-84e7-4f17-b69b-b0ceeba911ff&platform=1"
     },
     "description": "SA: 디스아너드: 방관자의 죽음 다이렉트 게임즈 독점 한국어화 패치 공개"
   },
@@ -48668,6 +48915,29 @@
     "patch_sources": [],
     "sources_with_links": [],
     "source_site_urls": {},
+    "description": ""
+  },
+  "650410": {
+    "title": "울펜슈타인 2: 뉴 콜로서스 디지털 디럭스 에디션",
+    "type": "official",
+    "sources": [
+      "directg"
+    ],
+    "links": [
+      "https://www.directg.net/game/game_view.html?product_id=e9c8a325-7f3d-4c94-997d-47f08df39da9&sku=d931e12c-d5ef-4000-86cd-ccf50bffecb7&platform=1"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "directg"
+    ],
+    "sources_with_links": [
+      "directg"
+    ],
+    "source_site_urls": {
+      "directg": "https://www.directg.net/game/game_view.html?product_id=e9c8a325-7f3d-4c94-997d-47f08df39da9&sku=d931e12c-d5ef-4000-86cd-ccf50bffecb7&platform=1"
+    },
     "description": ""
   },
   "650510": {
@@ -53767,6 +54037,29 @@
     "patch_sources": [],
     "sources_with_links": [],
     "source_site_urls": {},
+    "description": ""
+  },
+  "734830": {
+    "title": "필라스 오브 이터니티 2: 데드파이어 - 탐구자, 학살자, 생존자",
+    "type": "official",
+    "sources": [
+      "directg"
+    ],
+    "links": [
+      "https://www.directg.net/game/dlc_view.html?sku=ecf2da30-10b6-4041-a0c5-cee80470c549&platform=1"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "directg"
+    ],
+    "sources_with_links": [
+      "directg"
+    ],
+    "source_site_urls": {
+      "directg": "https://www.directg.net/game/dlc_view.html?sku=ecf2da30-10b6-4041-a0c5-cee80470c549&platform=1"
+    },
     "description": ""
   },
   "735060": {
@@ -59402,6 +59695,52 @@
     },
     "description": ""
   },
+  "821940": {
+    "title": "필라스 오브 이터니티 2: 데드파이어 - 겨울의 짐승",
+    "type": "official",
+    "sources": [
+      "directg"
+    ],
+    "links": [
+      "https://www.directg.net/game/dlc_view.html?sku=48583e52-f1cb-4c97-a9a3-d2fed25d0fcb&platform=1"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "directg"
+    ],
+    "sources_with_links": [
+      "directg"
+    ],
+    "source_site_urls": {
+      "directg": "https://www.directg.net/game/dlc_view.html?sku=48583e52-f1cb-4c97-a9a3-d2fed25d0fcb&platform=1"
+    },
+    "description": ""
+  },
+  "821950": {
+    "title": "필라스 오브 이터니티 2: 데드파이어 - 잊혀진 성소",
+    "type": "official",
+    "sources": [
+      "directg"
+    ],
+    "links": [
+      "https://www.directg.net/game/dlc_view.html?sku=ee8fb2ec-6a77-4eb8-b845-f7dbea982e9f&platform=1"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "directg"
+    ],
+    "sources_with_links": [
+      "directg"
+    ],
+    "source_site_urls": {
+      "directg": "https://www.directg.net/game/dlc_view.html?sku=ee8fb2ec-6a77-4eb8-b845-f7dbea982e9f&platform=1"
+    },
+    "description": ""
+  },
   "822640": {
     "title": "Squids Odyssey",
     "type": "official",
@@ -61073,6 +61412,52 @@
     "source_site_urls": {},
     "description": ""
   },
+  "854220": {
+    "title": "필라스 오브 이터니티 2: 데드파이어 - 시즌 패스",
+    "type": "official",
+    "sources": [
+      "directg"
+    ],
+    "links": [
+      "https://www.directg.net/game/dlc_view.html?sku=6ef4912c-ef0d-4bd1-bf08-093f16f4cf3a&platform=1"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "directg"
+    ],
+    "sources_with_links": [
+      "directg"
+    ],
+    "source_site_urls": {
+      "directg": "https://www.directg.net/game/dlc_view.html?sku=6ef4912c-ef0d-4bd1-bf08-093f16f4cf3a&platform=1"
+    },
+    "description": ""
+  },
+  "854290": {
+    "title": "필라스 오브 이터니티 2: 데드파이어 - 모험가 팩",
+    "type": "official",
+    "sources": [
+      "directg"
+    ],
+    "links": [
+      "https://www.directg.net/game/dlc_view.html?sku=1dcf18c5-05a1-4d20-8eab-6562219ca698&platform=1"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "directg"
+    ],
+    "sources_with_links": [
+      "directg"
+    ],
+    "source_site_urls": {
+      "directg": "https://www.directg.net/game/dlc_view.html?sku=1dcf18c5-05a1-4d20-8eab-6562219ca698&platform=1"
+    },
+    "description": ""
+  },
   "854870": {
     "title": "Perseverance: Part 1",
     "type": "user",
@@ -61797,22 +62182,28 @@
     "title": "Prey - Mooncrash",
     "type": "official",
     "sources": [
-      "steamapp"
+      "steamapp",
+      "directg"
     ],
     "links": [
-      "https://directg.net/game/game_page.html?product_code=50001681"
+      "https://directg.net/game/game_page.html?product_code=50001681",
+      "https://www.directg.net/game/game_view.html?product_id=634121d7-fa60-48e5-b065-d143370434e6&sku=053873ab-7dde-4b77-923e-2aa8d4760ff6&platform=1"
     ],
     "patch_descriptions": [
-      "다이렉트 게임즈 독점 한국어화"
+      "다이렉트 게임즈 독점 한국어화",
+      ""
     ],
     "patch_sources": [
-      "steamapp"
+      "steamapp",
+      "directg"
     ],
     "sources_with_links": [
-      "steamapp"
+      "steamapp",
+      "directg"
     ],
     "source_site_urls": {
-      "steamapp": "https://steamapp.net/app/865670"
+      "steamapp": "https://steamapp.net/app/865670",
+      "directg": "https://www.directg.net/game/game_view.html?product_id=634121d7-fa60-48e5-b065-d143370434e6&sku=053873ab-7dde-4b77-923e-2aa8d4760ff6&platform=1"
     },
     "description": "SA: 다이렉트 게임즈 독점 한국어화"
   },
@@ -132447,7 +132838,7 @@
     "description": ""
   },
   "_meta": {
-    "generated_at": "2026-01-09T13:24:38.589Z",
-    "total": 6954
+    "generated_at": "2026-01-10T09:15:36.131Z",
+    "total": 6964
   }
 }
