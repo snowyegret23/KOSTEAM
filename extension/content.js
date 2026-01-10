@@ -48,7 +48,7 @@
 
         if (hasOfficialKorean) {
             if (hasUserPatches) {
-                return { label: '공식(유저패치 존재)', cssClass: 'official-with-user', color: '#4c9a2a' };
+                return { label: '공식(추가정보 존재)', cssClass: 'official-with-user', color: '#4c9a2a' };
             }
             return { label: '공식', cssClass: 'official-steam', color: '#4c9a2a' };
         }
@@ -175,7 +175,6 @@
                         finalPatchTypeInfo.color = '#4c9a2a';
                     }
                 } else {
-                    // Prefer stove if both indicators exist
                     if (hasStoveLink && descsContain(keywordsStove)) {
                         finalPatchTypeInfo.label = '스토브';
                         finalPatchTypeInfo.cssClass = 'official-stove';
@@ -200,10 +199,11 @@
                 contentHtml = prefaceHtml + '<div class="kr-patch-links-list">';
                 let index = 1;
                 linksBySource.forEach((data, source) => {
-                    const labelPrefix = source === 'stove' ? '스토브' :
-                    source === 'quasarplay' ? '퀘이사플레이' :
-                        source === 'directg' ? '다이렉트게임즈' :
-                            source === 'quasarplay' ? 'quasarplay' : '스팀앱';
+                        const labelPrefix = source === 'stove' ? '스토브' :
+                            source === 'quasarplay' ? '퀘이사플레이' :
+                            source === 'directg' ? '다이렉트게임즈' :
+                            source === 'steamapp' ? '스팀앱' :
+                            source;
 
                     contentHtml += `
                         <div class="kr-patch-link-item">
