@@ -43,7 +43,7 @@
             if (hasUserPatches) {
                 return { label: '공식(추가정보 존재)', cssClass: 'official-with-user', color: '#4c9a2a' };
             }
-            return { label: '공식', cssClass: 'official-steam', color: '#4c9a2a' };
+            return { label: '공식 한국어', cssClass: 'official-steam', color: '#4c9a2a' };
         }
 
         if (hasDirectG) {
@@ -148,7 +148,7 @@
                 linksBySource.forEach((data, source) => {
                         const labelPrefix = source === 'stove' ? '스토브' :
                             source === 'quasarplay' ? '퀘이사플레이' :
-                            source === 'directg' ? '다이렉트게임즈' :
+                            source === 'directg' ? '다이렉트 게임즈' :
                             source === 'steamapp' ? '스팀앱' :
                             source;
 
@@ -168,9 +168,9 @@
                 contentHtml += '</div>';
             } else if (isOfficial) {
                 if (patchTypeInfo.label === '공식지원 추정') {
-                    contentHtml = '<div class="kr-patch-official-text">공식으로 한국어를 지원하는 것으로 추정되는 게임입니다.<br>(한글패치 사이트에 한국어 버전이 존재한다고 제보된 게임)</div>';
+                    contentHtml = '<div class="kr-patch-official-text">한국어를 공식 지원하는 것으로 추정되는 게임입니다.<br>(패치 정보 사이트에 한국어 버전이 존재한다고 제보된 게임)</div>';
                 } else {
-                    contentHtml = '<div class="kr-patch-official-text">공식으로 한국어를 지원하는 게임입니다.</div>';
+                    contentHtml = '<div class="kr-patch-official-text">한국어를 공식 지원하는 게임입니다.</div>';
                 }
             } else if (patchTypeInfo.cssClass === 'none') {
                 contentHtml = '<div class="kr-patch-none-text">현재 데이터베이스에 등록된 한국어 패치 정보가 없습니다.</div>';
