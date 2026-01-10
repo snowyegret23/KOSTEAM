@@ -26,6 +26,15 @@
         "styles.css"
       ],
       "run_at": "document_idle"
+    },
+    {
+      "matches": [
+        "https://store.steampowered.com/*"
+      ],
+      "js": [
+        "search_bypass.js"
+      ],
+      "run_at": "document_start"
     }
   ],
   "action": {

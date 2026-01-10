@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     const sourceIds = ['source_steamapp', 'source_quasarplay', 'source_directg', 'source_stove'];
     const sources = sourceIds.map(id => document.getElementById(id));
+    const bypassCheckbox = document.getElementById('bypass_language_filter');
 
     async function loadStats() {
         try {
@@ -76,9 +77,10 @@ document.addEventListener('DOMContentLoaded', async () => {
             source_steamapp: true,
             source_quasarplay: true,
             source_directg: true,
-            source_stove: true
+            source_stove: true,
+            bypass_language_filter: false
         };
-        const settings = await chrome.storage.local.get(sourceIds);
+        const settings = await chrome.storage.local.get([...sourceIds, 'bypass_language_filter']);
 
         sources.forEach(checkbox => {
             const val = settings[checkbox.id] !== undefined ? settings[checkbox.id] : defaultSettings[checkbox.id];
@@ -87,6 +89,13 @@ document.addEventListener('DOMContentLoaded', async () => {
             checkbox.addEventListener('change', () => {
                 chrome.storage.local.set({ [checkbox.id]: checkbox.checked });
             });
+        });
+
+        bypassCheckbox.checked = settings.bypass_language_filter !== undefined 
+            ? settings.bypass_language_filter 
+            : defaultSettings.bypass_language_filter;
+        bypassCheckbox.addEventListener('change', () => {
+            chrome.storage.local.set({ bypass_language_filter: bypassCheckbox.checked });
         });
     }
 
