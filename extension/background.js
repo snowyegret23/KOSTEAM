@@ -1,4 +1,4 @@
-const REMOTE_BASE_URL = 'https://raw.githubusercontent.com/snowyegret23/Steam_KRLocInfo/refs/heads/main/data';
+const REMOTE_BASE_URL = 'https://raw.githubusercontent.com/snowyegret23/KOSTEAM/refs/heads/main/data';
 const VERSION_URL = `${REMOTE_BASE_URL}/version.json`;
 const DATA_URL = `${REMOTE_BASE_URL}/lookup.json`;
 const ALIAS_URL = `${REMOTE_BASE_URL}/alias.json`;

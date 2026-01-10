@@ -1,97 +1,55 @@
-# Steam 한국어 패치 정보 (Steam_KRLocInfo)
+# KOSTEAM
 
-Steam 스토어 페이지에서 한국어 패치/한글화 정보를 자동으로 표시해주는 Chrome 확장 프로그램 + 데이터 수집 시스템
+Steam 스토어에서 한국어 패치 정보를 표시하고, 언어 필터를 우회하는 Chrome 확장 프로그램
 
-## 기능
+## 주요 기능
 
-- Steam 스토어 게임 페이지 접속 시 한국어 지원 상태 자동 표시
+### 한국어 패치 정보 표시
+- Steam 게임 페이지에서 한국어 지원 상태를 자동으로 표시
 - 공식 한국어 / 유저 한글패치 / DirectG / STOVE 구분
-- 패치 다운로드 링크 및 설명 제공
-- 4개 소스에서 데이터 자동 수집 (SteamApp, QuasarPlay, DirectG, STOVE)
+- 패치 다운로드 링크 바로가기 제공
 
-## Chrome 확장 프로그램 설치
+- Steam 검색 시 언어 필터로 숨겨진 게임들을 모두 표시
+- 카테고리, 장르, 태그 페이지에서도 자동 우회
+- 게임 상세 페이지의 리뷰는 한국어 설정 유지
 
-1. 저장소 클론 또는 다운로드
-2. `chrome://extensions` 접속
-3. 개발자 모드 활성화
-4. "압축해제된 확장 프로그램을 로드합니다" 클릭
-5. `extension` 폴더 선택
+## 설치 방법
 
-## 개발 환경
+1. [Releases](https://github.com/snowyegret23/KOSTEAM/releases)에서 최신 버전 다운로드
+2. 압축 해제
+3. Chrome에서 `chrome://extensions` 접속
+4. 우측 상단 **개발자 모드** 활성화
+5. **압축해제된 확장 프로그램을 로드합니다** 클릭
+6. `extension` 폴더 선택
 
-```bash
-# 요구사항: Node.js 18+
+## 사용 방법
 
-# 의존성 설치
-npm install
-```
+### 팝업 메뉴
+확장 프로그램 아이콘 클릭 시 설정 팝업이 표시됩니다.
 
-## 스크래퍼 실행
-
-```bash
-# 개별 실행
-npm run scrape:steamapp
-npm run scrape:quasarplay
-npm run scrape:directg
-npm run scrape:stove
-
-# 전체 스크랩 + 병합
-npm run build
-
-# 전체 스크랩 + 링크 리다이렉트 해소 + 병합
-npm run build:full
-
-# 병합만
-npm run merge
-
-# Steam 링크 리다이렉트 해소
-npm run resolve-links
-
-# 기존 데이터 Steam 링크 검증
-npm run resolve-links:verify
-```
-
-## 데이터 소스
-
-| 소스 | 설명 |
+| 설정 | 설명 |
 |------|------|
-| SteamApp | steamapp.net |
-| QuasarPlay | quasarplay.com |
-| DirectG | directg.net |
-| STOVE | store.onstove.com |
+| 표시 소스 설정 | 어떤 사이트의 패치 정보를 표시할지 선택 |
+| 검색 언어설정 우회 | Steam 검색/카테고리에서 언어 필터 우회 |
+| 데이터 새로고침 | 최신 패치 정보 데이터 다운로드 |
 
-## 데이터 파일
+### 패치 상태 표시
 
-| 파일 | 설명 |
+| 라벨 | 의미 |
 |------|------|
-| `data/{source}.json` | 각 소스별 원본 데이터 |
-| `data/merged.json` | 전체 병합 데이터 (Steam 링크 유/무 구분) |
-| `data/lookup.json` | AppID 기반 조회용 (확장 프로그램에서 사용) |
-| `data/alias.json` | Steam AppID 리다이렉트 매핑 (구ID → 신ID) |
-| `data/version.json` | 데이터 버전 정보 |
+| 🟢 공식 | Steam 공식 한국어 지원 |
+| 🟢 공식(유저패치 존재) | 공식 지원 + 추가 유저패치 있음 |
+| 🔵 다이렉트 게임즈 | DirectG에서 한국어 버전 판매 |
+| 🟠 스토브 | STOVE에서 한국어 버전 판매 |
+| 🟣 유저패치 | 커뮤니티 한글패치 존재 |
+| 🔴 한국어 없음 | 한국어 정보 없음 |
 
-## GitHub Actions 자동화
+## 데이터 출처
 
-**스케줄:** 매주 화/금/일 06:00 KST (cron: `0 21 * * 1,4,6` UTC)
-
-**수동 실행:** Actions 탭 → "Scrape Korean Patch Info" → Run workflow → 스크래퍼 선택
-
-### 필요한 Secrets
-
-| Secret | 용도 |
-|--------|------|
-| `TWO_CAPTCHA_API_KEY` | 2Captcha API Key |
-| `QUASARPLAY_COOKIE` | QuasarPlay 로그인 세션 (선택) |
-| `QUASARPLAY_PROXY` | 프록시 URL (선택) |
-
-## 패치 타입 분류 로직
-
-1. Steam 공식 한국어 지원 → `공식` (녹색)
-2. DirectG에 존재 → `다이렉트 게임즈` (파랑)
-3. STOVE에 존재 → `스토브` (주황)
-4. DB에 official 타입 → `공식지원 추정` (녹색)
-5. DB에 user 타입 → `유저패치` (보라)
-6. 정보 없음 → `한국어 없음` (빨강)
+- [SteamApp](https://steamapp.net)
+- [QuasarPlay](https://quasarplay.com)
+- [DirectG](https://directg.net)
+- [STOVE](https://store.onstove.com)
 
 ## 라이선스
 

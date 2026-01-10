@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
 
     githubBtn.addEventListener('click', () => {
-        chrome.tabs.create({ url: 'https://github.com/snowyegret23/Steam_KRLocInfo' });
+        chrome.tabs.create({ url: 'https://github.com/snowyegret23/KOSTEAM' });
     });
 
     async function loadSettings() {
@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             source_quasarplay: true,
             source_directg: true,
             source_stove: true,
-            bypass_language_filter: false
+            bypass_language_filter: true
         };
         const settings = await chrome.storage.local.get([...sourceIds, 'bypass_language_filter']);
 

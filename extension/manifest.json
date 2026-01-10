@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Steam 한국어 패치 정보",
+  "name": "KOSTEAM",
   "version": "1.0.0",
   "description": "Steam 스토어 페이지에서 한국어 패치 정보를 확인하세요",
   "permissions": [
