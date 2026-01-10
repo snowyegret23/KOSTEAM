@@ -4746,30 +4746,36 @@
   },
   "35700": {
     "title": "Trine Enchanted Edition",
-    "type": "user",
+    "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
       "http://hangulogame.blogspot.com/2017/05/trine-enchanted-edition.html",
-      "http://hangulogame.blogspot.kr/2017/05/trine-enchanted-edition.html"
+      "http://hangulogame.blogspot.kr/2017/05/trine-enchanted-edition.html",
+      "https://store.onstove.com/ko/games/4855"
     ],
     "patch_descriptions": [
       "번역: 베타겜, 한글로게임\n제작: 한글로게임",
-      "한글로게임"
+      "한글로게임",
+      ""
     ],
     "patch_sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/35700",
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Trine%20Enchanted%20Edition"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Trine%20Enchanted%20Edition",
+      "stove": "https://store.onstove.com/ko/games/4855"
     },
     "description": ""
   },
@@ -14285,33 +14291,39 @@
   },
   "250620": {
     "title": "Among the Sleep - Enhanced Edition",
-    "type": "user",
+    "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
       "https://blog.naver.com/lozeca/221632845841",
       "https://blog.naver.com/lozeca/221632845841",
-      "http://steamcommunity.com/sharedfiles/filedetails/?id=901335441"
+      "http://steamcommunity.com/sharedfiles/filedetails/?id=901335441",
+      "https://store.onstove.com/ko/games/347"
     ],
     "patch_descriptions": [
       "로제카 님 제작",
       "① 유저 한국어 패치 - 로제카 님,",
-      "② 유저 한국어 패치 - Fluffy 님,"
+      "② 유저 한국어 패치 - Fluffy 님,",
+      ""
     ],
     "patch_sources": [
       "steamapp",
       "quasarplay",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/250620",
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Among%20the%20Sleep%20-%20Enhanced%20Edition"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Among%20the%20Sleep%20-%20Enhanced%20Edition",
+      "stove": "https://store.onstove.com/ko/games/347"
     },
     "description": ""
   },
@@ -20148,30 +20160,36 @@
     "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
       "https://topicular.blogspot.com/p/rain-world.html",
       "https://indie.onstove.com/ko/games/25/",
-      "https://topicular.blogspot.com/p/rain-world.html"
+      "https://topicular.blogspot.com/p/rain-world.html",
+      "https://store.onstove.com/ko/games/1905"
     ],
     "patch_descriptions": [
       "topicular님 제작",
       "스토브 독점 한국어화\n\n스팀 비한국어화",
-      "① 유저 한국어 패치 - topicular 님, ② 스토브 인디 한국어화: https://indie.onstove.com/ko/games/25"
+      "① 유저 한국어 패치 - topicular 님, ② 스토브 인디 한국어화: https://indie.onstove.com/ko/games/25",
+      ""
     ],
     "patch_sources": [
       "steamapp",
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/312520",
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Rain%20World"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Rain%20World",
+      "stove": "https://store.onstove.com/ko/games/1905"
     },
     "description": "SA: topicular님 제작"
   },
@@ -20975,30 +20993,36 @@
   },
   "319910": {
     "title": "Trine 3: The Artifacts of Power",
-    "type": "user",
+    "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
       "https://steamcommunity.com/sharedfiles/filedetails/?id=928998545",
-      "http://steamcommunity.com/sharedfiles/filedetails/?id=928998545"
+      "http://steamcommunity.com/sharedfiles/filedetails/?id=928998545",
+      "https://store.onstove.com/ko/games/4853"
     ],
     "patch_descriptions": [
       "번역: Fluffy\n검수: Fluffy\n한글 패치 제작: Fluffy",
-      "Fluffy"
+      "Fluffy",
+      ""
     ],
     "patch_sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/319910",
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Trine%203%3A%20The%20Artifacts%20of%20Power"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Trine%203%3A%20The%20Artifacts%20of%20Power",
+      "stove": "https://store.onstove.com/ko/games/4853"
     },
     "description": ""
   },
@@ -22183,6 +22207,29 @@
     "patch_sources": [],
     "sources_with_links": [],
     "source_site_urls": {},
+    "description": ""
+  },
+  "332490": {
+    "title": "전투 함대 2 (Battle Fleet 2)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/2182"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/2182"
+    },
     "description": ""
   },
   "332570": {
@@ -24031,33 +24078,39 @@
   },
   "353640": {
     "title": "Train Valley",
-    "type": "user",
+    "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3094010829",
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3094010829",
-      "https://indie.onstove.com/ko/games/1677"
+      "https://indie.onstove.com/ko/games/1677",
+      "https://store.onstove.com/ko/games/1677"
     ],
     "patch_descriptions": [
       "제작자 : Magoony",
       "유저 한글 패치 - Magoony",
-      "스토브 인디 한국어 게임"
+      "스토브 인디 한국어 게임",
+      ""
     ],
     "patch_sources": [
       "steamapp",
       "quasarplay",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/353640",
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Train%20Valley"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Train%20Valley",
+      "stove": "https://store.onstove.com/ko/games/1677"
     },
     "description": ""
   },
@@ -25178,30 +25231,36 @@
   },
   "363360": {
     "title": "Interstellar Rift",
-    "type": "user",
+    "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
       "http://cafe.naver.com/spaceengineersforum/10953",
-      "https://steamcommunity.com/sharedfiles/filedetails/?id=1193188521&searchtext"
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=1193188521&searchtext",
+      "https://store.onstove.com/ko/games/161"
     ],
     "patch_descriptions": [
       "WAA서버마스터님 제작",
-      "① 유저 한국어 패치 - 마왕너구리 님,"
+      "① 유저 한국어 패치 - 마왕너구리 님,",
+      ""
     ],
     "patch_sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/363360",
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Interstellar%20Rift"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Interstellar%20Rift",
+      "stove": "https://store.onstove.com/ko/games/161"
     },
     "description": ""
   },
@@ -26222,24 +26281,30 @@
   },
   "373480": {
     "title": "1993 Space Machine",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/718"
+      "https://indie.onstove.com/ko/games/718",
+      "https://store.onstove.com/ko/games/718"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=1993%20Space%20Machine"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=1993%20Space%20Machine",
+      "stove": "https://store.onstove.com/ko/games/718"
     },
     "description": ""
   },
@@ -26394,27 +26459,33 @@
   },
   "375480": {
     "title": "Chronicon",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
       "https://indie.onstove.com/ko/games/1698",
-      "https://blog.naver.com/gusrud6151/223992964724"
+      "https://blog.naver.com/gusrud6151/223992964724",
+      "https://store.onstove.com/ko/games/1698"
     ],
     "patch_descriptions": [
       "스토브 인디 한글판",
-      "※ 스팀 키 미제공 유저 한글 패치 - 한무테"
+      "※ 스팀 키 미제공 유저 한글 패치 - 한무테",
+      ""
     ],
     "patch_sources": [
       "quasarplay",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Chronicon"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Chronicon",
+      "stove": "https://store.onstove.com/ko/games/1698"
     },
     "description": ""
   },
@@ -26472,24 +26543,30 @@
   },
   "376730": {
     "title": "Monument",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/1112"
+      "https://indie.onstove.com/ko/games/1112",
+      "https://store.onstove.com/ko/games/1112"
     ],
     "patch_descriptions": [
-      "※ 스팀 키 미제공"
+      "※ 스팀 키 미제공",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Monument"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Monument",
+      "stove": "https://store.onstove.com/ko/games/1112"
     },
     "description": ""
   },
@@ -26957,22 +27034,28 @@
     "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://drive.google.com/drive/folders/1jcIf6c87QTkShwcNDl-YESxO0fLhSjoG"
+      "https://drive.google.com/drive/folders/1jcIf6c87QTkShwcNDl-YESxO0fLhSjoG",
+      "https://store.onstove.com/ko/games/156"
     ],
     "patch_descriptions": [
-      "① 유저 한국어 패치 - 힛쯔곰 님,"
+      "① 유저 한국어 패치 - 힛쯔곰 님,",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Eco"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Eco",
+      "stove": "https://store.onstove.com/ko/games/156"
     },
     "description": ""
   },
@@ -27211,24 +27294,30 @@
   },
   "383700": {
     "title": "Boneless Zombie",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/922"
+      "https://indie.onstove.com/ko/games/922",
+      "https://store.onstove.com/ko/games/922"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Boneless%20Zombie"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Boneless%20Zombie",
+      "stove": "https://store.onstove.com/ko/games/922"
     },
     "description": ""
   },
@@ -28893,24 +28982,30 @@
   },
   "398850": {
     "title": "Epistory - Typing Chronicles",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/1033"
+      "https://indie.onstove.com/ko/games/1033",
+      "https://store.onstove.com/ko/games/1033"
     ],
     "patch_descriptions": [
-      "※ 스팀 키 미제공"
+      "※ 스팀 키 미제공",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Epistory%20-%20Typing%20Chronicles"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Epistory%20-%20Typing%20Chronicles",
+      "stove": "https://store.onstove.com/ko/games/1033"
     },
     "description": ""
   },
@@ -29838,24 +29933,30 @@
   },
   "407720": {
     "title": "Poker Pretty Girls Battle: Texas Hold'em",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/1056"
+      "https://indie.onstove.com/ko/games/1056",
+      "https://store.onstove.com/ko/games/1056"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Poker%20Pretty%20Girls%20Battle%3A%20Texas%20Hold'em"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Poker%20Pretty%20Girls%20Battle%3A%20Texas%20Hold'em",
+      "stove": "https://store.onstove.com/ko/games/1056"
     },
     "description": ""
   },
@@ -33459,24 +33560,30 @@
   },
   "452440": {
     "title": "Flowers -Le volume sur printemps-",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/1359"
+      "https://indie.onstove.com/ko/games/1359",
+      "https://store.onstove.com/ko/games/1359"
     ],
     "patch_descriptions": [
-      "※ 스팀 키 미제공"
+      "※ 스팀 키 미제공",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Flowers%20-Le%20volume%20sur%20printemps-"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Flowers%20-Le%20volume%20sur%20printemps-",
+      "stove": "https://store.onstove.com/ko/games/1359"
     },
     "description": ""
   },
@@ -34340,24 +34447,30 @@
   },
   "462590": {
     "title": "Taekwondo Grand Prix",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/656"
+      "https://indie.onstove.com/ko/games/656",
+      "https://store.onstove.com/ko/games/656"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Taekwondo%20Grand%20Prix"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Taekwondo%20Grand%20Prix",
+      "stove": "https://store.onstove.com/ko/games/656"
     },
     "description": ""
   },
@@ -34541,27 +34654,33 @@
     "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
       "https://indie.onstove.com/ko/games/51/",
-      "https://indie.onstove.com/ko/games/51"
+      "https://indie.onstove.com/ko/games/51",
+      "https://store.onstove.com/ko/games/51"
     ],
     "patch_descriptions": [
       "스토브 독점 한국어화\n\n스팀 비한국어화",
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/464260",
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Xeno%20Crisis"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Xeno%20Crisis",
+      "stove": "https://store.onstove.com/ko/games/51"
     },
     "description": "SA: 스토브 독점 한국어화\n\n스팀 비한국어화"
   },
@@ -40797,24 +40916,30 @@
   },
   "551860": {
     "title": "Abandon Ship",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/1006"
+      "https://indie.onstove.com/ko/games/1006",
+      "https://store.onstove.com/ko/games/1006"
     ],
     "patch_descriptions": [
-      "※ 스팀 키 미제공"
+      "※ 스팀 키 미제공",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Abandon%20Ship"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Abandon%20Ship",
+      "stove": "https://store.onstove.com/ko/games/1006"
     },
     "description": ""
   },
@@ -40927,24 +41052,30 @@
   },
   "552620": {
     "title": "ATOM RPG: Post-apocalyptic indie game",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/942"
+      "https://indie.onstove.com/ko/games/942",
+      "https://store.onstove.com/ko/games/134"
     ],
     "patch_descriptions": [
-      "본편: https://indie.onstove.com/ko/games/134 서포터 에디션:"
+      "본편: https://indie.onstove.com/ko/games/134 서포터 에디션:",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=ATOM%20RPG%3A%20Post-apocalyptic%20indie%20game"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=ATOM%20RPG%3A%20Post-apocalyptic%20indie%20game",
+      "stove": "https://store.onstove.com/ko/games/134"
     },
     "description": ""
   },
@@ -41725,6 +41856,29 @@
     "patch_sources": [],
     "sources_with_links": [],
     "source_site_urls": {},
+    "description": ""
+  },
+  "562470": {
+    "title": "천사의 제국 4 (Empire of Angels IV)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/3204"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/3204"
+    },
     "description": ""
   },
   "562500": {
@@ -43158,24 +43312,30 @@
   },
   "578540": {
     "title": "Perfect Gold - Yuri Visual Novel",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/2011"
+      "https://indie.onstove.com/ko/games/2011",
+      "https://store.onstove.com/ko/games/1898"
     ],
     "patch_descriptions": [
-      "스팀 키 미제공"
+      "스팀 키 미제공",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Perfect%20Gold%20-%20Yuri%20Visual%20Novel"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Perfect%20Gold%20-%20Yuri%20Visual%20Novel",
+      "stove": "https://store.onstove.com/ko/games/1898"
     },
     "description": ""
   },
@@ -43278,27 +43438,33 @@
     "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
       "https://indie.onstove.com/ko/games/10/",
-      "https://indie.onstove.com/ko/games/10"
+      "https://indie.onstove.com/ko/games/10",
+      "https://store.onstove.com/ko/games/10"
     ],
     "patch_descriptions": [
       "스토브 독점 한국어화\n\n스팀 비한국어화",
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/580170",
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=My%20Lovely%20Daughter"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=My%20Lovely%20Daughter",
+      "stove": "https://store.onstove.com/ko/games/10"
     },
     "description": "SA: 스토브 독점 한국어화\n\n스팀 비한국어화"
   },
@@ -44520,22 +44686,28 @@
     "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://itcm.co.kr/g_board/10085558"
+      "https://itcm.co.kr/g_board/10085558",
+      "https://store.onstove.com/ko/games/2470"
     ],
     "patch_descriptions": [
-      "유니티 자동 번역"
+      "유니티 자동 번역",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Old%20World"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Old%20World",
+      "stove": "https://store.onstove.com/ko/games/2470"
     },
     "description": ""
   },
@@ -46216,30 +46388,36 @@
   },
   "617160": {
     "title": "Home Sweet Home",
-    "type": "user",
+    "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
       "https://baengnyeon.com/downloads/home-sweet-home/",
-      "https://baengnyeon.com/downloads/home-sweet-home/"
+      "https://baengnyeon.com/downloads/home-sweet-home/",
+      "https://store.onstove.com/ko/games/1720"
     ],
     "patch_descriptions": [
       "",
-      "주관: 바우, 번역: 바우, 티라미슈우웅, QA: 바우, 티라미슈우웅, 렌, 모리얀, 기술: 렌, Special Thanks: 아킨토스 님"
+      "주관: 바우, 번역: 바우, 티라미슈우웅, QA: 바우, 티라미슈우웅, 렌, 모리얀, 기술: 렌, Special Thanks: 아킨토스 님",
+      ""
     ],
     "patch_sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/617160",
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Home%20Sweet%20Home"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Home%20Sweet%20Home",
+      "stove": "https://store.onstove.com/ko/games/1720"
     },
     "description": ""
   },
@@ -47272,6 +47450,29 @@
     "source_site_urls": {},
     "description": ""
   },
+  "629040": {
+    "title": "스카이트로폴리스 (Skytropolis)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/2183"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/2183"
+    },
+    "description": ""
+  },
   "629220": {
     "title": "Rise of Insanity",
     "type": "official",
@@ -47740,6 +47941,29 @@
     "source_site_urls": {},
     "description": ""
   },
+  "636150": {
+    "title": "사이버헌트 (Cyberhunt)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/331"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/331"
+    },
+    "description": ""
+  },
   "636220": {
     "title": "CubeWorks",
     "type": "official",
@@ -48047,24 +48271,30 @@
   },
   "638990": {
     "title": "UNDYING",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/1073"
+      "https://indie.onstove.com/ko/games/1073",
+      "https://store.onstove.com/ko/games/1073"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=UNDYING"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=UNDYING",
+      "stove": "https://store.onstove.com/ko/games/1073"
     },
     "description": ""
   },
@@ -51902,6 +52132,29 @@
     "source_site_urls": {},
     "description": ""
   },
+  "699170": {
+    "title": "펠 씰: 아비터의 표식 (Fell Seal: Arbiter's Mark)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/2917"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/2917"
+    },
+    "description": ""
+  },
   "699180": {
     "title": "Human-powered spacecraft",
     "type": "official",
@@ -52073,30 +52326,36 @@
   },
   "702050": {
     "title": "The Song of Saya",
-    "type": "user",
+    "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
       "https://myskrpatch.tistory.com/119",
-      "https://myskrpatch.tistory.com/119"
+      "https://myskrpatch.tistory.com/119",
+      "https://store.onstove.com/ko/games/1248"
     ],
     "patch_descriptions": [
       "",
-      "게지네"
+      "게지네",
+      ""
     ],
     "patch_sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/702050",
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=The%20Song%20of%20Saya"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=The%20Song%20of%20Saya",
+      "stove": "https://store.onstove.com/ko/games/1248"
     },
     "description": ""
   },
@@ -52355,24 +52614,30 @@
   },
   "707030": {
     "title": "POSTAL 4: No Regerts",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/1076"
+      "https://indie.onstove.com/ko/games/1076",
+      "https://store.onstove.com/ko/games/1076"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=POSTAL%204%3A%20No%20Regerts"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=POSTAL%204%3A%20No%20Regerts",
+      "stove": "https://store.onstove.com/ko/games/1076"
     },
     "description": ""
   },
@@ -53067,24 +53332,30 @@
   },
   "718650": {
     "title": "Driftland: The Magic Revival",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/587"
+      "https://indie.onstove.com/ko/games/587",
+      "https://store.onstove.com/ko/games/587"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Driftland%3A%20The%20Magic%20Revival"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Driftland%3A%20The%20Magic%20Revival",
+      "stove": "https://store.onstove.com/ko/games/587"
     },
     "description": ""
   },
@@ -53969,24 +54240,30 @@
   },
   "732930": {
     "title": "Wunderling DX",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/405"
+      "https://indie.onstove.com/ko/games/405",
+      "https://store.onstove.com/ko/games/405"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Wunderling%20DX"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Wunderling%20DX",
+      "stove": "https://store.onstove.com/ko/games/405"
     },
     "description": ""
   },
@@ -57423,13 +57700,24 @@
     "title": "Valthirian Arc: Hero School Story",
     "type": "official",
     "sources": [
-      "steamapp"
+      "steamapp",
+      "stove"
     ],
-    "links": [],
-    "patch_descriptions": [],
-    "patch_sources": [],
-    "sources_with_links": [],
-    "source_site_urls": {},
+    "links": [
+      "https://store.onstove.com/ko/games/221"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/221"
+    },
     "description": ""
   },
   "786990": {
@@ -57828,6 +58116,29 @@
     "source_site_urls": {},
     "description": ""
   },
+  "792040": {
+    "title": "적인걸: 금장미 살인사건 (Detective Di: The Silk Rose Murders)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/2036"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/2036"
+    },
+    "description": ""
+  },
   "792100": {
     "title": "7 Billion Humans",
     "type": "official",
@@ -58062,6 +58373,29 @@
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/794800",
       "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Clue%2FCluedo%3A%20The%20Classic%20Mystery%20Game"
+    },
+    "description": ""
+  },
+  "794960": {
+    "title": "더 소전 (The Sojourn)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/198"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/198"
     },
     "description": ""
   },
@@ -58661,6 +58995,29 @@
     "patch_sources": [],
     "sources_with_links": [],
     "source_site_urls": {},
+    "description": ""
+  },
+  "809850": {
+    "title": "스도쿠 젠카이 (Sudoku Zenkai)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/2677"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/2677"
+    },
     "description": ""
   },
   "809890": {
@@ -60032,24 +60389,30 @@
   },
   "828740": {
     "title": "Tales of the Neon Sea",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/1148"
+      "https://indie.onstove.com/ko/games/1148",
+      "https://store.onstove.com/ko/games/1148"
     ],
     "patch_descriptions": [
-      "※ 스팀 키 미제공"
+      "※ 스팀 키 미제공",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Tales%20of%20the%20Neon%20Sea"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Tales%20of%20the%20Neon%20Sea",
+      "stove": "https://store.onstove.com/ko/games/1148"
     },
     "description": ""
   },
@@ -60992,24 +61355,30 @@
   },
   "846870": {
     "title": "Yooka-Laylee and the Impossible Lair",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/330"
+      "https://indie.onstove.com/ko/games/330",
+      "https://store.onstove.com/ko/games/330"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Yooka-Laylee%20and%20the%20Impossible%20Lair"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Yooka-Laylee%20and%20the%20Impossible%20Lair",
+      "stove": "https://store.onstove.com/ko/games/330"
     },
     "description": ""
   },
@@ -61460,24 +61829,30 @@
   },
   "854870": {
     "title": "Perseverance: Part 1",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/466"
+      "https://indie.onstove.com/ko/games/466",
+      "https://store.onstove.com/ko/games/466"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Perseverance%3A%20Part%201"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Perseverance%3A%20Part%201",
+      "stove": "https://store.onstove.com/ko/games/466"
     },
     "description": ""
   },
@@ -61606,27 +61981,33 @@
     "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
       "https://geminian.tistory.com/11",
-      "https://indie.onstove.com/ko/games/748"
+      "https://indie.onstove.com/ko/games/748",
+      "https://store.onstove.com/ko/games/748"
     ],
     "patch_descriptions": [
       "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다)",
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/858210",
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Nova%20Drift"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Nova%20Drift",
+      "stove": "https://store.onstove.com/ko/games/748"
     },
     "description": "SA: (이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다)"
   },
@@ -61645,24 +62026,30 @@
   },
   "858710": {
     "title": "Gravity Circuit",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/1723"
+      "https://indie.onstove.com/ko/games/1723",
+      "https://store.onstove.com/ko/games/1723"
     ],
     "patch_descriptions": [
-      "스팀 키 미제공"
+      "스팀 키 미제공",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Gravity%20Circuit"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Gravity%20Circuit",
+      "stove": "https://store.onstove.com/ko/games/1723"
     },
     "description": ""
   },
@@ -61732,24 +62119,30 @@
   },
   "858940": {
     "title": "Flowers -Le volume sur ete-",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/1360"
+      "https://indie.onstove.com/ko/games/1360",
+      "https://store.onstove.com/ko/games/1360"
     ],
     "patch_descriptions": [
-      "※ 스팀 키 미제공"
+      "※ 스팀 키 미제공",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Flowers%20-Le%20volume%20sur%20ete-"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Flowers%20-Le%20volume%20sur%20ete-",
+      "stove": "https://store.onstove.com/ko/games/1360"
     },
     "description": ""
   },
@@ -61988,6 +62381,29 @@
     "patch_sources": [],
     "sources_with_links": [],
     "source_site_urls": {},
+    "description": ""
+  },
+  "861410": {
+    "title": "브레이브 던전 -정의의 의미-",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/3352"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/3352"
+    },
     "description": ""
   },
   "861540": {
@@ -62432,24 +62848,30 @@
   },
   "867980": {
     "title": "Raiders Of The Lost Island",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/443"
+      "https://indie.onstove.com/ko/games/443",
+      "https://store.onstove.com/ko/games/443"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Raiders%20Of%20The%20Lost%20Island"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Raiders%20Of%20The%20Lost%20Island",
+      "stove": "https://store.onstove.com/ko/games/443"
     },
     "description": ""
   },
@@ -65290,27 +65712,33 @@
     "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
       "https://indie.onstove.com/ko/games/75/",
-      "https://indie.onstove.com/ko/games/75"
+      "https://indie.onstove.com/ko/games/75",
+      "https://store.onstove.com/ko/games/75"
     ],
     "patch_descriptions": [
       "스토브 독점 한국어화\n\n스팀 비한국어화",
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/926580",
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Broken%20Lines"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Broken%20Lines",
+      "stove": "https://store.onstove.com/ko/games/75"
     },
     "description": "SA: 스토브 독점 한국어화\n\n스팀 비한국어화"
   },
@@ -67310,24 +67738,30 @@
   },
   "963470": {
     "title": "A Sound Plan",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/621"
+      "https://indie.onstove.com/ko/games/621",
+      "https://store.onstove.com/ko/games/621"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=A%20Sound%20Plan"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=A%20Sound%20Plan",
+      "stove": "https://store.onstove.com/ko/games/621"
     },
     "description": ""
   },
@@ -67602,24 +68036,30 @@
   },
   "966470": {
     "title": "Tale of Ninja: Fall of the Miyoshi",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/753"
+      "https://indie.onstove.com/ko/games/753",
+      "https://store.onstove.com/ko/games/753"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Tale%20of%20Ninja%3A%20Fall%20of%20the%20Miyoshi"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Tale%20of%20Ninja%3A%20Fall%20of%20the%20Miyoshi",
+      "stove": "https://store.onstove.com/ko/games/753"
     },
     "description": ""
   },
@@ -67839,24 +68279,30 @@
   },
   "970830": {
     "title": "The Dungeon Of Naheulbeuk: The Amulet Of Chaos",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/1027"
+      "https://indie.onstove.com/ko/games/1027",
+      "https://store.onstove.com/ko/games/1027"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=The%20Dungeon%20Of%20Naheulbeuk%3A%20The%20Amulet%20Of%20Chaos"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=The%20Dungeon%20Of%20Naheulbeuk%3A%20The%20Amulet%20Of%20Chaos",
+      "stove": "https://store.onstove.com/ko/games/1027"
     },
     "description": ""
   },
@@ -68474,24 +68920,30 @@
   },
   "980210": {
     "title": "HordeCore",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/848"
+      "https://indie.onstove.com/ko/games/848",
+      "https://store.onstove.com/ko/games/848"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=HordeCore"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=HordeCore",
+      "stove": "https://store.onstove.com/ko/games/848"
     },
     "description": ""
   },
@@ -68539,22 +68991,28 @@
     "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/72"
+      "https://indie.onstove.com/ko/games/72",
+      "https://store.onstove.com/ko/games/72"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Gordian%20Quest"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Gordian%20Quest",
+      "stove": "https://store.onstove.com/ko/games/72"
     },
     "description": ""
   },
@@ -70202,24 +70660,30 @@
   },
   "1015920": {
     "title": "Ynglet",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/1146"
+      "https://indie.onstove.com/ko/games/1146",
+      "https://store.onstove.com/ko/games/1146"
     ],
     "patch_descriptions": [
-      "※ 스팀 키 미제공"
+      "※ 스팀 키 미제공",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Ynglet"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Ynglet",
+      "stove": "https://store.onstove.com/ko/games/1146"
     },
     "description": ""
   },
@@ -70228,22 +70692,28 @@
     "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/206"
+      "https://indie.onstove.com/ko/games/206",
+      "https://store.onstove.com/ko/games/206"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Welcome%20to%20Elk"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Welcome%20to%20Elk",
+      "stove": "https://store.onstove.com/ko/games/206"
     },
     "description": ""
   },
@@ -70265,27 +70735,33 @@
     "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
       "https://steamcommunity.com/groups/harpyeaglelab/announcements/detail/3037091429815272906",
-      "https://steamcommunity.com/groups/harpyeaglelab/announcements/detail/3037091429815272906"
+      "https://steamcommunity.com/groups/harpyeaglelab/announcements/detail/3037091429815272906",
+      "https://store.onstove.com/ko/games/157"
     ],
     "patch_descriptions": [
       "",
-      "① 유저 한국어 패치 - HarpyEagle 님,"
+      "① 유저 한국어 패치 - HarpyEagle 님,",
+      ""
     ],
     "patch_sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/1016600",
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Devil%20Slayer%20-%20Raksasi%20%E6%96%A9%E5%A6%96Raksasi"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Devil%20Slayer%20-%20Raksasi%20%E6%96%A9%E5%A6%96Raksasi",
+      "stove": "https://store.onstove.com/ko/games/157"
     },
     "description": ""
   },
@@ -70709,24 +71185,30 @@
   },
   "1023790": {
     "title": "Rick Henderson",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/589"
+      "https://indie.onstove.com/ko/games/589",
+      "https://store.onstove.com/ko/games/589"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Rick%20Henderson"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Rick%20Henderson",
+      "stove": "https://store.onstove.com/ko/games/589"
     },
     "description": ""
   },
@@ -71179,22 +71661,28 @@
     "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/12"
+      "https://indie.onstove.com/ko/games/12",
+      "https://store.onstove.com/ko/games/12"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Heaven%20Dust%20%E7%A7%98%E9%A6%86%E7%96%91%E8%B8%AA"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Heaven%20Dust%20%E7%A7%98%E9%A6%86%E7%96%91%E8%B8%AA",
+      "stove": "https://store.onstove.com/ko/games/12"
     },
     "description": ""
   },
@@ -71751,24 +72239,30 @@
   },
   "1042210": {
     "title": "Guts And Goals",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/860"
+      "https://indie.onstove.com/ko/games/860",
+      "https://store.onstove.com/ko/games/860"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Guts%20And%20Goals"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Guts%20And%20Goals",
+      "stove": "https://store.onstove.com/ko/games/860"
     },
     "description": ""
   },
@@ -71790,22 +72284,28 @@
     "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/440"
+      "https://indie.onstove.com/ko/games/440",
+      "https://store.onstove.com/ko/games/440"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Hundred%20Days%20-%20Winemaking%20Simulator"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Hundred%20Days%20-%20Winemaking%20Simulator",
+      "stove": "https://store.onstove.com/ko/games/440"
     },
     "description": ""
   },
@@ -72305,22 +72805,28 @@
     "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/745"
+      "https://indie.onstove.com/ko/games/745",
+      "https://store.onstove.com/ko/games/745"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Nigate%20Tale"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Nigate%20Tale",
+      "stove": "https://store.onstove.com/ko/games/745"
     },
     "description": ""
   },
@@ -72914,6 +73420,29 @@
     "source_site_urls": {},
     "description": ""
   },
+  "1057600": {
+    "title": "부즈 마스터: 방구석 브루잉 (Booze Masters: Freezing Moonshine)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/2547"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/2547"
+    },
+    "description": ""
+  },
   "1057750": {
     "title": "The Suicide of Rachel Foster",
     "type": "official",
@@ -73321,24 +73850,30 @@
   },
   "1063490": {
     "title": "Still There",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/183"
+      "https://indie.onstove.com/ko/games/183",
+      "https://store.onstove.com/ko/games/183"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Still%20There"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Still%20There",
+      "stove": "https://store.onstove.com/ko/games/183"
     },
     "description": ""
   },
@@ -73905,24 +74440,30 @@
   },
   "1074070": {
     "title": "Dust to the End",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/910"
+      "https://indie.onstove.com/ko/games/910",
+      "https://store.onstove.com/ko/games/910"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Dust%20to%20the%20End"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Dust%20to%20the%20End",
+      "stove": "https://store.onstove.com/ko/games/910"
     },
     "description": ""
   },
@@ -73999,22 +74540,28 @@
     "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/539"
+      "https://indie.onstove.com/ko/games/539",
+      "https://store.onstove.com/ko/games/539"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Banners%20of%20Ruin"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Banners%20of%20Ruin",
+      "stove": "https://store.onstove.com/ko/games/539"
     },
     "description": ""
   },
@@ -74912,6 +75459,29 @@
     "source_site_urls": {},
     "description": ""
   },
+  "1092630": {
+    "title": "로그 글리치 울트라 (Rogue Glitch Ultra)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/2864"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/2864"
+    },
+    "description": ""
+  },
   "1092660": {
     "title": "Blair Witch",
     "type": "user",
@@ -75002,6 +75572,29 @@
       "steamapp": "https://steamapp.net/app/1093370"
     },
     "description": "SA: 스토브 독점 한국어화\n\n스팀 비한국어화"
+  },
+  "1093400": {
+    "title": "ATOM RPG 서포터 에디션",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/942"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/942"
+    },
+    "description": ""
   },
   "1093910": {
     "title": "Tales of the Black Forest",
@@ -75108,24 +75701,30 @@
   },
   "1094520": {
     "title": "部落与弯刀 Sands of Salzaar",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "steamapp"
+      "steamapp",
+      "stove"
     ],
     "links": [
-      "https://steamcommunity.com/profiles/76561197964519329/recommended/1094520/"
+      "https://steamcommunity.com/profiles/76561197964519329/recommended/1094520/",
+      "https://store.onstove.com/ko/games/3959"
     ],
     "patch_descriptions": [
+      "",
       ""
     ],
     "patch_sources": [
-      "steamapp"
+      "steamapp",
+      "stove"
     ],
     "sources_with_links": [
-      "steamapp"
+      "steamapp",
+      "stove"
     ],
     "source_site_urls": {
-      "steamapp": "https://steamapp.net/app/1094520"
+      "steamapp": "https://steamapp.net/app/1094520",
+      "stove": "https://store.onstove.com/ko/games/3959"
     },
     "description": ""
   },
@@ -75194,6 +75793,29 @@
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/1094780",
       "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Fisher%20Online"
+    },
+    "description": ""
+  },
+  "1095120": {
+    "title": "헬헤임 해슬 (Helheim Hassle)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/675"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/675"
     },
     "description": ""
   },
@@ -75328,6 +75950,29 @@
     "patch_sources": [],
     "sources_with_links": [],
     "source_site_urls": {},
+    "description": ""
+  },
+  "1097430": {
+    "title": "요그의 서 (Book Of Yog)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/3816"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/3816"
+    },
     "description": ""
   },
   "1097530": {
@@ -75692,30 +76337,36 @@
   },
   "1101190": {
     "title": "Dungeon Defenders: Awakened",
-    "type": "user",
+    "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
       "https://blog.naver.com/gusrud6151/223710445349",
-      "https://blog.naver.com/gusrud6151/223909998655"
+      "https://blog.naver.com/gusrud6151/223909998655",
+      "https://store.onstove.com/ko/games/3128"
     ],
     "patch_descriptions": [
       "제작자 : gusrud6151",
-      "한무테"
+      "한무테",
+      ""
     ],
     "patch_sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/1101190",
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Dungeon%20Defenders%3A%20Awakened"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Dungeon%20Defenders%3A%20Awakened",
+      "stove": "https://store.onstove.com/ko/games/3128"
     },
     "description": ""
   },
@@ -76218,30 +76869,36 @@
   },
   "1110050": {
     "title": "Evan's Remains",
-    "type": "user",
+    "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
       "https://cafe.naver.com/hansicgu/25570",
-      "https://cafe.naver.com/hansicgu/25570"
+      "https://cafe.naver.com/hansicgu/25570",
+      "https://store.onstove.com/ko/games/538"
     ],
     "patch_descriptions": [
       "",
-      "① 유저 한국어 패치 - 한방콤보, 새소년, 이하주 님, ② 스토브 인디 한국어화, 링크: https://indie.onstove.com/ko/games/538"
+      "① 유저 한국어 패치 - 한방콤보, 새소년, 이하주 님, ② 스토브 인디 한국어화, 링크: https://indie.onstove.com/ko/games/538",
+      ""
     ],
     "patch_sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/1110050",
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Evan's%20Remains"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Evan's%20Remains",
+      "stove": "https://store.onstove.com/ko/games/538"
     },
     "description": ""
   },
@@ -76416,24 +77073,30 @@
   },
   "1112890": {
     "title": "Calico",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/788"
+      "https://indie.onstove.com/ko/games/788",
+      "https://store.onstove.com/ko/games/788"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Calico"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Calico",
+      "stove": "https://store.onstove.com/ko/games/788"
     },
     "description": ""
   },
@@ -76825,24 +77488,30 @@
   },
   "1119700": {
     "title": "As Far As The Eye",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/883"
+      "https://indie.onstove.com/ko/games/883",
+      "https://store.onstove.com/ko/games/883"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=As%20Far%20As%20The%20Eye"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=As%20Far%20As%20The%20Eye",
+      "stove": "https://store.onstove.com/ko/games/883"
     },
     "description": ""
   },
@@ -77182,24 +77851,30 @@
   },
   "1124080": {
     "title": "Brave's Rage",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/1037"
+      "https://indie.onstove.com/ko/games/1037",
+      "https://store.onstove.com/ko/games/1037"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Brave's%20Rage"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Brave's%20Rage",
+      "stove": "https://store.onstove.com/ko/games/1037"
     },
     "description": ""
   },
@@ -77919,24 +78594,30 @@
   },
   "1139940": {
     "title": "ATOM RPG Trudograd",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/1893"
+      "https://indie.onstove.com/ko/games/1893",
+      "https://store.onstove.com/ko/games/1893"
     ],
     "patch_descriptions": [
-      "스토브 인디"
+      "스토브 인디",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=ATOM%20RPG%20Trudograd"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=ATOM%20RPG%20Trudograd",
+      "stove": "https://store.onstove.com/ko/games/1893"
     },
     "description": ""
   },
@@ -78033,24 +78714,30 @@
   },
   "1141550": {
     "title": "CUCKOLD SIMULATOR: Life as a Beta Male Cuck",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/1674"
+      "https://indie.onstove.com/ko/games/1674",
+      "https://store.onstove.com/ko/games/1674"
     ],
     "patch_descriptions": [
-      "※ 스팀 키 미제공"
+      "※ 스팀 키 미제공",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=CUCKOLD%20SIMULATOR%3A%20Life%20as%20a%20Beta%20Male%20Cuck"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=CUCKOLD%20SIMULATOR%3A%20Life%20as%20a%20Beta%20Male%20Cuck",
+      "stove": "https://store.onstove.com/ko/games/1674"
     },
     "description": ""
   },
@@ -78166,30 +78853,36 @@
   },
   "1144400": {
     "title": "Senren＊Banka",
-    "type": "user",
+    "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
       "https://gall.dcinside.com/m/yuzusoft/30564",
-      "https://myskrpatch.tistory.com/36"
+      "https://myskrpatch.tistory.com/36",
+      "https://store.onstove.com/ko/games/4087"
     ],
     "patch_descriptions": [
       "간이 한국어화 패치",
-      "게지네"
+      "게지네",
+      ""
     ],
     "patch_sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/1144400",
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Senren%EF%BC%8ABanka"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Senren%EF%BC%8ABanka",
+      "stove": "https://store.onstove.com/ko/games/4087"
     },
     "description": ""
   },
@@ -78260,24 +78953,30 @@
   },
   "1145380": {
     "title": "Kakatte Koi Yo!",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/781"
+      "https://indie.onstove.com/ko/games/781",
+      "https://store.onstove.com/ko/games/781"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Kakatte%20Koi%20Yo!"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Kakatte%20Koi%20Yo!",
+      "stove": "https://store.onstove.com/ko/games/781"
     },
     "description": ""
   },
@@ -78348,22 +79047,28 @@
     "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/140"
+      "https://indie.onstove.com/ko/games/140",
+      "https://store.onstove.com/ko/games/140"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=DungeonTop"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=DungeonTop",
+      "stove": "https://store.onstove.com/ko/games/140"
     },
     "description": ""
   },
@@ -78556,6 +79261,29 @@
     "patch_sources": [],
     "sources_with_links": [],
     "source_site_urls": {},
+    "description": ""
+  },
+  "1151080": {
+    "title": "레전드 오브 키퍼: 프롤로그",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/65"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/65"
+    },
     "description": ""
   },
   "1151340": {
@@ -79924,24 +80652,30 @@
   },
   "1169740": {
     "title": "Danger Scavenger",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/237"
+      "https://indie.onstove.com/ko/games/237",
+      "https://store.onstove.com/ko/games/237"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Danger%20Scavenger"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Danger%20Scavenger",
+      "stove": "https://store.onstove.com/ko/games/237"
     },
     "description": ""
   },
@@ -81711,24 +82445,30 @@
   },
   "1196800": {
     "title": "TaniNani",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/348"
+      "https://indie.onstove.com/ko/games/348",
+      "https://store.onstove.com/ko/games/348"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=TaniNani"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=TaniNani",
+      "stove": "https://store.onstove.com/ko/games/348"
     },
     "description": ""
   },
@@ -81913,24 +82653,30 @@
   },
   "1201230": {
     "title": "一方灵田 Immortal Life",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/1074"
+      "https://indie.onstove.com/ko/games/1074",
+      "https://store.onstove.com/ko/games/1074"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=%E4%B8%80%E6%96%B9%E7%81%B5%E7%94%B0%20Immortal%20Life"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=%E4%B8%80%E6%96%B9%E7%81%B5%E7%94%B0%20Immortal%20Life",
+      "stove": "https://store.onstove.com/ko/games/1074"
     },
     "description": ""
   },
@@ -82530,6 +83276,29 @@
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/1211600",
       "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=ZED%20ZONE"
+    },
+    "description": ""
+  },
+  "1211740": {
+    "title": "가디언 오브 로어 (Guardian of Lore)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/783"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/783"
     },
     "description": ""
   },
@@ -83761,6 +84530,29 @@
     "source_site_urls": {},
     "description": ""
   },
+  "1233540": {
+    "title": "버디의 엄마와 아빠가 만났을 때 - 직소 퍼즐 이야기",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/1050"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/1050"
+    },
+    "description": ""
+  },
   "1233550": {
     "title": "로켓 아레나",
     "type": "official",
@@ -84132,24 +84924,30 @@
   },
   "1238730": {
     "title": "Flowers -Le volume sur automne-",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/1361"
+      "https://indie.onstove.com/ko/games/1361",
+      "https://store.onstove.com/ko/games/1361"
     ],
     "patch_descriptions": [
-      "스팀 키 미제공"
+      "스팀 키 미제공",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Flowers%20-Le%20volume%20sur%20automne-"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Flowers%20-Le%20volume%20sur%20automne-",
+      "stove": "https://store.onstove.com/ko/games/1361"
     },
     "description": ""
   },
@@ -85236,24 +86034,30 @@
   },
   "1261520": {
     "title": "Asterix & Obelix XXL: Romastered",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/813"
+      "https://indie.onstove.com/ko/games/813",
+      "https://store.onstove.com/ko/games/813"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Asterix%20%26%20Obelix%20XXL%3A%20Romastered"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Asterix%20%26%20Obelix%20XXL%3A%20Romastered",
+      "stove": "https://store.onstove.com/ko/games/813"
     },
     "description": ""
   },
@@ -85871,22 +86675,28 @@
     "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/838"
+      "https://indie.onstove.com/ko/games/838",
+      "https://store.onstove.com/ko/games/838"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=The%20Life%20and%20Suffering%20of%20Sir%20Brante"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=The%20Life%20and%20Suffering%20of%20Sir%20Brante",
+      "stove": "https://store.onstove.com/ko/games/838"
     },
     "description": ""
   },
@@ -86090,27 +86900,33 @@
     "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
       "https://indie.onstove.com/ko/games/92/",
-      "https://indie.onstove.com/ko/games/92"
+      "https://indie.onstove.com/ko/games/92",
+      "https://store.onstove.com/ko/games/92"
     ],
     "patch_descriptions": [
       "스토브 독점 한국어화\n\n스팀 비한국어화",
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/1276320",
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Naught"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Naught",
+      "stove": "https://store.onstove.com/ko/games/92"
     },
     "description": "SA: 스토브 독점 한국어화\n\n스팀 비한국어화"
   },
@@ -86119,27 +86935,33 @@
     "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
       "https://indie.onstove.com/ko/games/20/",
-      "https://indie.onstove.com/ko/games/20"
+      "https://indie.onstove.com/ko/games/20",
+      "https://store.onstove.com/ko/games/20"
     ],
     "patch_descriptions": [
       "스토브 독점 한국어화\n\n스팀 비한국어화",
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/1276330",
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Flying%20Soldiers"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Flying%20Soldiers",
+      "stove": "https://store.onstove.com/ko/games/20"
     },
     "description": "SA: 스토브 독점 한국어화\n\n스팀 비한국어화"
   },
@@ -86222,6 +87044,29 @@
     "patch_sources": [],
     "sources_with_links": [],
     "source_site_urls": {},
+    "description": ""
+  },
+  "1277930": {
+    "title": "리들 조커 (Riddle Joker)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/4082"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/4082"
+    },
     "description": ""
   },
   "1277950": {
@@ -86570,22 +87415,28 @@
     "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/287"
+      "https://indie.onstove.com/ko/games/287",
+      "https://store.onstove.com/ko/games/287"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=BPM%3A%20BULLETS%20PER%20MINUTE"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=BPM%3A%20BULLETS%20PER%20MINUTE",
+      "stove": "https://store.onstove.com/ko/games/287"
     },
     "description": "SA: 표기는 없으나 한글 지원"
   },
@@ -86674,6 +87525,29 @@
     "patch_sources": [],
     "sources_with_links": [],
     "source_site_urls": {},
+    "description": ""
+  },
+  "1287530": {
+    "title": "로드 앤 빌레인",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/3685"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/3685"
+    },
     "description": ""
   },
   "1287840": {
@@ -86951,33 +87825,39 @@
   },
   "1293820": {
     "title": "YOU and ME and HER: A Love Story",
-    "type": "user",
+    "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
       "https://moddingwho.blogspot.com/2021/11/totono-en-jast-steam-kr.html",
       "https://moddingwho.blogspot.com/2021/11/totono-en-jast-steam-kr.html",
-      "https://indie.onstove.com/ko/games/1108"
+      "https://indie.onstove.com/ko/games/1108",
+      "https://store.onstove.com/ko/games/1108"
     ],
     "patch_descriptions": [
       "",
       "① 유저 한국어 패치 - 누구야, 순수한허스키 님,",
-      "② 스토브 인디 한국어화,"
+      "② 스토브 인디 한국어화,",
+      ""
     ],
     "patch_sources": [
       "steamapp",
       "quasarplay",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/1293820",
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=YOU%20and%20ME%20and%20HER%3A%20A%20Love%20Story"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=YOU%20and%20ME%20and%20HER%3A%20A%20Love%20Story",
+      "stove": "https://store.onstove.com/ko/games/1108"
     },
     "description": ""
   },
@@ -87239,24 +88119,30 @@
   },
   "1299010": {
     "title": "Overseer",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/892"
+      "https://indie.onstove.com/ko/games/892",
+      "https://store.onstove.com/ko/games/892"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Overseer"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Overseer",
+      "stove": "https://store.onstove.com/ko/games/892"
     },
     "description": ""
   },
@@ -87464,6 +88350,29 @@
     "source_site_urls": {},
     "description": ""
   },
+  "1301480": {
+    "title": "비쇼조 배틀 마작 솔리테어 (Bishoujo Battle Mahjong Solitaire)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/2828"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/2828"
+    },
+    "description": ""
+  },
   "1301930": {
     "title": "Traffic Jams",
     "type": "official",
@@ -87518,24 +88427,30 @@
   },
   "1303740": {
     "title": "Love n Dream",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/1841"
+      "https://indie.onstove.com/ko/games/1841",
+      "https://store.onstove.com/ko/games/1841"
     ],
     "patch_descriptions": [
-      "※ 스팀 키 미제공"
+      "※ 스팀 키 미제공",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Love%20n%20Dream"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Love%20n%20Dream",
+      "stove": "https://store.onstove.com/ko/games/1841"
     },
     "description": ""
   },
@@ -87892,24 +88807,30 @@
   },
   "1309130": {
     "title": "Lucky and a life worth living - a jigsaw puzzle tale",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/1051"
+      "https://indie.onstove.com/ko/games/1051",
+      "https://store.onstove.com/ko/games/1051"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Lucky%20and%20a%20life%20worth%20living%20-%20a%20jigsaw%20puzzle%20tale"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Lucky%20and%20a%20life%20worth%20living%20-%20a%20jigsaw%20puzzle%20tale",
+      "stove": "https://store.onstove.com/ko/games/1051"
     },
     "description": ""
   },
@@ -87990,33 +88911,39 @@
   },
   "1314000": {
     "title": "Achilles: Legends Untold",
-    "type": "user",
+    "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
       "https://blog.naver.com/dragoon3130/223204503236",
       "https://blog.naver.com/gusrud6151/223701386901",
-      "https://blog.naver.com/gusrud6151/223701386901"
+      "https://blog.naver.com/gusrud6151/223701386901",
+      "https://store.onstove.com/ko/games/3210"
     ],
     "patch_descriptions": [
       "제작자 : 구미호던\n번역기를 이용한 한글화",
       "제작자 : 한무테",
-      "gusrud6151"
+      "gusrud6151",
+      ""
     ],
     "patch_sources": [
       "steamapp",
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/1314000",
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Achilles%3A%20Legends%20Untold"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Achilles%3A%20Legends%20Untold",
+      "stove": "https://store.onstove.com/ko/games/3210"
     },
     "description": ""
   },
@@ -88031,6 +88958,29 @@
     "patch_sources": [],
     "sources_with_links": [],
     "source_site_urls": {},
+    "description": ""
+  },
+  "1314770": {
+    "title": "삼국지: 여정 (Three Kingdom: The Journey)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/2198"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/2198"
+    },
     "description": ""
   },
   "1315200": {
@@ -88048,30 +88998,36 @@
   },
   "1315210": {
     "title": "Ikai",
-    "type": "user",
+    "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
       "https://blog.naver.com/gusrud6151/223756627599",
-      "https://blog.naver.com/gusrud6151/223756627599"
+      "https://blog.naver.com/gusrud6151/223756627599",
+      "https://store.onstove.com/ko/games/893"
     ],
     "patch_descriptions": [
       "제작자 : 한무테",
-      "한무테"
+      "한무테",
+      ""
     ],
     "patch_sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/1315210",
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Ikai"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Ikai",
+      "stove": "https://store.onstove.com/ko/games/893"
     },
     "description": ""
   },
@@ -88132,24 +89088,30 @@
   },
   "1316800": {
     "title": "Destropolis",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/326"
+      "https://indie.onstove.com/ko/games/326",
+      "https://store.onstove.com/ko/games/326"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Destropolis"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Destropolis",
+      "stove": "https://store.onstove.com/ko/games/326"
     },
     "description": ""
   },
@@ -88376,6 +89338,29 @@
     "patch_sources": [],
     "sources_with_links": [],
     "source_site_urls": {},
+    "description": ""
+  },
+  "1322970": {
+    "title": "우리 X됐어 (We Are Screwed!)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/1972"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/1972"
+    },
     "description": ""
   },
   "1323470": {
@@ -88719,6 +89704,29 @@
     "source_site_urls": {},
     "description": ""
   },
+  "1330170": {
+    "title": "비쇼조 배틀 사이버 패닉! (Bishoujo Battle Cyber Panic!)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/2826"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/2826"
+    },
+    "description": ""
+  },
   "1330250": {
     "title": "대마인 컬렉션 : 결전 아레나",
     "type": "official",
@@ -88776,24 +89784,30 @@
   },
   "1330550": {
     "title": "Magic Lessons in Wand Valley - a jigsaw puzzle tale",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/1052"
+      "https://indie.onstove.com/ko/games/1052",
+      "https://store.onstove.com/ko/games/1052"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Magic%20Lessons%20in%20Wand%20Valley%20-%20a%20jigsaw%20puzzle%20tale"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Magic%20Lessons%20in%20Wand%20Valley%20-%20a%20jigsaw%20puzzle%20tale",
+      "stove": "https://store.onstove.com/ko/games/1052"
     },
     "description": ""
   },
@@ -89347,6 +90361,29 @@
     "patch_sources": [],
     "sources_with_links": [],
     "source_site_urls": {},
+    "description": ""
+  },
+  "1345740": {
+    "title": "연애기담 - 존재하지 않는 여름",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/1963"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/1963"
+    },
     "description": ""
   },
   "1345860": {
@@ -90078,24 +91115,30 @@
   },
   "1367460": {
     "title": "Perseverance: Part 2",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/888"
+      "https://indie.onstove.com/ko/games/888",
+      "https://store.onstove.com/ko/games/888"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Perseverance%3A%20Part%202"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Perseverance%3A%20Part%202",
+      "stove": "https://store.onstove.com/ko/games/888"
     },
     "description": ""
   },
@@ -90588,6 +91631,29 @@
     "source_site_urls": {},
     "description": ""
   },
+  "1381520": {
+    "title": "크리켓: 재이의 정말 별난 게임",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/3784"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/3784"
+    },
+    "description": ""
+  },
   "1381610": {
     "title": "AEON BLOOD",
     "type": "official",
@@ -90901,24 +91967,30 @@
   },
   "1387450": {
     "title": "Ninja Castle Escape",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/924"
+      "https://indie.onstove.com/ko/games/924",
+      "https://store.onstove.com/ko/games/924"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Ninja%20Castle%20Escape"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Ninja%20Castle%20Escape",
+      "stove": "https://store.onstove.com/ko/games/924"
     },
     "description": ""
   },
@@ -91424,24 +92496,30 @@
   },
   "1398740": {
     "title": "The Chrono Jotter",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/936"
+      "https://indie.onstove.com/ko/games/936",
+      "https://store.onstove.com/ko/games/936"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=The%20Chrono%20Jotter"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=The%20Chrono%20Jotter",
+      "stove": "https://store.onstove.com/ko/games/936"
     },
     "description": ""
   },
@@ -91523,47 +92601,59 @@
   },
   "1399660": {
     "title": "My Little Prince - a jigsaw puzzle tale",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/1053"
+      "https://indie.onstove.com/ko/games/1053",
+      "https://store.onstove.com/ko/games/1053"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=My%20Little%20Prince%20-%20a%20jigsaw%20puzzle%20tale"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=My%20Little%20Prince%20-%20a%20jigsaw%20puzzle%20tale",
+      "stove": "https://store.onstove.com/ko/games/1053"
     },
     "description": ""
   },
   "1399670": {
     "title": "Instant Farmer - Logic Puzzle",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/1034"
+      "https://indie.onstove.com/ko/games/1034",
+      "https://store.onstove.com/ko/games/1034"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Instant%20Farmer%20-%20Logic%20Puzzle"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Instant%20Farmer%20-%20Logic%20Puzzle",
+      "stove": "https://store.onstove.com/ko/games/1034"
     },
     "description": ""
   },
@@ -92178,24 +93268,30 @@
   },
   "1418160": {
     "title": "Happy Quest",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/1882"
+      "https://indie.onstove.com/ko/games/1882",
+      "https://store.onstove.com/ko/games/1882"
     ],
     "patch_descriptions": [
-      "※ 스팀 키 미제공"
+      "※ 스팀 키 미제공",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Happy%20Quest"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Happy%20Quest",
+      "stove": "https://store.onstove.com/ko/games/1882"
     },
     "description": ""
   },
@@ -92379,22 +93475,28 @@
     "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/426"
+      "https://indie.onstove.com/ko/games/426",
+      "https://store.onstove.com/ko/games/426"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=What%20Comes%20After"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=What%20Comes%20After",
+      "stove": "https://store.onstove.com/ko/games/426"
     },
     "description": ""
   },
@@ -92445,6 +93547,29 @@
     "patch_sources": [],
     "sources_with_links": [],
     "source_site_urls": {},
+    "description": ""
+  },
+  "1422440": {
+    "title": "카타클리스모 (Cataclismo)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/3054"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/3054"
+    },
     "description": ""
   },
   "1422450": {
@@ -92644,24 +93769,30 @@
   },
   "1426110": {
     "title": "Love n Dream: Virtual Happiness",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/1779"
+      "https://indie.onstove.com/ko/games/1779",
+      "https://store.onstove.com/ko/games/1779"
     ],
     "patch_descriptions": [
-      "※ 스팀 키 미제공"
+      "※ 스팀 키 미제공",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Love%20n%20Dream%3A%20Virtual%20Happiness"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Love%20n%20Dream%3A%20Virtual%20Happiness",
+      "stove": "https://store.onstove.com/ko/games/1779"
     },
     "description": ""
   },
@@ -93330,6 +94461,29 @@
     "source_site_urls": {},
     "description": ""
   },
+  "1443630": {
+    "title": "터보 슬로스 (Turbo Sloths)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/1561"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/1561"
+    },
+    "description": ""
+  },
   "1444650": {
     "title": "Haydee 2",
     "type": "official",
@@ -93358,24 +94512,30 @@
   },
   "1446280": {
     "title": "Alice in Wonderland - a jigsaw puzzle tale",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/1035"
+      "https://indie.onstove.com/ko/games/1035",
+      "https://store.onstove.com/ko/games/1035"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Alice%20in%20Wonderland%20-%20a%20jigsaw%20puzzle%20tale"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Alice%20in%20Wonderland%20-%20a%20jigsaw%20puzzle%20tale",
+      "stove": "https://store.onstove.com/ko/games/1035"
     },
     "description": ""
   },
@@ -94000,32 +95160,61 @@
     "source_site_urls": {},
     "description": ""
   },
+  "1467920": {
+    "title": "바벨호의 여행 안내서",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/4574"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/4574"
+    },
+    "description": ""
+  },
   "1468810": {
     "title": "鬼谷八荒",
     "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
       "https://cafe.naver.com/beemu/36462",
-      "https://cafe.naver.com/beemu/36462"
+      "https://cafe.naver.com/beemu/36462",
+      "https://store.onstove.com/ko/games/1075"
     ],
     "patch_descriptions": [
       "회원가입 및 등급업 필요",
-      "① 유저 한국어 패치 - 소요객잔 카페,"
+      "① 유저 한국어 패치 - 소요객잔 카페,",
+      ""
     ],
     "patch_sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/1468810",
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=%E9%AC%BC%E8%B0%B7%E5%85%AB%E8%8D%92%20Tale%20of%20Immortal"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=%E9%AC%BC%E8%B0%B7%E5%85%AB%E8%8D%92%20Tale%20of%20Immortal",
+      "stove": "https://store.onstove.com/ko/games/1075"
     },
     "description": "SA: 회원가입 및 등급업 필요"
   },
@@ -94479,24 +95668,30 @@
   },
   "1481810": {
     "title": "Ostrich Runner",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/777"
+      "https://indie.onstove.com/ko/games/777",
+      "https://store.onstove.com/ko/games/777"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Ostrich%20Runner"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Ostrich%20Runner",
+      "stove": "https://store.onstove.com/ko/games/777"
     },
     "description": ""
   },
@@ -94609,22 +95804,28 @@
     "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/861"
+      "https://indie.onstove.com/ko/games/861",
+      "https://store.onstove.com/ko/games/861"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Intravenous"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Intravenous",
+      "stove": "https://store.onstove.com/ko/games/861"
     },
     "description": ""
   },
@@ -94838,30 +96039,36 @@
   },
   "1491410": {
     "title": "Eternal Strands",
-    "type": "user",
+    "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
       "https://blog.naver.com/gusrud6151/223741295841",
-      "https://blog.naver.com/gusrud6151/223741295841"
+      "https://blog.naver.com/gusrud6151/223741295841",
+      "https://store.onstove.com/ko/games/4400"
     ],
     "patch_descriptions": [
       "제작자 : gusrud6151",
-      "gusrud6151"
+      "gusrud6151",
+      ""
     ],
     "patch_sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/1491410",
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Eternal%20Strands"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Eternal%20Strands",
+      "stove": "https://store.onstove.com/ko/games/4400"
     },
     "description": ""
   },
@@ -95110,24 +96317,30 @@
   },
   "1498680": {
     "title": "Poker Pretty Girls Battle : Fantasy World Edition",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/1057"
+      "https://indie.onstove.com/ko/games/1057",
+      "https://store.onstove.com/ko/games/1057"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Poker%20Pretty%20Girls%20Battle%20%3A%20Fantasy%20World%20Edition"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Poker%20Pretty%20Girls%20Battle%20%3A%20Fantasy%20World%20Edition",
+      "stove": "https://store.onstove.com/ko/games/1057"
     },
     "description": ""
   },
@@ -95565,6 +96778,29 @@
     "source_site_urls": {},
     "description": ""
   },
+  "1508680": {
+    "title": "러브 앤 워: 어쩌다 군주 (Love n War: Warlord by Chance)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/1991"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/1991"
+    },
+    "description": ""
+  },
   "1508740": {
     "title": "헌원검2",
     "type": "official",
@@ -95576,6 +96812,29 @@
     "patch_sources": [],
     "sources_with_links": [],
     "source_site_urls": {},
+    "description": ""
+  },
+  "1509780": {
+    "title": "봄바건 (Bombagun)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/963"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/963"
+    },
     "description": ""
   },
   "1510030": {
@@ -95838,6 +97097,29 @@
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/1517340",
       "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=From%20The%20Darkness"
+    },
+    "description": ""
+  },
+  "1517800": {
+    "title": "Anarkade",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/3839"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/3839"
     },
     "description": ""
   },
@@ -96209,22 +97491,28 @@
     "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/626"
+      "https://indie.onstove.com/ko/games/626",
+      "https://store.onstove.com/ko/games/626"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Exodus%20Borealis"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Exodus%20Borealis",
+      "stove": "https://store.onstove.com/ko/games/626"
     },
     "description": ""
   },
@@ -96292,24 +97580,30 @@
   },
   "1532350": {
     "title": "Rogue Explorer",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/925"
+      "https://indie.onstove.com/ko/games/925",
+      "https://store.onstove.com/ko/games/925"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Rogue%20Explorer"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Rogue%20Explorer",
+      "stove": "https://store.onstove.com/ko/games/925"
     },
     "description": ""
   },
@@ -96897,24 +98191,30 @@
   },
   "1552630": {
     "title": "MOONWAVE OVERDRIVE",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/849"
+      "https://indie.onstove.com/ko/games/849",
+      "https://store.onstove.com/ko/games/849"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=MOONWAVE%20OVERDRIVE"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=MOONWAVE%20OVERDRIVE",
+      "stove": "https://store.onstove.com/ko/games/849"
     },
     "description": ""
   },
@@ -96994,6 +98294,29 @@
     "patch_sources": [],
     "sources_with_links": [],
     "source_site_urls": {},
+    "description": ""
+  },
+  "1555140": {
+    "title": "본 오브 브레드: 반죽이의 대모험 (Born of Bread)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/2202"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/2202"
+    },
     "description": ""
   },
   "1555400": {
@@ -97331,24 +98654,30 @@
   },
   "1564560": {
     "title": "Island Farmer - Jigsaw Puzzle",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/622"
+      "https://indie.onstove.com/ko/games/622",
+      "https://store.onstove.com/ko/games/622"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Island%20Farmer%20-%20Jigsaw%20Puzzle"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Island%20Farmer%20-%20Jigsaw%20Puzzle",
+      "stove": "https://store.onstove.com/ko/games/622"
     },
     "description": ""
   },
@@ -97532,6 +98861,29 @@
     "patch_sources": [],
     "sources_with_links": [],
     "source_site_urls": {},
+    "description": ""
+  },
+  "1570070": {
+    "title": "비홀더 3 (Beholder 3)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/4311"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/4311"
+    },
     "description": ""
   },
   "1570510": {
@@ -97962,6 +99314,29 @@
     },
     "description": ""
   },
+  "1582650": {
+    "title": "카라반 샌드위치 (Caravan Sandwitch)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/3795"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/3795"
+    },
+    "description": ""
+  },
   "1582780": {
     "title": "Musketeer of the hell",
     "type": "official",
@@ -98228,13 +99603,24 @@
     "title": "Two Strikes",
     "type": "official",
     "sources": [
-      "steamapp"
+      "steamapp",
+      "stove"
     ],
-    "links": [],
-    "patch_descriptions": [],
-    "patch_sources": [],
-    "sources_with_links": [],
-    "source_site_urls": {},
+    "links": [
+      "https://store.onstove.com/ko/games/5028"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/5028"
+    },
     "description": ""
   },
   "1586800": {
@@ -98477,24 +99863,30 @@
   },
   "1592100": {
     "title": "Evil Wizard",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/1782"
+      "https://indie.onstove.com/ko/games/1782",
+      "https://store.onstove.com/ko/games/1782"
     ],
     "patch_descriptions": [
-      "※ 스팀 키 미제공"
+      "※ 스팀 키 미제공",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Evil%20Wizard"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Evil%20Wizard",
+      "stove": "https://store.onstove.com/ko/games/1782"
     },
     "description": ""
   },
@@ -98503,22 +99895,28 @@
     "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/1653"
+      "https://indie.onstove.com/ko/games/1653",
+      "https://store.onstove.com/ko/games/1653"
     ],
     "patch_descriptions": [
-      "스팀 키 미제공"
+      "스팀 키 미제공",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Spirit%20of%20the%20Island"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Spirit%20of%20the%20Island",
+      "stove": "https://store.onstove.com/ko/games/1653"
     },
     "description": ""
   },
@@ -98850,6 +100248,29 @@
     "source_site_urls": {},
     "description": ""
   },
+  "1601740": {
+    "title": "콥스 키퍼 (Corpse Keeper)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/3421"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/3421"
+    },
+    "description": ""
+  },
   "1603980": {
     "title": "If On A Winter's Night, Four Travelers",
     "type": "user",
@@ -99098,24 +100519,30 @@
   },
   "1611300": {
     "title": "Happy Guy",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/1862"
+      "https://indie.onstove.com/ko/games/1862",
+      "https://store.onstove.com/ko/games/1862"
     ],
     "patch_descriptions": [
-      "※ 스팀 키 미제공"
+      "※ 스팀 키 미제공",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Happy%20Guy"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Happy%20Guy",
+      "stove": "https://store.onstove.com/ko/games/1862"
     },
     "description": ""
   },
@@ -99130,6 +100557,29 @@
     "patch_sources": [],
     "sources_with_links": [],
     "source_site_urls": {},
+    "description": ""
+  },
+  "1611420": {
+    "title": "씨 호라이즌 (Sea Horizon)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/3206"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/3206"
+    },
     "description": ""
   },
   "1611430": {
@@ -99333,24 +100783,30 @@
   },
   "1619080": {
     "title": "Cake Invaders",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/923"
+      "https://indie.onstove.com/ko/games/923",
+      "https://store.onstove.com/ko/games/923"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Cake%20Invaders"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Cake%20Invaders",
+      "stove": "https://store.onstove.com/ko/games/923"
     },
     "description": ""
   },
@@ -99500,6 +100956,29 @@
     "source_site_urls": {},
     "description": ""
   },
+  "1627680": {
+    "title": "러브 앤 워: 어쩌다 영웅 II (Love n War: Hero by Chance II)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/1992"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/1992"
+    },
+    "description": ""
+  },
   "1627840": {
     "title": "Universe For Sale",
     "type": "official",
@@ -99524,6 +101003,29 @@
     "patch_sources": [],
     "sources_with_links": [],
     "source_site_urls": {},
+    "description": ""
+  },
+  "1629830": {
+    "title": "리서치 스토리 (Research Story)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/3677"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/3677"
+    },
     "description": ""
   },
   "1631160": {
@@ -99554,24 +101056,30 @@
   },
   "1631830": {
     "title": "Squish",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/1251"
+      "https://indie.onstove.com/ko/games/1251",
+      "https://store.onstove.com/ko/games/1251"
     ],
     "patch_descriptions": [
-      "※ 스팀 키 미제공"
+      "※ 스팀 키 미제공",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Squish"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Squish",
+      "stove": "https://store.onstove.com/ko/games/1251"
     },
     "description": ""
   },
@@ -99595,6 +101103,29 @@
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/1633430"
+    },
+    "description": ""
+  },
+  "1634080": {
+    "title": "녹터널 (Nocturnal)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/1965"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/1965"
     },
     "description": ""
   },
@@ -99624,6 +101155,29 @@
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/1637370",
       "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Letters%20From%20a%20Rainy%20Day%20-Oceans%20and%20Lace-"
+    },
+    "description": ""
+  },
+  "1638160": {
+    "title": "알데이아: 아페리의 분노 (Altheia: The Wrath of Aferi)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/102178"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/102178"
     },
     "description": ""
   },
@@ -100043,6 +101597,29 @@
     },
     "description": ""
   },
+  "1651560": {
+    "title": "페이블덤 (Fabledom)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/3214"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/3214"
+    },
+    "description": ""
+  },
   "1652250": {
     "title": "Tales & Tactics",
     "type": "official",
@@ -100241,6 +101818,29 @@
     },
     "description": ""
   },
+  "1662840": {
+    "title": "파르케 (PARQUET)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/2892"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/2892"
+    },
+    "description": ""
+  },
   "1663040": {
     "title": "Amber Isle",
     "type": "user",
@@ -100411,13 +102011,24 @@
     "title": "화산의딸",
     "type": "official",
     "sources": [
-      "steamapp"
+      "steamapp",
+      "stove"
     ],
-    "links": [],
-    "patch_descriptions": [],
-    "patch_sources": [],
-    "sources_with_links": [],
-    "source_site_urls": {},
+    "links": [
+      "https://store.onstove.com/ko/games/1937"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/1937"
+    },
     "description": ""
   },
   "1670810": {
@@ -100554,24 +102165,30 @@
   },
   "1672840": {
     "title": "Nyctophobia: Devil Unleashed",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/657"
+      "https://indie.onstove.com/ko/games/657",
+      "https://store.onstove.com/ko/games/657"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Nyctophobia%3A%20Devil%20Unleashed"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Nyctophobia%3A%20Devil%20Unleashed",
+      "stove": "https://store.onstove.com/ko/games/657"
     },
     "description": ""
   },
@@ -101371,6 +102988,29 @@
     },
     "description": ""
   },
+  "1707950": {
+    "title": "위스퍼 (Wisper)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/2230"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/2230"
+    },
+    "description": ""
+  },
   "1708010": {
     "title": "The Expanse: A Telltale Series",
     "type": "user",
@@ -101420,6 +103060,29 @@
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/1708870",
       "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=%E7%AC%AC%E4%B8%83%E5%8F%B7%E5%88%97%E8%BD%A6%20-%20Train%20No.%207"
+    },
+    "description": ""
+  },
+  "1709880": {
+    "title": "로코 모티브: 로이스 특급 살인",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/3430"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/3430"
     },
     "description": ""
   },
@@ -101532,24 +103195,30 @@
   },
   "1714460": {
     "title": "Starry Knight",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/890"
+      "https://indie.onstove.com/ko/games/890",
+      "https://store.onstove.com/ko/games/890"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Starry%20Knight"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Starry%20Knight",
+      "stove": "https://store.onstove.com/ko/games/890"
     },
     "description": ""
   },
@@ -101600,24 +103269,30 @@
   },
   "1716390": {
     "title": "Floating Farmer - Logic Puzzle",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/625"
+      "https://indie.onstove.com/ko/games/625",
+      "https://store.onstove.com/ko/games/625"
     ],
     "patch_descriptions": [
-      "스토브 인디 한국어화"
+      "스토브 인디 한국어화",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Floating%20Farmer%20-%20Logic%20Puzzle"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Floating%20Farmer%20-%20Logic%20Puzzle",
+      "stove": "https://store.onstove.com/ko/games/625"
     },
     "description": ""
   },
@@ -101655,24 +103330,30 @@
   },
   "1716940": {
     "title": "Ancient Gods",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/1153"
+      "https://indie.onstove.com/ko/games/1153",
+      "https://store.onstove.com/ko/games/1153"
     ],
     "patch_descriptions": [
-      "※ 스팀 키 미제공"
+      "※ 스팀 키 미제공",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Ancient%20Gods"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Ancient%20Gods",
+      "stove": "https://store.onstove.com/ko/games/1153"
     },
     "description": ""
   },
@@ -101909,24 +103590,30 @@
   },
   "1725340": {
     "title": "Elypse",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/1725"
+      "https://indie.onstove.com/ko/games/1725",
+      "https://store.onstove.com/ko/games/1725"
     ],
     "patch_descriptions": [
-      "스팀 키 미제공"
+      "스팀 키 미제공",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Elypse"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Elypse",
+      "stove": "https://store.onstove.com/ko/games/1725"
     },
     "description": ""
   },
@@ -102176,13 +103863,24 @@
     "title": "Noobs Want to Live",
     "type": "official",
     "sources": [
-      "steamapp"
+      "steamapp",
+      "stove"
     ],
-    "links": [],
-    "patch_descriptions": [],
-    "patch_sources": [],
-    "sources_with_links": [],
-    "source_site_urls": {},
+    "links": [
+      "https://store.onstove.com/ko/games/2140"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/2140"
+    },
     "description": ""
   },
   "1737400": {
@@ -102433,6 +104131,29 @@
     "patch_sources": [],
     "sources_with_links": [],
     "source_site_urls": {},
+    "description": ""
+  },
+  "1746030": {
+    "title": "양쯔강 살인사건 (Murders on the Yangtze River)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/4302"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/4302"
+    },
     "description": ""
   },
   "1746860": {
@@ -102942,6 +104663,29 @@
     },
     "description": ""
   },
+  "1777430": {
+    "title": "연애기담 - 존재하지 않는 진실",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/3211"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/3211"
+    },
+    "description": ""
+  },
   "1778720": {
     "title": "Blast Beat",
     "type": "official",
@@ -102989,24 +104733,30 @@
   },
   "1781960": {
     "title": "Sigil of the Magi",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/2001"
+      "https://indie.onstove.com/ko/games/2001",
+      "https://store.onstove.com/ko/games/2001"
     ],
     "patch_descriptions": [
-      "스팀 키 미제공"
+      "스팀 키 미제공",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Sigil%20of%20the%20Magi"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Sigil%20of%20the%20Magi",
+      "stove": "https://store.onstove.com/ko/games/2001"
     },
     "description": ""
   },
@@ -103062,24 +104812,30 @@
   },
   "1787480": {
     "title": "Metro Simulator 2",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/1691"
+      "https://indie.onstove.com/ko/games/1691",
+      "https://store.onstove.com/ko/games/1691"
     ],
     "patch_descriptions": [
-      "※ 스팀 키 미제공"
+      "※ 스팀 키 미제공",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Metro%20Simulator%202"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Metro%20Simulator%202",
+      "stove": "https://store.onstove.com/ko/games/1691"
     },
     "description": ""
   },
@@ -103764,24 +105520,30 @@
   },
   "1812060": {
     "title": "Yokai Art: Night Parade of One Hundred Demons",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/1816"
+      "https://indie.onstove.com/ko/games/1816",
+      "https://store.onstove.com/ko/games/1816"
     ],
     "patch_descriptions": [
-      "※ 스팀 키 미제공"
+      "※ 스팀 키 미제공",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Yokai%20Art%3A%20Night%20Parade%20of%20One%20Hundred%20Demons"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Yokai%20Art%3A%20Night%20Parade%20of%20One%20Hundred%20Demons",
+      "stove": "https://store.onstove.com/ko/games/1816"
     },
     "description": ""
   },
@@ -104027,30 +105789,36 @@
   },
   "1820140": {
     "title": "SlavicPunk: Oldtimer",
-    "type": "user",
+    "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
       "https://blog.naver.com/dragoon3130/223144456364",
-      "https://blog.naver.com/dragoon3130/223144456364"
+      "https://blog.naver.com/dragoon3130/223144456364",
+      "https://store.onstove.com/ko/games/2437"
     ],
     "patch_descriptions": [
       "제작자 : 구미호던\n번역기를 이용한 한글화",
-      "구미호뎐"
+      "구미호뎐",
+      ""
     ],
     "patch_sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/1820140",
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=SlavicPunk%3A%20Oldtimer"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=SlavicPunk%3A%20Oldtimer",
+      "stove": "https://store.onstove.com/ko/games/2437"
     },
     "description": ""
   },
@@ -104212,6 +105980,29 @@
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/1823950",
       "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Laysara%3A%20Summit%20Kingdom"
+    },
+    "description": ""
+  },
+  "1825930": {
+    "title": "고도해요 (The Sea-demon)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/1772"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/1772"
     },
     "description": ""
   },
@@ -104392,24 +106183,30 @@
   },
   "1836920": {
     "title": "Hunt-or-Haunt",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/1556"
+      "https://indie.onstove.com/ko/games/1556",
+      "https://store.onstove.com/ko/games/1556"
     ],
     "patch_descriptions": [
-      "스팀 키 미제공"
+      "스팀 키 미제공",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Hunt-or-Haunt"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Hunt-or-Haunt",
+      "stove": "https://store.onstove.com/ko/games/1556"
     },
     "description": ""
   },
@@ -104966,6 +106763,29 @@
     },
     "description": ""
   },
+  "1853200": {
+    "title": "타이론 vs 짭새 (TYRONE vs COPS)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/3459"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/3459"
+    },
+    "description": ""
+  },
   "1855580": {
     "title": "DreadHaunt",
     "type": "user",
@@ -105129,6 +106949,52 @@
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/1861230"
+    },
+    "description": ""
+  },
+  "1864000": {
+    "title": "아르티스 임팩트 (Artis Impact)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/101699"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/101699"
+    },
+    "description": ""
+  },
+  "1864190": {
+    "title": "스페이스 프레셔 3D: 서막 (Space Pressure 3D: Prelude)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/3363"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/3363"
     },
     "description": ""
   },
@@ -105733,24 +107599,30 @@
   },
   "1891620": {
     "title": "Lempo",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/1724"
+      "https://indie.onstove.com/ko/games/1724",
+      "https://store.onstove.com/ko/games/1724"
     ],
     "patch_descriptions": [
-      "※ 스팀 키 미제공"
+      "※ 스팀 키 미제공",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Lempo"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Lempo",
+      "stove": "https://store.onstove.com/ko/games/1724"
     },
     "description": ""
   },
@@ -105934,24 +107806,30 @@
   },
   "1899950": {
     "title": "Dolmenjord - Viking Islands",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/1325"
+      "https://indie.onstove.com/ko/games/1325",
+      "https://store.onstove.com/ko/games/1325"
     ],
     "patch_descriptions": [
-      "※ 스팀 키 미제공"
+      "※ 스팀 키 미제공",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Dolmenjord%20-%20Viking%20Islands"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Dolmenjord%20-%20Viking%20Islands",
+      "stove": "https://store.onstove.com/ko/games/1325"
     },
     "description": ""
   },
@@ -106130,6 +108008,29 @@
     },
     "description": ""
   },
+  "1910020": {
+    "title": "프리티 걸스 포 킹스 솔리테어 (Pretty Girls Four Kings Solitaire)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/2277"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/2277"
+    },
+    "description": ""
+  },
   "1911360": {
     "title": "Trinity Fusion",
     "type": "user",
@@ -106177,6 +108078,29 @@
     "patch_sources": [],
     "sources_with_links": [],
     "source_site_urls": {},
+    "description": ""
+  },
+  "1913420": {
+    "title": "환상조조전2 (Fantasy of Caocao2)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/2819"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/2819"
+    },
     "description": ""
   },
   "1914580": {
@@ -106426,6 +108350,29 @@
     },
     "description": ""
   },
+  "1921560": {
+    "title": "플라워즈 -겨울편-",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/1753"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/1753"
+    },
+    "description": ""
+  },
   "1922740": {
     "title": "Crisis in the Kremlin: The Cold War",
     "type": "user",
@@ -106542,24 +108489,30 @@
   },
   "1929870": {
     "title": "Nomad Survival",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/1137"
+      "https://indie.onstove.com/ko/games/1137",
+      "https://store.onstove.com/ko/games/1137"
     ],
     "patch_descriptions": [
-      "※ 스팀 키 미제공"
+      "※ 스팀 키 미제공",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Nomad%20Survival"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Nomad%20Survival",
+      "stove": "https://store.onstove.com/ko/games/1137"
     },
     "description": ""
   },
@@ -106788,24 +108741,30 @@
   },
   "1944060": {
     "title": "Super Alloy Ranger",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/1604"
+      "https://indie.onstove.com/ko/games/1604",
+      "https://store.onstove.com/ko/games/1604"
     ],
     "patch_descriptions": [
-      "※ 스팀 키 미제공"
+      "※ 스팀 키 미제공",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Super%20Alloy%20Ranger"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Super%20Alloy%20Ranger",
+      "stove": "https://store.onstove.com/ko/games/1604"
     },
     "description": ""
   },
@@ -107341,30 +109300,36 @@
   },
   "1967820": {
     "title": "拾光物语 Border Town",
-    "type": "user",
+    "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
       "https://cafe.naver.com/beemu/66455",
-      "https://cafe.naver.com/beemu/66455"
+      "https://cafe.naver.com/beemu/66455",
+      "https://store.onstove.com/ko/games/102358"
     ],
     "patch_descriptions": [
       "제작자 : 천지회",
-      "천지회"
+      "천지회",
+      ""
     ],
     "patch_sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/1967820",
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Border%20Town"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Border%20Town",
+      "stove": "https://store.onstove.com/ko/games/102358"
     },
     "description": ""
   },
@@ -107759,6 +109724,29 @@
     },
     "description": ""
   },
+  "1993450": {
+    "title": "Yet Another Fantasy Title (YAFT)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/3187"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/3187"
+    },
+    "description": ""
+  },
   "1994370": {
     "title": "The Leviathan's Fantasy",
     "type": "user",
@@ -107812,6 +109800,29 @@
     "patch_sources": [],
     "sources_with_links": [],
     "source_site_urls": {},
+    "description": ""
+  },
+  "1997300": {
+    "title": "프리티 걸스 이스케이프(Pretty Girls Escape)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/2276"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/2276"
+    },
     "description": ""
   },
   "1997410": {
@@ -108032,6 +110043,29 @@
     },
     "description": ""
   },
+  "2005160": {
+    "title": "나흘벅의 던전 마스터 (Naheulbeuk's Dungeon Master)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/2473"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/2473"
+    },
+    "description": ""
+  },
   "2006140": {
     "title": "Withering Rooms",
     "type": "user",
@@ -108177,6 +110211,29 @@
     "source_site_urls": {},
     "description": ""
   },
+  "2018640": {
+    "title": "내 고양이 여친님 (My Cat Girl Lover)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/103152"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/103152"
+    },
+    "description": ""
+  },
   "2019760": {
     "title": "Necrophosis",
     "type": "user",
@@ -108233,13 +110290,24 @@
     "title": "Havendock",
     "type": "official",
     "sources": [
-      "steamapp"
+      "steamapp",
+      "stove"
     ],
-    "links": [],
-    "patch_descriptions": [],
-    "patch_sources": [],
-    "sources_with_links": [],
-    "source_site_urls": {},
+    "links": [
+      "https://store.onstove.com/ko/games/1851"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/1851"
+    },
     "description": ""
   },
   "2025610": {
@@ -108247,22 +110315,28 @@
     "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/1539"
+      "https://indie.onstove.com/ko/games/1539",
+      "https://store.onstove.com/ko/games/1539"
     ],
     "patch_descriptions": [
-      "※ 스팀 키 미제공"
+      "※ 스팀 키 미제공",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Once%20Again"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Once%20Again",
+      "stove": "https://store.onstove.com/ko/games/1539"
     },
     "description": ""
   },
@@ -108385,24 +110459,30 @@
   },
   "2050680": {
     "title": "Warbox Sandbox",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/1216"
+      "https://indie.onstove.com/ko/games/1216",
+      "https://store.onstove.com/ko/games/1216"
     ],
     "patch_descriptions": [
-      "※ 스팀 키 미제공"
+      "※ 스팀 키 미제공",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Warbox%20Sandbox"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Warbox%20Sandbox",
+      "stove": "https://store.onstove.com/ko/games/1216"
     },
     "description": ""
   },
@@ -108509,6 +110589,29 @@
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/2055050",
       "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Cavalry%20Girls%20%E9%93%81%E9%AA%91%E5%B0%91%E5%A5%B3"
+    },
+    "description": ""
+  },
+  "2056210": {
+    "title": "론스타 헌터 (LONESTAR)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/102169"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/102169"
     },
     "description": ""
   },
@@ -108688,6 +110791,29 @@
     },
     "description": ""
   },
+  "2067160": {
+    "title": "시뮬라크로스 (Simulakros)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/4299"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/4299"
+    },
+    "description": ""
+  },
   "2067920": {
     "title": "Rogue: Genesia",
     "type": "official",
@@ -108734,6 +110860,29 @@
     ],
     "source_site_urls": {
       "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Voidborn"
+    },
+    "description": ""
+  },
+  "2073490": {
+    "title": "우주 저 너머로 (To the Stars)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/4376"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/4376"
     },
     "description": ""
   },
@@ -108923,6 +111072,29 @@
     "patch_sources": [],
     "sources_with_links": [],
     "source_site_urls": {},
+    "description": ""
+  },
+  "2077950": {
+    "title": "프리티 걸스 브레이크아웃 플러스 (Pretty Girls Breakout PLUS)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/2275"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/2275"
+    },
     "description": ""
   },
   "2078510": {
@@ -109297,6 +111469,29 @@
     },
     "description": ""
   },
+  "2088650": {
+    "title": "미스트 슬레이어 (Mist Slayer)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/3200"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/3200"
+    },
+    "description": ""
+  },
   "2089250": {
     "title": "Alpha Response",
     "type": "user",
@@ -109368,6 +111563,29 @@
       "steamapp": "https://steamapp.net/app/2093010"
     },
     "description": "SA: 공식 한글화 개선 패치\n제작자 : 막셋"
+  },
+  "2093640": {
+    "title": "후크 앤 루프 - 플러피 랜드 어드벤처",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/2733"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/2733"
+    },
+    "description": ""
   },
   "2093910": {
     "title": "Time Walker: Dark World",
@@ -109936,6 +112154,29 @@
     },
     "description": ""
   },
+  "2118420": {
+    "title": "건도그 - 태양계 이야기 (Stories from Sol: The Gun-Dog)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/4260"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/4260"
+    },
+    "description": ""
+  },
   "2119270": {
     "title": "Black Reliquary",
     "type": "user",
@@ -110453,6 +112694,29 @@
     },
     "description": ""
   },
+  "2144360": {
+    "title": "프리티 걸스 타일 매치(Pretty Girls Tile Match)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/2278"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/2278"
+    },
+    "description": ""
+  },
   "2144460": {
     "title": "Path To Purge",
     "type": "official",
@@ -110838,24 +113102,30 @@
   },
   "2171630": {
     "title": "Return From Core",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://blog.naver.com/gusrud6151/223939317763"
+      "https://blog.naver.com/gusrud6151/223939317763",
+      "https://store.onstove.com/ko/games/101668"
     ],
     "patch_descriptions": [
-      "한무테"
+      "한무테",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Return%20From%20Core"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Return%20From%20Core",
+      "stove": "https://store.onstove.com/ko/games/101668"
     },
     "description": ""
   },
@@ -111259,6 +113529,29 @@
     "source_site_urls": {},
     "description": ""
   },
+  "2192390": {
+    "title": "엘든 블링 (ELDEN BLING)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/3473"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/3473"
+    },
+    "description": ""
+  },
   "2192620": {
     "title": "ghostpia Season One",
     "type": "user",
@@ -111319,24 +113612,30 @@
   },
   "2194530": {
     "title": "Yog-Sothoth’s Yard",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://cafe.naver.com/beemu/70451"
+      "https://cafe.naver.com/beemu/70451",
+      "https://store.onstove.com/ko/games/4190"
     ],
     "patch_descriptions": [
-      "Pixel4a"
+      "Pixel4a",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Yog-Sothoth%E2%80%99s%20Yard"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Yog-Sothoth%E2%80%99s%20Yard",
+      "stove": "https://store.onstove.com/ko/games/4190"
     },
     "description": ""
   },
@@ -111366,6 +113665,29 @@
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/2194790",
       "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Studio%20System%20%3A%20Guardian%20Angel"
+    },
+    "description": ""
+  },
+  "2196860": {
+    "title": "앵커 포인트: 봉쇄 구역 (Anchors: Blockade Zone)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/3720"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/3720"
     },
     "description": ""
   },
@@ -111565,6 +113887,29 @@
     },
     "description": ""
   },
+  "2210630": {
+    "title": "프리티 걸스 2048 스트라이크 (Pretty Girls 2048 Strike)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/2274"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/2274"
+    },
+    "description": ""
+  },
   "2214880": {
     "title": "Europa",
     "type": "user",
@@ -111732,6 +114077,29 @@
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/2220360",
       "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Paper%20Lily%20-%20Chapter%201"
+    },
+    "description": ""
+  },
+  "2220480": {
+    "title": "버스트 히어로 (Burst Hero)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/2686"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/2686"
     },
     "description": ""
   },
@@ -112156,6 +114524,29 @@
     "source_site_urls": {},
     "description": ""
   },
+  "2245100": {
+    "title": "Without You",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/3722"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/3722"
+    },
+    "description": ""
+  },
   "2246110": {
     "title": "Q REMASTERED",
     "type": "official",
@@ -112495,6 +114886,29 @@
     },
     "description": ""
   },
+  "2276420": {
+    "title": "결사전 노래 (Songs of Death)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/4382"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/4382"
+    },
+    "description": ""
+  },
   "2276850": {
     "title": "The Voidness - Lidar Horror Survival Game",
     "type": "user",
@@ -112607,24 +115021,30 @@
   },
   "2286260": {
     "title": "Infinite Incantation",
-    "type": "user",
+    "type": "official",
     "sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
-      "https://indie.onstove.com/ko/games/1866"
+      "https://indie.onstove.com/ko/games/1866",
+      "https://store.onstove.com/ko/games/1866"
     ],
     "patch_descriptions": [
-      "스토브 인디"
+      "스토브 인디",
+      ""
     ],
     "patch_sources": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Infinite%20Incantation"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Infinite%20Incantation",
+      "stove": "https://store.onstove.com/ko/games/1866"
     },
     "description": ""
   },
@@ -112744,6 +115164,29 @@
     },
     "description": ""
   },
+  "2289750": {
+    "title": "슈퍼 판타지 킹덤 (Super Fantasy Kingdom)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/102775"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/102775"
+    },
+    "description": ""
+  },
   "2291020": {
     "title": "ANONYMOUS;CODE",
     "type": "user",
@@ -112807,6 +115250,29 @@
     "patch_sources": [],
     "sources_with_links": [],
     "source_site_urls": {},
+    "description": ""
+  },
+  "2297230": {
+    "title": "세트리스(SETTRIS)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/2279"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/2279"
+    },
     "description": ""
   },
   "2297690": {
@@ -113127,6 +115593,29 @@
     },
     "description": ""
   },
+  "2319030": {
+    "title": "로터스 랜턴: 보련등 이야기 (Lotus Lantern: Rescue Mother)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/3673"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/3673"
+    },
+    "description": ""
+  },
   "2320220": {
     "title": "왕실 로맨스: 금지된 마법 컬렉터 에디션",
     "type": "official",
@@ -113353,6 +115842,29 @@
     "source_site_urls": {},
     "description": ""
   },
+  "2337280": {
+    "title": "스택, 클랙, 클락! (Stack,Clack, Clock!)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/2156"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/2156"
+    },
+    "description": ""
+  },
   "2339330": {
     "title": "The Lacerator",
     "type": "user",
@@ -113402,6 +115914,29 @@
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/2340650",
       "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=%E5%8F%A4%E9%BE%99%E9%A3%8E%E4%BA%91%E5%BD%95"
+    },
+    "description": ""
+  },
+  "2342950": {
+    "title": "갓 오브 웨폰(God Of Weapons)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/2067"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/2067"
     },
     "description": ""
   },
@@ -113496,6 +116031,29 @@
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/2348650",
       "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=%E5%8F%A4%E4%BB%8A%E6%9D%B1%E8%A5%BF%E3%81%8A%E3%81%8D%E3%81%A4%E3%81%AD%E7%89%A9%E8%AA%9E"
+    },
+    "description": ""
+  },
+  "2348830": {
+    "title": "포켓 오아시스 (Pocket Oasis)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/2842"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/2842"
     },
     "description": ""
   },
@@ -114237,6 +116795,29 @@
     },
     "description": ""
   },
+  "2383880": {
+    "title": "마켓 워페어 (Market Warfare)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/2260"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/2260"
+    },
+    "description": ""
+  },
   "2384310": {
     "title": "NeverHome Ch.1 - Hall of Apathy",
     "type": "user",
@@ -114865,6 +117446,29 @@
     },
     "description": ""
   },
+  "2417850": {
+    "title": "노른자 용사: 옛나~알 옛적에 (Yolk Heroes: A Long Tamago)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/4627"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/4627"
+    },
+    "description": ""
+  },
   "2419041": {
     "title": "Spirit Island - Jagged Earth",
     "type": "user",
@@ -115187,6 +117791,29 @@
     },
     "description": ""
   },
+  "2435710": {
+    "title": "난 (다른) 동물이 싫어! [I HATE (other) Animals!]",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/2205"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/2205"
+    },
+    "description": ""
+  },
   "2438330": {
     "title": "Pale Coins",
     "type": "user",
@@ -115223,6 +117850,52 @@
     "source_site_urls": {},
     "description": ""
   },
+  "2439710": {
+    "title": "스카이 브레이커스 (Skybreakers)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/2919"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/2919"
+    },
+    "description": ""
+  },
+  "2439760": {
+    "title": "백합, 즐겨보실래요 (Love Yuri)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/103151"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/103151"
+    },
+    "description": ""
+  },
   "2439770": {
     "title": "PROJECT MIX",
     "type": "user",
@@ -115252,6 +117925,29 @@
     },
     "description": ""
   },
+  "2445340": {
+    "title": "러브 앤 라이프: 럭키 티처 (Love n Life: Lucky Teacher)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/2959"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/2959"
+    },
+    "description": ""
+  },
   "2445700": {
     "title": "융합마스터:RPG",
     "type": "official",
@@ -115269,13 +117965,24 @@
     "title": "Dark Deity 2",
     "type": "official",
     "sources": [
-      "steamapp"
+      "steamapp",
+      "stove"
     ],
-    "links": [],
-    "patch_descriptions": [],
-    "patch_sources": [],
-    "sources_with_links": [],
-    "source_site_urls": {},
+    "links": [
+      "https://store.onstove.com/ko/games/3510"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/3510"
+    },
     "description": ""
   },
   "2449040": {
@@ -115622,6 +118329,29 @@
     },
     "description": ""
   },
+  "2468670": {
+    "title": "미제사건의 비밀들 (Little Locked Rooms)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/4427"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/4427"
+    },
+    "description": ""
+  },
   "2469200": {
     "title": "Fera: The Sundered Tribes",
     "type": "user",
@@ -115830,6 +118560,29 @@
     "source_site_urls": {},
     "description": ""
   },
+  "2483680": {
+    "title": "프리티 걸스 클론다이크 솔리테어 플러스 (Pretty Girls Klondike Solitaire PLUS)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/2822"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/2822"
+    },
+    "description": ""
+  },
   "2484160": {
     "title": "It was a human.",
     "type": "user",
@@ -116008,6 +118761,29 @@
     },
     "description": ""
   },
+  "2489670": {
+    "title": "마녀와 개념의 병 (The witch and the bottle of concepts)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/3404"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/3404"
+    },
+    "description": ""
+  },
   "2490160": {
     "title": "NecroAttack！",
     "type": "user",
@@ -116063,6 +118839,29 @@
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/2491040",
       "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Higurashi%20When%20They%20Cry%20Hou%2B"
+    },
+    "description": ""
+  },
+  "2492120": {
+    "title": "SAEKO: 거대한 그녀와의 기묘한 동거",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/100735"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/100735"
     },
     "description": ""
   },
@@ -116388,6 +119187,29 @@
     },
     "description": ""
   },
+  "2507980": {
+    "title": "메타 고스트: 더 브레이킹 쇼 (Meta-Ghost: The Breaking Show)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/4179"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/4179"
+    },
+    "description": ""
+  },
   "2508780": {
     "title": "STORY OF SEASONS: Grand Bazaar",
     "type": "user",
@@ -116643,6 +119465,29 @@
     },
     "description": ""
   },
+  "2524170": {
+    "title": "혼돈의 추적 (Chaotic Pursuit)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/2523"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/2523"
+    },
+    "description": ""
+  },
   "2526500": {
     "title": "Caught On Camera",
     "type": "user",
@@ -116666,6 +119511,29 @@
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/2526500"
+    },
+    "description": ""
+  },
+  "2527660": {
+    "title": "각성자: 잊혀진 맹세 (The Awakener: Forgotten Oath)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/2463"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/2463"
     },
     "description": ""
   },
@@ -117318,6 +120186,52 @@
     },
     "description": ""
   },
+  "2585050": {
+    "title": "타이론 소울 (TYRONE SOULZ)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/3458"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/3458"
+    },
+    "description": ""
+  },
+  "2585270": {
+    "title": "카믈라",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/3908"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/3908"
+    },
+    "description": ""
+  },
   "2585830": {
     "title": "Promise Mascot Agency",
     "type": "user",
@@ -117496,32 +120410,61 @@
     },
     "description": ""
   },
+  "2592040": {
+    "title": "버디와 친구들의 할로윈 (Buddy and Friends on Halloween)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/4340"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/4340"
+    },
+    "description": ""
+  },
   "2593370": {
     "title": "The Hungry Lamb: Traveling in the Late Ming Dynasty",
-    "type": "user",
+    "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
       "https://cafe.naver.com/beemu/65674",
-      "https://cafe.naver.com/beemu/65674"
+      "https://cafe.naver.com/beemu/65674",
+      "https://store.onstove.com/ko/games/101627"
     ],
     "patch_descriptions": [
       "제작자 : Pixel4a\n\n도와주신 천지회님, 클레인님 감사합니다 ! :)",
-      "Pixel4a"
+      "Pixel4a",
+      ""
     ],
     "patch_sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/2593370",
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=The%20Hungry%20Lamb%3A%20Traveling%20in%20the%20Late%20Ming%20Dynasty"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=The%20Hungry%20Lamb%3A%20Traveling%20in%20the%20Late%20Ming%20Dynasty",
+      "stove": "https://store.onstove.com/ko/games/101627"
     },
     "description": ""
   },
@@ -117574,6 +120517,29 @@
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/2594920",
       "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Atelier%20Resleriana%3A%20Forgotten%20Alchemy%20and%20the%20Polar%20Night%20Li..."
+    },
+    "description": ""
+  },
+  "2597080": {
+    "title": "렐름 오브 잉크 (Realm of Ink)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/3379"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/3379"
     },
     "description": ""
   },
@@ -117641,6 +120607,29 @@
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/2599300",
       "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Dead%20Signal"
+    },
+    "description": ""
+  },
+  "2600600": {
+    "title": "PC방 시뮬레이터 (Internet Cafe Evolution)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/3623"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/3623"
     },
     "description": ""
   },
@@ -118801,6 +121790,29 @@
     },
     "description": ""
   },
+  "2670340": {
+    "title": "프리티 걸스 이스케이프 플러스 (Pretty Girls Escape PLUS)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/3644"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/3644"
+    },
+    "description": ""
+  },
   "2670630": {
     "title": "Supermarket Simulator",
     "type": "official",
@@ -118955,6 +121967,29 @@
     "patch_sources": [],
     "sources_with_links": [],
     "source_site_urls": {},
+    "description": ""
+  },
+  "2694920": {
+    "title": "맨 인 더 다크 (Man in the Dark)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/3221"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/3221"
+    },
     "description": ""
   },
   "2696050": {
@@ -119535,6 +122570,29 @@
     },
     "description": ""
   },
+  "2738440": {
+    "title": "KBF: 나이트 바 파이트 (KBF: Knight Bar Fight)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/4243"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/4243"
+    },
+    "description": ""
+  },
   "2738630": {
     "title": "Dungeons & Dragons Neverwinter Nights 2: Enhanced Edition",
     "type": "user",
@@ -119603,6 +122661,29 @@
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/2738990",
       "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Node%20Farm"
+    },
+    "description": ""
+  },
+  "2739830": {
+    "title": "킹 아서: 제9군단 (King Arthur - Legion IX)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/3531"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/3531"
     },
     "description": ""
   },
@@ -120223,6 +123304,29 @@
     "patch_sources": [],
     "sources_with_links": [],
     "source_site_urls": {},
+    "description": ""
+  },
+  "2781750": {
+    "title": "시스터즈: 여름의 마지막 날 (Sisters: Last Day of Summer)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/3895"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/3895"
+    },
     "description": ""
   },
   "2784960": {
@@ -120847,6 +123951,29 @@
     "source_site_urls": {},
     "description": ""
   },
+  "2815610": {
+    "title": "크로니콘: 서바이버즈",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/3980"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/3980"
+    },
+    "description": ""
+  },
   "2816410": {
     "title": "The Dark Mind",
     "type": "user",
@@ -120912,6 +124039,29 @@
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/2816950",
       "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Yaoling%3A%20Mythical%20Journey"
+    },
+    "description": ""
+  },
+  "2818150": {
+    "title": "캐틀 컨트리 (Cattle Country)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/101753"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/101753"
     },
     "description": ""
   },
@@ -121558,6 +124708,29 @@
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/2864560",
       "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Rune%20Factory%3A%20Guardians%20of%20Azuma"
+    },
+    "description": ""
+  },
+  "2865230": {
+    "title": "헤븐 시커 이 잔혹한 세계를 구원하는 법 (HEAVEN SEEKER)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/3894"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/3894"
     },
     "description": ""
   },
@@ -122414,30 +125587,36 @@
   },
   "2918550": {
     "title": "Drive Me Crazy",
-    "type": "user",
+    "type": "official",
     "sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "links": [
       "https://blog.naver.com/fmv_beauty/223528155767",
-      "https://blog.naver.com/fmv_beauty/223528155767"
+      "https://blog.naver.com/fmv_beauty/223528155767",
+      "https://store.onstove.com/ko/games/4081"
     ],
     "patch_descriptions": [
       "제작자 : 미인이많군요",
-      "미인이많군요"
+      "미인이많군요",
+      ""
     ],
     "patch_sources": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "sources_with_links": [
       "steamapp",
-      "quasarplay"
+      "quasarplay",
+      "stove"
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/2918550",
-      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Drive%20Me%20Crazy"
+      "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Drive%20Me%20Crazy",
+      "stove": "https://store.onstove.com/ko/games/4081"
     },
     "description": ""
   },
@@ -123082,6 +126261,29 @@
     },
     "description": ""
   },
+  "2954980": {
+    "title": "인투나이트 (Intonight)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/3824"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/3824"
+    },
+    "description": ""
+  },
   "2956820": {
     "title": "近畿霊務局 - Kinki Spiritual Affairs Bureau",
     "type": "official",
@@ -123488,6 +126690,29 @@
     ],
     "source_site_urls": {
       "quasarplay": "https://quasarplay.com/bbs/qp_korean?game_name=Curiosity"
+    },
+    "description": ""
+  },
+  "2986260": {
+    "title": "주인님, 세이라가 꿈만 같은 끈적달콤 봉사를 해 드릴게요 (Dreamlike Love with Seira)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/101471"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/101471"
     },
     "description": ""
   },
@@ -124634,6 +127859,29 @@
     ],
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/3063050"
+    },
+    "description": ""
+  },
+  "3063120": {
+    "title": "프리티 걸스 팝 매치 (Pretty Girls Pop Match)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/4614"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/4614"
     },
     "description": ""
   },
@@ -126074,6 +129322,29 @@
     },
     "description": ""
   },
+  "3145320": {
+    "title": "원소와 빌드 (Elements and Build)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/102348"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/102348"
+    },
+    "description": ""
+  },
   "3150480": {
     "title": "애거사 크리스티 - 나일강의 죽음  (Agatha Christie - Death on the Nile)",
     "type": "user",
@@ -126813,6 +130084,29 @@
     },
     "description": ""
   },
+  "3211460": {
+    "title": "어비스 시커 심연의 끝에서 무엇을 볼 것인가 (ABYSS SEEKER)",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/4319"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/4319"
+    },
+    "description": ""
+  },
   "3214400": {
     "title": "Rainbow Cloud: A GAY RPG",
     "type": "user",
@@ -126937,6 +130231,29 @@
     "patch_sources": [],
     "sources_with_links": [],
     "source_site_urls": {},
+    "description": ""
+  },
+  "3223160": {
+    "title": "아포칼립스 익스프레스",
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "https://store.onstove.com/ko/games/101442"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "sources_with_links": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/101442"
+    },
     "description": ""
   },
   "3223390": {
@@ -132838,7 +136155,7 @@
     "description": ""
   },
   "_meta": {
-    "generated_at": "2026-01-10T09:15:36.131Z",
-    "total": 6964
+    "generated_at": "2026-01-10T12:18:26.327Z",
+    "total": 7073
   }
 }
