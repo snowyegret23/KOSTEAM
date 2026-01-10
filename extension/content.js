@@ -146,9 +146,10 @@
                 contentHtml = '<div class="kr-patch-links-list">';
                 let index = 1;
                 linksBySource.forEach((data, source) => {
-                    const labelPrefix = source === 'stove' ? 'STOVE' :
+                    const labelPrefix = source === 'stove' ? '스토브' :
+                    source === 'quasarplay' ? '퀘이사플레이' :
                         source === 'directg' ? '다이렉트게임즈' :
-                            source === 'quasarplay' ? 'quasarplay' : 'steamapp';
+                            source === 'quasarplay' ? 'quasarplay' : '스팀앱';
 
                     contentHtml += `
                         <div class="kr-patch-link-item">
