@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     refreshBtn.addEventListener('click', async () => {
         refreshBtn.disabled = true;
-        refreshBtn.textContent = '⏳ 업데이트 중...';
+        refreshBtn.textContent = '업데이트 중...';
         statusEl.textContent = '';
         statusEl.className = 'status';
 
@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             const response = await chrome.runtime.sendMessage({ type: 'REFRESH_DATA' });
 
             if (response && response.success) {
-                statusEl.textContent = '✓ 데이터가 업데이트되었습니다';
+                statusEl.textContent = '데이터가 업데이트되었습니다';
                 statusEl.className = 'status success';
                 await loadStats();
             } else {
@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
 
         refreshBtn.disabled = false;
-        refreshBtn.textContent = '🔄 데이터 새로고침';
+        refreshBtn.textContent = '데이터 새로고침';
     });
 
     githubBtn.addEventListener('click', () => {

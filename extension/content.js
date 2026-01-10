@@ -56,7 +56,7 @@
 
         if (hasDbInfo) {
             if (isDbOfficial) {
-                return { label: '공식지원 추정', cssClass: 'official', color: '#4c9a2a' };
+                return { label: '공식지원 추정', cssClass: 'official', color: '#40f3b7be' };
             }
             return { label: '유저패치', cssClass: 'user', color: '#B921FF' };
         }
@@ -154,7 +154,7 @@
                         <div class="kr-patch-link-item">
                             <div class="kr-patch-link-header">
                                 <span class="kr-patch-link-label">링크 ${index++}:</span>
-                                <a href="${data.url}" target="_blank" rel="noopener" class="kr-patch-link-text">[ ${labelPrefix} 연결 ]</a>
+                                <a href="${data.url}" target="_blank" rel="noopener" class="kr-patch-link-text">[ ${labelPrefix} ]</a>
                             </div>
                             ${data.descriptions.length > 0 ? `
                                 <div style="margin-top: 5px;">
