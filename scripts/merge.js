@@ -249,9 +249,20 @@ async function main() {
     await fs.writeFile(lookupPath, JSON.stringify(lookupByAppId, null, 2), 'utf-8');
     console.log(`Lookup table saved to ${lookupPath} (Games: ${withSteamLink.length})`);
 
+
+    // Get alias.json modification time
+    let aliasUpdatedAt = null;
+    try {
+        const aliasStats = await fs.stat(ALIAS_FILE);
+        aliasUpdatedAt = aliasStats.mtime.toISOString();
+    } catch (err) {
+        console.log('No alias.json file, skipping alias timestamp');
+    }
+
     const versionInfo = {
         generated_at: generatedAt,
-        total: withSteamLink.length
+        total: withSteamLink.length,
+        alias_updated_at: aliasUpdatedAt
     };
     const versionPath = path.join(DATA_DIR, 'version.json');
     await fs.writeFile(versionPath, JSON.stringify(versionInfo, null, 2), 'utf-8');
