@@ -53,8 +53,8 @@ jobs:
       - name: Zip extensions
         if: steps.tag_check.outputs.exists == 'false'
         run: |
-          zip -r kosteam-chrome-v${{ env.VERSION }}.zip extension -x '*.DS_Store'
-          zip -r kosteam-firefox-v${{ env.VERSION }}.zip extension_ff -x '*.DS_Store'
+          (cd extension && zip -r ../kosteam-chrome-v${{ env.VERSION }}.zip . -x '*.DS_Store')
+          (cd extension_ff && zip -r ../kosteam-firefox-v${{ env.VERSION }}.zip . -x '*.DS_Store')
 
       - name: Create GitHub release and upload zips
         if: steps.tag_check.outputs.exists == 'false'
@@ -62,9 +62,7 @@ jobs:
         with:
           tag: v${{ env.VERSION }}
           allowUpdates: true
-          artifacts: |
-            kosteam-chrome-v${{ env.VERSION }}.zip
-            kosteam-firefox-v${{ env.VERSION }}.zip
+          artifacts: "kosteam-chrome-v${{ env.VERSION }}.zip,kosteam-firefox-v${{ env.VERSION }}.zip"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
