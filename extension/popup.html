@@ -65,6 +65,14 @@
             font-weight: bold;
         }
 
+        .stat-value.needs-update {
+            color: #f0ad4e;
+        }
+
+        .stat-value.up-to-date {
+            color: #4caf50;
+        }
+
         .btn {
             width: 100%;
             padding: 10px;
@@ -182,8 +190,16 @@
             <span class="stat-value" id="gameCount">-</span>
         </div>
         <div class="stat-item">
-            <span class="stat-label">마지막 업데이트</span>
-            <span class="stat-value" id="lastUpdate">-</span>
+            <span class="stat-label">원격 DB 업데이트</span>
+            <span class="stat-value" id="remoteUpdate">-</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-label">로컬 DB 업데이트</span>
+            <span class="stat-value" id="localUpdate">-</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-label">DB 상태</span>
+            <span class="stat-value" id="dbStatus">확인 중...</span>
         </div>
     </div>
 

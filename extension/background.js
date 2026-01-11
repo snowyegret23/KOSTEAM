@@ -29,6 +29,17 @@ async function checkForUpdates() {
     }
 }
 
+async function getRemoteVersion() {
+    try {
+        const response = await fetch(VERSION_URL, { cache: 'no-store' });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        return await response.json();
+    } catch (err) {
+        console.error('[KR Patch] Remote version fetch failed:', err);
+        return null;
+    }
+}
+
 async function fetchData(versionInfo) {
     try {
         const [dataRes, aliasRes] = await Promise.all([
@@ -90,8 +101,36 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
 
     if (message.type === 'GET_VERSION') {
         chrome.storage.local.get([CACHE_VERSION_KEY]).then(result => {
-            sendResponse({ success: true, version: result[CACHE_VERSION_KEY] });
+            sendResponse({ 
+                success: true, 
+                version: result[CACHE_VERSION_KEY]
+            });
         });
+        return true;
+    }
+
+    if (message.type === 'CHECK_UPDATE_STATUS') {
+        (async () => {
+            const local = await chrome.storage.local.get([CACHE_VERSION_KEY]);
+            const localVersion = local[CACHE_VERSION_KEY];
+            const remoteVersion = await getRemoteVersion();
+
+            if (!remoteVersion) {
+                sendResponse({ success: false, error: 'Failed to fetch remote version' });
+                return;
+            }
+
+            const needsUpdate = !localVersion || 
+                localVersion.generated_at !== remoteVersion.generated_at || 
+                localVersion.alias_updated_at !== remoteVersion.alias_updated_at;
+
+            sendResponse({ 
+                success: true, 
+                needsUpdate,
+                localVersion,
+                remoteVersion
+            });
+        })();
         return true;
     }
 });
