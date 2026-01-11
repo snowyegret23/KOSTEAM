@@ -1,6 +1,5 @@
 [
   {
-    "source": "stove",
     "app_id": "2439760",
     "stove_game_no": "13253",
     "stove_product_no": "103151",
@@ -8,18 +7,14 @@
     "steam_link": "https://store.steampowered.com/app/2439760",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/103151"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/103151",
-    "last_verification_date": "2026-01-10T21:08:59.958Z",
-    "updated_at": "2026-01-10T21:08:59.958Z"
+    "stove_url": "https://store.onstove.com/ko/games/103151"
   },
   {
-    "source": "stove",
     "app_id": "2018640",
     "stove_game_no": "13254",
     "stove_product_no": "103152",
@@ -27,18 +22,14 @@
     "steam_link": "https://store.steampowered.com/app/2018640",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/103152"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/103152",
-    "last_verification_date": "2026-01-10T21:08:59.958Z",
-    "updated_at": "2026-01-10T21:08:59.958Z"
+    "stove_url": "https://store.onstove.com/ko/games/103152"
   },
   {
-    "source": "stove",
     "app_id": "1585180",
     "stove_game_no": "11907",
     "stove_product_no": "101821",
@@ -46,18 +37,14 @@
     "steam_link": "https://store.steampowered.com/app/1585180",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/101821"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/101821",
-    "last_verification_date": "2026-01-10T21:08:59.958Z",
-    "updated_at": "2026-01-10T21:08:59.958Z"
+    "stove_url": "https://store.onstove.com/ko/games/101821"
   },
   {
-    "source": "stove",
     "app_id": "2818150",
     "stove_game_no": "11838",
     "stove_product_no": "101753",
@@ -65,18 +52,14 @@
     "steam_link": "https://store.steampowered.com/app/2818150",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/101753"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/101753",
-    "last_verification_date": "2026-01-10T21:08:59.958Z",
-    "updated_at": "2026-01-10T21:08:59.958Z"
+    "stove_url": "https://store.onstove.com/ko/games/101753"
   },
   {
-    "source": "stove",
     "app_id": "2289750",
     "stove_game_no": "12869",
     "stove_product_no": "102775",
@@ -84,18 +67,14 @@
     "steam_link": "https://store.steampowered.com/app/2289750",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/102775"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/102775",
-    "last_verification_date": "2026-01-10T21:08:59.958Z",
-    "updated_at": "2026-01-10T21:08:59.958Z"
+    "stove_url": "https://store.onstove.com/ko/games/102775"
   },
   {
-    "source": "stove",
     "app_id": "2056210",
     "stove_game_no": "12258",
     "stove_product_no": "102169",
@@ -103,18 +82,14 @@
     "steam_link": "https://store.steampowered.com/app/2056210",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/102169"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/102169",
-    "last_verification_date": "2026-01-10T21:08:59.958Z",
-    "updated_at": "2026-01-10T21:08:59.958Z"
+    "stove_url": "https://store.onstove.com/ko/games/102169"
   },
   {
-    "source": "stove",
     "app_id": "2194530",
     "stove_game_no": "7627",
     "stove_product_no": "4190",
@@ -122,18 +97,14 @@
     "steam_link": "https://store.steampowered.com/app/2194530",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/4190"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/4190",
-    "last_verification_date": "2026-01-10T21:08:59.958Z",
-    "updated_at": "2026-01-10T21:08:59.958Z"
+    "stove_url": "https://store.onstove.com/ko/games/4190"
   },
   {
-    "source": "stove",
     "app_id": "2171630",
     "stove_game_no": "11753",
     "stove_product_no": "101668",
@@ -141,18 +112,14 @@
     "steam_link": "https://store.steampowered.com/app/2171630",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/101668"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/101668",
-    "last_verification_date": "2026-01-10T21:08:59.958Z",
-    "updated_at": "2026-01-10T21:08:59.958Z"
+    "stove_url": "https://store.onstove.com/ko/games/101668"
   },
   {
-    "source": "stove",
     "app_id": "1967820",
     "stove_game_no": "12447",
     "stove_product_no": "102358",
@@ -160,18 +127,14 @@
     "steam_link": "https://store.steampowered.com/app/1967820",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/102358"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/102358",
-    "last_verification_date": "2026-01-10T21:08:59.958Z",
-    "updated_at": "2026-01-10T21:08:59.958Z"
+    "stove_url": "https://store.onstove.com/ko/games/102358"
   },
   {
-    "source": "stove",
     "app_id": "3145320",
     "stove_game_no": "12437",
     "stove_product_no": "102348",
@@ -179,18 +142,14 @@
     "steam_link": "https://store.steampowered.com/app/3145320",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/102348"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/102348",
-    "last_verification_date": "2026-01-10T21:08:59.958Z",
-    "updated_at": "2026-01-10T21:08:59.958Z"
+    "stove_url": "https://store.onstove.com/ko/games/102348"
   },
   {
-    "source": "stove",
     "app_id": "2593370",
     "stove_game_no": "11712",
     "stove_product_no": "101627",
@@ -198,18 +157,14 @@
     "steam_link": "https://store.steampowered.com/app/2593370",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/101627"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/101627",
-    "last_verification_date": "2026-01-10T21:08:59.958Z",
-    "updated_at": "2026-01-10T21:08:59.958Z"
+    "stove_url": "https://store.onstove.com/ko/games/101627"
   },
   {
-    "source": "stove",
     "app_id": "1638160",
     "stove_game_no": "12267",
     "stove_product_no": "102178",
@@ -217,18 +172,14 @@
     "steam_link": "https://store.steampowered.com/app/1638160",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/102178"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/102178",
-    "last_verification_date": "2026-01-10T21:08:59.958Z",
-    "updated_at": "2026-01-10T21:08:59.958Z"
+    "stove_url": "https://store.onstove.com/ko/games/102178"
   },
   {
-    "source": "stove",
     "app_id": "1864000",
     "stove_game_no": "11784",
     "stove_product_no": "101699",
@@ -236,18 +187,14 @@
     "steam_link": "https://store.steampowered.com/app/1864000",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/101699"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/101699",
-    "last_verification_date": "2026-01-10T21:08:59.958Z",
-    "updated_at": "2026-01-10T21:08:59.958Z"
+    "stove_url": "https://store.onstove.com/ko/games/101699"
   },
   {
-    "source": "stove",
     "app_id": "2417850",
     "stove_game_no": "8961",
     "stove_product_no": "4627",
@@ -255,18 +202,14 @@
     "steam_link": "https://store.steampowered.com/app/2417850",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/4627"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/4627",
-    "last_verification_date": "2026-01-10T21:08:59.958Z",
-    "updated_at": "2026-01-10T21:08:59.958Z"
+    "stove_url": "https://store.onstove.com/ko/games/4627"
   },
   {
-    "source": "stove",
     "app_id": "1629830",
     "stove_game_no": "6714",
     "stove_product_no": "3677",
@@ -274,18 +217,14 @@
     "steam_link": "https://store.steampowered.com/app/1629830",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/3677"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/3677",
-    "last_verification_date": "2026-01-10T21:08:59.958Z",
-    "updated_at": "2026-01-10T21:08:59.958Z"
+    "stove_url": "https://store.onstove.com/ko/games/3677"
   },
   {
-    "source": "stove",
     "app_id": "3223160",
     "stove_game_no": "11527",
     "stove_product_no": "101442",
@@ -293,18 +232,14 @@
     "steam_link": "https://store.steampowered.com/app/3223160",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/101442"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/101442",
-    "last_verification_date": "2026-01-10T21:08:59.958Z",
-    "updated_at": "2026-01-10T21:08:59.958Z"
+    "stove_url": "https://store.onstove.com/ko/games/101442"
   },
   {
-    "source": "stove",
     "app_id": "2986260",
     "stove_game_no": "11556",
     "stove_product_no": "101471",
@@ -312,18 +247,14 @@
     "steam_link": "https://store.steampowered.com/app/2986260",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/101471"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/101471",
-    "last_verification_date": "2026-01-10T21:08:59.958Z",
-    "updated_at": "2026-01-10T21:08:59.958Z"
+    "stove_url": "https://store.onstove.com/ko/games/101471"
   },
   {
-    "source": "stove",
     "app_id": "2492120",
     "stove_game_no": "10816",
     "stove_product_no": "100735",
@@ -331,18 +262,14 @@
     "steam_link": "https://store.steampowered.com/app/2492120",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/100735"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/100735",
-    "last_verification_date": "2026-01-10T21:08:59.958Z",
-    "updated_at": "2026-01-10T21:08:59.958Z"
+    "stove_url": "https://store.onstove.com/ko/games/100735"
   },
   {
-    "source": "stove",
     "app_id": null,
     "stove_game_no": "10801",
     "stove_product_no": "100720",
@@ -350,18 +277,14 @@
     "steam_link": "",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/100720"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/100720",
-    "last_verification_date": "2026-01-10T21:08:59.958Z",
-    "updated_at": "2026-01-10T21:08:59.958Z"
+    "stove_url": "https://store.onstove.com/ko/games/100720"
   },
   {
-    "source": "stove",
     "app_id": "1586750",
     "stove_game_no": "9809",
     "stove_product_no": "5028",
@@ -369,18 +292,14 @@
     "steam_link": "https://store.steampowered.com/app/1586750",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/5028"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/5028",
-    "last_verification_date": "2026-01-10T21:08:59.958Z",
-    "updated_at": "2026-01-10T21:08:59.958Z"
+    "stove_url": "https://store.onstove.com/ko/games/5028"
   },
   {
-    "source": "stove",
     "app_id": "1707950",
     "stove_game_no": "3334",
     "stove_product_no": "2230",
@@ -388,18 +307,14 @@
     "steam_link": "https://store.steampowered.com/app/1707950",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/2230"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/2230",
-    "last_verification_date": "2026-01-10T21:08:59.958Z",
-    "updated_at": "2026-01-10T21:08:59.958Z"
+    "stove_url": "https://store.onstove.com/ko/games/2230"
   },
   {
-    "source": "stove",
     "app_id": "2446600",
     "stove_game_no": "6397",
     "stove_product_no": "3510",
@@ -407,18 +322,14 @@
     "steam_link": "https://store.steampowered.com/app/2446600",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/3510"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/3510",
-    "last_verification_date": "2026-01-10T21:08:59.958Z",
-    "updated_at": "2026-01-10T21:08:59.958Z"
+    "stove_url": "https://store.onstove.com/ko/games/3510"
   },
   {
-    "source": "stove",
     "app_id": "1422440",
     "stove_game_no": "5644",
     "stove_product_no": "3054",
@@ -426,18 +337,14 @@
     "steam_link": "https://store.steampowered.com/app/1422440",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/3054"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/3054",
-    "last_verification_date": "2026-01-10T21:08:59.958Z",
-    "updated_at": "2026-01-10T21:08:59.958Z"
+    "stove_url": "https://store.onstove.com/ko/games/3054"
   },
   {
-    "source": "stove",
     "app_id": "1746030",
     "stove_game_no": "6756",
     "stove_product_no": "4302",
@@ -445,18 +352,14 @@
     "steam_link": "https://store.steampowered.com/app/1746030",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/4302"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/4302",
-    "last_verification_date": "2026-01-10T21:08:59.958Z",
-    "updated_at": "2026-01-10T21:08:59.958Z"
+    "stove_url": "https://store.onstove.com/ko/games/4302"
   },
   {
-    "source": "stove",
     "app_id": "319910",
     "stove_game_no": "8188",
     "stove_product_no": "4853",
@@ -464,18 +367,14 @@
     "steam_link": "https://store.steampowered.com/app/319910",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/4853"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/4853",
-    "last_verification_date": "2026-01-10T21:08:59.958Z",
-    "updated_at": "2026-01-10T21:08:59.958Z"
+    "stove_url": "https://store.onstove.com/ko/games/4853"
   },
   {
-    "source": "stove",
     "app_id": "35700",
     "stove_game_no": "8186",
     "stove_product_no": "4855",
@@ -483,18 +382,14 @@
     "steam_link": "https://store.steampowered.com/app/35700",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/4855"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/4855",
-    "last_verification_date": "2026-01-10T21:08:59.958Z",
-    "updated_at": "2026-01-10T21:08:59.958Z"
+    "stove_url": "https://store.onstove.com/ko/games/4855"
   },
   {
-    "source": "stove",
     "app_id": "2118420",
     "stove_game_no": "7865",
     "stove_product_no": "4260",
@@ -502,18 +397,14 @@
     "steam_link": "https://store.steampowered.com/app/2118420",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/4260"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/4260",
-    "last_verification_date": "2026-01-10T21:08:59.958Z",
-    "updated_at": "2026-01-10T21:08:59.958Z"
+    "stove_url": "https://store.onstove.com/ko/games/4260"
   },
   {
-    "source": "stove",
     "app_id": "2507980",
     "stove_game_no": "7480",
     "stove_product_no": "4179",
@@ -521,18 +412,14 @@
     "steam_link": "https://store.steampowered.com/app/2507980",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/4179"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/4179",
-    "last_verification_date": "2026-01-10T21:08:59.958Z",
-    "updated_at": "2026-01-10T21:08:59.958Z"
+    "stove_url": "https://store.onstove.com/ko/games/4179"
   },
   {
-    "source": "stove",
     "app_id": "1491410",
     "stove_game_no": "8082",
     "stove_product_no": "4400",
@@ -540,18 +427,14 @@
     "steam_link": "https://store.steampowered.com/app/1491410",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/4400"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/4400",
-    "last_verification_date": "2026-01-10T21:08:59.958Z",
-    "updated_at": "2026-01-10T21:08:59.958Z"
+    "stove_url": "https://store.onstove.com/ko/games/4400"
   },
   {
-    "source": "stove",
     "app_id": "1467920",
     "stove_game_no": "8828",
     "stove_product_no": "4574",
@@ -559,18 +442,14 @@
     "steam_link": "https://store.steampowered.com/app/1467920",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/4574"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/4574",
-    "last_verification_date": "2026-01-10T21:08:59.958Z",
-    "updated_at": "2026-01-10T21:08:59.958Z"
+    "stove_url": "https://store.onstove.com/ko/games/4574"
   },
   {
-    "source": "stove",
     "app_id": "2276420",
     "stove_game_no": "7989",
     "stove_product_no": "4382",
@@ -578,18 +457,14 @@
     "steam_link": "https://store.steampowered.com/app/2276420",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/4382"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/4382",
-    "last_verification_date": "2026-01-10T21:08:59.958Z",
-    "updated_at": "2026-01-10T21:08:59.958Z"
+    "stove_url": "https://store.onstove.com/ko/games/4382"
   },
   {
-    "source": "stove",
     "app_id": "1144400",
     "stove_game_no": "2350",
     "stove_product_no": "4087",
@@ -597,18 +472,14 @@
     "steam_link": "https://store.steampowered.com/app/1144400",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/4087"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/4087",
-    "last_verification_date": "2026-01-10T21:08:59.958Z",
-    "updated_at": "2026-01-10T21:08:59.958Z"
+    "stove_url": "https://store.onstove.com/ko/games/4087"
   },
   {
-    "source": "stove",
     "app_id": "3063120",
     "stove_game_no": "8885",
     "stove_product_no": "4614",
@@ -616,18 +487,14 @@
     "steam_link": "https://store.steampowered.com/app/3063120",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/4614"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/4614",
-    "last_verification_date": "2026-01-10T21:08:59.958Z",
-    "updated_at": "2026-01-10T21:08:59.958Z"
+    "stove_url": "https://store.onstove.com/ko/games/4614"
   },
   {
-    "source": "stove",
     "app_id": "1094520",
     "stove_game_no": "7302",
     "stove_product_no": "3959",
@@ -635,18 +502,14 @@
     "steam_link": "https://store.steampowered.com/app/1094520",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/3959"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/3959",
-    "last_verification_date": "2026-01-10T21:08:59.958Z",
-    "updated_at": "2026-01-10T21:08:59.958Z"
+    "stove_url": "https://store.onstove.com/ko/games/3959"
   },
   {
-    "source": "stove",
     "app_id": "1570070",
     "stove_game_no": "7013",
     "stove_product_no": "4311",
@@ -654,18 +517,14 @@
     "steam_link": "https://store.steampowered.com/app/1570070",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/4311"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/4311",
-    "last_verification_date": "2026-01-10T21:08:59.958Z",
-    "updated_at": "2026-01-10T21:08:59.958Z"
+    "stove_url": "https://store.onstove.com/ko/games/4311"
   },
   {
-    "source": "stove",
     "app_id": "2073490",
     "stove_game_no": "8057",
     "stove_product_no": "4376",
@@ -673,18 +532,14 @@
     "steam_link": "https://store.steampowered.com/app/2073490",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/4376"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/4376",
-    "last_verification_date": "2026-01-10T21:08:59.958Z",
-    "updated_at": "2026-01-10T21:08:59.958Z"
+    "stove_url": "https://store.onstove.com/ko/games/4376"
   },
   {
-    "source": "stove",
     "app_id": "3211460",
     "stove_game_no": "7168",
     "stove_product_no": "4319",
@@ -692,18 +547,14 @@
     "steam_link": "https://store.steampowered.com/app/3211460",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/4319"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/4319",
-    "last_verification_date": "2026-01-10T21:09:01.435Z",
-    "updated_at": "2026-01-10T21:09:01.435Z"
+    "stove_url": "https://store.onstove.com/ko/games/4319"
   },
   {
-    "source": "stove",
     "app_id": "2468670",
     "stove_game_no": "8105",
     "stove_product_no": "4427",
@@ -711,18 +562,14 @@
     "steam_link": "https://store.steampowered.com/app/2468670",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/4427"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/4427",
-    "last_verification_date": "2026-01-10T21:09:01.435Z",
-    "updated_at": "2026-01-10T21:09:01.435Z"
+    "stove_url": "https://store.onstove.com/ko/games/4427"
   },
   {
-    "source": "stove",
     "app_id": "2781750",
     "stove_game_no": "7167",
     "stove_product_no": "3895",
@@ -730,18 +577,14 @@
     "steam_link": "https://store.steampowered.com/app/2781750",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/3895"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/3895",
-    "last_verification_date": "2026-01-10T21:09:01.435Z",
-    "updated_at": "2026-01-10T21:09:01.435Z"
+    "stove_url": "https://store.onstove.com/ko/games/3895"
   },
   {
-    "source": "stove",
     "app_id": "1709880",
     "stove_game_no": "6378",
     "stove_product_no": "3430",
@@ -749,18 +592,14 @@
     "steam_link": "https://store.steampowered.com/app/1709880",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/3430"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/3430",
-    "last_verification_date": "2026-01-10T21:09:01.435Z",
-    "updated_at": "2026-01-10T21:09:01.435Z"
+    "stove_url": "https://store.onstove.com/ko/games/3430"
   },
   {
-    "source": "stove",
     "app_id": "2918550",
     "stove_game_no": "7573",
     "stove_product_no": "4081",
@@ -768,18 +607,14 @@
     "steam_link": "https://store.steampowered.com/app/2918550",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/4081"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/4081",
-    "last_verification_date": "2026-01-10T21:09:01.435Z",
-    "updated_at": "2026-01-10T21:09:01.435Z"
+    "stove_url": "https://store.onstove.com/ko/games/4081"
   },
   {
-    "source": "stove",
     "app_id": "1097430",
     "stove_game_no": "7066",
     "stove_product_no": "3816",
@@ -787,18 +622,14 @@
     "steam_link": "https://store.steampowered.com/app/1097430",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/3816"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/3816",
-    "last_verification_date": "2026-01-10T21:09:01.435Z",
-    "updated_at": "2026-01-10T21:09:01.435Z"
+    "stove_url": "https://store.onstove.com/ko/games/3816"
   },
   {
-    "source": "stove",
     "app_id": "2592040",
     "stove_game_no": "7985",
     "stove_product_no": "4340",
@@ -806,18 +637,14 @@
     "steam_link": "https://store.steampowered.com/app/2592040",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/4340"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/4340",
-    "last_verification_date": "2026-01-10T21:09:01.435Z",
-    "updated_at": "2026-01-10T21:09:01.435Z"
+    "stove_url": "https://store.onstove.com/ko/games/4340"
   },
   {
-    "source": "stove",
     "app_id": "2067160",
     "stove_game_no": "3333",
     "stove_product_no": "4299",
@@ -825,18 +652,14 @@
     "steam_link": "https://store.steampowered.com/app/2067160",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/4299"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/4299",
-    "last_verification_date": "2026-01-10T21:09:01.435Z",
-    "updated_at": "2026-01-10T21:09:01.435Z"
+    "stove_url": "https://store.onstove.com/ko/games/4299"
   },
   {
-    "source": "stove",
     "app_id": "1277930",
     "stove_game_no": "7348",
     "stove_product_no": "4082",
@@ -844,18 +667,14 @@
     "steam_link": "https://store.steampowered.com/app/1277930",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/4082"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/4082",
-    "last_verification_date": "2026-01-10T21:09:01.435Z",
-    "updated_at": "2026-01-10T21:09:01.435Z"
+    "stove_url": "https://store.onstove.com/ko/games/4082"
   },
   {
-    "source": "stove",
     "app_id": "2196860",
     "stove_game_no": "6898",
     "stove_product_no": "3720",
@@ -863,18 +682,14 @@
     "steam_link": "https://store.steampowered.com/app/2196860",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/3720"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/3720",
-    "last_verification_date": "2026-01-10T21:09:01.435Z",
-    "updated_at": "2026-01-10T21:09:01.435Z"
+    "stove_url": "https://store.onstove.com/ko/games/3720"
   },
   {
-    "source": "stove",
     "app_id": "2738440",
     "stove_game_no": "7829",
     "stove_product_no": "4243",
@@ -882,18 +697,14 @@
     "steam_link": "https://store.steampowered.com/app/2738440",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/4243"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/4243",
-    "last_verification_date": "2026-01-10T21:09:01.435Z",
-    "updated_at": "2026-01-10T21:09:01.435Z"
+    "stove_url": "https://store.onstove.com/ko/games/4243"
   },
   {
-    "source": "stove",
     "app_id": "1381520",
     "stove_game_no": "6686",
     "stove_product_no": "3784",
@@ -901,18 +712,14 @@
     "steam_link": "https://store.steampowered.com/app/1381520",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/3784"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/3784",
-    "last_verification_date": "2026-01-10T21:09:01.435Z",
-    "updated_at": "2026-01-10T21:09:01.435Z"
+    "stove_url": "https://store.onstove.com/ko/games/3784"
   },
   {
-    "source": "stove",
     "app_id": "2597080",
     "stove_game_no": "6301",
     "stove_product_no": "3379",
@@ -920,18 +727,14 @@
     "steam_link": "https://store.steampowered.com/app/2597080",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/3379"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/3379",
-    "last_verification_date": "2026-01-10T21:09:01.435Z",
-    "updated_at": "2026-01-10T21:09:01.435Z"
+    "stove_url": "https://store.onstove.com/ko/games/3379"
   },
   {
-    "source": "stove",
     "app_id": "1517800",
     "stove_game_no": "7121",
     "stove_product_no": "3839",
@@ -939,18 +742,14 @@
     "steam_link": "https://store.steampowered.com/app/1517800",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/3839"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/3839",
-    "last_verification_date": "2026-01-10T21:09:01.435Z",
-    "updated_at": "2026-01-10T21:09:01.435Z"
+    "stove_url": "https://store.onstove.com/ko/games/3839"
   },
   {
-    "source": "stove",
     "app_id": "1582650",
     "stove_game_no": "3329",
     "stove_product_no": "3795",
@@ -958,18 +757,14 @@
     "steam_link": "https://store.steampowered.com/app/1582650",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/3795"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/3795",
-    "last_verification_date": "2026-01-10T21:09:01.435Z",
-    "updated_at": "2026-01-10T21:09:01.435Z"
+    "stove_url": "https://store.onstove.com/ko/games/3795"
   },
   {
-    "source": "stove",
     "app_id": "1287530",
     "stove_game_no": "6841",
     "stove_product_no": "3685",
@@ -977,18 +772,14 @@
     "steam_link": "https://store.steampowered.com/app/1287530",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/3685"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/3685",
-    "last_verification_date": "2026-01-10T21:09:01.435Z",
-    "updated_at": "2026-01-10T21:09:01.435Z"
+    "stove_url": "https://store.onstove.com/ko/games/3685"
   },
   {
-    "source": "stove",
     "app_id": "2489670",
     "stove_game_no": "6045",
     "stove_product_no": "3404",
@@ -996,18 +787,14 @@
     "steam_link": "https://store.steampowered.com/app/2489670",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/3404"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/3404",
-    "last_verification_date": "2026-01-10T21:09:01.435Z",
-    "updated_at": "2026-01-10T21:09:01.435Z"
+    "stove_url": "https://store.onstove.com/ko/games/3404"
   },
   {
-    "source": "stove",
     "app_id": "2088650",
     "stove_game_no": "5621",
     "stove_product_no": "3200",
@@ -1015,18 +802,14 @@
     "steam_link": "https://store.steampowered.com/app/2088650",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/3200"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/3200",
-    "last_verification_date": "2026-01-10T21:09:01.435Z",
-    "updated_at": "2026-01-10T21:09:01.435Z"
+    "stove_url": "https://store.onstove.com/ko/games/3200"
   },
   {
-    "source": "stove",
     "app_id": "2585270",
     "stove_game_no": "7191",
     "stove_product_no": "3908",
@@ -1034,18 +817,14 @@
     "steam_link": "https://store.steampowered.com/app/2585270",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/3908"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/3908",
-    "last_verification_date": "2026-01-10T21:09:01.435Z",
-    "updated_at": "2026-01-10T21:09:01.435Z"
+    "stove_url": "https://store.onstove.com/ko/games/3908"
   },
   {
-    "source": "stove",
     "app_id": "2245100",
     "stove_game_no": "6900",
     "stove_product_no": "3722",
@@ -1053,18 +832,14 @@
     "steam_link": "https://store.steampowered.com/app/2245100",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/3722"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/3722",
-    "last_verification_date": "2026-01-10T21:09:01.435Z",
-    "updated_at": "2026-01-10T21:09:01.435Z"
+    "stove_url": "https://store.onstove.com/ko/games/3722"
   },
   {
-    "source": "stove",
     "app_id": "2954980",
     "stove_game_no": "7097",
     "stove_product_no": "3824",
@@ -1072,18 +847,14 @@
     "steam_link": "https://store.steampowered.com/app/2954980",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/3824"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/3824",
-    "last_verification_date": "2026-01-10T21:09:01.435Z",
-    "updated_at": "2026-01-10T21:09:01.435Z"
+    "stove_url": "https://store.onstove.com/ko/games/3824"
   },
   {
-    "source": "stove",
     "app_id": "1601740",
     "stove_game_no": "6370",
     "stove_product_no": "3421",
@@ -1091,18 +862,14 @@
     "steam_link": "https://store.steampowered.com/app/1601740",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/3421"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/3421",
-    "last_verification_date": "2026-01-10T21:09:01.435Z",
-    "updated_at": "2026-01-10T21:09:01.435Z"
+    "stove_url": "https://store.onstove.com/ko/games/3421"
   },
   {
-    "source": "stove",
     "app_id": "2739830",
     "stove_game_no": "6538",
     "stove_product_no": "3531",
@@ -1110,18 +877,14 @@
     "steam_link": "https://store.steampowered.com/app/2739830",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/3531"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/3531",
-    "last_verification_date": "2026-01-10T21:09:01.435Z",
-    "updated_at": "2026-01-10T21:09:01.435Z"
+    "stove_url": "https://store.onstove.com/ko/games/3531"
   },
   {
-    "source": "stove",
     "app_id": "2865230",
     "stove_game_no": "6408",
     "stove_product_no": "3894",
@@ -1129,18 +892,14 @@
     "steam_link": "https://store.steampowered.com/app/2865230",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/3894"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/3894",
-    "last_verification_date": "2026-01-10T21:09:01.435Z",
-    "updated_at": "2026-01-10T21:09:01.435Z"
+    "stove_url": "https://store.onstove.com/ko/games/3894"
   },
   {
-    "source": "stove",
     "app_id": "2815610",
     "stove_game_no": "7336",
     "stove_product_no": "3980",
@@ -1148,18 +907,14 @@
     "steam_link": "https://store.steampowered.com/app/2815610",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/3980"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/3980",
-    "last_verification_date": "2026-01-10T21:09:01.435Z",
-    "updated_at": "2026-01-10T21:09:01.435Z"
+    "stove_url": "https://store.onstove.com/ko/games/3980"
   },
   {
-    "source": "stove",
     "app_id": "861410",
     "stove_game_no": "6265",
     "stove_product_no": "3352",
@@ -1167,18 +922,14 @@
     "steam_link": "https://store.steampowered.com/app/861410",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/3352"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/3352",
-    "last_verification_date": "2026-01-10T21:09:01.435Z",
-    "updated_at": "2026-01-10T21:09:01.435Z"
+    "stove_url": "https://store.onstove.com/ko/games/3352"
   },
   {
-    "source": "stove",
     "app_id": "2600600",
     "stove_game_no": "6736",
     "stove_product_no": "3623",
@@ -1186,18 +937,14 @@
     "steam_link": "https://store.steampowered.com/app/2600600",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/3623"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/3623",
-    "last_verification_date": "2026-01-10T21:09:01.435Z",
-    "updated_at": "2026-01-10T21:09:01.435Z"
+    "stove_url": "https://store.onstove.com/ko/games/3623"
   },
   {
-    "source": "stove",
     "app_id": "1864190",
     "stove_game_no": "6186",
     "stove_product_no": "3363",
@@ -1205,18 +952,14 @@
     "steam_link": "https://store.steampowered.com/app/1864190",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/3363"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/3363",
-    "last_verification_date": "2026-01-10T21:09:01.435Z",
-    "updated_at": "2026-01-10T21:09:01.435Z"
+    "stove_url": "https://store.onstove.com/ko/games/3363"
   },
   {
-    "source": "stove",
     "app_id": "562470",
     "stove_game_no": "5693",
     "stove_product_no": "3204",
@@ -1224,18 +967,14 @@
     "steam_link": "https://store.steampowered.com/app/562470",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/3204"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/3204",
-    "last_verification_date": "2026-01-10T21:09:01.435Z",
-    "updated_at": "2026-01-10T21:09:01.435Z"
+    "stove_url": "https://store.onstove.com/ko/games/3204"
   },
   {
-    "source": "stove",
     "app_id": "1853200",
     "stove_game_no": "6393",
     "stove_product_no": "3459",
@@ -1243,18 +982,14 @@
     "steam_link": "https://store.steampowered.com/app/1853200",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/3459"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/3459",
-    "last_verification_date": "2026-01-10T21:09:01.435Z",
-    "updated_at": "2026-01-10T21:09:01.435Z"
+    "stove_url": "https://store.onstove.com/ko/games/3459"
   },
   {
-    "source": "stove",
     "app_id": "2192390",
     "stove_game_no": "5729",
     "stove_product_no": "3473",
@@ -1262,18 +997,14 @@
     "steam_link": "https://store.steampowered.com/app/2192390",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/3473"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/3473",
-    "last_verification_date": "2026-01-10T21:09:01.435Z",
-    "updated_at": "2026-01-10T21:09:01.435Z"
+    "stove_url": "https://store.onstove.com/ko/games/3473"
   },
   {
-    "source": "stove",
     "app_id": "2585050",
     "stove_game_no": "6394",
     "stove_product_no": "3458",
@@ -1281,18 +1012,14 @@
     "steam_link": "https://store.steampowered.com/app/2585050",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/3458"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/3458",
-    "last_verification_date": "2026-01-10T21:09:01.435Z",
-    "updated_at": "2026-01-10T21:09:01.435Z"
+    "stove_url": "https://store.onstove.com/ko/games/3458"
   },
   {
-    "source": "stove",
     "app_id": "2319030",
     "stove_game_no": "6623",
     "stove_product_no": "3673",
@@ -1300,18 +1027,14 @@
     "steam_link": "https://store.steampowered.com/app/2319030",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/3673"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/3673",
-    "last_verification_date": "2026-01-10T21:09:01.435Z",
-    "updated_at": "2026-01-10T21:09:01.435Z"
+    "stove_url": "https://store.onstove.com/ko/games/3673"
   },
   {
-    "source": "stove",
     "app_id": "2670340",
     "stove_game_no": "6710",
     "stove_product_no": "3644",
@@ -1319,18 +1042,14 @@
     "steam_link": "https://store.steampowered.com/app/2670340",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/3644"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/3644",
-    "last_verification_date": "2026-01-10T21:09:01.435Z",
-    "updated_at": "2026-01-10T21:09:01.435Z"
+    "stove_url": "https://store.onstove.com/ko/games/3644"
   },
   {
-    "source": "stove",
     "app_id": "1101190",
     "stove_game_no": "5728",
     "stove_product_no": "3128",
@@ -1338,18 +1057,14 @@
     "steam_link": "https://store.steampowered.com/app/1101190",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/3128"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/3128",
-    "last_verification_date": "2026-01-10T21:09:01.435Z",
-    "updated_at": "2026-01-10T21:09:01.435Z"
+    "stove_url": "https://store.onstove.com/ko/games/3128"
   },
   {
-    "source": "stove",
     "app_id": "597180",
     "stove_game_no": "4759",
     "stove_product_no": "2470",
@@ -1357,18 +1072,14 @@
     "steam_link": "https://store.steampowered.com/app/597180",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/2470"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/2470",
-    "last_verification_date": "2026-01-10T21:09:01.435Z",
-    "updated_at": "2026-01-10T21:09:01.435Z"
+    "stove_url": "https://store.onstove.com/ko/games/2470"
   },
   {
-    "source": "stove",
     "app_id": "1777430",
     "stove_game_no": "3304",
     "stove_product_no": "3211",
@@ -1376,18 +1087,14 @@
     "steam_link": "https://store.steampowered.com/app/1777430",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/3211"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/3211",
-    "last_verification_date": "2026-01-10T21:09:02.963Z",
-    "updated_at": "2026-01-10T21:09:02.963Z"
+    "stove_url": "https://store.onstove.com/ko/games/3211"
   },
   {
-    "source": "stove",
     "app_id": "1651560",
     "stove_game_no": "3327",
     "stove_product_no": "3214",
@@ -1395,18 +1102,14 @@
     "steam_link": "https://store.steampowered.com/app/1651560",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/3214"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/3214",
-    "last_verification_date": "2026-01-10T21:09:02.963Z",
-    "updated_at": "2026-01-10T21:09:02.963Z"
+    "stove_url": "https://store.onstove.com/ko/games/3214"
   },
   {
-    "source": "stove",
     "app_id": "2348830",
     "stove_game_no": "5332",
     "stove_product_no": "2842",
@@ -1414,18 +1117,14 @@
     "steam_link": "https://store.steampowered.com/app/2348830",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/2842"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/2842",
-    "last_verification_date": "2026-01-10T21:09:02.963Z",
-    "updated_at": "2026-01-10T21:09:02.963Z"
+    "stove_url": "https://store.onstove.com/ko/games/2842"
   },
   {
-    "source": "stove",
     "app_id": "1443630",
     "stove_game_no": "3120",
     "stove_product_no": "1561",
@@ -1433,18 +1132,14 @@
     "steam_link": "https://store.steampowered.com/app/1443630",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1561"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1561",
-    "last_verification_date": "2026-01-10T21:09:02.963Z",
-    "updated_at": "2026-01-10T21:09:02.963Z"
+    "stove_url": "https://store.onstove.com/ko/games/1561"
   },
   {
-    "source": "stove",
     "app_id": "1314000",
     "stove_game_no": "6030",
     "stove_product_no": "3210",
@@ -1452,18 +1147,14 @@
     "steam_link": "https://store.steampowered.com/app/1314000",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/3210"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/3210",
-    "last_verification_date": "2026-01-10T21:09:02.963Z",
-    "updated_at": "2026-01-10T21:09:02.963Z"
+    "stove_url": "https://store.onstove.com/ko/games/3210"
   },
   {
-    "source": "stove",
     "app_id": "1993450",
     "stove_game_no": "6013",
     "stove_product_no": "3187",
@@ -1471,18 +1162,14 @@
     "steam_link": "https://store.steampowered.com/app/1993450",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/3187"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/3187",
-    "last_verification_date": "2026-01-10T21:09:02.963Z",
-    "updated_at": "2026-01-10T21:09:02.963Z"
+    "stove_url": "https://store.onstove.com/ko/games/3187"
   },
   {
-    "source": "stove",
     "app_id": "2694920",
     "stove_game_no": "6015",
     "stove_product_no": "3221",
@@ -1490,18 +1177,14 @@
     "steam_link": "https://store.steampowered.com/app/2694920",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/3221"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/3221",
-    "last_verification_date": "2026-01-10T21:09:02.963Z",
-    "updated_at": "2026-01-10T21:09:02.963Z"
+    "stove_url": "https://store.onstove.com/ko/games/3221"
   },
   {
-    "source": "stove",
     "app_id": "1508680",
     "stove_game_no": "3476",
     "stove_product_no": "1991",
@@ -1509,18 +1192,14 @@
     "steam_link": "https://store.steampowered.com/app/1508680",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1991"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1991",
-    "last_verification_date": "2026-01-10T21:09:02.963Z",
-    "updated_at": "2026-01-10T21:09:02.963Z"
+    "stove_url": "https://store.onstove.com/ko/games/1991"
   },
   {
-    "source": "stove",
     "app_id": "1627680",
     "stove_game_no": "3477",
     "stove_product_no": "1992",
@@ -1528,18 +1207,14 @@
     "steam_link": "https://store.steampowered.com/app/1627680",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1992"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1992",
-    "last_verification_date": "2026-01-10T21:09:02.963Z",
-    "updated_at": "2026-01-10T21:09:02.963Z"
+    "stove_url": "https://store.onstove.com/ko/games/1992"
   },
   {
-    "source": "stove",
     "app_id": "1662840",
     "stove_game_no": "5382",
     "stove_product_no": "2892",
@@ -1547,18 +1222,14 @@
     "steam_link": "https://store.steampowered.com/app/1662840",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/2892"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/2892",
-    "last_verification_date": "2026-01-10T21:09:02.963Z",
-    "updated_at": "2026-01-10T21:09:02.963Z"
+    "stove_url": "https://store.onstove.com/ko/games/2892"
   },
   {
-    "source": "stove",
     "app_id": "1611420",
     "stove_game_no": "4555",
     "stove_product_no": "3206",
@@ -1566,18 +1237,14 @@
     "steam_link": "https://store.steampowered.com/app/1611420",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/3206"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/3206",
-    "last_verification_date": "2026-01-10T21:09:02.963Z",
-    "updated_at": "2026-01-10T21:09:02.963Z"
+    "stove_url": "https://store.onstove.com/ko/games/3206"
   },
   {
-    "source": "stove",
     "app_id": "1301480",
     "stove_game_no": "5163",
     "stove_product_no": "2828",
@@ -1585,18 +1252,14 @@
     "steam_link": "https://store.steampowered.com/app/1301480",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/2828"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/2828",
-    "last_verification_date": "2026-01-10T21:09:02.963Z",
-    "updated_at": "2026-01-10T21:09:02.963Z"
+    "stove_url": "https://store.onstove.com/ko/games/2828"
   },
   {
-    "source": "stove",
     "app_id": "699170",
     "stove_game_no": "5202",
     "stove_product_no": "2917",
@@ -1604,18 +1267,14 @@
     "steam_link": "https://store.steampowered.com/app/699170",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/2917"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/2917",
-    "last_verification_date": "2026-01-10T21:09:02.963Z",
-    "updated_at": "2026-01-10T21:09:02.963Z"
+    "stove_url": "https://store.onstove.com/ko/games/2917"
   },
   {
-    "source": "stove",
     "app_id": "1092630",
     "stove_game_no": "5355",
     "stove_product_no": "2864",
@@ -1623,18 +1282,14 @@
     "steam_link": "https://store.steampowered.com/app/1092630",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/2864"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/2864",
-    "last_verification_date": "2026-01-10T21:09:02.963Z",
-    "updated_at": "2026-01-10T21:09:02.963Z"
+    "stove_url": "https://store.onstove.com/ko/games/2864"
   },
   {
-    "source": "stove",
     "app_id": "2445340",
     "stove_game_no": "5525",
     "stove_product_no": "2959",
@@ -1642,18 +1297,14 @@
     "steam_link": "https://store.steampowered.com/app/2445340",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/2959"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/2959",
-    "last_verification_date": "2026-01-10T21:09:02.963Z",
-    "updated_at": "2026-01-10T21:09:02.963Z"
+    "stove_url": "https://store.onstove.com/ko/games/2959"
   },
   {
-    "source": "stove",
     "app_id": "1913420",
     "stove_game_no": "5300",
     "stove_product_no": "2819",
@@ -1661,18 +1312,14 @@
     "steam_link": "https://store.steampowered.com/app/1913420",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/2819"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/2819",
-    "last_verification_date": "2026-01-10T21:09:02.963Z",
-    "updated_at": "2026-01-10T21:09:02.963Z"
+    "stove_url": "https://store.onstove.com/ko/games/2819"
   },
   {
-    "source": "stove",
     "app_id": "2439710",
     "stove_game_no": "5433",
     "stove_product_no": "2919",
@@ -1680,18 +1327,14 @@
     "steam_link": "https://store.steampowered.com/app/2439710",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/2919"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/2919",
-    "last_verification_date": "2026-01-10T21:09:02.963Z",
-    "updated_at": "2026-01-10T21:09:02.963Z"
+    "stove_url": "https://store.onstove.com/ko/games/2919"
   },
   {
-    "source": "stove",
     "app_id": "702050",
     "stove_game_no": "2396",
     "stove_product_no": "1248",
@@ -1699,18 +1342,14 @@
     "steam_link": "https://store.steampowered.com/app/702050",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1248"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1248",
-    "last_verification_date": "2026-01-10T21:09:02.963Z",
-    "updated_at": "2026-01-10T21:09:02.963Z"
+    "stove_url": "https://store.onstove.com/ko/games/1248"
   },
   {
-    "source": "stove",
     "app_id": "2093640",
     "stove_game_no": "5193",
     "stove_product_no": "2733",
@@ -1718,18 +1357,14 @@
     "steam_link": "https://store.steampowered.com/app/2093640",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/2733"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/2733",
-    "last_verification_date": "2026-01-10T21:09:02.963Z",
-    "updated_at": "2026-01-10T21:09:02.963Z"
+    "stove_url": "https://store.onstove.com/ko/games/2733"
   },
   {
-    "source": "stove",
     "app_id": "1330170",
     "stove_game_no": "5162",
     "stove_product_no": "2826",
@@ -1737,18 +1372,14 @@
     "steam_link": "https://store.steampowered.com/app/1330170",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/2826"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/2826",
-    "last_verification_date": "2026-01-10T21:09:02.963Z",
-    "updated_at": "2026-01-10T21:09:02.963Z"
+    "stove_url": "https://store.onstove.com/ko/games/2826"
   },
   {
-    "source": "stove",
     "app_id": "2483680",
     "stove_game_no": "5161",
     "stove_product_no": "2822",
@@ -1756,18 +1387,14 @@
     "steam_link": "https://store.steampowered.com/app/2483680",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/2822"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/2822",
-    "last_verification_date": "2026-01-10T21:09:02.963Z",
-    "updated_at": "2026-01-10T21:09:02.963Z"
+    "stove_url": "https://store.onstove.com/ko/games/2822"
   },
   {
-    "source": "stove",
     "app_id": "1057600",
     "stove_game_no": "4880",
     "stove_product_no": "2547",
@@ -1775,18 +1402,14 @@
     "steam_link": "https://store.steampowered.com/app/1057600",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/2547"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/2547",
-    "last_verification_date": "2026-01-10T21:09:02.963Z",
-    "updated_at": "2026-01-10T21:09:02.963Z"
+    "stove_url": "https://store.onstove.com/ko/games/2547"
   },
   {
-    "source": "stove",
     "app_id": "1669980",
     "stove_game_no": "3725",
     "stove_product_no": "1937",
@@ -1794,18 +1417,14 @@
     "steam_link": "https://store.steampowered.com/app/1669980",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1937"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1937",
-    "last_verification_date": "2026-01-10T21:09:02.963Z",
-    "updated_at": "2026-01-10T21:09:02.963Z"
+    "stove_url": "https://store.onstove.com/ko/games/1937"
   },
   {
-    "source": "stove",
     "app_id": "638990",
     "stove_game_no": "1798",
     "stove_product_no": "1073",
@@ -1813,18 +1432,14 @@
     "steam_link": "https://store.steampowered.com/app/638990",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1073"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1073",
-    "last_verification_date": "2026-01-10T21:09:02.963Z",
-    "updated_at": "2026-01-10T21:09:02.963Z"
+    "stove_url": "https://store.onstove.com/ko/games/1073"
   },
   {
-    "source": "stove",
     "app_id": "1555140",
     "stove_game_no": "3328",
     "stove_product_no": "2202",
@@ -1832,18 +1447,14 @@
     "steam_link": "https://store.steampowered.com/app/1555140",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/2202"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/2202",
-    "last_verification_date": "2026-01-10T21:09:02.963Z",
-    "updated_at": "2026-01-10T21:09:02.963Z"
+    "stove_url": "https://store.onstove.com/ko/games/2202"
   },
   {
-    "source": "stove",
     "app_id": "1820140",
     "stove_game_no": "4688",
     "stove_product_no": "2437",
@@ -1851,18 +1462,14 @@
     "steam_link": "https://store.steampowered.com/app/1820140",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/2437"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/2437",
-    "last_verification_date": "2026-01-10T21:09:02.963Z",
-    "updated_at": "2026-01-10T21:09:02.963Z"
+    "stove_url": "https://store.onstove.com/ko/games/2437"
   },
   {
-    "source": "stove",
     "app_id": "2220480",
     "stove_game_no": "5109",
     "stove_product_no": "2686",
@@ -1870,18 +1477,14 @@
     "steam_link": "https://store.steampowered.com/app/2220480",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/2686"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/2686",
-    "last_verification_date": "2026-01-10T21:09:02.963Z",
-    "updated_at": "2026-01-10T21:09:02.963Z"
+    "stove_url": "https://store.onstove.com/ko/games/2686"
   },
   {
-    "source": "stove",
     "app_id": "809850",
     "stove_game_no": "4829",
     "stove_product_no": "2677",
@@ -1889,18 +1492,14 @@
     "steam_link": "https://store.steampowered.com/app/809850",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/2677"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/2677",
-    "last_verification_date": "2026-01-10T21:09:02.963Z",
-    "updated_at": "2026-01-10T21:09:02.963Z"
+    "stove_url": "https://store.onstove.com/ko/games/2677"
   },
   {
-    "source": "stove",
     "app_id": "1314770",
     "stove_game_no": "4155",
     "stove_product_no": "2198",
@@ -1908,18 +1507,14 @@
     "steam_link": "https://store.steampowered.com/app/1314770",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/2198"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/2198",
-    "last_verification_date": "2026-01-10T21:09:02.963Z",
-    "updated_at": "2026-01-10T21:09:02.963Z"
+    "stove_url": "https://store.onstove.com/ko/games/2198"
   },
   {
-    "source": "stove",
     "app_id": "792040",
     "stove_game_no": "3886",
     "stove_product_no": "2036",
@@ -1927,18 +1522,14 @@
     "steam_link": "https://store.steampowered.com/app/792040",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/2036"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/2036",
-    "last_verification_date": "2026-01-10T21:09:02.963Z",
-    "updated_at": "2026-01-10T21:09:02.963Z"
+    "stove_url": "https://store.onstove.com/ko/games/2036"
   },
   {
-    "source": "stove",
     "app_id": null,
     "stove_game_no": "4133",
     "stove_product_no": "2180",
@@ -1946,18 +1537,14 @@
     "steam_link": "",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/2180"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/2180",
-    "last_verification_date": "2026-01-10T21:09:02.963Z",
-    "updated_at": "2026-01-10T21:09:02.963Z"
+    "stove_url": "https://store.onstove.com/ko/games/2180"
   },
   {
-    "source": "stove",
     "app_id": "2005160",
     "stove_game_no": "4125",
     "stove_product_no": "2473",
@@ -1965,18 +1552,14 @@
     "steam_link": "https://store.steampowered.com/app/2005160",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/2473"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/2473",
-    "last_verification_date": "2026-01-10T21:09:02.963Z",
-    "updated_at": "2026-01-10T21:09:02.963Z"
+    "stove_url": "https://store.onstove.com/ko/games/2473"
   },
   {
-    "source": "stove",
     "app_id": "2524170",
     "stove_game_no": "4823",
     "stove_product_no": "2523",
@@ -1984,18 +1567,14 @@
     "steam_link": "https://store.steampowered.com/app/2524170",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/2523"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/2523",
-    "last_verification_date": "2026-01-10T21:09:02.963Z",
-    "updated_at": "2026-01-10T21:09:02.963Z"
+    "stove_url": "https://store.onstove.com/ko/games/2523"
   },
   {
-    "source": "stove",
     "app_id": "2527660",
     "stove_game_no": "4724",
     "stove_product_no": "2463",
@@ -2003,18 +1582,14 @@
     "steam_link": "https://store.steampowered.com/app/2527660",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/2463"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/2463",
-    "last_verification_date": "2026-01-10T21:09:02.963Z",
-    "updated_at": "2026-01-10T21:09:02.963Z"
+    "stove_url": "https://store.onstove.com/ko/games/2463"
   },
   {
-    "source": "stove",
     "app_id": "2383880",
     "stove_game_no": "4022",
     "stove_product_no": "2260",
@@ -2022,18 +1597,14 @@
     "steam_link": "https://store.steampowered.com/app/2383880",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/2260"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/2260",
-    "last_verification_date": "2026-01-10T21:09:02.963Z",
-    "updated_at": "2026-01-10T21:09:02.963Z"
+    "stove_url": "https://store.onstove.com/ko/games/2260"
   },
   {
-    "source": "stove",
     "app_id": "332490",
     "stove_game_no": "4137",
     "stove_product_no": "2182",
@@ -2041,18 +1612,14 @@
     "steam_link": "https://store.steampowered.com/app/332490",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/2182"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/2182",
-    "last_verification_date": "2026-01-10T21:09:02.963Z",
-    "updated_at": "2026-01-10T21:09:02.963Z"
+    "stove_url": "https://store.onstove.com/ko/games/2182"
   },
   {
-    "source": "stove",
     "app_id": "629040",
     "stove_game_no": "4138",
     "stove_product_no": "2183",
@@ -2060,18 +1627,14 @@
     "steam_link": "https://store.steampowered.com/app/629040",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/2183"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/2183",
-    "last_verification_date": "2026-01-10T21:09:04.409Z",
-    "updated_at": "2026-01-10T21:09:04.409Z"
+    "stove_url": "https://store.onstove.com/ko/games/2183"
   },
   {
-    "source": "stove",
     "app_id": "2297230",
     "stove_game_no": "4360",
     "stove_product_no": "2279",
@@ -2079,18 +1642,14 @@
     "steam_link": "https://store.steampowered.com/app/2297230",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/2279"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/2279",
-    "last_verification_date": "2026-01-10T21:09:04.409Z",
-    "updated_at": "2026-01-10T21:09:04.409Z"
+    "stove_url": "https://store.onstove.com/ko/games/2279"
   },
   {
-    "source": "stove",
     "app_id": "2077950",
     "stove_game_no": "4356",
     "stove_product_no": "2275",
@@ -2098,18 +1657,14 @@
     "steam_link": "https://store.steampowered.com/app/2077950",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/2275"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/2275",
-    "last_verification_date": "2026-01-10T21:09:04.409Z",
-    "updated_at": "2026-01-10T21:09:04.409Z"
+    "stove_url": "https://store.onstove.com/ko/games/2275"
   },
   {
-    "source": "stove",
     "app_id": "1997300",
     "stove_game_no": "4357",
     "stove_product_no": "2276",
@@ -2117,18 +1672,14 @@
     "steam_link": "https://store.steampowered.com/app/1997300",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/2276"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/2276",
-    "last_verification_date": "2026-01-10T21:09:04.409Z",
-    "updated_at": "2026-01-10T21:09:04.409Z"
+    "stove_url": "https://store.onstove.com/ko/games/2276"
   },
   {
-    "source": "stove",
     "app_id": "1910020",
     "stove_game_no": "4358",
     "stove_product_no": "2277",
@@ -2136,18 +1687,14 @@
     "steam_link": "https://store.steampowered.com/app/1910020",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/2277"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/2277",
-    "last_verification_date": "2026-01-10T21:09:04.409Z",
-    "updated_at": "2026-01-10T21:09:04.409Z"
+    "stove_url": "https://store.onstove.com/ko/games/2277"
   },
   {
-    "source": "stove",
     "app_id": "2210630",
     "stove_game_no": "4355",
     "stove_product_no": "2274",
@@ -2155,18 +1702,14 @@
     "steam_link": "https://store.steampowered.com/app/2210630",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/2274"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/2274",
-    "last_verification_date": "2026-01-10T21:09:04.409Z",
-    "updated_at": "2026-01-10T21:09:04.409Z"
+    "stove_url": "https://store.onstove.com/ko/games/2274"
   },
   {
-    "source": "stove",
     "app_id": "2144360",
     "stove_game_no": "4359",
     "stove_product_no": "2278",
@@ -2174,18 +1717,14 @@
     "steam_link": "https://store.steampowered.com/app/2144360",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/2278"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/2278",
-    "last_verification_date": "2026-01-10T21:09:04.409Z",
-    "updated_at": "2026-01-10T21:09:04.409Z"
+    "stove_url": "https://store.onstove.com/ko/games/2278"
   },
   {
-    "source": "stove",
     "app_id": "707030",
     "stove_game_no": "2316",
     "stove_product_no": "1076",
@@ -2193,18 +1732,14 @@
     "steam_link": "https://store.steampowered.com/app/707030",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1076"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1076",
-    "last_verification_date": "2026-01-10T21:09:04.409Z",
-    "updated_at": "2026-01-10T21:09:04.409Z"
+    "stove_url": "https://store.onstove.com/ko/games/1076"
   },
   {
-    "source": "stove",
     "app_id": "2435710",
     "stove_game_no": "4228",
     "stove_product_no": "2205",
@@ -2212,18 +1747,14 @@
     "steam_link": "https://store.steampowered.com/app/2435710",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/2205"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/2205",
-    "last_verification_date": "2026-01-10T21:09:04.409Z",
-    "updated_at": "2026-01-10T21:09:04.409Z"
+    "stove_url": "https://store.onstove.com/ko/games/2205"
   },
   {
-    "source": "stove",
     "app_id": "1737340",
     "stove_game_no": "4063",
     "stove_product_no": "2140",
@@ -2231,18 +1762,14 @@
     "steam_link": "https://store.steampowered.com/app/1737340",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/2140"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/2140",
-    "last_verification_date": "2026-01-10T21:09:04.409Z",
-    "updated_at": "2026-01-10T21:09:04.409Z"
+    "stove_url": "https://store.onstove.com/ko/games/2140"
   },
   {
-    "source": "stove",
     "app_id": "1345740",
     "stove_game_no": "3301",
     "stove_product_no": "1963",
@@ -2250,18 +1777,14 @@
     "steam_link": "https://store.steampowered.com/app/1345740",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1963"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1963",
-    "last_verification_date": "2026-01-10T21:09:04.409Z",
-    "updated_at": "2026-01-10T21:09:04.409Z"
+    "stove_url": "https://store.onstove.com/ko/games/1963"
   },
   {
-    "source": "stove",
     "app_id": "1825930",
     "stove_game_no": "3481",
     "stove_product_no": "1772",
@@ -2269,18 +1792,14 @@
     "steam_link": "https://store.steampowered.com/app/1825930",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1772"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1772",
-    "last_verification_date": "2026-01-10T21:09:04.409Z",
-    "updated_at": "2026-01-10T21:09:04.409Z"
+    "stove_url": "https://store.onstove.com/ko/games/1772"
   },
   {
-    "source": "stove",
     "app_id": "1921560",
     "stove_game_no": "3450",
     "stove_product_no": "1753",
@@ -2288,18 +1807,14 @@
     "steam_link": "https://store.steampowered.com/app/1921560",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1753"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1753",
-    "last_verification_date": "2026-01-10T21:09:04.409Z",
-    "updated_at": "2026-01-10T21:09:04.409Z"
+    "stove_url": "https://store.onstove.com/ko/games/1753"
   },
   {
-    "source": "stove",
     "app_id": "2337280",
     "stove_game_no": "4078",
     "stove_product_no": "2156",
@@ -2307,18 +1822,14 @@
     "steam_link": "https://store.steampowered.com/app/2337280",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/2156"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/2156",
-    "last_verification_date": "2026-01-10T21:09:04.409Z",
-    "updated_at": "2026-01-10T21:09:04.409Z"
+    "stove_url": "https://store.onstove.com/ko/games/2156"
   },
   {
-    "source": "stove",
     "app_id": "2342950",
     "stove_game_no": "3938",
     "stove_product_no": "2067",
@@ -2326,18 +1837,14 @@
     "steam_link": "https://store.steampowered.com/app/2342950",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/2067"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/2067",
-    "last_verification_date": "2026-01-10T21:09:04.409Z",
-    "updated_at": "2026-01-10T21:09:04.409Z"
+    "stove_url": "https://store.onstove.com/ko/games/2067"
   },
   {
-    "source": "stove",
     "app_id": "1891620",
     "stove_game_no": "3331",
     "stove_product_no": "1724",
@@ -2345,18 +1852,14 @@
     "steam_link": "https://store.steampowered.com/app/1891620",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1724"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1724",
-    "last_verification_date": "2026-01-10T21:09:04.409Z",
-    "updated_at": "2026-01-10T21:09:04.409Z"
+    "stove_url": "https://store.onstove.com/ko/games/1724"
   },
   {
-    "source": "stove",
     "app_id": "1592110",
     "stove_game_no": "3281",
     "stove_product_no": "1653",
@@ -2364,18 +1867,14 @@
     "steam_link": "https://store.steampowered.com/app/1592110",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1653"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1653",
-    "last_verification_date": "2026-01-10T21:09:04.409Z",
-    "updated_at": "2026-01-10T21:09:04.409Z"
+    "stove_url": "https://store.onstove.com/ko/games/1653"
   },
   {
-    "source": "stove",
     "app_id": "2020710",
     "stove_game_no": "3596",
     "stove_product_no": "1851",
@@ -2383,18 +1882,14 @@
     "steam_link": "https://store.steampowered.com/app/2020710",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1851"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1851",
-    "last_verification_date": "2026-01-10T21:09:04.409Z",
-    "updated_at": "2026-01-10T21:09:04.409Z"
+    "stove_url": "https://store.onstove.com/ko/games/1851"
   },
   {
-    "source": "stove",
     "app_id": "1322970",
     "stove_game_no": "3763",
     "stove_product_no": "1972",
@@ -2402,18 +1897,14 @@
     "steam_link": "https://store.steampowered.com/app/1322970",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1972"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1972",
-    "last_verification_date": "2026-01-10T21:09:04.409Z",
-    "updated_at": "2026-01-10T21:09:04.409Z"
+    "stove_url": "https://store.onstove.com/ko/games/1972"
   },
   {
-    "source": "stove",
     "app_id": "858710",
     "stove_game_no": "3332",
     "stove_product_no": "1723",
@@ -2421,18 +1912,14 @@
     "steam_link": "https://store.steampowered.com/app/858710",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1723"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1723",
-    "last_verification_date": "2026-01-10T21:09:04.409Z",
-    "updated_at": "2026-01-10T21:09:04.409Z"
+    "stove_url": "https://store.onstove.com/ko/games/1723"
   },
   {
-    "source": "stove",
     "app_id": "1238730",
     "stove_game_no": "2393",
     "stove_product_no": "1361",
@@ -2440,18 +1927,14 @@
     "steam_link": "https://store.steampowered.com/app/1238730",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1361"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1361",
-    "last_verification_date": "2026-01-10T21:09:04.409Z",
-    "updated_at": "2026-01-10T21:09:04.409Z"
+    "stove_url": "https://store.onstove.com/ko/games/1361"
   },
   {
-    "source": "stove",
     "app_id": "1781960",
     "stove_game_no": "3638",
     "stove_product_no": "2001",
@@ -2459,18 +1942,14 @@
     "steam_link": "https://store.steampowered.com/app/1781960",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/2001"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/2001",
-    "last_verification_date": "2026-01-10T21:09:04.409Z",
-    "updated_at": "2026-01-10T21:09:04.410Z"
+    "stove_url": "https://store.onstove.com/ko/games/2001"
   },
   {
-    "source": "stove",
     "app_id": "1139940",
     "stove_game_no": "3634",
     "stove_product_no": "1893",
@@ -2478,18 +1957,14 @@
     "steam_link": "https://store.steampowered.com/app/1139940",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1893"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1893",
-    "last_verification_date": "2026-01-10T21:09:04.410Z",
-    "updated_at": "2026-01-10T21:09:04.410Z"
+    "stove_url": "https://store.onstove.com/ko/games/1893"
   },
   {
-    "source": "stove",
     "app_id": "828740",
     "stove_game_no": "2487",
     "stove_product_no": "1148",
@@ -2497,18 +1972,14 @@
     "steam_link": "https://store.steampowered.com/app/828740",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1148"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1148",
-    "last_verification_date": "2026-01-10T21:09:04.410Z",
-    "updated_at": "2026-01-10T21:09:04.410Z"
+    "stove_url": "https://store.onstove.com/ko/games/1148"
   },
   {
-    "source": "stove",
     "app_id": "1836920",
     "stove_game_no": "3114",
     "stove_product_no": "1556",
@@ -2516,18 +1987,14 @@
     "steam_link": "https://store.steampowered.com/app/1836920",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1556"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1556",
-    "last_verification_date": "2026-01-10T21:09:04.410Z",
-    "updated_at": "2026-01-10T21:09:04.410Z"
+    "stove_url": "https://store.onstove.com/ko/games/1556"
   },
   {
-    "source": "stove",
     "app_id": "1293820",
     "stove_game_no": "2394",
     "stove_product_no": "1108",
@@ -2535,18 +2002,14 @@
     "steam_link": "https://store.steampowered.com/app/1293820",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1108"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1108",
-    "last_verification_date": "2026-01-10T21:09:04.410Z",
-    "updated_at": "2026-01-10T21:09:04.410Z"
+    "stove_url": "https://store.onstove.com/ko/games/1108"
   },
   {
-    "source": "stove",
     "app_id": "1634080",
     "stove_game_no": "3326",
     "stove_product_no": "1965",
@@ -2554,18 +2017,14 @@
     "steam_link": "https://store.steampowered.com/app/1634080",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1965"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1965",
-    "last_verification_date": "2026-01-10T21:09:04.410Z",
-    "updated_at": "2026-01-10T21:09:04.410Z"
+    "stove_url": "https://store.onstove.com/ko/games/1965"
   },
   {
-    "source": "stove",
     "app_id": "578540",
     "stove_game_no": "3509",
     "stove_product_no": "1898",
@@ -2573,18 +2032,14 @@
     "steam_link": "https://store.steampowered.com/app/578540",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1898"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1898",
-    "last_verification_date": "2026-01-10T21:09:04.410Z",
-    "updated_at": "2026-01-10T21:09:04.410Z"
+    "stove_url": "https://store.onstove.com/ko/games/1898"
   },
   {
-    "source": "stove",
     "app_id": "1592100",
     "stove_game_no": "2208",
     "stove_product_no": "1782",
@@ -2592,18 +2047,14 @@
     "steam_link": "https://store.steampowered.com/app/1592100",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1782"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1782",
-    "last_verification_date": "2026-01-10T21:09:04.410Z",
-    "updated_at": "2026-01-10T21:09:04.410Z"
+    "stove_url": "https://store.onstove.com/ko/games/1782"
   },
   {
-    "source": "stove",
     "app_id": "617160",
     "stove_game_no": "3426",
     "stove_product_no": "1720",
@@ -2611,18 +2062,14 @@
     "steam_link": "https://store.steampowered.com/app/617160",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1720"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1720",
-    "last_verification_date": "2026-01-10T21:09:04.410Z",
-    "updated_at": "2026-01-10T21:09:04.410Z"
+    "stove_url": "https://store.onstove.com/ko/games/1720"
   },
   {
-    "source": "stove",
     "app_id": "1725340",
     "stove_game_no": "3330",
     "stove_product_no": "1725",
@@ -2630,18 +2077,14 @@
     "steam_link": "https://store.steampowered.com/app/1725340",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1725"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1725",
-    "last_verification_date": "2026-01-10T21:09:04.410Z",
-    "updated_at": "2026-01-10T21:09:04.410Z"
+    "stove_url": "https://store.onstove.com/ko/games/1725"
   },
   {
-    "source": "stove",
     "app_id": "858940",
     "stove_game_no": "2392",
     "stove_product_no": "1360",
@@ -2649,18 +2092,14 @@
     "steam_link": "https://store.steampowered.com/app/858940",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1360"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1360",
-    "last_verification_date": "2026-01-10T21:09:04.410Z",
-    "updated_at": "2026-01-10T21:09:04.410Z"
+    "stove_url": "https://store.onstove.com/ko/games/1360"
   },
   {
-    "source": "stove",
     "app_id": "312520",
     "stove_game_no": "3663",
     "stove_product_no": "1905",
@@ -2668,18 +2107,14 @@
     "steam_link": "https://store.steampowered.com/app/312520",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1905"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1905",
-    "last_verification_date": "2026-01-10T21:09:04.410Z",
-    "updated_at": "2026-01-10T21:09:04.410Z"
+    "stove_url": "https://store.onstove.com/ko/games/1905"
   },
   {
-    "source": "stove",
     "app_id": "2286260",
     "stove_game_no": "3608",
     "stove_product_no": "1866",
@@ -2687,18 +2122,14 @@
     "steam_link": "https://store.steampowered.com/app/2286260",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1866"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1866",
-    "last_verification_date": "2026-01-10T21:09:04.410Z",
-    "updated_at": "2026-01-10T21:09:04.410Z"
+    "stove_url": "https://store.onstove.com/ko/games/1866"
   },
   {
-    "source": "stove",
     "app_id": "1611300",
     "stove_game_no": "3408",
     "stove_product_no": "1862",
@@ -2706,18 +2137,14 @@
     "steam_link": "https://store.steampowered.com/app/1611300",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1862"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1862",
-    "last_verification_date": "2026-01-10T21:09:04.410Z",
-    "updated_at": "2026-01-10T21:09:04.410Z"
+    "stove_url": "https://store.onstove.com/ko/games/1862"
   },
   {
-    "source": "stove",
     "app_id": "1426110",
     "stove_game_no": "3412",
     "stove_product_no": "1779",
@@ -2725,18 +2152,14 @@
     "steam_link": "https://store.steampowered.com/app/1426110",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1779"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1779",
-    "last_verification_date": "2026-01-10T21:09:04.410Z",
-    "updated_at": "2026-01-10T21:09:04.410Z"
+    "stove_url": "https://store.onstove.com/ko/games/1779"
   },
   {
-    "source": "stove",
     "app_id": "1303740",
     "stove_game_no": "3410",
     "stove_product_no": "1841",
@@ -2744,18 +2167,14 @@
     "steam_link": "https://store.steampowered.com/app/1303740",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1841"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1841",
-    "last_verification_date": "2026-01-10T21:09:05.864Z",
-    "updated_at": "2026-01-10T21:09:05.864Z"
+    "stove_url": "https://store.onstove.com/ko/games/1841"
   },
   {
-    "source": "stove",
     "app_id": "1812060",
     "stove_game_no": "3407",
     "stove_product_no": "1816",
@@ -2763,18 +2182,14 @@
     "steam_link": "https://store.steampowered.com/app/1812060",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1816"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1816",
-    "last_verification_date": "2026-01-10T21:09:05.864Z",
-    "updated_at": "2026-01-10T21:09:05.864Z"
+    "stove_url": "https://store.onstove.com/ko/games/1816"
   },
   {
-    "source": "stove",
     "app_id": "1418160",
     "stove_game_no": "3409",
     "stove_product_no": "1882",
@@ -2782,18 +2197,14 @@
     "steam_link": "https://store.steampowered.com/app/1418160",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1882"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1882",
-    "last_verification_date": "2026-01-10T21:09:05.864Z",
-    "updated_at": "2026-01-10T21:09:05.864Z"
+    "stove_url": "https://store.onstove.com/ko/games/1882"
   },
   {
-    "source": "stove",
     "app_id": "1787480",
     "stove_game_no": "3380",
     "stove_product_no": "1691",
@@ -2801,18 +2212,14 @@
     "steam_link": "https://store.steampowered.com/app/1787480",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1691"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1691",
-    "last_verification_date": "2026-01-10T21:09:05.864Z",
-    "updated_at": "2026-01-10T21:09:05.864Z"
+    "stove_url": "https://store.onstove.com/ko/games/1691"
   },
   {
-    "source": "stove",
     "app_id": "452440",
     "stove_game_no": "2243",
     "stove_product_no": "1359",
@@ -2820,18 +2227,14 @@
     "steam_link": "https://store.steampowered.com/app/452440",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1359"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1359",
-    "last_verification_date": "2026-01-10T21:09:05.864Z",
-    "updated_at": "2026-01-10T21:09:05.864Z"
+    "stove_url": "https://store.onstove.com/ko/games/1359"
   },
   {
-    "source": "stove",
     "app_id": "375480",
     "stove_game_no": "2409",
     "stove_product_no": "1698",
@@ -2839,18 +2242,14 @@
     "steam_link": "https://store.steampowered.com/app/375480",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1698"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1698",
-    "last_verification_date": "2026-01-10T21:09:05.864Z",
-    "updated_at": "2026-01-10T21:09:05.864Z"
+    "stove_url": "https://store.onstove.com/ko/games/1698"
   },
   {
-    "source": "stove",
     "app_id": "353640",
     "stove_game_no": "3324",
     "stove_product_no": "1677",
@@ -2858,18 +2257,14 @@
     "steam_link": "https://store.steampowered.com/app/353640",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1677"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1677",
-    "last_verification_date": "2026-01-10T21:09:05.864Z",
-    "updated_at": "2026-01-10T21:09:05.864Z"
+    "stove_url": "https://store.onstove.com/ko/games/1677"
   },
   {
-    "source": "stove",
     "app_id": "1141550",
     "stove_game_no": "3317",
     "stove_product_no": "1674",
@@ -2877,18 +2272,14 @@
     "steam_link": "https://store.steampowered.com/app/1141550",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1674"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1674",
-    "last_verification_date": "2026-01-10T21:09:05.864Z",
-    "updated_at": "2026-01-10T21:09:05.864Z"
+    "stove_url": "https://store.onstove.com/ko/games/1674"
   },
   {
-    "source": "stove",
     "app_id": "1944060",
     "stove_game_no": "3216",
     "stove_product_no": "1604",
@@ -2896,18 +2287,14 @@
     "steam_link": "https://store.steampowered.com/app/1944060",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1604"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1604",
-    "last_verification_date": "2026-01-10T21:09:05.864Z",
-    "updated_at": "2026-01-10T21:09:05.864Z"
+    "stove_url": "https://store.onstove.com/ko/games/1604"
   },
   {
-    "source": "stove",
     "app_id": "2025610",
     "stove_game_no": "2788",
     "stove_product_no": "1539",
@@ -2915,18 +2302,14 @@
     "steam_link": "https://store.steampowered.com/app/2025610",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1539"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1539",
-    "last_verification_date": "2026-01-10T21:09:05.864Z",
-    "updated_at": "2026-01-10T21:09:05.864Z"
+    "stove_url": "https://store.onstove.com/ko/games/1539"
   },
   {
-    "source": "stove",
     "app_id": "398850",
     "stove_game_no": "2261",
     "stove_product_no": "1033",
@@ -2934,18 +2317,14 @@
     "steam_link": "https://store.steampowered.com/app/398850",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1033"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1033",
-    "last_verification_date": "2026-01-10T21:09:05.864Z",
-    "updated_at": "2026-01-10T21:09:05.864Z"
+    "stove_url": "https://store.onstove.com/ko/games/1033"
   },
   {
-    "source": "stove",
     "app_id": "551860",
     "stove_game_no": "2214",
     "stove_product_no": "1006",
@@ -2953,18 +2332,14 @@
     "steam_link": "https://store.steampowered.com/app/551860",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1006"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1006",
-    "last_verification_date": "2026-01-10T21:09:05.864Z",
-    "updated_at": "2026-01-10T21:09:05.864Z"
+    "stove_url": "https://store.onstove.com/ko/games/1006"
   },
   {
-    "source": "stove",
     "app_id": "1716940",
     "stove_game_no": "2379",
     "stove_product_no": "1153",
@@ -2972,18 +2347,14 @@
     "steam_link": "https://store.steampowered.com/app/1716940",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1153"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1153",
-    "last_verification_date": "2026-01-10T21:09:05.864Z",
-    "updated_at": "2026-01-10T21:09:05.864Z"
+    "stove_url": "https://store.onstove.com/ko/games/1153"
   },
   {
-    "source": "stove",
     "app_id": "1509780",
     "stove_game_no": "2121",
     "stove_product_no": "963",
@@ -2991,18 +2362,14 @@
     "steam_link": "https://store.steampowered.com/app/1509780",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/963"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/963",
-    "last_verification_date": "2026-01-10T21:09:05.864Z",
-    "updated_at": "2026-01-10T21:09:05.864Z"
+    "stove_url": "https://store.onstove.com/ko/games/963"
   },
   {
-    "source": "stove",
     "app_id": "1899950",
     "stove_game_no": "2715",
     "stove_product_no": "1325",
@@ -3010,18 +2377,14 @@
     "steam_link": "https://store.steampowered.com/app/1899950",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1325"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1325",
-    "last_verification_date": "2026-01-10T21:09:05.864Z",
-    "updated_at": "2026-01-10T21:09:05.864Z"
+    "stove_url": "https://store.onstove.com/ko/games/1325"
   },
   {
-    "source": "stove",
     "app_id": null,
     "stove_game_no": "2543",
     "stove_product_no": "1217",
@@ -3029,18 +2392,14 @@
     "steam_link": "",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1217"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1217",
-    "last_verification_date": "2026-01-10T21:09:05.864Z",
-    "updated_at": "2026-01-10T21:09:05.864Z"
+    "stove_url": "https://store.onstove.com/ko/games/1217"
   },
   {
-    "source": "stove",
     "app_id": "2050680",
     "stove_game_no": "2589",
     "stove_product_no": "1216",
@@ -3048,18 +2407,14 @@
     "steam_link": "https://store.steampowered.com/app/2050680",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1216"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1216",
-    "last_verification_date": "2026-01-10T21:09:05.864Z",
-    "updated_at": "2026-01-10T21:09:05.864Z"
+    "stove_url": "https://store.onstove.com/ko/games/1216"
   },
   {
-    "source": "stove",
     "app_id": "376730",
     "stove_game_no": "2412",
     "stove_product_no": "1112",
@@ -3067,18 +2422,14 @@
     "steam_link": "https://store.steampowered.com/app/376730",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1112"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1112",
-    "last_verification_date": "2026-01-10T21:09:05.864Z",
-    "updated_at": "2026-01-10T21:09:05.864Z"
+    "stove_url": "https://store.onstove.com/ko/games/1112"
   },
   {
-    "source": "stove",
     "app_id": "1631830",
     "stove_game_no": "2356",
     "stove_product_no": "1251",
@@ -3086,18 +2437,14 @@
     "steam_link": "https://store.steampowered.com/app/1631830",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1251"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1251",
-    "last_verification_date": "2026-01-10T21:09:05.864Z",
-    "updated_at": "2026-01-10T21:09:05.864Z"
+    "stove_url": "https://store.onstove.com/ko/games/1251"
   },
   {
-    "source": "stove",
     "app_id": "1201230",
     "stove_game_no": "2101",
     "stove_product_no": "1074",
@@ -3105,18 +2452,14 @@
     "steam_link": "https://store.steampowered.com/app/1201230",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1074"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1074",
-    "last_verification_date": "2026-01-10T21:09:05.864Z",
-    "updated_at": "2026-01-10T21:09:05.864Z"
+    "stove_url": "https://store.onstove.com/ko/games/1074"
   },
   {
-    "source": "stove",
     "app_id": "970830",
     "stove_game_no": "501",
     "stove_product_no": "1027",
@@ -3124,18 +2467,14 @@
     "steam_link": "https://store.steampowered.com/app/970830",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1027"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1027",
-    "last_verification_date": "2026-01-10T21:09:05.864Z",
-    "updated_at": "2026-01-10T21:09:05.864Z"
+    "stove_url": "https://store.onstove.com/ko/games/1027"
   },
   {
-    "source": "stove",
     "app_id": "1015920",
     "stove_game_no": "2364",
     "stove_product_no": "1146",
@@ -3143,18 +2482,14 @@
     "steam_link": "https://store.steampowered.com/app/1015920",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1146"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1146",
-    "last_verification_date": "2026-01-10T21:09:05.864Z",
-    "updated_at": "2026-01-10T21:09:05.864Z"
+    "stove_url": "https://store.onstove.com/ko/games/1146"
   },
   {
-    "source": "stove",
     "app_id": "1468810",
     "stove_game_no": "2232",
     "stove_product_no": "1075",
@@ -3162,18 +2497,14 @@
     "steam_link": "https://store.steampowered.com/app/1468810",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1075"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1075",
-    "last_verification_date": "2026-01-10T21:09:05.864Z",
-    "updated_at": "2026-01-10T21:09:05.864Z"
+    "stove_url": "https://store.onstove.com/ko/games/1075"
   },
   {
-    "source": "stove",
     "app_id": "1929870",
     "stove_game_no": "2471",
     "stove_product_no": "1137",
@@ -3181,18 +2512,14 @@
     "steam_link": "https://store.steampowered.com/app/1929870",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1137"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1137",
-    "last_verification_date": "2026-01-10T21:09:05.864Z",
-    "updated_at": "2026-01-10T21:09:05.864Z"
+    "stove_url": "https://store.onstove.com/ko/games/1137"
   },
   {
-    "source": "stove",
     "app_id": "1124080",
     "stove_game_no": "2267",
     "stove_product_no": "1037",
@@ -3200,18 +2527,14 @@
     "steam_link": "https://store.steampowered.com/app/1124080",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1037"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1037",
-    "last_verification_date": "2026-01-10T21:09:05.864Z",
-    "updated_at": "2026-01-10T21:09:05.864Z"
+    "stove_url": "https://store.onstove.com/ko/games/1037"
   },
   {
-    "source": "stove",
     "app_id": "1399670",
     "stove_game_no": "2264",
     "stove_product_no": "1034",
@@ -3219,18 +2542,14 @@
     "steam_link": "https://store.steampowered.com/app/1399670",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1034"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1034",
-    "last_verification_date": "2026-01-10T21:09:05.864Z",
-    "updated_at": "2026-01-10T21:09:05.864Z"
+    "stove_url": "https://store.onstove.com/ko/games/1034"
   },
   {
-    "source": "stove",
     "app_id": "1399660",
     "stove_game_no": "2284",
     "stove_product_no": "1053",
@@ -3238,18 +2557,14 @@
     "steam_link": "https://store.steampowered.com/app/1399660",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1053"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1053",
-    "last_verification_date": "2026-01-10T21:09:05.864Z",
-    "updated_at": "2026-01-10T21:09:05.864Z"
+    "stove_url": "https://store.onstove.com/ko/games/1053"
   },
   {
-    "source": "stove",
     "app_id": "1330550",
     "stove_game_no": "2283",
     "stove_product_no": "1052",
@@ -3257,18 +2572,14 @@
     "steam_link": "https://store.steampowered.com/app/1330550",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1052"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1052",
-    "last_verification_date": "2026-01-10T21:09:05.864Z",
-    "updated_at": "2026-01-10T21:09:05.864Z"
+    "stove_url": "https://store.onstove.com/ko/games/1052"
   },
   {
-    "source": "stove",
     "app_id": "1446280",
     "stove_game_no": "2262",
     "stove_product_no": "1035",
@@ -3276,18 +2587,14 @@
     "steam_link": "https://store.steampowered.com/app/1446280",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1035"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1035",
-    "last_verification_date": "2026-01-10T21:09:05.864Z",
-    "updated_at": "2026-01-10T21:09:05.864Z"
+    "stove_url": "https://store.onstove.com/ko/games/1035"
   },
   {
-    "source": "stove",
     "app_id": "1233540",
     "stove_game_no": "2281",
     "stove_product_no": "1050",
@@ -3295,18 +2602,14 @@
     "steam_link": "https://store.steampowered.com/app/1233540",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1050"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1050",
-    "last_verification_date": "2026-01-10T21:09:05.864Z",
-    "updated_at": "2026-01-10T21:09:05.864Z"
+    "stove_url": "https://store.onstove.com/ko/games/1050"
   },
   {
-    "source": "stove",
     "app_id": "1309130",
     "stove_game_no": "2282",
     "stove_product_no": "1051",
@@ -3314,18 +2617,14 @@
     "steam_link": "https://store.steampowered.com/app/1309130",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1051"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1051",
-    "last_verification_date": "2026-01-10T21:09:05.864Z",
-    "updated_at": "2026-01-10T21:09:05.864Z"
+    "stove_url": "https://store.onstove.com/ko/games/1051"
   },
   {
-    "source": "stove",
     "app_id": null,
     "stove_game_no": "1969",
     "stove_product_no": "884",
@@ -3333,18 +2632,14 @@
     "steam_link": "",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/884"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/884",
-    "last_verification_date": "2026-01-10T21:09:05.864Z",
-    "updated_at": "2026-01-10T21:09:05.864Z"
+    "stove_url": "https://store.onstove.com/ko/games/884"
   },
   {
-    "source": "stove",
     "app_id": "407720",
     "stove_game_no": "2185",
     "stove_product_no": "1056",
@@ -3352,18 +2647,14 @@
     "steam_link": "https://store.steampowered.com/app/407720",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1056"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1056",
-    "last_verification_date": "2026-01-10T21:09:05.864Z",
-    "updated_at": "2026-01-10T21:09:05.864Z"
+    "stove_url": "https://store.onstove.com/ko/games/1056"
   },
   {
-    "source": "stove",
     "app_id": "1498680",
     "stove_game_no": "2179",
     "stove_product_no": "1057",
@@ -3371,18 +2662,14 @@
     "steam_link": "https://store.steampowered.com/app/1498680",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/1057"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/1057",
-    "last_verification_date": "2026-01-10T21:09:05.864Z",
-    "updated_at": "2026-01-10T21:09:05.864Z"
+    "stove_url": "https://store.onstove.com/ko/games/1057"
   },
   {
-    "source": "stove",
     "app_id": "462590",
     "stove_game_no": "1555",
     "stove_product_no": "656",
@@ -3390,18 +2677,14 @@
     "steam_link": "https://store.steampowered.com/app/462590",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/656"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/656",
-    "last_verification_date": "2026-01-10T21:09:05.864Z",
-    "updated_at": "2026-01-10T21:09:05.864Z"
+    "stove_url": "https://store.onstove.com/ko/games/656"
   },
   {
-    "source": "stove",
     "app_id": "1552630",
     "stove_game_no": "1735",
     "stove_product_no": "849",
@@ -3409,18 +2692,14 @@
     "steam_link": "https://store.steampowered.com/app/1552630",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/849"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/849",
-    "last_verification_date": "2026-01-10T21:09:05.864Z",
-    "updated_at": "2026-01-10T21:09:05.864Z"
+    "stove_url": "https://store.onstove.com/ko/games/849"
   },
   {
-    "source": "stove",
     "app_id": "552620",
     "stove_game_no": "497",
     "stove_product_no": "134",
@@ -3428,18 +2707,14 @@
     "steam_link": "https://store.steampowered.com/app/552620",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/134"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/134",
-    "last_verification_date": "2026-01-10T21:09:07.447Z",
-    "updated_at": "2026-01-10T21:09:07.447Z"
+    "stove_url": "https://store.onstove.com/ko/games/134"
   },
   {
-    "source": "stove",
     "app_id": "1398740",
     "stove_game_no": "1986",
     "stove_product_no": "936",
@@ -3447,18 +2722,14 @@
     "steam_link": "https://store.steampowered.com/app/1398740",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/936"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/936",
-    "last_verification_date": "2026-01-10T21:09:07.447Z",
-    "updated_at": "2026-01-10T21:09:07.447Z"
+    "stove_url": "https://store.onstove.com/ko/games/936"
   },
   {
-    "source": "stove",
     "app_id": "1110050",
     "stove_game_no": "1308",
     "stove_product_no": "538",
@@ -3466,18 +2737,14 @@
     "steam_link": "https://store.steampowered.com/app/1110050",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/538"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/538",
-    "last_verification_date": "2026-01-10T21:09:07.447Z",
-    "updated_at": "2026-01-10T21:09:07.447Z"
+    "stove_url": "https://store.onstove.com/ko/games/538"
   },
   {
-    "source": "stove",
     "app_id": "1093400",
     "stove_game_no": "2063",
     "stove_product_no": "942",
@@ -3485,18 +2752,14 @@
     "steam_link": "https://store.steampowered.com/app/1093400",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/942"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/942",
-    "last_verification_date": "2026-01-10T21:09:07.447Z",
-    "updated_at": "2026-01-10T21:09:07.447Z"
+    "stove_url": "https://store.onstove.com/ko/games/942"
   },
   {
-    "source": "stove",
     "app_id": "1272160",
     "stove_game_no": "1904",
     "stove_product_no": "838",
@@ -3504,18 +2767,14 @@
     "steam_link": "https://store.steampowered.com/app/1272160",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/838"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/838",
-    "last_verification_date": "2026-01-10T21:09:07.447Z",
-    "updated_at": "2026-01-10T21:09:07.447Z"
+    "stove_url": "https://store.onstove.com/ko/games/838"
   },
   {
-    "source": "stove",
     "app_id": "1023790",
     "stove_game_no": "1405",
     "stove_product_no": "589",
@@ -3523,18 +2782,14 @@
     "steam_link": "https://store.steampowered.com/app/1023790",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/589"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/589",
-    "last_verification_date": "2026-01-10T21:09:07.447Z",
-    "updated_at": "2026-01-10T21:09:07.447Z"
+    "stove_url": "https://store.onstove.com/ko/games/589"
   },
   {
-    "source": "stove",
     "app_id": "1145380",
     "stove_game_no": "1481",
     "stove_product_no": "781",
@@ -3542,18 +2797,14 @@
     "steam_link": "https://store.steampowered.com/app/1145380",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/781"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/781",
-    "last_verification_date": "2026-01-10T21:09:07.447Z",
-    "updated_at": "2026-01-10T21:09:07.447Z"
+    "stove_url": "https://store.onstove.com/ko/games/781"
   },
   {
-    "source": "stove",
     "app_id": "383700",
     "stove_game_no": "1996",
     "stove_product_no": "922",
@@ -3561,18 +2812,14 @@
     "steam_link": "https://store.steampowered.com/app/383700",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/922"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/922",
-    "last_verification_date": "2026-01-10T21:09:07.447Z",
-    "updated_at": "2026-01-10T21:09:07.447Z"
+    "stove_url": "https://store.onstove.com/ko/games/922"
   },
   {
-    "source": "stove",
     "app_id": "1619080",
     "stove_game_no": "2042",
     "stove_product_no": "923",
@@ -3580,18 +2827,14 @@
     "steam_link": "https://store.steampowered.com/app/1619080",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/923"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/923",
-    "last_verification_date": "2026-01-10T21:09:07.447Z",
-    "updated_at": "2026-01-10T21:09:07.447Z"
+    "stove_url": "https://store.onstove.com/ko/games/923"
   },
   {
-    "source": "stove",
     "app_id": "1387450",
     "stove_game_no": "2043",
     "stove_product_no": "924",
@@ -3599,18 +2842,14 @@
     "steam_link": "https://store.steampowered.com/app/1387450",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/924"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/924",
-    "last_verification_date": "2026-01-10T21:09:07.447Z",
-    "updated_at": "2026-01-10T21:09:07.447Z"
+    "stove_url": "https://store.onstove.com/ko/games/924"
   },
   {
-    "source": "stove",
     "app_id": "1532350",
     "stove_game_no": "2044",
     "stove_product_no": "925",
@@ -3618,18 +2857,14 @@
     "steam_link": "https://store.steampowered.com/app/1532350",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/925"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/925",
-    "last_verification_date": "2026-01-10T21:09:07.447Z",
-    "updated_at": "2026-01-10T21:09:07.447Z"
+    "stove_url": "https://store.onstove.com/ko/games/925"
   },
   {
-    "source": "stove",
     "app_id": "1074070",
     "stove_game_no": "1925",
     "stove_product_no": "910",
@@ -3637,18 +2872,14 @@
     "steam_link": "https://store.steampowered.com/app/1074070",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/910"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/910",
-    "last_verification_date": "2026-01-10T21:09:07.447Z",
-    "updated_at": "2026-01-10T21:09:07.447Z"
+    "stove_url": "https://store.onstove.com/ko/games/910"
   },
   {
-    "source": "stove",
     "app_id": "1299010",
     "stove_game_no": "1470",
     "stove_product_no": "892",
@@ -3656,18 +2887,14 @@
     "steam_link": "https://store.steampowered.com/app/1299010",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/892"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/892",
-    "last_verification_date": "2026-01-10T21:09:07.447Z",
-    "updated_at": "2026-01-10T21:09:07.447Z"
+    "stove_url": "https://store.onstove.com/ko/games/892"
   },
   {
-    "source": "stove",
     "app_id": "1315210",
     "stove_game_no": "1836",
     "stove_product_no": "893",
@@ -3675,18 +2902,14 @@
     "steam_link": "https://store.steampowered.com/app/1315210",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/893"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/893",
-    "last_verification_date": "2026-01-10T21:09:07.447Z",
-    "updated_at": "2026-01-10T21:09:07.447Z"
+    "stove_url": "https://store.onstove.com/ko/games/893"
   },
   {
-    "source": "stove",
     "app_id": "1367460",
     "stove_game_no": "1416",
     "stove_product_no": "888",
@@ -3694,18 +2917,14 @@
     "steam_link": "https://store.steampowered.com/app/1367460",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/888"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/888",
-    "last_verification_date": "2026-01-10T21:09:07.447Z",
-    "updated_at": "2026-01-10T21:09:07.447Z"
+    "stove_url": "https://store.onstove.com/ko/games/888"
   },
   {
-    "source": "stove",
     "app_id": "1119700",
     "stove_game_no": "1966",
     "stove_product_no": "883",
@@ -3713,18 +2932,14 @@
     "steam_link": "https://store.steampowered.com/app/1119700",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/883"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/883",
-    "last_verification_date": "2026-01-10T21:09:07.447Z",
-    "updated_at": "2026-01-10T21:09:07.447Z"
+    "stove_url": "https://store.onstove.com/ko/games/883"
   },
   {
-    "source": "stove",
     "app_id": "1714460",
     "stove_game_no": "1778",
     "stove_product_no": "890",
@@ -3732,18 +2947,14 @@
     "steam_link": "https://store.steampowered.com/app/1714460",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/890"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/890",
-    "last_verification_date": "2026-01-10T21:09:07.447Z",
-    "updated_at": "2026-01-10T21:09:07.447Z"
+    "stove_url": "https://store.onstove.com/ko/games/890"
   },
   {
-    "source": "stove",
     "app_id": "1528810",
     "stove_game_no": "1478",
     "stove_product_no": "626",
@@ -3751,18 +2962,14 @@
     "steam_link": "https://store.steampowered.com/app/1528810",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/626"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/626",
-    "last_verification_date": "2026-01-10T21:09:07.447Z",
-    "updated_at": "2026-01-10T21:09:07.447Z"
+    "stove_url": "https://store.onstove.com/ko/games/626"
   },
   {
-    "source": "stove",
     "app_id": "1042210",
     "stove_game_no": "1837",
     "stove_product_no": "860",
@@ -3770,18 +2977,14 @@
     "steam_link": "https://store.steampowered.com/app/1042210",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/860"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/860",
-    "last_verification_date": "2026-01-10T21:09:07.447Z",
-    "updated_at": "2026-01-10T21:09:07.447Z"
+    "stove_url": "https://store.onstove.com/ko/games/860"
   },
   {
-    "source": "stove",
     "app_id": "1486630",
     "stove_game_no": "1464",
     "stove_product_no": "861",
@@ -3789,18 +2992,14 @@
     "steam_link": "https://store.steampowered.com/app/1486630",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/861"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/861",
-    "last_verification_date": "2026-01-10T21:09:07.447Z",
-    "updated_at": "2026-01-10T21:09:07.447Z"
+    "stove_url": "https://store.onstove.com/ko/games/861"
   },
   {
-    "source": "stove",
     "app_id": "980210",
     "stove_game_no": "578",
     "stove_product_no": "848",
@@ -3808,18 +3007,14 @@
     "steam_link": "https://store.steampowered.com/app/980210",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/848"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/848",
-    "last_verification_date": "2026-01-10T21:09:07.447Z",
-    "updated_at": "2026-01-10T21:09:07.447Z"
+    "stove_url": "https://store.onstove.com/ko/games/848"
   },
   {
-    "source": "stove",
     "app_id": "1716390",
     "stove_game_no": "1475",
     "stove_product_no": "625",
@@ -3827,18 +3022,14 @@
     "steam_link": "https://store.steampowered.com/app/1716390",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/625"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/625",
-    "last_verification_date": "2026-01-10T21:09:07.447Z",
-    "updated_at": "2026-01-10T21:09:07.447Z"
+    "stove_url": "https://store.onstove.com/ko/games/625"
   },
   {
-    "source": "stove",
     "app_id": "1672840",
     "stove_game_no": "1469",
     "stove_product_no": "657",
@@ -3846,18 +3037,14 @@
     "steam_link": "https://store.steampowered.com/app/1672840",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/657"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/657",
-    "last_verification_date": "2026-01-10T21:09:07.447Z",
-    "updated_at": "2026-01-10T21:09:07.447Z"
+    "stove_url": "https://store.onstove.com/ko/games/657"
   },
   {
-    "source": "stove",
     "app_id": "1261520",
     "stove_game_no": "1710",
     "stove_product_no": "813",
@@ -3865,18 +3052,14 @@
     "steam_link": "https://store.steampowered.com/app/1261520",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/813"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/813",
-    "last_verification_date": "2026-01-10T21:09:07.447Z",
-    "updated_at": "2026-01-10T21:09:07.447Z"
+    "stove_url": "https://store.onstove.com/ko/games/813"
   },
   {
-    "source": "stove",
     "app_id": "963470",
     "stove_game_no": "1465",
     "stove_product_no": "621",
@@ -3884,18 +3067,14 @@
     "steam_link": "https://store.steampowered.com/app/963470",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/621"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/621",
-    "last_verification_date": "2026-01-10T21:09:07.447Z",
-    "updated_at": "2026-01-10T21:09:07.447Z"
+    "stove_url": "https://store.onstove.com/ko/games/621"
   },
   {
-    "source": "stove",
     "app_id": "1481810",
     "stove_game_no": "1784",
     "stove_product_no": "777",
@@ -3903,18 +3082,14 @@
     "steam_link": "https://store.steampowered.com/app/1481810",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/777"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/777",
-    "last_verification_date": "2026-01-10T21:09:07.447Z",
-    "updated_at": "2026-01-10T21:09:07.447Z"
+    "stove_url": "https://store.onstove.com/ko/games/777"
   },
   {
-    "source": "stove",
     "app_id": "1112890",
     "stove_game_no": "1314",
     "stove_product_no": "788",
@@ -3922,18 +3097,14 @@
     "steam_link": "https://store.steampowered.com/app/1112890",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/788"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/788",
-    "last_verification_date": "2026-01-10T21:09:07.447Z",
-    "updated_at": "2026-01-10T21:09:07.447Z"
+    "stove_url": "https://store.onstove.com/ko/games/788"
   },
   {
-    "source": "stove",
     "app_id": "1211740",
     "stove_game_no": "1715",
     "stove_product_no": "783",
@@ -3941,18 +3112,14 @@
     "steam_link": "https://store.steampowered.com/app/1211740",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/783"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/783",
-    "last_verification_date": "2026-01-10T21:09:07.447Z",
-    "updated_at": "2026-01-10T21:09:07.447Z"
+    "stove_url": "https://store.onstove.com/ko/games/783"
   },
   {
-    "source": "stove",
     "app_id": "1075740",
     "stove_game_no": "1309",
     "stove_product_no": "539",
@@ -3960,18 +3127,14 @@
     "steam_link": "https://store.steampowered.com/app/1075740",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/539"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/539",
-    "last_verification_date": "2026-01-10T21:09:07.447Z",
-    "updated_at": "2026-01-10T21:09:07.447Z"
+    "stove_url": "https://store.onstove.com/ko/games/539"
   },
   {
-    "source": "stove",
     "app_id": "382310",
     "stove_game_no": "563",
     "stove_product_no": "156",
@@ -3979,18 +3142,14 @@
     "steam_link": "https://store.steampowered.com/app/382310",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/156"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/156",
-    "last_verification_date": "2026-01-10T21:09:07.447Z",
-    "updated_at": "2026-01-10T21:09:07.447Z"
+    "stove_url": "https://store.onstove.com/ko/games/156"
   },
   {
-    "source": "stove",
     "app_id": "966470",
     "stove_game_no": "1686",
     "stove_product_no": "753",
@@ -3998,18 +3157,14 @@
     "steam_link": "https://store.steampowered.com/app/966470",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/753"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/753",
-    "last_verification_date": "2026-01-10T21:09:07.447Z",
-    "updated_at": "2026-01-10T21:09:07.447Z"
+    "stove_url": "https://store.onstove.com/ko/games/753"
   },
   {
-    "source": "stove",
     "app_id": "1286350",
     "stove_game_no": "878",
     "stove_product_no": "287",
@@ -4017,18 +3172,14 @@
     "steam_link": "https://store.steampowered.com/app/1286350",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/287"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/287",
-    "last_verification_date": "2026-01-10T21:09:07.447Z",
-    "updated_at": "2026-01-10T21:09:07.447Z"
+    "stove_url": "https://store.onstove.com/ko/games/287"
   },
   {
-    "source": "stove",
     "app_id": "1095120",
     "stove_game_no": "575",
     "stove_product_no": "675",
@@ -4036,18 +3187,14 @@
     "steam_link": "https://store.steampowered.com/app/1095120",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/675"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/675",
-    "last_verification_date": "2026-01-10T21:09:07.447Z",
-    "updated_at": "2026-01-10T21:09:07.447Z"
+    "stove_url": "https://store.onstove.com/ko/games/675"
   },
   {
-    "source": "stove",
     "app_id": "858210",
     "stove_game_no": "1734",
     "stove_product_no": "748",
@@ -4055,18 +3202,14 @@
     "steam_link": "https://store.steampowered.com/app/858210",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/748"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/748",
-    "last_verification_date": "2026-01-10T21:09:07.447Z",
-    "updated_at": "2026-01-10T21:09:07.447Z"
+    "stove_url": "https://store.onstove.com/ko/games/748"
   },
   {
-    "source": "stove",
     "app_id": "1048350",
     "stove_game_no": "1559",
     "stove_product_no": "745",
@@ -4074,18 +3217,14 @@
     "steam_link": "https://store.steampowered.com/app/1048350",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/745"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/745",
-    "last_verification_date": "2026-01-10T21:09:07.447Z",
-    "updated_at": "2026-01-10T21:09:07.447Z"
+    "stove_url": "https://store.onstove.com/ko/games/745"
   },
   {
-    "source": "stove",
     "app_id": "1564560",
     "stove_game_no": "1472",
     "stove_product_no": "622",
@@ -4093,18 +3232,14 @@
     "steam_link": "https://store.steampowered.com/app/1564560",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/622"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/622",
-    "last_verification_date": "2026-01-10T21:09:07.447Z",
-    "updated_at": "2026-01-10T21:09:07.447Z"
+    "stove_url": "https://store.onstove.com/ko/games/622"
   },
   {
-    "source": "stove",
     "app_id": "373480",
     "stove_game_no": "1540",
     "stove_product_no": "718",
@@ -4112,18 +3247,14 @@
     "steam_link": "https://store.steampowered.com/app/373480",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/718"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/718",
-    "last_verification_date": "2026-01-10T21:09:08.928Z",
-    "updated_at": "2026-01-10T21:09:08.928Z"
+    "stove_url": "https://store.onstove.com/ko/games/718"
   },
   {
-    "source": "stove",
     "app_id": "854870",
     "stove_game_no": "1196",
     "stove_product_no": "466",
@@ -4131,18 +3262,14 @@
     "steam_link": "https://store.steampowered.com/app/854870",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/466"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/466",
-    "last_verification_date": "2026-01-10T21:09:08.928Z",
-    "updated_at": "2026-01-10T21:09:08.928Z"
+    "stove_url": "https://store.onstove.com/ko/games/466"
   },
   {
-    "source": "stove",
     "app_id": "718650",
     "stove_game_no": "572",
     "stove_product_no": "587",
@@ -4150,18 +3277,14 @@
     "steam_link": "https://store.steampowered.com/app/718650",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/587"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/587",
-    "last_verification_date": "2026-01-10T21:09:08.928Z",
-    "updated_at": "2026-01-10T21:09:08.928Z"
+    "stove_url": "https://store.onstove.com/ko/games/587"
   },
   {
-    "source": "stove",
     "app_id": "1042380",
     "stove_game_no": "1151",
     "stove_product_no": "440",
@@ -4169,18 +3292,14 @@
     "steam_link": "https://store.steampowered.com/app/1042380",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/440"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/440",
-    "last_verification_date": "2026-01-10T21:09:08.928Z",
-    "updated_at": "2026-01-10T21:09:08.928Z"
+    "stove_url": "https://store.onstove.com/ko/games/440"
   },
   {
-    "source": "stove",
     "app_id": "867980",
     "stove_game_no": "1158",
     "stove_product_no": "443",
@@ -4188,18 +3307,14 @@
     "steam_link": "https://store.steampowered.com/app/867980",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/443"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/443",
-    "last_verification_date": "2026-01-10T21:09:08.928Z",
-    "updated_at": "2026-01-10T21:09:08.928Z"
+    "stove_url": "https://store.onstove.com/ko/games/443"
   },
   {
-    "source": "stove",
     "app_id": "785850",
     "stove_game_no": "582",
     "stove_product_no": "221",
@@ -4207,18 +3322,14 @@
     "steam_link": "https://store.steampowered.com/app/785850",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/221"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/221",
-    "last_verification_date": "2026-01-10T21:09:08.928Z",
-    "updated_at": "2026-01-10T21:09:08.928Z"
+    "stove_url": "https://store.onstove.com/ko/games/221"
   },
   {
-    "source": "stove",
     "app_id": "363360",
     "stove_game_no": "523",
     "stove_product_no": "161",
@@ -4226,18 +3337,14 @@
     "steam_link": "https://store.steampowered.com/app/363360",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/161"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/161",
-    "last_verification_date": "2026-01-10T21:09:08.928Z",
-    "updated_at": "2026-01-10T21:09:08.928Z"
+    "stove_url": "https://store.onstove.com/ko/games/161"
   },
   {
-    "source": "stove",
     "app_id": "636150",
     "stove_game_no": "970",
     "stove_product_no": "331",
@@ -4245,18 +3352,14 @@
     "steam_link": "https://store.steampowered.com/app/636150",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/331"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/331",
-    "last_verification_date": "2026-01-10T21:09:08.928Z",
-    "updated_at": "2026-01-10T21:09:08.928Z"
+    "stove_url": "https://store.onstove.com/ko/games/331"
   },
   {
-    "source": "stove",
     "app_id": "1196800",
     "stove_game_no": "1008",
     "stove_product_no": "348",
@@ -4264,18 +3367,14 @@
     "steam_link": "https://store.steampowered.com/app/1196800",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/348"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/348",
-    "last_verification_date": "2026-01-10T21:09:08.928Z",
-    "updated_at": "2026-01-10T21:09:08.928Z"
+    "stove_url": "https://store.onstove.com/ko/games/348"
   },
   {
-    "source": "stove",
     "app_id": "1015940",
     "stove_game_no": "715",
     "stove_product_no": "206",
@@ -4283,18 +3382,14 @@
     "steam_link": "https://store.steampowered.com/app/1015940",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/206"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/206",
-    "last_verification_date": "2026-01-10T21:09:08.928Z",
-    "updated_at": "2026-01-10T21:09:08.928Z"
+    "stove_url": "https://store.onstove.com/ko/games/206"
   },
   {
-    "source": "stove",
     "app_id": "732930",
     "stove_game_no": "1085",
     "stove_product_no": "405",
@@ -4302,18 +3397,14 @@
     "steam_link": "https://store.steampowered.com/app/732930",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/405"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/405",
-    "last_verification_date": "2026-01-10T21:09:08.928Z",
-    "updated_at": "2026-01-10T21:09:08.928Z"
+    "stove_url": "https://store.onstove.com/ko/games/405"
   },
   {
-    "source": "stove",
     "app_id": "846870",
     "stove_game_no": "877",
     "stove_product_no": "330",
@@ -4321,18 +3412,14 @@
     "steam_link": "https://store.steampowered.com/app/846870",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/330"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/330",
-    "last_verification_date": "2026-01-10T21:09:08.928Z",
-    "updated_at": "2026-01-10T21:09:08.928Z"
+    "stove_url": "https://store.onstove.com/ko/games/330"
   },
   {
-    "source": "stove",
     "app_id": "1316800",
     "stove_game_no": "966",
     "stove_product_no": "326",
@@ -4340,18 +3427,14 @@
     "steam_link": "https://store.steampowered.com/app/1316800",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/326"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/326",
-    "last_verification_date": "2026-01-10T21:09:08.928Z",
-    "updated_at": "2026-01-10T21:09:08.928Z"
+    "stove_url": "https://store.onstove.com/ko/games/326"
   },
   {
-    "source": "stove",
     "app_id": "1421760",
     "stove_game_no": "1133",
     "stove_product_no": "426",
@@ -4359,18 +3442,14 @@
     "steam_link": "https://store.steampowered.com/app/1421760",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/426"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/426",
-    "last_verification_date": "2026-01-10T21:09:08.928Z",
-    "updated_at": "2026-01-10T21:09:08.928Z"
+    "stove_url": "https://store.onstove.com/ko/games/426"
   },
   {
-    "source": "stove",
     "app_id": "250620",
     "stove_game_no": "958",
     "stove_product_no": "347",
@@ -4378,18 +3457,14 @@
     "steam_link": "https://store.steampowered.com/app/250620",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/347"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/347",
-    "last_verification_date": "2026-01-10T21:09:08.928Z",
-    "updated_at": "2026-01-10T21:09:08.928Z"
+    "stove_url": "https://store.onstove.com/ko/games/347"
   },
   {
-    "source": "stove",
     "app_id": "1063490",
     "stove_game_no": "522",
     "stove_product_no": "183",
@@ -4397,18 +3472,14 @@
     "steam_link": "https://store.steampowered.com/app/1063490",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/183"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/183",
-    "last_verification_date": "2026-01-10T21:09:08.928Z",
-    "updated_at": "2026-01-10T21:09:08.928Z"
+    "stove_url": "https://store.onstove.com/ko/games/183"
   },
   {
-    "source": "stove",
     "app_id": "794960",
     "stove_game_no": "521",
     "stove_product_no": "198",
@@ -4416,18 +3487,14 @@
     "steam_link": "https://store.steampowered.com/app/794960",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/198"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/198",
-    "last_verification_date": "2026-01-10T21:09:08.928Z",
-    "updated_at": "2026-01-10T21:09:08.928Z"
+    "stove_url": "https://store.onstove.com/ko/games/198"
   },
   {
-    "source": "stove",
     "app_id": "1169740",
     "stove_game_no": "571",
     "stove_product_no": "237",
@@ -4435,18 +3502,14 @@
     "steam_link": "https://store.steampowered.com/app/1169740",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/237"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/237",
-    "last_verification_date": "2026-01-10T21:09:08.928Z",
-    "updated_at": "2026-01-10T21:09:08.928Z"
+    "stove_url": "https://store.onstove.com/ko/games/237"
   },
   {
-    "source": "stove",
     "app_id": "1146230",
     "stove_game_no": "524",
     "stove_product_no": "140",
@@ -4454,18 +3517,14 @@
     "steam_link": "https://store.steampowered.com/app/1146230",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/140"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/140",
-    "last_verification_date": "2026-01-10T21:09:08.928Z",
-    "updated_at": "2026-01-10T21:09:08.928Z"
+    "stove_url": "https://store.onstove.com/ko/games/140"
   },
   {
-    "source": "stove",
     "app_id": "1016600",
     "stove_game_no": "484",
     "stove_product_no": "157",
@@ -4473,18 +3532,14 @@
     "steam_link": "https://store.steampowered.com/app/1016600",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/157"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/157",
-    "last_verification_date": "2026-01-10T21:09:08.928Z",
-    "updated_at": "2026-01-10T21:09:08.928Z"
+    "stove_url": "https://store.onstove.com/ko/games/157"
   },
   {
-    "source": "stove",
     "app_id": "464260",
     "stove_game_no": "232",
     "stove_product_no": "51",
@@ -4492,18 +3547,14 @@
     "steam_link": "https://store.steampowered.com/app/464260",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/51"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/51",
-    "last_verification_date": "2026-01-10T21:09:08.928Z",
-    "updated_at": "2026-01-10T21:09:08.928Z"
+    "stove_url": "https://store.onstove.com/ko/games/51"
   },
   {
-    "source": "stove",
     "app_id": "1276320",
     "stove_game_no": "212",
     "stove_product_no": "92",
@@ -4511,18 +3562,14 @@
     "steam_link": "https://store.steampowered.com/app/1276320",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/92"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/92",
-    "last_verification_date": "2026-01-10T21:09:08.928Z",
-    "updated_at": "2026-01-10T21:09:08.928Z"
+    "stove_url": "https://store.onstove.com/ko/games/92"
   },
   {
-    "source": "stove",
     "app_id": "1276330",
     "stove_game_no": "213",
     "stove_product_no": "20",
@@ -4530,18 +3577,14 @@
     "steam_link": "https://store.steampowered.com/app/1276330",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/20"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/20",
-    "last_verification_date": "2026-01-10T21:09:08.928Z",
-    "updated_at": "2026-01-10T21:09:08.928Z"
+    "stove_url": "https://store.onstove.com/ko/games/20"
   },
   {
-    "source": "stove",
     "app_id": "926580",
     "stove_game_no": "197",
     "stove_product_no": "75",
@@ -4549,18 +3592,14 @@
     "steam_link": "https://store.steampowered.com/app/926580",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/75"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/75",
-    "last_verification_date": "2026-01-10T21:09:08.928Z",
-    "updated_at": "2026-01-10T21:09:08.928Z"
+    "stove_url": "https://store.onstove.com/ko/games/75"
   },
   {
-    "source": "stove",
     "app_id": "580170",
     "stove_game_no": "206",
     "stove_product_no": "10",
@@ -4568,18 +3607,14 @@
     "steam_link": "https://store.steampowered.com/app/580170",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/10"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/10",
-    "last_verification_date": "2026-01-10T21:09:08.928Z",
-    "updated_at": "2026-01-10T21:09:08.928Z"
+    "stove_url": "https://store.onstove.com/ko/games/10"
   },
   {
-    "source": "stove",
     "app_id": "1151080",
     "stove_game_no": "202",
     "stove_product_no": "65",
@@ -4587,18 +3622,14 @@
     "steam_link": "https://store.steampowered.com/app/1151080",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/65"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/65",
-    "last_verification_date": "2026-01-10T21:09:08.928Z",
-    "updated_at": "2026-01-10T21:09:08.928Z"
+    "stove_url": "https://store.onstove.com/ko/games/65"
   },
   {
-    "source": "stove",
     "app_id": "1032590",
     "stove_game_no": "204",
     "stove_product_no": "12",
@@ -4606,18 +3637,14 @@
     "steam_link": "https://store.steampowered.com/app/1032590",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/12"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/12",
-    "last_verification_date": "2026-01-10T21:09:08.928Z",
-    "updated_at": "2026-01-10T21:09:08.928Z"
+    "stove_url": "https://store.onstove.com/ko/games/12"
   },
   {
-    "source": "stove",
     "app_id": "981430",
     "stove_game_no": "188",
     "stove_product_no": "72",
@@ -4625,14 +3652,11 @@
     "steam_link": "https://store.steampowered.com/app/981430",
     "patch_type": "official",
     "patch_links": [
-      "https://store.onstove.com/ko/games/72"
+      "exist"
     ],
     "patch_descriptions": [
       ""
     ],
-    "description": "",
-    "stove_url": "https://store.onstove.com/ko/games/72",
-    "last_verification_date": "2026-01-10T21:09:08.928Z",
-    "updated_at": "2026-01-10T21:09:08.928Z"
+    "stove_url": "https://store.onstove.com/ko/games/72"
   }
 ]

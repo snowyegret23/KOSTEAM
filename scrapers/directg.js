@@ -59,7 +59,7 @@ async function scrapePage(pageNum) {
                 game_title: gameTitle,
                 steam_link: '',
                 patch_type: 'official',
-                patch_links: directgUrl ? [directgUrl] : [],
+                patch_links: directgUrl ? ['exist'] : [],
                 patch_descriptions: [''],
                 directg_url: directgUrl
             });
@@ -105,7 +105,7 @@ async function scrapeAll() {
                 game_title: gameTitle,
                 steam_link: '',
                 patch_type: 'official',
-                patch_links: [fullUrl],
+                patch_links: ['exist'],
                 patch_descriptions: [''],
                 directg_url: fullUrl
             });

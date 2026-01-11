@@ -28,6 +28,12 @@ function extractAppId(steamLink) {
     return match ? match[1] : null;
 }
 
+function removeUrls(text) {
+    if (!text) return '';
+    // Remove URLs (http://, https://, www.)
+    return text.replace(/https?:\/\/[^\s]+/g, '').replace(/www\.[^\s]+/g, '').replace(/\s+/g, ' ').trim();
+}
+
 async function scrapeSection(section) {
     const url = `${BASE_URL}/hangul/${section}`;
     console.log(`Fetching: ${url}`);
@@ -80,10 +86,10 @@ async function scrapeSection(section) {
             }
 
             if (directUrl && directUrl !== BASE_URL && directUrl !== `${BASE_URL}/`) {
-                patchLinks.push(directUrl);
+                patchLinks.push('exist');
                 const comment = $patch.find('p._app_hangul_patch_comment').text().trim();
                 const cleanComment = comment.replace(/^.*?<i class="xi-tags"><\/i>\s*/, '').trim();
-                patchDescriptions.push(cleanComment || '');
+                patchDescriptions.push(removeUrls(cleanComment) || '');
             }
         });
 

@@ -179,6 +179,12 @@ async function handleCaptcha(page, service) {
     return false;
 }
 
+function removeUrls(text) {
+    if (!text) return '';
+    // Remove URLs (http://, https://, www.)
+    return text.replace(/https?:\/\/[^\s]+/g, '').replace(/www\.[^\s]+/g, '').replace(/\s+/g, ' ').trim();
+}
+
 function parseDetailInfo(infoHtml) {
     const patches = [];
     if (!infoHtml) return patches;
@@ -305,11 +311,11 @@ async function scrapePage(page, pageNum, captchaService) {
 
                 for (const patch of detailPatches) {
                     if (patch.link) {
-                        patchLinks.push(patch.link);
+                        patchLinks.push('exist');
 
-                        let finalDesc = patch.desc || '';
+                        let finalDesc = removeUrls(patch.desc || '');
                         if (!finalDesc && producer) {
-                            finalDesc = producer;
+                            finalDesc = removeUrls(producer);
                         }
                         patchDescriptions.push(finalDesc);
                     }
@@ -317,7 +323,7 @@ async function scrapePage(page, pageNum, captchaService) {
             }
 
             if (patchLinks.length === 0 && mainPatchLink) {
-                patchLinks.push(mainPatchLink);
+                patchLinks.push('exist');
 
                 let orphanDesc = '';
                 const $detailRow = $(`#kr_detail_${korId}`);
@@ -329,9 +335,9 @@ async function scrapePage(page, pageNum, captchaService) {
                 }
 
                 if (orphanDesc) {
-                    patchDescriptions.push(orphanDesc);
+                    patchDescriptions.push(removeUrls(orphanDesc));
                 } else {
-                    patchDescriptions.push(producer || '');
+                    patchDescriptions.push(removeUrls(producer || ''));
                 }
             }
 
@@ -359,6 +365,12 @@ async function scrapeAll(existingMap) {
     const allGames = new Map();
     let consecutiveDuplicates = 0;
     const DUPLICATE_THRESHOLD = 3;
+
+    // Check for --all flag
+    const forceAll = process.argv.includes('--all');
+    if (forceAll) {
+        console.log('--all flag detected: will scrape all pages regardless of duplicates');
+    }
 
     const launchArgs = ['--no-sandbox', '--disable-setuid-sandbox'];
 
@@ -444,7 +456,7 @@ async function scrapeAll(existingMap) {
 
             if (newGamesOnPage === 0) {
                 consecutiveDuplicates++;
-                if (consecutiveDuplicates >= DUPLICATE_THRESHOLD) {
+                if (!forceAll && consecutiveDuplicates >= DUPLICATE_THRESHOLD) {
                     console.log(`${DUPLICATE_THRESHOLD} consecutive pages with no new games, stopping.`);
                     break;
                 }

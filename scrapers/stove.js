@@ -78,7 +78,7 @@ async function scrapePage(pageNum) {
                     game_title: gameTitle,
                     steam_link: '',
                     patch_type: 'official',
-                    patch_links: [stoveUrl],
+                    patch_links: ['exist'],
                     patch_descriptions: [''],
                     stove_url: stoveUrl
                 });

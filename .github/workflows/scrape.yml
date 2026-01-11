@@ -44,12 +44,12 @@ jobs:
         continue-on-error: true
         
       - name: Run quasarplay scraper
-        if: github.event.inputs.scraper == 'all' || github.event.inputs.scraper == 'quasarplay' || github.event_name == 'schedule'
+        if: github.event.inputs.scraper == 'quasarplay'
         env:
           TWO_CAPTCHA_API_KEY: ${{ secrets.TWO_CAPTCHA_API_KEY }}
           QUASARPLAY_COOKIE: ${{ secrets.QUASARPLAY_COOKIE }}
           QUASARPLAY_PROXY: ${{ secrets.QUASARPLAY_PROXY }}
-        run: npm run scrape:quasarplay
+        run: npm run scrape:quasarplay -- --all
         continue-on-error: true
         
       - name: Run directg scraper
