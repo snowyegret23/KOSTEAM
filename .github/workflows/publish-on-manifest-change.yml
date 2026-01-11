@@ -22,7 +22,8 @@ jobs:
       - name: Read manifest version
         id: get_version
         run: |
-          echo "VERSION=$(node -p \"require('./extension/manifest.json').version\")" >> $GITHUB_ENV
+          VERSION=$(jq -r .version extension/manifest.json)
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
 
       - name: Check if tag exists
         id: tag_check
