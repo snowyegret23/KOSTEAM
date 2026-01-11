@@ -58,7 +58,9 @@
     "gecko": {
       "id": "alevo0918@gmail.com",
       "data_collection_permissions": {
-        "required": "none"
+        "required": [
+          "none"
+        ]
       }
     }
   }
