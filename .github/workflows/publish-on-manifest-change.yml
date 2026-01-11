@@ -18,6 +18,8 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v6
 
@@ -60,7 +62,7 @@ jobs:
         with:
           tag: v${{ env.VERSION }}
           allowUpdates: true
-          files: |
+          artifacts: |
             kosteam-chrome-v${{ env.VERSION }}.zip
             kosteam-firefox-v${{ env.VERSION }}.zip
         env:
