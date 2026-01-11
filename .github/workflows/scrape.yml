@@ -40,11 +40,7 @@ jobs:
         
       - name: Run steamapp scraper
         if: github.event.inputs.scraper == 'all' || github.event.inputs.scraper == 'steamapp' || github.event_name == 'schedule'
-        run: |
-          if [ "${{ github.event_name }}" == "schedule" ] || [ "${{ github.event.inputs.scraper }}" == "steamapp" ] || [ "${{ github.event.inputs.scraper }}" == "all" ]; then
-             rm data/steamapp.json || true
-          fi
-          npm run scrape:steamapp
+        run: npm run scrape:steamapp
         continue-on-error: true
         
       - name: Run quasarplay scraper
@@ -53,11 +49,7 @@ jobs:
           TWO_CAPTCHA_API_KEY: ${{ secrets.TWO_CAPTCHA_API_KEY }}
           QUASARPLAY_COOKIE: ${{ secrets.QUASARPLAY_COOKIE }}
           QUASARPLAY_PROXY: ${{ secrets.QUASARPLAY_PROXY }}
-        run: |
-          if [ "${{ github.event_name }}" == "schedule" ] || [ "${{ github.event.inputs.scraper }}" == "quasarplay" ] || [ "${{ github.event.inputs.scraper }}" == "all" ]; then
-             rm data/quasarplay.json || true
-          fi
-          npm run scrape:quasarplay
+        run: npm run scrape:quasarplay
         continue-on-error: true
         
       - name: Run directg scraper

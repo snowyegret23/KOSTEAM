@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', async () => {
     const gameCountEl = document.getElementById('gameCount');
     const remoteUpdateEl = document.getElementById('remoteUpdate');
-    const localUpdateEl = document.getElementById('localUpdate');
     const dbStatusEl = document.getElementById('dbStatus');
     const statusEl = document.getElementById('status');
     const refreshBtn = document.getElementById('refreshBtn');
@@ -26,15 +25,11 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     async function loadStats() {
         try {
-            const result = await chrome.storage.local.get(['kr_patch_data', 'kr_patch_version']);
+            const result = await chrome.storage.local.get(['kr_patch_data']);
 
             if (result.kr_patch_data) {
                 const count = Object.keys(result.kr_patch_data).length - 1;
                 gameCountEl.textContent = count.toLocaleString() + '개';
-            }
-
-            if (result.kr_patch_version && result.kr_patch_version.generated_at) {
-                localUpdateEl.textContent = formatTimeAgo(result.kr_patch_version.generated_at);
             }
         } catch (err) {
             console.error('Failed to load stats:', err);
