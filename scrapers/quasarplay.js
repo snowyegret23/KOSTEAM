@@ -337,16 +337,13 @@ async function scrapePage(page, pageNum, captchaService) {
 
             if (gameTitle) {
                 games.push({
-                    source: 'quasarplay',
                     app_id: steamAppId,
                     game_title: gameTitle,
                     steam_link: steamLink,
                     source_site_url: `${BASE_URL}?game_name=${encodeURIComponent(gameTitle)}`,
                     patch_type: patchType,
                     patch_links: patchLinks,
-                    patch_descriptions: patchDescriptions,
-                    description: '',
-                    updated_at: new Date().toISOString()
+                    patch_descriptions: patchDescriptions
                 });
             }
         });

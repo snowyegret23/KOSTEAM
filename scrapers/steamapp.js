@@ -87,27 +87,15 @@ async function scrapeSection(section) {
             }
         });
 
-        let officialDesc = '';
-        if (patchType === 'official') {
-            const commentText = $app.find('div.hangul_data div._app_hangul_patch p._app_hangul_patch_comment').first().text().trim();
-            if (commentText) {
-                const cleanText = commentText.replace(/^.*?<i class="xi-tags"><\/i>\s*/, '').trim();
-                officialDesc = `SA: ${cleanText}`;
-            }
-        }
-
         if (gameTitle && steamLink) {
             games.push({
-                source: 'steamapp',
                 app_id: appId,
                 game_title: gameTitle,
                 steam_link: steamLink,
                 source_site_url: `${BASE_URL}/app/${appId || ''}`,
                 patch_type: patchType,
                 patch_links: patchLinks,
-                patch_descriptions: patchDescriptions,
-                description: patchType === 'official' ? officialDesc : '',
-                updated_at: new Date().toISOString()
+                patch_descriptions: patchDescriptions
             });
         }
     });

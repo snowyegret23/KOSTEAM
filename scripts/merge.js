@@ -80,11 +80,6 @@ async function main() {
                         existing.patch_type = 'official';
                     }
 
-                    if (entry.description) {
-                        if (!existing.descriptions) existing.descriptions = [];
-                        existing.descriptions.push(entry.description);
-                    }
-
                     if (!existing.source_site_urls) existing.source_site_urls = {};
                     const siteUrl = entry.source_site_url || entry.stove_url || entry.directg_url;
                     const hasLinksFromSource = entryLinks.length > 0;
@@ -106,9 +101,7 @@ async function main() {
                         patch_descriptions: [...(entry.patch_descriptions || [])],
                         patch_sources: entryLinks.map(() => source),
                         source_site_urls: shouldIncludeSiteUrl ? { [source]: siteUrl } : {},
-                        sources: [source],
-                        descriptions: entry.description ? [entry.description] : [],
-                        updated_at: entry.updated_at || new Date().toISOString()
+                        sources: [source]
                     });
                 }
             } else {
@@ -127,11 +120,6 @@ async function main() {
                         existing.patch_links.push(entryLinks[i]);
                         existing.patch_descriptions.push(entryDescs[i] || '');
                         existing.patch_sources.push(source);
-                    }
-
-                    if (entry.description) {
-                        if (!existing.descriptions) existing.descriptions = [];
-                        existing.descriptions.push(entry.description);
                     }
 
                     if (!existing.source_site_urls) existing.source_site_urls = {};
@@ -153,9 +141,7 @@ async function main() {
                         patch_descriptions: [...(entry.patch_descriptions || [])],
                         patch_sources: entryLinks.map(() => source),
                         source_site_urls: shouldIncludeSiteUrl ? { [source]: siteUrl } : {},
-                        sources: [source],
-                        descriptions: entry.description ? [entry.description] : [],
-                        updated_at: entry.updated_at || new Date().toISOString()
+                        sources: [source]
                     });
                     mergedByTitle.set(titleKey, noSteamLink[noSteamLink.length - 1]);
                 }
@@ -163,31 +149,16 @@ async function main() {
         }
     }
 
-    const processDescriptions = (entry) => {
-        if (entry.descriptions && entry.descriptions.length > 0) {
-            const unique = [...new Set(entry.descriptions)];
-            entry.description = unique.join(' // ');
-            delete entry.descriptions;
-        } else {
-            entry.description = '';
-            delete entry.descriptions;
-        }
-        return entry;
-    };
-
     const deduplicateLinksWithDescriptions = (links, descriptions, sources) => {
         const seen = new Set();
         const resultLinks = [];
         const resultDescs = [];
         const resultSources = [];
-        const sourcesWithLinks = new Set();
 
         for (let i = 0; i < links.length; i++) {
             const link = links[i];
             const desc = descriptions[i] || '';
             const source = sources[i] || '';
-
-            sourcesWithLinks.add(source);
 
             const key = `${link}|${desc}|${source}`;
             if (!seen.has(key)) {
@@ -201,13 +172,11 @@ async function main() {
         return {
             links: resultLinks,
             descriptions: resultDescs,
-            sources: resultSources,
-            sourcesWithLinks: [...sourcesWithLinks]
+            sources: resultSources
         };
     };
 
     const withSteamLink = Array.from(mergedByAppId.values()).map(entry => {
-        processDescriptions(entry);
         const deduplicated = deduplicateLinksWithDescriptions(
             entry.patch_links || [],
             entry.patch_descriptions || [],
@@ -218,13 +187,11 @@ async function main() {
             patch_links: deduplicated.links,
             patch_descriptions: deduplicated.descriptions,
             patch_sources: deduplicated.sources,
-            sources_with_links: deduplicated.sourcesWithLinks,
             sources: [...new Set(entry.sources)]
         };
     });
 
     const withoutSteamLink = noSteamLink.map(entry => {
-        processDescriptions(entry);
         const deduplicated = deduplicateLinksWithDescriptions(
             entry.patch_links || [],
             entry.patch_descriptions || [],
@@ -235,7 +202,6 @@ async function main() {
             patch_links: deduplicated.links,
             patch_descriptions: deduplicated.descriptions,
             patch_sources: deduplicated.sources,
-            sources_with_links: deduplicated.sourcesWithLinks,
             sources: [...new Set(entry.sources)]
         };
     });
@@ -270,15 +236,12 @@ async function main() {
 
     for (const game of withSteamLink) {
         lookupByAppId[game.app_id] = {
-            title: game.game_title,
             type: game.patch_type,
             sources: game.sources,
             links: game.patch_links,
             patch_descriptions: game.patch_descriptions || [],
             patch_sources: game.patch_sources || [],
-            sources_with_links: game.sources_with_links || [],
-            source_site_urls: game.source_site_urls || {},
-            description: game.description || ''
+            source_site_urls: game.source_site_urls || {}
         };
     }
 

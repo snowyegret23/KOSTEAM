@@ -72,7 +72,6 @@ async function scrapePage(pageNum) {
                 const stoveUrl = `https://store.onstove.com/ko/games/${productNo}`;
 
                 games.push({
-                    source: 'stove',
                     app_id: null,
                     stove_game_no: gameNo?.toString() || '',
                     stove_product_no: productNo.toString(),
@@ -81,10 +80,7 @@ async function scrapePage(pageNum) {
                     patch_type: 'official',
                     patch_links: [stoveUrl],
                     patch_descriptions: [''],
-                    description: '',
-                    stove_url: stoveUrl,
-                    last_verification_date: new Date().toISOString(),
-                    updated_at: new Date().toISOString()
+                    stove_url: stoveUrl
                 });
             }
         }

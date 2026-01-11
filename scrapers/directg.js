@@ -55,17 +55,13 @@ async function scrapePage(pageNum) {
             const directgUrl = productLink.startsWith('http') ? productLink : `https://www.directg.net${productLink}`;
 
             games.push({
-                source: 'directg',
                 app_id: null,
                 game_title: gameTitle,
                 steam_link: '',
                 patch_type: 'official',
                 patch_links: directgUrl ? [directgUrl] : [],
                 patch_descriptions: [''],
-                description: '',
-                directg_url: directgUrl,
-                last_verification_date: new Date().toISOString(),
-                updated_at: new Date().toISOString()
+                directg_url: directgUrl
             });
         }
     });
@@ -105,16 +101,13 @@ async function scrapeAll() {
         if (gameTitle && productLink) {
             const fullUrl = productLink.startsWith('http') ? productLink : `https://www.directg.net${productLink}`;
             allGames.set(gameTitle, {
-                source: 'directg',
                 app_id: null,
                 game_title: gameTitle,
                 steam_link: '',
                 patch_type: 'official',
                 patch_links: [fullUrl],
-                description: '',
-                directg_url: fullUrl,
-                last_verification_date: new Date().toISOString(),
-                updated_at: new Date().toISOString()
+                patch_descriptions: [''],
+                directg_url: fullUrl
             });
         }
     });
