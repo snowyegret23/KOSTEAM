@@ -93,16 +93,23 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     }
 
     if (message.type === 'REFRESH_DATA') {
-        fetchData().then(data => {
-            sendResponse({ success: !!data });
-        });
+        (async () => {
+            try {
+                const remoteVersion = await getRemoteVersion();
+                const data = await fetchData(remoteVersion);
+                sendResponse({ success: !!data });
+            } catch (err) {
+                console.error('[KR Patch] Refresh failed:', err);
+                sendResponse({ success: false });
+            }
+        })();
         return true;
     }
 
     if (message.type === 'GET_VERSION') {
         chrome.storage.local.get([CACHE_VERSION_KEY]).then(result => {
-            sendResponse({ 
-                success: true, 
+            sendResponse({
+                success: true,
                 version: result[CACHE_VERSION_KEY]
             });
         });
@@ -120,12 +127,12 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
                 return;
             }
 
-            const needsUpdate = !localVersion || 
-                localVersion.generated_at !== remoteVersion.generated_at || 
+            const needsUpdate = !localVersion ||
+                localVersion.generated_at !== remoteVersion.generated_at ||
                 localVersion.alias_updated_at !== remoteVersion.alias_updated_at;
 
-            sendResponse({ 
-                success: true, 
+            sendResponse({
+                success: true,
                 needsUpdate,
                 localVersion,
                 remoteVersion
