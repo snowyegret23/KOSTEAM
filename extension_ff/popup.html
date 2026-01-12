@@ -6,29 +6,175 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KOSTEAM</title>
     <style>
-        /* same styles as original popup */
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { width: 320px; font-family: "Malgun Gothic", "맑은 고딕", sans-serif; background: #1B2838; color: #c7d5e0; padding: 16px; }
-        .header { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; padding-bottom: 12px; border-bottom: 1px solid #4a90d9; }
-        .header-icon { font-size: 28px; }
-        .header-title { font-size: 16px; font-weight: bold; color: #ffffff; }
-        .stats { background: rgba(0, 0, 0, 0.3); border-radius: 4px; padding: 12px; margin-bottom: 12px; }
-        .stat-item { display: flex; justify-content: space-between; margin-bottom: 6px; }
-        .stat-label { color: #8f98a0; }
-        .stat-value { color: #66c0f4; font-weight: bold; }
-        .stat-value.needs-update { color: #f0ad4e; }
-        .stat-value.up-to-date { color: #4caf50; }
-        .btn { width: 100%; padding: 10px; border: none; border-radius: 4px; font-size: 14px; font-weight: bold; cursor: pointer; transition: all 0.2s ease; margin-bottom: 8px; }
-        .btn-primary { background: #4a90d9; color: #ffffff; }
-        .status { text-align: center; font-size: 12px; color: #8f98a0; margin-top: 8px; }
-        .status.success { color: #4caf50; }
-        .status.error { color: #e74c3c; }
-        .footer { margin-top: 12px; padding-top: 12px; border-top: 1px solid rgba(255, 255, 255, 0.1); font-size: 11px; color: #8f98a0; text-align: center; }
-        .footer2 { padding-top: 6px; font-size: 12px; color: #66c0f4; text-align: center; }
-        .settings-title { font-size: 14px; font-weight: bold; color: #ffffff; margin: 16px 0 10px 0; padding-top: 10px; border-top: 1px solid rgba(255, 255, 255, 0.1); }
-        .source-options { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 20px; }
-        .source-item { display: flex; align-items: center; gap: 8px; font-size: 13px; cursor: pointer; user-select: none; color: #c7d5e0; }
-        .source-item input { cursor: pointer; width: 16px; height: 16px; accent-color: #66c0f4; }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 320px;
+            font-family: "Malgun Gothic", "맑은 고딕", sans-serif;
+            background: #1B2838;
+            color: #c7d5e0;
+            padding: 16px;
+        }
+
+        a,
+        a:link,
+        a:visited,
+        a:active {
+            color: #66c0f4 !important;
+            text-decoration: none !important;
+            cursor: pointer;
+        }
+
+        a:hover {
+            color: #ffffff !important;
+            text-decoration: underline !important;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 16px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid #4a90d9;
+        }
+
+        .header-icon {
+            font-size: 28px;
+        }
+
+        .header-title {
+            font-size: 16px;
+            font-weight: bold;
+            color: #ffffff;
+        }
+
+        .stats {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 4px;
+            padding: 12px;
+            margin-bottom: 12px;
+        }
+
+        .stat-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 6px;
+        }
+
+        .stat-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .stat-label {
+            color: #8f98a0;
+        }
+
+        .stat-value {
+            color: #66c0f4;
+            font-weight: bold;
+        }
+
+        .stat-value.needs-update {
+            color: #f0ad4e;
+        }
+
+        .stat-value.up-to-date {
+            color: #4caf50;
+        }
+
+        .btn {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            margin-bottom: 8px;
+        }
+
+        .btn-primary {
+            background: #4a90d9;
+            color: #ffffff;
+        }
+
+        .btn-primary:hover {
+            background: #66c0f4;
+        }
+
+        .status {
+            text-align: center;
+            font-size: 12px;
+            color: #8f98a0;
+            margin-top: 8px;
+        }
+
+        .status.success {
+            color: #4caf50;
+        }
+
+        .status.error {
+            color: #e74c3c;
+        }
+
+        .settings-title {
+            font-size: 14px;
+            font-weight: bold;
+            color: #ffffff;
+            margin: 16px 0 10px 0;
+            padding-top: 10px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .source-options {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .source-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 13px;
+            cursor: pointer;
+            user-select: none;
+            color: #c7d5e0;
+        }
+
+        .source-item input {
+            cursor: pointer;
+            width: 16px;
+            height: 16px;
+            accent-color: #66c0f4;
+        }
+
+        .footer,
+        .footer2 {
+            text-align: center;
+            font-size: 11px;
+            color: #8f98a0;
+            line-height: 1.6;
+        }
+
+        .footer {
+            margin-top: 12px;
+            padding-top: 12px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .footer2 {
+            padding-top: 4px;
+            padding-bottom: 4px;
+            font-size: 12px;
+        }
     </style>
 </head>
 
@@ -81,15 +227,24 @@
         </label>
     </div>
 
-    <button class="btn btn-primary" id="refreshBtn">데이터 새로고침</button>
+    <button class="btn btn-primary" id="refreshBtn">
+        데이터 새로고침
+    </button>
 
     <div class="status" id="status"></div>
 
     <div class="footer">
-        데이터 출처: <a href="https://steamapp.net/hangul" target="_blank">스팀앱</a>, <a href="https://quasarplay.com/bbs/qp_korean" target="_blank">퀘이사플레이</a>,<br><a href="https://directg.net/game/game_search_thumb.html?exclusive_korean=Y" target="_blank">다이렉트 게임즈</a>, <a href="https://store.onstove.com/ko/store/search?direction=LATEST&features=99" target="_blank">스토브</a>
+        데이터 출처: <a href="https://steamapp.net/hangul" target="_blank">스팀앱</a>,
+        <a href="https://quasarplay.com/bbs/qp_korean" target="_blank">퀘이사플레이</a>,<br>
+        <a href="https://directg.net/game/game_search_thumb.html?exclusive_korean=Y" target="_blank">다이렉트 게임즈</a>,
+        <a href="https://store.onstove.com/ko/store/search?direction=LATEST&features=99" target="_blank">스토브</a>
     </div>
+
     <div class="footer2">
-        <a href="https://chromewebstore.google.com/detail/steamdb/cbcganplchikpgchgppklcblpjibhnnc" target="_blank">chrome 웹 스토어</a> | <a href="https://github.com/snowyegret23/KOSTEAM" target="_blank">GitHub</a>
+        <a href="https://chromewebstore.google.com/detail/cbcganplchikpgchgppklcblpjibhnnc" target="_blank">Chrome 웹
+            스토어</a> |
+        <a href="https://addons.mozilla.org/ko/firefox/addon/kosteam/" target="_blank">Firefox 웹 스토어</a> |
+        <a href="https://github.com/snowyegret23/KOSTEAM" target="_blank">GitHub</a>
     </div>
 
     <script src="ff_shim.js"></script>
