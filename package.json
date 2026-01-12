@@ -1,5 +1,5 @@
 {
-  "name": "steam-krlocinfo",
+  "name": "kosteam",
   "version": "1.0.0",
   "description": "Steam Korean Localization Info Scraper & Chrome Extension",
   "type": "module",
