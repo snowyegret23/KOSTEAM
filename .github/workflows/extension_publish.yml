@@ -1,12 +1,6 @@
-name: Publish extension on manifest change
+name: Publish extension
 
 on:
-  push:
-    paths:
-      - 'extension/manifest.json'
-      - 'extension/**'
-      - 'extension_ff/manifest.json'
-      - 'extension_ff/**'
   workflow_dispatch:
     inputs:
       force_release:
