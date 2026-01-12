@@ -1,41 +1,29 @@
 (function () {
-    // Use browser.storage in Firefox, fallback to chrome.storage
-    const storage = (typeof browser !== 'undefined' && browser.storage) ? browser.storage : chrome.storage;
+    const api = (typeof browser !== 'undefined') ? browser : chrome;
+    const init = async () => {
+        try {
+            const settings = await api.storage.local.get(['bypass_language_filter']);
+            const isBypassEnabled = settings.bypass_language_filter !== false;
+            if (!isBypassEnabled) return;
 
-    // Firefox returns Promise, Chrome uses callbacks
-    const storageGet = storage.local.get(['bypass_language_filter']);
+            const url = new URL(window.location.href);
+            const path = url.pathname;
 
-    // Handle both Promise and callback styles
-    if (storageGet && typeof storageGet.then === 'function') {
-        // Promise-based (Firefox native)
-        storageGet.then(settings => {
-            processSettings(settings);
-        });
-    } else {
-        // Callback-based (Chrome or wrapped)
-        storage.local.get(['bypass_language_filter'], (settings) => {
-            processSettings(settings);
-        });
-    }
-
-    function processSettings(settings) {
-        if (!settings.bypass_language_filter) return;
-
-        const url = new URL(window.location.href);
-        const path = url.pathname;
-
-        if (path === '/search' || path.startsWith('/search/')) {
-            if (!url.searchParams.has('ndl') || url.searchParams.get('ndl') !== '1') {
-                url.searchParams.set('ndl', '1');
-                window.location.replace(url.toString());
+            if (path === '/search' || path.startsWith('/search/')) {
+                if (!url.searchParams.has('ndl') || url.searchParams.get('ndl') !== '1') {
+                    url.searchParams.set('ndl', '1');
+                    window.location.replace(url.toString());
+                }
+                return;
             }
-            return;
-        }
 
-        if (path.startsWith('/category/') || path.startsWith('/genre/') || path.startsWith('/tags/')) {
-            removeKoreanFilter();
+            if (path.startsWith('/category/') || path.startsWith('/genre/') || path.startsWith('/tags/')) {
+                removeKoreanFilter();
+            }
+        } catch (err) {
+            console.debug('[KOSTEAM] Search Bypass Error:', err);
         }
-    }
+    };
 
     function removeKoreanFilter() {
         let attempts = 0;
@@ -64,4 +52,7 @@
             tryRemove();
         }
     }
+
+    // 실행
+    init();
 })();

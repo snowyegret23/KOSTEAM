@@ -1,3 +1,5 @@
+const api = (typeof browser !== 'undefined') ? browser : chrome;
+
 document.addEventListener('DOMContentLoaded', async () => {
     const gameCountEl = document.getElementById('gameCount');
     const remoteUpdateEl = document.getElementById('remoteUpdate');
@@ -25,7 +27,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     async function loadStats() {
         try {
-            const result = await chrome.storage.local.get(['kr_patch_data']);
+            const result = await api.storage.local.get(['kr_patch_data']);
 
             if (result.kr_patch_data) {
                 const count = Object.keys(result.kr_patch_data).length - 1;
@@ -38,7 +40,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     async function checkUpdateStatus() {
         try {
-            const response = await chrome.runtime.sendMessage({ type: 'CHECK_UPDATE_STATUS' });
+            const response = await api.runtime.sendMessage({ type: 'CHECK_UPDATE_STATUS' });
 
             if (response && response.success) {
                 if (response.remoteVersion && response.remoteVersion.generated_at) {
@@ -70,7 +72,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         statusEl.className = 'status';
 
         try {
-            const response = await chrome.runtime.sendMessage({ type: 'REFRESH_DATA' });
+            const response = await api.runtime.sendMessage({ type: 'REFRESH_DATA' });
 
             if (response && response.success) {
                 statusEl.textContent = '데이터가 업데이트되었습니다';
@@ -81,6 +83,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 throw new Error('Update failed');
             }
         } catch (err) {
+            console.error(err);
             statusEl.textContent = '✗ 업데이트 실패. 나중에 다시 시도해주세요.';
             statusEl.className = 'status error';
         }
@@ -91,26 +94,29 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     if (githubBtn) {
         githubBtn.addEventListener('click', () => {
-            chrome.tabs.create({ url: 'https://github.com/snowyegret23/KOSTEAM' });
+            api.tabs.create({ url: 'https://github.com/snowyegret23/KOSTEAM' });
         });
     }
 
     async function loadSettings() {
-        // Settings are initialized in background.js on installation
-        const settings = await chrome.storage.local.get([...sourceIds, 'bypass_language_filter']);
+        try {
+            const settings = await api.storage.local.get([...sourceIds, 'bypass_language_filter']);
 
-        sources.forEach(checkbox => {
-            checkbox.checked = settings[checkbox.id] !== false; // Default to true if somehow still undefined
+            sources.forEach(checkbox => {
+                checkbox.checked = settings[checkbox.id] !== false;
 
-            checkbox.addEventListener('change', () => {
-                chrome.storage.local.set({ [checkbox.id]: checkbox.checked });
+                checkbox.addEventListener('change', () => {
+                    api.storage.local.set({ [checkbox.id]: checkbox.checked });
+                });
             });
-        });
 
-        bypassCheckbox.checked = settings.bypass_language_filter !== false; // Default to true
-        bypassCheckbox.addEventListener('change', () => {
-            chrome.storage.local.set({ bypass_language_filter: bypassCheckbox.checked });
-        });
+            bypassCheckbox.checked = settings.bypass_language_filter !== false;
+            bypassCheckbox.addEventListener('change', () => {
+                api.storage.local.set({ bypass_language_filter: bypassCheckbox.checked });
+            });
+        } catch (err) {
+            console.error('Failed to load settings:', err);
+        }
     }
 
     await loadStats();
