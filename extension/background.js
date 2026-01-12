@@ -16,15 +16,15 @@ async function checkForUpdates() {
         const local = await chrome.storage.local.get([CACHE_VERSION_KEY]);
         const localVersion = local[CACHE_VERSION_KEY];
 
-        if (!localVersion || localVersion.generated_at !== remoteVersion.generated_at || localVersion.alias_updated_at !== remoteVersion.alias_updated_at) {
-            console.log('[KR Patch] New version or alias available, downloading...');
+        if (!localVersion || 
+            localVersion.generated_at !== remoteVersion.generated_at || 
+            localVersion.alias_updated_at !== remoteVersion.alias_updated_at) {
+            console.log('[KOSTEAM] New version detected, updating...');
             return await fetchData(remoteVersion);
         }
-
-        console.log('[KR Patch] Data is up to date');
         return null;
     } catch (err) {
-        console.error('[KR Patch] Version check failed:', err);
+        console.error('[KOSTEAM] Update check failed:', err);
         return null;
     }
 }
@@ -32,10 +32,9 @@ async function checkForUpdates() {
 async function getRemoteVersion() {
     try {
         const response = await fetch(VERSION_URL, { cache: 'no-store' });
-        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        if (!response.ok) return null;
         return await response.json();
     } catch (err) {
-        console.error('[KR Patch] Remote version fetch failed:', err);
         return null;
     }
 }
@@ -44,17 +43,13 @@ async function fetchData(versionInfo) {
     try {
         const [dataRes, aliasRes] = await Promise.all([
             fetch(DATA_URL),
-            fetch(ALIAS_URL).catch(() => ({ ok: false }))
+            fetch(ALIAS_URL).catch(() => ({ ok: false, json: async () => ({}) }))
         ]);
 
-        if (!dataRes.ok) throw new Error(`HTTP ${dataRes.status}`);
+        if (!dataRes.ok) throw new Error(`Data Fetch Failed: ${dataRes.status}`);
+        
         const data = await dataRes.json();
-
-        let alias = {};
-        if (aliasRes.ok) {
-            alias = await aliasRes.json();
-        }
-
+        const alias = aliasRes.ok ? await aliasRes.json() : {};
         const version = versionInfo || data._meta || { generated_at: new Date().toISOString() };
 
         await chrome.storage.local.set({
@@ -63,10 +58,10 @@ async function fetchData(versionInfo) {
             [CACHE_VERSION_KEY]: version
         });
 
-        console.log('[KR Patch] Data updated:', Object.keys(data).length - 1, 'games,', Object.keys(alias).length, 'aliases');
+        console.log(`[KOSTEAM] Updated: ${Object.keys(data).length} games`);
         return data;
     } catch (err) {
-        console.error('[KR Patch] Fetch failed:', err);
+        console.error('[KOSTEAM] Fetch Data failed:', err);
         return null;
     }
 }
@@ -86,65 +81,38 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
             const targetId = alias[appId] || appId;
             const info = data[targetId] || null;
             sendResponse({ success: true, info });
-        }).catch(err => {
-            sendResponse({ success: false, error: err.message });
         });
         return true;
     }
 
     if (message.type === 'REFRESH_DATA') {
         (async () => {
-            try {
-                const remoteVersion = await getRemoteVersion();
-                const data = await fetchData(remoteVersion);
-                sendResponse({ success: !!data });
-            } catch (err) {
-                console.error('[KR Patch] Refresh failed:', err);
-                sendResponse({ success: false });
-            }
+            const remoteVersion = await getRemoteVersion();
+            const data = await fetchData(remoteVersion);
+            sendResponse({ success: !!data });
         })();
-        return true;
-    }
-
-    if (message.type === 'GET_VERSION') {
-        chrome.storage.local.get([CACHE_VERSION_KEY]).then(result => {
-            sendResponse({
-                success: true,
-                version: result[CACHE_VERSION_KEY]
-            });
-        });
         return true;
     }
 
     if (message.type === 'CHECK_UPDATE_STATUS') {
         (async () => {
             const local = await chrome.storage.local.get([CACHE_VERSION_KEY]);
-            const localVersion = local[CACHE_VERSION_KEY];
             const remoteVersion = await getRemoteVersion();
 
             if (!remoteVersion) {
-                sendResponse({ success: false, error: 'Failed to fetch remote version' });
+                sendResponse({ success: false, error: 'Network error' });
                 return;
             }
 
+            const localVersion = local[CACHE_VERSION_KEY];
             const needsUpdate = !localVersion ||
                 localVersion.generated_at !== remoteVersion.generated_at ||
                 localVersion.alias_updated_at !== remoteVersion.alias_updated_at;
 
-            sendResponse({
-                success: true,
-                needsUpdate,
-                localVersion,
-                remoteVersion
-            });
+            sendResponse({ success: true, needsUpdate, localVersion, remoteVersion });
         })();
         return true;
     }
-});
-
-chrome.runtime.onStartup.addListener(() => {
-    console.log('[KR Patch] Browser started, checking for updates...');
-    checkForUpdates();
 });
 
 const DEFAULT_SETTINGS = {
@@ -156,34 +124,18 @@ const DEFAULT_SETTINGS = {
 };
 
 chrome.runtime.onInstalled.addListener(async () => {
-    console.log('[KR Patch] Extension installed/updated');
-
-    // Initialize default settings if they don't exist
-    try {
-        const existing = await chrome.storage.local.get(Object.keys(DEFAULT_SETTINGS));
-        const newSettings = {};
-        for (const [key, defaultValue] of Object.entries(DEFAULT_SETTINGS)) {
-            if (existing[key] === undefined) {
-                newSettings[key] = defaultValue;
-            }
-        }
-
-        if (Object.keys(newSettings).length > 0) {
-            await chrome.storage.local.set(newSettings);
-            console.log('[KR Patch] Initialized default settings:', newSettings);
-        }
-    } catch (err) {
-        console.error('[KR Patch] Failed to initialize settings:', err);
+    const current = await chrome.storage.local.get(Object.keys(DEFAULT_SETTINGS));
+    const toSet = {};
+    for (const key in DEFAULT_SETTINGS) {
+        if (current[key] === undefined) toSet[key] = DEFAULT_SETTINGS[key];
     }
-
-    // Initial data fetch
-    fetchData();
+    if (Object.keys(toSet).length > 0) await chrome.storage.local.set(toSet);
+    
+    checkForUpdates();
 });
 
 chrome.alarms.create('checkUpdates', { periodInMinutes: 360 });
-
 chrome.alarms.onAlarm.addListener(alarm => {
-    if (alarm.name === 'checkUpdates') {
-        checkForUpdates();
-    }
+    if (alarm.name === 'checkUpdates') checkForUpdates();
 });
+chrome.runtime.onStartup.addListener(checkForUpdates);

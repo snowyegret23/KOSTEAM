@@ -45,28 +45,25 @@
             }
             return { label: '공식 한국어', cssClass: 'official-steam', color: '#4c9a2a' };
         }
-
-        if (hasDirectG) {
-            return { label: '다이렉트 게임즈', cssClass: 'official-directg', color: '#0C7CED' };
-        }
-
-        if (hasStove) {
-            return { label: '스토브', cssClass: 'official-stove', color: '#FF8126' };
-        }
-
+        if (hasDirectG) return { label: '다이렉트 게임즈', cssClass: 'official-directg', color: '#0C7CED' };
+        if (hasStove) return { label: '스토브', cssClass: 'official-stove', color: '#FF8126' };
         if (hasDbInfo) {
-            if (isDbOfficial) {
-                return { label: '공식지원 추정', cssClass: 'official', color: '#40f3b7be' };
-            }
+            if (isDbOfficial) return { label: '공식지원 추정', cssClass: 'official', color: '#40f3b7be' };
             return { label: '유저패치', cssClass: 'user', color: '#B921FF' };
         }
-
         return { label: '한국어 없음', cssClass: 'none', color: '#e74c3c' };
     }
 
     function formatSingleDescription(desc) {
         if (!desc) return '';
         return desc.replace(/\n/g, ' // ').trim();
+    }
+
+    function createElement(tag, className, text) {
+        const el = document.createElement(tag);
+        if (className) el.className = className;
+        if (text) el.textContent = text;
+        return el;
     }
 
     function injectPatchInfo(info, initialHasOfficialKorean) {
@@ -77,7 +74,6 @@
             if (!patchTypeInfo) return;
 
             const isSourceEnabled = (source) => settings[`source_${source}`] !== false;
-            const isOfficialGame = hasOfficialKorean || (info && info.type === 'official');
 
             let targetArea = document.querySelector('.game_language_options');
             let noKoreanBox = null;
@@ -109,10 +105,17 @@
 
             if (!targetArea && !noKoreanBox) return;
 
-            const banner = document.createElement('div');
-            banner.className = 'kr-patch-banner';
+            const banner = createElement('div', 'kr-patch-banner');
+            const content = createElement('div', 'kr-patch-content');
+            banner.appendChild(content);
 
-            let contentHtml = '';
+            const typeLabel = createElement('div', `kr-patch-type-label ${patchTypeInfo.cssClass}`, patchTypeInfo.label);
+            typeLabel.style.backgroundColor = patchTypeInfo.color;
+            content.appendChild(typeLabel);
+
+            const dataArea = createElement('div', 'kr-patch-data-area');
+            content.appendChild(dataArea);
+
             const linksBySource = new Map();
 
             if (info && info.links) {
@@ -143,51 +146,63 @@
             const hasLinks = linksBySource.size > 0;
 
             if (hasLinks) {
-                contentHtml = '<div class="kr-patch-links-list">';
+                const listContainer = createElement('div', 'kr-patch-links-list');
                 let index = 1;
+
                 linksBySource.forEach((data, source) => {
+                    const itemDiv = createElement('div', 'kr-patch-link-item');
+                    
+                    const headerDiv = createElement('div', 'kr-patch-link-header');
+                    
+                    const labelSpan = createElement('span', 'kr-patch-link-label', `링크 ${index++}:`);
+                    headerDiv.appendChild(labelSpan);
+
                     const labelPrefix = source === 'stove' ? '스토브' :
                         source === 'quasarplay' ? '퀘이사플레이' :
                             source === 'directg' ? '다이렉트 게임즈' :
-                                source === 'steamapp' ? '스팀앱' :
-                                    source;
+                                source === 'steamapp' ? '스팀앱' : source;
 
-                    contentHtml += `
-                        <div class="kr-patch-link-item">
-                            <div class="kr-patch-link-header">
-                                <span class="kr-patch-link-label">링크 ${index++}:</span>
-                                <a href="${data.url}" target="_blank" rel="noopener" class="kr-patch-link-text">[ ${labelPrefix} ]</a>
-                            </div>
-                            ${data.descriptions.length > 0 ? `
-                                <div style="margin-top: 5px;">
-                                    ${data.descriptions.map(d => `<div class="kr-patch-link-description" style="margin-bottom: 4px;">${d}</div>`).join('')}
-                                </div>
-                            ` : ''}
-                        </div>`;
+                    const linkAnchor = createElement('a', 'kr-patch-link-text', `[ ${labelPrefix} ]`);
+                    linkAnchor.href = data.url;
+                    linkAnchor.target = '_blank';
+                    linkAnchor.rel = 'noopener';
+                    headerDiv.appendChild(linkAnchor);
+
+                    itemDiv.appendChild(headerDiv);
+
+                    if (data.descriptions.length > 0) {
+                        const descContainer = createElement('div');
+                        descContainer.style.marginTop = '5px';
+                        
+                        data.descriptions.forEach(desc => {
+                            const descDiv = createElement('div', 'kr-patch-link-description', desc);
+                            descDiv.style.marginBottom = '4px';
+                            descContainer.appendChild(descDiv);
+                        });
+                        itemDiv.appendChild(descContainer);
+                    }
+
+                    listContainer.appendChild(itemDiv);
                 });
-                contentHtml += '</div>';
-            } else if (isOfficial) {
-                if (patchTypeInfo.label === '공식지원 추정') {
-                    contentHtml = '<div class="kr-patch-official-text">한국어를 공식 지원하는 것으로 추정되는 게임입니다.<br>(패치 정보 사이트에 한국어 번역이 존재한다고 보고된 게임)</div>';
-                } else {
-                    contentHtml = '<div class="kr-patch-official-text">한국어를 공식 지원하는 게임입니다.</div>';
-                }
-            } else if (patchTypeInfo.cssClass === 'none') {
-                contentHtml = '<div class="kr-patch-none-text">현재 데이터베이스에 등록된 한국어 패치 정보가 없습니다.</div>';
-            } else {
-                contentHtml = '<div class="kr-patch-none-text">해당 게임의 패치 정보 사이트로 연결되는 링크를 찾을 수 없습니다.</div>';
-            }
+                dataArea.appendChild(listContainer);
 
-            banner.innerHTML = `
-                <div class="kr-patch-content">
-                    <div class="kr-patch-type-label ${patchTypeInfo.cssClass}" style="background-color: ${patchTypeInfo.color}">
-                        ${patchTypeInfo.label}
-                    </div>
-                    <div class="kr-patch-data-area">
-                        ${contentHtml}
-                    </div>
-                </div>
-            `;
+            } else if (isOfficial) {
+                const msgDiv = createElement('div', 'kr-patch-official-text');
+                if (patchTypeInfo.label === '공식지원 추정') {
+                    msgDiv.textContent = '한국어를 공식 지원하는 것으로 추정되는 게임입니다.';
+                    const subMsg = document.createElement('br');
+                    msgDiv.appendChild(subMsg);
+                    msgDiv.appendChild(document.createTextNode('(패치 정보 사이트에 한국어 번역이 존재한다고 보고된 게임)'));
+                } else {
+                    msgDiv.textContent = '한국어를 공식 지원하는 게임입니다.';
+                }
+                dataArea.appendChild(msgDiv);
+
+            } else if (patchTypeInfo.cssClass === 'none') {
+                dataArea.appendChild(createElement('div', 'kr-patch-none-text', '현재 데이터베이스에 등록된 한국어 패치 정보가 없습니다.'));
+            } else {
+                dataArea.appendChild(createElement('div', 'kr-patch-none-text', '해당 게임의 패치 정보 사이트로 연결되는 링크를 찾을 수 없습니다.'));
+            }
 
             const existingBanner = document.querySelector('.kr-patch-banner');
             if (existingBanner) {
