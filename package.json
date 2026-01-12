@@ -34,7 +34,7 @@
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^16.0.0",
     "@rollup/plugin-terser": "^0.4.4",
-    "cross-env": "^7.0.3",
+    "cross-env": "^10.0.0",
     "rollup": "^4.40.0",
     "rollup-plugin-copy": "^3.5.0"
   },
