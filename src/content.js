@@ -221,7 +221,7 @@ import { PATCH_TYPES, SOURCE_LABELS, MSG_GET_PATCH_INFO } from './shared/constan
                                 if (source === 'steamapp') {
                                     url = `https://steamapp.net/app/${appId}`;
                                 } else if (source === 'quasarplay' && info.qp_appid) {
-                                    url = `https://quasarplay.com/bbs/qp_korean?gameId=${info.qp_appid}`;
+                                    url = `https://quasarplay.com/bbs/qp_korean?category=&gameId=${info.qp_appid}`;
                                 }
                             }
 

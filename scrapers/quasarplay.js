@@ -347,7 +347,7 @@ async function scrapePage(page, pageNum, captchaService) {
             if (gameTitle) {
                 // Use gameId if available, otherwise fallback to game_name
                 const sourceSiteUrl = quasarplayGameId
-                    ? `${BASE_URL}?gameId=${quasarplayGameId}`
+                    ? `${BASE_URL}?category=&gameId=${quasarplayGameId}`
                     : `${BASE_URL}?game_name=${encodeURIComponent(gameTitle)}`;
 
                 const gameData = {
