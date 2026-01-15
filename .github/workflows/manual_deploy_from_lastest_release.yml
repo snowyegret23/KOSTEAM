@@ -2,6 +2,16 @@ name: Manual Deploy from Latest Release
 
 on:
   workflow_dispatch:
+    inputs:
+      target:
+        description: '출시 대상 선택'
+        required: true
+        default: 'both'
+        type: choice
+        options:
+          - both
+          - chrome
+          - firefox
 
 jobs:
   deploy-store:
@@ -17,21 +27,29 @@ jobs:
         id: files
         run: |
           CHROME_FILE=$(find . -maxdepth 1 -name "*chrome*.zip" | head -n 1)
-          
           FIREFOX_FILE=$(find . -maxdepth 1 -name "*firefox*.zip" | head -n 1)
           
           echo "Found Chrome File: $CHROME_FILE"
           echo "Found Firefox File: $FIREFOX_FILE"
           
-          if [ -z "$CHROME_FILE" ] || [ -z "$FIREFOX_FILE" ]; then
-            echo "Error: Could not distinguish chrome/firefox files."
-            exit 1
+          if [[ "${{ github.event.inputs.target }}" == "both" || "${{ github.event.inputs.target }}" == "chrome" ]]; then
+            if [ -z "$CHROME_FILE" ]; then
+              echo "Error: Chrome extension file not found."
+              exit 1
+            fi
+            echo "chrome_path=$CHROME_FILE" >> $GITHUB_OUTPUT
           fi
           
-          echo "chrome_path=$CHROME_FILE" >> $GITHUB_OUTPUT
-          echo "firefox_path=$FIREFOX_FILE" >> $GITHUB_OUTPUT
+          if [[ "${{ github.event.inputs.target }}" == "both" || "${{ github.event.inputs.target }}" == "firefox" ]]; then
+            if [ -z "$FIREFOX_FILE" ]; then
+              echo "Error: Firefox extension file not found."
+              exit 1
+            fi
+            echo "firefox_path=$FIREFOX_FILE" >> $GITHUB_OUTPUT
+          fi
 
       - name: Upload to Chrome Web Store
+        if: github.event.inputs.target == 'both' || github.event.inputs.target == 'chrome'
         uses: mnao305/chrome-extension-upload@v5.0.0
         with:
           file-path: ${{ steps.files.outputs.chrome_path }}
@@ -42,6 +60,7 @@ jobs:
           publish: true
 
       - name: Sign & Upload to Firefox Add-ons
+        if: github.event.inputs.target == 'both' || github.event.inputs.target == 'firefox'
         uses: wdzeng/firefox-addon@v1
         with:
           addon-guid: 'alevo0918@gmail.com'
