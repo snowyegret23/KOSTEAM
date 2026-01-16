@@ -2,9 +2,23 @@
   "curator_id": 30894603,
   "curator_name": "Curator #30894603",
   "curator_url": "https://store.steampowered.com/curator/30894603/",
-  "total_games": 564,
-  "exported_at": "2026-01-16T01:38:48.650945",
+  "total_games": 566,
+  "exported_at": "2026-01-16T21:05:49.157691",
   "games": [
+    {
+      "url": "https://store.steampowered.com/app/3446680/Heartbeat_in_Thailand/",
+      "appid": "3446680",
+      "curator_url": "https://store.steampowered.com/app/3446680/?curator_clanid=30894603",
+      "review": "\"번역 개선 패치 - 미인이많군요\nhttps://blog.naver.com/fmv_beauty/224146702413\"",
+      "type": "recommended"
+    },
+    {
+      "url": "https://store.steampowered.com/app/2646320/WindStop_Strategy/",
+      "appid": "2646320",
+      "curator_url": "https://store.steampowered.com/app/2646320/?curator_clanid=30894603",
+      "review": "\"유저 한글 패치 - koko\nhttps://cafe.naver.com/beemu/72056\"",
+      "type": "recommended"
+    },
     {
       "url": "https://store.steampowered.com/app/3983920/Hollowbrook__Apartments/",
       "appid": "3983920",
@@ -765,7 +779,7 @@
       "url": "https://store.steampowered.com/app/2698470/Kemono_Teatime/",
       "appid": "2698470",
       "curator_url": "https://store.steampowered.com/app/2698470/?curator_clanid=30894603",
-      "review": "\"유저 한글 패치 - 한무테\nhttps://blog.naver.com/gusrud6151/224054757255\"",
+      "review": "\"유저 한글 패치 - 햇\nhttps://arca.live/b/handtranslator/159558300\n\n유저 한글 패치 - 한무테\nhttps://blog.naver.com/gusrud6151/224054757255\"",
       "type": "recommended"
     },
     {

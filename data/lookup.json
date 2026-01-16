@@ -93954,6 +93954,24 @@
       "quasarplay": "https://store.steampowered.com/app/2644620/?curator_clanid=42788178"
     }
   },
+  "2646320": {
+    "type": "user",
+    "sources": [
+      "quasarplay"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "유저 한글 패치 - koko"
+    ],
+    "patch_sources": [
+      "quasarplay"
+    ],
+    "source_site_urls": {
+      "quasarplay": "https://store.steampowered.com/app/2646320/?curator_clanid=30894603"
+    }
+  },
   "2649080": {
     "type": "official",
     "sources": [
@@ -94466,7 +94484,7 @@
     ],
     "patch_descriptions": [
       "제작자 : 햇",
-      "유저 한글 패치 - 한무테"
+      "유저 한글 패치 - 햇\n유저 한글 패치 - 한무테"
     ],
     "patch_sources": [
       "steamapp",
@@ -103036,6 +103054,24 @@
       "quasarplay": "https://store.steampowered.com/app/3446200/?curator_clanid=30894603"
     }
   },
+  "3446680": {
+    "type": "user",
+    "sources": [
+      "quasarplay"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "번역 개선 패치 - 미인이많군요"
+    ],
+    "patch_sources": [
+      "quasarplay"
+    ],
+    "source_site_urls": {
+      "quasarplay": "https://store.steampowered.com/app/3446680/?curator_clanid=30894603"
+    }
+  },
   "3447620": {
     "type": "user",
     "sources": [
@@ -105354,7 +105390,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-01-16T09:04:08.792Z",
-    "total": 7051
+    "generated_at": "2026-01-16T21:06:04.573Z",
+    "total": 7053
   }
 }
