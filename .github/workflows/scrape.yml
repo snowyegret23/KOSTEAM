@@ -14,6 +14,7 @@ on:
           - all
           - steamapp
           - quasarplay
+          - quasarplay_curator
           - directg
           - stove
           - update_alias
@@ -51,7 +52,22 @@ jobs:
           QUASARPLAY_PROXY: ${{ secrets.QUASARPLAY_PROXY }}
         run: npm run scrape:quasarplay -- --all
         continue-on-error: true
-        
+
+      - name: Setup Python
+        if: github.event.inputs.scraper == 'all' || github.event.inputs.scraper == 'quasarplay_curator' || github.event_name == 'schedule'
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        if: github.event.inputs.scraper == 'all' || github.event.inputs.scraper == 'quasarplay_curator' || github.event_name == 'schedule'
+        run: pip install requests beautifulsoup4
+
+      - name: Run quasarplay curator scraper
+        if: github.event.inputs.scraper == 'all' || github.event.inputs.scraper == 'quasarplay_curator' || github.event_name == 'schedule'
+        run: python scrapers/steam_curator_dump.py --quasarplay
+        continue-on-error: true
+
       - name: Run directg scraper
         if: github.event.inputs.scraper == 'all' || github.event.inputs.scraper == 'directg' || github.event_name == 'schedule'
         run: npm run scrape:directg

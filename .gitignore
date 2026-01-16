@@ -4,6 +4,7 @@ node_modules/
 .env
 _legacy/
 tmp*cwd
+.cl*/
 
 # Build output
 dist/
