@@ -158,11 +158,6 @@ async function main() {
                     if (siteUrl && !existing.source_site_urls[source] && (entry.patch_type !== 'official' || hasLinksFromSource || isCuratorSource)) {
                         existing.source_site_urls[source] = siteUrl;
                     }
-
-                    // Preserve qp_appid from quasarplay source
-                    if (source === 'quasarplay' && entry.qp_appid) {
-                        existing.qp_appid = entry.qp_appid;
-                    }
                 } else {
                     const entryLinks = entry.patch_links || [];
                     const hasLinks = entryLinks.length > 0;
@@ -182,11 +177,6 @@ async function main() {
                         source_site_urls: shouldIncludeSiteUrl ? { [source]: siteUrl } : {},
                         sources: [source]
                     };
-
-                    // Add qp_appid if available from quasarplay source
-                    if (source === 'quasarplay' && entry.qp_appid) {
-                        newEntry.qp_appid = entry.qp_appid;
-                    }
 
                     mergedByAppId.set(appId, newEntry);
                 }
@@ -326,7 +316,7 @@ async function main() {
     };
 
     for (const game of withSteamLink) {
-        const lookupEntry = {
+        lookupByAppId[game.app_id] = {
             type: game.patch_type,
             sources: game.sources,
             links: game.patch_links,
@@ -334,13 +324,6 @@ async function main() {
             patch_sources: game.patch_sources || [],
             source_site_urls: game.source_site_urls || {}
         };
-
-        // Include qp_appid if available
-        if (game.qp_appid) {
-            lookupEntry.qp_appid = game.qp_appid;
-        }
-
-        lookupByAppId[game.app_id] = lookupEntry;
     }
 
     const lookupPath = path.join(DATA_DIR, 'lookup.json');

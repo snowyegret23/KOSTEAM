@@ -227,18 +227,10 @@ import { PATCH_TYPES, SOURCE_LABELS, MSG_GET_PATCH_INFO, KOREAN_LABELS } from '.
 
                             let url = siteUrls[source];
 
-                            // Generate URL dynamically if not in source_site_urls
+                            // Generate URL dynamically if not in source_site_urls (steamapp only)
                             // appId is already validated by URL regex pattern /\/app\/(\d+)/
-                            if (!url) {
-                                if (source === 'steamapp') {
-                                    url = `https://steamapp.net/app/${encodeURIComponent(appId)}`;
-                                } else if (source === 'quasarplay' && info.qp_appid) {
-                                    // Validate qp_appid is numeric before using
-                                    const qpAppId = String(info.qp_appid);
-                                    if (/^\d+$/.test(qpAppId)) {
-                                        url = `https://quasarplay.com/bbs/qp_korean?category=&gameId=${encodeURIComponent(qpAppId)}`;
-                                    }
-                                }
+                            if (!url && source === 'steamapp') {
+                                url = `https://steamapp.net/app/${encodeURIComponent(appId)}`;
                             }
 
                             if (url && isValidUrl(url)) {
