@@ -47,7 +47,7 @@ Steam 상점 페이지에서 한국어 패치 정보를 표시하고, 언어 필
 ## 데이터 출처
 
 - [스팀앱](https://steamapp.net)
-- [퀘이사플레이](https://quasarplay.com)
+- [퀘이사존](https://store.steampowered.com/curator/30894603), [퀘이사플레이](https://store.steampowered.com/curator/42788178) 스팀 큐레이터
 - [다이렉트 게임즈](https://directg.net)
 - [스토브](https://store.onstove.com)
 

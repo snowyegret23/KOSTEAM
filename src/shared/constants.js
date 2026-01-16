@@ -29,7 +29,7 @@ export const DEFAULT_SETTINGS = {
 // Source labels
 export const SOURCE_LABELS = {
     stove: '스토브',
-    quasarplay: '퀘이사플레이',
+    quasarplay: '퀘이사존 큐레이터',
     directg: '다이렉트 게임즈',
     steamapp: '스팀앱'
 };
