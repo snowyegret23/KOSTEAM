@@ -3,7 +3,7 @@
   "curator_name": "Curator #42788178",
   "curator_url": "https://store.steampowered.com/curator/42788178/",
   "total_games": 1836,
-  "exported_at": "2026-01-16T09:01:15.455895",
+  "exported_at": "2026-01-16T01:38:39.985391",
   "games": [
     {
       "url": "https://store.steampowered.com/app/1378290/The_Citadel/",
@@ -6390,13 +6390,6 @@
       "type": "recommended"
     },
     {
-      "url": "https://store.steampowered.com/app/901638/Dungeon_Siege_III/",
-      "appid": "901638",
-      "curator_url": "https://store.steampowered.com/app/901638/?curator_clanid=42788178",
-      "review": "\"유저 한국어 패치 링크:\nhttps://oldgamelove.tistory.com/74\"",
-      "type": "recommended"
-    },
-    {
       "url": "https://store.steampowered.com/app/548090/Alone_in_the_Dark_1/",
       "appid": "548090",
       "curator_url": "https://store.steampowered.com/app/548090/?curator_clanid=42788178",
@@ -11056,6 +11049,13 @@
       "appid": "12150",
       "curator_url": "https://store.steampowered.com/app/12150/?curator_clanid=42788178",
       "review": "\"유저 한국어 패치 - https://aqune.tistory.com/97\n\n\"",
+      "type": "recommended"
+    },
+    {
+      "url": "https://store.steampowered.com/app/12140/Max_Payne/",
+      "appid": "12140",
+      "curator_url": "https://store.steampowered.com/app/12140/?curator_clanid=42788178",
+      "review": "\"유저 한국어 패치 - 링크: https://oldgamelove.tistory.com/24\n\n\"",
       "type": "recommended"
     },
     {

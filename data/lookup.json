@@ -1663,19 +1663,24 @@
   "12140": {
     "type": "user",
     "sources": [
-      "steamapp"
+      "steamapp",
+      "quasarplay"
     ],
     "links": [
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
-      ""
+      "",
+      "유저 한국어 패치 -"
     ],
     "patch_sources": [
-      "steamapp"
+      "steamapp",
+      "quasarplay"
     ],
     "source_site_urls": {
-      "steamapp": "https://steamapp.net/app/12140"
+      "steamapp": "https://steamapp.net/app/12140",
+      "quasarplay": "https://store.steampowered.com/app/12140/?curator_clanid=42788178"
     }
   },
   "12150": {
@@ -3835,24 +3840,19 @@
   "39160": {
     "type": "user",
     "sources": [
-      "steamapp",
-      "quasarplay"
+      "steamapp"
     ],
     "links": [
-      "exist",
       "exist"
     ],
     "patch_descriptions": [
-      "",
-      "유저 한국어 패치"
+      ""
     ],
     "patch_sources": [
-      "steamapp",
-      "quasarplay"
+      "steamapp"
     ],
     "source_site_urls": {
-      "steamapp": "https://steamapp.net/app/39160",
-      "quasarplay": "https://store.steampowered.com/app/901638/?curator_clanid=42788178"
+      "steamapp": "https://steamapp.net/app/39160"
     }
   },
   "39190": {
@@ -99063,6 +99063,24 @@
       "steamapp": "https://steamapp.net/app/3066570"
     }
   },
+  "3067890": {
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/102898"
+    }
+  },
   "3068060": {
     "type": "user",
     "sources": [
@@ -105336,7 +105354,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-01-16T00:27:41.454Z",
-    "total": 7050
+    "generated_at": "2026-01-16T01:39:04.641Z",
+    "total": 7051
   }
 }
