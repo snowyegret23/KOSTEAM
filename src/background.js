@@ -8,9 +8,7 @@ import {
     storageSet,
     onMessage,
     onInstalled,
-    onStartup,
-    createAlarm,
-    onAlarm
+    onStartup
 } from './shared/api.js';
 
 import {
@@ -20,7 +18,9 @@ import {
     CACHE_KEY,
     CACHE_ALIAS_KEY,
     CACHE_VERSION_KEY,
+    LAST_UPDATE_CHECK_KEY,
     UPDATE_INTERVAL_MINUTES,
+    MS_PER_MINUTE,
     DEFAULT_SETTINGS,
     MSG_GET_PATCH_INFO,
     MSG_REFRESH_DATA,
@@ -119,10 +119,27 @@ async function fetchData(versionInfo) {
 
 /**
  * Get cached data and alias mappings
+ * Automatically checks for updates if enough time has passed (lazy update)
  * @returns {Promise<{data: Object, alias: Object}>}
  */
 async function getData() {
-    const result = await storageGet([CACHE_KEY, CACHE_ALIAS_KEY]);
+    const result = await storageGet([CACHE_KEY, CACHE_ALIAS_KEY, LAST_UPDATE_CHECK_KEY]);
+
+    // Check if we need to update (lazy update pattern)
+    const lastCheck = result[LAST_UPDATE_CHECK_KEY] || 0;
+    const now = Date.now();
+    const updateInterval = UPDATE_INTERVAL_MINUTES * MS_PER_MINUTE;
+
+    if (now - lastCheck > updateInterval) {
+        // Don't wait for update - return current data immediately
+        // Update happens in background
+        checkForUpdates().then(() => {
+            storageSet({ [LAST_UPDATE_CHECK_KEY]: now });
+        }).catch(err => {
+            console.error('[KOSTEAM] Background update failed:', err);
+        });
+    }
+
     return {
         data: result[CACHE_KEY] || {},
         alias: result[CACHE_ALIAS_KEY] || {}
@@ -265,15 +282,6 @@ onInstalled(async () => {
         checkForUpdates();
     } catch (err) {
         console.error('[KOSTEAM] Installation init error:', err);
-    }
-});
-
-// Setup periodic update check
-createAlarm('checkUpdates', { periodInMinutes: UPDATE_INTERVAL_MINUTES });
-
-onAlarm(alarm => {
-    if (alarm.name === 'checkUpdates') {
-        checkForUpdates();
     }
 });
 

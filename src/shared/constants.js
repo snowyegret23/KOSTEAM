@@ -8,6 +8,7 @@ export const ALIAS_URL = `${REMOTE_BASE_URL}/alias.json`;
 export const CACHE_KEY = 'kr_patch_data';
 export const CACHE_ALIAS_KEY = 'kr_patch_alias';
 export const CACHE_VERSION_KEY = 'kr_patch_version';
+export const LAST_UPDATE_CHECK_KEY = 'kr_last_update_check';
 
 // Time constants
 export const UPDATE_INTERVAL_MINUTES = 30;
