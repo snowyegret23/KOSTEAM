@@ -19,6 +19,9 @@ import { PATCH_TYPES, SOURCE_LABELS, MSG_GET_PATCH_INFO, KOREAN_LABELS } from '.
     let patchInfoData = null;
     let observerCleanup = null;
 
+    // Check if URL has curator_clanid parameter and scroll to curator review
+    handleCuratorLink();
+
     // Request patch info from background
     sendMessage({ type: MSG_GET_PATCH_INFO, appId })
         .then(response => {
@@ -26,6 +29,49 @@ import { PATCH_TYPES, SOURCE_LABELS, MSG_GET_PATCH_INFO, KOREAN_LABELS } from '.
             startLanguageTableWatcher();
         })
         .catch(err => console.debug('[KOSTEAM] Message error:', err));
+
+    /**
+     * Handle curator link - scroll to curator review section if curator_clanid is in URL
+     */
+    function handleCuratorLink() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const curatorClanId = urlParams.get('curator_clanid');
+
+        if (!curatorClanId) return;
+
+        // Function to find and scroll to curator review
+        const scrollToCuratorReview = () => {
+            // Look for curator review heading (English or Korean)
+            const headings = document.querySelectorAll('h2, .page_header_ctn');
+
+            for (const heading of headings) {
+                const text = heading.textContent?.trim() || '';
+                if (text === 'CURATOR REVIEW' || text === '큐레이터 평가') {
+                    heading.scrollIntoView({ behavior: 'auto', block: 'start' });
+                    return true;
+                }
+            }
+            return false;
+        };
+
+        // Try immediate scroll
+        if (scrollToCuratorReview()) return;
+
+        // If not found, wait for DOM to load with MutationObserver
+        const observer = new MutationObserver(() => {
+            if (scrollToCuratorReview()) {
+                observer.disconnect();
+            }
+        });
+
+        observer.observe(document.body, {
+            childList: true,
+            subtree: true
+        });
+
+        // Stop trying after 5 seconds
+        setTimeout(() => observer.disconnect(), 5000);
+    }
 
     /**
      * Start watching for language table and periodically check for updates
