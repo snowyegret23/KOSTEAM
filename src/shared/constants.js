@@ -66,4 +66,8 @@ export const UI_STRINGS = {
 
 // Retry configuration for search bypass
 export const SEARCH_BYPASS_MAX_ATTEMPTS = 50;
-export const SEARCH_BYPASS_RETRY_DELAY = 100;
+export const SEARCH_BYPASS_RETRY_DELAY_MS = 100;
+
+// Content script timing constants
+export const CURATOR_SCROLL_TIMEOUT_MS = 5000;
+export const LANGUAGE_TABLE_WATCH_TIMEOUT_MS = 10000;

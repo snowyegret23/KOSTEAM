@@ -90,39 +90,6 @@ export function onStartup(callback) {
 }
 
 /**
- * Create an alarm
- * @param {string} name - Alarm name
- * @param {Object} alarmInfo - Alarm configuration
- */
-export function createAlarm(name, alarmInfo) {
-    // Check if the alarm API exists
-    if (api.alarms && api.alarms.create) {
-        try {
-            api.alarms.create(name, alarmInfo);
-        } catch (e) {
-            console.debug('[KOSTEAM] Alarms API failed:', e);
-        }
-    } else {
-        console.debug('[KOSTEAM] Alarms API not supported in this environment.');
-    }
-}
-
-/**
- * Add a listener for alarms
- * @param {Function} callback - Callback function (alarm) => void
- */
-export function onAlarm(callback) {
-    // Check if the alarm listener API exists
-    if (api.alarms && api.alarms.onAlarm) {
-        try {
-            api.alarms.onAlarm.addListener(callback);
-        } catch (e) {
-            console.debug('[KOSTEAM] Alarms listener failed:', e);
-        }
-    }
-}
-
-/**
  * Open a new tab
  * @param {string} url - URL to open
  */

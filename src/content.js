@@ -5,7 +5,16 @@
 
 import { sendMessage, storageGet, onStorageChanged } from './shared/api.js';
 import { isValidUrl } from './shared/url-validator.js';
-import { PATCH_TYPES, SOURCE_LABELS, MSG_GET_PATCH_INFO, KOREAN_LABELS, UI_STRINGS } from './shared/constants.js';
+import {
+    PATCH_TYPES,
+    SOURCE_LABELS,
+    MSG_GET_PATCH_INFO,
+    KOREAN_LABELS,
+    UI_STRINGS,
+    CURATOR_SCROLL_TIMEOUT_MS,
+    LANGUAGE_TABLE_WATCH_TIMEOUT_MS,
+    SEARCH_BYPASS_RETRY_DELAY_MS
+} from './shared/constants.js';
 
 (function () {
     // Extract appId from URL
@@ -14,8 +23,6 @@ import { PATCH_TYPES, SOURCE_LABELS, MSG_GET_PATCH_INFO, KOREAN_LABELS, UI_STRIN
 
     const appId = appIdMatch[1];
 
-    // Cache for Korean support check result
-    let cachedKoreanSupport = null;
     let patchInfoData = null;
     let observerCleanup = null;
 
@@ -66,8 +73,8 @@ import { PATCH_TYPES, SOURCE_LABELS, MSG_GET_PATCH_INFO, KOREAN_LABELS, UI_STRIN
             subtree: true
         });
 
-        // Stop trying after 5 seconds
-        setTimeout(() => observer.disconnect(), 5000);
+        // Stop trying after timeout
+        setTimeout(() => observer.disconnect(), CURATOR_SCROLL_TIMEOUT_MS);
     }
 
     /**
@@ -77,16 +84,22 @@ import { PATCH_TYPES, SOURCE_LABELS, MSG_GET_PATCH_INFO, KOREAN_LABELS, UI_STRIN
         let lastKoreanSupport = null;
         let pollInterval = null;
 
+        /**
+         * Check Korean support and update UI if changed
+         */
+        function checkAndUpdate() {
+            const currentSupport = checkOfficialKoreanSupport();
+            if (currentSupport !== lastKoreanSupport) {
+                lastKoreanSupport = currentSupport;
+                injectPatchInfo(patchInfoData, currentSupport);
+            }
+        }
+
         // MutationObserver to detect when language table is added to DOM
-        const observer = new MutationObserver((mutations) => {
+        const observer = new MutationObserver(() => {
             const table = document.querySelector('.game_language_options');
             if (table) {
-                // Table found, check Korean support
-                const currentSupport = checkOfficialKoreanSupport(true);
-                if (currentSupport !== lastKoreanSupport) {
-                    lastKoreanSupport = currentSupport;
-                    injectPatchInfo(patchInfoData, currentSupport);
-                }
+                checkAndUpdate();
             }
         });
 
@@ -96,19 +109,13 @@ import { PATCH_TYPES, SOURCE_LABELS, MSG_GET_PATCH_INFO, KOREAN_LABELS, UI_STRIN
             subtree: true
         });
 
-        // Polling interval to continuously check (every 100ms)
+        // Polling interval to continuously check (fallback for edge cases)
         pollInterval = setInterval(() => {
-            const currentSupport = checkOfficialKoreanSupport(true);
-            if (currentSupport !== lastKoreanSupport) {
-                lastKoreanSupport = currentSupport;
-                injectPatchInfo(patchInfoData, currentSupport);
-            }
-        }, 100);
+            checkAndUpdate();
+        }, SEARCH_BYPASS_RETRY_DELAY_MS);
 
         // Initial check
-        const initialSupport = checkOfficialKoreanSupport();
-        lastKoreanSupport = initialSupport;
-        injectPatchInfo(patchInfoData, initialSupport);
+        checkAndUpdate();
 
         // Cleanup function
         observerCleanup = () => {
@@ -118,26 +125,21 @@ import { PATCH_TYPES, SOURCE_LABELS, MSG_GET_PATCH_INFO, KOREAN_LABELS, UI_STRIN
             }
         };
 
-        // Stop polling after 10 seconds (language table should be loaded by then)
+        // Stop polling after timeout (language table should be loaded by then)
         setTimeout(() => {
             if (pollInterval) {
                 clearInterval(pollInterval);
                 pollInterval = null;
             }
             // Keep MutationObserver running in case of dynamic changes
-        }, 10000);
+        }, LANGUAGE_TABLE_WATCH_TIMEOUT_MS);
     }
 
     /**
      * Check if the game has official Korean language support on Steam
-     * @param {boolean} [forceRefresh=false] - Force re-check even if cached
      * @returns {boolean}
      */
-    function checkOfficialKoreanSupport(forceRefresh = false) {
-        if (!forceRefresh && cachedKoreanSupport !== null) {
-            return cachedKoreanSupport;
-        }
-
+    function checkOfficialKoreanSupport() {
         const rows = document.querySelectorAll('.game_language_options tr');
 
         for (const row of rows) {
@@ -151,14 +153,12 @@ import { PATCH_TYPES, SOURCE_LABELS, MSG_GET_PATCH_INFO, KOREAN_LABELS, UI_STRIN
                 const checks = row.querySelectorAll('td.checkcol');
                 for (const check of checks) {
                     if (check.textContent?.includes('✔') || check.querySelector('span')) {
-                        cachedKoreanSupport = true;
                         return true;
                     }
                 }
             }
         }
 
-        cachedKoreanSupport = false;
         return false;
     }
 

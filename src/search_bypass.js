@@ -4,6 +4,7 @@
  */
 
 import { storageGet } from './shared/api.js';
+import { LANGUAGE_TABLE_WATCH_TIMEOUT_MS } from './shared/constants.js';
 
 (function () {
     /**
@@ -60,7 +61,6 @@ import { storageGet } from './shared/api.js';
      */
     function removeKoreanFilter() {
         let found = false;
-        const MAX_WAIT_MS = 10000;
 
         /**
          * Try to find and click the Korean filter link
@@ -159,7 +159,7 @@ import { storageGet } from './shared/api.js';
                     if (!found) {
                         observer.disconnect();
                     }
-                }, MAX_WAIT_MS);
+                }, LANGUAGE_TABLE_WATCH_TIMEOUT_MS);
             }
         }
 
