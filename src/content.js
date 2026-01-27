@@ -16,7 +16,7 @@ import {
     SEARCH_BYPASS_RETRY_DELAY_MS
 } from './shared/constants.js';
 
-(function () {
+(async function () {
     // Extract appId from URL
     const appIdMatch = window.location.pathname.match(/\/app\/(\d+)/);
     if (!appIdMatch) return;
@@ -237,8 +237,13 @@ import {
      */
     function injectPatchInfo(info, hasOfficialKorean) {
 
-        storageGet(['source_steamapp', 'source_quasarplay', 'source_directg', 'source_stove'])
+        storageGet(['source_steamapp', 'source_quasarplay', 'source_directg', 'source_stove', 'disable_patch_info'])
             .then(settings => {
+                if (settings.disable_patch_info === true) {
+                    const existingBanner = document.querySelector('.kr-patch-banner');
+                    if (existingBanner) existingBanner.remove();
+                    return;
+                }
                 const patchTypeInfo = getPatchTypeInfo(info, hasOfficialKorean);
                 if (!patchTypeInfo) return;
 
@@ -430,7 +435,13 @@ import {
     onStorageChanged((changes, namespace) => {
         if (namespace === 'local') {
             const hasSourceChange = Object.keys(changes).some(key => key.startsWith('source_'));
-            if (hasSourceChange) {
+            const hasPatchToggle = Object.prototype.hasOwnProperty.call(changes, 'disable_patch_info');
+            if (hasPatchToggle && changes.disable_patch_info?.newValue === true) {
+                const existingBanner = document.querySelector('.kr-patch-banner');
+                if (existingBanner) existingBanner.remove();
+                return;
+            }
+            if (hasSourceChange || hasPatchToggle) {
                 sendMessage({ type: MSG_GET_PATCH_INFO, appId })
                     .then(response => {
                         if (response && response.success) {

@@ -25,7 +25,8 @@ export const DEFAULT_SETTINGS = {
     source_directg: true,
     source_stove: true,
     bypass_language_filter: true,
-    cart_feature_enabled: false
+    cart_feature_enabled: false,
+    disable_patch_info: false
 };
 
 // Source labels

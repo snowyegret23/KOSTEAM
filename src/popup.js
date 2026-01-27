@@ -20,6 +20,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const sources = sourceIds.map(id => document.getElementById(id));
     const bypassCheckbox = document.getElementById('bypass_language_filter');
     const cartFeatureCheckbox = document.getElementById('cart_feature_enabled');
+    const disablePatchCheckbox = document.getElementById('disable_patch_info');
 
     /**
      * Load and display game count statistics
@@ -103,7 +104,7 @@ document.addEventListener('DOMContentLoaded', async () => {
      */
     async function loadSettings() {
         try {
-            const settings = await storageGet([...sourceIds, 'bypass_language_filter', 'cart_feature_enabled']);
+            const settings = await storageGet([...sourceIds, 'bypass_language_filter', 'cart_feature_enabled', 'disable_patch_info']);
 
             // Initialize source checkboxes
             sources.forEach(checkbox => {
@@ -128,6 +129,13 @@ document.addEventListener('DOMContentLoaded', async () => {
                 cartFeatureCheckbox.checked = settings.cart_feature_enabled !== false;
                 cartFeatureCheckbox.addEventListener('change', () => {
                     storageSet({ cart_feature_enabled: cartFeatureCheckbox.checked });
+                });
+            }
+
+            if (disablePatchCheckbox) {
+                disablePatchCheckbox.checked = settings.disable_patch_info === true;
+                disablePatchCheckbox.addEventListener('change', () => {
+                    storageSet({ disable_patch_info: disablePatchCheckbox.checked });
                 });
             }
         } catch (err) {
