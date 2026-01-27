@@ -694,8 +694,8 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
         total.textContent = '선택 합계: -';
 
         // Buttons
-        const wishlistAllButton = createButton('전부 찜목록으로 보내기', 'kosteam-cart-wishlist-all-btn');
-        const wishlistSelectedButton = createButton('선택항목을 찜목록으로 보내기', 'kosteam-cart-wishlist-selected-btn');
+        const wishlistAllButton = createButton('전부 찜 목록에 추가', 'kosteam-cart-wishlist-all-btn');
+        const wishlistSelectedButton = createButton('선택항목을 찜 목록에 추가', 'kosteam-cart-wishlist-selected-btn');
         const jsonButton = createButton('JSON 저장', 'kosteam-cart-json-btn');
         const keepButton = createButton('선택항목만 남기기', 'kosteam-cart-keep-btn');
         const restoreButton = createButton('복원', 'kosteam-cart-restore-btn');

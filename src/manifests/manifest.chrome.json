@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "KOSTEAM",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "description": "Steam 상점 페이지에서 한국어 패치 정보를 확인하세요",
   "permissions": [
     "storage"
