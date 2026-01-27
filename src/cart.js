@@ -867,7 +867,7 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
 
         const { added, failed } = await sendAppIdsToWishlist(uniqueAppIds);
         if (!DISABLE_CART_DIALOGS) {
-            window.alert(`찜목록 추가 완료: ${added}개\n실패: ${failed}개`);
+            window.alert(`찜목록 추가 완료: ${added}개\n실패: ${failed}개\n\n(번들은 낱개 상품으로 찜 목록에 추가됩니다.)`);
         }
     }
 
