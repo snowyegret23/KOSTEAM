@@ -10,6 +10,7 @@
     "https://store.steampowered.com/*",
     "https://store.steampowered.com/api/*",
     "https://api.steampowered.com/*",
+    "https://steamcommunity.com/*",
     "https://raw.githubusercontent.com/*"
   ],
   "background": {
@@ -54,6 +55,15 @@
         "search_bypass.js"
       ],
       "run_at": "document_start"
+    },
+    {
+      "matches": [
+        "https://steamcommunity.com/app/*"
+      ],
+      "js": [
+        "community.js"
+      ],
+      "run_at": "document_idle"
     }
   ],
   "action": {

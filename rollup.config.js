@@ -10,7 +10,7 @@ import copy from 'rollup-plugin-copy';
 const isProduction = process.env.NODE_ENV === 'production';
 
 // Shared input files
-const inputs = ['background', 'content', 'popup', 'search_bypass', 'cart'];
+const inputs = ['background', 'content', 'popup', 'search_bypass', 'cart', 'community'];
 
 /**
  * Create rollup config for a specific browser target
