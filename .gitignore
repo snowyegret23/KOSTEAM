@@ -9,3 +9,5 @@ tmp*cwd
 # Build output
 dist/
 *.zip
+STEAM_CART_REPORT.md
+nul

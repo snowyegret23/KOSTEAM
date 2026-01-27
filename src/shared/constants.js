@@ -24,7 +24,8 @@ export const DEFAULT_SETTINGS = {
     source_quasarplay: true,
     source_directg: true,
     source_stove: true,
-    bypass_language_filter: true
+    bypass_language_filter: true,
+    cart_feature_enabled: false
 };
 
 // Source labels
@@ -50,6 +51,7 @@ export const PATCH_TYPES = {
 export const MSG_GET_PATCH_INFO = 'GET_PATCH_INFO';
 export const MSG_REFRESH_DATA = 'REFRESH_DATA';
 export const MSG_CHECK_UPDATE_STATUS = 'CHECK_UPDATE_STATUS';
+export const MSG_RESTORE_CART = 'RESTORE_CART';
 
 // Korean language labels for detection
 export const KOREAN_LABELS = ['Korean', '한국어'];

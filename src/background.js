@@ -24,7 +24,8 @@ import {
     DEFAULT_SETTINGS,
     MSG_GET_PATCH_INFO,
     MSG_REFRESH_DATA,
-    MSG_CHECK_UPDATE_STATUS
+    MSG_CHECK_UPDATE_STATUS,
+    MSG_RESTORE_CART
 } from './shared/constants.js';
 
 /**
@@ -190,6 +191,93 @@ function checkNeedsUpdate(localVersion, remoteVersion) {
         localVersion.alias_updated_at !== remoteVersion.alias_updated_at;
 }
 
+function encodeVarint(value) {
+    const bytes = [];
+    let val = value >>> 0;
+    while (val >= 0x80) {
+        bytes.push((val & 0x7f) | 0x80);
+        val >>>= 7;
+    }
+    bytes.push(val);
+    return Uint8Array.from(bytes);
+}
+
+function encodeLengthDelimited(fieldNumber, text) {
+    const encoder = new TextEncoder();
+    const data = encoder.encode(text);
+    return Uint8Array.from([fieldNumber, data.length, ...data]);
+}
+
+/**
+ * Build protobuf for adding item to cart
+ * @param {number} itemId - Package ID or Bundle ID
+ * @param {string} sourceTag - Source tag for tracking
+ * @param {string} itemType - 'package' or 'bundle'
+ * @returns {Uint8Array}
+ */
+function buildInputProtobuf(itemId, sourceTag, itemType = 'package') {
+    const field1 = encodeLengthDelimited(0x0a, 'KR');
+    const itemVarint = encodeVarint(itemId);
+    // Package uses field number 1 (0x08), Bundle uses field number 2 (0x10)
+    const fieldTag = itemType === 'bundle' ? 0x10 : 0x08;
+    const itemSub = Uint8Array.from([fieldTag, ...itemVarint]);
+    const field2 = Uint8Array.from([0x12, itemSub.length, ...itemSub]);
+
+    const subParts = [
+        encodeLengthDelimited(0x0a, 'store.steampowered.com'),
+        encodeLengthDelimited(0x12, 'default'),
+        encodeLengthDelimited(0x1a, 'default'),
+        Uint8Array.from([0x22, 0x00]),
+        encodeLengthDelimited(0x2a, sourceTag || 'main-cluster-topseller'),
+        Uint8Array.from([0x30, 0x01]),
+        encodeLengthDelimited(0x3a, 'KR'),
+        Uint8Array.from([0x48, 0x00]),
+        Uint8Array.from([0x52, 0x00]),
+        Uint8Array.from([0x58, 0x00]),
+        Uint8Array.from([0x60, 0x00])
+    ];
+    const subLength = subParts.reduce((sum, part) => sum + part.length, 0);
+    const subMessage = new Uint8Array(subLength);
+    let offset = 0;
+    for (const part of subParts) {
+        subMessage.set(part, offset);
+        offset += part.length;
+    }
+
+    const field3Header = Uint8Array.from([0x1a, ...encodeVarint(subMessage.length)]);
+    const totalLength = field1.length + field2.length + field3Header.length + subMessage.length;
+    const result = new Uint8Array(totalLength);
+    let pos = 0;
+    result.set(field1, pos); pos += field1.length;
+    result.set(field2, pos); pos += field2.length;
+    result.set(field3Header, pos); pos += field3Header.length;
+    result.set(subMessage, pos);
+    return result;
+}
+
+function toBase64(bytes) {
+    let binary = '';
+    for (const byte of bytes) {
+        binary += String.fromCharCode(byte);
+    }
+    return btoa(binary);
+}
+
+function buildMultipartBody(boundary, base64Payload) {
+    return [
+        `--${boundary}\r\n`,
+        'Content-Disposition: form-data; name="input_protobuf_encoded"\r\n\r\n',
+        base64Payload,
+        `\r\n--${boundary}--\r\n`
+    ].join('');
+}
+
+function buildFormData(base64Payload) {
+    const form = new FormData();
+    form.append('input_protobuf_encoded', base64Payload);
+    return form;
+}
+
 // Message handler
 onMessage((message, sender, sendResponse) => {
     // Basic message validation
@@ -254,6 +342,86 @@ onMessage((message, sender, sendResponse) => {
                 });
             } catch (err) {
                 console.error('[KOSTEAM] CHECK_UPDATE_STATUS error:', err);
+                sendResponse({ success: false, error: err.message });
+            }
+        })();
+        return true;
+    }
+
+    if (message.type === MSG_RESTORE_CART) {
+        const { token, packageIds, items, sourceTag } = message;
+        // Support both legacy packageIds array and new items array format
+        // items format: [{ id: number, type: 'package' | 'bundle' }, ...]
+        const itemsToRestore = items || (packageIds ? packageIds.map(id => ({ id, type: 'package' })) : []);
+
+        if (!token || !Array.isArray(itemsToRestore) || itemsToRestore.length === 0) {
+            sendResponse({ success: false, error: 'Invalid restore payload' });
+            return false;
+        }
+
+        (async () => {
+            try {
+                let usedOpaque = false;
+                for (const item of itemsToRestore) {
+                    const itemId = typeof item === 'object' ? Number(item.id) : Number(item);
+                    const itemType = typeof item === 'object' ? (item.type || 'package') : 'package';
+                    const protobufBytes = buildInputProtobuf(itemId, sourceTag, itemType);
+                    const base64Payload = toBase64(protobufBytes);
+                    const url = `https://api.steampowered.com/IAccountCartService/AddItemsToCart/v1?access_token=${encodeURIComponent(token)}`;
+
+                    try {
+                        const response = await fetch(url, {
+                            method: 'POST',
+                            body: buildFormData(base64Payload),
+                            credentials: 'omit'
+                        });
+
+                        if (!response.ok) {
+                            const text = await response.text();
+                            sendResponse({
+                                success: false,
+                                error: `HTTP ${response.status}`,
+                                detail: text.slice(0, 200)
+                            });
+                            return;
+                        }
+
+                        const text = await response.text();
+                        if (text) {
+                            try {
+                                const parsed = JSON.parse(text);
+                                const payload = parsed?.response || parsed;
+                                if (payload?.error || (Array.isArray(payload?.errors) && payload.errors.length > 0)) {
+                                    sendResponse({
+                                        success: false,
+                                        error: payload.error || 'API_ERROR',
+                                        detail: JSON.stringify(payload.errors || payload.error).slice(0, 200)
+                                    });
+                                    return;
+                                }
+                            } catch {
+                                // Non-JSON response; assume success.
+                            }
+                        }
+                    } catch (err) {
+                        try {
+                            await fetch(url, {
+                                method: 'POST',
+                                mode: 'no-cors',
+                                body: buildFormData(base64Payload),
+                                credentials: 'omit'
+                            });
+                            usedOpaque = true;
+                        } catch (fallbackErr) {
+                            sendResponse({ success: false, error: fallbackErr.message });
+                            return;
+                        }
+                    }
+                }
+
+                sendResponse({ success: true, opaque: usedOpaque });
+            } catch (err) {
+                console.error('[KOSTEAM] RESTORE_CART error:', err);
                 sendResponse({ success: false, error: err.message });
             }
         })();

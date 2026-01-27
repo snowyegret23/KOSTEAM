@@ -1,13 +1,15 @@
 {
   "manifest_version": 3,
   "name": "KOSTEAM",
-  "version": "1.4.9",
+  "version": "1.5.0",
   "description": "Steam 상점 페이지에서 한국어 패치 정보를 확인하세요",
   "permissions": [
     "storage"
   ],
   "host_permissions": [
     "https://store.steampowered.com/*",
+    "https://store.steampowered.com/api/*",
+    "https://api.steampowered.com/*",
     "https://raw.githubusercontent.com/*"
   ],
   "background": {
@@ -29,6 +31,18 @@
       ],
       "css": [
         "styles.css"
+      ],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": [
+        "https://store.steampowered.com/cart*"
+      ],
+      "js": [
+        "cart.js"
+      ],
+      "css": [
+        "cart.css"
       ],
       "run_at": "document_idle"
     },

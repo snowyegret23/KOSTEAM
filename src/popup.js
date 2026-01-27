@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const sourceIds = ['source_steamapp', 'source_quasarplay', 'source_directg', 'source_stove'];
     const sources = sourceIds.map(id => document.getElementById(id));
     const bypassCheckbox = document.getElementById('bypass_language_filter');
+    const cartFeatureCheckbox = document.getElementById('cart_feature_enabled');
 
     /**
      * Load and display game count statistics
@@ -102,7 +103,7 @@ document.addEventListener('DOMContentLoaded', async () => {
      */
     async function loadSettings() {
         try {
-            const settings = await storageGet([...sourceIds, 'bypass_language_filter']);
+            const settings = await storageGet([...sourceIds, 'bypass_language_filter', 'cart_feature_enabled']);
 
             // Initialize source checkboxes
             sources.forEach(checkbox => {
@@ -120,6 +121,13 @@ document.addEventListener('DOMContentLoaded', async () => {
                 bypassCheckbox.checked = settings.bypass_language_filter !== false;
                 bypassCheckbox.addEventListener('change', () => {
                     storageSet({ bypass_language_filter: bypassCheckbox.checked });
+                });
+            }
+
+            if (cartFeatureCheckbox) {
+                cartFeatureCheckbox.checked = settings.cart_feature_enabled !== false;
+                cartFeatureCheckbox.addEventListener('change', () => {
+                    storageSet({ cart_feature_enabled: cartFeatureCheckbox.checked });
                 });
             }
         } catch (err) {

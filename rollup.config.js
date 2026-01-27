@@ -10,7 +10,7 @@ import copy from 'rollup-plugin-copy';
 const isProduction = process.env.NODE_ENV === 'production';
 
 // Shared input files
-const inputs = ['background', 'content', 'popup', 'search_bypass'];
+const inputs = ['background', 'content', 'popup', 'search_bypass', 'cart'];
 
 /**
  * Create rollup config for a specific browser target
@@ -48,6 +48,7 @@ function createConfig(browser) {
                     { src: `${staticDir}/popup.html`, dest: outputDir },
                     { src: `${staticDir}/popup.css`, dest: outputDir },
                     { src: `${staticDir}/styles.css`, dest: outputDir },
+                    { src: `${staticDir}/cart.css`, dest: outputDir },
                     { src: `${staticDir}/icons`, dest: outputDir }
                 ],
                 hook: 'writeBundle'
