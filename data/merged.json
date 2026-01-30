@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-01-28T21:10:15.291Z",
+    "generated_at": "2026-01-30T18:15:22.087Z",
     "total_with_steam_link": 7088,
     "total_without_steam_link": 21,
     "sources": [
@@ -12012,24 +12012,19 @@
       "steam_link": "https://store.steampowered.com/app/523210",
       "patch_type": "user",
       "patch_links": [
-        "exist",
         "exist"
       ],
       "patch_descriptions": [
-        "LANTAN님 블로그",
-        "유저 한국어 패치 - 번역 : Lantan\n검수 : Shura, Edy, Lantan"
+        "LANTAN님 블로그"
       ],
       "patch_sources": [
-        "steamapp",
-        "quasarplay"
+        "steamapp"
       ],
       "source_site_urls": {
-        "steamapp": "https://steamapp.net/app/523210",
-        "quasarplay": "https://store.steampowered.com/app/523210/?curator_clanid=42788178"
+        "steamapp": "https://steamapp.net/app/523210"
       },
       "sources": [
-        "steamapp",
-        "quasarplay"
+        "steamapp"
       ]
     },
     {
@@ -12121,7 +12116,7 @@
       ],
       "patch_descriptions": [
         "프로그래밍 - 게지네 영상 - unicord 번역&이미지 - 오리목뼈 검수 - Hikari",
-        "프로그래밍 - 게지네,\n영상 - unicord,\n번역&이미지 - 오리목뼈,\n검수 - Hikari 님"
+        "프로그래밍 - 게지네,\n영상 - unicord,\n번역&이미지 - 오리목뼈,\n검수 - Hikari"
       ],
       "patch_sources": [
         "steamapp",
@@ -53053,7 +53048,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 게지네",
-        "유저 한국어 패치 - 게지네 님"
+        "유저 한글 패치 - 게지네"
       ],
       "patch_sources": [
         "steamapp",
@@ -60690,7 +60685,7 @@
       ],
       "patch_descriptions": [
         "제작자 : k3ith33",
-        "리마스터 컬렉션 대응 패치 - k3ith33 님"
+        "리마스터 컬렉션 대응 패치 - k3ith33"
       ],
       "patch_sources": [
         "steamapp",
@@ -69938,7 +69933,7 @@
       ],
       "patch_descriptions": [
         "번역 와들 이미지 커트 앵글 프로그래밍 게지네",
-        "유저 한국어 패치 - 번역: 와들,\n이미지: 커트 앵글,\n프로그래밍: 게지네 님"
+        "유저 한글 패치 - 번역: 와들,\n이미지: 커트 앵글,\n프로그래밍: 게지네"
       ],
       "patch_sources": [
         "steamapp",
@@ -100676,7 +100671,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 막셋",
-        "유저 한글 패치 - 막셋 님"
+        "유저 한글 패치 - 막셋"
       ],
       "patch_sources": [
         "steamapp",
@@ -127273,27 +127268,22 @@
       "patch_type": "official",
       "patch_links": [
         "exist",
-        "exist",
         "exist"
       ],
       "patch_descriptions": [
         "회원가입 및 등급업 필요",
-        "① 유저 한국어 패치 - 소요객잔 카페,\n② 스토브 인디 한국어화",
         ""
       ],
       "patch_sources": [
         "steamapp",
-        "quasarplay",
         "stove"
       ],
       "source_site_urls": {
         "steamapp": "https://steamapp.net/app/1468810",
-        "quasarplay": "https://store.steampowered.com/app/1468810/?curator_clanid=42788178",
         "stove": "https://store.onstove.com/ko/games/1075"
       },
       "sources": [
         "steamapp",
-        "quasarplay",
         "stove"
       ]
     },

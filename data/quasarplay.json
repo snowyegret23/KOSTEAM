@@ -2,8 +2,8 @@
   "curator_id": 42788178,
   "curator_name": "Curator #42788178",
   "curator_url": "https://store.steampowered.com/curator/42788178/",
-  "total_games": 1836,
-  "exported_at": "2026-01-28T21:09:58.980408",
+  "total_games": 1834,
+  "exported_at": "2026-01-30T18:15:05.452358",
   "games": [
     {
       "url": "https://store.steampowered.com/app/1378290/The_Citadel/",
@@ -2725,7 +2725,7 @@
       "url": "https://store.steampowered.com/app/2737580/The_Lancaster_Leak__Entity_Exam/",
       "appid": "2737580",
       "curator_url": "https://store.steampowered.com/app/2737580/?curator_clanid=42788178",
-      "review": "\"유저 한글 패치 - 막셋 님,\nhttps://blog.naver.com/makset_/223597998598\"",
+      "review": "\"유저 한글 패치 - 막셋\nhttps://blog.naver.com/makset_/223597998598\"",
       "type": "recommended"
     },
     {
@@ -6582,7 +6582,7 @@
       "url": "https://store.steampowered.com/app/1265930/Life_is_Strange_Before_the_Storm_Remastered/",
       "appid": "1265930",
       "curator_url": "https://store.steampowered.com/app/1265930/?curator_clanid=42788178",
-      "review": "\"리마스터 컬렉션 대응 패치 - k3ith33 님,\n링크:\nhttps://bbs.ruliweb.com/pc/board/1003/read/2249315\"",
+      "review": "\"리마스터 컬렉션 대응 패치 - k3ith33\nhttps://bbs.ruliweb.com/pc/board/1003/read/2249315\"",
       "type": "recommended"
     },
     {
@@ -6625,13 +6625,6 @@
       "appid": "1834870",
       "curator_url": "https://store.steampowered.com/app/1834870/?curator_clanid=42788178",
       "review": "\"유저 한국어 패치 ① - AnotherOne 님,\n링크: https://gall.dcinside.com/m/indiegame/103946\n\n유저 한국어 패치 ② - 행복한나라 님,\n링크: https://blog.naver.com/dlwlghks8779/222621132304\"",
-      "type": "recommended"
-    },
-    {
-      "url": "https://store.steampowered.com/app/1468810/_Tale_of_Immortal/",
-      "appid": "1468810",
-      "curator_url": "https://store.steampowered.com/app/1468810/?curator_clanid=42788178",
-      "review": "\"① 유저 한국어 패치 - 소요객잔 카페,\n링크:\nhttps://cafe.naver.com/beemu/36462\n\n② 스토브 인디 한국어화, 링크: \nhttps://indie.onstove.com/ko/games/1075\"",
       "type": "recommended"
     },
     {
@@ -6778,14 +6771,14 @@
       "url": "https://store.steampowered.com/app/745960/A_Sky_Full_of_Stars/",
       "appid": "745960",
       "curator_url": "https://store.steampowered.com/app/745960/?curator_clanid=42788178",
-      "review": "\"프로그래밍 - 게지네,\n영상 - unicord,\n번역&이미지 - 오리목뼈,\n검수 - Hikari 님,\n링크:\nhttps://myskrpatch.tistory.com/165\"",
+      "review": "\"프로그래밍 - 게지네,\n영상 - unicord,\n번역&이미지 - 오리목뼈,\n검수 - Hikari\nhttps://myskrpatch.tistory.com/165\"",
       "type": "recommended"
     },
     {
       "url": "https://store.steampowered.com/app/1406990/NEKOPARA_Vol_4/",
       "appid": "1406990",
       "curator_url": "https://store.steampowered.com/app/1406990/?curator_clanid=42788178",
-      "review": "\"유저 한국어 패치 - 번역: 와들,\n이미지: 커트 앵글,\n프로그래밍: 게지네 님,\n링크:\nhttps://myskrpatch.tistory.com/170\n\"",
+      "review": "\"유저 한글 패치 - 번역: 와들,\n이미지: 커트 앵글,\n프로그래밍: 게지네\nhttps://myskrpatch.tistory.com/170\"",
       "type": "recommended"
     },
     {
@@ -6876,7 +6869,7 @@
       "url": "https://store.steampowered.com/app/1106940/How_to_Raise_a_Wolf_Girl/",
       "appid": "1106940",
       "curator_url": "https://store.steampowered.com/app/1106940/?curator_clanid=42788178",
-      "review": "\"유저 한국어 패치 - 게지네 님,\n링크:\nhttps://myskrpatch.tistory.com/145\"",
+      "review": "\"유저 한글 패치 - 게지네\nhttps://myskrpatch.tistory.com/145\"",
       "type": "recommended"
     },
     {
@@ -8578,13 +8571,6 @@
       "appid": "671440",
       "curator_url": "https://store.steampowered.com/app/671440/?curator_clanid=42788178",
       "review": "\"유저 한국어 패치 - Poge, jmdmin0, dlgks224 님,\n링크: https://steamcommunity.com/sharedfiles/filedetails/?id=1533149582\"",
-      "type": "recommended"
-    },
-    {
-      "url": "https://store.steampowered.com/app/523210/A_Normal_Lost_Phone/",
-      "appid": "523210",
-      "curator_url": "https://store.steampowered.com/app/523210/?curator_clanid=42788178",
-      "review": "\"유저 한국어 패치 - 번역 : Lantan\n\n검수 : Shura, Edy, Lantan\n링크:\nhttps://blog.naver.com/karifj93/221435181228\"",
       "type": "recommended"
     },
     {
