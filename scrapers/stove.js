@@ -40,7 +40,7 @@ async function scrapePage(pageNum) {
     try {
         const response = await fetch(url, {
             headers: {
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+                'User-Agent': 'KOSTEAM-Webscraper/1.0 (+https://github.com/snowyegret23/KOSTEAM)',
                 'Referer': 'https://store.onstove.com/',
                 'X-LANG': 'ko',
                 'X-NATION': 'KR'

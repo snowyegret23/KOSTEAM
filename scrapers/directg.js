@@ -9,7 +9,8 @@ const DATA_DIR = path.join(__dirname, '..', 'data');
 const OUTPUT_FILE = path.join(DATA_DIR, 'directg.json');
 
 const BASE_URL = 'https://www.directg.net/game/game_search_thumb.html';
-const MAX_PAGES = 10;
+const MAX_PAGES = 2;
+const USER_AGENT = 'KOSTEAM-Webscraper/1.0 (+https://github.com/snowyegret23/KOSTEAM)';
 
 const delay = ms => new Promise(r => setTimeout(r, ms));
 
@@ -28,9 +29,9 @@ async function scrapePage(pageNum) {
 
     const response = await fetch(url, {
         headers: {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'User-Agent': USER_AGENT,
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-            'Accept-Language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7',
+            'Accept-Language': 'ko-KR,ko;q=0.9',
             'Referer': 'https://www.directg.net/'
         }
     });
@@ -46,14 +47,12 @@ async function scrapePage(pageNum) {
 
     $('#thumb_list div.card').each((_, el) => {
         const $card = $(el);
-
         const $titleLink = $card.find('.card-header a');
         const gameTitle = $titleLink.find('h5.card-title').text().trim() || '';
         const productLink = $titleLink.attr('href') || '';
 
         if (gameTitle && productLink) {
             const directgUrl = productLink.startsWith('http') ? productLink : `https://www.directg.net${productLink}`;
-
             games.push({
                 app_id: null,
                 game_title: gameTitle,
@@ -79,14 +78,21 @@ async function getTotalCount(html) {
 async function scrapeAll() {
     const allGames = new Map();
 
+    console.log('Fetching Page 1...');
     const firstResponse = await fetch(`${BASE_URL}?page=1&sort=release&exclusive_korean=Y`, {
         headers: {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'User-Agent': USER_AGENT,
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
             'Accept-Language': 'ko-KR,ko;q=0.9',
             'Referer': 'https://www.directg.net/'
         }
     });
+    
+    if (!firstResponse.ok) {
+        console.error(`Failed to fetch Page 1: ${firstResponse.status}`);
+        return [];
+    }
+
     const firstHtml = await firstResponse.text();
     const totalCount = await getTotalCount(firstHtml);
     console.log(`Total games found: ${totalCount}`);
@@ -114,11 +120,14 @@ async function scrapeAll() {
 
     console.log(`Page 1: ${allGames.size} games`);
 
-    const gamesPerPage = 20;
-    const totalPages = Math.ceil(totalCount / gamesPerPage);
-    const pagesToFetch = Math.min(totalPages, MAX_PAGES);
+    if (allGames.size >= totalCount) {
+        return Array.from(allGames.values());
+    }
 
-    for (let page = 2; page <= pagesToFetch; page++) {
+    for (let page = 2; page <= MAX_PAGES; page++) {
+        if (allGames.size >= totalCount) break;
+
+        await delay(3000);
         try {
             const games = await scrapePage(page);
 
@@ -137,7 +146,6 @@ async function scrapeAll() {
         } catch (err) {
             console.error(`Error on page ${page}:`, err.message);
         }
-        await delay(800);
     }
 
     return Array.from(allGames.values());
@@ -145,6 +153,7 @@ async function scrapeAll() {
 
 async function main() {
     console.log('Starting directg.net scraper...');
+    console.log(`User-Agent: ${USER_AGENT}`);
 
     await fs.mkdir(DATA_DIR, { recursive: true });
 

@@ -40,7 +40,7 @@ async function scrapeSection(section) {
 
     const response = await fetch(url, {
         headers: {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+            'User-Agent': 'KOSTEAM-Webscraper/1.0 (+https://github.com/snowyegret23/KOSTEAM)'
         }
     });
 
