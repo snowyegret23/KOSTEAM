@@ -89652,18 +89652,15 @@
       "exist",
       "exist",
       "exist",
-      "exist",
       "exist"
     ],
     "patch_descriptions": [
       "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 번역기를 이용한 한글화",
       "적용 방법",
-      "제작자 : 한무테",
       "제작자:김미녹",
       "유저 한글 패치 \n적용 방법 \n유저 한글 패치 - gusrud6151 님"
     ],
     "patch_sources": [
-      "steamapp",
       "steamapp",
       "steamapp",
       "steamapp",
@@ -106930,7 +106927,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-02-13T21:13:21.172Z",
+    "generated_at": "2026-02-15T21:07:48.835Z",
     "total": 7120
   }
 }
