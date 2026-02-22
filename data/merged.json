@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-02-20T21:07:07.870Z",
-    "total_with_steam_link": 7120,
+    "generated_at": "2026-02-22T21:07:41.598Z",
+    "total_with_steam_link": 7129,
     "total_without_steam_link": 21,
     "sources": [
       "steamapp",
@@ -10403,6 +10403,27 @@
       ]
     },
     {
+      "app_id": "525480",
+      "game_title": ".hack//G.U. Last Recode",
+      "steam_link": "https://store.steampowered.com/app/525480",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "번역: 팀 『황혼의 번역단』"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://steamapp.net/app/525480"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "439550",
       "game_title": "'n Verlore Verstand",
       "steam_link": "https://store.steampowered.com/app/439550",
@@ -15838,6 +15859,27 @@
       ]
     },
     {
+      "app_id": "2981070",
+      "game_title": "Arcane Trigger",
+      "steam_link": "https://store.steampowered.com/app/2981070",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        ""
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://steamapp.net/app/2981070"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "39690",
       "game_title": "ArcaniA",
       "steam_link": "https://store.steampowered.com/app/39690",
@@ -16602,13 +16644,16 @@
       "patch_type": "user",
       "patch_links": [
         "exist",
+        "exist",
         "exist"
       ],
       "patch_descriptions": [
         "제작자 : 레임3D",
+        "제작자 : 마지니형",
         "유저 한글 패치 - 레임3D\n유저 한글 패치 - 한무테"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "quasarplay"
       ],
@@ -29868,12 +29913,15 @@
       "steam_link": "https://store.steampowered.com/app/1388770",
       "patch_type": "user",
       "patch_links": [
+        "exist",
         "exist"
       ],
       "patch_descriptions": [
+        "제작자 : 한글패치_크루얼티스쿼드",
         "제작자 : 히키스"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp"
       ],
       "source_site_urls": {
@@ -34140,13 +34188,16 @@
       "patch_type": "user",
       "patch_links": [
         "exist",
+        "exist",
         "exist"
       ],
       "patch_descriptions": [
+        "",
         "촌닭투님 제작",
         "유저 한국어 패치 - 촌닭투 님"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "quasarplay"
       ],
@@ -34168,6 +34219,27 @@
       "patch_descriptions": [],
       "patch_sources": [],
       "source_site_urls": {},
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "631510",
+      "game_title": "Devil May Cry HD Collection",
+      "steam_link": "https://store.steampowered.com/app/631510",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 단갤러 2편 한글화"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://steamapp.net/app/631510"
+      },
       "sources": [
         "steamapp"
       ]
@@ -40153,6 +40225,27 @@
       ]
     },
     {
+      "app_id": "1996390",
+      "game_title": "Escape from Ever After",
+      "steam_link": "https://store.steampowered.com/app/1996390",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 으잌"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://steamapp.net/app/1996390"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "1390670",
       "game_title": "Escape from Naraka",
       "steam_link": "https://store.steampowered.com/app/1390670",
@@ -42309,13 +42402,13 @@
       "app_id": "233270",
       "game_title": "Far Cry 3 - Blood Dragon",
       "steam_link": "https://store.steampowered.com/app/233270",
-      "patch_type": "user",
+      "patch_type": "official",
       "patch_links": [
         "exist",
         "exist"
       ],
       "patch_descriptions": [
-        "번역,검수: 고블린 도움: 제냐, 꼼수",
+        "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 번역,검수: 고블린 도움: 제냐, 꼼수",
         "① 한국어 지원 표기 없으나, 공식 한국어 지원\n② 유저 한국어 패치 - 팀 프로메테우스, 고블린, 쩌새 님"
       ],
       "patch_sources": [
@@ -45435,6 +45528,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "3795900",
+      "game_title": "FRONT MISSION 3: Remake",
+      "steam_link": "https://store.steampowered.com/app/3795900",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 아름다운"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://steamapp.net/app/3795900"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -63887,7 +64001,7 @@
         "exist"
       ],
       "patch_descriptions": [
-        "팀 프로메테우스 카페 (가입필요)",
+        "팀 프로메테우스",
         "유저 한국어 패치 - 팀 프로메테우스"
       ],
       "patch_sources": [
@@ -65462,13 +65576,22 @@
       "patch_type": "user",
       "patch_links": [
         "exist",
+        "exist",
+        "exist",
+        "exist",
         "exist"
       ],
       "patch_descriptions": [
         "제작자 : 으잌",
-        "제작자 : 뉴비분쇄기"
+        "제작자 : 뉴비분쇄기",
+        "폰트 개선 패치",
+        "제작자 : 마린돌프",
+        "제작자 : Neptunium 고양이 이름 음역 패치"
       ],
       "patch_sources": [
+        "steamapp",
+        "steamapp",
+        "steamapp",
         "steamapp",
         "steamapp"
       ],
@@ -67485,6 +67608,27 @@
       ]
     },
     {
+      "app_id": "1658150",
+      "game_title": "Moonstone Island",
+      "steam_link": "https://store.steampowered.com/app/1658150",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 원아리"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://steamapp.net/app/1658150"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "1140890",
       "game_title": "Morbid: The Seven Acolytes",
       "steam_link": "https://store.steampowered.com/app/1140890",
@@ -68114,14 +68258,17 @@
       "patch_links": [
         "exist",
         "exist",
+        "exist",
         "exist"
       ],
       "patch_descriptions": [
+        "제작자 : MuteJack",
         "제작자 : 하다새",
         "백업용",
         "유저 한글 패치 - 하다새"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "steamapp",
         "quasarplay"
@@ -68834,12 +68981,12 @@
       "app_id": "3807550",
       "game_title": "Mycopsychosys: Remastered",
       "steam_link": "https://store.steampowered.com/app/3807550",
-      "patch_type": "user",
+      "patch_type": "official",
       "patch_links": [
         "exist"
       ],
       "patch_descriptions": [
-        "제작자 : MuteJack"
+        "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : MuteJack"
       ],
       "patch_sources": [
         "steamapp"
@@ -82153,10 +82300,18 @@
       "game_title": "Risk of Rain 2",
       "steam_link": "https://store.steampowered.com/app/632360",
       "patch_type": "official",
-      "patch_links": [],
-      "patch_descriptions": [],
-      "patch_sources": [],
-      "source_site_urls": {},
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "공식 한글 개선 패치 제작자 : DVRP"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://steamapp.net/app/632360"
+      },
       "sources": [
         "steamapp"
       ]
@@ -83890,13 +84045,13 @@
       "app_id": "2864560",
       "game_title": "Rune Factory: Guardians of Azuma",
       "steam_link": "https://store.steampowered.com/app/2864560",
-      "patch_type": "user",
+      "patch_type": "official",
       "patch_links": [
         "exist",
         "exist"
       ],
       "patch_descriptions": [
-        "제작자 : 룬갤러",
+        "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : 룬갤러",
         "유저 한글 패치 - 룬갤러\n유저 한글 패치 - 한무테"
       ],
       "patch_sources": [
@@ -92606,13 +92761,13 @@
       "app_id": "571310",
       "game_title": "SteamWorld Dig 2",
       "steam_link": "https://store.steampowered.com/app/571310",
-      "patch_type": "official",
+      "patch_type": "user",
       "patch_links": [
         "exist",
         "exist"
       ],
       "patch_descriptions": [
-        "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : r35",
+        "제작자 : r35",
         "유저 한글 패치 - r35"
       ],
       "patch_sources": [
@@ -106845,6 +107000,27 @@
       ]
     },
     {
+      "app_id": "3449630",
+      "game_title": "Touhou Rinrinki ~ Crafts of the Lucky Beast",
+      "steam_link": "https://store.steampowered.com/app/3449630",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : Pixel4a"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://steamapp.net/app/3449630"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "2132480",
       "game_title": "Touhou: Fading Illusion",
       "steam_link": "https://store.steampowered.com/app/2132480",
@@ -114535,7 +114711,7 @@
         "exist"
       ],
       "patch_descriptions": [
-        "팀 프로메테우스 카페 (가입 필요)",
+        "팀 프로메테우스",
         "유저 한국어 패치 - 팀 프로메테우스(원본 출처 소실)"
       ],
       "patch_sources": [
@@ -115865,6 +116041,19 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2067780",
+      "game_title": "Your Turn To Die -Death Game By Majority-",
+      "steam_link": "https://store.steampowered.com/app/2067780",
+      "patch_type": "official",
+      "patch_links": [],
+      "patch_descriptions": [],
+      "patch_sources": [],
+      "source_site_urls": {},
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -126215,6 +126404,27 @@
       "patch_descriptions": [],
       "patch_sources": [],
       "source_site_urls": {},
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "2842800",
+      "game_title": "尸姬之梦",
+      "steam_link": "https://store.steampowered.com/app/2842800",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : Rukara12"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://steamapp.net/app/2842800"
+      },
       "sources": [
         "steamapp"
       ]
