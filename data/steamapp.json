@@ -11652,7 +11652,7 @@
       "exist"
     ],
     "patch_descriptions": [
-      "바이오쇼크2 본편 한글패치 + DLC 보호자의 시련 + DLC 미네르바의 동굴 + 멀티플레이 한글패치"
+      ""
     ]
   },
   {
@@ -11662,10 +11662,12 @@
     "source_site_url": "https://steamapp.net/app/7670",
     "patch_type": "user",
     "patch_links": [
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
-      ""
+      "리마스터판 한글 패치",
+      "오리지날판 한글 패치"
     ]
   },
   {
@@ -19812,7 +19814,7 @@
       "exist"
     ],
     "patch_descriptions": [
-      "촌닭투님 제작"
+      "제작자 : 촌닭투"
     ]
   },
   {
@@ -27425,7 +27427,7 @@
       "exist"
     ],
     "patch_descriptions": [
-      "번역기를 이용한 한글화 제작팀 : 팀 AI"
+      "제작자 : 편향된 게이머"
     ]
   },
   {
@@ -38737,8 +38739,12 @@
     "steam_link": "https://store.steampowered.com/app/412020",
     "source_site_url": "https://steamapp.net/app/412020",
     "patch_type": "official",
-    "patch_links": [],
-    "patch_descriptions": []
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "공식 한글 개선 패치 제작자 : KOR_CON"
+    ]
   },
   {
     "app_id": "994890",
@@ -68064,7 +68070,7 @@
       "exist"
     ],
     "patch_descriptions": [
-      "제작자 : 바나나우유 (이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다)"
+      "공식 한글 개선 패치 제작자 : 바나나우유"
     ]
   },
   {
@@ -69247,6 +69253,54 @@
     "game_title": "Your Turn To Die -Death Game By Majority-",
     "steam_link": "https://store.steampowered.com/app/2067780",
     "source_site_url": "https://steamapp.net/app/2067780",
+    "patch_type": "official",
+    "patch_links": [],
+    "patch_descriptions": []
+  },
+  {
+    "app_id": "4286410",
+    "game_title": "ペンギンウォーズ",
+    "steam_link": "https://store.steampowered.com/app/4286410",
+    "source_site_url": "https://steamapp.net/app/4286410",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : Rovre (로브르)"
+    ]
+  },
+  {
+    "app_id": "2527330",
+    "game_title": "MERROR",
+    "steam_link": "https://store.steampowered.com/app/2527330",
+    "source_site_url": "https://steamapp.net/app/2527330",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : 코스노우"
+    ]
+  },
+  {
+    "app_id": "4124340",
+    "game_title": "Perceptum",
+    "steam_link": "https://store.steampowered.com/app/4124340",
+    "source_site_url": "https://steamapp.net/app/4124340",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "데모판 한글 패치 제작자 : 코스노우"
+    ]
+  },
+  {
+    "app_id": "1818450",
+    "game_title": "STALCRAFT: X",
+    "steam_link": "https://store.steampowered.com/app/1818450",
+    "source_site_url": "https://steamapp.net/app/1818450",
     "patch_type": "official",
     "patch_links": [],
     "patch_descriptions": []
