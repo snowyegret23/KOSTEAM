@@ -69304,5 +69304,18 @@
     "patch_type": "official",
     "patch_links": [],
     "patch_descriptions": []
+  },
+  {
+    "app_id": "1678420",
+    "game_title": "Blade Runner: Enhanced Edition",
+    "steam_link": "https://store.steampowered.com/app/1678420",
+    "source_site_url": "https://steamapp.net/app/1678420",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "오리지날 버전만 적용 가능 제작자 : schultz1138"
+    ]
   }
 ]

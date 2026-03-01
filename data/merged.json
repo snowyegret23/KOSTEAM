@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-02-27T21:08:38.253Z",
-    "total_with_steam_link": 7133,
+    "generated_at": "2026-03-01T21:07:17.252Z",
+    "total_with_steam_link": 7134,
     "total_without_steam_link": 21,
     "sources": [
       "steamapp",
@@ -21913,6 +21913,27 @@
       "patch_descriptions": [],
       "patch_sources": [],
       "source_site_urls": {},
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "1678420",
+      "game_title": "Blade Runner: Enhanced Edition",
+      "steam_link": "https://store.steampowered.com/app/1678420",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "오리지날 버전만 적용 가능 제작자 : schultz1138"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://steamapp.net/app/1678420"
+      },
       "sources": [
         "steamapp"
       ]

@@ -80038,6 +80038,24 @@
       "quasarplay": "https://store.steampowered.com/app/1677770/?curator_clanid=42788178"
     }
   },
+  "1678420": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "오리지날 버전만 적용 가능 제작자 : schultz1138"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://steamapp.net/app/1678420"
+    }
+  },
   "1680000": {
     "type": "user",
     "sources": [
@@ -107305,7 +107323,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-02-27T21:08:38.253Z",
-    "total": 7133
+    "generated_at": "2026-03-01T21:07:17.252Z",
+    "total": 7134
   }
 }
