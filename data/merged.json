@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T21:07:17.252Z",
-    "total_with_steam_link": 7134,
+    "generated_at": "2026-03-04T21:10:43.928Z",
+    "total_with_steam_link": 7144,
     "total_without_steam_link": 21,
     "sources": [
       "steamapp",
@@ -10106,90 +10106,6 @@
       ]
     },
     {
-      "app_id": "4420",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/4420/Silverfall/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "유저 한국어 패치 - 모두의 Sillverfall 카페"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/4420/?curator_clanid=42788178"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "3900",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/3900/Sid_Meiers_Civilization_IV/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "유저 한국어 패치"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/3900/?curator_clanid=42788178"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "277110",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/277110/Return_to_Mysterious_Island/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "유저 한국어 패치 - sesi 님"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/277110/?curator_clanid=42788178"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "200010",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/200010/Quantum_Conundrum/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "유저 한국어 패치 - 팀 커넌드럼,\n  (다운로드 링크 만료)"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/200010/?curator_clanid=42788178"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
       "app_id": "19980",
       "game_title": "",
       "steam_link": "https://store.steampowered.com/app/19980/Prince_of_Persia/",
@@ -10205,27 +10121,6 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/19980/?curator_clanid=42788178"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "437030",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/437030/MEMENTO/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "유저 한국어 패치 - 피재(Plasadica)님"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/437030/?curator_clanid=42788178"
       },
       "sources": [
         "quasarplay"
@@ -34995,17 +34890,24 @@
       "patch_type": "official",
       "patch_links": [
         "exist",
+        "exist",
+        "exist",
         "exist"
       ],
       "patch_descriptions": [
+        "DLC - The Knife of Dunwall 한긆패치 제작팀 : 팀 커넌드럼",
+        "DLC - The Brigmore Witches 한글패치",
         "다이렉트 게임즈 구매 시 한글 패치 제공\n브리그모어의 마녀들 DLC 유저 한글 패치",
         ""
       ],
       "patch_sources": [
+        "steamapp",
+        "steamapp",
         "quasarplay",
         "directg"
       ],
       "source_site_urls": {
+        "steamapp": "https://steamapp.net/app/205100",
         "quasarplay": "https://store.steampowered.com/app/205100/?curator_clanid=42788178",
         "directg": "https://www.directg.net/game/game_view.html?product_id=1862855a-3c54-4289-8281-22157da87fdb&sku=5274d043-febe-4a77-8a82-5237b52e842d&platform=1"
       },
@@ -65233,6 +65135,35 @@
       ]
     },
     {
+      "app_id": "437030",
+      "game_title": "MEMENTO",
+      "steam_link": "https://store.steampowered.com/app/437030",
+      "patch_type": "user",
+      "patch_links": [
+        "exist",
+        "exist",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "",
+        "제작자: Monel, 피재(Plasadica)",
+        "유저 한국어 패치 - 피재(Plasadica)님"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://steamapp.net/app/437030",
+        "quasarplay": "https://store.steampowered.com/app/437030/?curator_clanid=42788178"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "108210",
       "game_title": "Memoir '44 Online",
       "steam_link": "https://store.steampowered.com/app/108210",
@@ -72926,6 +72857,27 @@
       ]
     },
     {
+      "app_id": "1743830",
+      "game_title": "One Military Camp",
+      "steam_link": "https://store.steampowered.com/app/1743830",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 멀뚱"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://steamapp.net/app/1743830"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "917680",
       "game_title": "one night, hot springs",
       "steam_link": "https://store.steampowered.com/app/917680",
@@ -74745,7 +74697,7 @@
         "exist"
       ],
       "patch_descriptions": [
-        "제작자 : gusrud6151",
+        "제작자 : 으잌",
         "유저 한글 패치 - gusrud6151 님"
       ],
       "patch_sources": [
@@ -79328,6 +79280,32 @@
       ]
     },
     {
+      "app_id": "200010",
+      "game_title": "Quantum Conundrum",
+      "steam_link": "https://store.steampowered.com/app/200010",
+      "patch_type": "user",
+      "patch_links": [
+        "exist",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "원본 :",
+        "유저 한국어 패치 - 팀 커넌드럼,\n  (다운로드 링크 만료)"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://steamapp.net/app/200010",
+        "quasarplay": "https://store.steampowered.com/app/200010/?curator_clanid=42788178"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "651150",
       "game_title": "Quantum League",
       "steam_link": "https://store.steampowered.com/app/651150",
@@ -81602,6 +81580,32 @@
       },
       "sources": [
         "steamapp"
+      ]
+    },
+    {
+      "app_id": "277110",
+      "game_title": "Return to Mysterious Island",
+      "steam_link": "https://store.steampowered.com/app/277110",
+      "patch_type": "user",
+      "patch_links": [
+        "exist",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "",
+        "유저 한국어 패치 - sesi 님"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://steamapp.net/app/277110",
+        "quasarplay": "https://store.steampowered.com/app/277110/?curator_clanid=42788178"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
       ]
     },
     {
@@ -87928,7 +87932,7 @@
         "exist"
       ],
       "patch_descriptions": [
-        "시드마이어의 문명3 카페",
+        "",
         "유저 한국어 패치 - 문명 3 동호회"
       ],
       "patch_sources": [
@@ -87945,17 +87949,49 @@
       ]
     },
     {
+      "app_id": "3900",
+      "game_title": "Sid Meier's Civilization® IV",
+      "steam_link": "https://store.steampowered.com/app/3900",
+      "patch_type": "user",
+      "patch_links": [
+        "exist",
+        "exist",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "임홍님 블로그 문제시 해결방법:",
+        "폰트 수정 방법트 수정 방법",
+        "유저 한국어 패치"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://steamapp.net/app/3900",
+        "quasarplay": "https://store.steampowered.com/app/3900/?curator_clanid=42788178"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "8930",
       "game_title": "Sid Meier's Civilization® V",
       "steam_link": "https://store.steampowered.com/app/8930",
       "patch_type": "official",
       "patch_links": [
+        "exist",
         "exist"
       ],
       "patch_descriptions": [
-        "(공식 한글 개선 패치) 제작자 : 복2"
+        "(공식 한글 개선 패치) 제작자 : 복2",
+        "(공식 한글 개선 패치)"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp"
       ],
       "source_site_urls": {
@@ -87970,10 +88006,24 @@
       "game_title": "Sid Meier’s Civilization® VI",
       "steam_link": "https://store.steampowered.com/app/289070",
       "patch_type": "official",
-      "patch_links": [],
-      "patch_descriptions": [],
-      "patch_sources": [],
-      "source_site_urls": {},
+      "patch_links": [
+        "exist",
+        "exist",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "(공식 한글 개선 패치) 제작자 : 우경용",
+        "(공식 한글 개선 모드) 제작자 : Lucill",
+        "(공식 한글 개선 모드) 제작자 : Bluehill"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "steamapp",
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://steamapp.net/app/289070"
+      },
       "sources": [
         "steamapp"
       ]
@@ -87983,10 +88033,18 @@
       "game_title": "Sid Meier's Civilization®: Beyond Earth™",
       "steam_link": "https://store.steampowered.com/app/65980",
       "patch_type": "official",
-      "patch_links": [],
-      "patch_descriptions": [],
-      "patch_sources": [],
-      "source_site_urls": {},
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "(공식 한글 개선 패치) 제작자 : KingGunGang"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://steamapp.net/app/65980"
+      },
       "sources": [
         "steamapp"
       ]
@@ -88000,6 +88058,27 @@
       "patch_descriptions": [],
       "patch_sources": [],
       "source_site_urls": {},
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "2204130",
+      "game_title": "Sid Meier의 Alpha Centauri™ Planetary 팩",
+      "steam_link": "https://store.steampowered.com/app/2204130",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : CABrain 스팀도 적용 가능하나, 패치와 관계 없는 스팀판 버그 다수 존재"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://steamapp.net/app/2204130"
+      },
       "sources": [
         "steamapp"
       ]
@@ -88231,6 +88310,32 @@
       "source_site_urls": {},
       "sources": [
         "steamapp"
+      ]
+    },
+    {
+      "app_id": "4420",
+      "game_title": "Silverfall",
+      "steam_link": "https://store.steampowered.com/app/4420",
+      "patch_type": "user",
+      "patch_links": [
+        "exist",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "카페 가입 필요",
+        "유저 한국어 패치 - 모두의 Sillverfall 카페"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://steamapp.net/app/4420",
+        "quasarplay": "https://store.steampowered.com/app/4420/?curator_clanid=42788178"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
       ]
     },
     {
@@ -88726,6 +88831,27 @@
       "patch_descriptions": [],
       "patch_sources": [],
       "source_site_urls": {},
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "1580820",
+      "game_title": "Sky Realm Idle",
+      "steam_link": "https://store.steampowered.com/app/1580820",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : NidRuss"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://steamapp.net/app/1580820"
+      },
       "sources": [
         "steamapp"
       ]
@@ -99337,6 +99463,27 @@
       ]
     },
     {
+      "app_id": "3566870",
+      "game_title": "The Dark Rites of Arkham",
+      "steam_link": "https://store.steampowered.com/app/3566870",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : soebq2qs"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://steamapp.net/app/3566870"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "869300",
       "game_title": "The Darkest Woods",
       "steam_link": "https://store.steampowered.com/app/869300",
@@ -104753,6 +104900,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "3220060",
+      "game_title": "The Weeping Swan: Ten Days of the City's Fall",
+      "steam_link": "https://store.steampowered.com/app/3220060",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "데모판 한글화 제작자 : Pixel4a"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://steamapp.net/app/3220060"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -117589,21 +117757,17 @@
       "app_id": "1425000",
       "game_title": "끝없는 앨리스",
       "steam_link": "https://store.steampowered.com/app/1425000",
-      "patch_type": "user",
+      "patch_type": "official",
       "patch_links": [
-        "exist",
         "exist"
       ],
       "patch_descriptions": [
-        "제작자 : gusrud6151",
         "유저 한글 패치 - 한무테"
       ],
       "patch_sources": [
-        "steamapp",
         "quasarplay"
       ],
       "source_site_urls": {
-        "steamapp": "https://steamapp.net/app/1425000",
         "quasarplay": "https://store.steampowered.com/app/1425000/?curator_clanid=42788178"
       },
       "sources": [
@@ -120664,6 +120828,30 @@
       ]
     },
     {
+      "app_id": "1295660",
+      "game_title": "시드 마이어의 문명 VII",
+      "steam_link": "https://store.steampowered.com/app/1295660",
+      "patch_type": "official",
+      "patch_links": [
+        "exist",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "(공식 한글 개선 모드)",
+        "(공식 한글 개선 패치) 지명 수정 모드 제작자 : g∘f(x)"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://steamapp.net/app/1295660"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "1156990",
       "game_title": "시로나가스섬으로의 귀환",
       "steam_link": "https://store.steampowered.com/app/1156990",
@@ -121628,6 +121816,27 @@
       "patch_descriptions": [],
       "patch_sources": [],
       "source_site_urls": {},
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "3406910",
+      "game_title": "운명 게임3",
+      "steam_link": "https://store.steampowered.com/app/3406910",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 호트구트"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://steamapp.net/app/3406910"
+      },
       "sources": [
         "steamapp"
       ]
@@ -126359,6 +126568,27 @@
       ]
     },
     {
+      "app_id": "3209930",
+      "game_title": "大宋烽烟",
+      "steam_link": "https://store.steampowered.com/app/3209930",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : Nidkun"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://steamapp.net/app/3209930"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "882790",
       "game_title": "天命奇御 Fate Seeker",
       "steam_link": "https://store.steampowered.com/app/882790",
@@ -127617,6 +127847,27 @@
       ]
     },
     {
+      "app_id": "3446770",
+      "game_title": "桜降る代に決闘を〜絢爛競演〜",
+      "steam_link": "https://store.steampowered.com/app/3446770",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "데모판 한글화 제작자 : Pixel4a"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://steamapp.net/app/3446770"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "1094420",
       "game_title": "梅雨の日/Rainy Season",
       "steam_link": "https://store.steampowered.com/app/1094420",
@@ -128262,6 +128513,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2871140",
+      "game_title": "誰是中之人",
+      "steam_link": "https://store.steampowered.com/app/2871140",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        ""
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://steamapp.net/app/2871140"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {

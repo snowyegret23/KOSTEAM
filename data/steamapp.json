@@ -2608,13 +2608,9 @@
     "game_title": "끝없는 앨리스",
     "steam_link": "https://store.steampowered.com/app/1425000",
     "source_site_url": "https://steamapp.net/app/1425000",
-    "patch_type": "user",
-    "patch_links": [
-      "exist"
-    ],
-    "patch_descriptions": [
-      "제작자 : gusrud6151"
-    ]
+    "patch_type": "official",
+    "patch_links": [],
+    "patch_descriptions": []
   },
   {
     "app_id": "3430570",
@@ -21413,8 +21409,14 @@
     "steam_link": "https://store.steampowered.com/app/205100",
     "source_site_url": "https://steamapp.net/app/205100",
     "patch_type": "official",
-    "patch_links": [],
-    "patch_descriptions": []
+    "patch_links": [
+      "exist",
+      "exist"
+    ],
+    "patch_descriptions": [
+      "DLC - The Knife of Dunwall 한긆패치 제작팀 : 팀 커넌드럼",
+      "DLC - The Brigmore Witches 한글패치"
+    ]
   },
   {
     "app_id": "403640",
@@ -43906,7 +43908,7 @@
       "exist"
     ],
     "patch_descriptions": [
-      "제작자 : gusrud6151"
+      "제작자 : 으잌"
     ]
   },
   {
@@ -51559,7 +51561,7 @@
       "exist"
     ],
     "patch_descriptions": [
-      "시드마이어의 문명3 카페"
+      ""
     ]
   },
   {
@@ -51569,10 +51571,12 @@
     "source_site_url": "https://steamapp.net/app/8930",
     "patch_type": "official",
     "patch_links": [
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
-      "(공식 한글 개선 패치) 제작자 : 복2"
+      "(공식 한글 개선 패치) 제작자 : 복2",
+      "(공식 한글 개선 패치)"
     ]
   },
   {
@@ -51581,8 +51585,12 @@
     "steam_link": "https://store.steampowered.com/app/65980",
     "source_site_url": "https://steamapp.net/app/65980",
     "patch_type": "official",
-    "patch_links": [],
-    "patch_descriptions": []
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "(공식 한글 개선 패치) 제작자 : KingGunGang"
+    ]
   },
   {
     "app_id": "282210",
@@ -51599,8 +51607,16 @@
     "steam_link": "https://store.steampowered.com/app/289070",
     "source_site_url": "https://steamapp.net/app/289070",
     "patch_type": "official",
-    "patch_links": [],
-    "patch_descriptions": []
+    "patch_links": [
+      "exist",
+      "exist",
+      "exist"
+    ],
+    "patch_descriptions": [
+      "(공식 한글 개선 패치) 제작자 : 우경용",
+      "(공식 한글 개선 모드) 제작자 : Lucill",
+      "(공식 한글 개선 모드) 제작자 : Bluehill"
+    ]
   },
   {
     "app_id": "1167140",
@@ -69316,6 +69332,209 @@
     ],
     "patch_descriptions": [
       "오리지날 버전만 적용 가능 제작자 : schultz1138"
+    ]
+  },
+  {
+    "app_id": "3209930",
+    "game_title": "大宋烽烟",
+    "steam_link": "https://store.steampowered.com/app/3209930",
+    "source_site_url": "https://steamapp.net/app/3209930",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : Nidkun"
+    ]
+  },
+  {
+    "app_id": "3446770",
+    "game_title": "桜降る代に決闘を〜絢爛競演〜",
+    "steam_link": "https://store.steampowered.com/app/3446770",
+    "source_site_url": "https://steamapp.net/app/3446770",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "데모판 한글화 제작자 : Pixel4a"
+    ]
+  },
+  {
+    "app_id": "2871140",
+    "game_title": "誰是中之人",
+    "steam_link": "https://store.steampowered.com/app/2871140",
+    "source_site_url": "https://steamapp.net/app/2871140",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ]
+  },
+  {
+    "app_id": "1295660",
+    "game_title": "시드 마이어의 문명 VII",
+    "steam_link": "https://store.steampowered.com/app/1295660",
+    "source_site_url": "https://steamapp.net/app/1295660",
+    "patch_type": "official",
+    "patch_links": [
+      "exist",
+      "exist"
+    ],
+    "patch_descriptions": [
+      "(공식 한글 개선 모드)",
+      "(공식 한글 개선 패치) 지명 수정 모드 제작자 : g∘f(x)"
+    ]
+  },
+  {
+    "app_id": "3406910",
+    "game_title": "운명 게임3",
+    "steam_link": "https://store.steampowered.com/app/3406910",
+    "source_site_url": "https://steamapp.net/app/3406910",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : 호트구트"
+    ]
+  },
+  {
+    "app_id": "3566870",
+    "game_title": "The Dark Rites of Arkham",
+    "steam_link": "https://store.steampowered.com/app/3566870",
+    "source_site_url": "https://steamapp.net/app/3566870",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : soebq2qs"
+    ]
+  },
+  {
+    "app_id": "3220060",
+    "game_title": "The Weeping Swan: Ten Days of the City's Fall",
+    "steam_link": "https://store.steampowered.com/app/3220060",
+    "source_site_url": "https://steamapp.net/app/3220060",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "데모판 한글화 제작자 : Pixel4a"
+    ]
+  },
+  {
+    "app_id": "1743830",
+    "game_title": "One Military Camp",
+    "steam_link": "https://store.steampowered.com/app/1743830",
+    "source_site_url": "https://steamapp.net/app/1743830",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : 멀뚱"
+    ]
+  },
+  {
+    "app_id": "437030",
+    "game_title": "MEMENTO",
+    "steam_link": "https://store.steampowered.com/app/437030",
+    "source_site_url": "https://steamapp.net/app/437030",
+    "patch_type": "user",
+    "patch_links": [
+      "exist",
+      "exist",
+      "exist"
+    ],
+    "patch_descriptions": [
+      "",
+      "",
+      "제작자: Monel, 피재(Plasadica)"
+    ]
+  },
+  {
+    "app_id": "200010",
+    "game_title": "Quantum Conundrum",
+    "steam_link": "https://store.steampowered.com/app/200010",
+    "source_site_url": "https://steamapp.net/app/200010",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "원본 :"
+    ]
+  },
+  {
+    "app_id": "277110",
+    "game_title": "Return to Mysterious Island",
+    "steam_link": "https://store.steampowered.com/app/277110",
+    "source_site_url": "https://steamapp.net/app/277110",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ]
+  },
+  {
+    "app_id": "1580820",
+    "game_title": "Sky Realm Idle",
+    "steam_link": "https://store.steampowered.com/app/1580820",
+    "source_site_url": "https://steamapp.net/app/1580820",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : NidRuss"
+    ]
+  },
+  {
+    "app_id": "2204130",
+    "game_title": "Sid Meier의 Alpha Centauri™ Planetary 팩",
+    "steam_link": "https://store.steampowered.com/app/2204130",
+    "source_site_url": "https://steamapp.net/app/2204130",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : CABrain 스팀도 적용 가능하나, 패치와 관계 없는 스팀판 버그 다수 존재"
+    ]
+  },
+  {
+    "app_id": "3900",
+    "game_title": "Sid Meier's Civilization® IV",
+    "steam_link": "https://store.steampowered.com/app/3900",
+    "source_site_url": "https://steamapp.net/app/3900",
+    "patch_type": "user",
+    "patch_links": [
+      "exist",
+      "exist"
+    ],
+    "patch_descriptions": [
+      "임홍님 블로그 문제시 해결방법:",
+      "폰트 수정 방법트 수정 방법"
+    ]
+  },
+  {
+    "app_id": "4420",
+    "game_title": "Silverfall",
+    "steam_link": "https://store.steampowered.com/app/4420",
+    "source_site_url": "https://steamapp.net/app/4420",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "카페 가입 필요"
     ]
   }
 ]

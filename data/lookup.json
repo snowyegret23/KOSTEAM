@@ -627,18 +627,26 @@
   "3900": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "exist",
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
+      "임홍님 블로그 문제시 해결방법:",
+      "폰트 수정 방법트 수정 방법",
       "유저 한국어 패치"
     ],
     "patch_sources": [
+      "steamapp",
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://steamapp.net/app/3900",
       "quasarplay": "https://store.steampowered.com/app/3900/?curator_clanid=42788178"
     }
   },
@@ -653,7 +661,7 @@
       "exist"
     ],
     "patch_descriptions": [
-      "시드마이어의 문명3 카페",
+      "",
       "유저 한국어 패치 - 문명 3 동호회"
     ],
     "patch_sources": [
@@ -688,18 +696,23 @@
   "4420": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
+      "카페 가입 필요",
       "유저 한국어 패치 - 모두의 Sillverfall 카페"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://steamapp.net/app/4420",
       "quasarplay": "https://store.steampowered.com/app/4420/?curator_clanid=42788178"
     }
   },
@@ -1316,12 +1329,15 @@
       "steamapp"
     ],
     "links": [
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
-      "(공식 한글 개선 패치) 제작자 : 복2"
+      "(공식 한글 개선 패치) 제작자 : 복2",
+      "(공식 한글 개선 패치)"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp"
     ],
     "source_site_urls": {
@@ -5315,10 +5331,18 @@
     "sources": [
       "steamapp"
     ],
-    "links": [],
-    "patch_descriptions": [],
-    "patch_sources": [],
-    "source_site_urls": {}
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "(공식 한글 개선 패치) 제작자 : KingGunGang"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://steamapp.net/app/65980"
+    }
   },
   "67370": {
     "type": "user",
@@ -6184,18 +6208,23 @@
   "200010": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
+      "원본 :",
       "유저 한국어 패치 - 팀 커넌드럼,\n  (다운로드 링크 만료)"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://steamapp.net/app/200010",
       "quasarplay": "https://store.steampowered.com/app/200010/?curator_clanid=42788178"
     }
   },
@@ -6771,17 +6800,24 @@
     ],
     "links": [
       "exist",
+      "exist",
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
+      "DLC - The Knife of Dunwall 한긆패치 제작팀 : 팀 커넌드럼",
+      "DLC - The Brigmore Witches 한글패치",
       "다이렉트 게임즈 구매 시 한글 패치 제공\n브리그모어의 마녀들 DLC 유저 한글 패치",
       ""
     ],
     "patch_sources": [
+      "steamapp",
+      "steamapp",
       "quasarplay",
       "directg"
     ],
     "source_site_urls": {
+      "steamapp": "https://steamapp.net/app/205100",
       "quasarplay": "https://store.steampowered.com/app/205100/?curator_clanid=42788178",
       "directg": "https://www.directg.net/game/game_view.html?product_id=1862855a-3c54-4289-8281-22157da87fdb&sku=5274d043-febe-4a77-8a82-5237b52e842d&platform=1"
     }
@@ -13362,18 +13398,23 @@
   "277110": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
+      "",
       "유저 한국어 패치 - sesi 님"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://steamapp.net/app/277110",
       "quasarplay": "https://store.steampowered.com/app/277110/?curator_clanid=42788178"
     }
   },
@@ -14327,10 +14368,24 @@
     "sources": [
       "steamapp"
     ],
-    "links": [],
-    "patch_descriptions": [],
-    "patch_sources": [],
-    "source_site_urls": {}
+    "links": [
+      "exist",
+      "exist",
+      "exist"
+    ],
+    "patch_descriptions": [
+      "(공식 한글 개선 패치) 제작자 : 우경용",
+      "(공식 한글 개선 모드) 제작자 : Lucill",
+      "(공식 한글 개선 모드) 제작자 : Bluehill"
+    ],
+    "patch_sources": [
+      "steamapp",
+      "steamapp",
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://steamapp.net/app/289070"
+    }
   },
   "289130": {
     "type": "user",
@@ -25528,18 +25583,26 @@
   "437030": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "exist",
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
+      "",
+      "제작자: Monel, 피재(Plasadica)",
       "유저 한국어 패치 - 피재(Plasadica)님"
     ],
     "patch_sources": [
+      "steamapp",
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://steamapp.net/app/437030",
       "quasarplay": "https://store.steampowered.com/app/437030/?curator_clanid=42788178"
     }
   },
@@ -62583,7 +62646,7 @@
       "exist"
     ],
     "patch_descriptions": [
-      "제작자 : gusrud6151",
+      "제작자 : 으잌",
       "유저 한글 패치 - gusrud6151 님"
     ],
     "patch_sources": [
@@ -68770,6 +68833,27 @@
     "patch_sources": [],
     "source_site_urls": {}
   },
+  "1295660": {
+    "type": "official",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "exist",
+      "exist"
+    ],
+    "patch_descriptions": [
+      "(공식 한글 개선 모드)",
+      "(공식 한글 개선 패치) 지명 수정 모드 제작자 : g∘f(x)"
+    ],
+    "patch_sources": [
+      "steamapp",
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://steamapp.net/app/1295660"
+    }
+  },
   "1295790": {
     "type": "official",
     "sources": [
@@ -73273,25 +73357,21 @@
     "source_site_urls": {}
   },
   "1425000": {
-    "type": "user",
+    "type": "official",
     "sources": [
       "steamapp",
       "quasarplay"
     ],
     "links": [
-      "exist",
       "exist"
     ],
     "patch_descriptions": [
-      "제작자 : gusrud6151",
       "유저 한글 패치 - 한무테"
     ],
     "patch_sources": [
-      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
-      "steamapp": "https://steamapp.net/app/1425000",
       "quasarplay": "https://store.steampowered.com/app/1425000/?curator_clanid=42788178"
     }
   },
@@ -77586,6 +77666,24 @@
     "patch_sources": [],
     "source_site_urls": {}
   },
+  "1580820": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : NidRuss"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://steamapp.net/app/1580820"
+    }
+  },
   "1580970": {
     "type": "official",
     "sources": [
@@ -81400,6 +81498,24 @@
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/1743380",
       "quasarplay": "https://store.steampowered.com/app/1743380/?curator_clanid=42788178"
+    }
+  },
+  "1743830": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : 멀뚱"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://steamapp.net/app/1743830"
     }
   },
   "1744120": {
@@ -89023,6 +89139,24 @@
     "patch_descriptions": [],
     "patch_sources": [],
     "source_site_urls": {}
+  },
+  "2204130": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : CABrain 스팀도 적용 가능하나, 패치와 관계 없는 스팀판 버그 다수 존재"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://steamapp.net/app/2204130"
+    }
   },
   "2205850": {
     "type": "official",
@@ -98023,6 +98157,24 @@
       "quasarplay": "https://store.steampowered.com/app/2870420/?curator_clanid=30894603"
     }
   },
+  "2871140": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://steamapp.net/app/2871140"
+    }
+  },
   "2872930": {
     "type": "user",
     "sources": [
@@ -102196,6 +102348,24 @@
       "quasarplay": "https://store.steampowered.com/app/3209480/?curator_clanid=30894603"
     }
   },
+  "3209930": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : Nidkun"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://steamapp.net/app/3209930"
+    }
+  },
   "3211460": {
     "type": "official",
     "sources": [
@@ -102333,6 +102503,24 @@
     "patch_descriptions": [],
     "patch_sources": [],
     "source_site_urls": {}
+  },
+  "3220060": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "데모판 한글화 제작자 : Pixel4a"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://steamapp.net/app/3220060"
+    }
   },
   "3223160": {
     "type": "official",
@@ -104272,6 +104460,24 @@
     "patch_sources": [],
     "source_site_urls": {}
   },
+  "3406910": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : 호트구트"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://steamapp.net/app/3406910"
+    }
+  },
   "3408380": {
     "type": "user",
     "sources": [
@@ -104608,6 +104814,24 @@
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/3446680",
       "quasarplay": "https://store.steampowered.com/app/3446680/?curator_clanid=30894603"
+    }
+  },
+  "3446770": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "데모판 한글화 제작자 : Pixel4a"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://steamapp.net/app/3446770"
     }
   },
   "3447620": {
@@ -105268,6 +105492,24 @@
     ],
     "source_site_urls": {
       "quasarplay": "https://store.steampowered.com/app/3566720/?curator_clanid=30894603"
+    }
+  },
+  "3566870": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : soebq2qs"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://steamapp.net/app/3566870"
     }
   },
   "3572020": {
@@ -107323,7 +107565,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-03-01T21:07:17.252Z",
-    "total": 7134
+    "generated_at": "2026-03-04T21:10:43.928Z",
+    "total": 7144
   }
 }
