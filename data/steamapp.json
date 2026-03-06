@@ -2985,10 +2985,12 @@
     "source_site_url": "https://steamapp.net/app/1222690",
     "patch_type": "user",
     "patch_links": [
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
-      ""
+      "제작팀 : 팀 왈도",
+      "제작자 : Biowareonly 폰트 개선 패치"
     ]
   },
   {
@@ -69393,12 +69395,12 @@
     "game_title": "운명 게임3",
     "steam_link": "https://store.steampowered.com/app/3406910",
     "source_site_url": "https://steamapp.net/app/3406910",
-    "patch_type": "user",
+    "patch_type": "official",
     "patch_links": [
       "exist"
     ],
     "patch_descriptions": [
-      "제작자 : 호트구트"
+      "(공식 한글 개선 패치) 제작자 : 호트구트"
     ]
   },
   {
@@ -69535,6 +69537,60 @@
     ],
     "patch_descriptions": [
       "카페 가입 필요"
+    ]
+  },
+  {
+    "app_id": "1563860",
+    "game_title": "Christmas Stories: The Gift of the Magi Collector's Edition",
+    "steam_link": "https://store.steampowered.com/app/1563860",
+    "source_site_url": "https://steamapp.net/app/1563860",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : 까칠한 그냥"
+    ]
+  },
+  {
+    "app_id": "47810",
+    "game_title": "Dragon Age: Origins - Ultimate Edition",
+    "steam_link": "https://store.steampowered.com/app/47810",
+    "source_site_url": "https://steamapp.net/app/47810",
+    "patch_type": "user",
+    "patch_links": [
+      "exist",
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 ; 견습기사 / 깜장캣 / 루카 / 모람 / 버찌 / 사람이 / 세미 / 셀틱 이오 / 칸드 / 티빈터음모론자 / 해안연못 / GOODGOOD / taamro",
+      "카페 가입 필요"
+    ]
+  },
+  {
+    "app_id": "22320",
+    "game_title": "The Elder Scrolls III: Morrowind® Game of the Year Edition",
+    "steam_link": "https://store.steampowered.com/app/22320",
+    "source_site_url": "https://steamapp.net/app/22320",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : 드로거"
+    ]
+  },
+  {
+    "app_id": "514740",
+    "game_title": "Final Cut: Death on the Silver Screen Collector's Edition",
+    "steam_link": "https://store.steampowered.com/app/514740",
+    "source_site_url": "https://steamapp.net/app/514740",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : 까칠한 그냥"
     ]
   }
 ]

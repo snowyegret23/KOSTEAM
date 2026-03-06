@@ -2741,18 +2741,23 @@
   "22320": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 드로거",
       "유저 한국어 패치"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://steamapp.net/app/22320",
       "quasarplay": "https://store.steampowered.com/app/22320/?curator_clanid=42788178"
     }
   },
@@ -4720,18 +4725,26 @@
   "47810": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "exist",
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 ; 견습기사 / 깜장캣 / 루카 / 모람 / 버찌 / 사람이 / 세미 / 셀틱 이오 / 칸드 / 티빈터음모론자 / 해안연못 / GOODGOOD / taamro",
+      "카페 가입 필요",
       "유저 한국어 패치 - 디지, 겨울비 님"
     ],
     "patch_sources": [
+      "steamapp",
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://steamapp.net/app/47810",
       "quasarplay": "https://store.steampowered.com/app/47810/?curator_clanid=42788178"
     }
   },
@@ -29897,18 +29910,23 @@
   "514740": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 까칠한 그냥",
       "유저 한국어 패치 - 그냥그냥그저그저, 티르미르, 오픈마인드 님"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://steamapp.net/app/514740",
       "quasarplay": "https://store.steampowered.com/app/514740/?curator_clanid=42788178"
     }
   },
@@ -65624,13 +65642,16 @@
     ],
     "links": [
       "exist",
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
-      "",
+      "제작팀 : 팀 왈도",
+      "제작자 : Biowareonly 폰트 개선 패치",
       "유저 한국어 패치 - 팀 왈도"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp",
       "quasarplay"
     ],
@@ -77157,6 +77178,24 @@
     "patch_descriptions": [],
     "patch_sources": [],
     "source_site_urls": {}
+  },
+  "1563860": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : 까칠한 그냥"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://steamapp.net/app/1563860"
+    }
   },
   "1564540": {
     "type": "official",
@@ -104461,7 +104500,7 @@
     "source_site_urls": {}
   },
   "3406910": {
-    "type": "user",
+    "type": "official",
     "sources": [
       "steamapp"
     ],
@@ -104469,7 +104508,7 @@
       "exist"
     ],
     "patch_descriptions": [
-      "제작자 : 호트구트"
+      "(공식 한글 개선 패치) 제작자 : 호트구트"
     ],
     "patch_sources": [
       "steamapp"
@@ -107565,7 +107604,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-03-04T21:10:43.928Z",
-    "total": 7144
+    "generated_at": "2026-03-06T21:09:02.144Z",
+    "total": 7145
   }
 }
