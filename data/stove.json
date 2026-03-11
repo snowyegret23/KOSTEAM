@@ -3735,11 +3735,11 @@
     "stove_url": "https://store.onstove.com/ko/games/103040"
   },
   {
-    "app_id": null,
+    "app_id": "2489330",
     "stove_game_no": "12870",
     "stove_product_no": "102776",
     "game_title": "위스커우드 (Whiskerwood)",
-    "steam_link": "",
+    "steam_link": "https://store.steampowered.com/app/2489330",
     "patch_type": "official",
     "patch_links": [
       "exist"
