@@ -638,7 +638,7 @@
     "patch_descriptions": [
       "임홍님 블로그 문제시 해결방법:",
       "폰트 수정 방법트 수정 방법",
-      "유저 한국어 패치"
+      "유저 한글 패치\n폰트 수정"
     ],
     "patch_sources": [
       "steamapp",
@@ -2278,20 +2278,23 @@
     }
   },
   "17480": {
-    "type": "user",
+    "type": "official",
     "sources": [
       "steamapp",
       "quasarplay"
     ],
     "links": [
       "exist",
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
+      "원제작자: Nephlite ( 공식 한글 번역 패치",
       "NEPH님 제작",
       "유저 한국어 패치 -"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp",
       "quasarplay"
     ],
@@ -2750,7 +2753,7 @@
     ],
     "patch_descriptions": [
       "제작자 : 드로거",
-      "유저 한국어 패치"
+      "유저 한글 패치 - 드로거\n유저 한글 패치"
     ],
     "patch_sources": [
       "steamapp",
@@ -3006,18 +3009,23 @@
   "24790": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
+      "원제작자: Nephlite (",
       "유저 한국어 패치"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://steamapp.net/app/24790",
       "quasarplay": "https://store.steampowered.com/app/24790/?curator_clanid=42788178"
     }
   },
@@ -3040,20 +3048,23 @@
     }
   },
   "24810": {
-    "type": "user",
+    "type": "official",
     "sources": [
       "steamapp",
       "quasarplay"
     ],
     "links": [
       "exist",
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
+      "원제작자: Nephlite ( 번역 개선 패치",
       "NEPH님 제작",
       "유저 한국어 패치 - nephlite 님"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp",
       "quasarplay"
     ],
@@ -6230,7 +6241,7 @@
     ],
     "patch_descriptions": [
       "원본 :",
-      "유저 한국어 패치 - 팀 커넌드럼,\n  (다운로드 링크 만료)"
+      "유저 한글 패치 - 팀 커넌드럼"
     ],
     "patch_sources": [
       "steamapp",
@@ -6510,18 +6521,26 @@
   "202710": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "exist",
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
+      "",
+      "번역 개선 추가 패치",
       "유저 한국어 패치 - 귤 님"
     ],
     "patch_sources": [
+      "steamapp",
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://steamapp.net/app/202710",
       "quasarplay": "https://store.steampowered.com/app/202710/?curator_clanid=42788178"
     }
   },
@@ -13420,7 +13439,7 @@
     ],
     "patch_descriptions": [
       "",
-      "유저 한국어 패치 - sesi 님"
+      "유저 한글 패치 - sesi"
     ],
     "patch_sources": [
       "steamapp",
@@ -22770,7 +22789,7 @@
     ],
     "patch_descriptions": [
       "제작자 : 까칠한 그냥",
-      "유저 한글 패치 - 까칠한 그냥 님"
+      "유저 한글 패치 - 까칠한 그냥"
     ],
     "patch_sources": [
       "steamapp",
@@ -25607,7 +25626,7 @@
     "patch_descriptions": [
       "",
       "제작자: Monel, 피재(Plasadica)",
-      "유저 한국어 패치 - 피재(Plasadica)님"
+      "유저 한글 패치"
     ],
     "patch_sources": [
       "steamapp",
@@ -29494,7 +29513,7 @@
     ],
     "patch_descriptions": [
       "제작자 : 까칠한 그냥",
-      "유저 한글 패치 - 까칠한 그냥 님"
+      "유저 한글 패치 - 까칠한 그냥"
     ],
     "patch_sources": [
       "steamapp",
@@ -29919,7 +29938,7 @@
     ],
     "patch_descriptions": [
       "제작자 : 까칠한 그냥",
-      "유저 한국어 패치 - 그냥그냥그저그저, 티르미르, 오픈마인드 님"
+      "유저 한글 패치 - 그냥그냥그저그저, 티르미르, 오픈마인드"
     ],
     "patch_sources": [
       "steamapp",
@@ -46101,7 +46120,7 @@
     ],
     "patch_descriptions": [
       "",
-      "유저 한글 패치 - unnity 님"
+      "유저 한글 패치 - unnity\n유저 한글 패치 - 짜짜"
     ],
     "patch_sources": [
       "steamapp",
@@ -65273,7 +65292,7 @@
       "exist"
     ],
     "patch_descriptions": [
-      "",
+      "제작자 :kozak",
       "유저 한글 패치 - KOZAK 님"
     ],
     "patch_sources": [
@@ -65648,7 +65667,7 @@
     "patch_descriptions": [
       "제작팀 : 팀 왈도",
       "제작자 : Biowareonly 폰트 개선 패치",
-      "유저 한국어 패치 - 팀 왈도"
+      "유저 한글 패치 - 팀 왈도\n폰트 개선"
     ],
     "patch_sources": [
       "steamapp",
@@ -75066,10 +75085,18 @@
     "sources": [
       "steamapp"
     ],
-    "links": [],
-    "patch_descriptions": [],
-    "patch_sources": [],
-    "source_site_urls": {}
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "공식 번역 개선 패치 기여자: NEPH, Ludrik"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://steamapp.net/app/1486920"
+    }
   },
   "1487270": {
     "type": "official",
@@ -80630,6 +80657,24 @@
       "quasarplay": "https://store.steampowered.com/app/1699230/?curator_clanid=30894603"
     }
   },
+  "1701560": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : 한잡스"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://steamapp.net/app/1701560"
+    }
+  },
   "1703140": {
     "type": "official",
     "sources": [
@@ -85320,7 +85365,7 @@
     ],
     "patch_descriptions": [
       "원제작자 : 시리우스 검수 : 묘아 번역자 : GoodLucker",
-      "유저 한글 패치 - GoodLucker 님"
+      "유저 한글 패치 - 대왕타코야끼\n유저 한글 패치 - GoodLucker"
     ],
     "patch_sources": [
       "steamapp",
@@ -94102,7 +94147,7 @@
     ],
     "patch_descriptions": [
       "제작자 : 까칠한 그냥",
-      "유저 한글 패치 - 까칠한 그냥 님"
+      "유저 한글 패치 - 까칠한 그냥"
     ],
     "patch_sources": [
       "steamapp",
@@ -98016,7 +98061,7 @@
     ],
     "patch_descriptions": [
       "제작자 : 편향된 게이머",
-      "유저 한글 패치 - 팀 AI"
+      "유저 한글 패치 - 팀 AI\n유저 한글 패치 - 짱구눈섭"
     ],
     "patch_sources": [
       "steamapp",
@@ -107604,7 +107649,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-03-08T21:06:49.337Z",
-    "total": 7145
+    "generated_at": "2026-03-11T21:10:01.424Z",
+    "total": 7146
   }
 }

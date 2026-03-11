@@ -4827,7 +4827,7 @@
       "exist"
     ],
     "patch_descriptions": [
-      ""
+      "제작자 :kozak"
     ]
   },
   {
@@ -15721,11 +15721,13 @@
     "game_title": "Command & Conquer 3: Kane's Wrath",
     "steam_link": "https://store.steampowered.com/app/24810",
     "source_site_url": "https://steamapp.net/app/24810",
-    "patch_type": "user",
+    "patch_type": "official",
     "patch_links": [
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
+      "원제작자: Nephlite ( 번역 개선 패치",
       "NEPH님 제작"
     ]
   },
@@ -15740,14 +15742,16 @@
   },
   {
     "app_id": "17480",
-    "game_title": "Command & Conquer: Red Alert 3",
+    "game_title": "Command & Conquer™ Red Alert™ 3",
     "steam_link": "https://store.steampowered.com/app/17480",
     "source_site_url": "https://steamapp.net/app/17480",
-    "patch_type": "user",
+    "patch_type": "official",
     "patch_links": [
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
+      "원제작자: Nephlite ( 공식 한글 번역 패치",
       "NEPH님 제작"
     ]
   },
@@ -56929,8 +56933,12 @@
     "steam_link": "https://store.steampowered.com/app/1486920",
     "source_site_url": "https://steamapp.net/app/1486920",
     "patch_type": "official",
-    "patch_links": [],
-    "patch_descriptions": []
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "공식 번역 개선 패치 기여자: NEPH, Ludrik"
+    ]
   },
   {
     "app_id": "2229920",
@@ -69591,6 +69599,47 @@
     ],
     "patch_descriptions": [
       "제작자 : 까칠한 그냥"
+    ]
+  },
+  {
+    "app_id": "24790",
+    "game_title": "Command & Conquer 3: Tiberium Wars",
+    "steam_link": "https://store.steampowered.com/app/24790",
+    "source_site_url": "https://steamapp.net/app/24790",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "원제작자: Nephlite ("
+    ]
+  },
+  {
+    "app_id": "202710",
+    "game_title": "Demigod",
+    "steam_link": "https://store.steampowered.com/app/202710",
+    "source_site_url": "https://steamapp.net/app/202710",
+    "patch_type": "user",
+    "patch_links": [
+      "exist",
+      "exist"
+    ],
+    "patch_descriptions": [
+      "",
+      "번역 개선 추가 패치"
+    ]
+  },
+  {
+    "app_id": "1701560",
+    "game_title": "RUINSMAGUS",
+    "steam_link": "https://store.steampowered.com/app/1701560",
+    "source_site_url": "https://steamapp.net/app/1701560",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : 한잡스"
     ]
   }
 ]
