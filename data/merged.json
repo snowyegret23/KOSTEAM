@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-03-11T21:10:01.424Z",
-    "total_with_steam_link": 7146,
+    "generated_at": "2026-03-13T21:11:38.312Z",
+    "total_with_steam_link": 7147,
     "total_without_steam_link": 22,
     "sources": [
       "steamapp",
@@ -122039,6 +122039,27 @@
       ]
     },
     {
+      "app_id": "2489330",
+      "game_title": "위스커우드 (Whiskerwood)",
+      "steam_link": "https://store.steampowered.com/app/2489330",
+      "patch_type": "official",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        ""
+      ],
+      "patch_sources": [
+        "stove"
+      ],
+      "source_site_urls": {
+        "stove": "https://store.onstove.com/ko/games/102776"
+      },
+      "sources": [
+        "stove"
+      ]
+    },
+    {
       "app_id": "1707950",
       "game_title": "위스퍼 (Wisper)",
       "steam_link": "https://store.steampowered.com/app/1707950",
@@ -129330,6 +129351,25 @@
       ]
     },
     {
+      "game_title": "마지막 여름 (The Last Summer)",
+      "patch_type": "official",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        ""
+      ],
+      "patch_sources": [
+        "stove"
+      ],
+      "source_site_urls": {
+        "stove": "https://store.onstove.com/ko/games/103153"
+      },
+      "sources": [
+        "stove"
+      ]
+    },
+    {
       "game_title": "빈스팀",
       "patch_type": "official",
       "patch_links": [],
@@ -129354,25 +129394,6 @@
       ],
       "source_site_urls": {
         "stove": "https://store.onstove.com/ko/games/2180"
-      },
-      "sources": [
-        "stove"
-      ]
-    },
-    {
-      "game_title": "위스커우드 (Whiskerwood)",
-      "patch_type": "official",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        ""
-      ],
-      "patch_sources": [
-        "stove"
-      ],
-      "source_site_urls": {
-        "stove": "https://store.onstove.com/ko/games/102776"
       },
       "sources": [
         "stove"

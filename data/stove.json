@@ -3748,5 +3748,20 @@
       ""
     ],
     "stove_url": "https://store.onstove.com/ko/games/102776"
+  },
+  {
+    "app_id": null,
+    "stove_game_no": "13255",
+    "stove_product_no": "103153",
+    "game_title": "마지막 여름 (The Last Summer)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "stove_url": "https://store.onstove.com/ko/games/103153"
   }
 ]

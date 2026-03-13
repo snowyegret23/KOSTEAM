@@ -93233,6 +93233,24 @@
       "quasarplay": "https://store.steampowered.com/app/2488370/?curator_clanid=42788178"
     }
   },
+  "2489330": {
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/102776"
+    }
+  },
   "2489650": {
     "type": "user",
     "sources": [
@@ -107649,7 +107667,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-03-11T21:10:01.424Z",
-    "total": 7146
+    "generated_at": "2026-03-13T21:11:38.312Z",
+    "total": 7147
   }
 }
