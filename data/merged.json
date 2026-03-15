@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-03-13T21:11:38.312Z",
-    "total_with_steam_link": 7147,
-    "total_without_steam_link": 22,
+    "generated_at": "2026-03-15T21:08:38.268Z",
+    "total_with_steam_link": 7155,
+    "total_without_steam_link": 21,
     "sources": [
       "steamapp",
       "quasarzone",
@@ -15758,6 +15758,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "1768400",
+      "game_title": "Archetype Arcadia",
+      "steam_link": "https://store.steampowered.com/app/1768400",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 시라세미나모"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://steamapp.net/app/1768400"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -39650,6 +39671,27 @@
       ]
     },
     {
+      "app_id": "3623050",
+      "game_title": "Ending the Happy Route",
+      "steam_link": "https://store.steampowered.com/app/3623050",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "데모판 한글화 제작자 : 시라세미나모"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://steamapp.net/app/3623050"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "699780",
       "game_title": "Endless Fables 2: Frozen Path",
       "steam_link": "https://store.steampowered.com/app/699780",
@@ -46636,6 +46678,19 @@
       "app_id": "599560",
       "game_title": "Ghost Files: The Face of Guilt",
       "steam_link": "https://store.steampowered.com/app/599560",
+      "patch_type": "official",
+      "patch_links": [],
+      "patch_descriptions": [],
+      "patch_sources": [],
+      "source_site_urls": {},
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "2866830",
+      "game_title": "Ghost Hospital -in Thousand Horror Hill-",
+      "steam_link": "https://store.steampowered.com/app/2866830",
       "patch_type": "official",
       "patch_links": [],
       "patch_descriptions": [],
@@ -104716,6 +104771,27 @@
       ]
     },
     {
+      "app_id": "4181110",
+      "game_title": "THE VIG",
+      "steam_link": "https://store.steampowered.com/app/4181110",
+      "patch_type": "official",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "(공식 한글 개선 패치) 제작자 : 미인이많군요"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://steamapp.net/app/4181110"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "37000",
       "game_title": "The Void",
       "steam_link": "https://store.steampowered.com/app/37000",
@@ -106601,6 +106677,27 @@
       "patch_descriptions": [],
       "patch_sources": [],
       "source_site_urls": {},
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "743940",
+      "game_title": "Together We Live",
+      "steam_link": "https://store.steampowered.com/app/743940",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 시라세미나모"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://steamapp.net/app/743940"
+      },
       "sources": [
         "steamapp"
       ]
@@ -119377,6 +119474,27 @@
       ]
     },
     {
+      "app_id": "2583030",
+      "game_title": "마지막 여름 (The Last Summer)",
+      "steam_link": "https://store.steampowered.com/app/2583030",
+      "patch_type": "official",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        ""
+      ],
+      "patch_sources": [
+        "stove"
+      ],
+      "source_site_urls": {
+        "stove": "https://store.onstove.com/ko/games/103153"
+      },
+      "sources": [
+        "stove"
+      ]
+    },
+    {
       "app_id": "2383880",
       "game_title": "마켓 워페어 (Market Warfare)",
       "steam_link": "https://store.steampowered.com/app/2383880",
@@ -121155,6 +121273,19 @@
       "app_id": "1156900",
       "game_title": "아웃풋 목장",
       "steam_link": "https://store.steampowered.com/app/1156900",
+      "patch_type": "official",
+      "patch_links": [],
+      "patch_descriptions": [],
+      "patch_sources": [],
+      "source_site_urls": {},
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "4067070",
+      "game_title": "아이돌과 ○○하면 안 되나요？",
+      "steam_link": "https://store.steampowered.com/app/4067070",
       "patch_type": "official",
       "patch_links": [],
       "patch_descriptions": [],
@@ -125276,6 +125407,19 @@
       ]
     },
     {
+      "app_id": "1354850",
+      "game_title": "ごめんください Director's Cut",
+      "steam_link": "https://store.steampowered.com/app/1354850",
+      "patch_type": "official",
+      "patch_links": [],
+      "patch_descriptions": [],
+      "patch_sources": [],
+      "source_site_urls": {},
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "1909880",
       "game_title": "サイコロサイコ セブンスヘブン",
       "steam_link": "https://store.steampowered.com/app/1909880",
@@ -125429,7 +125573,7 @@
       "patch_descriptions": [
         "텍스트 및 폰트 적용: Oatone (팀 글냥이) 패치 프로그램 제작: Nyabi 본문 텍스트 번역: 체퓨 (팀 글냥이) 이미지 번역: 토니, 체퓨 (팀 글냥이) 영상 번역: 민버드",
         "제작자 : uunyabi3",
-        "번역 - 점박냥이, 이칠공, Gemini AI 도움 주신 분 - 프시"
+        "데모판 한글화 번역 - 점박냥이, 이칠공, Gemini AI 도움 주신 분 - 프시"
       ],
       "patch_sources": [
         "steamapp",
@@ -129345,25 +129489,6 @@
       ],
       "source_site_urls": {
         "stove": "https://store.onstove.com/ko/games/102720"
-      },
-      "sources": [
-        "stove"
-      ]
-    },
-    {
-      "game_title": "마지막 여름 (The Last Summer)",
-      "patch_type": "official",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        ""
-      ],
-      "patch_sources": [
-        "stove"
-      ],
-      "source_site_urls": {
-        "stove": "https://store.onstove.com/ko/games/103153"
       },
       "sources": [
         "stove"

@@ -413,7 +413,7 @@
     "patch_descriptions": [
       "텍스트 및 폰트 적용: Oatone (팀 글냥이) 패치 프로그램 제작: Nyabi 본문 텍스트 번역: 체퓨 (팀 글냥이) 이미지 번역: 토니, 체퓨 (팀 글냥이) 영상 번역: 민버드",
       "제작자 : uunyabi3",
-      "번역 - 점박냥이, 이칠공, Gemini AI 도움 주신 분 - 프시"
+      "데모판 한글화 번역 - 점박냥이, 이칠공, Gemini AI 도움 주신 분 - 프시"
     ]
   },
   {
@@ -69641,5 +69641,84 @@
     "patch_descriptions": [
       "제작자 : 한잡스"
     ]
+  },
+  {
+    "app_id": "1354850",
+    "game_title": "ごめんください Director's Cut",
+    "steam_link": "https://store.steampowered.com/app/1354850",
+    "source_site_url": "https://steamapp.net/app/1354850",
+    "patch_type": "official",
+    "patch_links": [],
+    "patch_descriptions": []
+  },
+  {
+    "app_id": "4067070",
+    "game_title": "아이돌과 ○○하면 안 되나요？",
+    "steam_link": "https://store.steampowered.com/app/4067070",
+    "source_site_url": "https://steamapp.net/app/4067070",
+    "patch_type": "official",
+    "patch_links": [],
+    "patch_descriptions": []
+  },
+  {
+    "app_id": "1768400",
+    "game_title": "Archetype Arcadia",
+    "steam_link": "https://store.steampowered.com/app/1768400",
+    "source_site_url": "https://steamapp.net/app/1768400",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : 시라세미나모"
+    ]
+  },
+  {
+    "app_id": "3623050",
+    "game_title": "Ending the Happy Route",
+    "steam_link": "https://store.steampowered.com/app/3623050",
+    "source_site_url": "https://steamapp.net/app/3623050",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "데모판 한글화 제작자 : 시라세미나모"
+    ]
+  },
+  {
+    "app_id": "743940",
+    "game_title": "Together We Live",
+    "steam_link": "https://store.steampowered.com/app/743940",
+    "source_site_url": "https://steamapp.net/app/743940",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : 시라세미나모"
+    ]
+  },
+  {
+    "app_id": "4181110",
+    "game_title": "THE VIG",
+    "steam_link": "https://store.steampowered.com/app/4181110",
+    "source_site_url": "https://steamapp.net/app/4181110",
+    "patch_type": "official",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "(공식 한글 개선 패치) 제작자 : 미인이많군요"
+    ]
+  },
+  {
+    "app_id": "2866830",
+    "game_title": "Ghost Hospital -in Thousand Horror Hill-",
+    "steam_link": "https://store.steampowered.com/app/2866830",
+    "source_site_url": "https://steamapp.net/app/2866830",
+    "patch_type": "official",
+    "patch_links": [],
+    "patch_descriptions": []
   }
 ]
