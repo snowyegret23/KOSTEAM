@@ -2,9 +2,18 @@
   "curator_id": 42788178,
   "curator_name": "Curator #42788178",
   "curator_url": "https://store.steampowered.com/curator/42788178/",
-  "total_games": 1833,
-  "exported_at": "2026-03-15T21:08:19.994962",
+  "total_games": 1834,
+  "exported_at": "2026-03-18T21:13:24.437463",
   "games": [
+    {
+      "appid": "1486920",
+      "url": "https://store.steampowered.com/app/1486920/Tempest_Rising/",
+      "curator_url": "https://store.steampowered.com/app/1486920/?curator_clanid=42788178",
+      "review": "유저 한글 패치 - Ludrik",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
     {
       "appid": "1378290",
       "url": "https://store.steampowered.com/app/1378290/The_Citadel/",
@@ -1701,7 +1710,7 @@
       "appid": "1586860",
       "url": "https://store.steampowered.com/app/1586860/Bonesaw/",
       "curator_url": "https://store.steampowered.com/app/1586860/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 한무테\n유저 한글 패치 - 수나이스\n유저 한글 패치 - 오",
+      "review": "유저 한글 패치 - 수나이스\n유저 한글 패치 - 오\n유저 한글 패치 - 한무테",
       "review_has_url": true,
       "review_url_count": 3,
       "type": "recommended"
@@ -4248,7 +4257,7 @@
       "appid": "2591280",
       "url": "https://store.steampowered.com/app/2591280/F1_Manager_2024/",
       "curator_url": "https://store.steampowered.com/app/2591280/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - Brave Toaster 님",
+      "review": "유저 한글 패치 - Brave Toaster",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -4932,7 +4941,7 @@
       "appid": "2865440",
       "url": "https://store.steampowered.com/app/2865440/FRONT_MISSION_2_Remake/",
       "curator_url": "https://store.steampowered.com/app/2865440/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 팀 AI\n유저 한글 패치 - 짱구눈섭",
+      "review": "유저 한글 패치 - 팀 AI\n유저 한글 패치 - 편향된게이머",
       "review_has_url": true,
       "review_url_count": 2,
       "type": "recommended"
@@ -8838,7 +8847,7 @@
       "appid": "1075190",
       "url": "https://store.steampowered.com/app/1075190/A_Game_of_Thrones_The_Board_Game__Digital_Edition/",
       "curator_url": "https://store.steampowered.com/app/1075190/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 - 우드킹 님",
+      "review": "유저 한글 패치 - 아레이아드",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -9135,9 +9144,9 @@
       "appid": "406290",
       "url": "https://store.steampowered.com/app/406290/Twilight_Struggle/",
       "curator_url": "https://store.steampowered.com/app/406290/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 - 블루칩 님",
+      "review": "유저 한글 패치 - 짜짜\n유저 한글 패치 - 블루칩",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -9549,7 +9558,7 @@
       "appid": "800270",
       "url": "https://store.steampowered.com/app/800270/Terraforming_Mars/",
       "curator_url": "https://store.steampowered.com/app/800270/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - unnity\n유저 한글 패치 - 짜짜",
+      "review": "유저 한글 패치 - 짜짜\n유저 한글 패치 - unnity",
       "review_has_url": true,
       "review_url_count": 2,
       "type": "recommended"
@@ -11358,9 +11367,9 @@
       "appid": "589360",
       "url": "https://store.steampowered.com/app/589360/Ni_no_Kuni_II_Revenant_Kingdom/",
       "curator_url": "https://store.steampowered.com/app/589360/?curator_clanid=42788178",
-      "review": "패치 제작 - 프기니\n검수 - 계피맛롤리팝, ㅂㅣ추, 엔디, 으아아\n이미지 - 디포르, Rs\n번역 - ㅂㅣ추, 꺄르릉, 펭더, Torinaka, Alice, 모구라이버, GomBT, ttojong, 펜릴, 하나미오, 저녁밥, 고기대장, 촉수금지, 사시코, 님 외",
+      "review": "유저 한글 패치 - lacsoujiro\n유저 한글 패치 - 팀 한글화의 궤적",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {

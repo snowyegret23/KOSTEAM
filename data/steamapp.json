@@ -6057,7 +6057,7 @@
       "exist"
     ],
     "patch_descriptions": [
-      ""
+      "제작자 : 아레이아드"
     ]
   },
   {
@@ -12722,7 +12722,7 @@
       "exist"
     ],
     "patch_descriptions": [
-      "제작자 : 스폰지밥",
+      "제작자 : 오",
       "제작자 : 수나이스",
       "백업용"
     ]
@@ -19500,9 +19500,11 @@
     "patch_links": [
       "exist",
       "exist",
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : Nemeri",
       "작업: 엘투와 으른들 번역: 엘투더이, 멍세연, 낫찡, DoDm 그리고 Charmander ※ 구독 후 설정 언어 변경",
       "미완성판",
       "미완성 의역판"
@@ -25053,7 +25055,7 @@
       "exist"
     ],
     "patch_descriptions": [
-      "번역/기술: FToaster"
+      "제작자 : IM_BH_ 원작자 : Brave Toaster"
     ]
   },
   {
@@ -32197,7 +32199,7 @@
       "exist"
     ],
     "patch_descriptions": [
-      ""
+      "클레식 버전만 지원"
     ]
   },
   {
@@ -69720,5 +69722,122 @@
     "patch_type": "official",
     "patch_links": [],
     "patch_descriptions": []
+  },
+  {
+    "app_id": "4225940",
+    "game_title": "안 돼! 스승님이 여요정에게 납치됐어!",
+    "steam_link": "https://store.steampowered.com/app/4225940",
+    "source_site_url": "https://steamapp.net/app/4225940",
+    "patch_type": "official",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "(공식 한글 개선 패치) 제작자 : 바라미"
+    ]
+  },
+  {
+    "app_id": "1201400",
+    "game_title": "Not For Broadcast: Prologue",
+    "steam_link": "https://store.steampowered.com/app/1201400",
+    "source_site_url": "https://steamapp.net/app/1201400",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : eaubita"
+    ]
+  },
+  {
+    "app_id": "958530",
+    "game_title": "Fury of Dracula: Digital Edition",
+    "steam_link": "https://store.steampowered.com/app/958530",
+    "source_site_url": "https://steamapp.net/app/958530",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : 아레이아드"
+    ]
+  },
+  {
+    "app_id": "2308630",
+    "game_title": "Dawnfolk",
+    "steam_link": "https://store.steampowered.com/app/2308630",
+    "source_site_url": "https://steamapp.net/app/2308630",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : cRL2176"
+    ]
+  },
+  {
+    "app_id": "2780980",
+    "game_title": "LOCKDOWN Protocol",
+    "steam_link": "https://store.steampowered.com/app/2780980",
+    "source_site_url": "https://steamapp.net/app/2780980",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ]
+  },
+  {
+    "app_id": "38740",
+    "game_title": "EDGE",
+    "steam_link": "https://store.steampowered.com/app/38740",
+    "source_site_url": "https://steamapp.net/app/38740",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : na1307"
+    ]
+  },
+  {
+    "app_id": "2361680",
+    "game_title": "Path of Kung Fu",
+    "steam_link": "https://store.steampowered.com/app/2361680",
+    "source_site_url": "https://steamapp.net/app/2361680",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : 대왕타코야끼"
+    ]
+  },
+  {
+    "app_id": "2742280",
+    "game_title": "Fantasista Asuka",
+    "steam_link": "https://store.steampowered.com/app/2742280",
+    "source_site_url": "https://steamapp.net/app/2742280",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ]
+  },
+  {
+    "app_id": "2966320",
+    "game_title": "Starsand Island",
+    "steam_link": "https://store.steampowered.com/app/2966320",
+    "source_site_url": "https://steamapp.net/app/2966320",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : 원아리"
+    ]
   }
 ]
