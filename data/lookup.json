@@ -22396,7 +22396,7 @@
     }
   },
   "392030": {
-    "type": "user",
+    "type": "official",
     "sources": [
       "steamapp",
       "quasarplay"
@@ -22406,7 +22406,7 @@
       "exist"
     ],
     "patch_descriptions": [
-      "제작자 : Rovre (로브르)",
+      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : Rovre (로브르)",
       "유저 한글 패치 - 로브르"
     ],
     "patch_sources": [
@@ -53903,13 +53903,16 @@
     ],
     "links": [
       "exist",
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : Partholon",
       "1. 릴리즈 페이지로 이동 2. 가장 위에 있는 버전의 Assets 클릭하면 받을 수 있는 파일들이 나옴 3. 설명서에 적힌 파일을 다운",
       "유저 한글 패치 - refracta, Viz"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp",
       "quasarplay"
     ],
@@ -89071,6 +89074,16 @@
     "patch_sources": [],
     "source_site_urls": {}
   },
+  "2162820": {
+    "type": "official",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [],
+    "patch_descriptions": [],
+    "patch_sources": [],
+    "source_site_urls": {}
+  },
   "2163330": {
     "type": "user",
     "sources": [
@@ -92788,7 +92801,7 @@
     }
   },
   "2424240": {
-    "type": "user",
+    "type": "official",
     "sources": [
       "steamapp",
       "quasarplay"
@@ -92798,7 +92811,7 @@
       "exist"
     ],
     "patch_descriptions": [
-      "제작자 : 로브르 MORT 사용 - 한글 번역 DB",
+      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : 로브르 MORT 사용 - 한글 번역 DB",
       "유저 한글 패치 - 로브르 님"
     ],
     "patch_sources": [
@@ -98592,18 +98605,23 @@
   "2839280": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
+      "",
       "유저 한글 패치"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://steamapp.net/app/2839280",
       "quasarplay": "https://store.steampowered.com/app/2839280/?curator_clanid=30894603"
     }
   },
@@ -108754,7 +108772,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-03-18T21:13:51.543Z",
-    "total": 7202
+    "generated_at": "2026-03-20T21:09:34.821Z",
+    "total": 7203
   }
 }

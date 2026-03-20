@@ -513,15 +513,15 @@
   },
   {
     "app_id": "2424240",
-    "game_title": "プリンと盾琴",
+    "game_title": "푸딩과 방패 뤼라",
     "steam_link": "https://store.steampowered.com/app/2424240",
     "source_site_url": "https://steamapp.net/app/2424240",
-    "patch_type": "user",
+    "patch_type": "official",
     "patch_links": [
       "exist"
     ],
     "patch_descriptions": [
-      "제작자 : 로브르 MORT 사용 - 한글 번역 DB"
+      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : 로브르 MORT 사용 - 한글 번역 DB"
     ]
   },
   {
@@ -17719,9 +17719,11 @@
     "source_site_url": "https://steamapp.net/app/975370",
     "patch_type": "user",
     "patch_links": [
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : Partholon",
       "1. 릴리즈 페이지로 이동 2. 가장 위에 있는 버전의 Assets 클릭하면 받을 수 있는 파일들이 나옴 3. 설명서에 적힌 파일을 다운"
     ]
   },
@@ -18020,12 +18022,12 @@
     "game_title": "Murasaki",
     "steam_link": "https://store.steampowered.com/app/392030",
     "source_site_url": "https://steamapp.net/app/392030",
-    "patch_type": "user",
+    "patch_type": "official",
     "patch_links": [
       "exist"
     ],
     "patch_descriptions": [
-      "제작자 : Rovre (로브르)"
+      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : Rovre (로브르)"
     ]
   },
   {
@@ -69838,6 +69840,28 @@
     ],
     "patch_descriptions": [
       "제작자 : 원아리"
+    ]
+  },
+  {
+    "app_id": "2162820",
+    "game_title": "무한미궁성",
+    "steam_link": "https://store.steampowered.com/app/2162820",
+    "source_site_url": "https://steamapp.net/app/2162820",
+    "patch_type": "official",
+    "patch_links": [],
+    "patch_descriptions": []
+  },
+  {
+    "app_id": "2839280",
+    "game_title": "Natsu-Mon: 20th Century Summer Kid",
+    "steam_link": "https://store.steampowered.com/app/2839280",
+    "source_site_url": "https://steamapp.net/app/2839280",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
     ]
   }
 ]
