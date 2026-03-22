@@ -82954,6 +82954,16 @@
       "quasarplay": "https://store.steampowered.com/app/1804010/?curator_clanid=42788178"
     }
   },
+  "1805240": {
+    "type": "official",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [],
+    "patch_descriptions": [],
+    "patch_sources": [],
+    "source_site_urls": {}
+  },
   "1805480": {
     "type": "official",
     "sources": [
@@ -85127,6 +85137,46 @@
     "source_site_urls": {
       "stove": "https://store.onstove.com/ko/games/2819"
     }
+  },
+  "1913620": {
+    "type": "official",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [],
+    "patch_descriptions": [],
+    "patch_sources": [],
+    "source_site_urls": {}
+  },
+  "1913670": {
+    "type": "official",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [],
+    "patch_descriptions": [],
+    "patch_sources": [],
+    "source_site_urls": {}
+  },
+  "1913680": {
+    "type": "official",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [],
+    "patch_descriptions": [],
+    "patch_sources": [],
+    "source_site_urls": {}
+  },
+  "1913690": {
+    "type": "official",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [],
+    "patch_descriptions": [],
+    "patch_sources": [],
+    "source_site_urls": {}
   },
   "1914580": {
     "type": "official",
@@ -93777,6 +93827,16 @@
     "patch_sources": [],
     "source_site_urls": {}
   },
+  "2488300": {
+    "type": "official",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [],
+    "patch_descriptions": [],
+    "patch_sources": [],
+    "source_site_urls": {}
+  },
   "2488370": {
     "type": "user",
     "sources": [
@@ -100236,6 +100296,24 @@
     "patch_sources": [],
     "source_site_urls": {}
   },
+  "2963800": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : 으잌"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://steamapp.net/app/2963800"
+    }
+  },
   "2965220": {
     "type": "user",
     "sources": [
@@ -102950,6 +103028,16 @@
     "source_site_urls": {
       "steamapp": "https://steamapp.net/app/3177920"
     }
+  },
+  "3180000": {
+    "type": "official",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [],
+    "patch_descriptions": [],
+    "patch_sources": [],
+    "source_site_urls": {}
   },
   "3183730": {
     "type": "user",
@@ -105957,6 +106045,24 @@
       "quasarplay": "https://store.steampowered.com/app/3456720/?curator_clanid=42788178"
     }
   },
+  "3468500": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : 희망의가위"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://steamapp.net/app/3468500"
+    }
+  },
   "3469850": {
     "type": "user",
     "sources": [
@@ -108377,6 +108483,16 @@
       "quasarplay": "https://store.steampowered.com/app/4021870/?curator_clanid=30894603"
     }
   },
+  "4027800": {
+    "type": "official",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [],
+    "patch_descriptions": [],
+    "patch_sources": [],
+    "source_site_urls": {}
+  },
   "4028600": {
     "type": "user",
     "sources": [
@@ -108515,6 +108631,16 @@
     "patch_sources": [],
     "source_site_urls": {}
   },
+  "4123530": {
+    "type": "official",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [],
+    "patch_descriptions": [],
+    "patch_sources": [],
+    "source_site_urls": {}
+  },
   "4123540": {
     "type": "official",
     "sources": [
@@ -108525,7 +108651,57 @@
     "patch_sources": [],
     "source_site_urls": {}
   },
+  "4123550": {
+    "type": "official",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [],
+    "patch_descriptions": [],
+    "patch_sources": [],
+    "source_site_urls": {}
+  },
   "4123570": {
+    "type": "official",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [],
+    "patch_descriptions": [],
+    "patch_sources": [],
+    "source_site_urls": {}
+  },
+  "4123580": {
+    "type": "official",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [],
+    "patch_descriptions": [],
+    "patch_sources": [],
+    "source_site_urls": {}
+  },
+  "4123630": {
+    "type": "official",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [],
+    "patch_descriptions": [],
+    "patch_sources": [],
+    "source_site_urls": {}
+  },
+  "4123670": {
+    "type": "official",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [],
+    "patch_descriptions": [],
+    "patch_sources": [],
+    "source_site_urls": {}
+  },
+  "4123700": {
     "type": "official",
     "sources": [
       "steamapp"
@@ -108772,7 +108948,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-03-20T21:09:34.821Z",
-    "total": 7203
+    "generated_at": "2026-03-22T21:08:29.813Z",
+    "total": 7219
   }
 }

@@ -69863,5 +69863,157 @@
     "patch_descriptions": [
       ""
     ]
+  },
+  {
+    "app_id": "2488300",
+    "game_title": "Assault Suit Leynos 2 Saturn Tribute",
+    "steam_link": "https://store.steampowered.com/app/2488300",
+    "source_site_url": "https://steamapp.net/app/2488300",
+    "patch_type": "official",
+    "patch_links": [],
+    "patch_descriptions": []
+  },
+  {
+    "app_id": "3180000",
+    "game_title": "Blades For Hire",
+    "steam_link": "https://store.steampowered.com/app/3180000",
+    "source_site_url": "https://steamapp.net/app/3180000",
+    "patch_type": "official",
+    "patch_links": [],
+    "patch_descriptions": []
+  },
+  {
+    "app_id": "1913690",
+    "game_title": "Cleopatra Fortune™ S-Tribute",
+    "steam_link": "https://store.steampowered.com/app/1913690",
+    "source_site_url": "https://steamapp.net/app/1913690",
+    "patch_type": "official",
+    "patch_links": [],
+    "patch_descriptions": []
+  },
+  {
+    "app_id": "4027800",
+    "game_title": "TENGAI",
+    "steam_link": "https://store.steampowered.com/app/4027800",
+    "source_site_url": "https://steamapp.net/app/4027800",
+    "patch_type": "official",
+    "patch_links": [],
+    "patch_descriptions": []
+  },
+  {
+    "app_id": "4123630",
+    "game_title": "Strikers 1945 3",
+    "steam_link": "https://store.steampowered.com/app/4123630",
+    "source_site_url": "https://steamapp.net/app/4123630",
+    "patch_type": "official",
+    "patch_links": [],
+    "patch_descriptions": []
+  },
+  {
+    "app_id": "4123580",
+    "game_title": "Strikers 1945 2",
+    "steam_link": "https://store.steampowered.com/app/4123580",
+    "source_site_url": "https://steamapp.net/app/4123580",
+    "patch_type": "official",
+    "patch_links": [],
+    "patch_descriptions": []
+  },
+  {
+    "app_id": "4123550",
+    "game_title": "GunBird - 2",
+    "steam_link": "https://store.steampowered.com/app/4123550",
+    "source_site_url": "https://steamapp.net/app/4123550",
+    "patch_type": "official",
+    "patch_links": [],
+    "patch_descriptions": []
+  },
+  {
+    "app_id": "4123700",
+    "game_title": "Dragon Blaze",
+    "steam_link": "https://store.steampowered.com/app/4123700",
+    "source_site_url": "https://steamapp.net/app/4123700",
+    "patch_type": "official",
+    "patch_links": [],
+    "patch_descriptions": []
+  },
+  {
+    "app_id": "4123670",
+    "game_title": "Sol Divide",
+    "steam_link": "https://store.steampowered.com/app/4123670",
+    "source_site_url": "https://steamapp.net/app/4123670",
+    "patch_type": "official",
+    "patch_links": [],
+    "patch_descriptions": []
+  },
+  {
+    "app_id": "4123530",
+    "game_title": "samurai aces III – sengoku cannon",
+    "steam_link": "https://store.steampowered.com/app/4123530",
+    "source_site_url": "https://steamapp.net/app/4123530",
+    "patch_type": "official",
+    "patch_links": [],
+    "patch_descriptions": []
+  },
+  {
+    "app_id": "1913620",
+    "game_title": "Puzzle Bobble™2X/BUST-A-MOVE™2 Arcade Edition & Puzzle Bobble™3/BUST-A-MOVE™3 S-Tribute",
+    "steam_link": "https://store.steampowered.com/app/1913620",
+    "source_site_url": "https://steamapp.net/app/1913620",
+    "patch_type": "official",
+    "patch_links": [],
+    "patch_descriptions": []
+  },
+  {
+    "app_id": "1913670",
+    "game_title": "Metal Black™ S-Tribute",
+    "steam_link": "https://store.steampowered.com/app/1913670",
+    "source_site_url": "https://steamapp.net/app/1913670",
+    "patch_type": "official",
+    "patch_links": [],
+    "patch_descriptions": []
+  },
+  {
+    "app_id": "1913680",
+    "game_title": "Elevator Action™ -Returns- S-Tribute",
+    "steam_link": "https://store.steampowered.com/app/1913680",
+    "source_site_url": "https://steamapp.net/app/1913680",
+    "patch_type": "official",
+    "patch_links": [],
+    "patch_descriptions": []
+  },
+  {
+    "app_id": "1805240",
+    "game_title": "Layer Section™ & Galactic Attack™ S-Tribute",
+    "steam_link": "https://store.steampowered.com/app/1805240",
+    "source_site_url": "https://steamapp.net/app/1805240",
+    "patch_type": "official",
+    "patch_links": [],
+    "patch_descriptions": []
+  },
+  {
+    "app_id": "2963800",
+    "game_title": "DrainSim",
+    "steam_link": "https://store.steampowered.com/app/2963800",
+    "source_site_url": "https://steamapp.net/app/2963800",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : 으잌"
+    ]
+  },
+  {
+    "app_id": "3468500",
+    "game_title": "My Waifu Becomes Real",
+    "steam_link": "https://store.steampowered.com/app/3468500",
+    "source_site_url": "https://steamapp.net/app/3468500",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : 희망의가위"
+    ]
   }
 ]
