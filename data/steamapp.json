@@ -28185,8 +28185,12 @@
     "steam_link": "https://store.steampowered.com/app/454410",
     "source_site_url": "https://steamapp.net/app/454410",
     "patch_type": "official",
-    "patch_links": [],
-    "patch_descriptions": []
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "(공식 한글 개선 패치) 제작자 : 심심한누군가"
+    ]
   },
   {
     "app_id": "327690",
@@ -63157,9 +63161,11 @@
     "patch_type": "user",
     "patch_links": [
       "exist",
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 짜짜",
       "",
       "백업용"
     ]
@@ -70014,6 +70020,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 희망의가위"
+    ]
+  },
+  {
+    "app_id": "553640",
+    "game_title": "ICEY",
+    "steam_link": "https://store.steampowered.com/app/553640",
+    "source_site_url": "https://steamapp.net/app/553640",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : 심심한누군가"
     ]
   }
 ]

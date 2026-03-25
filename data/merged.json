@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-03-22T21:08:29.813Z",
-    "total_with_steam_link": 7219,
+    "generated_at": "2026-03-25T21:13:08.081Z",
+    "total_with_steam_link": 7220,
     "total_without_steam_link": 21,
     "sources": [
       "steamapp",
@@ -519,7 +519,7 @@
     {
       "app_id": "3394770",
       "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/3394770/Menherarium/",
+      "steam_link": "https://store.steampowered.com/app/3394770/Deadly_Dice_Menherarium/",
       "patch_type": "user",
       "patch_links": [
         "exist"
@@ -47852,10 +47852,18 @@
       "game_title": "GIGA WRECKER",
       "steam_link": "https://store.steampowered.com/app/454410",
       "patch_type": "official",
-      "patch_links": [],
-      "patch_descriptions": [],
-      "patch_sources": [],
-      "source_site_urls": {},
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "(공식 한글 개선 패치) 제작자 : 심심한누군가"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://steamapp.net/app/454410"
+      },
       "sources": [
         "steamapp"
       ]
@@ -55167,6 +55175,27 @@
       "patch_descriptions": [],
       "patch_sources": [],
       "source_site_urls": {},
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "553640",
+      "game_title": "ICEY",
+      "steam_link": "https://store.steampowered.com/app/553640",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 심심한누군가"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://steamapp.net/app/553640"
+      },
       "sources": [
         "steamapp"
       ]
@@ -110436,14 +110465,17 @@
       "patch_links": [
         "exist",
         "exist",
+        "exist",
         "exist"
       ],
       "patch_descriptions": [
+        "제작자 : 짜짜",
         "",
         "백업용",
         "유저 한글 패치 - 짜짜\n유저 한글 패치 - 블루칩"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "steamapp",
         "quasarplay"
