@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-03-25T21:13:08.081Z",
-    "total_with_steam_link": 7220,
-    "total_without_steam_link": 21,
+    "generated_at": "2026-03-27T21:12:37.143Z",
+    "total_with_steam_link": 7222,
+    "total_without_steam_link": 20,
     "sources": [
       "steamapp",
       "quasarzone",
@@ -66518,6 +66518,30 @@
       ]
     },
     {
+      "app_id": "235460",
+      "game_title": "METAL GEAR RISING: REVENGEANCE",
+      "steam_link": "https://store.steampowered.com/app/235460",
+      "patch_type": "user",
+      "patch_links": [
+        "exist",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "원본 한글패치 : 팀 한글화의 궤적 / 영문기반 재번역: farnic",
+        "한글패치 : 팀 한글화의 궤적"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://steamapp.net/app/235460"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "287700",
       "game_title": "METAL GEAR SOLID V: THE PHANTOM PAIN",
       "steam_link": "https://store.steampowered.com/app/287700",
@@ -66794,7 +66818,7 @@
         "exist"
       ],
       "patch_descriptions": [
-        "제작자 : 으잌",
+        "제작자 : 뮤갤러",
         "제작자 : 뉴비분쇄기",
         "폰트 개선 패치",
         "제작자 : 마린돌프",
@@ -121900,6 +121924,27 @@
       ]
     },
     {
+      "app_id": "2288210",
+      "game_title": "삼국진용전",
+      "steam_link": "https://store.steampowered.com/app/2288210",
+      "patch_type": "official",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        ""
+      ],
+      "patch_sources": [
+        "stove"
+      ],
+      "source_site_urls": {
+        "stove": "https://store.onstove.com/ko/games/2180"
+      },
+      "sources": [
+        "stove"
+      ]
+    },
+    {
       "app_id": "1258080",
       "game_title": "샵 타이탄: 제작 및 건설",
       "steam_link": "https://store.steampowered.com/app/1258080",
@@ -130888,25 +130933,6 @@
       "source_site_urls": {},
       "sources": [
         "steamapp"
-      ]
-    },
-    {
-      "game_title": "삼국진용전",
-      "patch_type": "official",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        ""
-      ],
-      "patch_sources": [
-        "stove"
-      ],
-      "source_site_urls": {
-        "stove": "https://store.onstove.com/ko/games/2180"
-      },
-      "sources": [
-        "stove"
       ]
     },
     {

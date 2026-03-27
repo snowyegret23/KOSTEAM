@@ -69151,7 +69151,7 @@
       "exist"
     ],
     "patch_descriptions": [
-      "제작자 : 으잌",
+      "제작자 : 뮤갤러",
       "제작자 : 뉴비분쇄기",
       "폰트 개선 패치",
       "제작자 : 마린돌프",
@@ -70033,6 +70033,21 @@
     ],
     "patch_descriptions": [
       "제작자 : 심심한누군가"
+    ]
+  },
+  {
+    "app_id": "235460",
+    "game_title": "METAL GEAR RISING: REVENGEANCE",
+    "steam_link": "https://store.steampowered.com/app/235460",
+    "source_site_url": "https://steamapp.net/app/235460",
+    "patch_type": "user",
+    "patch_links": [
+      "exist",
+      "exist"
+    ],
+    "patch_descriptions": [
+      "원본 한글패치 : 팀 한글화의 궤적 / 영문기반 재번역: farnic",
+      "한글패치 : 팀 한글화의 궤적"
     ]
   }
 ]
