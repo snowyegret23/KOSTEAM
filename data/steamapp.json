@@ -1322,9 +1322,11 @@
     "source_site_url": "https://steamapp.net/app/3652650",
     "patch_type": "user",
     "patch_links": [
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 희망의가위",
       "데모판 한글화 제작자 : 희망의가위"
     ]
   },
@@ -17608,8 +17610,8 @@
       "exist"
     ],
     "patch_descriptions": [
-      "이미지를 다름 이름으로 저장 -> zip 형식으로 저장",
-      ""
+      "",
+      "이미지를 다름 이름으로 저장 -> zip 형식으로 저장"
     ]
   },
   {
@@ -70048,6 +70050,46 @@
     "patch_descriptions": [
       "원본 한글패치 : 팀 한글화의 궤적 / 영문기반 재번역: farnic",
       "한글패치 : 팀 한글화의 궤적"
+    ]
+  },
+  {
+    "app_id": "2407830",
+    "game_title": "고블린의 업사이클 공방",
+    "steam_link": "https://store.steampowered.com/app/2407830",
+    "source_site_url": "https://steamapp.net/app/2407830",
+    "patch_type": "official",
+    "patch_links": [],
+    "patch_descriptions": []
+  },
+  {
+    "app_id": "3070390",
+    "game_title": "Mr.Lemon",
+    "steam_link": "https://store.steampowered.com/app/3070390",
+    "source_site_url": "https://steamapp.net/app/3070390",
+    "patch_type": "official",
+    "patch_links": [],
+    "patch_descriptions": []
+  },
+  {
+    "app_id": "1997660",
+    "game_title": "GreedFall: The Dying World",
+    "steam_link": "https://store.steampowered.com/app/1997660",
+    "source_site_url": "https://steamapp.net/app/1997660",
+    "patch_type": "official",
+    "patch_links": [],
+    "patch_descriptions": []
+  },
+  {
+    "app_id": "2166050",
+    "game_title": "Moonleap",
+    "steam_link": "https://store.steampowered.com/app/2166050",
+    "source_site_url": "https://steamapp.net/app/2166050",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : 버섯순이 본편 , 데모 한글화"
     ]
   }
 ]

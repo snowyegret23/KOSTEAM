@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-03-27T21:12:37.143Z",
-    "total_with_steam_link": 7222,
+    "generated_at": "2026-03-29T21:10:09.759Z",
+    "total_with_steam_link": 7226,
     "total_without_steam_link": 20,
     "sources": [
       "steamapp",
@@ -49209,6 +49209,19 @@
       ]
     },
     {
+      "app_id": "1997660",
+      "game_title": "GreedFall: The Dying World",
+      "steam_link": "https://store.steampowered.com/app/1997660",
+      "patch_type": "official",
+      "patch_links": [],
+      "patch_descriptions": [],
+      "patch_sources": [],
+      "source_site_urls": {},
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "732820",
       "game_title": "Green Blood",
       "steam_link": "https://store.steampowered.com/app/732820",
@@ -68718,6 +68731,27 @@
       ]
     },
     {
+      "app_id": "2166050",
+      "game_title": "Moonleap",
+      "steam_link": "https://store.steampowered.com/app/2166050",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 버섯순이 본편 , 데모 한글화"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://steamapp.net/app/2166050"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "2951340",
       "game_title": "Moonless Moon",
       "steam_link": "https://store.steampowered.com/app/2951340",
@@ -69425,8 +69459,8 @@
         "exist"
       ],
       "patch_descriptions": [
-        "이미지를 다름 이름으로 저장 -> zip 형식으로 저장",
         "",
+        "이미지를 다름 이름으로 저장 -> zip 형식으로 저장",
         "유저 한글 패치 - LunaYоumu\n유저 한글 패치"
       ],
       "patch_sources": [
@@ -69467,6 +69501,19 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "3070390",
+      "game_title": "Mr.Lemon",
+      "steam_link": "https://store.steampowered.com/app/3070390",
+      "patch_type": "official",
+      "patch_links": [],
+      "patch_descriptions": [],
+      "patch_sources": [],
+      "source_site_urls": {},
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -119103,6 +119150,19 @@
       ]
     },
     {
+      "app_id": "2407830",
+      "game_title": "고블린의 업사이클 공방",
+      "steam_link": "https://store.steampowered.com/app/2407830",
+      "patch_type": "official",
+      "patch_links": [],
+      "patch_descriptions": [],
+      "patch_sources": [],
+      "source_site_urls": {},
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "1524230",
       "game_title": "공포의 임상시험",
       "steam_link": "https://store.steampowered.com/app/1524230",
@@ -128694,12 +128754,15 @@
       "steam_link": "https://store.steampowered.com/app/3652650",
       "patch_type": "user",
       "patch_links": [
+        "exist",
         "exist"
       ],
       "patch_descriptions": [
+        "제작자 : 희망의가위",
         "데모판 한글화 제작자 : 희망의가위"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp"
       ],
       "source_site_urls": {
