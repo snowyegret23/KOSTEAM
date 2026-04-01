@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-01T15:36:02.893Z",
-    "total_with_steam_link": 3068,
+    "generated_at": "2026-04-01T15:52:30.306Z",
+    "total_with_steam_link": 3069,
     "total_without_steam_link": 8,
     "sources": [
       "steamapp",
@@ -8844,7 +8844,7 @@
       "patch_type": "official",
       "patch_links": [],
       "patch_descriptions": [
-        "October 11, 2023"
+        "공식 한국어 지원 추가"
       ],
       "patch_sources": [
         "quasarplay"
@@ -11572,6 +11572,27 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/253530/?curator_clanid=42788178"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "39160",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/901638/Dungeon_Siege_III/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한국어 패치"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/901638/?curator_clanid=42788178"
       },
       "sources": [
         "quasarplay"
@@ -47706,24 +47727,19 @@
       "steam_link": "https://store.steampowered.com/app/12140",
       "patch_type": "user",
       "patch_links": [
-        "exist",
         "exist"
       ],
       "patch_descriptions": [
-        "",
-        "유저 한국어 패치 -"
+        ""
       ],
       "patch_sources": [
-        "steamapp",
-        "quasarplay"
+        "steamapp"
       ],
       "source_site_urls": {
-        "steamapp": "https://hanpe.net/app/4orgv0/max-payne",
-        "quasarplay": "https://store.steampowered.com/app/12140/?curator_clanid=42788178"
+        "steamapp": "https://hanpe.net/app/4orgv0/max-payne"
       },
       "sources": [
-        "steamapp",
-        "quasarplay"
+        "steamapp"
       ]
     },
     {
@@ -71950,7 +71966,7 @@
       ],
       "patch_descriptions": [
         "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다)",
-        "August 16, 2022"
+        "옵션에서 한국어 선택 가능"
       ],
       "patch_sources": [
         "steamapp",

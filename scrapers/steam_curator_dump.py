@@ -60,7 +60,9 @@ def is_date_like(text: str) -> bool:
     if len(t) > 32:
         return False
     months = r"(January|February|March|April|May|June|July|August|September|October|November|December)"
-    if re.match(rf"^\d{{1,2}}\s+{months}(,\s*\d{{4}})?$", t):
+    if re.match(rf"^\d{{1,2}}\s+{months}(,?\s*\d{{4}})?$", t):
+        return True
+    if re.match(rf"^{months}\s+\d{{1,2}},?\s*\d{{4}}$", t):
         return True
     if re.match(r"^\d{4}-\d{2}-\d{2}$", t):
         return True
