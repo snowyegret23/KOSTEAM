@@ -109,7 +109,8 @@ async function main() {
       const siteUrl = entry.source_site_url || entry.stove_url || entry.directg_url;
       const hasLinks = entryLinks.length > 0;
       const isCuratorSource = source === 'quasarplay';
-      const shouldIncludeSiteUrl = !!(siteUrl && ((entry.patch_type || 'user') !== 'official' || hasLinks || isCuratorSource));
+      const isSteamapp = source === 'steamapp';
+      const shouldIncludeSiteUrl = !!(siteUrl && ((entry.patch_type || 'user') !== 'official' || hasLinks || isCuratorSource || isSteamapp));
 
       let appId = normalizeAppId(entry.app_id) || extractAppIdFromLink(entry.steam_link);
 

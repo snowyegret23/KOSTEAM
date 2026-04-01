@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-04-01T12:25:24.177Z",
+    "generated_at": "2026-04-01T14:54:13.723Z",
     "total_with_steam_link": 3068,
     "total_without_steam_link": 8,
     "sources": [
@@ -13676,7 +13676,9 @@
       "patch_links": [],
       "patch_descriptions": [],
       "patch_sources": [],
-      "source_site_urls": {},
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l27kq5/%EB%84%A5%EC%86%8C%EB%AA%AC-%EB%A9%B8%EC%A2%85"
+      },
       "sources": [
         "steamapp"
       ]
@@ -20230,7 +20232,9 @@
       "patch_links": [],
       "patch_descriptions": [],
       "patch_sources": [],
-      "source_site_urls": {},
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jpv5dk/%E4%BE%A6%E6%8E%A2%E8%AF%B7%E5%AE%88%E6%8A%A4%E6%88%91%E7%9A%84%E7%A7%98%E5%AF%86%E5%90%A7"
+      },
       "sources": [
         "steamapp"
       ]
@@ -21586,7 +21590,9 @@
       "patch_links": [],
       "patch_descriptions": [],
       "patch_sources": [],
-      "source_site_urls": {},
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j02mr6/age-of-empires-ii-retired"
+      },
       "sources": [
         "steamapp"
       ]
@@ -21834,7 +21840,9 @@
       "patch_links": [],
       "patch_descriptions": [],
       "patch_sources": [],
-      "source_site_urls": {},
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jv5oo8/akibas-trip-undead-undressed"
+      },
       "sources": [
         "steamapp"
       ]
@@ -25210,7 +25218,9 @@
       "patch_links": [],
       "patch_descriptions": [],
       "patch_sources": [],
-      "source_site_urls": {},
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4g26p0/battle-for-wesnoth"
+      },
       "sources": [
         "steamapp"
       ]
@@ -25805,7 +25815,9 @@
       "patch_links": [],
       "patch_descriptions": [],
       "patch_sources": [],
-      "source_site_urls": {},
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4ydpzw/bingle-bingle-%EB%B9%99%EA%B8%80%EB%B9%99%EA%B8%80"
+      },
       "sources": [
         "steamapp"
       ]
@@ -26425,7 +26437,9 @@
       "patch_links": [],
       "patch_descriptions": [],
       "patch_sources": [],
-      "source_site_urls": {},
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jwz1z7/blade-of-darkness"
+      },
       "sources": [
         "steamapp"
       ]
@@ -27203,6 +27217,7 @@
         "stove"
       ],
       "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j52n13/bpm-bullets-per-minute",
         "quasarplay": "https://store.steampowered.com/app/1286350/?curator_clanid=42788178",
         "stove": "https://store.onstove.com/ko/games/287"
       },
@@ -29118,7 +29133,9 @@
       "patch_links": [],
       "patch_descriptions": [],
       "patch_sources": [],
-      "source_site_urls": {},
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j5kkg3/cities-skylines"
+      },
       "sources": [
         "steamapp"
       ]
@@ -35601,6 +35618,7 @@
         "quasarplay"
       ],
       "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j86en8/evoland-2",
         "quasarplay": "https://store.steampowered.com/app/359310/?curator_clanid=42788178"
       },
       "sources": [
@@ -37590,7 +37608,9 @@
       "patch_links": [],
       "patch_descriptions": [],
       "patch_sources": [],
-      "source_site_urls": {},
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jnkk5k/foundry"
+      },
       "sources": [
         "steamapp"
       ]
@@ -37681,7 +37701,9 @@
       "patch_links": [],
       "patch_descriptions": [],
       "patch_sources": [],
-      "source_site_urls": {},
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jpqxzo/from-glory-to-goo"
+      },
       "sources": [
         "steamapp"
       ]
@@ -37853,7 +37875,9 @@
       "patch_links": [],
       "patch_descriptions": [],
       "patch_sources": [],
-      "source_site_urls": {},
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4e6w7y/full-spectrum-warrior"
+      },
       "sources": [
         "steamapp"
       ]
@@ -38670,7 +38694,9 @@
       "patch_links": [],
       "patch_descriptions": [],
       "patch_sources": [],
-      "source_site_urls": {},
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4q0ko9/gone-in-november"
+      },
       "sources": [
         "steamapp"
       ]
@@ -46669,7 +46695,9 @@
       "patch_links": [],
       "patch_descriptions": [],
       "patch_sources": [],
-      "source_site_urls": {},
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j0km27/lovechoice-%E6%8B%A3%E7%88%B1"
+      },
       "sources": [
         "steamapp"
       ]
@@ -48817,7 +48845,9 @@
       "patch_links": [],
       "patch_descriptions": [],
       "patch_sources": [],
-      "source_site_urls": {},
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j8ydnk/mirthwood"
+      },
       "sources": [
         "steamapp"
       ]
@@ -50710,7 +50740,9 @@
       "patch_links": [],
       "patch_descriptions": [],
       "patch_sources": [],
-      "source_site_urls": {},
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/lzz0p1/nexomon"
+      },
       "sources": [
         "steamapp"
       ]
@@ -53477,7 +53509,9 @@
       "patch_links": [],
       "patch_descriptions": [],
       "patch_sources": [],
-      "source_site_urls": {},
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4r1qqg/petit-game-collection-vol1"
+      },
       "sources": [
         "steamapp"
       ]
@@ -53953,7 +53987,9 @@
       "patch_links": [],
       "patch_descriptions": [],
       "patch_sources": [],
-      "source_site_urls": {},
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jdqgx2/please-be-happy"
+      },
       "sources": [
         "steamapp"
       ]
@@ -57153,7 +57189,9 @@
       "patch_links": [],
       "patch_descriptions": [],
       "patch_sources": [],
-      "source_site_urls": {},
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4onde0/roto-force"
+      },
       "sources": [
         "steamapp"
       ]
@@ -59115,7 +59153,9 @@
       "patch_links": [],
       "patch_descriptions": [],
       "patch_sources": [],
-      "source_site_urls": {},
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jw7000/she-sees-red-interactive-movie"
+      },
       "sources": [
         "steamapp"
       ]
@@ -59716,7 +59756,9 @@
       "patch_links": [],
       "patch_descriptions": [],
       "patch_sources": [],
-      "source_site_urls": {},
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j8vwdr/sisters_possession1"
+      },
       "sources": [
         "steamapp"
       ]
@@ -59729,7 +59771,9 @@
       "patch_links": [],
       "patch_descriptions": [],
       "patch_sources": [],
-      "source_site_urls": {},
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l3v1kz/sisters_possession2"
+      },
       "sources": [
         "steamapp"
       ]
@@ -60452,7 +60496,9 @@
       "patch_links": [],
       "patch_descriptions": [],
       "patch_sources": [],
-      "source_site_urls": {},
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4ggkng/song-of-horror-complete-edition"
+      },
       "sources": [
         "steamapp"
       ]
@@ -62406,7 +62452,9 @@
       "patch_links": [],
       "patch_descriptions": [],
       "patch_sources": [],
-      "source_site_urls": {},
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l3z8w7/stormworks-build-and-rescue"
+      },
       "sources": [
         "steamapp"
       ]
@@ -66000,6 +66048,7 @@
         "directg"
       ],
       "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l3yxoz/the-evil-within",
         "quasarplay": "https://store.steampowered.com/app/268050/?curator_clanid=42788178",
         "directg": "https://www.directg.net/game/game_view.html?product_id=6b55d37f-d9fa-4395-ba05-a9e2c7b1d890&sku=93840b7b-ff31-4053-b318-05f5b192a04f&platform=1"
       },
@@ -66150,7 +66199,9 @@
       "patch_links": [],
       "patch_descriptions": [],
       "patch_sources": [],
-      "source_site_urls": {},
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4g317g/the-fear-business"
+      },
       "sources": [
         "steamapp"
       ]
@@ -69655,7 +69706,9 @@
       "patch_links": [],
       "patch_descriptions": [],
       "patch_sources": [],
-      "source_site_urls": {},
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jwq2v0/time-mysteries-3-the-final-enigma"
+      },
       "sources": [
         "steamapp"
       ]
@@ -71663,6 +71716,7 @@
       "patch_descriptions": [],
       "patch_sources": [],
       "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jme2p5/valheim",
         "quasarplay": "https://store.steampowered.com/app/892970/?curator_clanid=42788178"
       },
       "sources": [
@@ -75113,7 +75167,9 @@
       "patch_links": [],
       "patch_descriptions": [],
       "patch_sources": [],
-      "source_site_urls": {},
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/41739q/%E3%82%A4%E3%83%AB%E3%83%89%E3%83%BC"
+      },
       "sources": [
         "steamapp"
       ]

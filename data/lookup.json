@@ -512,7 +512,9 @@
     "links": [],
     "patch_descriptions": [],
     "patch_sources": [],
-    "source_site_urls": {}
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4e6w7y/full-spectrum-warrior"
+    }
   },
   "4570": {
     "type": "user",
@@ -6502,7 +6504,9 @@
     "links": [],
     "patch_descriptions": [],
     "patch_sources": [],
-    "source_site_urls": {}
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j02mr6/age-of-empires-ii-retired"
+    }
   },
   "221810": {
     "type": "user",
@@ -9306,7 +9310,9 @@
     "links": [],
     "patch_descriptions": [],
     "patch_sources": [],
-    "source_site_urls": {}
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j5kkg3/cities-skylines"
+    }
   },
   "256290": {
     "type": "user",
@@ -9854,6 +9860,7 @@
       "directg"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/l3yxoz/the-evil-within",
       "quasarplay": "https://store.steampowered.com/app/268050/?curator_clanid=42788178",
       "directg": "https://www.directg.net/game/game_view.html?product_id=6b55d37f-d9fa-4395-ba05-a9e2c7b1d890&sku=93840b7b-ff31-4053-b318-05f5b192a04f&platform=1"
     }
@@ -12136,7 +12143,9 @@
     "links": [],
     "patch_descriptions": [],
     "patch_sources": [],
-    "source_site_urls": {}
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jwq2v0/time-mysteries-3-the-final-enigma"
+    }
   },
   "319630": {
     "type": "user",
@@ -12861,7 +12870,9 @@
     "links": [],
     "patch_descriptions": [],
     "patch_sources": [],
-    "source_site_urls": {}
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jv5oo8/akibas-trip-undead-undressed"
+    }
   },
   "335420": {
     "type": "user",
@@ -13709,6 +13720,7 @@
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j86en8/evoland-2",
       "quasarplay": "https://store.steampowered.com/app/359310/?curator_clanid=42788178"
     }
   },
@@ -19283,7 +19295,9 @@
     "links": [],
     "patch_descriptions": [],
     "patch_sources": [],
-    "source_site_urls": {}
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4q0ko9/gone-in-november"
+    }
   },
   "510490": {
     "type": "user",
@@ -20867,7 +20881,9 @@
     "links": [],
     "patch_descriptions": [],
     "patch_sources": [],
-    "source_site_urls": {}
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/l3z8w7/stormworks-build-and-rescue"
+    }
   },
   "573100": {
     "type": "user",
@@ -21695,7 +21711,9 @@
     "links": [],
     "patch_descriptions": [],
     "patch_sources": [],
-    "source_site_urls": {}
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4g26p0/battle-for-wesnoth"
+    }
   },
   "599460": {
     "type": "user",
@@ -25966,7 +25984,9 @@
     "links": [],
     "patch_descriptions": [],
     "patch_sources": [],
-    "source_site_urls": {}
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jdqgx2/please-be-happy"
+    }
   },
   "845070": {
     "type": "user",
@@ -26871,6 +26891,7 @@
     "patch_descriptions": [],
     "patch_sources": [],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jme2p5/valheim",
       "quasarplay": "https://store.steampowered.com/app/892970/?curator_clanid=42788178"
     }
   },
@@ -27602,7 +27623,9 @@
     "links": [],
     "patch_descriptions": [],
     "patch_sources": [],
-    "source_site_urls": {}
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j0km27/lovechoice-%E6%8B%A3%E7%88%B1"
+    }
   },
   "939520": {
     "type": "user",
@@ -28395,7 +28418,9 @@
     "links": [],
     "patch_descriptions": [],
     "patch_sources": [],
-    "source_site_urls": {}
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jnkk5k/foundry"
+    }
   },
   "984800": {
     "type": "user",
@@ -30110,7 +30135,9 @@
     "links": [],
     "patch_descriptions": [],
     "patch_sources": [],
-    "source_site_urls": {}
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jw7000/she-sees-red-interactive-movie"
+    }
   },
   "1082710": {
     "type": "user",
@@ -30582,7 +30609,9 @@
     "links": [],
     "patch_descriptions": [],
     "patch_sources": [],
-    "source_site_urls": {}
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4ggkng/song-of-horror-complete-edition"
+    }
   },
   "1097430": {
     "type": "official",
@@ -32592,7 +32621,9 @@
     "links": [],
     "patch_descriptions": [],
     "patch_sources": [],
-    "source_site_urls": {}
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4onde0/roto-force"
+    }
   },
   "1183800": {
     "type": "user",
@@ -32843,7 +32874,9 @@
     "links": [],
     "patch_descriptions": [],
     "patch_sources": [],
-    "source_site_urls": {}
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/lzz0p1/nexomon"
+    }
   },
   "1192440": {
     "type": "user",
@@ -32876,7 +32909,9 @@
     "links": [],
     "patch_descriptions": [],
     "patch_sources": [],
-    "source_site_urls": {}
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/l27kq5/%EB%84%A5%EC%86%8C%EB%AA%AC-%EB%A9%B8%EC%A2%85"
+    }
   },
   "1196800": {
     "type": "official",
@@ -34520,6 +34555,7 @@
       "stove"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j52n13/bpm-bullets-per-minute",
       "quasarplay": "https://store.steampowered.com/app/1286350/?curator_clanid=42788178",
       "stove": "https://store.onstove.com/ko/games/287"
     }
@@ -41873,7 +41909,9 @@
     "links": [],
     "patch_descriptions": [],
     "patch_sources": [],
-    "source_site_urls": {}
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jwz1z7/blade-of-darkness"
+    }
   },
   "1714040": {
     "type": "official",
@@ -45527,7 +45565,9 @@
     "links": [],
     "patch_descriptions": [],
     "patch_sources": [],
-    "source_site_urls": {}
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j8vwdr/sisters_possession1"
+    }
   },
   "1944060": {
     "type": "official",
@@ -45837,7 +45877,9 @@
     "links": [],
     "patch_descriptions": [],
     "patch_sources": [],
-    "source_site_urls": {}
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/l3v1kz/sisters_possession2"
+    }
   },
   "1966420": {
     "type": "user",
@@ -49635,7 +49677,9 @@
     "links": [],
     "patch_descriptions": [],
     "patch_sources": [],
-    "source_site_urls": {}
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j8ydnk/mirthwood"
+    }
   },
   "2273430": {
     "type": "official",
@@ -54047,7 +54091,9 @@
     "links": [],
     "patch_descriptions": [],
     "patch_sources": [],
-    "source_site_urls": {}
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jpqxzo/from-glory-to-goo"
+    }
   },
   "2612700": {
     "type": "user",
@@ -55776,7 +55822,9 @@
     "links": [],
     "patch_descriptions": [],
     "patch_sources": [],
-    "source_site_urls": {}
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4r1qqg/petit-game-collection-vol1"
+    }
   },
   "2758000": {
     "type": "official",
@@ -56158,7 +56206,9 @@
     "links": [],
     "patch_descriptions": [],
     "patch_sources": [],
-    "source_site_urls": {}
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4ydpzw/bingle-bingle-%EB%B9%99%EA%B8%80%EB%B9%99%EA%B8%80"
+    }
   },
   "2794330": {
     "type": "user",
@@ -57091,7 +57141,9 @@
     "links": [],
     "patch_descriptions": [],
     "patch_sources": [],
-    "source_site_urls": {}
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4g317g/the-fear-business"
+    }
   },
   "2864560": {
     "type": "official",
@@ -63157,7 +63209,9 @@
     "links": [],
     "patch_descriptions": [],
     "patch_sources": [],
-    "source_site_urls": {}
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jpv5dk/%E4%BE%A6%E6%8E%A2%E8%AF%B7%E5%AE%88%E6%8A%A4%E6%88%91%E7%9A%84%E7%A7%98%E5%AF%86%E5%90%A7"
+    }
   },
   "3391830": {
     "type": "user",
@@ -64364,7 +64418,9 @@
     "links": [],
     "patch_descriptions": [],
     "patch_sources": [],
-    "source_site_urls": {}
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/41739q/%E3%82%A4%E3%83%AB%E3%83%89%E3%83%BC"
+    }
   },
   "3564650": {
     "type": "user",
@@ -66549,7 +66605,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-04-01T12:25:24.177Z",
+    "generated_at": "2026-04-01T14:54:13.723Z",
     "total": 3068
   }
 }
