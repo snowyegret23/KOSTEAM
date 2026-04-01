@@ -24,13 +24,3 @@ export function isValidUrl(url) {
         return false;
     }
 }
-
-/**
- * Sanitizes a URL, returning null if invalid
- *
- * @param {string} url - URL to sanitize
- * @returns {string|null} Sanitized URL or null if invalid
- */
-export function sanitizeUrl(url) {
-    return isValidUrl(url) ? url : null;
-}

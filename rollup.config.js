@@ -46,7 +46,6 @@ function createConfig(browser) {
                     },
                     // Copy shared static files
                     { src: `${staticDir}/popup.html`, dest: outputDir },
-                    { src: `${staticDir}/options.html`, dest: outputDir },
                     { src: `${staticDir}/popup.css`, dest: outputDir },
                     { src: `${staticDir}/styles.css`, dest: outputDir },
                     { src: `${staticDir}/cart.css`, dest: outputDir },

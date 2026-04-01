@@ -56,7 +56,8 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
         if (!raw) return null;
         try {
             return JSON.parse(raw);
-        } catch {
+        } catch (err) {
+            console.debug('[KOSTEAM] JSON parse error:', err);
             return null;
         }
     }
@@ -363,7 +364,6 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
                     remainingPackageIds.delete(subId);
                     const matchedIndex = lineItemInfos.findIndex(info => info.packageId === subId);
                     if (matchedIndex >= 0) usedLineItemIndices.add(matchedIndex);
-                    const name = extractItemName(item)?.substring(0, 20);
                 }
                 continue;
             }
@@ -377,7 +377,6 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
                 remainingPackageIds.delete(resolvedPackageId);
                 const matchedIndex = lineItemInfos.findIndex(info => info.packageId === resolvedPackageId);
                 if (matchedIndex >= 0) usedLineItemIndices.add(matchedIndex);
-                const name = extractItemName(item)?.substring(0, 20);
             }
         }
 
@@ -400,8 +399,6 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
 
                 map.set(item, cartInfo);
                 usedLineItemIndices.add(nextAvailableIndex);
-
-                const name = extractItemName(item)?.substring(0, 20);
                 nextAvailableIndex++;
             }
         }
@@ -597,9 +594,11 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
             // 새 형식: removedItems 배열만 사용
             const removedItems = Array.isArray(parsed.removedItems) ? parsed.removedItems : [];
             const savedWithSelection = parsed.savedWithSelection === true;
+            const autoRestore = parsed.autoRestore === true;
 
-            return { removedItems, savedWithSelection };
-        } catch {
+            return { removedItems, savedWithSelection, autoRestore };
+        } catch (err) {
+            console.debug('[KOSTEAM] Snapshot parse error:', err);
             return null;
         }
     }
@@ -634,7 +633,8 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
                 } else {
                     failed++;
                 }
-            } catch {
+            } catch (err) {
+                console.debug('[KOSTEAM] Wishlist add error:', err);
                 failed++;
             }
         }
@@ -697,8 +697,7 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
         const wishlistAllButton = createButton('전부 찜 목록에 추가', 'kosteam-cart-wishlist-all-btn');
         const wishlistSelectedButton = createButton('선택항목을 찜 목록에 추가', 'kosteam-cart-wishlist-selected-btn');
         const jsonButton = createButton('JSON 저장', 'kosteam-cart-json-btn');
-        const keepButton = createButton('선택항목만 남기기', 'kosteam-cart-keep-btn');
-        const restoreButton = createButton('복원', 'kosteam-cart-restore-btn');
+        const jsonImportButton = createButton('JSON 불러오기', 'kosteam-cart-json-import-btn');
 
         // Event handlers
         checkbox.addEventListener('change', () => {
@@ -718,16 +717,14 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
         wishlistAllButton.addEventListener('click', handleSendAllToWishlist);
         wishlistSelectedButton.addEventListener('click', handleSendSelectedToWishlist);
         jsonButton.addEventListener('click', handleJsonExport);
-        keepButton.addEventListener('click', handleKeepSelected);
-        restoreButton.addEventListener('click', handleRestore);
+        jsonImportButton.addEventListener('click', handleJsonImport);
 
         bar.appendChild(label);
         bar.appendChild(total);
         bar.appendChild(wishlistAllButton);
         bar.appendChild(wishlistSelectedButton);
         bar.appendChild(jsonButton);
-        bar.appendChild(keepButton);
-        bar.appendChild(restoreButton);
+        bar.appendChild(jsonImportButton);
         document.body.appendChild(bar);
         return bar;
     }
@@ -757,13 +754,83 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
         downloadJson(exportData, `steam-cart-${date}`);
     }
 
-    async function handleKeepSelected(e) {
+    async function handleJsonImport(e) {
+        e.preventDefault();
+        e.stopPropagation();
+
+        const input = document.createElement('input');
+        input.type = 'file';
+        input.accept = '.json';
+        input.style.display = 'none';
+
+        input.addEventListener('change', async () => {
+            const file = input.files?.[0];
+            if (!file) return;
+
+            let data;
+            try {
+                const text = await file.text();
+                data = JSON.parse(text);
+            } catch (err) {
+                console.debug('[KOSTEAM] JSON import parse error:', err);
+                if (!DISABLE_CART_DIALOGS) {
+                    window.alert('JSON 파일을 읽을 수 없습니다.');
+                }
+                return;
+            }
+
+            const items = data?.items;
+            if (!Array.isArray(items) || items.length === 0) {
+                if (!DISABLE_CART_DIALOGS) {
+                    window.alert('유효한 장바구니 데이터가 없습니다.');
+                }
+                return;
+            }
+
+            const restoreItems = items
+                .map(item => {
+                    if (item.type === 'bundle' && item.bundleId) {
+                        return { id: Number(item.bundleId), type: 'bundle' };
+                    }
+                    if (item.packageId) {
+                        return { id: Number(item.packageId), type: 'package' };
+                    }
+                    return null;
+                })
+                .filter(item => item && item.id > 0);
+
+            if (restoreItems.length === 0) {
+                if (!DISABLE_CART_DIALOGS) {
+                    window.alert('장바구니에 추가할 수 있는 항목이 없습니다. (packageId 또는 bundleId 필요)');
+                }
+                return;
+            }
+
+            const names = items.map(i => i.name || '?').join(', ');
+            if (!DISABLE_CART_DIALOGS) {
+                if (!window.confirm(`${restoreItems.length}개 항목을 장바구니에 추가할까요?\n${names}`)) return;
+            }
+
+            const result = await restoreItemsToCart(restoreItems);
+            if (result?.success) {
+                if (!DISABLE_CART_DIALOGS) {
+                    window.alert('장바구니에 추가했습니다. 곧 자동 새로고침합니다.');
+                }
+                setTimeout(() => window.location.reload(), 3000);
+            }
+        });
+
+        document.body.appendChild(input);
+        input.click();
+        document.body.removeChild(input);
+    }
+
+    async function handleBuySelected(e) {
         e.preventDefault();
         e.stopPropagation();
 
         const items = findCartItems();
 
-        // DOM과 API 데이터 동기화 확인
         if (!validateCartSync(items.length)) {
             if (!DISABLE_CART_DIALOGS) {
                 window.alert('장바구니 항목 수가 일치하지 않습니다. 새로고침 후 다시 시도해 주세요.');
@@ -771,10 +838,7 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
             return;
         }
 
-        // 매핑 수행
         const cartInfoMap = await mapDomItemsToCartInfo(items);
-
-        // 체크된 항목과 체크되지 않은 항목 분류
         const checkedItems = [];
         const uncheckedItems = [];
 
@@ -798,13 +862,11 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
         }
 
         if (uncheckedItems.length === 0) {
-            if (!DISABLE_CART_DIALOGS) {
-                window.alert('모든 항목이 선택되어 있습니다. 제거할 항목이 없습니다.');
-            }
+            // 전부 선택됨 → 그냥 결제 페이지로
+            window.location.href = 'https://store.steampowered.com/checkout/';
             return;
         }
 
-        // 제거할 항목의 cart info 추출
         const itemsToRemove = uncheckedItems
             .map(item => item.cartInfo)
             .filter(info => info?.id > 0);
@@ -816,31 +878,23 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
             return;
         }
 
-        // 확인 메시지
-        const keepNames = checkedItems.map(i => i.name).join(', ');
-        const removeNames = uncheckedItems.map(i => i.name).join(', ');
-
-        if (!DISABLE_CART_DIALOGS) {
-            if (!window.confirm(`[유지] ${keepNames}\n\n[제거] ${removeNames}\n\n제거할까요? (복원 버튼으로 되돌릴 수 있습니다)`)) {
-                return;
-            }
-        }
-
-        // 스냅샷 저장
+        // 스냅샷 저장 (자동 복원 플래그 포함)
         saveSnapshot({
             removedItems: itemsToRemove,
-            savedWithSelection: true
+            savedWithSelection: true,
+            autoRestore: true
         });
 
-        // DOM에서 체크되지 않은 항목 제거 (역순으로)
+        // DOM에서 미선택 항목 제거
         for (let i = uncheckedItems.length - 1; i >= 0; i--) {
             const removeButton = findRemoveButton(uncheckedItems[i].element);
             removeButton?.click();
         }
 
-        if (!DISABLE_CART_DIALOGS) {
-            window.alert(`${itemsToRemove.length}개 항목을 제거했습니다.\n복원 버튼으로 되돌릴 수 있습니다.`);
-        }
+        // 제거 반영 대기 후 결제 페이지로 이동
+        setTimeout(() => {
+            window.location.href = 'https://store.steampowered.com/checkout/';
+        }, 1500);
     }
 
     async function handleSendAllToWishlist(e) {
@@ -907,54 +961,6 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
         }
     }
 
-    async function handleRestore(e) {
-        e.preventDefault();
-        e.stopPropagation();
-
-        const snapshot = getSnapshot();
-        if (!snapshot?.savedWithSelection || !snapshot.removedItems?.length) {
-            if (!DISABLE_CART_DIALOGS) {
-                window.alert('복원할 저장 데이터가 없습니다. 먼저 "선택항목만 남기기"를 사용해 주세요.');
-            }
-            return;
-        }
-
-        const itemsToRestore = snapshot.removedItems;
-
-        // 현재 장바구니에 이미 있는 항목 제외
-        const currentCartItems = getCartItemsWithType();
-        const currentCartIds = new Set(currentCartItems.map(i => `${i.type}:${i.id}`));
-        const restoreItems = itemsToRestore.filter(item => !currentCartIds.has(`${item.type}:${item.id}`));
-
-        if (restoreItems.length === 0) {
-            if (!DISABLE_CART_DIALOGS) {
-                window.alert('복원할 항목이 없습니다. (이미 장바구니에 있거나 저장된 항목이 없음)');
-            }
-            return;
-        }
-
-        // 복원할 항목 표시
-        const restoreInfo = restoreItems.map(item =>
-            `${item.type === 'bundle' ? 'bundle' : 'pkg'}:${item.id}`
-        ).join(', ');
-
-        if (!DISABLE_CART_DIALOGS) {
-            if (!window.confirm(`다음 항목을 복원할까요?\n${restoreInfo}`)) return;
-        }
-
-        const result = await restoreItemsToCart(restoreItems);
-        if (result?.success) {
-            // 복원 성공 시 스냅샷 삭제
-            localStorage.removeItem(SNAPSHOT_STORAGE_KEY);
-            if (!DISABLE_CART_DIALOGS) {
-                window.alert(result.opaque
-                    ? '복원 요청을 전송했습니다. 반영까지 몇 초 걸릴 수 있어요. 곧 자동 새로고침합니다.'
-                    : '복원 요청을 보냈습니다. 곧 자동 새로고침합니다.');
-            }
-            setTimeout(() => window.location.reload(), 3000);
-        }
-    }
-
     // ========== UI State Management ==========
 
     function updateSelectAllState() {
@@ -995,9 +1001,47 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
         totalEl.textContent = currency ? `선택 합계: ${formatCurrency(sum, currency)}` : '선택 합계: -';
     }
 
+    function ensureBuySelectedButton() {
+        const existing = document.querySelector('.kosteam-buy-selected-sidebar');
+        if (existing && !existing.classList.contains('kosteam-cart-btn')) return;
+        if (existing) existing.remove();
+
+        // 사이드바의 "결제 계속하기" 버튼 찾기 (가장 오른쪽에 보이는 것)
+        const checkoutCandidates = Array.from(document.querySelectorAll('a, button, div[role="button"]')).filter(el => {
+            const href = el.getAttribute('href') || '';
+            const text = (el.textContent?.trim() || '').toLowerCase();
+            return (href.includes('/checkout') ||
+                text === '결제 계속하기' ||
+                text === 'continue to payment') && el.offsetParent !== null;
+        });
+        const checkoutBtn = checkoutCandidates.sort((a, b) => {
+            return b.getBoundingClientRect().x - a.getBoundingClientRect().x;
+        })[0] || null;
+
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'kosteam-buy-selected-sidebar';
+        btn.textContent = '선택항목만 구매';
+        btn.addEventListener('click', handleBuySelected);
+
+        if (checkoutBtn) {
+            btn.style.cssText = 'display: block; width: 100%; height: 32px; line-height: 32px; margin-top: 8px; background: #3895EA; color: #fff; border: none; border-radius: 2px; cursor: pointer; font-size: 14px; text-align: center;';
+            btn.addEventListener('mouseover', () => { btn.style.background = '#5aabf0'; });
+            btn.addEventListener('mouseout', () => { btn.style.background = '#3895EA'; });
+            checkoutBtn.insertAdjacentElement('afterend', btn);
+        } else {
+            const bar = document.querySelector('.kosteam-cart-bar');
+            if (bar) {
+                btn.className = 'kosteam-buy-selected-sidebar kosteam-cart-btn';
+                bar.appendChild(btn);
+            }
+        }
+    }
+
     function decorateItems() {
         const items = findCartItems();
         ensureActionBar();
+        ensureBuySelectedButton();
 
         if (items.length === 0) {
             updateSelectAllState();
@@ -1041,6 +1085,25 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
         updateSelectAllState();
     }
 
+    // ========== Auto Restore ==========
+
+    async function tryAutoRestore() {
+        const snapshot = getSnapshot();
+        if (!snapshot?.autoRestore || !snapshot.removedItems?.length) return;
+
+        console.log('[KOSTEAM] Auto-restoring', snapshot.removedItems.length, 'items');
+
+        const result = await restoreItemsToCart(snapshot.removedItems);
+        localStorage.removeItem(SNAPSHOT_STORAGE_KEY);
+
+        if (result?.success) {
+            // 복원 성공 → 조용히 새로고침 (API 결과를 DOM에 반영하려면 필요)
+            window.location.reload();
+        } else {
+            console.error('[KOSTEAM] Auto-restore failed:', result?.error);
+        }
+    }
+
     // ========== Initialization ==========
 
     function scheduleRefresh(force = false) {
@@ -1058,13 +1121,15 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
 
     const observer = new MutationObserver(() => scheduleRefresh());
 
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', () => {
-            scheduleRefresh(true);
-            observer.observe(document.body, { childList: true, subtree: true });
-        });
-    } else {
+    function init() {
+        tryAutoRestore();
         scheduleRefresh(true);
         observer.observe(document.body, { childList: true, subtree: true });
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+    } else {
+        init();
     }
 })();

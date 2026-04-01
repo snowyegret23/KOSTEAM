@@ -32,7 +32,9 @@ import {
     // Request patch info from background
     sendMessage({ type: MSG_GET_PATCH_INFO, appId })
         .then(response => {
-            patchInfoData = response?.info;
+            if (response?.success) {
+                patchInfoData = response.info;
+            }
             startLanguageTableWatcher();
         })
         .catch(err => console.debug('[KOSTEAM] Message error:', err));
@@ -91,7 +93,9 @@ import {
             const currentSupport = checkOfficialKoreanSupport();
             if (currentSupport !== lastKoreanSupport) {
                 lastKoreanSupport = currentSupport;
+                observer.disconnect();
                 injectPatchInfo(patchInfoData, currentSupport);
+                observer.observe(document.body, { childList: true, subtree: true });
             }
         }
 
@@ -329,13 +333,7 @@ import {
                             if (!isSourceEnabled(source)) continue;
                             if (linksBySource.has(source)) continue;
 
-                            let url = siteUrls[source];
-
-                            // Generate URL dynamically if not in source_site_urls (steamapp only)
-                            // appId is already validated by URL regex pattern /\/app\/(\d+)/
-                            if (!url && source === 'steamapp') {
-                                url = `https://steamapp.net/app/${encodeURIComponent(appId)}`;
-                            }
+                            const url = siteUrls[source];
 
                             if (url && isValidUrl(url)) {
                                 linksBySource.set(source, {

@@ -63,10 +63,7 @@ async function getRemoteVersion() {
  */
 async function checkForUpdates() {
     try {
-        const response = await fetch(VERSION_URL, { cache: 'no-store' });
-        if (!response.ok) throw new Error(`HTTP ${response.status}`);
-
-        const remoteVersion = await safeJsonParse(response);
+        const remoteVersion = await getRemoteVersion();
         if (!remoteVersion) return null;
 
         const local = await storageGet([CACHE_VERSION_KEY]);
@@ -205,7 +202,8 @@ function encodeVarint(value) {
 function encodeLengthDelimited(fieldNumber, text) {
     const encoder = new TextEncoder();
     const data = encoder.encode(text);
-    return Uint8Array.from([fieldNumber, data.length, ...data]);
+    const lengthBytes = encodeVarint(data.length);
+    return Uint8Array.from([fieldNumber, ...lengthBytes, ...data]);
 }
 
 /**
@@ -272,9 +270,10 @@ function buildMultipartBody(boundary, base64Payload) {
     ].join('');
 }
 
-function buildFormData(base64Payload) {
+function buildFormData(base64Payload, accessToken) {
     const form = new FormData();
     form.append('input_protobuf_encoded', base64Payload);
+    if (accessToken) form.append('access_token', accessToken);
     return form;
 }
 
@@ -367,12 +366,12 @@ onMessage((message, sender, sendResponse) => {
                     const itemType = typeof item === 'object' ? (item.type || 'package') : 'package';
                     const protobufBytes = buildInputProtobuf(itemId, sourceTag, itemType);
                     const base64Payload = toBase64(protobufBytes);
-                    const url = `https://api.steampowered.com/IAccountCartService/AddItemsToCart/v1?access_token=${encodeURIComponent(token)}`;
+                    const url = 'https://api.steampowered.com/IAccountCartService/AddItemsToCart/v1';
 
                     try {
                         const response = await fetch(url, {
                             method: 'POST',
-                            body: buildFormData(base64Payload),
+                            body: buildFormData(base64Payload, token),
                             credentials: 'omit'
                         });
 
@@ -404,18 +403,8 @@ onMessage((message, sender, sendResponse) => {
                             }
                         }
                     } catch (err) {
-                        try {
-                            await fetch(url, {
-                                method: 'POST',
-                                mode: 'no-cors',
-                                body: buildFormData(base64Payload),
-                                credentials: 'omit'
-                            });
-                            usedOpaque = true;
-                        } catch (fallbackErr) {
-                            sendResponse({ success: false, error: fallbackErr.message });
-                            return;
-                        }
+                        sendResponse({ success: false, error: err.message });
+                        return;
                     }
                 }
 

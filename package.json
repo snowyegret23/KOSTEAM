@@ -4,7 +4,7 @@
   "description": "Steam Korean Localization Info Scraper & Chrome Extension",
   "type": "module",
   "scripts": {
-    "scrape:steamapp": "node scrapers/steamapp.js",
+    "scrape:steamapp": "node scrapers/hanpe.js",
     "scrape:directg": "node scrapers/directg.js",
     "scrape:stove": "node scrapers/stove.js",
     "scrape:curator": "python scrapers/steam_curator_dump.py --quasarplay",

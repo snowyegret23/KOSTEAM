@@ -19,6 +19,7 @@ export function formatTimeAgo(dateString) {
     if (!dateString) return '-';
 
     const date = new Date(dateString);
+    if (isNaN(date.getTime())) return '-';
     const now = new Date();
     const diff = now - date;
 

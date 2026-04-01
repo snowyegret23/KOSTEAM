@@ -260,10 +260,17 @@ async function main() {
     aliasUpdatedAt = aliasStats.mtime.toISOString();
   } catch (err) {}
 
+  let hanpeLastModified = null;
+  try {
+    const currentVersion = JSON.parse(await fs.readFile(path.join(DATA_DIR, 'version.json'), 'utf-8'));
+    hanpeLastModified = currentVersion.hanpe_last_modified || null;
+  } catch (err) {}
+
   const versionInfo = {
     generated_at: generatedAt,
     total: withSteamLink.length,
-    alias_updated_at: aliasUpdatedAt
+    alias_updated_at: aliasUpdatedAt,
+    hanpe_last_modified: hanpeLastModified
   };
 
   const versionPath = path.join(DATA_DIR, 'version.json');

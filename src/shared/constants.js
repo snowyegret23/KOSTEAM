@@ -34,7 +34,7 @@ export const SOURCE_LABELS = {
     stove: '스토브',
     quasarplay: '퀘이사존 큐레이터',
     directg: '다이렉트 게임즈',
-    steamapp: '스팀앱'
+    steamapp: '한패(구 스팀앱)'
 };
 
 // Patch type configurations
@@ -68,7 +68,6 @@ export const UI_STRINGS = {
 };
 
 // Retry configuration for search bypass
-export const SEARCH_BYPASS_MAX_ATTEMPTS = 50;
 export const SEARCH_BYPASS_RETRY_DELAY_MS = 100;
 
 // Content script timing constants
