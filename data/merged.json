@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-04-01T14:54:13.723Z",
+    "generated_at": "2026-04-01T15:28:15.189Z",
     "total_with_steam_link": 3068,
     "total_without_steam_link": 8,
     "sources": [
@@ -13674,8 +13674,12 @@
       "steam_link": "https://store.steampowered.com/app/1196630",
       "patch_type": "official",
       "patch_links": [],
-      "patch_descriptions": [],
-      "patch_sources": [],
+      "patch_descriptions": [
+        "표기는 없으나 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/l27kq5/%EB%84%A5%EC%86%8C%EB%AA%AC-%EB%A9%B8%EC%A2%85"
       },
@@ -20230,8 +20234,12 @@
       "steam_link": "https://store.steampowered.com/app/3391500",
       "patch_type": "official",
       "patch_links": [],
-      "patch_descriptions": [],
-      "patch_sources": [],
+      "patch_descriptions": [
+        "실제로는 한글지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/jpv5dk/%E4%BE%A6%E6%8E%A2%E8%AF%B7%E5%AE%88%E6%8A%A4%E6%88%91%E7%9A%84%E7%A7%98%E5%AF%86%E5%90%A7"
       },
@@ -21588,8 +21596,12 @@
       "steam_link": "https://store.steampowered.com/app/221380",
       "patch_type": "official",
       "patch_links": [],
-      "patch_descriptions": [],
-      "patch_sources": [],
+      "patch_descriptions": [
+        "지역 제한"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/j02mr6/age-of-empires-ii-retired"
       },
@@ -21838,8 +21850,12 @@
       "steam_link": "https://store.steampowered.com/app/333980",
       "patch_type": "official",
       "patch_links": [],
-      "patch_descriptions": [],
-      "patch_sources": [],
+      "patch_descriptions": [
+        "표기는 없으나 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/jv5oo8/akibas-trip-undead-undressed"
       },
@@ -25216,8 +25232,12 @@
       "steam_link": "https://store.steampowered.com/app/599390",
       "patch_type": "official",
       "patch_links": [],
-      "patch_descriptions": [],
-      "patch_sources": [],
+      "patch_descriptions": [
+        "부분 한국어 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/4g26p0/battle-for-wesnoth"
       },
@@ -25813,8 +25833,12 @@
       "steam_link": "https://store.steampowered.com/app/2789810",
       "patch_type": "official",
       "patch_links": [],
-      "patch_descriptions": [],
-      "patch_sources": [],
+      "patch_descriptions": [
+        "베타만 한글"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/4ydpzw/bingle-bingle-%EB%B9%99%EA%B8%80%EB%B9%99%EA%B8%80"
       },
@@ -26435,8 +26459,12 @@
       "steam_link": "https://store.steampowered.com/app/1710170",
       "patch_type": "official",
       "patch_links": [],
-      "patch_descriptions": [],
-      "patch_sources": [],
+      "patch_descriptions": [
+        "실제론 공식 한글화 옵션에서 한글 선택 가능"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/jwz1z7/blade-of-darkness"
       },
@@ -27209,10 +27237,12 @@
         "exist"
       ],
       "patch_descriptions": [
+        "표기는 없으나 한글 지원",
         "스토브 인디 한국어화",
         ""
       ],
       "patch_sources": [
+        "steamapp",
         "quasarplay",
         "stove"
       ],
@@ -28340,7 +28370,7 @@
         "exist"
       ],
       "patch_descriptions": [
-        "제작자 : was564",
+        "제작자 : was564 // Castlevania Order of Ecclesia 만 공식 한글화",
         "폐허의 초상화 백업용",
         "창월의 십자가 백업용",
         "캐슬바니아: 폐허의 초상화, 창월의 십자가 유저 한글 패치 - was564 님,\n※  캐슬바니아 오더 오브 에클레시아는 공식 한글"
@@ -29131,8 +29161,12 @@
       "steam_link": "https://store.steampowered.com/app/255710",
       "patch_type": "official",
       "patch_links": [],
-      "patch_descriptions": [],
-      "patch_sources": [],
+      "patch_descriptions": [
+        "DirectG에서 구매시에만 한글"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/j5kkg3/cities-skylines"
       },
@@ -32873,7 +32907,7 @@
         "exist"
       ],
       "patch_descriptions": [
-        "DLC - The Brigmore Witches 한글패치",
+        "DLC - The Brigmore Witches 한글패치 // 정발패키지, 다이렉트 게임즈 구매시 한글",
         "DLC - The Knife of Dunwall 한긆패치 제작팀 : 팀 커넌드럼",
         "다이렉트 게임즈 구매 시 한글 패치 제공\n브리그모어의 마녀들 DLC 유저 한글 패치",
         ""
@@ -33128,7 +33162,7 @@
         "exist"
       ],
       "patch_descriptions": [
-        ""
+        "정발패키지, 다이렉트 게임즈 구매시 한글"
       ],
       "patch_sources": [
         "steamapp"
@@ -35612,9 +35646,11 @@
         "exist"
       ],
       "patch_descriptions": [
+        "다이렉트 게임즈 독점 한국어화 패치",
         "에보랜드 레전더리 에디션(에보랜드 1, 2 합본팩)\n다이렉트 게임즈 구매 시 한국어 지원,\n한국 스팀판 에보랜드 레전더리 에디션도 한국어 표기는 없으나 한국어 지원합니다.\n※ 스팀 개별판 구매 시에는 한국어 지원 X\n다이렉트 게임즈"
       ],
       "patch_sources": [
+        "steamapp",
         "quasarplay"
       ],
       "source_site_urls": {
@@ -37606,8 +37642,12 @@
       "steam_link": "https://store.steampowered.com/app/983870",
       "patch_type": "official",
       "patch_links": [],
-      "patch_descriptions": [],
-      "patch_sources": [],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/jnkk5k/foundry"
       },
@@ -37699,8 +37739,12 @@
       "steam_link": "https://store.steampowered.com/app/2607060",
       "patch_type": "official",
       "patch_links": [],
-      "patch_descriptions": [],
-      "patch_sources": [],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/jpqxzo/from-glory-to-goo"
       },
@@ -37873,8 +37917,12 @@
       "steam_link": "https://store.steampowered.com/app/4520",
       "patch_type": "official",
       "patch_links": [],
-      "patch_descriptions": [],
-      "patch_sources": [],
+      "patch_descriptions": [
+        "프레임, 한국어 메뉴 등 설정 참고 <a href=\" target=\"_blank\">Ruri님 평가</a>"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/4e6w7y/full-spectrum-warrior"
       },
@@ -38692,8 +38740,12 @@
       "steam_link": "https://store.steampowered.com/app/507390",
       "patch_type": "official",
       "patch_links": [],
-      "patch_descriptions": [],
-      "patch_sources": [],
+      "patch_descriptions": [
+        "라이브러리 - 속성 - 베타 - Korean_language 선택"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/4q0ko9/gone-in-november"
       },
@@ -46693,8 +46745,12 @@
       "steam_link": "https://store.steampowered.com/app/939400",
       "patch_type": "official",
       "patch_links": [],
-      "patch_descriptions": [],
-      "patch_sources": [],
+      "patch_descriptions": [
+        "10.13) 3편 지원 <a href=\" target=\"_blank\">업데이트</a>"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/j0km27/lovechoice-%E6%8B%A3%E7%88%B1"
       },
@@ -48843,8 +48899,12 @@
       "steam_link": "https://store.steampowered.com/app/2272900",
       "patch_type": "official",
       "patch_links": [],
-      "patch_descriptions": [],
-      "patch_sources": [],
+      "patch_descriptions": [
+        "표기는 없으나 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/j8ydnk/mirthwood"
       },
@@ -50738,8 +50798,12 @@
       "steam_link": "https://store.steampowered.com/app/1191580",
       "patch_type": "official",
       "patch_links": [],
-      "patch_descriptions": [],
-      "patch_sources": [],
+      "patch_descriptions": [
+        "표기는 없으나 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/lzz0p1/nexomon"
       },
@@ -53507,8 +53571,12 @@
       "steam_link": "https://store.steampowered.com/app/2757490",
       "patch_type": "official",
       "patch_links": [],
-      "patch_descriptions": [],
-      "patch_sources": [],
+      "patch_descriptions": [
+        "옵션에서 한글 선택 가능"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/4r1qqg/petit-game-collection-vol1"
       },
@@ -53985,8 +54053,12 @@
       "steam_link": "https://store.steampowered.com/app/844670",
       "patch_type": "official",
       "patch_links": [],
-      "patch_descriptions": [],
-      "patch_sources": [],
+      "patch_descriptions": [
+        "데모판만 한글"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/jdqgx2/please-be-happy"
       },
@@ -57187,8 +57259,12 @@
       "steam_link": "https://store.steampowered.com/app/1181610",
       "patch_type": "official",
       "patch_links": [],
-      "patch_descriptions": [],
-      "patch_sources": [],
+      "patch_descriptions": [
+        "표기는 없으나 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/4onde0/roto-force"
       },
@@ -59151,8 +59227,12 @@
       "steam_link": "https://store.steampowered.com/app/1081510",
       "patch_type": "official",
       "patch_links": [],
-      "patch_descriptions": [],
-      "patch_sources": [],
+      "patch_descriptions": [
+        "되는닉네임이뭔데 님 제작 번역 개선 패치"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/jw7000/she-sees-red-interactive-movie"
       },
@@ -59754,8 +59834,12 @@
       "steam_link": "https://store.steampowered.com/app/1943030",
       "patch_type": "official",
       "patch_links": [],
-      "patch_descriptions": [],
-      "patch_sources": [],
+      "patch_descriptions": [
+        "한글화 기여 :"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/j8vwdr/sisters_possession1"
       },
@@ -59769,8 +59853,12 @@
       "steam_link": "https://store.steampowered.com/app/1964980",
       "patch_type": "official",
       "patch_links": [],
-      "patch_descriptions": [],
-      "patch_sources": [],
+      "patch_descriptions": [
+        "한글화 기여 :"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/l3v1kz/sisters_possession2"
       },
@@ -60494,8 +60582,12 @@
       "steam_link": "https://store.steampowered.com/app/1096570",
       "patch_type": "official",
       "patch_links": [],
-      "patch_descriptions": [],
-      "patch_sources": [],
+      "patch_descriptions": [
+        "인게임에서 자막 언어를 한국어로 변경"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/4ggkng/song-of-horror-complete-edition"
       },
@@ -62450,8 +62542,12 @@
       "steam_link": "https://store.steampowered.com/app/573090",
       "patch_type": "official",
       "patch_links": [],
-      "patch_descriptions": [],
-      "patch_sources": [],
+      "patch_descriptions": [
+        "부분 적용"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/l3z8w7/stormworks-build-and-rescue"
       },
@@ -64598,7 +64694,7 @@
         "exist"
       ],
       "patch_descriptions": [
-        "한글 패치 제작: 바람 번역단 - LSW",
+        "한글 패치 제작: 바람 번역단 - LSW // 검수 도움: Kim SangYoon // 번역, 검수, 이미지 작업: LSW",
         "유저 한국어 패치 - 패치 제작, 번역, 검수, 이미지 작업: LSW,\n검수 도움: Kim SangYoon 님"
       ],
       "patch_sources": [
@@ -66040,10 +66136,12 @@
         "exist"
       ],
       "patch_descriptions": [
+        "정발 및 DirectG 구입시 지원",
         "정발 패키지 & 다이렉트 게임즈 구매 시 한국어 패치 제공",
         ""
       ],
       "patch_sources": [
+        "steamapp",
         "quasarplay",
         "directg"
       ],
@@ -66197,8 +66295,12 @@
       "steam_link": "https://store.steampowered.com/app/2855770",
       "patch_type": "official",
       "patch_links": [],
-      "patch_descriptions": [],
-      "patch_sources": [],
+      "patch_descriptions": [
+        "번역자 : 양심적 인생거부자"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/4g317g/the-fear-business"
       },
@@ -69704,8 +69806,12 @@
       "steam_link": "https://store.steampowered.com/app/319320",
       "patch_type": "official",
       "patch_links": [],
-      "patch_descriptions": [],
-      "patch_sources": [],
+      "patch_descriptions": [
+        "지역 제한이지만 공식한글화"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/jwq2v0/time-mysteries-3-the-final-enigma"
       },
@@ -71168,9 +71274,11 @@
         "exist"
       ],
       "patch_descriptions": [
+        "에피소드 5 에피소드6",
         "유저 한국어 패치 - 카페 가입 필요\n에피소드 5 패치  \n에피소드 6 패치"
       ],
       "patch_sources": [
+        "steamapp",
         "quasarplay"
       ],
       "source_site_urls": {
@@ -71191,9 +71299,11 @@
         "exist"
       ],
       "patch_descriptions": [
+        "에피소드 1~3 에피소드 4",
         "유저 한국어 패치 \n에피소드 1~3 패치  \n에피소드 4 패치"
       ],
       "patch_sources": [
+        "steamapp",
         "quasarplay"
       ],
       "source_site_urls": {
@@ -71713,8 +71823,12 @@
       "steam_link": "https://store.steampowered.com/app/892970",
       "patch_type": "official",
       "patch_links": [],
-      "patch_descriptions": [],
-      "patch_sources": [],
+      "patch_descriptions": [
+        "한국어 부분 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/jme2p5/valheim",
         "quasarplay": "https://store.steampowered.com/app/892970/?curator_clanid=42788178"
@@ -75165,8 +75279,12 @@
       "steam_link": "https://store.steampowered.com/app/3561770",
       "patch_type": "official",
       "patch_links": [],
-      "patch_descriptions": [],
-      "patch_sources": [],
+      "patch_descriptions": [
+        "UI만 한글화"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/41739q/%E3%82%A4%E3%83%AB%E3%83%89%E3%83%BC"
       },

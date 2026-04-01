@@ -336,9 +336,17 @@ import {
                             const url = siteUrls[source];
 
                             if (url && isValidUrl(url)) {
+                                // Collect descriptions belonging to this source
+                                const sourceDescs = [];
+                                for (let j = 0; j < patchSources.length; j++) {
+                                    if (patchSources[j] === source) {
+                                        const desc = formatSingleDescription(patchDescriptions[j]);
+                                        if (desc) sourceDescs.push(desc);
+                                    }
+                                }
                                 linksBySource.set(source, {
                                     url: url,
-                                    descriptions: []
+                                    descriptions: sourceDescs
                                 });
                             }
                         }
@@ -391,8 +399,6 @@ import {
                 if (isOfficialEstimated) {
                     const msgDiv = createElement('div', 'kr-patch-official-text');
                     msgDiv.textContent = UI_STRINGS.OFFICIAL_ESTIMATED_TEXT;
-                    msgDiv.appendChild(document.createElement('br'));
-                    msgDiv.appendChild(document.createTextNode(UI_STRINGS.OFFICIAL_ESTIMATED_SUBTEXT));
                     dataArea.appendChild(msgDiv);
 
                     // Show links below the explanation

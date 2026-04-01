@@ -34,10 +34,23 @@ function convertEntry(entry) {
     const patchLinks = [];
     const patchDescriptions = [];
 
+    const extraComments = [];
     for (const patch of patches) {
+        const comment = removeUrls(patch.comment) || '';
         if (patch.url) {
             patchLinks.push('exist');
-            patchDescriptions.push(removeUrls(patch.comment) || '');
+            patchDescriptions.push(comment);
+        } else if (comment) {
+            extraComments.push(comment);
+        }
+    }
+    // URL 없는 comment를 기존 description에 합침
+    if (extraComments.length > 0) {
+        if (patchDescriptions.length > 0) {
+            patchDescriptions[0] = [patchDescriptions[0], ...extraComments].filter(Boolean).join(' // ');
+        } else {
+            // 패치 링크 없이 comment만 있는 경우 extra_descriptions로 저장
+            patchDescriptions.push(extraComments.join(' // '));
         }
     }
 

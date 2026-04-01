@@ -67,14 +67,15 @@ function deduplicateLinksWithDescriptions(links, descriptions, sources) {
   const resultLinks = [];
   const resultDescs = [];
   const resultSources = [];
-  for (let i = 0; i < links.length; i++) {
-    const link = links[i];
+  const maxLen = Math.max(links.length, descriptions.length);
+  for (let i = 0; i < maxLen; i++) {
+    const link = links[i] || '';
     const desc = descriptions[i] || '';
     const source = sources[i] || '';
     const key = `${link}|${desc}|${source}`;
     if (!seen.has(key)) {
       seen.add(key);
-      resultLinks.push(link);
+      if (link) resultLinks.push(link);
       resultDescs.push(desc);
       resultSources.push(source);
     }
@@ -133,6 +134,12 @@ async function main() {
             existing.patch_descriptions.push(entryDescs[i] || '');
             existing.patch_sources.push(source);
           }
+          if (entryLinks.length === 0 && entryDescs.length > 0) {
+            for (const desc of entryDescs) {
+              existing.patch_descriptions.push(desc);
+              existing.patch_sources.push(source);
+            }
+          }
           if ((entry.patch_type || 'user') === 'official' && existing.patch_type !== 'official') {
             existing.patch_type = 'official';
           }
@@ -140,6 +147,9 @@ async function main() {
             existing.source_site_urls[source] = siteUrl;
           }
         } else {
+          const patchSources = entryLinks.length > 0
+            ? entryLinks.map(() => source)
+            : entryDescs.length > 0 ? entryDescs.map(() => source) : [];
           const newEntry = {
             app_id: appId,
             game_title: entry.game_title || '',
@@ -147,7 +157,7 @@ async function main() {
             patch_type: entry.patch_type || 'user',
             patch_links: [...entryLinks],
             patch_descriptions: [...entryDescs],
-            patch_sources: entryLinks.map(() => source),
+            patch_sources: patchSources,
             source_site_urls: shouldIncludeSiteUrl ? { [source]: siteUrl } : {},
             sources: [source]
           };
