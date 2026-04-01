@@ -61,10 +61,10 @@ export const KOREAN_LABELS = ['Korean', '한국어'];
 export const UI_STRINGS = {
     LINK_PREFIX: '링크',
     OFFICIAL_ESTIMATED_TEXT: '한국어를 공식 지원하는 것으로 추정되는 게임입니다.',
-    OFFICIAL_ESTIMATED_SUBTEXT: '(패치 정보 사이트에 한국어 번역이 존재한다고 보고된 게임)',
+    OFFICIAL_ESTIMATED_SUBTEXT: '(패치 정보 사이트에서 한국어 공식 지원으로 분류된 게임)',
     OFFICIAL_SUPPORT_TEXT: '한국어를 공식 지원하는 게임입니다.',
-    NO_PATCH_INFO_TEXT: '현재 데이터베이스에 등록된 한국어 패치 정보가 없습니다.',
-    NO_LINK_TEXT: '해당 게임의 패치 정보 사이트로 연결되는 링크를 찾을 수 없습니다.'
+    NO_PATCH_INFO_TEXT: '현재 데이터베이스에 등록된 한국어 관련 정보가 없습니다.',
+    NO_LINK_TEXT: '패치 정보 사이트로 연결되는 링크를 찾을 수 없습니다.'
 };
 
 // Retry configuration for search bypass
