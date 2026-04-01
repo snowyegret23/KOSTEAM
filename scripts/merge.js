@@ -36,7 +36,7 @@ function convertCuratorData(curatorData, source) {
       source_site_url: game.curator_url,
       patch_type: patchType,
       patch_links: hasUrl ? ['exist'] : [],
-      patch_descriptions: hasUrl ? [description] : []
+      patch_descriptions: (hasUrl || description) ? [description] : []
     };
   });
 }

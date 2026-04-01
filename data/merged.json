@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-04-01T15:28:15.189Z",
+    "generated_at": "2026-04-01T15:36:02.893Z",
     "total_with_steam_link": 3068,
     "total_without_steam_link": 8,
     "sources": [
@@ -8843,8 +8843,12 @@
       "steam_link": "https://store.steampowered.com/app/2001340/Fuga_Melodies_of_Steel_2/",
       "patch_type": "official",
       "patch_links": [],
-      "patch_descriptions": [],
-      "patch_sources": [],
+      "patch_descriptions": [
+        "October 11, 2023"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/2001340/?curator_clanid=42788178"
       },
@@ -9827,8 +9831,12 @@
       "steam_link": "https://store.steampowered.com/app/1488200/Symphony_of_War_The_Nephilim_Saga/",
       "patch_type": "official",
       "patch_links": [],
-      "patch_descriptions": [],
-      "patch_sources": [],
+      "patch_descriptions": [
+        "한국어 지원 표시 없으나, 공식 한국어 지원"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/1488200/?curator_clanid=42788178"
       },
@@ -11464,9 +11472,11 @@
         "exist"
       ],
       "patch_descriptions": [
+        "2023. 03. 14 - 스팀판 공식 한국어 지원 변경",
         ""
       ],
       "patch_sources": [
+        "quasarplay",
         "stove"
       ],
       "source_site_urls": {
@@ -12061,8 +12071,12 @@
       "steam_link": "https://store.steampowered.com/app/667720/Red_Faction_Guerrilla_ReMarstered/",
       "patch_type": "official",
       "patch_links": [],
-      "patch_descriptions": [],
-      "patch_sources": [],
+      "patch_descriptions": [
+        "상점 정보에는 한국어 미지원이나, 공식 한국어 자막 지원"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/667720/?curator_clanid=42788178"
       },
@@ -12076,8 +12090,12 @@
       "steam_link": "https://store.steampowered.com/app/460920/Steep/",
       "patch_type": "official",
       "patch_links": [],
-      "patch_descriptions": [],
-      "patch_sources": [],
+      "patch_descriptions": [
+        "한국어 표기가 안되어 있지만, STEEP 윈터 게임 에디션 발매 이후 공식 한국어 지원합니다."
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/460920/?curator_clanid=42788178"
       },
@@ -12474,8 +12492,12 @@
       "steam_link": "https://store.steampowered.com/app/280160/Aragami/",
       "patch_type": "official",
       "patch_links": [],
-      "patch_descriptions": [],
-      "patch_sources": [],
+      "patch_descriptions": [
+        "스팀 상점 지원 언어에는 한국어가 빠져있으나, 공식 한국어 지원"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/280160/?curator_clanid=42788178"
       },
@@ -71824,10 +71846,12 @@
       "patch_type": "official",
       "patch_links": [],
       "patch_descriptions": [
-        "한국어 부분 지원"
+        "한국어 부분 지원",
+        "스팀 언어 표시에는 없으나, 게임 내 설정에서 한국어 선택 가능"
       ],
       "patch_sources": [
-        "steamapp"
+        "steamapp",
+        "quasarplay"
       ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/jme2p5/valheim",
@@ -71925,10 +71949,12 @@
         "exist"
       ],
       "patch_descriptions": [
-        "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다)"
+        "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다)",
+        "August 16, 2022"
       ],
       "patch_sources": [
-        "steamapp"
+        "steamapp",
+        "quasarplay"
       ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/l321q7/vampire-survivors",
