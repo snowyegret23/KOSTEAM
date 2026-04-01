@@ -3,7 +3,7 @@
   "curator_name": "Curator #42788178",
   "curator_url": "https://store.steampowered.com/curator/42788178/",
   "total_games": 1834,
-  "exported_at": "2026-04-02T00:52:03.398250",
+  "exported_at": "2026-04-01T21:16:06.041734",
   "games": [
     {
       "appid": "1486920",
@@ -8223,15 +8223,6 @@
       "type": "recommended"
     },
     {
-      "appid": "901638",
-      "url": "https://store.steampowered.com/app/901638/Dungeon_Siege_III/",
-      "curator_url": "https://store.steampowered.com/app/901638/?curator_clanid=42788178",
-      "review": "유저 한국어 패치",
-      "review_has_url": true,
-      "review_url_count": 1,
-      "type": "recommended"
-    },
-    {
       "appid": "548090",
       "url": "https://store.steampowered.com/app/548090/Alone_in_the_Dark_1/",
       "curator_url": "https://store.steampowered.com/app/548090/?curator_clanid=42788178",
@@ -14193,6 +14184,15 @@
       "appid": "12150",
       "url": "https://store.steampowered.com/app/12150/Max_Payne_2_The_Fall_of_Max_Payne/",
       "curator_url": "https://store.steampowered.com/app/12150/?curator_clanid=42788178",
+      "review": "유저 한국어 패치 -",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "12140",
+      "url": "https://store.steampowered.com/app/12140/Max_Payne/",
+      "curator_url": "https://store.steampowered.com/app/12140/?curator_clanid=42788178",
       "review": "유저 한국어 패치 -",
       "review_has_url": true,
       "review_url_count": 1,

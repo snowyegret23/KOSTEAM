@@ -1254,19 +1254,24 @@
   "12140": {
     "type": "user",
     "sources": [
-      "steamapp"
+      "steamapp",
+      "quasarplay"
     ],
     "links": [
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
-      ""
+      "",
+      "유저 한국어 패치 -"
     ],
     "patch_sources": [
-      "steamapp"
+      "steamapp",
+      "quasarplay"
     ],
     "source_site_urls": {
-      "steamapp": "https://hanpe.net/app/4orgv0/max-payne"
+      "steamapp": "https://hanpe.net/app/4orgv0/max-payne",
+      "quasarplay": "https://store.steampowered.com/app/12140/?curator_clanid=42788178"
     }
   },
   "12150": {
@@ -3048,24 +3053,6 @@
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/lzy73o/edge",
       "quasarplay": "https://store.steampowered.com/app/38740/?curator_clanid=30894603"
-    }
-  },
-  "39160": {
-    "type": "user",
-    "sources": [
-      "quasarplay"
-    ],
-    "links": [
-      "exist"
-    ],
-    "patch_descriptions": [
-      "유저 한국어 패치"
-    ],
-    "patch_sources": [
-      "quasarplay"
-    ],
-    "source_site_urls": {
-      "quasarplay": "https://store.steampowered.com/app/901638/?curator_clanid=42788178"
     }
   },
   "39190": {
@@ -66762,7 +66749,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-04-01T15:52:30.306Z",
-    "total": 3069
+    "generated_at": "2026-04-01T21:16:36.442Z",
+    "total": 3068
   }
 }
