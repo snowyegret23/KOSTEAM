@@ -220,8 +220,8 @@
       "exist"
     ],
     "patch_descriptions": [
-      "",
-      "총 지휘: heemangkr, 에이테르 번역 및 재교정 총괄: 루나 번역 지휘: 루나, junghyelove 지도 파일 제작: 고갤러 @@. , 쉰찰리 [번역 참여] 카르님, ruluy 님, 마룬드 님, 바운티르 님, 날개언니 님, 다크마이애즈머 님, 케빈쌤 님, 젊은락커 님, 반달고옴 님여피 님, peopleyy 님, 냉면서생 님, 후니 님, 엔젤하트 님, 세한도 님, 쿠마상 님, 빛으로 님, 로켓단 님, lust4u 님, 아랑 님, 무료함 님, 준혁아빠 님, 뽕까지마 님, 후버 님, 프리맨 님, 모카부족 님, 미아 님, 담드이 님cineami 님, 브리카넬 님, 듀플러 님, Raysinzi 님, 브라운 님, zodinie 님, refuse76 님, 사랑해요 님, 이크에크님 kshsm님"
+      "총 지휘: heemangkr, 에이테르 번역 및 재교정 총괄: 루나 번역 지휘: 루나, junghyelove 지도 파일 제작: 고갤러 @@. , 쉰찰리 [번역 참여] 카르님, ruluy 님, 마룬드 님, 바운티르 님, 날개언니 님, 다크마이애즈머 님, 케빈쌤 님, 젊은락커 님, 반달고옴 님여피 님, peopleyy 님, 냉면서생 님, 후니 님, 엔젤하트 님, 세한도 님, 쿠마상 님, 빛으로 님, 로켓단 님, lust4u 님, 아랑 님, 무료함 님, 준혁아빠 님, 뽕까지마 님, 후버 님, 프리맨 님, 모카부족 님, 미아 님, 담드이 님cineami 님, 브리카넬 님, 듀플러 님, Raysinzi 님, 브라운 님, zodinie 님, refuse76 님, 사랑해요 님, 이크에크님 kshsm님",
+      ""
     ]
   },
   {
@@ -4357,6 +4357,21 @@
     ],
     "patch_descriptions": [
       "팀 한글화의 궤적 제작 폰트/한글 패치 제작: 팀장 프기니 검수 총괄: 라스티 전체 검수: 먼데이Kiz [번역] 라스티, 먼데이Kiz, BLOODLINE, 리나네기, 은풀, 전격소년 [기타 번역] looddy, 발마우프라, 베르누, 잠수, drop Q, 토도아키라, Enzo, 제이 그래픽 작업: 프기니, Seui, 람스피어(로고), 외국산불닭 [Special Thanks] 아로미(번역가 모집), 미리칸(로고 작업자 모집), Hide_D(스크립트 분석 도움)"
+    ]
+  },
+  {
+    "app_id": "235460",
+    "game_title": "METAL GEAR RISING: REVENGEANCE",
+    "steam_link": "https://store.steampowered.com/app/235460",
+    "source_site_url": "https://hanpe.net/app/j0nr61/metal-gear-rising-revengeance",
+    "patch_type": "user",
+    "patch_links": [
+      "exist",
+      "exist"
+    ],
+    "patch_descriptions": [
+      "한글패치 : 팀 한글화의 궤적",
+      "원본 한글패치 : 팀 한글화의 궤적 / 영문기반 재번역: farnic"
     ]
   },
   {
@@ -12959,10 +12974,10 @@
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 뮤갤러",
       "제작자 : 마린돌프",
       "폰트 개선 패치",
       "제작자 : 뉴비분쇄기",
-      "제작자 : 으잌",
       "제작자 : Neptunium 고양이 이름 음역 패치"
     ]
   },
@@ -28583,6 +28598,19 @@
     "game_title": "Utawarerumono: ZAN",
     "steam_link": "https://store.steampowered.com/app/3074840",
     "source_site_url": "https://hanpe.net/app/4y6nw2/utawarerumono-zan",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : 레트로겜보이"
+    ]
+  },
+  {
+    "app_id": "3074850",
+    "game_title": "Utawarerumono: ZAN 2",
+    "steam_link": "https://store.steampowered.com/app/3074850",
+    "source_site_url": "https://hanpe.net/app/415vq5/utawarerumono-zan-2",
     "patch_type": "user",
     "patch_links": [
       "exist"

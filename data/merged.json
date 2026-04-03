@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-04-01T21:16:36.442Z",
-    "total_with_steam_link": 3068,
-    "total_without_steam_link": 8,
+    "generated_at": "2026-04-03T21:11:18.301Z",
+    "total_with_steam_link": 3070,
+    "total_without_steam_link": 10,
     "sources": [
       "steamapp",
       "quasarzone",
@@ -36618,8 +36618,8 @@
         "exist"
       ],
       "patch_descriptions": [
-        "",
         "총 지휘: heemangkr, 에이테르 번역 및 재교정 총괄: 루나 번역 지휘: 루나, junghyelove 지도 파일 제작: 고갤러 @@. , 쉰찰리 [번역 참여] 카르님, ruluy 님, 마룬드 님, 바운티르 님, 날개언니 님, 다크마이애즈머 님, 케빈쌤 님, 젊은락커 님, 반달고옴 님여피 님, peopleyy 님, 냉면서생 님, 후니 님, 엔젤하트 님, 세한도 님, 쿠마상 님, 빛으로 님, 로켓단 님, lust4u 님, 아랑 님, 무료함 님, 준혁아빠 님, 뽕까지마 님, 후버 님, 프리맨 님, 모카부족 님, 미아 님, 담드이 님cineami 님, 브리카넬 님, 듀플러 님, Raysinzi 님, 브라운 님, zodinie 님, refuse76 님, 사랑해요 님, 이크에크님 kshsm님",
+        "",
         "유저 한국어 패치 - 루나, heemangkr, 에이테르 님 외 다수"
       ],
       "patch_sources": [
@@ -40466,6 +40466,30 @@
       ]
     },
     {
+      "app_id": "235460",
+      "game_title": "METAL GEAR RISING: REVENGEANCE",
+      "steam_link": "https://store.steampowered.com/app/235460",
+      "patch_type": "user",
+      "patch_links": [
+        "exist",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "한글패치 : 팀 한글화의 궤적",
+        "원본 한글패치 : 팀 한글화의 궤적 / 영문기반 재번역: farnic"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j0nr61/metal-gear-rising-revengeance"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "287700",
       "game_title": "METAL GEAR SOLID V: THE PHANTOM PAIN",
       "steam_link": "https://store.steampowered.com/app/287700",
@@ -40573,10 +40597,10 @@
         "exist"
       ],
       "patch_descriptions": [
+        "제작자 : 뮤갤러",
         "제작자 : 마린돌프",
         "폰트 개선 패치",
         "제작자 : 뉴비분쇄기",
-        "제작자 : 으잌",
         "제작자 : Neptunium 고양이 이름 음역 패치",
         "유저 한글 패치 - Neptunium"
       ],
@@ -63946,6 +63970,27 @@
       ]
     },
     {
+      "app_id": "3074850",
+      "game_title": "Utawarerumono: ZAN 2",
+      "steam_link": "https://store.steampowered.com/app/3074850",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 레트로겜보이"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/415vq5/utawarerumono-zan-2"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "678850",
       "game_title": "Uurnog Uurnlimited",
       "steam_link": "https://store.steampowered.com/app/678850",
@@ -75987,6 +76032,25 @@
       ]
     },
     {
+      "game_title": "던정글",
+      "patch_type": "official",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        ""
+      ],
+      "patch_sources": [
+        "stove"
+      ],
+      "source_site_urls": {
+        "stove": "https://store.onstove.com/ko/games/101559"
+      },
+      "sources": [
+        "stove"
+      ]
+    },
+    {
       "game_title": "데드폴 어드벤처 디지털 디럭스",
       "patch_type": "official",
       "patch_links": [
@@ -76003,6 +76067,25 @@
       },
       "sources": [
         "directg"
+      ]
+    },
+    {
+      "game_title": "돌아봐 주세요, 리나 선배!",
+      "patch_type": "official",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        ""
+      ],
+      "patch_sources": [
+        "stove"
+      ],
+      "source_site_urls": {
+        "stove": "https://store.onstove.com/ko/games/104140"
+      },
+      "sources": [
+        "stove"
       ]
     },
     {
