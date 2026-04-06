@@ -3765,11 +3765,11 @@
     "stove_url": "https://store.onstove.com/ko/games/103153"
   },
   {
-    "app_id": null,
+    "app_id": "1988530",
     "stove_game_no": "14271",
     "stove_product_no": "104140",
     "game_title": "돌아봐 주세요, 리나 선배!",
-    "steam_link": "",
+    "steam_link": "https://store.steampowered.com/app/1988530",
     "patch_type": "official",
     "patch_links": [
       "exist"
@@ -3780,11 +3780,11 @@
     "stove_url": "https://store.onstove.com/ko/games/104140"
   },
   {
-    "app_id": null,
+    "app_id": "1589570",
     "stove_game_no": "11644",
     "stove_product_no": "101559",
     "game_title": "던정글",
-    "steam_link": "",
+    "steam_link": "https://store.steampowered.com/app/1589570",
     "patch_type": "official",
     "patch_links": [
       "exist"
