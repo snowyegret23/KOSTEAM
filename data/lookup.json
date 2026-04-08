@@ -9972,13 +9972,16 @@
     ],
     "links": [
       "exist",
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : Ru1er",
       "하토님 제작",
       "유저 한국어 패치 - 하토 님"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp",
       "quasarplay"
     ],
@@ -37633,6 +37636,24 @@
       "quasarplay": "https://store.steampowered.com/app/1446350/?curator_clanid=30894603"
     }
   },
+  "1449200": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "번역 가각, 루밍, 케이, 하일리언 이미지 편집 JAGUAR 재규어, RUNE RAY, 무스스, 융융, 이칠공 프로그래밍 기술 지원 Blacksmith01, Snowyegret 영상 편집 JAGUAR 재규어, 무스스 검수 Hyomo, Libner, 김기하, 루밍, 반면교사,케이, 후드"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/l7zqpz/ai-the-somnium-files-nirvana-initiative"
+    }
+  },
   "1450330": {
     "type": "user",
     "sources": [
@@ -39955,6 +39976,24 @@
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/jmp1mn/blood-west",
       "quasarplay": "https://store.steampowered.com/app/1587130/?curator_clanid=30894603"
+    }
+  },
+  "1589570": {
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/101559"
     }
   },
   "1590910": {
@@ -46276,6 +46315,24 @@
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/lz0732/death-relives",
       "quasarplay": "https://store.steampowered.com/app/1987400/?curator_clanid=30894603"
+    }
+  },
+  "1988530": {
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/104140"
     }
   },
   "1988750": {
@@ -54859,7 +54916,7 @@
       "exist"
     ],
     "patch_descriptions": [
-      "번역기를 이용하 한글화 제작자 : 트리플나인"
+      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 번역기를 이용하 한글화 제작자 : 트리플나인"
     ],
     "patch_sources": [
       "steamapp"
@@ -65628,6 +65685,24 @@
       "quasarplay": "https://store.steampowered.com/app/3800230/?curator_clanid=30894603"
     }
   },
+  "3801270": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : 레트로겜보이"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jpv07o/oni-no-kuni-miozukis-descent"
+    }
+  },
   "3807550": {
     "type": "official",
     "sources": [
@@ -66788,7 +66863,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-04-05T21:09:59.548Z",
-    "total": 3070
+    "generated_at": "2026-04-08T21:17:45.048Z",
+    "total": 3074
   }
 }

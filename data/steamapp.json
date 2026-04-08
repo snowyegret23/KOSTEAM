@@ -5728,9 +5728,11 @@
     "source_site_url": "https://hanpe.net/app/j8vd5r/secrets-of-grindea",
     "patch_type": "user",
     "patch_links": [
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : Ru1er",
       "하토님 제작"
     ]
   },
@@ -19314,6 +19316,19 @@
     ]
   },
   {
+    "app_id": "1449200",
+    "game_title": "AI: THE SOMNIUM FILES - nirvanA Initiative",
+    "steam_link": "https://store.steampowered.com/app/1449200",
+    "source_site_url": "https://hanpe.net/app/l7zqpz/ai-the-somnium-files-nirvana-initiative",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "번역 가각, 루밍, 케이, 하일리언 이미지 편집 JAGUAR 재규어, RUNE RAY, 무스스, 융융, 이칠공 프로그래밍 기술 지원 Blacksmith01, Snowyegret 영상 편집 JAGUAR 재규어, 무스스 검수 Hyomo, Libner, 김기하, 루밍, 반면교사,케이, 후드"
+    ]
+  },
+  {
     "app_id": "1450900",
     "game_title": "Desynced",
     "steam_link": "https://store.steampowered.com/app/1450900",
@@ -26339,7 +26354,7 @@
       "exist"
     ],
     "patch_descriptions": [
-      "번역기를 이용하 한글화 제작자 : 트리플나인"
+      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 번역기를 이용하 한글화 제작자 : 트리플나인"
     ]
   },
   {
@@ -30951,6 +30966,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 으잌"
+    ]
+  },
+  {
+    "app_id": "3801270",
+    "game_title": "Oni-no-Kuni: Miozuki's Descent",
+    "steam_link": "https://store.steampowered.com/app/3801270",
+    "source_site_url": "https://hanpe.net/app/jpv07o/oni-no-kuni-miozukis-descent",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : 레트로겜보이"
     ]
   },
   {
