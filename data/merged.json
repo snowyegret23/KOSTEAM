@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-08T21:17:45.048Z",
-    "total_with_steam_link": 3074,
+    "generated_at": "2026-04-10T21:12:25.853Z",
+    "total_with_steam_link": 3079,
     "total_without_steam_link": 8,
     "sources": [
       "steamapp",
@@ -13176,6 +13176,27 @@
       ]
     },
     {
+      "app_id": "578720",
+      "game_title": "A Mortician's Tale",
+      "steam_link": "https://store.steampowered.com/app/578720",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : shake_luna"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jnrk3n/a-morticians-tale"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "2233120",
       "game_title": "A Quiet Place: The Road Ahead",
       "steam_link": "https://store.steampowered.com/app/2233120",
@@ -13345,6 +13366,27 @@
       ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/jn07rn/a-way-out"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "4478760",
+      "game_title": "Abandoned Stories: Inherited Silence",
+      "steam_link": "https://store.steampowered.com/app/4478760",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 으잌"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/lz39wo/abandoned-stories-inherited-silence"
       },
       "sources": [
         "steamapp"
@@ -32846,6 +32888,27 @@
       ]
     },
     {
+      "app_id": "2069250",
+      "game_title": "High On Life 2",
+      "steam_link": "https://store.steampowered.com/app/2069250",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : oren88"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jwqzq0/high-on-life-2"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "1434950",
       "game_title": "HighFleet",
       "steam_link": "https://store.steampowered.com/app/1434950",
@@ -39117,6 +39180,27 @@
       ]
     },
     {
+      "app_id": "1050370",
+      "game_title": "LUNARK",
+      "steam_link": "https://store.steampowered.com/app/1050370",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 수와안나카엘"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l7owze/lunark"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "3851570",
       "game_title": "Lure Of Passion",
       "steam_link": "https://store.steampowered.com/app/3851570",
@@ -40619,9 +40703,9 @@
       ],
       "patch_descriptions": [
         "제작자 : 뮤갤러",
-        "제작자 : 마린돌프",
-        "폰트 개선 패치",
         "제작자 : 뉴비분쇄기",
+        "폰트 개선 패치",
+        "제작자 : 마린돌프",
         "제작자 : Neptunium 고양이 이름 음역 패치",
         "유저 한글 패치 - Neptunium"
       ],
@@ -52617,6 +52701,27 @@
       ]
     },
     {
+      "app_id": "544330",
+      "game_title": "Snake Pass",
+      "steam_link": "https://store.steampowered.com/app/544330",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : shake_luna"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jno82k/snake-pass"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "238090",
       "game_title": "Sniper Elite 3",
       "steam_link": "https://store.steampowered.com/app/238090",
@@ -54152,24 +54257,19 @@
       "steam_link": "https://store.steampowered.com/app/2966320",
       "patch_type": "user",
       "patch_links": [
-        "exist",
         "exist"
       ],
       "patch_descriptions": [
-        "제작자 : 원아리",
-        "유저 한글 패치 - 원아리\n유저 한글 패치"
+        "제작자 : 원아리"
       ],
       "patch_sources": [
-        "steamapp",
-        "quasarplay"
+        "steamapp"
       ],
       "source_site_urls": {
-        "steamapp": "https://hanpe.net/app/l7797v/starsand-island",
-        "quasarplay": "https://store.steampowered.com/app/2966320/?curator_clanid=30894603"
+        "steamapp": "https://hanpe.net/app/l7797v/starsand-island"
       },
       "sources": [
-        "steamapp",
-        "quasarplay"
+        "steamapp"
       ]
     },
     {
@@ -63473,12 +63573,15 @@
       "steam_link": "https://store.steampowered.com/app/362960",
       "patch_type": "user",
       "patch_links": [
+        "exist",
         "exist"
       ],
       "patch_descriptions": [
-        "일어 중역 미검수판"
+        "일어 중역 미검수판",
+        "제작자 : shake_luna"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp"
       ],
       "source_site_urls": {

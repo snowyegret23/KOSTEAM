@@ -2,8 +2,8 @@
   "curator_id": 30894603,
   "curator_name": "Curator #30894603",
   "curator_url": "https://store.steampowered.com/curator/30894603/",
-  "total_games": 678,
-  "exported_at": "2026-04-08T21:17:26.414260",
+  "total_games": 677,
+  "exported_at": "2026-04-10T21:12:05.530462",
   "games": [
     {
       "appid": "2839280",
@@ -298,15 +298,6 @@
       "url": "https://store.steampowered.com/app/38740/EDGE/",
       "curator_url": "https://store.steampowered.com/app/38740/?curator_clanid=30894603",
       "review": "유저 한글 패치 - Bluehill\n유저 한글 패치 - na1307",
-      "review_has_url": true,
-      "review_url_count": 2,
-      "type": "recommended"
-    },
-    {
-      "appid": "2966320",
-      "url": "https://store.steampowered.com/app/2966320/Starsand_Island/",
-      "curator_url": "https://store.steampowered.com/app/2966320/?curator_clanid=30894603",
-      "review": "유저 한글 패치 - 원아리\n유저 한글 패치",
       "review_has_url": true,
       "review_url_count": 2,
       "type": "recommended"

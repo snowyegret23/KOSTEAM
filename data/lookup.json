@@ -14002,12 +14002,15 @@
       "steamapp"
     ],
     "links": [
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
-      "일어 중역 미검수판"
+      "일어 중역 미검수판",
+      "제작자 : shake_luna"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp"
     ],
     "source_site_urls": {
@@ -20231,6 +20234,24 @@
       "quasarplay": "https://store.steampowered.com/app/543260/?curator_clanid=42788178"
     }
   },
+  "544330": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : shake_luna"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jno82k/snake-pass"
+    }
+  },
   "544550": {
     "type": "official",
     "sources": [
@@ -21228,6 +21249,24 @@
     "source_site_urls": {
       "quasarplay": "https://store.steampowered.com/app/578540/?curator_clanid=42788178",
       "stove": "https://store.onstove.com/ko/games/1898"
+    }
+  },
+  "578720": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : shake_luna"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jnrk3n/a-morticians-tale"
     }
   },
   "579180": {
@@ -23685,9 +23724,9 @@
     ],
     "patch_descriptions": [
       "제작자 : 뮤갤러",
-      "제작자 : 마린돌프",
-      "폰트 개선 패치",
       "제작자 : 뉴비분쇄기",
+      "폰트 개선 패치",
+      "제작자 : 마린돌프",
       "제작자 : Neptunium 고양이 이름 음역 패치",
       "유저 한글 패치 - Neptunium"
     ],
@@ -29647,6 +29686,24 @@
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/j99gye/little-witch-nobeta",
       "quasarplay": "https://store.steampowered.com/app/1049890/?curator_clanid=42788178"
+    }
+  },
+  "1050370": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : 수와안나카엘"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/l7owze/lunark"
     }
   },
   "1051420": {
@@ -47108,6 +47165,24 @@
       "stove": "https://store.onstove.com/ko/games/4299"
     }
   },
+  "2069250": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : oren88"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jwqzq0/high-on-life-2"
+    }
+  },
   "2072660": {
     "type": "user",
     "sources": [
@@ -58766,24 +58841,19 @@
   "2966320": {
     "type": "user",
     "sources": [
-      "steamapp",
-      "quasarplay"
+      "steamapp"
     ],
     "links": [
-      "exist",
       "exist"
     ],
     "patch_descriptions": [
-      "제작자 : 원아리",
-      "유저 한글 패치 - 원아리\n유저 한글 패치"
+      "제작자 : 원아리"
     ],
     "patch_sources": [
-      "steamapp",
-      "quasarplay"
+      "steamapp"
     ],
     "source_site_urls": {
-      "steamapp": "https://hanpe.net/app/l7797v/starsand-island",
-      "quasarplay": "https://store.steampowered.com/app/2966320/?curator_clanid=30894603"
+      "steamapp": "https://hanpe.net/app/l7797v/starsand-island"
     }
   },
   "2966510": {
@@ -66862,8 +66932,26 @@
       "steamapp": "https://hanpe.net/app/4y6v0e/%E3%82%AE%E3%83%AB%E3%83%89%E6%8E%A2%E6%B1%82%E5%9B%A3%E3%81%B8%E3%82%88%E3%81%86%E3%81%93%E3%81%9D"
     }
   },
+  "4478760": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : 으잌"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/lz39wo/abandoned-stories-inherited-silence"
+    }
+  },
   "_meta": {
-    "generated_at": "2026-04-08T21:17:45.048Z",
-    "total": 3074
+    "generated_at": "2026-04-10T21:12:25.853Z",
+    "total": 3079
   }
 }
