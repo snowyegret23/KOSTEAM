@@ -5588,6 +5588,24 @@
       "quasarplay": "https://store.steampowered.com/app/208580/?curator_clanid=30894603"
     }
   },
+  "209160": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4r7o87/call-of-duty-ghosts"
+    }
+  },
   "210770": {
     "type": "user",
     "sources": [
@@ -27994,6 +28012,24 @@
       "quasarplay": "https://store.steampowered.com/app/950740/?curator_clanid=42788178"
     }
   },
+  "952490": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "Credits: Grundrisse, ‘Pataphy, 에테르웍스강해설교, 카론__, 코즈믹"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jdxn0m/hello-charlotte-heavens-gate"
+    }
+  },
   "952680": {
     "type": "user",
     "sources": [
@@ -28079,6 +28115,24 @@
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/41rwnv/bright-memory",
       "quasarplay": "https://store.steampowered.com/app/955050/?curator_clanid=42788178"
+    }
+  },
+  "955900": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : shakeluna"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j0z9x2/amazing-cultivation-simulator"
     }
   },
   "956680": {
@@ -50086,6 +50140,24 @@
       "quasarplay": "https://store.steampowered.com/app/2284310/?curator_clanid=30894603"
     }
   },
+  "2285550": {
+    "type": "official",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/lx2qd7/doloc-town"
+    }
+  },
   "2286260": {
     "type": "official",
     "sources": [
@@ -61595,6 +61667,24 @@
       "quasarplay": "https://store.steampowered.com/app/3201240/?curator_clanid=42788178"
     }
   },
+  "3202030": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : 누차"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/l3mgvr/%E9%BE%99%E8%83%A4%E7%AB%8B%E5%BF%97%E4%BC%A0"
+    }
+  },
   "3202410": {
     "type": "user",
     "sources": [
@@ -63050,6 +63140,24 @@
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/j5pddm/debug-deadline",
       "quasarplay": "https://store.steampowered.com/app/3344750/?curator_clanid=42788178"
+    }
+  },
+  "3349980": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : killterm"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/46pkxn/brebeman"
     }
   },
   "3351140": {
@@ -64922,6 +65030,24 @@
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/4ereoy/iron-core-mech-survivor",
       "quasarplay": "https://store.steampowered.com/app/3586420/?curator_clanid=30894603"
+    }
+  },
+  "3587610": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : 으잌"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/lz6k5p/the-dark-queen-of-mortholme"
     }
   },
   "3595800": {
@@ -66878,13 +67004,16 @@
     ],
     "links": [
       "exist",
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
+      "공식 한글 개선 패치 제작자 : 바나나우유",
       "(공식 한글 개선 패치) 제작자 : 바라미",
       "유저 한글 패치 - 바라미"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp",
       "quasarplay"
     ],
@@ -66932,6 +67061,18 @@
       "steamapp": "https://hanpe.net/app/4y6v0e/%E3%82%AE%E3%83%AB%E3%83%89%E6%8E%A2%E6%B1%82%E5%9B%A3%E3%81%B8%E3%82%88%E3%81%86%E3%81%93%E3%81%9D"
     }
   },
+  "4417890": {
+    "type": "official",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [],
+    "patch_descriptions": [],
+    "patch_sources": [],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4e008x/mercury-elopement-syndrome"
+    }
+  },
   "4478760": {
     "type": "user",
     "sources": [
@@ -66951,7 +67092,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-04-10T21:12:25.853Z",
-    "total": 3079
+    "generated_at": "2026-04-12T21:11:24.562Z",
+    "total": 3087
   }
 }

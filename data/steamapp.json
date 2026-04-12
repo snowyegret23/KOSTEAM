@@ -3198,6 +3198,19 @@
     ]
   },
   {
+    "app_id": "209160",
+    "game_title": "Call of Duty®: Ghosts",
+    "steam_link": "https://store.steampowered.com/app/209160",
+    "source_site_url": "https://hanpe.net/app/4r7o87/call-of-duty-ghosts",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ]
+  },
+  {
     "app_id": "210770",
     "game_title": "Sanctum 2",
     "steam_link": "https://store.steampowered.com/app/210770",
@@ -15118,6 +15131,19 @@
     ]
   },
   {
+    "app_id": "952490",
+    "game_title": "Hello Charlotte: Heaven's Gate",
+    "steam_link": "https://store.steampowered.com/app/952490",
+    "source_site_url": "https://hanpe.net/app/jdxn0m/hello-charlotte-heavens-gate",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "Credits: Grundrisse, ‘Pataphy, 에테르웍스강해설교, 카론__, 코즈믹"
+    ]
+  },
+  {
     "app_id": "952680",
     "game_title": "Blind Girl",
     "steam_link": "https://store.steampowered.com/app/952680",
@@ -15167,6 +15193,19 @@
     ],
     "patch_descriptions": [
       "정광우님 제작"
+    ]
+  },
+  {
+    "app_id": "955900",
+    "game_title": "Amazing Cultivation Simulator",
+    "steam_link": "https://store.steampowered.com/app/955900",
+    "source_site_url": "https://hanpe.net/app/j0z9x2/amazing-cultivation-simulator",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : shakeluna"
     ]
   },
   {
@@ -24452,6 +24491,19 @@
     ]
   },
   {
+    "app_id": "2285550",
+    "game_title": "Doloc Town",
+    "steam_link": "https://store.steampowered.com/app/2285550",
+    "source_site_url": "https://hanpe.net/app/lx2qd7/doloc-town",
+    "patch_type": "official",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ]
+  },
+  {
     "app_id": "2287150",
     "game_title": "Revenge of the Mage",
     "steam_link": "https://store.steampowered.com/app/2287150",
@@ -29275,6 +29327,19 @@
     ]
   },
   {
+    "app_id": "3202030",
+    "game_title": "龙胤立志传",
+    "steam_link": "https://store.steampowered.com/app/3202030",
+    "source_site_url": "https://hanpe.net/app/l3mgvr/%E9%BE%99%E8%83%A4%E7%AB%8B%E5%BF%97%E4%BC%A0",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : 누차"
+    ]
+  },
+  {
     "app_id": "3206410",
     "game_title": "The Sinking Forest - 沈んだ森 -",
     "steam_link": "https://store.steampowered.com/app/3206410",
@@ -29852,6 +29917,19 @@
     ],
     "patch_descriptions": [
       "공식 한글 개선 패치 제작자 : 으잌"
+    ]
+  },
+  {
+    "app_id": "3349980",
+    "game_title": "BrebeMan",
+    "steam_link": "https://store.steampowered.com/app/3349980",
+    "source_site_url": "https://hanpe.net/app/46pkxn/brebeman",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : killterm"
     ]
   },
   {
@@ -30639,6 +30717,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 우육친구 공식 한글 개선 패치 (첫 번째 항목에 패치가 있습니다)"
+    ]
+  },
+  {
+    "app_id": "3587610",
+    "game_title": "The Dark Queen of Mortholme",
+    "steam_link": "https://store.steampowered.com/app/3587610",
+    "source_site_url": "https://hanpe.net/app/lz6k5p/the-dark-queen-of-mortholme",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : 으잌"
     ]
   },
   {
@@ -31497,9 +31588,11 @@
     "source_site_url": "https://hanpe.net/app/j923w3/%EC%95%88-%EB%8F%BC-%EC%8A%A4%EC%8A%B9%EB%8B%98%EC%9D%B4-%EC%97%AC%EC%9A%94%EC%A0%95%EC%97%90%EA%B2%8C-%EB%82%A9%EC%B9%98%EB%90%90%EC%96%B4",
     "patch_type": "official",
     "patch_links": [
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
+      "공식 한글 개선 패치 제작자 : 바나나우유",
       "(공식 한글 개선 패치) 제작자 : 바라미"
     ]
   },
@@ -31530,6 +31623,15 @@
       "제작자 : Pixel4a",
       "참여 인원: Oatone, Nark, 체퓨"
     ]
+  },
+  {
+    "app_id": "4417890",
+    "game_title": "Mercury Elopement Syndrome",
+    "steam_link": "https://store.steampowered.com/app/4417890",
+    "source_site_url": "https://hanpe.net/app/4e008x/mercury-elopement-syndrome",
+    "patch_type": "official",
+    "patch_links": [],
+    "patch_descriptions": []
   },
   {
     "app_id": "4478760",

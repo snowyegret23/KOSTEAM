@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-10T21:12:25.853Z",
-    "total_with_steam_link": 3079,
+    "generated_at": "2026-04-12T21:11:24.562Z",
+    "total_with_steam_link": 3087,
     "total_without_steam_link": 8,
     "sources": [
       "steamapp",
@@ -14628,6 +14628,27 @@
       ]
     },
     {
+      "app_id": "955900",
+      "game_title": "Amazing Cultivation Simulator",
+      "steam_link": "https://store.steampowered.com/app/955900",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : shakeluna"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j0z9x2/amazing-cultivation-simulator"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "332570",
       "game_title": "Amazing Frog?",
       "steam_link": "https://store.steampowered.com/app/332570",
@@ -19579,6 +19600,27 @@
       ]
     },
     {
+      "app_id": "3349980",
+      "game_title": "BrebeMan",
+      "steam_link": "https://store.steampowered.com/app/3349980",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : killterm"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/46pkxn/brebeman"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "1843940",
       "game_title": "Brigandine The Legend of Runersia",
       "steam_link": "https://store.steampowered.com/app/1843940",
@@ -20255,6 +20297,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "209160",
+      "game_title": "Call of Duty®: Ghosts",
+      "steam_link": "https://store.steampowered.com/app/209160",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        ""
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4r7o87/call-of-duty-ghosts"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -25653,6 +25716,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2285550",
+      "game_title": "Doloc Town",
+      "steam_link": "https://store.steampowered.com/app/2285550",
+      "patch_type": "official",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        ""
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/lx2qd7/doloc-town"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -32548,6 +32632,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "952490",
+      "game_title": "Hello Charlotte: Heaven's Gate",
+      "steam_link": "https://store.steampowered.com/app/952490",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "Credits: Grundrisse, ‘Pataphy, 에테르웍스강해설교, 카론__, 코즈믹"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jdxn0m/hello-charlotte-heavens-gate"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -40516,6 +40621,21 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "4417890",
+      "game_title": "Mercury Elopement Syndrome",
+      "steam_link": "https://store.steampowered.com/app/4417890",
+      "patch_type": "official",
+      "patch_links": [],
+      "patch_descriptions": [],
+      "patch_sources": [],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4e008x/mercury-elopement-syndrome"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -57912,6 +58032,27 @@
       ]
     },
     {
+      "app_id": "3587610",
+      "game_title": "The Dark Queen of Mortholme",
+      "steam_link": "https://store.steampowered.com/app/3587610",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 으잌"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/lz6k5p/the-dark-queen-of-mortholme"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "3566870",
       "game_title": "The Dark Rites of Arkham",
       "steam_link": "https://store.steampowered.com/app/3566870",
@@ -69980,13 +70121,16 @@
       "patch_type": "official",
       "patch_links": [
         "exist",
+        "exist",
         "exist"
       ],
       "patch_descriptions": [
+        "공식 한글 개선 패치 제작자 : 바나나우유",
         "(공식 한글 개선 패치) 제작자 : 바라미",
         "유저 한글 패치 - 바라미"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "quasarplay"
       ],
@@ -76198,6 +76342,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "3202030",
+      "game_title": "龙胤立志传",
+      "steam_link": "https://store.steampowered.com/app/3202030",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 누차"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l3mgvr/%E9%BE%99%E8%83%A4%E7%AB%8B%E5%BF%97%E4%BC%A0"
+      },
+      "sources": [
+        "steamapp"
       ]
     }
   ],
