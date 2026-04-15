@@ -2,8 +2,8 @@
   "curator_id": 42788178,
   "curator_name": "Curator #42788178",
   "curator_url": "https://store.steampowered.com/curator/42788178/",
-  "total_games": 1834,
-  "exported_at": "2026-04-12T21:10:52.740408",
+  "total_games": 1832,
+  "exported_at": "2026-04-15T21:19:06.528933",
   "games": [
     {
       "appid": "1486920",
@@ -2107,15 +2107,6 @@
       "url": "https://store.steampowered.com/app/3352470/Your_Android/",
       "curator_url": "https://store.steampowered.com/app/3352470/?curator_clanid=42788178",
       "review": "유저 한글 패치 - gusrud6151 님",
-      "review_has_url": true,
-      "review_url_count": 1,
-      "type": "recommended"
-    },
-    {
-      "appid": "2653940",
-      "url": "https://store.steampowered.com/app/2653940/Star_Trek_Resurgence/",
-      "curator_url": "https://store.steampowered.com/app/2653940/?curator_clanid=42788178",
-      "review": "유저 ai 한글 패치 - gusrud6151 님",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -4941,7 +4932,7 @@
       "appid": "2865440",
       "url": "https://store.steampowered.com/app/2865440/FRONT_MISSION_2_Remake/",
       "curator_url": "https://store.steampowered.com/app/2865440/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 팀 AI\n유저 한글 패치 - 편향된게이머",
+      "review": "유저 한글 패치 - 팀 니노쿠니\n유저 한글 패치 - 편향된게이머",
       "review_has_url": true,
       "review_url_count": 2,
       "type": "recommended"
@@ -6570,9 +6561,9 @@
       "appid": "2399730",
       "url": "https://store.steampowered.com/app/2399730/FRONT_MISSION_1st_Remake/",
       "curator_url": "https://store.steampowered.com/app/2399730/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 팀 AI",
+      "review": "유저 한글 패치 - 팀 니노쿠니\n유저 한글 패치 - 팀 AI",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -8622,9 +8613,9 @@
       "appid": "1096530",
       "url": "https://store.steampowered.com/app/1096530/Solasta_Crown_of_the_Magister/",
       "curator_url": "https://store.steampowered.com/app/1096530/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 - 팀 태양별",
+      "review": "유저 한글 패치 - 팀 태양별\n유저 한글 패치 - 한무테",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -12031,7 +12022,7 @@
     },
     {
       "appid": "363680",
-      "url": "https://store.steampowered.com/app/363680/Battlefleet_Gothic_Armada/",
+      "url": "https://store.steampowered.com/app/363680/Battlefleet_Gothic_Armada_Classic/",
       "curator_url": "https://store.steampowered.com/app/363680/?curator_clanid=42788178",
       "review": "유저 한국어 패치 - Harbinger 님",
       "review_has_url": true,
@@ -12814,7 +12805,7 @@
     },
     {
       "appid": "15620",
-      "url": "https://store.steampowered.com/app/15620/Warhammer_40000_Dawn_of_War_II__Anniversary_Edition/",
+      "url": "https://store.steampowered.com/app/15620/Warhammer_40000_Dawn_of_War_II__Anniversary_Edition_Classic/",
       "curator_url": "https://store.steampowered.com/app/15620/?curator_clanid=42788178",
       "review": "유저 한국어 패치",
       "review_has_url": true,
@@ -13290,15 +13281,6 @@
       "type": "recommended"
     },
     {
-      "appid": "32400",
-      "url": "https://store.steampowered.com/app/32400/STAR_WARS_Dark_Forces_Classic_1995/",
-      "curator_url": "https://store.steampowered.com/app/32400/?curator_clanid=42788178",
-      "review": "유저 한국어 패치",
-      "review_has_url": true,
-      "review_url_count": 1,
-      "type": "recommended"
-    },
-    {
       "appid": "6020",
       "url": "https://store.steampowered.com/app/6020/STAR_WARS_Jedi_Knight__Jedi_Academy/",
       "curator_url": "https://store.steampowered.com/app/6020/?curator_clanid=42788178",
@@ -13581,9 +13563,9 @@
       "appid": "269770",
       "url": "https://store.steampowered.com/app/269770/Secrets_of_Grindea/",
       "curator_url": "https://store.steampowered.com/app/269770/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 - 하토 님",
+      "review": "유저 한글 패치 - Ru1er\n유저 한글 패치 - 하토",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -14796,9 +14778,9 @@
       "appid": "219990",
       "url": "https://store.steampowered.com/app/219990/Grim_Dawn/",
       "curator_url": "https://store.steampowered.com/app/219990/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - GDtotem 님",
+      "review": "유저 한글 패치 - GDtotem\n유저 한글 패치 - Albrecht",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
