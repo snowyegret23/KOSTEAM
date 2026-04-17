@@ -59511,19 +59511,24 @@
   "2966320": {
     "type": "user",
     "sources": [
-      "steamapp"
+      "steamapp",
+      "quasarplay"
     ],
     "links": [
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
-      "제작자 : 원아리"
+      "제작자 : 원아리",
+      "유저 한글 패치 - 원아리\n유저 한글 패치"
     ],
     "patch_sources": [
-      "steamapp"
+      "steamapp",
+      "quasarplay"
     ],
     "source_site_urls": {
-      "steamapp": "https://hanpe.net/app/l7797v/starsand-island"
+      "steamapp": "https://hanpe.net/app/l7797v/starsand-island",
+      "quasarplay": "https://store.steampowered.com/app/2966320/?curator_clanid=30894603"
     }
   },
   "2966510": {
@@ -68060,7 +68065,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-04-15T21:19:38.641Z",
+    "generated_at": "2026-04-17T21:16:47.377Z",
     "total": 3137
   }
 }
