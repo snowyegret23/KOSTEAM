@@ -16775,9 +16775,11 @@
     "patch_type": "user",
     "patch_links": [
       "exist",
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 한잡스",
       "제작자 : 라이어게임",
       "제작자 : wagwagwa"
     ]
@@ -29445,9 +29447,9 @@
   },
   {
     "app_id": "3220060",
-    "game_title": "The Lamenting Geese: Ten Days of the City's Fall",
+    "game_title": "The Weeping Swan: Ten Days of the City's Fall",
     "steam_link": "https://store.steampowered.com/app/3220060",
-    "source_site_url": "https://hanpe.net/app/j9o81e/the-lamenting-geese-ten-days-of-the-citys-fall",
+    "source_site_url": "https://hanpe.net/app/j9o81e/the-weeping-swan-ten-days-of-the-citys-fall",
     "patch_type": "user",
     "patch_links": [
       "exist",

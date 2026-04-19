@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-04-17T21:16:47.377Z",
+    "generated_at": "2026-04-19T21:12:36.548Z",
     "total_with_steam_link": 3137,
     "total_without_steam_link": 8,
     "sources": [
@@ -15989,14 +15989,17 @@
       "patch_links": [
         "exist",
         "exist",
+        "exist",
         "exist"
       ],
       "patch_descriptions": [
+        "제작자 : 한잡스",
         "제작자 : 라이어게임",
         "제작자 : wagwagwa",
         "유저 한글 패치 - 라이어게임\n유저 한글 패치 - wagwagwa"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "steamapp",
         "quasarplay"
@@ -60712,35 +60715,6 @@
       ]
     },
     {
-      "app_id": "3220060",
-      "game_title": "The Lamenting Geese: Ten Days of the City's Fall",
-      "steam_link": "https://store.steampowered.com/app/3220060",
-      "patch_type": "user",
-      "patch_links": [
-        "exist",
-        "exist",
-        "exist"
-      ],
-      "patch_descriptions": [
-        "제작자 : Pixel4a",
-        "데모판 한글화 제작자 : Pixel4a",
-        "유저 한글 패치 - Pixel4a\n유저 한글 패치 - 한무테"
-      ],
-      "patch_sources": [
-        "steamapp",
-        "steamapp",
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "steamapp": "https://hanpe.net/app/j9o81e/the-lamenting-geese-ten-days-of-the-citys-fall",
-        "quasarplay": "https://store.steampowered.com/app/3220060/?curator_clanid=30894603"
-      },
-      "sources": [
-        "steamapp",
-        "quasarplay"
-      ]
-    },
-    {
       "app_id": "2519560",
       "game_title": "The Lancaster Leak - Crisis At Call Center",
       "steam_link": "https://store.steampowered.com/app/2519560",
@@ -62813,6 +62787,35 @@
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/4e673x/the-way",
         "quasarplay": "https://store.steampowered.com/app/311010/?curator_clanid=42788178"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "3220060",
+      "game_title": "The Weeping Swan: Ten Days of the City's Fall",
+      "steam_link": "https://store.steampowered.com/app/3220060",
+      "patch_type": "user",
+      "patch_links": [
+        "exist",
+        "exist",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : Pixel4a",
+        "데모판 한글화 제작자 : Pixel4a",
+        "유저 한글 패치 - Pixel4a\n유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j9o81e/the-weeping-swan-ten-days-of-the-citys-fall",
+        "quasarplay": "https://store.steampowered.com/app/3220060/?curator_clanid=30894603"
       },
       "sources": [
         "steamapp",
