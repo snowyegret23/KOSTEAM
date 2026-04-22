@@ -3795,11 +3795,11 @@
     "stove_url": "https://store.onstove.com/ko/games/101559"
   },
   {
-    "app_id": null,
+    "app_id": "3021630",
     "stove_game_no": "13399",
     "stove_product_no": "103297",
     "game_title": "사바라",
-    "steam_link": "",
+    "steam_link": "https://store.steampowered.com/app/3021630",
     "patch_type": "official",
     "patch_links": [
       "exist"
