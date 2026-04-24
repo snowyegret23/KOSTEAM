@@ -3810,11 +3810,11 @@
     "stove_url": "https://store.onstove.com/ko/games/103297"
   },
   {
-    "app_id": null,
+    "app_id": "2849960",
     "stove_game_no": "12835",
     "stove_product_no": "102745",
     "game_title": "소녀☆가극 레뷰 스타라이트 무대주상극 아득한 엘도라도 (Revue Starlight El Dorado)",
-    "steam_link": "",
+    "steam_link": "https://store.steampowered.com/app/2849960",
     "patch_type": "official",
     "patch_links": [
       "exist"
