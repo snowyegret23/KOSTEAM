@@ -60240,6 +60240,24 @@
       "steamapp": "https://hanpe.net/app/lxkwqy/legend-of-heroes-three-kingdoms"
     }
   },
+  "3021630": {
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/103297"
+    }
+  },
   "3024110": {
     "type": "user",
     "sources": [
@@ -68144,7 +68162,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-04-22T21:19:11.094Z",
-    "total": 3140
+    "generated_at": "2026-04-24T21:18:32.290Z",
+    "total": 3141
   }
 }
