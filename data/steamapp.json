@@ -16701,6 +16701,19 @@
     ]
   },
   {
+    "app_id": "1114220",
+    "game_title": "Gedonia",
+    "steam_link": "https://store.steampowered.com/app/1114220",
+    "source_site_url": "https://hanpe.net/app/4e6891/gedonia",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : 휠맨"
+    ]
+  },
+  {
     "app_id": "1115690",
     "game_title": "Yes, Your Grace",
     "steam_link": "https://store.steampowered.com/app/1115690",
@@ -17453,9 +17466,13 @@
     "source_site_url": "https://hanpe.net/app/j0g821/pathfinder-wrath-of-the-righteous-enhanced-edition",
     "patch_type": "user",
     "patch_links": [
+      "exist",
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 외계인 Pathfinder: Wrath of the Righteous의 DLC: A Dance of Masks, Visitors from Morta 번역",
+      "제작자 : 외계인",
       "제작자 : 아킨토스"
     ]
   },
@@ -21328,9 +21345,11 @@
     "patch_type": "user",
     "patch_links": [
       "exist",
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
+      "Free Lanes 업데이트, Terran Armada DLC 번역",
       "통합 한글화",
       "Starfield: Shattered Space DLC 한글패치 번역기를 이용한 한글화"
     ]
@@ -31757,6 +31776,19 @@
     "patch_type": "official",
     "patch_links": [],
     "patch_descriptions": []
+  },
+  {
+    "app_id": "4450800",
+    "game_title": "Idols of Ash",
+    "steam_link": "https://store.steampowered.com/app/4450800",
+    "source_site_url": "https://hanpe.net/app/jwgy5n/idols-of-ash",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : 으잌"
+    ]
   },
   {
     "app_id": "4475520",

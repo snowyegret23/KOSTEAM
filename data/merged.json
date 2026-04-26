@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-04-24T21:18:32.290Z",
-    "total_with_steam_link": 3141,
-    "total_without_steam_link": 9,
+    "generated_at": "2026-04-26T21:12:54.261Z",
+    "total_with_steam_link": 3143,
+    "total_without_steam_link": 8,
     "sources": [
       "steamapp",
       "quasarzone",
@@ -12,27 +12,6 @@
     ]
   },
   "games": [
-    {
-      "app_id": "1114220",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/1114220/Gedonia/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "유저 한글 패치 - 휠맨"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/1114220/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
     {
       "app_id": "3552140",
       "game_title": "",
@@ -31510,6 +31489,32 @@
       ]
     },
     {
+      "app_id": "1114220",
+      "game_title": "Gedonia",
+      "steam_link": "https://store.steampowered.com/app/1114220",
+      "patch_type": "user",
+      "patch_links": [
+        "exist",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 휠맨",
+        "유저 한글 패치 - 휠맨"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4e6891/gedonia",
+        "quasarplay": "https://store.steampowered.com/app/1114220/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "296490",
       "game_title": "GemCraft - Chasing Shadows",
       "steam_link": "https://store.steampowered.com/app/296490",
@@ -35635,6 +35640,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "4450800",
+      "game_title": "Idols of Ash",
+      "steam_link": "https://store.steampowered.com/app/4450800",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 으잌"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jwgy5n/idols-of-ash"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -46594,13 +46620,19 @@
       "patch_type": "user",
       "patch_links": [
         "exist",
+        "exist",
+        "exist",
         "exist"
       ],
       "patch_descriptions": [
+        "제작자 : 외계인 Pathfinder: Wrath of the Righteous의 DLC: A Dance of Masks, Visitors from Morta 번역",
+        "제작자 : 외계인",
         "제작자 : 아킨토스",
         "유저 한글 패치 - 아킨토스 님"
       ],
       "patch_sources": [
+        "steamapp",
+        "steamapp",
         "steamapp",
         "quasarplay"
       ],
@@ -55450,14 +55482,17 @@
       "patch_links": [
         "exist",
         "exist",
+        "exist",
         "exist"
       ],
       "patch_descriptions": [
+        "Free Lanes 업데이트, Terran Armada DLC 번역",
         "통합 한글화",
         "Starfield: Shattered Space DLC 한글패치 번역기를 이용한 한글화",
         "유저 한글 패치 - 팀왈도"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "steamapp",
         "quasarplay"
@@ -70894,6 +70929,27 @@
       ]
     },
     {
+      "app_id": "2849960",
+      "game_title": "소녀☆가극 레뷰 스타라이트 무대주상극 아득한 엘도라도 (Revue Starlight El Dorado)",
+      "steam_link": "https://store.steampowered.com/app/2849960",
+      "patch_type": "official",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        ""
+      ],
+      "patch_sources": [
+        "stove"
+      ],
+      "source_site_urls": {
+        "stove": "https://store.onstove.com/ko/games/102745"
+      },
+      "sources": [
+        "stove"
+      ]
+    },
+    {
       "app_id": "2324650",
       "game_title": "소닉 더 헤지혹 살인 사건",
       "steam_link": "https://store.steampowered.com/app/2324650",
@@ -77670,25 +77726,6 @@
       ],
       "source_site_urls": {
         "stove": "https://store.onstove.com/ko/games/102720"
-      },
-      "sources": [
-        "stove"
-      ]
-    },
-    {
-      "game_title": "소녀☆가극 레뷰 스타라이트 무대주상극 아득한 엘도라도 (Revue Starlight El Dorado)",
-      "patch_type": "official",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        ""
-      ],
-      "patch_sources": [
-        "stove"
-      ],
-      "source_site_urls": {
-        "stove": "https://store.onstove.com/ko/games/102745"
       },
       "sources": [
         "stove"

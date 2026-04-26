@@ -31438,18 +31438,23 @@
   "1114220": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 휠맨",
       "유저 한글 패치 - 휠맨"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4e6891/gedonia",
       "quasarplay": "https://store.steampowered.com/app/1114220/?curator_clanid=30894603"
     }
   },
@@ -33048,13 +33053,19 @@
     ],
     "links": [
       "exist",
+      "exist",
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 외계인 Pathfinder: Wrath of the Righteous의 DLC: A Dance of Masks, Visitors from Morta 번역",
+      "제작자 : 외계인",
       "제작자 : 아킨토스",
       "유저 한글 패치 - 아킨토스 님"
     ],
     "patch_sources": [
+      "steamapp",
+      "steamapp",
       "steamapp",
       "quasarplay"
     ],
@@ -42583,14 +42594,17 @@
     "links": [
       "exist",
       "exist",
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
+      "Free Lanes 업데이트, Terran Armada DLC 번역",
       "통합 한글화",
       "Starfield: Shattered Space DLC 한글패치 번역기를 이용한 한글화",
       "유저 한글 패치 - 팀왈도"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp",
       "steamapp",
       "quasarplay"
@@ -58064,6 +58078,24 @@
       "quasarplay": "https://store.steampowered.com/app/2847740/?curator_clanid=30894603"
     }
   },
+  "2849960": {
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/102745"
+    }
+  },
   "2850150": {
     "type": "user",
     "sources": [
@@ -68125,6 +68157,24 @@
       "steamapp": "https://hanpe.net/app/4e008x/mercury-elopement-syndrome"
     }
   },
+  "4450800": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : 으잌"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jwgy5n/idols-of-ash"
+    }
+  },
   "4475520": {
     "type": "user",
     "sources": [
@@ -68162,7 +68212,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-04-24T21:18:32.290Z",
-    "total": 3141
+    "generated_at": "2026-04-26T21:12:54.261Z",
+    "total": 3143
   }
 }
