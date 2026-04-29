@@ -17467,12 +17467,10 @@
     "patch_type": "user",
     "patch_links": [
       "exist",
-      "exist",
       "exist"
     ],
     "patch_descriptions": [
       "제작자 : 외계인 Pathfinder: Wrath of the Righteous의 DLC: A Dance of Masks, Visitors from Morta 번역",
-      "제작자 : 외계인",
       "제작자 : 아킨토스"
     ]
   },
@@ -25791,9 +25789,9 @@
   },
   {
     "app_id": "2508780",
-    "game_title": "STORY OF SEASONS: Grand Bazaar",
+    "game_title": "목장이야기 Let's! 바람의 그랜드 바자르",
     "steam_link": "https://store.steampowered.com/app/2508780",
-    "source_site_url": "https://hanpe.net/app/46z78y/story-of-seasons-grand-bazaar",
+    "source_site_url": "https://hanpe.net/app/46z78y/%EB%AA%A9%EC%9E%A5%EC%9D%B4%EC%95%BC%EA%B8%B0-lets-%EB%B0%94%EB%9E%8C%EC%9D%98-%EA%B7%B8%EB%9E%9C%EB%93%9C-%EB%B0%94%EC%9E%90%EB%A5%B4",
     "patch_type": "user",
     "patch_links": [
       "exist"
