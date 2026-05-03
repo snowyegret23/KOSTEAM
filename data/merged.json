@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-01T21:18:54.541Z",
-    "total_with_steam_link": 3143,
+    "generated_at": "2026-05-03T21:16:38.321Z",
+    "total_with_steam_link": 3147,
     "total_without_steam_link": 8,
     "sources": [
       "steamapp",
@@ -19597,6 +19597,27 @@
       ]
     },
     {
+      "app_id": "3855540",
+      "game_title": "BLACK SOULS II",
+      "steam_link": "https://store.steampowered.com/app/3855540",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 도도 VPN 필요 -"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l2pzg3/black-souls-ii"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "871810",
       "game_title": "Blackout",
       "steam_link": "https://store.steampowered.com/app/871810",
@@ -34473,6 +34494,27 @@
       ]
     },
     {
+      "app_id": "3155290",
+      "game_title": "Hold Me Tight All Night, Onii-chan!",
+      "steam_link": "https://store.steampowered.com/app/3155290",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : sadfawe"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jmmvgo/hold-me-tight-all-night-onii-chan"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "2971610",
       "game_title": "HOLE",
       "steam_link": "https://store.steampowered.com/app/2971610",
@@ -40380,6 +40422,27 @@
       ]
     },
     {
+      "app_id": "3548040",
+      "game_title": "Machine Child",
+      "steam_link": "https://store.steampowered.com/app/3548040",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 맑스"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j9ooke/machine-child"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "2103230",
       "game_title": "MACROSS -Shooting Insight-",
       "steam_link": "https://store.steampowered.com/app/2103230",
@@ -43714,13 +43777,16 @@
       "patch_type": "user",
       "patch_links": [
         "exist",
+        "exist",
         "exist"
       ],
       "patch_descriptions": [
+        "제작자 : 에엣와타시",
         "간이 한국어화 패치",
         "유저 한국어 패치 - 게지네 님"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "quasarplay"
       ],
@@ -60760,6 +60826,35 @@
       ]
     },
     {
+      "app_id": "3220060",
+      "game_title": "The Lamenting Geese: Ten Days of the City's Fall",
+      "steam_link": "https://store.steampowered.com/app/3220060",
+      "patch_type": "user",
+      "patch_links": [
+        "exist",
+        "exist",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : Pixel4a",
+        "데모판 한글화 제작자 : Pixel4a",
+        "유저 한글 패치 - Pixel4a\n유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j9o81e/the-lamenting-geese-ten-days-of-the-citys-fall",
+        "quasarplay": "https://store.steampowered.com/app/3220060/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "2519560",
       "game_title": "The Lancaster Leak - Crisis At Call Center",
       "steam_link": "https://store.steampowered.com/app/2519560",
@@ -62832,35 +62927,6 @@
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/4e673x/the-way",
         "quasarplay": "https://store.steampowered.com/app/311010/?curator_clanid=42788178"
-      },
-      "sources": [
-        "steamapp",
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "3220060",
-      "game_title": "The Weeping Swan: Ten Days of the City's Fall",
-      "steam_link": "https://store.steampowered.com/app/3220060",
-      "patch_type": "user",
-      "patch_links": [
-        "exist",
-        "exist",
-        "exist"
-      ],
-      "patch_descriptions": [
-        "제작자 : Pixel4a",
-        "데모판 한글화 제작자 : Pixel4a",
-        "유저 한글 패치 - Pixel4a\n유저 한글 패치 - 한무테"
-      ],
-      "patch_sources": [
-        "steamapp",
-        "steamapp",
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "steamapp": "https://hanpe.net/app/j9o81e/the-weeping-swan-ten-days-of-the-citys-fall",
-        "quasarplay": "https://store.steampowered.com/app/3220060/?curator_clanid=30894603"
       },
       "sources": [
         "steamapp",
@@ -71646,6 +71712,27 @@
       ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/l7939o/%EC%97%AC%ED%94%BC-%EC%82%AC%EC%9D%B4%EC%BD%94-%EA%B0%84%EB%B6%80-%EC%97%90%EB%94%94%EC%85%98"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "1127700",
+      "game_title": "역붕괴 ：베이커리작전",
+      "steam_link": "https://store.steampowered.com/app/1127700",
+      "patch_type": "official",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "공식 한글 번역 개선 패치"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jp8ryw/%EC%97%AD%EB%B6%95%EA%B4%B4-%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%EC%9E%91%EC%A0%84"
       },
       "sources": [
         "steamapp"

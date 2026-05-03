@@ -13556,9 +13556,11 @@
     "source_site_url": "https://hanpe.net/app/4eregy/nanairo-reincarnation",
     "patch_type": "user",
     "patch_links": [
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 에엣와타시",
       "간이 한국어화 패치"
     ]
   },
@@ -16862,6 +16864,19 @@
     ],
     "patch_descriptions": [
       "TTpercent 님 제작"
+    ]
+  },
+  {
+    "app_id": "1127700",
+    "game_title": "역붕괴 ：베이커리작전",
+    "steam_link": "https://store.steampowered.com/app/1127700",
+    "source_site_url": "https://hanpe.net/app/jp8ryw/%EC%97%AD%EB%B6%95%EA%B4%B4-%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%EC%9E%91%EC%A0%84",
+    "patch_type": "official",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "공식 한글 번역 개선 패치"
     ]
   },
   {
@@ -29162,6 +29177,19 @@
     ]
   },
   {
+    "app_id": "3155290",
+    "game_title": "Hold Me Tight All Night, Onii-chan!",
+    "steam_link": "https://store.steampowered.com/app/3155290",
+    "source_site_url": "https://hanpe.net/app/jmmvgo/hold-me-tight-all-night-onii-chan",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : sadfawe"
+    ]
+  },
+  {
     "app_id": "3156770",
     "game_title": "Witchfire",
     "steam_link": "https://store.steampowered.com/app/3156770",
@@ -29533,9 +29561,9 @@
   },
   {
     "app_id": "3220060",
-    "game_title": "The Weeping Swan: Ten Days of the City's Fall",
+    "game_title": "The Lamenting Geese: Ten Days of the City's Fall",
     "steam_link": "https://store.steampowered.com/app/3220060",
-    "source_site_url": "https://hanpe.net/app/j9o81e/the-weeping-swan-ten-days-of-the-citys-fall",
+    "source_site_url": "https://hanpe.net/app/j9o81e/the-lamenting-geese-ten-days-of-the-citys-fall",
     "patch_type": "user",
     "patch_links": [
       "exist",
@@ -30691,6 +30719,19 @@
     ]
   },
   {
+    "app_id": "3548040",
+    "game_title": "Machine Child",
+    "steam_link": "https://store.steampowered.com/app/3548040",
+    "source_site_url": "https://hanpe.net/app/j9ooke/machine-child",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : 맑스"
+    ]
+  },
+  {
     "app_id": "3548580",
     "game_title": "Chill with You : Lo-Fi Story",
     "steam_link": "https://store.steampowered.com/app/3548580",
@@ -31344,6 +31385,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 레트로겜보이"
+    ]
+  },
+  {
+    "app_id": "3855540",
+    "game_title": "BLACK SOULS II",
+    "steam_link": "https://store.steampowered.com/app/3855540",
+    "source_site_url": "https://hanpe.net/app/l2pzg3/black-souls-ii",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : 도도 VPN 필요 -"
     ]
   },
   {
