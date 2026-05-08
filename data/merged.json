@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-06T21:26:17.629Z",
+    "generated_at": "2026-05-08T21:23:46.723Z",
     "total_with_steam_link": 3156,
     "total_without_steam_link": 8,
     "sources": [
@@ -70336,7 +70336,7 @@
     },
     {
       "app_id": "2507980",
-      "game_title": "메타 고스트: 더 브레이킹 쇼 (Meta-Ghost: The Breaking Show)",
+      "game_title": "메타 고스트: 더 브레이킹 쇼 (Meta Ghost: Breaking Show)",
       "steam_link": "https://store.steampowered.com/app/2507980",
       "patch_type": "official",
       "patch_links": [
