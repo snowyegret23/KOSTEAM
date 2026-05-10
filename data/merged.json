@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-08T21:23:46.723Z",
-    "total_with_steam_link": 3156,
+    "generated_at": "2026-05-10T21:18:28.239Z",
+    "total_with_steam_link": 3158,
     "total_without_steam_link": 8,
     "sources": [
       "steamapp",
@@ -868,48 +868,6 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/2647900/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "1034540",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/1034540/Lorenzo_il_Magnifico/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "유저 한글 패치 - 짜짜"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/1034540/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "247000",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/247000/Talisman_Digital_Classic_Edition/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "유저 한글 패치 - 짜짜"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/247000/?curator_clanid=30894603"
       },
       "sources": [
         "quasarplay"
@@ -18630,7 +18588,7 @@
         "exist"
       ],
       "patch_descriptions": [
-        "제작자 : 한무테",
+        "제작자 : vmxlf",
         "유저 한글 패치 - gusrud6151 님"
       ],
       "patch_sources": [
@@ -22505,8 +22463,8 @@
       ],
       "patch_descriptions": [
         "제작자 : 위쳐",
-        "백업요 - 위 백업용 패치를 받기 전 필수 패치",
         "백업용",
+        "백업요 - 위 백업용 패치를 받기 전 필수 패치",
         "유저 한국어 패치 - 시크한 위쳐 님"
       ],
       "patch_sources": [
@@ -30566,6 +30524,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "3837340",
+      "game_title": "FINAL FANTASY VII",
+      "steam_link": "https://store.steampowered.com/app/3837340",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : KISSJIN"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jnk808/final-fantasy-vii"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -40057,6 +40036,32 @@
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/4ozvxn/lorena-and-the-land-of-ruins",
         "quasarplay": "https://store.steampowered.com/app/2146070/?curator_clanid=42788178"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "1034540",
+      "game_title": "Lorenzo il Magnifico",
+      "steam_link": "https://store.steampowered.com/app/1034540",
+      "patch_type": "user",
+      "patch_links": [
+        "exist",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 짜짜",
+        "유저 한글 패치 - 짜짜"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l2z2r2/lorenzo-il-magnifico",
+        "quasarplay": "https://store.steampowered.com/app/1034540/?curator_clanid=30894603"
       },
       "sources": [
         "steamapp",
@@ -50259,6 +50264,30 @@
       ]
     },
     {
+      "app_id": "1963610",
+      "game_title": "Road to Vostok",
+      "steam_link": "https://store.steampowered.com/app/1963610",
+      "patch_type": "user",
+      "patch_links": [
+        "exist",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : MuteJack",
+        "제작자 : Alphaca"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jpp0nn/road-to-vostok"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "1155970",
       "game_title": "Roadwarden",
       "steam_link": "https://store.steampowered.com/app/1155970",
@@ -56048,8 +56077,8 @@
         "exist"
       ],
       "patch_descriptions": [
-        "[ 크레딧 ] 프로젝트명: OPERATION 『미스틸테인』 대표: 1315 기술 지원: 5QS, VELKA 이미지 수정: 11DoctorP, 1315, 5QS 영상 수정: 1315 번역: 11DoctorP, 1315, 백프로, 이이로, Alvs, aasdf, healget, rehten, T4KINA, VELKA, アロエ 검수: 1315, 5QS, 백프로, 쀼꺼쀼꺼, Kampfer, Paranoia, RoKing, uNho 기타 도움을 주신 여러 참여자분들",
         "NOMED 님 제작 미완성판",
+        "[ 크레딧 ] 프로젝트명: OPERATION 『미스틸테인』 대표: 1315 기술 지원: 5QS, VELKA 이미지 수정: 11DoctorP, 1315, 5QS 영상 수정: 1315 번역: 11DoctorP, 1315, 백프로, 이이로, Alvs, aasdf, healget, rehten, T4KINA, VELKA, アロエ 검수: 1315, 5QS, 백프로, 쀼꺼쀼꺼, Kampfer, Paranoia, RoKing, uNho 기타 도움을 주신 여러 참여자분들",
         "유저 한글 패치 - 1315, 5QS, VELKA11DoctorP 님 등 다수"
       ],
       "patch_sources": [
@@ -57467,8 +57496,8 @@
         "exist"
       ],
       "patch_descriptions": [
-        "제작 기여: 체리(Hora)번역, 익명A(패치제작), 익명B (OP,ED악곡번역)",
         "Neidhardt: 패치 제작, 이미지, OP무비, 라이너노트 번역 Hora: 전체 스토리 번역, 검수, 테스트 익명: 검수, 테스트 きた: OP가사 번역",
+        "제작 기여: 체리(Hora)번역, 익명A(패치제작), 익명B (OP,ED악곡번역)",
         "유저 한글 패치 - 체리(Hora) 외\n유저 한글 패치 - Neidhardt, Hora, きた"
       ],
       "patch_sources": [
@@ -58034,6 +58063,32 @@
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/l7pvge/tales-of-zestiria",
         "quasarplay": "https://store.steampowered.com/app/351970/?curator_clanid=42788178"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "247000",
+      "game_title": "Talisman: Digital Classic Edition",
+      "steam_link": "https://store.steampowered.com/app/247000",
+      "patch_type": "user",
+      "patch_links": [
+        "exist",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 짜짜",
+        "유저 한글 패치 - 짜짜"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l3952m/talisman-digital-classic-edition",
+        "quasarplay": "https://store.steampowered.com/app/247000/?curator_clanid=30894603"
       },
       "sources": [
         "steamapp",

@@ -4941,6 +4941,19 @@
     ]
   },
   {
+    "app_id": "247000",
+    "game_title": "Talisman: Digital Classic Edition",
+    "steam_link": "https://store.steampowered.com/app/247000",
+    "source_site_url": "https://hanpe.net/app/l3952m/talisman-digital-classic-edition",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : 짜짜"
+    ]
+  },
+  {
     "app_id": "247080",
     "game_title": "Crypt of the NecroDancer",
     "steam_link": "https://store.steampowered.com/app/247080",
@@ -9205,8 +9218,8 @@
       "exist"
     ],
     "patch_descriptions": [
-      "[ 크레딧 ] 프로젝트명: OPERATION 『미스틸테인』 대표: 1315 기술 지원: 5QS, VELKA 이미지 수정: 11DoctorP, 1315, 5QS 영상 수정: 1315 번역: 11DoctorP, 1315, 백프로, 이이로, Alvs, aasdf, healget, rehten, T4KINA, VELKA, アロエ 검수: 1315, 5QS, 백프로, 쀼꺼쀼꺼, Kampfer, Paranoia, RoKing, uNho 기타 도움을 주신 여러 참여자분들",
-      "NOMED 님 제작 미완성판"
+      "NOMED 님 제작 미완성판",
+      "[ 크레딧 ] 프로젝트명: OPERATION 『미스틸테인』 대표: 1315 기술 지원: 5QS, VELKA 이미지 수정: 11DoctorP, 1315, 5QS 영상 수정: 1315 번역: 11DoctorP, 1315, 백프로, 이이로, Alvs, aasdf, healget, rehten, T4KINA, VELKA, アロエ 검수: 1315, 5QS, 백프로, 쀼꺼쀼꺼, Kampfer, Paranoia, RoKing, uNho 기타 도움을 주신 여러 참여자분들"
     ]
   },
   {
@@ -10437,8 +10450,8 @@
     ],
     "patch_descriptions": [
       "제작자 : 위쳐",
-      "백업요 - 위 백업용 패치를 받기 전 필수 패치",
-      "백업용"
+      "백업용",
+      "백업요 - 위 백업용 패치를 받기 전 필수 패치"
     ]
   },
   {
@@ -14278,8 +14291,8 @@
       "exist"
     ],
     "patch_descriptions": [
-      "제작 기여: 체리(Hora)번역, 익명A(패치제작), 익명B (OP,ED악곡번역)",
-      "Neidhardt: 패치 제작, 이미지, OP무비, 라이너노트 번역 Hora: 전체 스토리 번역, 검수, 테스트 익명: 검수, 테스트 きた: OP가사 번역"
+      "Neidhardt: 패치 제작, 이미지, OP무비, 라이너노트 번역 Hora: 전체 스토리 번역, 검수, 테스트 익명: 검수, 테스트 きた: OP가사 번역",
+      "제작 기여: 체리(Hora)번역, 익명A(패치제작), 익명B (OP,ED악곡번역)"
     ]
   },
   {
@@ -15759,6 +15772,19 @@
     "patch_descriptions": [
       "제작자 : 천지회",
       "MORT 사용 - 한글 번역 DB"
+    ]
+  },
+  {
+    "app_id": "1034540",
+    "game_title": "Lorenzo il Magnifico",
+    "steam_link": "https://store.steampowered.com/app/1034540",
+    "source_site_url": "https://hanpe.net/app/l2z2r2/lorenzo-il-magnifico",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : 짜짜"
     ]
   },
   {
@@ -22985,6 +23011,21 @@
     ]
   },
   {
+    "app_id": "1963610",
+    "game_title": "Road to Vostok",
+    "steam_link": "https://store.steampowered.com/app/1963610",
+    "source_site_url": "https://hanpe.net/app/jpp0nn/road-to-vostok",
+    "patch_type": "user",
+    "patch_links": [
+      "exist",
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : MuteJack",
+      "제작자 : Alphaca"
+    ]
+  },
+  {
     "app_id": "1964980",
     "game_title": "Sisters_Possession2",
     "steam_link": "https://store.steampowered.com/app/1964980",
@@ -25808,7 +25849,7 @@
       "exist"
     ],
     "patch_descriptions": [
-      "제작자 : 한무테"
+      "제작자 : vmxlf"
     ]
   },
   {
@@ -31493,6 +31534,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 으잌"
+    ]
+  },
+  {
+    "app_id": "3837340",
+    "game_title": "FINAL FANTASY VII",
+    "steam_link": "https://store.steampowered.com/app/3837340",
+    "source_site_url": "https://hanpe.net/app/jnk808/final-fantasy-vii",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : KISSJIN"
     ]
   },
   {
