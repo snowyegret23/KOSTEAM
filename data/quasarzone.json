@@ -2,16 +2,700 @@
   "curator_id": 30894603,
   "curator_name": "Curator #30894603",
   "curator_url": "https://store.steampowered.com/curator/30894603/",
-  "total_games": 739,
-  "exported_at": "2026-05-10T21:18:08.177724",
+  "total_games": 815,
+  "exported_at": "2026-05-13T21:32:56.019594",
   "games": [
+    {
+      "appid": "4504460",
+      "url": "https://store.steampowered.com/app/4504460/Lihiman/",
+      "curator_url": "https://store.steampowered.com/app/4504460/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 듀콩",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "1450830",
+      "url": "https://store.steampowered.com/app/1450830/At_Dead_Of_Night/",
+      "curator_url": "https://store.steampowered.com/app/1450830/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "3919190",
+      "url": "https://store.steampowered.com/app/3919190/Obey_the_Voice/",
+      "curator_url": "https://store.steampowered.com/app/3919190/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 으잌",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "3454610",
+      "url": "https://store.steampowered.com/app/3454610/Poco/",
+      "curator_url": "https://store.steampowered.com/app/3454610/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 으잌",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "2963800",
+      "url": "https://store.steampowered.com/app/2963800/DrainSim/",
+      "curator_url": "https://store.steampowered.com/app/2963800/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 으잌",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "4478760",
+      "url": "https://store.steampowered.com/app/4478760/Abandoned_Stories_Inherited_Silence/",
+      "curator_url": "https://store.steampowered.com/app/4478760/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 으잌",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "3587610",
+      "url": "https://store.steampowered.com/app/3587610/The_Dark_Queen_of_Mortholme/",
+      "curator_url": "https://store.steampowered.com/app/3587610/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 으잌",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "381780",
+      "url": "https://store.steampowered.com/app/381780/80_Days/",
+      "curator_url": "https://store.steampowered.com/app/381780/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 딩가딩",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "2414270",
+      "url": "https://store.steampowered.com/app/2414270/Sunderfolk/",
+      "curator_url": "https://store.steampowered.com/app/2414270/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - ae",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "3830",
+      "url": "https://store.steampowered.com/app/3830/Psychonauts/",
+      "curator_url": "https://store.steampowered.com/app/3830/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - Northward-Waxwing",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "976310",
+      "url": "https://store.steampowered.com/app/976310/Mortal_Kombat_11/",
+      "curator_url": "https://store.steampowered.com/app/976310/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 애플맛키위",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "1897650",
+      "url": "https://store.steampowered.com/app/1897650/Dream_Tactics/",
+      "curator_url": "https://store.steampowered.com/app/1897650/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 버섯순이",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "1078350",
+      "url": "https://store.steampowered.com/app/1078350/Ambrosia/",
+      "curator_url": "https://store.steampowered.com/app/1078350/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 金真",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "4256690",
+      "url": "https://store.steampowered.com/app/4256690/Shards_Of_Solitude/",
+      "curator_url": "https://store.steampowered.com/app/4256690/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 듀콩",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "3350200",
+      "url": "https://store.steampowered.com/app/3350200/Revenge_on_gold_diggers/",
+      "curator_url": "https://store.steampowered.com/app/3350200/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 미인이많군요",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "4005300",
+      "url": "https://store.steampowered.com/app/4005300/Dating_4_Girls/",
+      "curator_url": "https://store.steampowered.com/app/4005300/?curator_clanid=30894603",
+      "review": "번역 개선 패치 - 미인이많군요",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "658620",
+      "url": "https://store.steampowered.com/app/658620/Wonderful_Everyday_Down_the_RabbitHole/",
+      "curator_url": "https://store.steampowered.com/app/658620/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 로브르",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "4018950",
+      "url": "https://store.steampowered.com/app/4018950/Lost_Wiki_Kozlovka/",
+      "curator_url": "https://store.steampowered.com/app/4018950/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - killterm",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "3809940",
+      "url": "https://store.steampowered.com/app/3809940/Drill_Bird/",
+      "curator_url": "https://store.steampowered.com/app/3809940/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - killterm",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "3426150",
+      "url": "https://store.steampowered.com/app/3426150/I_Have_No_Change/",
+      "curator_url": "https://store.steampowered.com/app/3426150/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - killterm",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "3470560",
+      "url": "https://store.steampowered.com/app/3470560/Millennium_Dream/",
+      "curator_url": "https://store.steampowered.com/app/3470560/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "2543830",
+      "url": "https://store.steampowered.com/app/2543830/Way_of_the_Hunter_2/",
+      "curator_url": "https://store.steampowered.com/app/2543830/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "2878450",
+      "url": "https://store.steampowered.com/app/2878450/Master_of_Command/",
+      "curator_url": "https://store.steampowered.com/app/2878450/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "2461840",
+      "url": "https://store.steampowered.com/app/2461840/Defenders_of_the_Omniverse/",
+      "curator_url": "https://store.steampowered.com/app/2461840/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "3948550",
+      "url": "https://store.steampowered.com/app/3948550/Late_Ming_Reborn_in_Flames/",
+      "curator_url": "https://store.steampowered.com/app/3948550/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "2434600",
+      "url": "https://store.steampowered.com/app/2434600/ShantyTown/",
+      "curator_url": "https://store.steampowered.com/app/2434600/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "2910960",
+      "url": "https://store.steampowered.com/app/2910960/_VICTORY_HORIZONTHREE_KINGDOMS/",
+      "curator_url": "https://store.steampowered.com/app/2910960/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "2643390",
+      "url": "https://store.steampowered.com/app/2643390/Star_Trek_Voyager__Across_the_Unknown/",
+      "curator_url": "https://store.steampowered.com/app/2643390/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "1216710",
+      "url": "https://store.steampowered.com/app/1216710/Cyber_Manhunt/",
+      "curator_url": "https://store.steampowered.com/app/1216710/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "2461440",
+      "url": "https://store.steampowered.com/app/2461440/Bylina/",
+      "curator_url": "https://store.steampowered.com/app/2461440/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "2642890",
+      "url": "https://store.steampowered.com/app/2642890/KunKunNight/",
+      "curator_url": "https://store.steampowered.com/app/2642890/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "2125090",
+      "url": "https://store.steampowered.com/app/2125090/Tintin_Reporter__Cigars_of_the_Pharaoh/",
+      "curator_url": "https://store.steampowered.com/app/2125090/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "2060870",
+      "url": "https://store.steampowered.com/app/2060870/Invincible_Presents_Atom_Eve/",
+      "curator_url": "https://store.steampowered.com/app/2060870/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "2631140",
+      "url": "https://store.steampowered.com/app/2631140/Weed_Shop_4_Highland/",
+      "curator_url": "https://store.steampowered.com/app/2631140/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "3451680",
+      "url": "https://store.steampowered.com/app/3451680/The_House_of_Hikmah/",
+      "curator_url": "https://store.steampowered.com/app/3451680/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "2664050",
+      "url": "https://store.steampowered.com/app/2664050/YOKO/",
+      "curator_url": "https://store.steampowered.com/app/2664050/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "2340520",
+      "url": "https://store.steampowered.com/app/2340520/Tales_of_Seikyu/",
+      "curator_url": "https://store.steampowered.com/app/2340520/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "4168280",
+      "url": "https://store.steampowered.com/app/4168280/The_Butler/",
+      "curator_url": "https://store.steampowered.com/app/4168280/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "897160",
+      "url": "https://store.steampowered.com/app/897160/Snap__Grab/",
+      "curator_url": "https://store.steampowered.com/app/897160/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "2423760",
+      "url": "https://store.steampowered.com/app/2423760/Above_the_Snow/",
+      "curator_url": "https://store.steampowered.com/app/2423760/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "2536670",
+      "url": "https://store.steampowered.com/app/2536670/Project_Vesperi/",
+      "curator_url": "https://store.steampowered.com/app/2536670/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "1966410",
+      "url": "https://store.steampowered.com/app/1966410/Aphelion/",
+      "curator_url": "https://store.steampowered.com/app/1966410/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "3562120",
+      "url": "https://store.steampowered.com/app/3562120/Magical_Princess/",
+      "curator_url": "https://store.steampowered.com/app/3562120/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 유하님\n유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 2,
+      "type": "recommended"
+    },
+    {
+      "appid": "2597080",
+      "url": "https://store.steampowered.com/app/2597080/Realm_of_Ink/",
+      "curator_url": "https://store.steampowered.com/app/2597080/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "2154070",
+      "url": "https://store.steampowered.com/app/2154070/INDUSTRIA_2/",
+      "curator_url": "https://store.steampowered.com/app/2154070/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "3632890",
+      "url": "https://store.steampowered.com/app/3632890/Content_King/",
+      "curator_url": "https://store.steampowered.com/app/3632890/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "2353060",
+      "url": "https://store.steampowered.com/app/2353060/Invincible_VS/",
+      "curator_url": "https://store.steampowered.com/app/2353060/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "2095420",
+      "url": "https://store.steampowered.com/app/2095420/Bus_Bound/",
+      "curator_url": "https://store.steampowered.com/app/2095420/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "4007300",
+      "url": "https://store.steampowered.com/app/4007300/Legends_of_Wasteland/",
+      "curator_url": "https://store.steampowered.com/app/4007300/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "3727390",
+      "url": "https://store.steampowered.com/app/3727390/The_Expanse_Osiris_Reborn/",
+      "curator_url": "https://store.steampowered.com/app/3727390/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "3601800",
+      "url": "https://store.steampowered.com/app/3601800/Meltopia/",
+      "curator_url": "https://store.steampowered.com/app/3601800/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "2096260",
+      "url": "https://store.steampowered.com/app/2096260/Mini_Tank_Mayhem/",
+      "curator_url": "https://store.steampowered.com/app/2096260/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "3429890",
+      "url": "https://store.steampowered.com/app/3429890/Devil_of_the_Plague/",
+      "curator_url": "https://store.steampowered.com/app/3429890/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "3372530",
+      "url": "https://store.steampowered.com/app/3372530/Valorborn/",
+      "curator_url": "https://store.steampowered.com/app/3372530/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "942010",
+      "url": "https://store.steampowered.com/app/942010/The_3rd_Building/",
+      "curator_url": "https://store.steampowered.com/app/942010/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "1015890",
+      "url": "https://store.steampowered.com/app/1015890/TASOMACHI_Behind_the_Twilight/",
+      "curator_url": "https://store.steampowered.com/app/1015890/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "983970",
+      "url": "https://store.steampowered.com/app/983970/Haven/",
+      "curator_url": "https://store.steampowered.com/app/983970/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "3834880",
+      "url": "https://store.steampowered.com/app/3834880/Tales_of_Justice_Academy_Winds_Arise/",
+      "curator_url": "https://store.steampowered.com/app/3834880/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "4395180",
+      "url": "https://store.steampowered.com/app/4395180/Birthday_Boy/",
+      "curator_url": "https://store.steampowered.com/app/4395180/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "3833300",
+      "url": "https://store.steampowered.com/app/3833300/Infinite_Cards/",
+      "curator_url": "https://store.steampowered.com/app/3833300/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "2873660",
+      "url": "https://store.steampowered.com/app/2873660/Global_Rescue/",
+      "curator_url": "https://store.steampowered.com/app/2873660/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "739080",
+      "url": "https://store.steampowered.com/app/739080/9_Monkeys_of_Shaolin/",
+      "curator_url": "https://store.steampowered.com/app/739080/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "1036700",
+      "url": "https://store.steampowered.com/app/1036700/My_Beautiful_Paper_Smile/",
+      "curator_url": "https://store.steampowered.com/app/1036700/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "2321780",
+      "url": "https://store.steampowered.com/app/2321780/Starship_Troopers_Ultimate_Bug_War/",
+      "curator_url": "https://store.steampowered.com/app/2321780/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "3110760",
+      "url": "https://store.steampowered.com/app/3110760/Alabaster_Dawn/",
+      "curator_url": "https://store.steampowered.com/app/3110760/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "1091980",
+      "url": "https://store.steampowered.com/app/1091980/The_Bards_Tale_IV_Directors_Cut/",
+      "curator_url": "https://store.steampowered.com/app/1091980/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "2959770",
+      "url": "https://store.steampowered.com/app/2959770/Duck_Side_of_the_Moon/",
+      "curator_url": "https://store.steampowered.com/app/2959770/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "487120",
+      "url": "https://store.steampowered.com/app/487120/Citadel_Forged_with_Fire/",
+      "curator_url": "https://store.steampowered.com/app/487120/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "1122050",
+      "url": "https://store.steampowered.com/app/1122050/Gensokyo_Night_Festival/",
+      "curator_url": "https://store.steampowered.com/app/1122050/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "3097300",
+      "url": "https://store.steampowered.com/app/3097300/Creature_Kitchen/",
+      "curator_url": "https://store.steampowered.com/app/3097300/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "4450800",
+      "url": "https://store.steampowered.com/app/4450800/Idols_of_Ash/",
+      "curator_url": "https://store.steampowered.com/app/4450800/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 으잌",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "3769330",
+      "url": "https://store.steampowered.com/app/3769330/Road_Trip_to_the_End_of_the_World/",
+      "curator_url": "https://store.steampowered.com/app/3769330/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 으잌",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "4197610",
+      "url": "https://store.steampowered.com/app/4197610/Librarian_Tidy_Up_the_Arcane_Library/",
+      "curator_url": "https://store.steampowered.com/app/4197610/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "4508710",
+      "url": "https://store.steampowered.com/app/4508710/The_Last_Letter/",
+      "curator_url": "https://store.steampowered.com/app/4508710/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "3618030",
+      "url": "https://store.steampowered.com/app/3618030/Flock_Around/",
+      "curator_url": "https://store.steampowered.com/app/3618030/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 으잌",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "811320",
+      "url": "https://store.steampowered.com/app/811320/Jupiter_Hell/",
+      "curator_url": "https://store.steampowered.com/app/811320/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 으잌",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
     {
       "appid": "3349980",
       "url": "https://store.steampowered.com/app/3349980/BrebeMan/",
       "curator_url": "https://store.steampowered.com/app/3349980/?curator_clanid=30894603",
-      "review": "유저 한글 패치 - killterm",
+      "review": "유저 한글 패치 - killterm\n유저 한글 패치 - 빗소리P",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -279,9 +963,9 @@
       "appid": "3370870",
       "url": "https://store.steampowered.com/app/3370870/Berry_Bury_Berry/",
       "curator_url": "https://store.steampowered.com/app/3370870/?curator_clanid=30894603",
-      "review": "유저 한글 패치 - 한무테",
+      "review": "유저 한글 패치 - 으잌\n유저 한글 패치 - 한무테",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -648,9 +1332,9 @@
       "appid": "1996390",
       "url": "https://store.steampowered.com/app/1996390/Escape_from_Ever_After/",
       "curator_url": "https://store.steampowered.com/app/1996390/?curator_clanid=30894603",
-      "review": "유저 한글 패치 - 한무테",
+      "review": "유저 한글 패치 - 으잌\n유저 한글 패치 - 한무테",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -1548,7 +2232,7 @@
       "appid": "333640",
       "url": "https://store.steampowered.com/app/333640/Caves_of_Qud/",
       "curator_url": "https://store.steampowered.com/app/333640/?curator_clanid=30894603",
-      "review": "유저 한글 패치 - qudkorean\n유저 한글 패치",
+      "review": "유저 한글 패치 \n유저 한글 패치 - qudkorean",
       "review_has_url": true,
       "review_url_count": 2,
       "type": "recommended"
@@ -1737,7 +2421,7 @@
       "appid": "1585540",
       "url": "https://store.steampowered.com/app/1585540/SnowSwept_Quest/",
       "curator_url": "https://store.steampowered.com/app/1585540/?curator_clanid=30894603",
-      "review": "유저 한글 패치 - 에스티",
+      "review": "유저 한글 패치 - 金真",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -1944,9 +2628,9 @@
       "appid": "3706160",
       "url": "https://store.steampowered.com/app/3706160/Bober_Bros_No_Means_Nothing/",
       "curator_url": "https://store.steampowered.com/app/3706160/?curator_clanid=30894603",
-      "review": "유저 한글 패치 - 으잌",
+      "review": "유저 한글 패치 - 으잌\n유저 한글 패치 - 한무테",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -2079,9 +2763,9 @@
       "appid": "4122860",
       "url": "https://store.steampowered.com/app/4122860/ZATO__I_Love_the_World_and_Everything_In_It/",
       "curator_url": "https://store.steampowered.com/app/4122860/?curator_clanid=30894603",
-      "review": "유저 한글 패치 - 떱더, Ferry, Nopanamaman, 다샤",
+      "review": "유저 한글 패치 - 으잌\n유저 한글 패치 - 떱더, Ferry, Nopanamaman, 다샤",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -3942,7 +4626,7 @@
       "appid": "3612850",
       "url": "https://store.steampowered.com/app/3612850/The_Lightkeeper/",
       "curator_url": "https://store.steampowered.com/app/3612850/?curator_clanid=30894603",
-      "review": "유저 한글 패치 - 으잌㉪\n유저 한글 패치 - 한무테",
+      "review": "유저 한글 패치 - 으잌\n유저 한글 패치 - 한무테",
       "review_has_url": true,
       "review_url_count": 2,
       "type": "recommended"
@@ -4248,7 +4932,7 @@
       "appid": "1494810",
       "url": "https://store.steampowered.com/app/1494810/Mortal_Sin/",
       "curator_url": "https://store.steampowered.com/app/1494810/?curator_clanid=30894603",
-      "review": "유저 한글 패치 - 으잌㉪\n유저 한글 패치 - 한무테",
+      "review": "유저 한글 패치 - 으잌\n유저 한글 패치 - 한무테",
       "review_has_url": true,
       "review_url_count": 2,
       "type": "recommended"
@@ -5481,9 +6165,9 @@
       "appid": "1125510",
       "url": "https://store.steampowered.com/app/1125510/Snacko/",
       "curator_url": "https://store.steampowered.com/app/1125510/?curator_clanid=30894603",
-      "review": "유저 한글 패치 - 한무테",
+      "review": "유저 한글 패치 - 으잌\n유저 한글 패치 - 한무테",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -6642,7 +7326,7 @@
       "appid": "1184790",
       "url": "https://store.steampowered.com/app/1184790/SCP_Fragmented_Minds/",
       "curator_url": "https://store.steampowered.com/app/1184790/?curator_clanid=30894603",
-      "review": "유저 한글 패치 - 으잌㉪",
+      "review": "유저 한글 패치 - 으잌",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"

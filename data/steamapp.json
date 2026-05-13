@@ -8421,6 +8421,19 @@
     ]
   },
   {
+    "app_id": "381780",
+    "game_title": "80 Days",
+    "steam_link": "https://store.steampowered.com/app/381780",
+    "source_site_url": "https://hanpe.net/app/4ge26g/80-days",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : 딩가딩"
+    ]
+  },
+  {
     "app_id": "383120",
     "game_title": "Empyrion - Galactic Survival",
     "steam_link": "https://store.steampowered.com/app/383120",
@@ -14680,6 +14693,19 @@
     ],
     "patch_descriptions": [
       "영수 님 제작"
+    ]
+  },
+  {
+    "app_id": "899770",
+    "game_title": "Last Epoch",
+    "steam_link": "https://store.steampowered.com/app/899770",
+    "source_site_url": "https://hanpe.net/app/jd9x7v/last-epoch",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "공식 한글 개선 패치 제작자 : 매코미"
     ]
   },
   {
@@ -29207,6 +29233,19 @@
     ]
   },
   {
+    "app_id": "3108980",
+    "game_title": "Part-Time Witch",
+    "steam_link": "https://store.steampowered.com/app/3108980",
+    "source_site_url": "https://hanpe.net/app/jm5pwn/part-time-witch",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : 레트로겜보이"
+    ]
+  },
+  {
     "app_id": "3110760",
     "game_title": "Alabaster Dawn",
     "steam_link": "https://store.steampowered.com/app/3110760",
@@ -30654,6 +30693,19 @@
     ]
   },
   {
+    "app_id": "3443820",
+    "game_title": "BUNNY GARDEN 2",
+    "steam_link": "https://store.steampowered.com/app/3443820",
+    "source_site_url": "https://hanpe.net/app/jv6xm8/bunny-garden-2",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : 이프심"
+    ]
+  },
+  {
     "app_id": "3444020",
     "game_title": "我在地府打麻将 - Demonic Mahjong",
     "steam_link": "https://store.steampowered.com/app/3444020",
@@ -31394,6 +31446,19 @@
     ]
   },
   {
+    "app_id": "3769330",
+    "game_title": "Road Trip to the End of the World",
+    "steam_link": "https://store.steampowered.com/app/3769330",
+    "source_site_url": "https://hanpe.net/app/lxkgd0/road-trip-to-the-end-of-the-world",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : 으잌"
+    ]
+  },
+  {
     "app_id": "3776410",
     "game_title": "オバケヤシキ",
     "steam_link": "https://store.steampowered.com/app/3776410",
@@ -31450,6 +31515,19 @@
     "game_title": "Oni-no-Kuni: Miozuki's Descent",
     "steam_link": "https://store.steampowered.com/app/3801270",
     "source_site_url": "https://hanpe.net/app/jpv07o/oni-no-kuni-miozukis-descent",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : 레트로겜보이"
+    ]
+  },
+  {
+    "app_id": "3802800",
+    "game_title": "MADO MONOGATARI: Fia and the Wondrous Academy",
+    "steam_link": "https://store.steampowered.com/app/3802800",
+    "source_site_url": "https://hanpe.net/app/4g0r2y/mado-monogatari-fia-and-the-wondrous-academy",
     "patch_type": "user",
     "patch_links": [
       "exist"
@@ -31517,9 +31595,11 @@
     "source_site_url": "https://hanpe.net/app/l3vywr/%E6%B1%9F%E5%B1%B1%E5%8C%97%E6%9C%9B",
     "patch_type": "official",
     "patch_links": [
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
+      "공식 한글 개선 패치 제작자 : 희망의가위",
       "공식 한글 개선 패치 제작자 : 바나나우유"
     ]
   },
@@ -31560,6 +31640,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 미인이많군요"
+    ]
+  },
+  {
+    "app_id": "3841220",
+    "game_title": "Midnight Crane",
+    "steam_link": "https://store.steampowered.com/app/3841220",
+    "source_site_url": "https://hanpe.net/app/4gp883/midnight-crane",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : 코스노우"
     ]
   },
   {
@@ -31842,10 +31935,12 @@
     "source_site_url": "https://hanpe.net/app/j8yo5z/zato-i-love-the-world-and-everything-in-it",
     "patch_type": "user",
     "patch_links": [
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
-      "제작 Ferry // Nopanamaman 번역 떱더/다샤"
+      "기존 한패 아카이브 제작 Ferry // Nopanamaman 번역 떱더/다샤",
+      "제작자 : 으잌"
     ]
   },
   {

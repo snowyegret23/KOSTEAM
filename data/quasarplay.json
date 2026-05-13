@@ -3,7 +3,7 @@
   "curator_name": "Curator #42788178",
   "curator_url": "https://store.steampowered.com/curator/42788178/",
   "total_games": 1832,
-  "exported_at": "2026-05-10T21:17:57.410368",
+  "exported_at": "2026-05-13T21:32:44.872891",
   "games": [
     {
       "appid": "1486920",
@@ -117,7 +117,7 @@
       "appid": "1804010",
       "url": "https://store.steampowered.com/app/1804010/Labyrinth_Of_The_Demon_King/",
       "curator_url": "https://store.steampowered.com/app/1804010/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 으잌㉪\n유저 한글 패치 - 한무테",
+      "review": "유저 한글 패치 - 으잌\n유저 한글 패치 - 한무테",
       "review_has_url": true,
       "review_url_count": 2,
       "type": "recommended"
@@ -126,7 +126,7 @@
       "appid": "3572580",
       "url": "https://store.steampowered.com/app/3572580/Hachishaku/",
       "curator_url": "https://store.steampowered.com/app/3572580/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 으잌㉪",
+      "review": "유저 한글 패치 - 으잌",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -558,7 +558,7 @@
       "appid": "3373660",
       "url": "https://store.steampowered.com/app/3373660/Look_Outside/",
       "curator_url": "https://store.steampowered.com/app/3373660/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 으잌㉪\nㅇㄷㄹㅅ\n참치 김밥",
+      "review": "유저 한글 패치 - 으잌㉪\nㅇㄷㄹㅅ\nkillterm",
       "review_has_url": true,
       "review_url_count": 3,
       "type": "recommended"
@@ -936,9 +936,9 @@
       "appid": "1243850",
       "url": "https://store.steampowered.com/app/1243850/This_Bed_We_Made/",
       "curator_url": "https://store.steampowered.com/app/1243850/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 한무테",
+      "review": "유저 한글 패치 - 으잌\n유저 한글 패치 - 한무테",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -1602,7 +1602,7 @@
       "appid": "3137220",
       "url": "https://store.steampowered.com/app/3137220/CrimeSceneCleaners/",
       "curator_url": "https://store.steampowered.com/app/3137220/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 으잌㉪ 님",
+      "review": "유저 한글 패치 - 으잌㉪",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -1998,7 +1998,7 @@
       "appid": "3070370",
       "url": "https://store.steampowered.com/app/3070370/Invasion_of_The_Halloween_Fiends/",
       "curator_url": "https://store.steampowered.com/app/3070370/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 으잌㉪ 님",
+      "review": "유저 한글 패치 - 으잌㉪",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -2268,9 +2268,9 @@
       "appid": "1160220",
       "url": "https://store.steampowered.com/app/1160220/Paradise_Killer/",
       "curator_url": "https://store.steampowered.com/app/1160220/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - gusrud6151 님",
+      "review": "유저 한글 패치 - 으잌\n유저 한글 패치 - 한무테",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -2295,7 +2295,7 @@
       "appid": "1537080",
       "url": "https://store.steampowered.com/app/1537080/Return/",
       "curator_url": "https://store.steampowered.com/app/1537080/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 으잌㉪ 님",
+      "review": "유저 한글 패치 - 으잌㉪",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -2430,7 +2430,7 @@
       "appid": "3361470",
       "url": "https://store.steampowered.com/app/3361470/Digseum/",
       "curator_url": "https://store.steampowered.com/app/3361470/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 으잌㉪ 님",
+      "review": "유저 한글 패치 - 으잌㉪",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -2466,7 +2466,7 @@
       "appid": "2455920",
       "url": "https://store.steampowered.com/app/2455920/Mimic_Logic/",
       "curator_url": "https://store.steampowered.com/app/2455920/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 으잌㉪ 님",
+      "review": "유저 한글 패치 - 으잌㉪",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -2565,9 +2565,9 @@
       "appid": "2299900",
       "url": "https://store.steampowered.com/app/2299900/Felvidek/",
       "curator_url": "https://store.steampowered.com/app/2299900/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - gusrud6151 님",
+      "review": "유저 한글 패치 - 에디\n유저 한글 패치 - 한무테",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -2853,7 +2853,7 @@
       "appid": "3274300",
       "url": "https://store.steampowered.com/app/3274300/Awaria/",
       "curator_url": "https://store.steampowered.com/app/3274300/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 으잌㉪ 님",
+      "review": "유저 한글 패치 - 으잌㉪",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -2862,7 +2862,7 @@
       "appid": "2785110",
       "url": "https://store.steampowered.com/app/2785110/Evil_Holiday/",
       "curator_url": "https://store.steampowered.com/app/2785110/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 으잌㉪ 님",
+      "review": "유저 한글 패치 - 으잌㉪",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -2871,7 +2871,7 @@
       "appid": "3100790",
       "url": "https://store.steampowered.com/app/3100790/GULLET/",
       "curator_url": "https://store.steampowered.com/app/3100790/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 으잌㉪ 님",
+      "review": "유저 한글 패치 - 으잌㉪",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -2880,7 +2880,7 @@
       "appid": "2909230",
       "url": "https://store.steampowered.com/app/2909230/This_Curse_Is_Metal_as_Hell__Kusodeka_Bayashi/",
       "curator_url": "https://store.steampowered.com/app/2909230/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 으잌㉪ 님",
+      "review": "유저 한글 패치 - 으잌㉪",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -3105,7 +3105,7 @@
       "appid": "2880460",
       "url": "https://store.steampowered.com/app/2880460/Terroro/",
       "curator_url": "https://store.steampowered.com/app/2880460/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 으잌㉪ 님\n유저 한글 패치 - 막셋 님",
+      "review": "유저 한글 패치 - 으잌㉪\n유저 한글 패치 - 막셋",
       "review_has_url": true,
       "review_url_count": 2,
       "type": "recommended"
@@ -3168,7 +3168,7 @@
       "appid": "2948790",
       "url": "https://store.steampowered.com/app/2948790/CROWDED_FOLLOWED/",
       "curator_url": "https://store.steampowered.com/app/2948790/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 으잌㉪ 님",
+      "review": "유저 한글 패치 - 으잌㉪",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -3195,7 +3195,7 @@
       "appid": "2107180",
       "url": "https://store.steampowered.com/app/2107180/The_Hungry_Fly/",
       "curator_url": "https://store.steampowered.com/app/2107180/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 으잌㉪ 님",
+      "review": "유저 한글 패치 - 으잌",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -3294,7 +3294,7 @@
       "appid": "1697720",
       "url": "https://store.steampowered.com/app/1697720/The_Heilwald_Loophole/",
       "curator_url": "https://store.steampowered.com/app/1697720/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 으잌㉪ 님",
+      "review": "유저 한글 패치 - 으잌",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -3681,7 +3681,7 @@
       "appid": "2594540",
       "url": "https://store.steampowered.com/app/2594540/Motel_Manager_Simulator/",
       "curator_url": "https://store.steampowered.com/app/2594540/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 으잌㉪ 님",
+      "review": "유저 한글 패치 - 으잌",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -4104,7 +4104,7 @@
       "appid": "2013730",
       "url": "https://store.steampowered.com/app/2013730/Gourdlets/",
       "curator_url": "https://store.steampowered.com/app/2013730/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 으잌㉪ 님",
+      "review": "유저 한글 패치 - 으잌㉪",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -4131,7 +4131,7 @@
       "appid": "1316680",
       "url": "https://store.steampowered.com/app/1316680/VLADiK_BRUTAL/",
       "curator_url": "https://store.steampowered.com/app/1316680/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 으잌㉪, cowgogi 님",
+      "review": "유저 한글 패치 - 으잌",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -4176,7 +4176,7 @@
       "appid": "2400510",
       "url": "https://store.steampowered.com/app/2400510/Dungeons__Degenerate_Gamblers/",
       "curator_url": "https://store.steampowered.com/app/2400510/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 으잌㉪ 님",
+      "review": "유저 한글 패치 - 으잌",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -4239,7 +4239,7 @@
       "appid": "1286990",
       "url": "https://store.steampowered.com/app/1286990/CONSCRIPT_Directors_Cut/",
       "curator_url": "https://store.steampowered.com/app/1286990/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 으잌㉪, 엔도, 우평삭\n유저 한글 패치 - 한무테",
+      "review": "유저 한글 패치 - 으잌\n유저 한글 패치 - 한무테",
       "review_has_url": true,
       "review_url_count": 2,
       "type": "recommended"
@@ -4356,7 +4356,7 @@
       "appid": "2470300",
       "url": "https://store.steampowered.com/app/2470300/Hookah_Haze/",
       "curator_url": "https://store.steampowered.com/app/2470300/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 으잌㉪ 님",
+      "review": "유저 한글 패치 - 으잌㉪",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -4446,7 +4446,7 @@
       "appid": "1305300",
       "url": "https://store.steampowered.com/app/1305300/Love_Love_School_Days/",
       "curator_url": "https://store.steampowered.com/app/1305300/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 으잌㉪ 님",
+      "review": "유저 한글 패치 - 으잌㉪",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -4455,7 +4455,7 @@
       "appid": "2907190",
       "url": "https://store.steampowered.com/app/2907190/April_24th/",
       "curator_url": "https://store.steampowered.com/app/2907190/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 으잌㉪ 님",
+      "review": "유저 한글 패치 - 으잌㉪",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -4473,7 +4473,7 @@
       "appid": "2925510",
       "url": "https://store.steampowered.com/app/2925510/Voyager19/",
       "curator_url": "https://store.steampowered.com/app/2925510/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 으잌㉪ 님",
+      "review": "유저 한글 패치 - 으잌㉪",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -4545,7 +4545,7 @@
       "appid": "3001730",
       "url": "https://store.steampowered.com/app/3001730/Bober_Bros_Its_Just_A_Prank/",
       "curator_url": "https://store.steampowered.com/app/3001730/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 으잌㉪ 님",
+      "review": "유저 한글 패치 - 으잌㉪",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -4680,7 +4680,7 @@
       "appid": "2933290",
       "url": "https://store.steampowered.com/app/2933290/Nightmare_Files_Clap_Clap/",
       "curator_url": "https://store.steampowered.com/app/2933290/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 으잌㉪ 님",
+      "review": "유저 한글 패치 - 으잌㉪",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -4743,7 +4743,7 @@
       "appid": "2821850",
       "url": "https://store.steampowered.com/app/2821850/Baisu/",
       "curator_url": "https://store.steampowered.com/app/2821850/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 으잌㉪ 님",
+      "review": "유저 한글 패치 - 으잌㉪",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -4770,7 +4770,7 @@
       "appid": "2795000",
       "url": "https://store.steampowered.com/app/2795000/The_WereCleaner/",
       "curator_url": "https://store.steampowered.com/app/2795000/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 으잌㉪ 님",
+      "review": "유저 한글 패치 - 으잌㉪",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -4860,7 +4860,7 @@
       "appid": "2088280",
       "url": "https://store.steampowered.com/app/2088280/Lazaret/",
       "curator_url": "https://store.steampowered.com/app/2088280/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 으잌㉪ 님",
+      "review": "유저 한글 패치 - 으잌㉪",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -4878,7 +4878,7 @@
       "appid": "2504480",
       "url": "https://store.steampowered.com/app/2504480/Indigo_Park_Chapter_1/",
       "curator_url": "https://store.steampowered.com/app/2504480/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 으잌㉪ 님,\n유저 한글 패치 - 수나이스 님",
+      "review": "유저 한글 패치 - 으잌㉪ \n유저 한글 패치 - 수나이스",
       "review_has_url": true,
       "review_url_count": 2,
       "type": "recommended"
@@ -4950,7 +4950,7 @@
       "appid": "1258590",
       "url": "https://store.steampowered.com/app/1258590/Locked_Up/",
       "curator_url": "https://store.steampowered.com/app/1258590/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 으잌㉪ 님",
+      "review": "유저 한글 패치 - 으잌㉪",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -4959,7 +4959,7 @@
       "appid": "2717260",
       "url": "https://store.steampowered.com/app/2717260/Im_counting_to_6/",
       "curator_url": "https://store.steampowered.com/app/2717260/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 으잌㉪ 님",
+      "review": "유저 한글 패치 - 으잌㉪",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -4986,7 +4986,7 @@
       "appid": "2240790",
       "url": "https://store.steampowered.com/app/2240790/Sucker_for_Love_Date_to_Die_For/",
       "curator_url": "https://store.steampowered.com/app/2240790/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 으잌㉪ 님",
+      "review": "유저 한글 패치 - 으잌",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -5103,7 +5103,7 @@
       "appid": "1507780",
       "url": "https://store.steampowered.com/app/1507780/Space_Warlord_Organ_Trading_Simulator/",
       "curator_url": "https://store.steampowered.com/app/1507780/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 으잌㉪ 님",
+      "review": "유저 한글 패치 - 으잌㉪",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -5157,7 +5157,7 @@
       "appid": "1094030",
       "url": "https://store.steampowered.com/app/1094030/Lurk_in_the_Dark__Prologue/",
       "curator_url": "https://store.steampowered.com/app/1094030/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - Eueeeeeeeek (으잌㉪) 님",
+      "review": "유저 한글 패치 - 으잌",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -5346,7 +5346,7 @@
       "appid": "2075070",
       "url": "https://store.steampowered.com/app/2075070/KinitoPET/",
       "curator_url": "https://store.steampowered.com/app/2075070/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 으잌 님",
+      "review": "유저 한글 패치 - 으잌",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -5544,7 +5544,7 @@
       "appid": "2192790",
       "url": "https://store.steampowered.com/app/2192790/The_Walking_Dead_Destinies/",
       "curator_url": "https://store.steampowered.com/app/2192790/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 - 으잌 님",
+      "review": "유저 한글 패치 - 으잌",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -5715,7 +5715,7 @@
       "appid": "2077650",
       "url": "https://store.steampowered.com/app/2077650/Amok_Runner/",
       "curator_url": "https://store.steampowered.com/app/2077650/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 으잌 님",
+      "review": "유저 한글 패치 - 으잌",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -5733,7 +5733,7 @@
       "appid": "2097890",
       "url": "https://store.steampowered.com/app/2097890/Skull_Island_Rise_of_Kong/",
       "curator_url": "https://store.steampowered.com/app/2097890/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 으잌 님",
+      "review": "유저 한글 패치 - 으잌",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -5985,7 +5985,7 @@
       "appid": "1905020",
       "url": "https://store.steampowered.com/app/1905020/Greyhill_Incident/",
       "curator_url": "https://store.steampowered.com/app/1905020/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 - 으잌㉪ 님",
+      "review": "유저 한국어 패치 - 으잌㉪",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -6534,7 +6534,7 @@
       "appid": "865680",
       "url": "https://store.steampowered.com/app/865680/The_Eternal_Cylinder/",
       "curator_url": "https://store.steampowered.com/app/865680/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 - 으잌 님",
+      "review": "유저 한글 패치 - 으잌",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -6840,7 +6840,7 @@
       "appid": "1822190",
       "url": "https://store.steampowered.com/app/1822190/Momotype/",
       "curator_url": "https://store.steampowered.com/app/1822190/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 - 으잌㉪ 님",
+      "review": "유저 한글 패치 - 으잌㉪",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -7335,7 +7335,7 @@
       "appid": "1179080",
       "url": "https://store.steampowered.com/app/1179080/FAITH_The_Unholy_Trinity/",
       "curator_url": "https://store.steampowered.com/app/1179080/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 - 으잌㉪ 님",
+      "review": "유저 한글 패치 - 으잌㉪",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -7389,9 +7389,9 @@
       "appid": "617160",
       "url": "https://store.steampowered.com/app/617160/Home_Sweet_Home/",
       "curator_url": "https://store.steampowered.com/app/617160/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 - 백련단",
+      "review": "유저 한글 패치 - 백련단,\n유저 한글 패치 - 한무테",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -7434,7 +7434,7 @@
       "appid": "1231880",
       "url": "https://store.steampowered.com/app/1231880/Haiku_the_Robot/",
       "curator_url": "https://store.steampowered.com/app/1231880/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 - Eueeeeeeeek (으잌㉪) 님",
+      "review": "유저 한글 패치 - 으잌",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -8451,7 +8451,7 @@
       "appid": "1574270",
       "url": "https://store.steampowered.com/app/1574270/Sucker_for_Love_First_Date/",
       "curator_url": "https://store.steampowered.com/app/1574270/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 - 으잌㉪ 님",
+      "review": "유저 한글 패치 - 으잌",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -8532,7 +8532,7 @@
       "appid": "1392820",
       "url": "https://store.steampowered.com/app/1392820/Milk_inside_a_bag_of_milk_inside_a_bag_of_milk/",
       "curator_url": "https://store.steampowered.com/app/1392820/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 - Eueeeeeeeek (으잌㉪) 님",
+      "review": "유저 한글 패치 - 으잌㉪",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -8658,7 +8658,7 @@
       "appid": "274230",
       "url": "https://store.steampowered.com/app/274230/RONIN/",
       "curator_url": "https://store.steampowered.com/app/274230/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 - 으잌㉪ 님",
+      "review": "유저 한글 패치 - 으잌㉪",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -8667,7 +8667,7 @@
       "appid": "1390350",
       "url": "https://store.steampowered.com/app/1390350/Webbed/",
       "curator_url": "https://store.steampowered.com/app/1390350/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 - 으잌㉪ 님",
+      "review": "유저 한글 패치 - 으잌",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -8721,7 +8721,7 @@
       "appid": "925950",
       "url": "https://store.steampowered.com/app/925950/Here_Comes_Niko/",
       "curator_url": "https://store.steampowered.com/app/925950/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 - 으잌㉪ 님",
+      "review": "유저 한글 패치 - 으잌",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -9189,9 +9189,9 @@
       "appid": "994730",
       "url": "https://store.steampowered.com/app/994730/Banner_of_the_Maid/",
       "curator_url": "https://store.steampowered.com/app/994730/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 - BUYU, 에디 님",
+      "review": "유저 한글 패치 - 부장'\n유저 한글 패치 - BUYU, 에디",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -9441,7 +9441,7 @@
       "appid": "714820",
       "url": "https://store.steampowered.com/app/714820/Creature_Romances_For_the_Ladies/",
       "curator_url": "https://store.steampowered.com/app/714820/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 - 으잌㉪ 님",
+      "review": "유저 한글 패치 - 으잌㉪",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -9612,7 +9612,7 @@
       "appid": "571880",
       "url": "https://store.steampowered.com/app/571880/Angels_with_Scaly_Wings/",
       "curator_url": "https://store.steampowered.com/app/571880/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 - Eueeeeeeeek 님",
+      "review": "유저 한글 패치 - 으잌",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -10773,7 +10773,7 @@
       "appid": "450440",
       "url": "https://store.steampowered.com/app/450440/Creepy_Castle/",
       "curator_url": "https://store.steampowered.com/app/450440/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 - Eueeeeeeeek님, MaxShouldier, Reap!, Errorsizo, Lili, 맙규 님",
+      "review": "유저 한글 패치 - 으잌",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -10863,7 +10863,7 @@
       "appid": "1055540",
       "url": "https://store.steampowered.com/app/1055540/A_Short_Hike/",
       "curator_url": "https://store.steampowered.com/app/1055540/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 - Eueeeeeeeek 님",
+      "review": "유저 한글 패치 - 으잌",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -11259,7 +11259,7 @@
       "appid": "356450",
       "url": "https://store.steampowered.com/app/356450/Creature_Romances_Kokonoe_Kokoro/",
       "curator_url": "https://store.steampowered.com/app/356450/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 - 패치 제작 : Eueeeeeeeek,\n도움 : Chromatic Fox 님",
+      "review": "유저 한글 패치 - 으잌",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -11268,7 +11268,7 @@
       "appid": "610610",
       "url": "https://store.steampowered.com/app/610610/PacaPlus/",
       "curator_url": "https://store.steampowered.com/app/610610/?curator_clanid=42788178",
-      "review": "번역, 제작 : Eueeeeeeeek,\n도움 : Chromatic Fox 님",
+      "review": "유저 한글 패치 - 으잌",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -16263,7 +16263,7 @@
       "appid": "1846170",
       "url": "https://store.steampowered.com/app/1846170/Iron_Lung/",
       "curator_url": "https://store.steampowered.com/app/1846170/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 - 으잌㉪ (Eueeeeeeeek) 님",
+      "review": "유저 한글 패치 - 으잌㉪",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"

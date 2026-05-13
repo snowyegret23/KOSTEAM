@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-10T21:18:28.239Z",
-    "total_with_steam_link": 3158,
+    "generated_at": "2026-05-13T21:33:15.348Z",
+    "total_with_steam_link": 3229,
     "total_without_steam_link": 8,
     "sources": [
       "steamapp",
@@ -12,6 +12,1397 @@
     ]
   },
   "games": [
+    {
+      "app_id": "4504460",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/4504460/Lihiman/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 듀콩"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/4504460/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "1450830",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/1450830/At_Dead_Of_Night/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/1450830/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2414270",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/2414270/Sunderfolk/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - ae"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/2414270/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "3830",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/3830/Psychonauts/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - Northward-Waxwing"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/3830/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "976310",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/976310/Mortal_Kombat_11/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 애플맛키위"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/976310/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "1897650",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/1897650/Dream_Tactics/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 버섯순이"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/1897650/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "1078350",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/1078350/Ambrosia/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 金真"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/1078350/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "4256690",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/4256690/Shards_Of_Solitude/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 듀콩"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/4256690/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "4005300",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/4005300/Dating_4_Girls/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "번역 개선 패치 - 미인이많군요"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/4005300/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "658620",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/658620/Wonderful_Everyday_Down_the_RabbitHole/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 로브르"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/658620/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "4018950",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/4018950/Lost_Wiki_Kozlovka/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - killterm"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/4018950/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "3809940",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/3809940/Drill_Bird/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - killterm"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/3809940/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "3426150",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/3426150/I_Have_No_Change/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - killterm"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/3426150/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "3470560",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/3470560/Millennium_Dream/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/3470560/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2543830",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/2543830/Way_of_the_Hunter_2/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/2543830/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2878450",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/2878450/Master_of_Command/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/2878450/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2461840",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/2461840/Defenders_of_the_Omniverse/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/2461840/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "3948550",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/3948550/Late_Ming_Reborn_in_Flames/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/3948550/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2434600",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/2434600/ShantyTown/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/2434600/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2910960",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/2910960/_VICTORY_HORIZONTHREE_KINGDOMS/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/2910960/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2643390",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/2643390/Star_Trek_Voyager__Across_the_Unknown/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/2643390/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "1216710",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/1216710/Cyber_Manhunt/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/1216710/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2461440",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/2461440/Bylina/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/2461440/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2642890",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/2642890/KunKunNight/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/2642890/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2125090",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/2125090/Tintin_Reporter__Cigars_of_the_Pharaoh/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/2125090/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2060870",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/2060870/Invincible_Presents_Atom_Eve/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/2060870/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2631140",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/2631140/Weed_Shop_4_Highland/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/2631140/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "3451680",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/3451680/The_House_of_Hikmah/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/3451680/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2664050",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/2664050/YOKO/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/2664050/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2340520",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/2340520/Tales_of_Seikyu/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/2340520/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "4168280",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/4168280/The_Butler/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/4168280/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "897160",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/897160/Snap__Grab/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/897160/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2423760",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/2423760/Above_the_Snow/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/2423760/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2536670",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/2536670/Project_Vesperi/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/2536670/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "1966410",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/1966410/Aphelion/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/1966410/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "3562120",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/3562120/Magical_Princess/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 유하님\n유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/3562120/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2597080",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/2597080/Realm_of_Ink/",
+      "patch_type": "official",
+      "patch_links": [
+        "exist",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테",
+        ""
+      ],
+      "patch_sources": [
+        "quasarplay",
+        "stove"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/2597080/?curator_clanid=30894603",
+        "stove": "https://store.onstove.com/ko/games/3379"
+      },
+      "sources": [
+        "quasarplay",
+        "stove"
+      ]
+    },
+    {
+      "app_id": "2154070",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/2154070/INDUSTRIA_2/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/2154070/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "3632890",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/3632890/Content_King/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/3632890/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2353060",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/2353060/Invincible_VS/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/2353060/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2095420",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/2095420/Bus_Bound/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/2095420/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "4007300",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/4007300/Legends_of_Wasteland/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/4007300/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "3727390",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/3727390/The_Expanse_Osiris_Reborn/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/3727390/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "3601800",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/3601800/Meltopia/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/3601800/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2096260",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/2096260/Mini_Tank_Mayhem/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/2096260/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "3429890",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/3429890/Devil_of_the_Plague/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/3429890/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "3372530",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/3372530/Valorborn/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/3372530/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "942010",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/942010/The_3rd_Building/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/942010/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "1015890",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/1015890/TASOMACHI_Behind_the_Twilight/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/1015890/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "983970",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/983970/Haven/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/983970/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "3834880",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/3834880/Tales_of_Justice_Academy_Winds_Arise/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/3834880/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "4395180",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/4395180/Birthday_Boy/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/4395180/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "3833300",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/3833300/Infinite_Cards/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/3833300/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2873660",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/2873660/Global_Rescue/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/2873660/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "739080",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/739080/9_Monkeys_of_Shaolin/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/739080/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "1036700",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/1036700/My_Beautiful_Paper_Smile/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/1036700/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2321780",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/2321780/Starship_Troopers_Ultimate_Bug_War/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/2321780/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "1091980",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/1091980/The_Bards_Tale_IV_Directors_Cut/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/1091980/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2959770",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/2959770/Duck_Side_of_the_Moon/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/2959770/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "487120",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/487120/Citadel_Forged_with_Fire/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/487120/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "1122050",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/1122050/Gensokyo_Night_Festival/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/1122050/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "3097300",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/3097300/Creature_Kitchen/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/3097300/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "4197610",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/4197610/Librarian_Tidy_Up_the_Arcane_Library/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/4197610/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "4508710",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/4508710/The_Last_Letter/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/4508710/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "3618030",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/3618030/Flock_Around/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 으잌"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/3618030/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "811320",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/811320/Jupiter_Hell/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 으잌"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/811320/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
     {
       "app_id": "3552140",
       "game_title": "",
@@ -469,27 +1860,6 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/2321040/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "3802800",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/3802800/MADO_MONOGATARI_Fia_and_the_Wondrous_Academy/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "유저 한글 패치 - 한무테"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/3802800/?curator_clanid=30894603"
       },
       "sources": [
         "quasarplay"
@@ -13366,7 +14736,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 으잌",
-        "유저 한글 패치 - 으잌㉪ 님"
+        "유저 한글 패치 - 으잌㉪"
       ],
       "patch_sources": [
         "steamapp",
@@ -13392,7 +14762,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 으잌",
-        "유저 한글 패치 - 으잌"
+        "유저 한글 패치 - 으잌\n유저 한글 패치 - 한무테"
       ],
       "patch_sources": [
         "steamapp",
@@ -13444,7 +14814,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 으잌",
-        "유저 한글 패치 - 으잌㉪ 님"
+        "유저 한글 패치 - 으잌㉪"
       ],
       "patch_sources": [
         "steamapp",
@@ -13770,6 +15140,32 @@
       ]
     },
     {
+      "app_id": "381780",
+      "game_title": "80 Days",
+      "steam_link": "https://store.steampowered.com/app/381780",
+      "patch_type": "user",
+      "patch_links": [
+        "exist",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 딩가딩",
+        "유저 한글 패치 - 딩가딩"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4ge26g/80-days",
+        "quasarplay": "https://store.steampowered.com/app/381780/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "1402120",
       "game_title": "9 Years of Shadows",
       "steam_link": "https://store.steampowered.com/app/1402120",
@@ -14031,7 +15427,7 @@
       ],
       "patch_descriptions": [
         "으잌 님 제작",
-        "유저 한국어 패치 - Eueeeeeeeek 님"
+        "유저 한글 패치 - 으잌"
       ],
       "patch_sources": [
         "steamapp",
@@ -14175,19 +15571,24 @@
       "steam_link": "https://store.steampowered.com/app/4478760",
       "patch_type": "user",
       "patch_links": [
+        "exist",
         "exist"
       ],
       "patch_descriptions": [
-        "제작자 : 으잌"
+        "제작자 : 으잌",
+        "유저 한글 패치 - 으잌"
       ],
       "patch_sources": [
-        "steamapp"
+        "steamapp",
+        "quasarplay"
       ],
       "source_site_urls": {
-        "steamapp": "https://hanpe.net/app/lz39wo/abandoned-stories-inherited-silence"
+        "steamapp": "https://hanpe.net/app/lz39wo/abandoned-stories-inherited-silence",
+        "quasarplay": "https://store.steampowered.com/app/4478760/?curator_clanid=30894603"
       },
       "sources": [
-        "steamapp"
+        "steamapp",
+        "quasarplay"
       ]
     },
     {
@@ -14967,19 +16368,24 @@
       "steam_link": "https://store.steampowered.com/app/3110760",
       "patch_type": "user",
       "patch_links": [
+        "exist",
         "exist"
       ],
       "patch_descriptions": [
-        "데모판 한글화 제작자 : 버깡"
+        "데모판 한글화 제작자 : 버깡",
+        "유저 한글 패치 - 한무테"
       ],
       "patch_sources": [
-        "steamapp"
+        "steamapp",
+        "quasarplay"
       ],
       "source_site_urls": {
-        "steamapp": "https://hanpe.net/app/jmvdrd/alabaster-dawn"
+        "steamapp": "https://hanpe.net/app/jmvdrd/alabaster-dawn",
+        "quasarplay": "https://store.steampowered.com/app/3110760/?curator_clanid=30894603"
       },
       "sources": [
-        "steamapp"
+        "steamapp",
+        "quasarplay"
       ]
     },
     {
@@ -15699,7 +17105,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 으잌",
-        "유저 한글 패치 - 으잌 님"
+        "유저 한글 패치 - 으잌"
       ],
       "patch_sources": [
         "steamapp",
@@ -15955,7 +17361,7 @@
       ],
       "patch_descriptions": [
         "",
-        "유저 한국어 패치 - Eueeeeeeeek 님"
+        "유저 한글 패치 - 으잌"
       ],
       "patch_sources": [
         "steamapp",
@@ -16293,7 +17699,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 으잌",
-        "유저 한글 패치 - 으잌㉪ 님"
+        "유저 한글 패치 - 으잌㉪"
       ],
       "patch_sources": [
         "steamapp",
@@ -17630,7 +19036,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 으잌",
-        "유저 한글 패치 - 으잌㉪ 님"
+        "유저 한글 패치 - 으잌㉪"
       ],
       "patch_sources": [
         "steamapp",
@@ -17815,7 +19221,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 으잌",
-        "유저 한글 패치 - 으잌㉪ 님"
+        "유저 한글 패치 - 으잌㉪"
       ],
       "patch_sources": [
         "steamapp",
@@ -18891,7 +20297,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 으잌",
-        "유저 한글 패치 - 한무테"
+        "유저 한글 패치 - 으잌\n유저 한글 패치 - 한무테"
       ],
       "patch_sources": [
         "steamapp",
@@ -20494,7 +21900,7 @@
       ],
       "patch_descriptions": [
         "제작자 : killterm",
-        "유저 한글 패치 - killterm"
+        "유저 한글 패치 - killterm\n유저 한글 패치 - 빗소리P"
       ],
       "patch_sources": [
         "steamapp",
@@ -20765,6 +22171,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "3443820",
+      "game_title": "BUNNY GARDEN 2",
+      "steam_link": "https://store.steampowered.com/app/3443820",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 이프심"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jv6xm8/bunny-garden-2"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -21781,7 +23208,7 @@
       "patch_descriptions": [
         "",
         "제작자 : qudkorean",
-        "유저 한글 패치 - qudkorean\n유저 한글 패치"
+        "유저 한글 패치 \n유저 한글 패치 - qudkorean"
       ],
       "patch_sources": [
         "steamapp",
@@ -23003,7 +24430,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 으잌",
-        "유저 한글 패치 - 으잌㉪, 엔도, 우평삭\n유저 한글 패치 - 한무테"
+        "유저 한글 패치 - 으잌\n유저 한글 패치 - 한무테"
       ],
       "patch_sources": [
         "steamapp",
@@ -23230,7 +24657,7 @@
       ],
       "patch_descriptions": [
         "",
-        "유저 한국어 패치 - 으잌㉪ 님"
+        "유저 한글 패치 - 으잌㉪"
       ],
       "patch_sources": [
         "steamapp",
@@ -23256,7 +24683,7 @@
       ],
       "patch_descriptions": [
         "제작: Eueeeeeeeek 도움: Chromatic Fox",
-        "유저 한국어 패치 - 패치 제작 : Eueeeeeeeek,\n도움 : Chromatic Fox 님"
+        "유저 한글 패치 - 으잌"
       ],
       "patch_sources": [
         "steamapp",
@@ -23282,7 +24709,7 @@
       ],
       "patch_descriptions": [
         "제작: Eueeeeeeeek 기술 자문: MaxSoldier 번역, 검수 도움: Reap!, Errorsizo, Lili, 맙규",
-        "유저 한국어 패치 - Eueeeeeeeek님, MaxShouldier, Reap!, Errorsizo, Lili, 맙규 님"
+        "유저 한글 패치 - 으잌"
       ],
       "patch_sources": [
         "steamapp",
@@ -23418,7 +24845,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 으잌",
-        "유저 한글 패치 - 으잌㉪ 님"
+        "유저 한글 패치 - 으잌㉪"
       ],
       "patch_sources": [
         "steamapp",
@@ -23564,7 +24991,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 으잌",
-        "유저 한글 패치 - 으잌㉪ 님"
+        "유저 한글 패치 - 으잌㉪"
       ],
       "patch_sources": [
         "steamapp",
@@ -26031,7 +27458,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 으잌",
-        "유저 한글 패치 - 으잌㉪ 님"
+        "유저 한글 패치 - 으잌㉪"
       ],
       "patch_sources": [
         "steamapp",
@@ -27120,19 +28547,24 @@
       "steam_link": "https://store.steampowered.com/app/2963800",
       "patch_type": "user",
       "patch_links": [
+        "exist",
         "exist"
       ],
       "patch_descriptions": [
-        "제작자 : 으잌"
+        "제작자 : 으잌",
+        "유저 한글 패치 - 으잌"
       ],
       "patch_sources": [
-        "steamapp"
+        "steamapp",
+        "quasarplay"
       ],
       "source_site_urls": {
-        "steamapp": "https://hanpe.net/app/lkv9n2/drainsim"
+        "steamapp": "https://hanpe.net/app/lkv9n2/drainsim",
+        "quasarplay": "https://store.steampowered.com/app/2963800/?curator_clanid=30894603"
       },
       "sources": [
-        "steamapp"
+        "steamapp",
+        "quasarplay"
       ]
     },
     {
@@ -27805,7 +29237,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 으잌",
-        "유저 한글 패치 - 으잌㉪ 님"
+        "유저 한글 패치 - 으잌"
       ],
       "patch_sources": [
         "steamapp",
@@ -28917,7 +30349,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 으잌",
-        "유저 한글 패치 - 으잌㉪ 님"
+        "유저 한글 패치 - 으잌㉪"
       ],
       "patch_sources": [
         "steamapp",
@@ -29431,7 +30863,7 @@
       ],
       "patch_descriptions": [
         "",
-        "유저 한국어 패치 - 으잌㉪ 님"
+        "유저 한글 패치 - 으잌㉪"
       ],
       "patch_sources": [
         "steamapp",
@@ -30308,7 +31740,7 @@
       ],
       "patch_descriptions": [
         "제작자 : gusrud6151",
-        "유저 한글 패치 - gusrud6151 님"
+        "유저 한글 패치 - 에디\n유저 한글 패치 - 한무테"
       ],
       "patch_sources": [
         "steamapp",
@@ -32213,7 +33645,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 으잌",
-        "유저 한글 패치 - 으잌㉪ 님"
+        "유저 한글 패치 - 으잌㉪"
       ],
       "patch_sources": [
         "steamapp",
@@ -32471,7 +33903,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 으잌",
-        "유저 한국어 패치 - 으잌㉪ 님"
+        "유저 한국어 패치 - 으잌㉪"
       ],
       "patch_sources": [
         "steamapp",
@@ -32855,7 +34287,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 으잌",
-        "유저 한글 패치 - 으잌㉪ 님"
+        "유저 한글 패치 - 으잌㉪"
       ],
       "patch_sources": [
         "steamapp",
@@ -32962,7 +34394,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 으잌",
-        "유저 한글 패치 - 으잌㉪"
+        "유저 한글 패치 - 으잌"
       ],
       "patch_sources": [
         "steamapp",
@@ -33035,7 +34467,7 @@
       ],
       "patch_descriptions": [
         "",
-        "유저 한국어 패치 - Eueeeeeeeek (으잌㉪) 님"
+        "유저 한글 패치 - 으잌"
       ],
       "patch_sources": [
         "steamapp",
@@ -33869,7 +35301,7 @@
       ],
       "patch_descriptions": [
         "",
-        "유저 한국어 패치 - 으잌㉪ 님"
+        "유저 한글 패치 - 으잌"
       ],
       "patch_sources": [
         "steamapp",
@@ -34743,7 +36175,7 @@
       ],
       "patch_descriptions": [
         "",
-        "유저 한국어 패치 - 백련단",
+        "유저 한글 패치 - 백련단,\n유저 한글 패치 - 한무테",
         ""
       ],
       "patch_sources": [
@@ -34958,7 +36390,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 으잌",
-        "유저 한글 패치 - 으잌㉪ 님"
+        "유저 한글 패치 - 으잌㉪"
       ],
       "patch_sources": [
         "steamapp",
@@ -35612,7 +37044,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 으잌",
-        "유저 한글 패치 - 으잌㉪ 님"
+        "유저 한글 패치 - 으잌㉪"
       ],
       "patch_sources": [
         "steamapp",
@@ -35740,19 +37172,24 @@
       "steam_link": "https://store.steampowered.com/app/4450800",
       "patch_type": "user",
       "patch_links": [
+        "exist",
         "exist"
       ],
       "patch_descriptions": [
-        "제작자 : 으잌"
+        "제작자 : 으잌",
+        "유저 한글 패치 - 으잌"
       ],
       "patch_sources": [
-        "steamapp"
+        "steamapp",
+        "quasarplay"
       ],
       "source_site_urls": {
-        "steamapp": "https://hanpe.net/app/jwgy5n/idols-of-ash"
+        "steamapp": "https://hanpe.net/app/jwgy5n/idols-of-ash",
+        "quasarplay": "https://store.steampowered.com/app/4450800/?curator_clanid=30894603"
       },
       "sources": [
-        "steamapp"
+        "steamapp",
+        "quasarplay"
       ]
     },
     {
@@ -36270,7 +37707,7 @@
         "제작자 : 으잌",
         "제작자 : 수나이스",
         "백업용",
-        "유저 한글 패치 - 으잌㉪ 님,\n유저 한글 패치 - 수나이스 님"
+        "유저 한글 패치 - 으잌㉪ \n유저 한글 패치 - 수나이스"
       ],
       "patch_sources": [
         "steamapp",
@@ -36648,7 +38085,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 으잌",
-        "유저 한글 패치 - 으잌㉪ 님"
+        "유저 한글 패치 - 으잌㉪"
       ],
       "patch_sources": [
         "steamapp",
@@ -36797,7 +38234,7 @@
       ],
       "patch_descriptions": [
         "",
-        "유저 한국어 패치 - 으잌㉪ (Eueeeeeeeek) 님"
+        "유저 한글 패치 - 으잌㉪"
       ],
       "patch_sources": [
         "steamapp",
@@ -38112,7 +39549,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 으잌",
-        "유저 한글 패치 - 으잌 님"
+        "유저 한글 패치 - 으잌"
       ],
       "patch_sources": [
         "steamapp",
@@ -38497,7 +39934,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 으잌",
-        "유저 한글 패치 - 으잌㉪\n유저 한글 패치 - 한무테"
+        "유저 한글 패치 - 으잌\n유저 한글 패치 - 한무테"
       ],
       "patch_sources": [
         "steamapp",
@@ -38614,6 +40051,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "899770",
+      "game_title": "Last Epoch",
+      "steam_link": "https://store.steampowered.com/app/899770",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "공식 한글 개선 패치 제작자 : 매코미"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jd9x7v/last-epoch"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -38860,7 +40318,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 으잌",
-        "유저 한글 패치 - 으잌㉪ 님"
+        "유저 한글 패치 - 으잌㉪"
       ],
       "patch_sources": [
         "steamapp",
@@ -39836,7 +41294,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 으잌",
-        "유저 한글 패치 - 으잌㉪ 님"
+        "유저 한글 패치 - 으잌㉪"
       ],
       "patch_sources": [
         "steamapp",
@@ -39946,7 +41404,7 @@
         "제작자 : ㅇㄷㄹㅅ",
         "제작자 : 으잌",
         "제작자 : 룩 아웃사이드 갤러리",
-        "유저 한글 패치 - 으잌㉪\nㅇㄷㄹㅅ\n참치 김밥"
+        "유저 한글 패치 - 으잌㉪\nㅇㄷㄹㅅ\nkillterm"
       ],
       "patch_sources": [
         "steamapp",
@@ -40238,7 +41696,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 으잌",
-        "유저 한글 패치 - 으잌㉪ 님"
+        "유저 한글 패치 - 으잌㉪"
       ],
       "patch_sources": [
         "steamapp",
@@ -40482,7 +41940,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 으잌",
-        "유저 한글 패치 - Eueeeeeeeek (으잌㉪) 님"
+        "유저 한글 패치 - 으잌"
       ],
       "patch_sources": [
         "steamapp",
@@ -40663,6 +42121,32 @@
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/4ewoez/madhouse-madness-streamers-fate",
         "quasarplay": "https://store.steampowered.com/app/2358420/?curator_clanid=42788178"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "3802800",
+      "game_title": "MADO MONOGATARI: Fia and the Wondrous Academy",
+      "steam_link": "https://store.steampowered.com/app/3802800",
+      "patch_type": "user",
+      "patch_links": [
+        "exist",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 레트로겜보이",
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4g0r2y/mado-monogatari-fia-and-the-wondrous-academy",
+        "quasarplay": "https://store.steampowered.com/app/3802800/?curator_clanid=30894603"
       },
       "sources": [
         "steamapp",
@@ -42068,6 +43552,27 @@
       ]
     },
     {
+      "app_id": "3841220",
+      "game_title": "Midnight Crane",
+      "steam_link": "https://store.steampowered.com/app/3841220",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 코스노우"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4gp883/midnight-crane"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "2899040",
       "game_title": "Midnight Lane",
       "steam_link": "https://store.steampowered.com/app/2899040",
@@ -42208,7 +43713,7 @@
       ],
       "patch_descriptions": [
         "",
-        "유저 한국어 패치 - Eueeeeeeeek (으잌㉪) 님"
+        "유저 한글 패치 - 으잌㉪"
       ],
       "patch_sources": [
         "steamapp",
@@ -42260,7 +43765,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 으잌",
-        "유저 한글 패치 - 으잌㉪ 님"
+        "유저 한글 패치 - 으잌㉪"
       ],
       "patch_sources": [
         "steamapp",
@@ -42674,7 +44179,7 @@
       ],
       "patch_descriptions": [
         "",
-        "유저 한국어 패치 - 으잌㉪ 님"
+        "유저 한글 패치 - 으잌㉪"
       ],
       "patch_sources": [
         "steamapp",
@@ -43033,7 +44538,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 으잌",
-        "유저 한글 패치 - 으잌㉪\n유저 한글 패치 - 한무테"
+        "유저 한글 패치 - 으잌\n유저 한글 패치 - 한무테"
       ],
       "patch_sources": [
         "steamapp",
@@ -43059,7 +44564,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 으잌",
-        "유저 한글 패치 - 으잌㉪ 님"
+        "유저 한글 패치 - 으잌"
       ],
       "patch_sources": [
         "steamapp",
@@ -45199,19 +46704,24 @@
       "steam_link": "https://store.steampowered.com/app/3919190",
       "patch_type": "user",
       "patch_links": [
+        "exist",
         "exist"
       ],
       "patch_descriptions": [
-        "제작자 : 으잌"
+        "제작자 : 으잌",
+        "유저 한글 패치 - 으잌"
       ],
       "patch_sources": [
-        "steamapp"
+        "steamapp",
+        "quasarplay"
       ],
       "source_site_urls": {
-        "steamapp": "https://hanpe.net/app/l7k7ro/obey-the-voicetm"
+        "steamapp": "https://hanpe.net/app/l7k7ro/obey-the-voicetm",
+        "quasarplay": "https://store.steampowered.com/app/3919190/?curator_clanid=30894603"
       },
       "sources": [
-        "steamapp"
+        "steamapp",
+        "quasarplay"
       ]
     },
     {
@@ -46265,7 +47775,7 @@
       ],
       "patch_descriptions": [
         "으잌 님 제작",
-        "번역, 제작 : Eueeeeeeeek,\n도움 : Chromatic Fox 님"
+        "유저 한글 패치 - 으잌"
       ],
       "patch_sources": [
         "steamapp",
@@ -46453,7 +47963,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 으잌",
-        "유저 한글 패치 - gusrud6151 님"
+        "유저 한글 패치 - 으잌\n유저 한글 패치 - 한무테"
       ],
       "patch_sources": [
         "steamapp",
@@ -46617,6 +48127,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "3108980",
+      "game_title": "Part-Time Witch",
+      "steam_link": "https://store.steampowered.com/app/3108980",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 레트로겜보이"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jm5pwn/part-time-witch"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -47777,19 +49308,24 @@
       "steam_link": "https://store.steampowered.com/app/3454610",
       "patch_type": "user",
       "patch_links": [
+        "exist",
         "exist"
       ],
       "patch_descriptions": [
-        "제작자 : 으잌"
+        "제작자 : 으잌",
+        "유저 한글 패치 - 으잌"
       ],
       "patch_sources": [
-        "steamapp"
+        "steamapp",
+        "quasarplay"
       ],
       "source_site_urls": {
-        "steamapp": "https://hanpe.net/app/4g1r39/poco"
+        "steamapp": "https://hanpe.net/app/4g1r39/poco",
+        "quasarplay": "https://store.steampowered.com/app/3454610/?curator_clanid=30894603"
       },
       "sources": [
-        "steamapp"
+        "steamapp",
+        "quasarplay"
       ]
     },
     {
@@ -49524,7 +51060,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 으잌",
-        "유저 한글 패치 - 으잌㉪ 님"
+        "유저 한글 패치 - 으잌㉪"
       ],
       "patch_sources": [
         "steamapp",
@@ -50288,6 +51824,32 @@
       ]
     },
     {
+      "app_id": "3769330",
+      "game_title": "Road Trip to the End of the World",
+      "steam_link": "https://store.steampowered.com/app/3769330",
+      "patch_type": "user",
+      "patch_links": [
+        "exist",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 으잌",
+        "유저 한글 패치 - 으잌"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/lxkgd0/road-trip-to-the-end-of-the-world",
+        "quasarplay": "https://store.steampowered.com/app/3769330/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "1155970",
       "game_title": "Roadwarden",
       "steam_link": "https://store.steampowered.com/app/1155970",
@@ -50915,7 +52477,7 @@
       ],
       "patch_descriptions": [
         "",
-        "유저 한국어 패치 - 으잌㉪ 님"
+        "유저 한글 패치 - 으잌㉪"
       ],
       "patch_sources": [
         "steamapp",
@@ -52082,7 +53644,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 으잌",
-        "유저 한글 패치 - 으잌㉪"
+        "유저 한글 패치 - 으잌"
       ],
       "patch_sources": [
         "steamapp",
@@ -53784,7 +55346,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 으잌",
-        "유저 한글 패치 - 으잌 님"
+        "유저 한글 패치 - 으잌"
       ],
       "patch_sources": [
         "steamapp",
@@ -54126,7 +55688,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 으잌",
-        "유저 한글 패치 - 한무테"
+        "유저 한글 패치 - 으잌\n유저 한글 패치 - 한무테"
       ],
       "patch_sources": [
         "steamapp",
@@ -54275,7 +55837,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 에스티",
-        "유저 한글 패치 - 에스티"
+        "유저 한글 패치 - 金真"
       ],
       "patch_sources": [
         "steamapp",
@@ -54846,7 +56408,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 으잌",
-        "유저 한글 패치 - 으잌㉪ 님"
+        "유저 한글 패치 - 으잌㉪"
       ],
       "patch_sources": [
         "steamapp",
@@ -56740,7 +58302,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 으잌",
-        "유저 한글 패치 - 으잌㉪ 님"
+        "유저 한글 패치 - 으잌"
       ],
       "patch_sources": [
         "steamapp",
@@ -56766,7 +58328,7 @@
       ],
       "patch_descriptions": [
         "",
-        "유저 한국어 패치 - 으잌㉪ 님"
+        "유저 한글 패치 - 으잌"
       ],
       "patch_sources": [
         "steamapp",
@@ -58448,7 +60010,7 @@
       "patch_descriptions": [
         "제작자 : 막셋",
         "제작자 : 으잌",
-        "유저 한글 패치 - 으잌㉪ 님\n유저 한글 패치 - 막셋 님"
+        "유저 한글 패치 - 으잌㉪\n유저 한글 패치 - 막셋"
       ],
       "patch_sources": [
         "steamapp",
@@ -59404,21 +60966,26 @@
       "patch_type": "user",
       "patch_links": [
         "exist",
+        "exist",
         "exist"
       ],
       "patch_descriptions": [
         "제작자 : 한패모",
-        "제작자 : 으잌"
+        "제작자 : 으잌",
+        "유저 한글 패치 - 으잌"
       ],
       "patch_sources": [
         "steamapp",
-        "steamapp"
+        "steamapp",
+        "quasarplay"
       ],
       "source_site_urls": {
-        "steamapp": "https://hanpe.net/app/lz6k5p/the-dark-queen-of-mortholme"
+        "steamapp": "https://hanpe.net/app/lz6k5p/the-dark-queen-of-mortholme",
+        "quasarplay": "https://store.steampowered.com/app/3587610/?curator_clanid=30894603"
       },
       "sources": [
-        "steamapp"
+        "steamapp",
+        "quasarplay"
       ]
     },
     {
@@ -60022,7 +61589,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 으잌",
-        "유저 한국어 패치 - 으잌 님"
+        "유저 한글 패치 - 으잌"
       ],
       "patch_sources": [
         "steamapp",
@@ -60530,7 +62097,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 으잌",
-        "유저 한글 패치 - 으잌㉪ 님"
+        "유저 한글 패치 - 으잌"
       ],
       "patch_sources": [
         "steamapp",
@@ -60684,7 +62251,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 으잌",
-        "유저 한글 패치 - 으잌㉪ 님"
+        "유저 한글 패치 - 으잌"
       ],
       "patch_sources": [
         "steamapp",
@@ -61377,7 +62944,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 으잌",
-        "유저 한글 패치 - 으잌㉪\n유저 한글 패치 - 한무테"
+        "유저 한글 패치 - 으잌\n유저 한글 패치 - 한무테"
       ],
       "patch_sources": [
         "steamapp",
@@ -62979,7 +64546,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 으잌",
-        "유저 한국어 패치 - 으잌 님"
+        "유저 한글 패치 - 으잌"
       ],
       "patch_sources": [
         "steamapp",
@@ -63141,7 +64708,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 으잌",
-        "유저 한글 패치 - 으잌㉪ 님"
+        "유저 한글 패치 - 으잌㉪"
       ],
       "patch_sources": [
         "steamapp",
@@ -63524,7 +65091,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 한무테",
-        "유저 한글 패치 - 한무테"
+        "유저 한글 패치 - 으잌\n유저 한글 패치 - 한무테"
       ],
       "patch_sources": [
         "steamapp",
@@ -66402,7 +67969,7 @@
       ],
       "patch_descriptions": [
         "기술 / 짜잘이 : 으잌 번역 / 검수 : cowgogi",
-        "유저 한글 패치 - 으잌㉪, cowgogi 님"
+        "유저 한글 패치 - 으잌"
       ],
       "patch_sources": [
         "steamapp",
@@ -66636,7 +68203,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 으잌",
-        "유저 한글 패치 - 으잌㉪ 님"
+        "유저 한글 패치 - 으잌㉪"
       ],
       "patch_sources": [
         "steamapp",
@@ -67387,7 +68954,7 @@
       ],
       "patch_descriptions": [
         "",
-        "유저 한국어 패치 - 으잌㉪ 님"
+        "유저 한글 패치 - 으잌"
       ],
       "patch_sources": [
         "steamapp",
@@ -68810,13 +70377,16 @@
       "patch_type": "user",
       "patch_links": [
         "exist",
+        "exist",
         "exist"
       ],
       "patch_descriptions": [
-        "제작 Ferry // Nopanamaman 번역 떱더/다샤",
-        "유저 한글 패치 - 떱더, Ferry, Nopanamaman, 다샤"
+        "기존 한패 아카이브 제작 Ferry // Nopanamaman 번역 떱더/다샤",
+        "제작자 : 으잌",
+        "유저 한글 패치 - 으잌\n유저 한글 패치 - 떱더, Ferry, Nopanamaman, 다샤"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "quasarplay"
       ],
@@ -69983,27 +71553,6 @@
       ],
       "source_site_urls": {
         "stove": "https://store.onstove.com/ko/games/65"
-      },
-      "sources": [
-        "stove"
-      ]
-    },
-    {
-      "app_id": "2597080",
-      "game_title": "렐름 오브 잉크 (Realm of Ink)",
-      "steam_link": "https://store.steampowered.com/app/2597080",
-      "patch_type": "official",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        ""
-      ],
-      "patch_sources": [
-        "stove"
-      ],
-      "source_site_urls": {
-        "stove": "https://store.onstove.com/ko/games/3379"
       },
       "sources": [
         "stove"
@@ -74062,7 +75611,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 으잌",
-        "유저 한글 패치 - 한무테"
+        "유저 한글 패치 - 으잌\n유저 한글 패치 - 한무테"
       ],
       "patch_sources": [
         "steamapp",
@@ -74591,7 +76140,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 으잌",
-        "유저 한글 패치 - 으잌㉪ 님"
+        "유저 한글 패치 - 으잌㉪"
       ],
       "patch_sources": [
         "steamapp",
@@ -75850,7 +77399,7 @@
       ],
       "patch_descriptions": [
         "",
-        "유저 한국어 패치 - BUYU, 에디 님"
+        "유저 한글 패치 - 부장'\n유저 한글 패치 - BUYU, 에디"
       ],
       "patch_sources": [
         "steamapp",
@@ -76453,19 +78002,24 @@
       "steam_link": "https://store.steampowered.com/app/3350200",
       "patch_type": "user",
       "patch_links": [
+        "exist",
         "exist"
       ],
       "patch_descriptions": [
-        "제작자 : 미인이많군요"
+        "제작자 : 미인이많군요",
+        "유저 한글 패치 - 미인이많군요"
       ],
       "patch_sources": [
-        "steamapp"
+        "steamapp",
+        "quasarplay"
       ],
       "source_site_urls": {
-        "steamapp": "https://hanpe.net/app/l7nmdo/%E6%83%85%E6%84%9F%E5%8F%8D%E8%AF%88%E6%A8%A1%E6%8B%9F%E5%99%A8"
+        "steamapp": "https://hanpe.net/app/l7nmdo/%E6%83%85%E6%84%9F%E5%8F%8D%E8%AF%88%E6%A8%A1%E6%8B%9F%E5%99%A8",
+        "quasarplay": "https://store.steampowered.com/app/3350200/?curator_clanid=30894603"
       },
       "sources": [
-        "steamapp"
+        "steamapp",
+        "quasarplay"
       ]
     },
     {
@@ -77238,13 +78792,16 @@
       "patch_type": "official",
       "patch_links": [
         "exist",
+        "exist",
         "exist"
       ],
       "patch_descriptions": [
+        "공식 한글 개선 패치 제작자 : 희망의가위",
         "공식 한글 개선 패치 제작자 : 바나나우유",
         "선택지 한글 출력 패치 - 바나나우유"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "quasarplay"
       ],
