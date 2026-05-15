@@ -44659,7 +44659,7 @@
     ],
     "patch_descriptions": [
       "데모판 한글화 제작자 : Luming",
-      "유저 한글 패치 - 한무테"
+      "유저 한글 패치 - salix44\n유저 한글 패치 - 한무테"
     ],
     "patch_sources": [
       "steamapp",
@@ -45984,7 +45984,7 @@
       "exist"
     ],
     "patch_descriptions": [
-      "유저 한글 패치 - 버섯순이"
+      "유저 한글 패치 - hou, Snowyegret, 버섯순이"
     ],
     "patch_sources": [
       "quasarplay"
@@ -63997,6 +63997,24 @@
       "quasarplay": "https://store.steampowered.com/app/3232610/?curator_clanid=30894603"
     }
   },
+  "3237640": {
+    "type": "user",
+    "sources": [
+      "quasarplay"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "유저 한글 패치 - 한무테"
+    ],
+    "patch_sources": [
+      "quasarplay"
+    ],
+    "source_site_urls": {
+      "quasarplay": "https://store.steampowered.com/app/3237640/?curator_clanid=30894603"
+    }
+  },
   "3239270": {
     "type": "user",
     "sources": [
@@ -69855,7 +69873,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-05-13T21:33:15.348Z",
-    "total": 3229
+    "generated_at": "2026-05-15T21:24:24.094Z",
+    "total": 3230
   }
 }

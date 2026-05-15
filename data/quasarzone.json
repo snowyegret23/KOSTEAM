@@ -2,9 +2,18 @@
   "curator_id": 30894603,
   "curator_name": "Curator #30894603",
   "curator_url": "https://store.steampowered.com/curator/30894603/",
-  "total_games": 815,
-  "exported_at": "2026-05-13T21:32:56.019594",
+  "total_games": 816,
+  "exported_at": "2026-05-15T21:24:04.685125",
   "games": [
+    {
+      "appid": "3237640",
+      "url": "https://store.steampowered.com/app/3237640/Dark_Dominion/",
+      "curator_url": "https://store.steampowered.com/app/3237640/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
     {
       "appid": "4504460",
       "url": "https://store.steampowered.com/app/4504460/Lihiman/",
@@ -108,7 +117,7 @@
       "appid": "1897650",
       "url": "https://store.steampowered.com/app/1897650/Dream_Tactics/",
       "curator_url": "https://store.steampowered.com/app/1897650/?curator_clanid=30894603",
-      "review": "유저 한글 패치 - 버섯순이",
+      "review": "유저 한글 패치 - hou, Snowyegret, 버섯순이",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -1701,9 +1710,9 @@
       "appid": "1820000",
       "url": "https://store.steampowered.com/app/1820000/Homura_Hime/",
       "curator_url": "https://store.steampowered.com/app/1820000/?curator_clanid=30894603",
-      "review": "유저 한글 패치 - 한무테",
+      "review": "유저 한글 패치 - salix44\n유저 한글 패치 - 한무테",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {

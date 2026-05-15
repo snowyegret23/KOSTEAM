@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-05-13T21:33:15.348Z",
-    "total_with_steam_link": 3229,
-    "total_without_steam_link": 8,
+    "generated_at": "2026-05-15T21:24:24.094Z",
+    "total_with_steam_link": 3230,
+    "total_without_steam_link": 9,
     "sources": [
       "steamapp",
       "quasarzone",
@@ -12,6 +12,27 @@
     ]
   },
   "games": [
+    {
+      "app_id": "3237640",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/3237640/Dark_Dominion/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/3237640/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
     {
       "app_id": "4504460",
       "game_title": "",
@@ -126,7 +147,7 @@
         "exist"
       ],
       "patch_descriptions": [
-        "유저 한글 패치 - 버섯순이"
+        "유저 한글 패치 - hou, Snowyegret, 버섯순이"
       ],
       "patch_sources": [
         "quasarplay"
@@ -36338,7 +36359,7 @@
       ],
       "patch_descriptions": [
         "데모판 한글화 제작자 : Luming",
-        "유저 한글 패치 - 한무테"
+        "유저 한글 패치 - salix44\n유저 한글 패치 - 한무테"
       ],
       "patch_sources": [
         "steamapp",
@@ -79665,6 +79686,25 @@
       ],
       "source_site_urls": {
         "stove": "https://store.onstove.com/ko/games/884"
+      },
+      "sources": [
+        "stove"
+      ]
+    },
+    {
+      "game_title": "크리터 코브 (Critter Cove)",
+      "patch_type": "official",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        ""
+      ],
+      "patch_sources": [
+        "stove"
+      ],
+      "source_site_urls": {
+        "stove": "https://store.onstove.com/ko/games/104173"
       },
       "sources": [
         "stove"

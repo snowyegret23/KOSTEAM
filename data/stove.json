@@ -3823,5 +3823,20 @@
       ""
     ],
     "stove_url": "https://store.onstove.com/ko/games/102745"
+  },
+  {
+    "app_id": null,
+    "stove_game_no": "14304",
+    "stove_product_no": "104173",
+    "game_title": "크리터 코브 (Critter Cove)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "stove_url": "https://store.onstove.com/ko/games/104173"
   }
 ]
