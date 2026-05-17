@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-05-15T21:24:24.094Z",
-    "total_with_steam_link": 3230,
-    "total_without_steam_link": 9,
+    "generated_at": "2026-05-17T21:19:26.853Z",
+    "total_with_steam_link": 3231,
+    "total_without_steam_link": 8,
     "sources": [
       "steamapp",
       "quasarzone",
@@ -154,27 +154,6 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/1897650/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "1078350",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/1078350/Ambrosia/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "유저 한글 패치 - 金真"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/1078350/?curator_clanid=30894603"
       },
       "sources": [
         "quasarplay"
@@ -16955,6 +16934,32 @@
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/l2ewxq/amber-isle",
         "quasarplay": "https://store.steampowered.com/app/1663040/?curator_clanid=42788178"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "1078350",
+      "game_title": "Ambrosia",
+      "steam_link": "https://store.steampowered.com/app/1078350",
+      "patch_type": "user",
+      "patch_links": [
+        "exist",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 금진",
+        "유저 한글 패치 - 金真"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/lxz6z7/ambrosia",
+        "quasarplay": "https://store.steampowered.com/app/1078350/?curator_clanid=30894603"
       },
       "sources": [
         "steamapp",
@@ -74547,6 +74552,27 @@
       ]
     },
     {
+      "app_id": "1631470",
+      "game_title": "크리터 코브 (Critter Cove)",
+      "steam_link": "https://store.steampowered.com/app/1631470",
+      "patch_type": "official",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        ""
+      ],
+      "patch_sources": [
+        "stove"
+      ],
+      "source_site_urls": {
+        "stove": "https://store.onstove.com/ko/games/104173"
+      },
+      "sources": [
+        "stove"
+      ]
+    },
+    {
       "app_id": "2739830",
       "game_title": "킹 아서: 제9군단 (King Arthur - Legion IX)",
       "steam_link": "https://store.steampowered.com/app/2739830",
@@ -76346,14 +76372,17 @@
       "patch_links": [
         "exist",
         "exist",
+        "exist",
         "exist"
       ],
       "patch_descriptions": [
-        "제작자 : uunyabi3",
+        "총괄: Ewan",
+        "총괄: Nyabi",
         "텍스트 및 폰트 적용: Oatone (팀 글냥이) 패치 프로그램 제작: Nyabi 본문 텍스트 번역: 체퓨 (팀 글냥이) 이미지 번역: 토니, 체퓨 (팀 글냥이) 영상 번역: 민버드",
         "데모판 한글화 번역 - 점박냥이, 이칠공, Gemini AI 도움 주신 분 - 프시"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "steamapp",
         "steamapp"
@@ -79686,25 +79715,6 @@
       ],
       "source_site_urls": {
         "stove": "https://store.onstove.com/ko/games/884"
-      },
-      "sources": [
-        "stove"
-      ]
-    },
-    {
-      "game_title": "크리터 코브 (Critter Cove)",
-      "patch_type": "official",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        ""
-      ],
-      "patch_sources": [
-        "stove"
-      ],
-      "source_site_urls": {
-        "stove": "https://store.onstove.com/ko/games/104173"
       },
       "sources": [
         "stove"

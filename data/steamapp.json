@@ -16253,6 +16253,19 @@
     ]
   },
   {
+    "app_id": "1078350",
+    "game_title": "Ambrosia",
+    "steam_link": "https://store.steampowered.com/app/1078350",
+    "source_site_url": "https://hanpe.net/app/lxz6z7/ambrosia",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : 금진"
+    ]
+  },
+  {
     "app_id": "1079160",
     "game_title": "東方鬼形獣 〜 Wily Beast and Weakest Creature.",
     "steam_link": "https://store.steampowered.com/app/1079160",
@@ -28813,10 +28826,12 @@
     "patch_links": [
       "exist",
       "exist",
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
-      "제작자 : uunyabi3",
+      "총괄: Ewan",
+      "총괄: Nyabi",
       "텍스트 및 폰트 적용: Oatone (팀 글냥이) 패치 프로그램 제작: Nyabi 본문 텍스트 번역: 체퓨 (팀 글냥이) 이미지 번역: 토니, 체퓨 (팀 글냥이) 영상 번역: 민버드",
       "데모판 한글화 번역 - 점박냥이, 이칠공, Gemini AI 도움 주신 분 - 프시"
     ]

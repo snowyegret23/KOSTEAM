@@ -30682,18 +30682,23 @@
   "1078350": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 금진",
       "유저 한글 패치 - 金真"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/lxz6z7/ambrosia",
       "quasarplay": "https://store.steampowered.com/app/1078350/?curator_clanid=30894603"
     }
   },
@@ -41517,6 +41522,24 @@
     ],
     "source_site_urls": {
       "stove": "https://store.onstove.com/ko/games/3677"
+    }
+  },
+  "1631470": {
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/104173"
     }
   },
   "1631830": {
@@ -61542,14 +61565,17 @@
     "links": [
       "exist",
       "exist",
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
-      "제작자 : uunyabi3",
+      "총괄: Ewan",
+      "총괄: Nyabi",
       "텍스트 및 폰트 적용: Oatone (팀 글냥이) 패치 프로그램 제작: Nyabi 본문 텍스트 번역: 체퓨 (팀 글냥이) 이미지 번역: 토니, 체퓨 (팀 글냥이) 영상 번역: 민버드",
       "데모판 한글화 번역 - 점박냥이, 이칠공, Gemini AI 도움 주신 분 - 프시"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp",
       "steamapp",
       "steamapp"
@@ -69873,7 +69899,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-05-15T21:24:24.094Z",
-    "total": 3230
+    "generated_at": "2026-05-17T21:19:26.853Z",
+    "total": 3231
   }
 }
