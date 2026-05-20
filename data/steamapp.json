@@ -225,6 +225,19 @@
     ]
   },
   {
+    "app_id": "3830",
+    "game_title": "Psychonauts",
+    "steam_link": "https://store.steampowered.com/app/3830",
+    "source_site_url": "https://hanpe.net/app/l27335/psychonauts",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 :이상성욕"
+    ]
+  },
+  {
     "app_id": "3900",
     "game_title": "Sid Meier's Civilization® IV",
     "steam_link": "https://store.steampowered.com/app/3900",
@@ -6605,9 +6618,13 @@
     "source_site_url": "https://hanpe.net/app/j5g9d3/the-elder-scrolls-online",
     "patch_type": "user",
     "patch_links": [
+      "exist",
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자: baeghyeon-hub",
+      "",
       ""
     ]
   },
@@ -13494,7 +13511,7 @@
       "exist"
     ],
     "patch_descriptions": [
-      ""
+      "록맨X1 - 번역 : 휘슬 님 - 번역 및 검수 : 아루미 님 록맨X2 - 번역 : 아루미 님 록맨X3 - 번역 : 아루미 님 록맨X4 - 번역 : 아루미 님"
     ]
   },
   {
@@ -13504,9 +13521,13 @@
     "source_site_url": "https://hanpe.net/app/lx76zz/mega-man-x-legacy-collection-2",
     "patch_type": "user",
     "patch_links": [
+      "exist",
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
+      "X8 한글화",
+      "X7 한글화",
       "메가맨 x5 만 번역"
     ]
   },
@@ -13928,6 +13949,19 @@
     ],
     "patch_descriptions": [
       "제작자 : Robeureu"
+    ]
+  },
+  {
+    "app_id": "809230",
+    "game_title": "Unity of Command II",
+    "steam_link": "https://store.steampowered.com/app/809230",
+    "source_site_url": "https://hanpe.net/app/j8xdp2/unity-of-command-ii",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : lsWn"
     ]
   },
   {
@@ -22665,6 +22699,19 @@
     ]
   },
   {
+    "app_id": "1897650",
+    "game_title": "Dream Tactics",
+    "steam_link": "https://store.steampowered.com/app/1897650",
+    "source_site_url": "https://hanpe.net/app/j92136/dream-tactics",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : 하버"
+    ]
+  },
+  {
     "app_id": "1898300",
     "game_title": "ASKA",
     "steam_link": "https://store.steampowered.com/app/1898300",
@@ -24788,9 +24835,11 @@
     "source_site_url": "https://hanpe.net/app/lz3qo2/%EC%97%90%ED%85%8C%EB%A5%B4%EB%A7%A8%EC%84%9C-aethermancer",
     "patch_type": "user",
     "patch_links": [
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
+      "데모판 한글화 제작자: 빗소리P",
       "제작자 : 솔라리어스 데모판 한글화"
     ]
   },
@@ -28094,6 +28143,19 @@
     ]
   },
   {
+    "app_id": "2914150",
+    "game_title": "융융 전파 신드롬",
+    "steam_link": "https://store.steampowered.com/app/2914150",
+    "source_site_url": "https://hanpe.net/app/4gp8x0/%EC%9C%B5%EC%9C%B5-%EC%A0%84%ED%8C%8C-%EC%8B%A0%EB%93%9C%EB%A1%AC",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : WindowsTiger"
+    ]
+  },
+  {
     "app_id": "2914730",
     "game_title": "Home Safety Hotline: Seasonal Worker",
     "steam_link": "https://store.steampowered.com/app/2914730",
@@ -28923,9 +28985,7 @@
     "source_site_url": "https://hanpe.net/app/lkdom0/%EB%9F%AC%EB%B8%8C%EC%BB%A4%EC%8A%A4-%EC%82%AC%EB%9E%91%EC%9D%B4-%EC%95%84%EB%8B%88%EB%A9%B4-%EC%A3%BD%EC%9D%8C%EB%BF%90",
     "patch_type": "official",
     "patch_links": [],
-    "patch_descriptions": [
-      "데모만 공식 한글"
-    ]
+    "patch_descriptions": []
   },
   {
     "app_id": "3069630",
@@ -30258,9 +30318,11 @@
     "source_site_url": "https://hanpe.net/app/46pkxn/brebeman",
     "patch_type": "user",
     "patch_links": [
+      "exist",
       "exist"
     ],
     "patch_descriptions": [
+      "데모판 한글화 제작자 : 빗소리P",
       "제작자 : killterm"
     ]
   },
@@ -31565,6 +31627,19 @@
     ]
   },
   {
+    "app_id": "3809940",
+    "game_title": "Drill Bird",
+    "steam_link": "https://store.steampowered.com/app/3809940",
+    "source_site_url": "https://hanpe.net/app/lz86xp/drill-bird",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : killterm"
+    ]
+  },
+  {
     "app_id": "3813660",
     "game_title": "春琉ト怪夜",
     "steam_link": "https://store.steampowered.com/app/3813660",
@@ -31905,6 +31980,19 @@
     ]
   },
   {
+    "app_id": "4018950",
+    "game_title": "Lost Wiki: Kozlovka",
+    "steam_link": "https://store.steampowered.com/app/4018950",
+    "source_site_url": "https://hanpe.net/app/4rzppr/lost-wiki-kozlovka",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : killterm"
+    ]
+  },
+  {
     "app_id": "4028600",
     "game_title": "TERPENIE",
     "steam_link": "https://store.steampowered.com/app/4028600",
@@ -31928,6 +32016,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 코스노우 데모판 한글화"
+    ]
+  },
+  {
+    "app_id": "4104120",
+    "game_title": "对不起，我是警察",
+    "steam_link": "https://store.steampowered.com/app/4104120",
+    "source_site_url": "https://hanpe.net/app/4qvpk9/%E5%AF%B9%E4%B8%8D%E8%B5%B7%E6%88%91%E6%98%AF%E8%AD%A6%E5%AF%9F",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "데모판 한글화 제작자 : 희망의가위"
     ]
   },
   {
@@ -32129,6 +32230,19 @@
     "patch_descriptions": [
       "제작자 : Pixel4a",
       "참여 인원: Oatone, Nark, 체퓨"
+    ]
+  },
+  {
+    "app_id": "4345020",
+    "game_title": "百尺様",
+    "steam_link": "https://store.steampowered.com/app/4345020",
+    "source_site_url": "https://hanpe.net/app/j03gdo/%E7%99%BE%E5%B0%BA%E6%A7%98",
+    "patch_type": "user",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : 으잌"
     ]
   },
   {
