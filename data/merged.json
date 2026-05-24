@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-22T21:27:18.571Z",
-    "total_with_steam_link": 3246,
+    "generated_at": "2026-05-24T21:20:33.676Z",
+    "total_with_steam_link": 3247,
     "total_without_steam_link": 8,
     "sources": [
       "steamapp",
@@ -385,27 +385,6 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/4256690/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "4005300",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/4005300/Dating_4_Girls/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "번역 개선 패치 - 미인이많군요"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/4005300/?curator_clanid=30894603"
       },
       "sources": [
         "quasarplay"
@@ -21419,8 +21398,8 @@
         "exist"
       ],
       "patch_descriptions": [
-        "적용 방법",
         "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 번역기를 이용한 한글화",
+        "적용 방법",
         "제작자:김미녹",
         "유저 한글 패치 \n적용 방법 \n유저 한글 패치 - gusrud6151 님"
       ],
@@ -23209,8 +23188,8 @@
         "exist"
       ],
       "patch_descriptions": [
-        "제작자 : was564 // Castlevania Order of Ecclesia 만 공식 한글화",
-        "폐허의 초상화 백업용",
+        "폐허의 초상화 백업용 // Castlevania Order of Ecclesia 만 공식 한글화",
+        "제작자 : was564",
         "창월의 십자가 백업용",
         "캐슬바니아: 폐허의 초상화, 창월의 십자가 유저 한글 패치 - was564 님,\n※  캐슬바니아 오더 오브 에클레시아는 공식 한글"
       ],
@@ -25405,8 +25384,8 @@
         "exist"
       ],
       "patch_descriptions": [
-        "기존 한글패치 버그 수정 버전",
         "(기존 한긇패치) 1. Game\\Localized 폴더에 파일을 넣어야 함 2. 언어를 일본어로 선택 3. 설정에서 자막 활성화",
+        "기존 한글패치 버그 수정 버전",
         "유저 한국어 패치(기존 패치 리패키징)"
       ],
       "patch_sources": [
@@ -28904,7 +28883,7 @@
         "exist"
       ],
       "patch_descriptions": [
-        "제작자 : 하버",
+        "총괄: hou 번역: hou, 버섯순이 기술: Snowyegret",
         "유저 한글 패치 - hou, Snowyegret, 버섯순이"
       ],
       "patch_sources": [
@@ -31260,8 +31239,8 @@
         "exist"
       ],
       "patch_descriptions": [
-        "커브스톰프님 제작",
         "라데온 그래픽 카드를 사용중이며 한글패치를 한 후 -UI가 제대로 안 나옴 -머리를 포함한 모든 털 표현이 제대로 안 나옴 위 문제 수정를 수정하는 패치 게임이 설치된 곳에 압축을 해제",
+        "커브스톰프님 제작",
         "유저 한국어 패치 - 뉴베가스 한글화 공작소, 메가톤 카페, codename, 모딜로, 망상소년, 무라, 점프슈트, 마지막왕국, 병마사, 모래사자, 커브스톰프 님"
       ],
       "patch_sources": [
@@ -35627,8 +35606,8 @@
         "exist"
       ],
       "patch_descriptions": [
-        "제작자 : WHALE59",
         "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : 공주말에는말대꾸하는거아니에요",
+        "제작자 : WHALE59",
         "유저 한글 패치 - WHALE59 님\n유저 한글 패치 - 공주말에는말대꾸하는거아니에요 님"
       ],
       "patch_sources": [
@@ -64235,8 +64214,8 @@
         "exist"
       ],
       "patch_descriptions": [
-        "제작자 : 물개현무 게임 내 서적 번역:산군프사 테스트 및 번역교정:산군스파, 우두둑, 마력이 없어 챕터1 한글화",
         "제작자 : 물개현무 테스트 : 엔코돌리, 우두둑, 마력이 없어 데모판 한글",
+        "제작자 : 물개현무 게임 내 서적 번역:산군프사 테스트 및 번역교정:산군스파, 우두둑, 마력이 없어 챕터1 한글화",
         "유저 한글 패치 - caswc"
       ],
       "patch_sources": [
@@ -65808,13 +65787,16 @@
       "patch_type": "user",
       "patch_links": [
         "exist",
+        "exist",
         "exist"
       ],
       "patch_descriptions": [
         "MORT 이용 한글 번역 DB",
+        "제작자 : 으잌",
         "유저 한국어 패치 - 몽키해드 님"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "quasarplay"
       ],
@@ -73828,6 +73810,32 @@
       ]
     },
     {
+      "app_id": "4005300",
+      "game_title": "여자 4명과 데이트하기",
+      "steam_link": "https://store.steampowered.com/app/4005300",
+      "patch_type": "user",
+      "patch_links": [
+        "exist",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "공식 한글 개선 패치 제작자 : 미인이많군요",
+        "번역 개선 패치 - 미인이많군요"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/lz3q8o/%EC%97%AC%EC%9E%90-4%EB%AA%85%EA%B3%BC-%EB%8D%B0%EC%9D%B4%ED%8A%B8%ED%95%98%EA%B8%B0",
+        "quasarplay": "https://store.steampowered.com/app/4005300/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "597760",
       "game_title": "여피 사이코: 간부 에디션",
       "steam_link": "https://store.steampowered.com/app/597760",
@@ -78214,8 +78222,8 @@
         "exist"
       ],
       "patch_descriptions": [
-        "제작자 : BeGem",
         "스팀에서 한글판 바로 실행법 1. thcrap 를 게임 폴더에 압축 해제 2. thcrap 실행 3. Find games in a specific folder 클릭 4. in the games' folder 클릭 5. 게임 실행파일 이름변경 -> (예 : th143 -> th143_1) 6. thcrap_loader -> th143 으로 변경 7. config 폴더 -> games.js 연 후 th143 실행 파일 경로 파일명 수정 (th143.exe->th143_1.exe) 8. 스팀 속성 -> 시작 옵션에 \"ko.js\" th143 추가",
+        "제작자 : BeGem",
         ""
       ],
       "patch_sources": [
@@ -78246,6 +78254,27 @@
       ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/j97np6/%E5%BF%83%E5%8A%A8%E6%81%8B%E6%97%85%E6%A8%B1%E8%8A%B1%E7%AF%87"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "2876880",
+      "game_title": "怪話",
+      "steam_link": "https://store.steampowered.com/app/2876880",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : Libner(프로그래밍), kamayoru81(번역)"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j95km5/%E6%80%AA%E8%A9%B1"
       },
       "sources": [
         "steamapp"
