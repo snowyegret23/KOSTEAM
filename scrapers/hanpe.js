@@ -2,6 +2,7 @@ import fetch from 'node-fetch';
 import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import crypto from 'crypto';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = path.join(__dirname, '..', 'data');
@@ -38,7 +39,9 @@ function convertEntry(entry) {
     for (const patch of patches) {
         const comment = removeUrls(patch.comment) || '';
         if (patch.url) {
-            patchLinks.push('exist');
+            // 원본 URL의 MD5 해시값 8자리를 생성하여 고유 식별자로 사용
+            const urlHash = crypto.createHash('md5').update(patch.url).digest('hex').substring(0, 8);
+            patchLinks.push(urlHash);
             patchDescriptions.push(comment);
         } else if (comment) {
             extraComments.push(comment);
