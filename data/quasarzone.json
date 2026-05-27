@@ -2,9 +2,90 @@
   "curator_id": 30894603,
   "curator_name": "Curator #30894603",
   "curator_url": "https://store.steampowered.com/curator/30894603/",
-  "total_games": 837,
-  "exported_at": "2026-05-24T21:20:13.343740",
+  "total_games": 846,
+  "exported_at": "2026-05-27T11:56:01.141485",
   "games": [
+    {
+      "appid": "3892270",
+      "url": "https://store.steampowered.com/app/3892270/Gamble_With_Your_Friends/",
+      "curator_url": "https://store.steampowered.com/app/3892270/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - Nark, Oatone",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "2914150",
+      "url": "https://store.steampowered.com/app/2914150/Yunyun_Syndrome_Rhythm_Psychosis/",
+      "curator_url": "https://store.steampowered.com/app/2914150/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 팀 글냥이",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "4103510",
+      "url": "https://store.steampowered.com/app/4103510/The_Unseen_Fears_Inner_Darkness_Collectors_Edition/",
+      "curator_url": "https://store.steampowered.com/app/4103510/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 까칠한 그냥",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "3027620",
+      "url": "https://store.steampowered.com/app/3027620/KakenukeForward_to_Our_Sparking_Youth/",
+      "curator_url": "https://store.steampowered.com/app/3027620/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 리들조커, SinY",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "2182690",
+      "url": "https://store.steampowered.com/app/2182690/Gore_Screaming_Show/",
+      "curator_url": "https://store.steampowered.com/app/2182690/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 프시, 쁘띄즤즤, 스르작",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "4258330",
+      "url": "https://store.steampowered.com/app/4258330/CALLUS/",
+      "curator_url": "https://store.steampowered.com/app/4258330/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 김까까",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "4517340",
+      "url": "https://store.steampowered.com/app/4517340/PATCHED/",
+      "curator_url": "https://store.steampowered.com/app/4517340/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 김까까",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "407780",
+      "url": "https://store.steampowered.com/app/407780/Lethe__Episode_One/",
+      "curator_url": "https://store.steampowered.com/app/407780/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 김까까",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "1237970",
+      "url": "https://store.steampowered.com/app/1237970/Titanfall_2/",
+      "curator_url": "https://store.steampowered.com/app/1237970/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 으잌\n유저 한글 패치 - 몽키해드",
+      "review_has_url": true,
+      "review_url_count": 2,
+      "type": "recommended"
+    },
     {
       "appid": "1421290",
       "url": "https://store.steampowered.com/app/1421290/Battle_Shapers/",
@@ -630,9 +711,9 @@
       "appid": "2353060",
       "url": "https://store.steampowered.com/app/2353060/Invincible_VS/",
       "curator_url": "https://store.steampowered.com/app/2353060/?curator_clanid=30894603",
-      "review": "유저 한글 패치 - 한무테",
+      "review": "유저 한글 패치 - 팀 임시(우민)\n유저 한글 패치 - 한무테",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -873,9 +954,9 @@
       "appid": "4508710",
       "url": "https://store.steampowered.com/app/4508710/The_Last_Letter/",
       "curator_url": "https://store.steampowered.com/app/4508710/?curator_clanid=30894603",
-      "review": "유저 한글 패치 - 한무테",
+      "review": "유저 한글 패치 - 으잌\n유저 한글 패치 - 한무테",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -1251,9 +1332,9 @@
       "appid": "1315180",
       "url": "https://store.steampowered.com/app/1315180/Spark_in_the_Dark/",
       "curator_url": "https://store.steampowered.com/app/1315180/?curator_clanid=30894603",
-      "review": "유저 한글 패치 - 한무테",
+      "review": "유저 한글 패치 - 풍월량 팬카페 가입 필요\n유저 한글 패치 - 한무테",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {

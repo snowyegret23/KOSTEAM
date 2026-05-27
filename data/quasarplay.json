@@ -2,8 +2,8 @@
   "curator_id": 42788178,
   "curator_name": "Curator #42788178",
   "curator_url": "https://store.steampowered.com/curator/42788178/",
-  "total_games": 1832,
-  "exported_at": "2026-05-24T21:20:00.952687",
+  "total_games": 1831,
+  "exported_at": "2026-05-27T11:55:49.340628",
   "games": [
     {
       "appid": "1486920",
@@ -6039,9 +6039,9 @@
       "appid": "248820",
       "url": "https://store.steampowered.com/app/248820/Risk_of_Rain_2013/",
       "curator_url": "https://store.steampowered.com/app/248820/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 - dvrp0 님",
+      "review": "유저 한글 패치 - dvrp0\n유저 한글 패치 - ic0418",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -9856,15 +9856,6 @@
       "url": "https://store.steampowered.com/app/2710/Act_of_War_Direct_Action/",
       "curator_url": "https://store.steampowered.com/app/2710/?curator_clanid=42788178",
       "review": "유저 한국어 패치",
-      "review_has_url": true,
-      "review_url_count": 1,
-      "type": "recommended"
-    },
-    {
-      "appid": "1237970",
-      "url": "https://store.steampowered.com/app/1237970/Titanfall_2/",
-      "curator_url": "https://store.steampowered.com/app/1237970/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 - 몽키해드 님",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -15660,9 +15651,9 @@
       "appid": "413410",
       "url": "https://store.steampowered.com/app/413410/Danganronpa_Trigger_Happy_Havoc/",
       "curator_url": "https://store.steampowered.com/app/413410/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 - 총괄, 동영상: 김작, \n번역: 챕터 1~챕터 6 - 팀 왈도, 단간 하이스쿨 - 김작,\n그래픽: 미리칸, 김작, Ung2, 피오레, 아브릴, 콜리 님,\n기술지원: All-Ice Team",
+      "review": "유저 한글 패치 - 팀 왈도, 김작 등\n유저 한글 패치 - 팀 왈도, 다용도",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
