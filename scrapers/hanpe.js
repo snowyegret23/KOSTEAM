@@ -42,7 +42,7 @@ function convertEntry(entry) {
             // 원본 URL의 MD5 해시값 8자리를 생성하여 고유 식별자로 사용
             const urlHash = crypto.createHash('md5').update(patch.url).digest('hex').substring(0, 8);
             patchLinks.push(urlHash);
-            patchDescriptions.push(comment);
+            patchDescriptions.push(comment || '제작자 : 정보없음');
         } else if (comment) {
             extraComments.push(comment);
         }
