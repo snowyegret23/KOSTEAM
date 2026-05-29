@@ -2,8 +2,8 @@
   "curator_id": 42788178,
   "curator_name": "Curator #42788178",
   "curator_url": "https://store.steampowered.com/curator/42788178/",
-  "total_games": 1831,
-  "exported_at": "2026-05-27T21:35:20.577830",
+  "total_games": 1830,
+  "exported_at": "2026-05-29T21:35:33.087191",
   "games": [
     {
       "appid": "1486920",
@@ -1269,15 +1269,6 @@
       "appid": "3131510",
       "url": "https://store.steampowered.com/app/3131510/Scribe/",
       "curator_url": "https://store.steampowered.com/app/3131510/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 한무테",
-      "review_has_url": true,
-      "review_url_count": 1,
-      "type": "recommended"
-    },
-    {
-      "appid": "2191050",
-      "url": "https://store.steampowered.com/app/2191050/LIFE_EFFECT/",
-      "curator_url": "https://store.steampowered.com/app/2191050/?curator_clanid=42788178",
       "review": "유저 한글 패치 - 한무테",
       "review_has_url": true,
       "review_url_count": 1,

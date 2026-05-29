@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-27T21:35:50.241Z",
-    "total_with_steam_link": 3256,
+    "generated_at": "2026-05-29T21:36:06.264Z",
+    "total_with_steam_link": 3255,
     "total_without_steam_link": 8,
     "sources": [
       "steamapp",
@@ -10349,27 +10349,6 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/3131510/?curator_clanid=42788178"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "2191050",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/2191050/LIFE_EFFECT/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "유저 한글 패치 - 한무테"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/2191050/?curator_clanid=42788178"
       },
       "sources": [
         "quasarplay"

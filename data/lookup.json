@@ -50418,24 +50418,6 @@
       "quasarplay": "https://store.steampowered.com/app/2189640/?curator_clanid=42788178"
     }
   },
-  "2191050": {
-    "type": "user",
-    "sources": [
-      "quasarplay"
-    ],
-    "links": [
-      "exist"
-    ],
-    "patch_descriptions": [
-      "유저 한글 패치 - 한무테"
-    ],
-    "patch_sources": [
-      "quasarplay"
-    ],
-    "source_site_urls": {
-      "quasarplay": "https://store.steampowered.com/app/2191050/?curator_clanid=42788178"
-    }
-  },
   "2192390": {
     "type": "official",
     "sources": [
@@ -70553,7 +70535,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-05-27T21:35:50.241Z",
-    "total": 3256
+    "generated_at": "2026-05-29T21:36:06.264Z",
+    "total": 3255
   }
 }
