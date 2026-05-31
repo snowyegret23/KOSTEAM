@@ -8740,7 +8740,7 @@
     ],
     "patch_descriptions": [
       "제작자 : 정보없음",
-      "제작자 : ic0418",
+      "제작자 : qhtjr, 살코기가좋아(salomanchicken)",
       "유저 한글 패치 - dvrp0\n유저 한글 패치 - ic0418"
     ],
     "patch_sources": [
@@ -25899,18 +25899,23 @@
   "811320": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "b9161963",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 으잌",
       "유저 한글 패치 - 으잌"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jndp9k/jupiter-hell",
       "quasarplay": "https://store.steampowered.com/app/811320/?curator_clanid=30894603"
     }
   },
@@ -32616,6 +32621,24 @@
     "source_site_urls": {
       "quasarplay": "https://store.steampowered.com/app/1146230/?curator_clanid=42788178",
       "stove": "https://store.onstove.com/ko/games/140"
+    }
+  },
+  "1147550": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "f73da94b"
+    ],
+    "patch_descriptions": [
+      "제작자 : shake_luna"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jnzv08/not-for-broadcast"
     }
   },
   "1147860": {
@@ -51752,13 +51775,16 @@
     ],
     "links": [
       "4dcbde60",
+      "3feb3ea7",
       "exist"
     ],
     "patch_descriptions": [
       "제작자 : gusrud6151",
+      "제작자 : 에디",
       "유저 한글 패치 - 에디\n유저 한글 패치 - 한무테"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp",
       "quasarplay"
     ],
@@ -66418,18 +66444,23 @@
   "3426150": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "2a1a3fcb",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : killterm",
       "유저 한글 패치 - killterm"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/lz1537/i-have-no-change",
       "quasarplay": "https://store.steampowered.com/app/3426150/?curator_clanid=30894603"
     }
   },
@@ -66986,6 +67017,24 @@
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/j838p8/haydee-3",
       "quasarplay": "https://store.steampowered.com/app/3508770/?curator_clanid=42788178"
+    }
+  },
+  "3508910": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "e7004865"
+    ],
+    "patch_descriptions": [
+      "데모판 한글화 제작자 : Pixel4a"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jmvmr9/abyss-kitchen"
     }
   },
   "3513480": {
@@ -67785,18 +67834,23 @@
   "3618030": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "4eb3fecc",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 으잌",
       "유저 한글 패치 - 으잌"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j892m2/flock-around",
       "quasarplay": "https://store.steampowered.com/app/3618030/?curator_clanid=30894603"
     }
   },
@@ -68006,6 +68060,24 @@
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/jp5vrk/plants-vs-zombiestm-replanted",
       "quasarplay": "https://store.steampowered.com/app/3654560/?curator_clanid=30894603"
+    }
+  },
+  "3655150": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "8d59405d"
+    ],
+    "patch_descriptions": [
+      "제작자 : Bart3nd3r"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j8n3xz/nekopara-after"
     }
   },
   "3657210": {
@@ -69096,6 +69168,24 @@
     ],
     "source_site_urls": {
       "quasarplay": "https://store.steampowered.com/app/3846620/?curator_clanid=30894603"
+    }
+  },
+  "3850630": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "707125b9"
+    ],
+    "patch_descriptions": [
+      "제작자 : Pixel4a"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j52mvr/codelux"
     }
   },
   "3851570": {
@@ -70535,7 +70625,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-05-29T21:36:06.264Z",
-    "total": 3255
+    "generated_at": "2026-05-31T21:22:20.265Z",
+    "total": 3259
   }
 }

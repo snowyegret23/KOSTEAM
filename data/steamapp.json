@@ -5017,7 +5017,7 @@
     ],
     "patch_descriptions": [
       "제작자 : 정보없음",
-      "제작자 : ic0418"
+      "제작자 : qhtjr, 살코기가좋아(salomanchicken)"
     ]
   },
   {
@@ -14008,6 +14008,19 @@
     ]
   },
   {
+    "app_id": "811320",
+    "game_title": "Jupiter Hell",
+    "steam_link": "https://store.steampowered.com/app/811320",
+    "source_site_url": "https://hanpe.net/app/jndp9k/jupiter-hell",
+    "patch_type": "user",
+    "patch_links": [
+      "b9161963"
+    ],
+    "patch_descriptions": [
+      "제작자 : 으잌"
+    ]
+  },
+  {
     "app_id": "812550",
     "game_title": "The King's Bird",
     "steam_link": "https://store.steampowered.com/app/812550",
@@ -17114,6 +17127,19 @@
     ],
     "patch_descriptions": [
       "간이 한국어화 패치"
+    ]
+  },
+  {
+    "app_id": "1147550",
+    "game_title": "Not For Broadcast",
+    "steam_link": "https://store.steampowered.com/app/1147550",
+    "source_site_url": "https://hanpe.net/app/jnzv08/not-for-broadcast",
+    "patch_type": "user",
+    "patch_links": [
+      "f73da94b"
+    ],
+    "patch_descriptions": [
+      "제작자 : shake_luna"
     ]
   },
   {
@@ -24934,10 +24960,12 @@
     "source_site_url": "https://hanpe.net/app/j8gze0/felvidek",
     "patch_type": "user",
     "patch_links": [
-      "4dcbde60"
+      "4dcbde60",
+      "3feb3ea7"
     ],
     "patch_descriptions": [
-      "제작자 : gusrud6151"
+      "제작자 : gusrud6151",
+      "제작자 : 에디"
     ]
   },
   {
@@ -30867,6 +30895,19 @@
     ]
   },
   {
+    "app_id": "3426150",
+    "game_title": "I Have No Change",
+    "steam_link": "https://store.steampowered.com/app/3426150",
+    "source_site_url": "https://hanpe.net/app/lz1537/i-have-no-change",
+    "patch_type": "user",
+    "patch_links": [
+      "2a1a3fcb"
+    ],
+    "patch_descriptions": [
+      "제작자 : killterm"
+    ]
+  },
+  {
     "app_id": "3433810",
     "game_title": "咸鱼殿下 / My journey",
     "steam_link": "https://store.steampowered.com/app/3433810",
@@ -31050,6 +31091,19 @@
     ],
     "patch_descriptions": [
       "제작자 : WHALE59"
+    ]
+  },
+  {
+    "app_id": "3508910",
+    "game_title": "Abyss Kitchen",
+    "steam_link": "https://store.steampowered.com/app/3508910",
+    "source_site_url": "https://hanpe.net/app/jmvmr9/abyss-kitchen",
+    "patch_type": "user",
+    "patch_links": [
+      "e7004865"
+    ],
+    "patch_descriptions": [
+      "데모판 한글화 제작자 : Pixel4a"
     ]
   },
   {
@@ -31317,6 +31371,19 @@
     ]
   },
   {
+    "app_id": "3618030",
+    "game_title": "Flock Around",
+    "steam_link": "https://store.steampowered.com/app/3618030",
+    "source_site_url": "https://hanpe.net/app/j892m2/flock-around",
+    "patch_type": "user",
+    "patch_links": [
+      "4eb3fecc"
+    ],
+    "patch_descriptions": [
+      "제작자 : 으잌"
+    ]
+  },
+  {
     "app_id": "3623050",
     "game_title": "Ending the Happy Route",
     "steam_link": "https://store.steampowered.com/app/3623050",
@@ -31407,6 +31474,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 으잌"
+    ]
+  },
+  {
+    "app_id": "3655150",
+    "game_title": "NEKOPARA After",
+    "steam_link": "https://store.steampowered.com/app/3655150",
+    "source_site_url": "https://hanpe.net/app/j8n3xz/nekopara-after",
+    "patch_type": "user",
+    "patch_links": [
+      "8d59405d"
+    ],
+    "patch_descriptions": [
+      "제작자 : Bart3nd3r"
     ]
   },
   {
@@ -31866,6 +31946,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 코스노우"
+    ]
+  },
+  {
+    "app_id": "3850630",
+    "game_title": "CODE::LUX",
+    "steam_link": "https://store.steampowered.com/app/3850630",
+    "source_site_url": "https://hanpe.net/app/j52mvr/codelux",
+    "patch_type": "user",
+    "patch_links": [
+      "707125b9"
+    ],
+    "patch_descriptions": [
+      "제작자 : Pixel4a"
     ]
   },
   {

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T21:36:06.264Z",
-    "total_with_steam_link": 3255,
+    "generated_at": "2026-05-31T21:22:20.265Z",
+    "total_with_steam_link": 3259,
     "total_without_steam_link": 8,
     "sources": [
       "steamapp",
@@ -448,27 +448,6 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/658620/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "3426150",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/3426150/I_Have_No_Change/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "유저 한글 패치 - killterm"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/3426150/?curator_clanid=30894603"
       },
       "sources": [
         "quasarplay"
@@ -1461,48 +1440,6 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/3097300/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "3618030",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/3618030/Flock_Around/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "유저 한글 패치 - 으잌"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/3618030/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "811320",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/811320/Jupiter_Hell/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "유저 한글 패치 - 으잌"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/811320/?curator_clanid=30894603"
       },
       "sources": [
         "quasarplay"
@@ -15663,6 +15600,27 @@
       ]
     },
     {
+      "app_id": "3508910",
+      "game_title": "Abyss Kitchen",
+      "steam_link": "https://store.steampowered.com/app/3508910",
+      "patch_type": "user",
+      "patch_links": [
+        "e7004865"
+      ],
+      "patch_descriptions": [
+        "데모판 한글화 제작자 : Pixel4a"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jmvmr9/abyss-kitchen"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "255070",
       "game_title": "Abyss Odyssey",
       "steam_link": "https://store.steampowered.com/app/255070",
@@ -24236,6 +24194,27 @@
       ]
     },
     {
+      "app_id": "3850630",
+      "game_title": "CODE::LUX",
+      "steam_link": "https://store.steampowered.com/app/3850630",
+      "patch_type": "user",
+      "patch_links": [
+        "707125b9"
+      ],
+      "patch_descriptions": [
+        "제작자 : Pixel4a"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j52mvr/codelux"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "355180",
       "game_title": "Codename CURE",
       "steam_link": "https://store.steampowered.com/app/355180",
@@ -31890,13 +31869,16 @@
       "patch_type": "user",
       "patch_links": [
         "4dcbde60",
+        "3feb3ea7",
         "exist"
       ],
       "patch_descriptions": [
         "제작자 : gusrud6151",
+        "제작자 : 에디",
         "유저 한글 패치 - 에디\n유저 한글 패치 - 한무테"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "quasarplay"
       ],
@@ -32378,6 +32360,32 @@
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/j5p1r8/five-nights-at-freddys-secret-of-the-mimic",
         "quasarplay": "https://store.steampowered.com/app/2215390/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "3618030",
+      "game_title": "Flock Around",
+      "steam_link": "https://store.steampowered.com/app/3618030",
+      "patch_type": "user",
+      "patch_links": [
+        "4eb3fecc",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 으잌",
+        "유저 한글 패치 - 으잌"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j892m2/flock-around",
+        "quasarplay": "https://store.steampowered.com/app/3618030/?curator_clanid=30894603"
       },
       "sources": [
         "steamapp",
@@ -37152,6 +37160,32 @@
       ]
     },
     {
+      "app_id": "3426150",
+      "game_title": "I Have No Change",
+      "steam_link": "https://store.steampowered.com/app/3426150",
+      "patch_type": "user",
+      "patch_links": [
+        "2a1a3fcb",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : killterm",
+        "유저 한글 패치 - killterm"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/lz1537/i-have-no-change",
+        "quasarplay": "https://store.steampowered.com/app/3426150/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "245390",
       "game_title": "I Have No Mouth, and I Must Scream",
       "steam_link": "https://store.steampowered.com/app/245390",
@@ -38953,6 +38987,32 @@
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/jm8p2d/judgesim",
         "quasarplay": "https://store.steampowered.com/app/2919660/?curator_clanid=42788178"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "811320",
+      "game_title": "Jupiter Hell",
+      "steam_link": "https://store.steampowered.com/app/811320",
+      "patch_type": "user",
+      "patch_links": [
+        "b9161963",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 으잌",
+        "유저 한글 패치 - 으잌"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jndp9k/jupiter-hell",
+        "quasarplay": "https://store.steampowered.com/app/811320/?curator_clanid=30894603"
       },
       "sources": [
         "steamapp",
@@ -46066,6 +46126,27 @@
       ]
     },
     {
+      "app_id": "3655150",
+      "game_title": "NEKOPARA After",
+      "steam_link": "https://store.steampowered.com/app/3655150",
+      "patch_type": "user",
+      "patch_links": [
+        "8d59405d"
+      ],
+      "patch_descriptions": [
+        "제작자 : Bart3nd3r"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j8n3xz/nekopara-after"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "899970",
       "game_title": "NEKOPARA Extra",
       "steam_link": "https://store.steampowered.com/app/899970",
@@ -46972,6 +47053,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "1147550",
+      "game_title": "Not For Broadcast",
+      "steam_link": "https://store.steampowered.com/app/1147550",
+      "patch_type": "user",
+      "patch_links": [
+        "f73da94b"
+      ],
+      "patch_descriptions": [
+        "제작자 : shake_luna"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jnzv08/not-for-broadcast"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -52092,7 +52194,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 정보없음",
-        "제작자 : ic0418",
+        "제작자 : qhtjr, 살코기가좋아(salomanchicken)",
         "유저 한글 패치 - dvrp0\n유저 한글 패치 - ic0418"
       ],
       "patch_sources": [
