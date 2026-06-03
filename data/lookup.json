@@ -5612,13 +5612,16 @@
     ],
     "links": [
       "17568449",
+      "01ca431a",
       "exist"
     ],
     "patch_descriptions": [
       "제작자 : Nasher TTS를 이용한 한글화",
+      "제작자 : Nasher 자막 한글화 패치 (TTS 모드 대신 이 패치를 사용해 주세요)",
       "유저 한글 패치 - Nasher"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp",
       "quasarplay"
     ],
@@ -13903,6 +13906,24 @@
       "quasarplay": "https://store.steampowered.com/app/359310/?curator_clanid=42788178"
     }
   },
+  "359320": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "d86d4ae0"
+    ],
+    "patch_descriptions": [
+      "제작자 : 정보없음"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j5pqw7/elite-dangerous"
+    }
+  },
   "359390": {
     "type": "user",
     "sources": [
@@ -17150,6 +17171,27 @@
       "quasarplay": "https://store.steampowered.com/app/426310/?curator_clanid=42788178"
     }
   },
+  "426690": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "64819d9c",
+      "ff9ea9ea"
+    ],
+    "patch_descriptions": [
+      "히메코 에필로그 한글화 번역 - 신군, 어둠의츠무기단, sezI, 시라이시 공무점 검수 - 어둠의츠무기단, sezI 이미지 - 시라이시 공무점 시스템 - 시라이시 공무점, 어둠의츠무기단",
+      "외전 -작은 이리스- 한글화 번역 - 신군, 어둠의츠무기단, sezI, 시라이시 공무점 검수 - 어둠의츠무기단, sezI 이미지 - 시라이시 공무점 시스템 - 시라이시 공무점, 어둠의츠무기단"
+    ],
+    "patch_sources": [
+      "steamapp",
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/lzk189/narcissu-10th-anniversary-anthology-project"
+    }
+  },
   "426790": {
     "type": "user",
     "sources": [
@@ -17875,18 +17917,23 @@
   "451340": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "f7d9e95d",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 카이리",
       "유저 한글 패치 - 카이리"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/l7ng60/gold-mining-simulator",
       "quasarplay": "https://store.steampowered.com/app/451340/?curator_clanid=30894603"
     }
   },
@@ -19858,13 +19905,16 @@
     ],
     "links": [
       "eb58be8f",
+      "3c5fadd3",
       "exist"
     ],
     "patch_descriptions": [
       "한국어화 모드 미완성판 RealTrue 님 제작",
+      "제작자: RadiantWill",
       "유저 한국어 패치 - RealTrue 님"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp",
       "quasarplay"
     ],
@@ -21989,6 +22039,24 @@
       "quasarplay": "https://store.steampowered.com/app/595690/?curator_clanid=42788178"
     }
   },
+  "596970": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "d82ff912"
+    ],
+    "patch_descriptions": [
+      "제작자 : shake_luna"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4rqvoy/sunless-skies-sovereign-edition"
+    }
+  },
   "597180": {
     "type": "official",
     "sources": [
@@ -23753,18 +23821,23 @@
   "658620": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "ff8dd45c",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : Rovre (로브르)",
       "유저 한글 패치 - 로브르"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j895kz/wonderful-everyday-down-the-rabbit-hole",
       "quasarplay": "https://store.steampowered.com/app/658620/?curator_clanid=30894603"
     }
   },
@@ -51774,17 +51847,14 @@
       "quasarplay"
     ],
     "links": [
-      "4dcbde60",
       "3feb3ea7",
       "exist"
     ],
     "patch_descriptions": [
-      "제작자 : gusrud6151",
       "제작자 : 에디",
       "유저 한글 패치 - 에디\n유저 한글 패치 - 한무테"
     ],
     "patch_sources": [
-      "steamapp",
       "steamapp",
       "quasarplay"
     ],
@@ -66850,18 +66920,23 @@
   "3474310": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "495a898f",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 듀콩",
       "유저 한글 패치 - 듀콩"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4rqwxg/%E3%81%A0%E3%82%8B%E7%B5%A1%E3%81%BF%E8%83%8C%E5%BE%8C%E9%9C%8A",
       "quasarplay": "https://store.steampowered.com/app/3474310/?curator_clanid=30894603"
     }
   },
@@ -67353,18 +67428,23 @@
   "3552140": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "7e40cb67",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 정보없음",
       "유저 한글 패치 - 한무테"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jdrd1m/retro-rewind-video-store-simulator",
       "quasarplay": "https://store.steampowered.com/app/3552140/?curator_clanid=30894603"
     }
   },
@@ -67480,13 +67560,16 @@
     ],
     "links": [
       "87db060f",
+      "d8d00c6d",
       "exist"
     ],
     "patch_descriptions": [
       "제작자 : 유하님",
+      "제작자 : 정보없음",
       "유저 한글 패치 - 유하님\n유저 한글 패치 - 한무테"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp",
       "quasarplay"
     ],
@@ -70293,6 +70376,24 @@
       "quasarplay": "https://store.steampowered.com/app/4197610/?curator_clanid=30894603"
     }
   },
+  "4217140": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "13e5c0a8"
+    ],
+    "patch_descriptions": [
+      "제작자 : 김까까"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4g5ew3/jpeg"
+    }
+  },
   "4224460": {
     "type": "user",
     "sources": [
@@ -70363,18 +70464,23 @@
   "4256690": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "bae17fe2",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 듀콩",
       "유저 한글 패치 - 듀콩"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jvd2n1/shards-of-solitude",
       "quasarplay": "https://store.steampowered.com/app/4256690/?curator_clanid=30894603"
     }
   },
@@ -70568,18 +70674,23 @@
   "4504460": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "ac7efbac",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 듀콩",
       "유저 한글 패치 - 듀콩"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jnpoy6/lihiman",
       "quasarplay": "https://store.steampowered.com/app/4504460/?curator_clanid=30894603"
     }
   },
@@ -70625,7 +70736,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-05-31T21:22:20.265Z",
-    "total": 3259
+    "generated_at": "2026-06-03T21:59:18.089Z",
+    "total": 3263
   }
 }

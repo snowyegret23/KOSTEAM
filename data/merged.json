@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-31T21:22:20.265Z",
-    "total_with_steam_link": 3259,
+    "generated_at": "2026-06-03T21:59:18.089Z",
+    "total_with_steam_link": 3263,
     "total_without_steam_link": 8,
     "sources": [
       "steamapp",
@@ -202,48 +202,6 @@
       ]
     },
     {
-      "app_id": "451340",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/451340/Gold_Mining_Simulator/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "유저 한글 패치 - 카이리"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/451340/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "3474310",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/3474310/The_Clingy_Ghost/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "유저 한글 패치 - 듀콩"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/3474310/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
       "app_id": "3784760",
       "game_title": "",
       "steam_link": "https://store.steampowered.com/app/3784760/Elfie_A_Sand_Plan/",
@@ -349,27 +307,6 @@
       ]
     },
     {
-      "app_id": "4504460",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/4504460/Lihiman/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "유저 한글 패치 - 듀콩"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/4504460/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
       "app_id": "1450830",
       "game_title": "",
       "steam_link": "https://store.steampowered.com/app/1450830/At_Dead_Of_Night/",
@@ -406,48 +343,6 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/2414270/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "4256690",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/4256690/Shards_Of_Solitude/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "유저 한글 패치 - 듀콩"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/4256690/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "658620",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/658620/Wonderful_Everyday_Down_the_RabbitHole/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "유저 한글 패치 - 로브르"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/658620/?curator_clanid=30894603"
       },
       "sources": [
         "quasarplay"
@@ -1440,27 +1335,6 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/3097300/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "3552140",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/3552140/Retro_Rewind__Video_Store_Simulator/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "유저 한글 패치 - 한무테"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/3552140/?curator_clanid=30894603"
       },
       "sources": [
         "quasarplay"
@@ -29895,6 +29769,27 @@
       ]
     },
     {
+      "app_id": "359320",
+      "game_title": "Elite Dangerous",
+      "steam_link": "https://store.steampowered.com/app/359320",
+      "patch_type": "user",
+      "patch_links": [
+        "d86d4ae0"
+      ],
+      "patch_descriptions": [
+        "제작자 : 정보없음"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j5pqw7/elite-dangerous"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "383120",
       "game_title": "Empyrion - Galactic Survival",
       "steam_link": "https://store.steampowered.com/app/383120",
@@ -31868,17 +31763,14 @@
       "steam_link": "https://store.steampowered.com/app/2299900",
       "patch_type": "user",
       "patch_links": [
-        "4dcbde60",
         "3feb3ea7",
         "exist"
       ],
       "patch_descriptions": [
-        "제작자 : gusrud6151",
         "제작자 : 에디",
         "유저 한글 패치 - 에디\n유저 한글 패치 - 한무테"
       ],
       "patch_sources": [
-        "steamapp",
         "steamapp",
         "quasarplay"
       ],
@@ -33648,6 +33540,32 @@
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/4yegy6/gods-will-be-watching",
         "quasarplay": "https://store.steampowered.com/app/274290/?curator_clanid=42788178"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "451340",
+      "game_title": "Gold Mining Simulator",
+      "steam_link": "https://store.steampowered.com/app/451340",
+      "patch_type": "user",
+      "patch_links": [
+        "f7d9e95d",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 카이리",
+        "유저 한글 패치 - 카이리"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l7ng60/gold-mining-simulator",
+        "quasarplay": "https://store.steampowered.com/app/451340/?curator_clanid=30894603"
       },
       "sources": [
         "steamapp",
@@ -38968,6 +38886,27 @@
       ]
     },
     {
+      "app_id": "4217140",
+      "game_title": "JPEG",
+      "steam_link": "https://store.steampowered.com/app/4217140",
+      "patch_type": "user",
+      "patch_links": [
+        "13e5c0a8"
+      ],
+      "patch_descriptions": [
+        "제작자 : 김까까"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4g5ew3/jpeg"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "2919660",
       "game_title": "JudgeSim",
       "steam_link": "https://store.steampowered.com/app/2919660",
@@ -41238,6 +41177,32 @@
       ]
     },
     {
+      "app_id": "4504460",
+      "game_title": "Lihiman",
+      "steam_link": "https://store.steampowered.com/app/4504460",
+      "patch_type": "user",
+      "patch_links": [
+        "ac7efbac",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 듀콩",
+        "유저 한글 패치 - 듀콩"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jnpoy6/lihiman",
+        "quasarplay": "https://store.steampowered.com/app/4504460/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "1586800",
       "game_title": "Lil Gator Game",
       "steam_link": "https://store.steampowered.com/app/1586800",
@@ -42660,13 +42625,16 @@
       "patch_type": "user",
       "patch_links": [
         "87db060f",
+        "d8d00c6d",
         "exist"
       ],
       "patch_descriptions": [
         "제작자 : 유하님",
+        "제작자 : 정보없음",
         "유저 한글 패치 - 유하님\n유저 한글 패치 - 한무테"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "quasarplay"
       ],
@@ -45841,6 +45809,30 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "426690",
+      "game_title": "Narcissu 10th Anniversary Anthology Project",
+      "steam_link": "https://store.steampowered.com/app/426690",
+      "patch_type": "user",
+      "patch_links": [
+        "64819d9c",
+        "ff9ea9ea"
+      ],
+      "patch_descriptions": [
+        "히메코 에필로그 한글화 번역 - 신군, 어둠의츠무기단, sezI, 시라이시 공무점 검수 - 어둠의츠무기단, sezI 이미지 - 시라이시 공무점 시스템 - 시라이시 공무점, 어둠의츠무기단",
+        "외전 -작은 이리스- 한글화 번역 - 신군, 어둠의츠무기단, sezI, 시라이시 공무점 검수 - 어둠의츠무기단, sezI 이미지 - 시라이시 공무점 시스템 - 시라이시 공무점, 어둠의츠무기단"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/lzk189/narcissu-10th-anniversary-anthology-project"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -51589,6 +51581,32 @@
       ]
     },
     {
+      "app_id": "3552140",
+      "game_title": "Retro Rewind - Video Store Simulator",
+      "steam_link": "https://store.steampowered.com/app/3552140",
+      "patch_type": "user",
+      "patch_links": [
+        "7e40cb67",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 정보없음",
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jdrd1m/retro-rewind-video-store-simulator",
+        "quasarplay": "https://store.steampowered.com/app/3552140/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "1537080",
       "game_title": "Return",
       "steam_link": "https://store.steampowered.com/app/1537080",
@@ -55118,6 +55136,32 @@
       ]
     },
     {
+      "app_id": "4256690",
+      "game_title": "Shards Of Solitude",
+      "steam_link": "https://store.steampowered.com/app/4256690",
+      "patch_type": "user",
+      "patch_links": [
+        "bae17fe2",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 듀콩",
+        "유저 한글 패치 - 듀콩"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jvd2n1/shards-of-solitude",
+        "quasarplay": "https://store.steampowered.com/app/4256690/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "1081510",
       "game_title": "She Sees Red - Interactive Movie",
       "steam_link": "https://store.steampowered.com/app/1081510",
@@ -57741,13 +57785,16 @@
       "patch_type": "user",
       "patch_links": [
         "17568449",
+        "01ca431a",
         "exist"
       ],
       "patch_descriptions": [
         "제작자 : Nasher TTS를 이용한 한글화",
+        "제작자 : Nasher 자막 한글화 패치 (TTS 모드 대신 이 패치를 사용해 주세요)",
         "유저 한글 패치 - Nasher"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "quasarplay"
       ],
@@ -59247,6 +59294,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "596970",
+      "game_title": "Sunless Skies: Sovereign Edition",
+      "steam_link": "https://store.steampowered.com/app/596970",
+      "patch_type": "user",
+      "patch_links": [
+        "d82ff912"
+      ],
+      "patch_descriptions": [
+        "제작자 : shake_luna"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4rqvoy/sunless-skies-sovereign-edition"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -65547,13 +65615,16 @@
       "patch_type": "user",
       "patch_links": [
         "eb58be8f",
+        "3c5fadd3",
         "exist"
       ],
       "patch_descriptions": [
         "한국어화 모드 미완성판 RealTrue 님 제작",
+        "제작자: RadiantWill",
         "유저 한국어 패치 - RealTrue 님"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "quasarplay"
       ],
@@ -70225,6 +70296,32 @@
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/jp86n3/wonder-boy-the-dragons-trap",
         "quasarplay": "https://store.steampowered.com/app/543260/?curator_clanid=42788178"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "658620",
+      "game_title": "Wonderful Everyday Down the Rabbit-Hole",
+      "steam_link": "https://store.steampowered.com/app/658620",
+      "patch_type": "user",
+      "patch_links": [
+        "ff8dd45c",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : Rovre (로브르)",
+        "유저 한글 패치 - 로브르"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j895kz/wonderful-everyday-down-the-rabbit-hole",
+        "quasarplay": "https://store.steampowered.com/app/658620/?curator_clanid=30894603"
       },
       "sources": [
         "steamapp",
@@ -77041,6 +77138,32 @@
       },
       "sources": [
         "steamapp"
+      ]
+    },
+    {
+      "app_id": "3474310",
+      "game_title": "だる絡み背後霊",
+      "steam_link": "https://store.steampowered.com/app/3474310",
+      "patch_type": "user",
+      "patch_links": [
+        "495a898f",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 듀콩",
+        "유저 한글 패치 - 듀콩"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4rqwxg/%E3%81%A0%E3%82%8B%E7%B5%A1%E3%81%BF%E8%83%8C%E5%BE%8C%E9%9C%8A",
+        "quasarplay": "https://store.steampowered.com/app/3474310/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
       ]
     },
     {
