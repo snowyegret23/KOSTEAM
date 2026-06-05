@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-03T21:59:18.089Z",
-    "total_with_steam_link": 3263,
+    "generated_at": "2026-06-05T21:32:33.612Z",
+    "total_with_steam_link": 3270,
     "total_without_steam_link": 8,
     "sources": [
       "steamapp",
@@ -15400,12 +15400,12 @@
       "steam_link": "https://store.steampowered.com/app/1222700",
       "patch_type": "user",
       "patch_links": [
-        "058194a2",
-        "c96b6387"
+        "c96b6387",
+        "058194a2"
       ],
       "patch_descriptions": [
-        "백업본 패치 적용을 위해 구버전 롤백이 필요함 구버전 받는 방법 명령어 download_depot 1222700 1222701 6226091764091728582",
-        "제작자 : 정보없음"
+        "제작자 : 정보없음",
+        "백업본 패치 적용을 위해 구버전 롤백이 필요함 구버전 받는 방법 명령어 download_depot 1222700 1222701 6226091764091728582"
       ],
       "patch_sources": [
         "steamapp",
@@ -15450,13 +15450,13 @@
       "steam_link": "https://store.steampowered.com/app/427410",
       "patch_type": "user",
       "patch_links": [
-        "88491040",
         "74ddb1cb",
+        "88491040",
         "exist"
       ],
       "patch_descriptions": [
-        "번역 담당 : Dr. 하늘빛 하늘 , Dr. 볼펜촉 기술 담당 : Dr. yeshjho 이미지 담당 : Dr. 시에스타",
         "제작자 : 야생지렁이",
+        "번역 담당 : Dr. 하늘빛 하늘 , Dr. 볼펜촉 기술 담당 : Dr. yeshjho 이미지 담당 : Dr. 시에스타",
         "유저 한글 패치 - 한무테\n유저 한글 패치 - GATE 한국지사\n유저 한글 패치 - 야생지렁이"
       ],
       "patch_sources": [
@@ -16168,13 +16168,13 @@
       "steam_link": "https://store.steampowered.com/app/2674190",
       "patch_type": "user",
       "patch_links": [
-        "a4a68218",
         "de9445a6",
+        "a4a68218",
         "exist"
       ],
       "patch_descriptions": [
-        "백업용",
         "제작자 : 거대토깽",
+        "백업용",
         "유저 한글 패치 - 거대토깽 님"
       ],
       "patch_sources": [
@@ -16268,8 +16268,8 @@
       "steam_link": "https://store.steampowered.com/app/202750",
       "patch_type": "user",
       "patch_links": [
-        "0ab31c02",
         "7c9ac9cd",
+        "0ab31c02",
         "exist"
       ],
       "patch_descriptions": [
@@ -16402,14 +16402,14 @@
       "patch_type": "user",
       "patch_links": [
         "47d897c2",
-        "b4d2af06",
         "4ffd8a55",
+        "b4d2af06",
         "exist"
       ],
       "patch_descriptions": [
         "제작자 : 정보없음",
-        "제작자 : 정보없음",
         "poca님 블로그 (출처: 검은개)",
+        "제작자 : 정보없음",
         "유저 한국어 패치 - 검은개 님"
       ],
       "patch_sources": [
@@ -16433,15 +16433,15 @@
       "steam_link": "https://store.steampowered.com/app/214490",
       "patch_type": "user",
       "patch_links": [
+        "de08bd6b",
         "1302318f",
         "7bada4bd",
-        "de08bd6b",
         "exist"
       ],
       "patch_descriptions": [
+        "전격소년님 블로그 워킹 죠 팀 제작참여 개인 수정버전",
         "기존 한글패치 개선판 - 만든이 패치제작 및 UI번역 수정, 기술담당 - 제노모프 선생 @onyooj.bsky.app DLC 번역 - ZeroGambit​ 캠페인 번역 및 리플리 캠페인 DLC - 팀워킹죠,Grafitti,응원단장,DUKE NUKEM 말달려,소레니",
         "워킹 죠 팀 제작",
-        "전격소년님 블로그 워킹 죠 팀 제작참여 개인 수정버전",
         "유저 한글 패치 - 제노모프 선생, ZeroGambit, 팀 워킹죠"
       ],
       "patch_sources": [
@@ -16658,17 +16658,17 @@
       "steam_link": "https://store.steampowered.com/app/2826800",
       "patch_type": "user",
       "patch_links": [
+        "13083039",
+        "16446c51",
         "bbca844c",
         "0124befa",
-        "16446c51",
-        "13083039",
         "exist"
       ],
       "patch_descriptions": [
+        "제작자 : 으잌",
+        "데모판 한글 패치 제작자 : 수나이스",
         "제작자 : 수나이스",
         "데모판 한글 패치 제작자 : 으잌",
-        "데모판 한글 패치 제작자 : 수나이스",
-        "제작자 : 으잌",
         "유저 한글 패치 - 수나이스\n유저 한글 패치 - 으잌㉪\n유저 한글 패치 - 한무테"
       ],
       "patch_sources": [
@@ -16852,13 +16852,13 @@
       "steam_link": "https://store.steampowered.com/app/3292260",
       "patch_type": "user",
       "patch_links": [
-        "b9873ff5",
         "60ab21fb",
+        "b9873ff5",
         "exist"
       ],
       "patch_descriptions": [
-        "백업용",
         "제작자 : 수나이스",
+        "백업용",
         "유저 한글 패치 - 수나이스 님"
       ],
       "patch_sources": [
@@ -17131,15 +17131,15 @@
       "steam_link": "https://store.steampowered.com/app/1125240",
       "patch_type": "user",
       "patch_links": [
-        "de0069b1",
-        "ae936bd0",
         "73fc1de6",
+        "ae936bd0",
+        "de0069b1",
         "exist"
       ],
       "patch_descriptions": [
-        "제작자 : 한잡스",
-        "제작자 : 라이어게임",
         "제작자 : wagwagwa",
+        "제작자 : 라이어게임",
+        "제작자 : 한잡스",
         "유저 한글 패치 - 라이어게임\n유저 한글 패치 - wagwagwa"
       ],
       "patch_sources": [
@@ -18071,12 +18071,12 @@
       "steam_link": "https://store.steampowered.com/app/2328480",
       "patch_type": "user",
       "patch_links": [
-        "6c20726e",
-        "9181ff30"
+        "9181ff30",
+        "6c20726e"
       ],
       "patch_descriptions": [
-        "제작자 : 우육친구",
-        "제작자 : 천지회"
+        "제작자 : 천지회",
+        "제작자 : 우육친구"
       ],
       "patch_sources": [
         "steamapp",
@@ -18095,13 +18095,13 @@
       "steam_link": "https://store.steampowered.com/app/1898300",
       "patch_type": "user",
       "patch_links": [
-        "d301da98",
         "ee314836",
+        "d301da98",
         "exist"
       ],
       "patch_descriptions": [
-        "제작자 : 마지니형",
         "제작자 : 레임3D",
+        "제작자 : 마지니형",
         "유저 한글 패치 - 마지니형\n유저 한글 패치 - 레임3D"
       ],
       "patch_sources": [
@@ -18124,13 +18124,13 @@
       "steam_link": "https://store.steampowered.com/app/1720090",
       "patch_type": "official",
       "patch_links": [
-        "97d3af57",
         "418b0383",
+        "97d3af57",
         "exist"
       ],
       "patch_descriptions": [
-        "제작자 : songmin9813 공식 한글 개선 패치",
         "백업용",
+        "제작자 : songmin9813 공식 한글 개선 패치",
         "번역 개선 패치 - 잠수돌침대"
       ],
       "patch_sources": [
@@ -18153,13 +18153,13 @@
       "steam_link": "https://store.steampowered.com/app/260210",
       "patch_type": "user",
       "patch_links": [
-        "c96d7f7a",
         "b65506e4",
+        "c96d7f7a",
         "exist"
       ],
       "patch_descriptions": [
-        "[제작 참여자] 양덕진, 에리카민트, fenjo, 철학도, 애완저글링, Ekamine, P.Henry, Pedro_Kim, HAM8536",
         "바버님 제작",
+        "[제작 참여자] 양덕진, 에리카민트, fenjo, 철학도, 애완저글링, Ekamine, P.Henry, Pedro_Kim, HAM8536",
         "유저 한국어 패치 - 양덕진, 에리카민트, fenjo, 철학도, 애완저글링, Ekamine, P.Henry, Pedro_Kim, HAM8536 님,\n \n유저 한국어 패치 - 바버 님"
       ],
       "patch_sources": [
@@ -18312,13 +18312,13 @@
       "steam_link": "https://store.steampowered.com/app/964350",
       "patch_type": "user",
       "patch_links": [
-        "61339d5c",
         "63056cd4",
+        "61339d5c",
         "exist"
       ],
       "patch_descriptions": [
-        "총괄 : 임미농 번역 : 이제나",
         "백업용",
+        "총괄 : 임미농 번역 : 이제나",
         "유저 한글 패치 - 임미농, 이제나"
       ],
       "patch_sources": [
@@ -19335,6 +19335,32 @@
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/4g23zy/banished",
         "quasarplay": "https://store.steampowered.com/app/242920/?curator_clanid=42788178"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "994730",
+      "game_title": "Banner of the Maid",
+      "steam_link": "https://store.steampowered.com/app/994730",
+      "patch_type": "user",
+      "patch_links": [
+        "e2ad202e",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 정보없음",
+        "유저 한글 패치 - 부장'\n유저 한글 패치 - BUYU, 에디"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jd9pqz/banner-of-the-maid",
+        "quasarplay": "https://store.steampowered.com/app/994730/?curator_clanid=42788178"
       },
       "sources": [
         "steamapp",
@@ -27833,13 +27859,13 @@
       "steam_link": "https://store.steampowered.com/app/220440",
       "patch_type": "user",
       "patch_links": [
-        "88911ac6",
         "016471aa",
+        "88911ac6",
         "exist"
       ],
       "patch_descriptions": [
-        "[주관, 검수] 개나소랑 [번역] 개나소랑, 게이로드, 루아 [폰트] 꼼수",
         "백업용 - 위 링크가 열리지 않을 시 사용",
+        "[주관, 검수] 개나소랑 [번역] 개나소랑, 게이로드, 루아 [폰트] 꼼수",
         "유저 한국어 패치 - 한필드"
       ],
       "patch_sources": [
@@ -29549,15 +29575,15 @@
       "steam_link": "https://store.steampowered.com/app/977880",
       "patch_type": "user",
       "patch_links": [
-        "33e4c412",
         "1f0f385e",
+        "33e4c412",
         "a657ec67",
         "82c0c7f8",
         "exist"
       ],
       "patch_descriptions": [
-        "제작자 : eaubita 역물음표님, 광천김가루님과 함께 번역했습니다.",
         "제작자 : ㅇㅇ",
+        "제작자 : eaubita 역물음표님, 광천김가루님과 함께 번역했습니다.",
         "제작자 : Rikan 챕터 1 까지 번역",
         "제작자 : daivernon",
         "유저 한글 패치 - 팀 Eaubita\n유저 한글 패치 - daivernon\n유저 한글 패치"
@@ -30208,13 +30234,13 @@
       "steam_link": "https://store.steampowered.com/app/2214880",
       "patch_type": "user",
       "patch_links": [
-        "befecc65",
         "6de4d261",
+        "befecc65",
         "exist"
       ],
       "patch_descriptions": [
-        "제작자 : 한무테",
         "제작자 : 천지회",
+        "제작자 : 한무테",
         "유저 한글 패치 - gusrud6151 님\n유저 한글 패치 - 천지회 님"
       ],
       "patch_sources": [
@@ -39147,13 +39173,13 @@
       "steam_link": "https://store.steampowered.com/app/2756920",
       "patch_type": "user",
       "patch_links": [
-        "e261d41f",
         "10972f55",
+        "e261d41f",
         "exist"
       ],
       "patch_descriptions": [
-        "제작자 : 으잌",
         "한 글 팀 : Eaubita",
+        "제작자 : 으잌",
         "유저 한글 패치 - Eaubita\n유저 한글 패치 - 으잌㉪"
       ],
       "patch_sources": [
@@ -43928,13 +43954,13 @@
       "steam_link": "https://store.steampowered.com/app/241930",
       "patch_type": "user",
       "patch_links": [
-        "9658220b",
         "a8926e77",
+        "9658220b",
         "exist"
       ],
       "patch_descriptions": [
-        "밤하늘바람님 제작 (수정패치 - 원본 설치 후 수정패치 진행 ▲)",
         "팀 왈도 제작 (원본 한글 패치 ▲)",
+        "밤하늘바람님 제작 (수정패치 - 원본 설치 후 수정패치 진행 ▲)",
         "유저 한국어 패치 - 팀 왈도 & 밤하늘바람 님"
       ],
       "patch_sources": [
@@ -55812,13 +55838,13 @@
       "steam_link": "https://store.steampowered.com/app/1069160",
       "patch_type": "user",
       "patch_links": [
-        "a8dde073",
         "2d4e91e9",
+        "a8dde073",
         "exist"
       ],
       "patch_descriptions": [
-        "제작자 : r35",
         "제작자 : 에디",
+        "제작자 : r35",
         "유저 한글 패치 - r35\n유저 한글 패치 - 에디"
       ],
       "patch_sources": [
@@ -61118,12 +61144,12 @@
       "steam_link": "https://store.steampowered.com/app/3353470",
       "patch_type": "user",
       "patch_links": [
-        "0e6fb4ef",
-        "abffdbdc"
+        "abffdbdc",
+        "0e6fb4ef"
       ],
       "patch_descriptions": [
-        "한국어 팬 더빙 모드 제작자 : sawalk",
-        "제작자 : sawalk"
+        "제작자 : sawalk",
+        "한국어 팬 더빙 모드 제작자 : sawalk"
       ],
       "patch_sources": [
         "steamapp",
@@ -61727,13 +61753,13 @@
       "steam_link": "https://store.steampowered.com/app/67370",
       "patch_type": "user",
       "patch_links": [
-        "522e3b28",
         "a8e17928",
+        "522e3b28",
         "exist"
       ],
       "patch_descriptions": [
-        "랄프님 제작",
         "백업용 - 위 링크가 열리지 않을 시 사용 [적용법] 1. 게임을 먼저 실행 2. 압축을 푼 exe 파일을 실행시켜 게임에 후킹 후 번역",
+        "랄프님 제작",
         "유저 한국어 패치 - HanField, 랄프 님"
       ],
       "patch_sources": [
@@ -62190,13 +62216,13 @@
       "steam_link": "https://store.steampowered.com/app/298630",
       "patch_type": "user",
       "patch_links": [
-        "3850ebf5",
         "779a5417",
+        "3850ebf5",
         "exist"
       ],
       "patch_descriptions": [
-        "시리시안님 제작",
         "백업용",
+        "시리시안님 제작",
         "유저 한국어 패치 - 시리시안 님"
       ],
       "patch_sources": [
@@ -66699,6 +66725,69 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "1955830",
+      "game_title": "Touhou Hero of Ice Fairy",
+      "steam_link": "https://store.steampowered.com/app/1955830",
+      "patch_type": "user",
+      "patch_links": [
+        "2940ccba"
+      ],
+      "patch_descriptions": [
+        "제작자 : 장석"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jpq63k/touhou-hero-of-ice-fairy"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "1031480",
+      "game_title": "TouHou Makuka Sai ~ Fantastic Danmaku Festival Part II",
+      "steam_link": "https://store.steampowered.com/app/1031480",
+      "patch_type": "user",
+      "patch_links": [
+        "c214f220"
+      ],
+      "patch_descriptions": [
+        "제작자 : 차차케비"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j80wp8/touhou-makuka-sai-fantastic-danmaku-festival-part-ii"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "2877170",
+      "game_title": "TouHou Makuka Sai ~ Fantastic Danmaku Festival Part III",
+      "steam_link": "https://store.steampowered.com/app/2877170",
+      "patch_type": "user",
+      "patch_links": [
+        "7b9cbc9d"
+      ],
+      "patch_descriptions": [
+        "제작자 : Ro-Mary"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jdr0qz/touhou-makuka-sai-fantastic-danmaku-festival-part-iii"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -72757,7 +72846,7 @@
         "exist"
       ],
       "patch_descriptions": [
-        "제작자 : 목갤러",
+        "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : 목갤러",
         "유저 한글 패치 - 목갤러\n유저 한글 패치 - 한무테"
       ],
       "patch_sources": [
@@ -73353,7 +73442,7 @@
         "exist"
       ],
       "patch_descriptions": [
-        "제작자 : 정보없음",
+        "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다)",
         "유저 한국어 패치 - 게지네 님",
         ""
       ],
@@ -77666,6 +77755,27 @@
       ]
     },
     {
+      "app_id": "1715460",
+      "game_title": "东方冰之勇者记：序章",
+      "steam_link": "https://store.steampowered.com/app/1715460",
+      "patch_type": "user",
+      "patch_links": [
+        "214dcf79"
+      ],
+      "patch_descriptions": [
+        "제작자 : 장석"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jdonnm/%E4%B8%9C%E6%96%B9%E5%86%B0%E4%B9%8B%E5%8B%87%E8%80%85%E8%AE%B0%E5%BA%8F%E7%AB%A0"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "3265060",
       "game_title": "东方异域见闻 ~ Touhou Dystopian",
       "steam_link": "https://store.steampowered.com/app/3265060",
@@ -77877,9 +77987,11 @@
       "game_title": "侦探，请守护我的秘密吧！",
       "steam_link": "https://store.steampowered.com/app/3391500",
       "patch_type": "official",
-      "patch_links": [],
+      "patch_links": [
+        "fed1ead7"
+      ],
       "patch_descriptions": [
-        "실제로는 한글지원"
+        "제작자 : 호트구트 // 실제로는 한글지원"
       ],
       "patch_sources": [
         "steamapp"
@@ -78267,32 +78379,6 @@
       ]
     },
     {
-      "app_id": "994730",
-      "game_title": "圣女战旗 Banner of the Maid",
-      "steam_link": "https://store.steampowered.com/app/994730",
-      "patch_type": "user",
-      "patch_links": [
-        "e2ad202e",
-        "exist"
-      ],
-      "patch_descriptions": [
-        "제작자 : 정보없음",
-        "유저 한글 패치 - 부장'\n유저 한글 패치 - BUYU, 에디"
-      ],
-      "patch_sources": [
-        "steamapp",
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "steamapp": "https://hanpe.net/app/jd9pqz/%E5%9C%A3%E5%A5%B3%E6%88%98%E6%97%97-banner-of-the-maid",
-        "quasarplay": "https://store.steampowered.com/app/994730/?curator_clanid=42788178"
-      },
-      "sources": [
-        "steamapp",
-        "quasarplay"
-      ]
-    },
-    {
       "app_id": "3236000",
       "game_title": "執着学園",
       "steam_link": "https://store.steampowered.com/app/3236000",
@@ -78437,6 +78523,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "3460110",
+      "game_title": "天地有私，宿命之主",
+      "steam_link": "https://store.steampowered.com/app/3460110",
+      "patch_type": "user",
+      "patch_links": [
+        "5bd6fb73"
+      ],
+      "patch_descriptions": [
+        "제작자 : 젠갤러 ## Special Thanks 작업에 결정적인 도움을 주신 안드레아님 (꽃뱀시뮬레이터 한패 제작자) 한글폰트를 만들어 주신 Snowyegret 님"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4r3o87/%E5%A4%A9%E5%9C%B0%E6%9C%89%E7%A7%81%E5%AE%BF%E5%91%BD%E4%B9%8B%E4%B8%BB"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -79066,6 +79173,27 @@
       ]
     },
     {
+      "app_id": "2726890",
+      "game_title": "拜托！明天和我恋爱吧",
+      "steam_link": "https://store.steampowered.com/app/2726890",
+      "patch_type": "user",
+      "patch_links": [
+        "2190b129"
+      ],
+      "patch_descriptions": [
+        "제작자 : 호트구트"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l7m5yz/%E6%8B%9C%E6%89%98%E6%98%8E%E5%A4%A9%E5%92%8C%E6%88%91%E6%81%8B%E7%88%B1%E5%90%A7"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "2226700",
       "game_title": "挂姬恶魔 IDLE DEVILS",
       "steam_link": "https://store.steampowered.com/app/2226700",
@@ -79197,13 +79325,13 @@
       "steam_link": "https://store.steampowered.com/app/1296830",
       "patch_type": "official",
       "patch_links": [
-        "99fc678d",
         "59b04c0c",
+        "99fc678d",
         "exist"
       ],
       "patch_descriptions": [
-        "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : myjung",
         "제작자 : 정보없음",
+        "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : myjung",
         "유저 한글 패치 - myjung 님"
       ],
       "patch_sources": [
@@ -79818,6 +79946,27 @@
       ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/l783yp/%E7%81%B5%E5%A2%83%E4%BF%AE%E4%BB%99%E7%95%8C"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "3864530",
+      "game_title": "炽澜号",
+      "steam_link": "https://store.steampowered.com/app/3864530",
+      "patch_type": "user",
+      "patch_links": [
+        "cfbac0fd"
+      ],
+      "patch_descriptions": [
+        "공식 한글 개선 패치 제작자 : andrea"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j000xx/%E7%82%BD%E6%BE%9C%E5%8F%B7"
       },
       "sources": [
         "steamapp"
