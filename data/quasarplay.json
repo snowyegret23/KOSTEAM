@@ -2,8 +2,8 @@
   "curator_id": 42788178,
   "curator_name": "Curator #42788178",
   "curator_url": "https://store.steampowered.com/curator/42788178/",
-  "total_games": 1830,
-  "exported_at": "2026-06-07T21:27:37.616910",
+  "total_games": 1832,
+  "exported_at": "2026-06-10T21:41:45.810121",
   "games": [
     {
       "appid": "1486920",
@@ -2736,7 +2736,7 @@
       "appid": "2353250",
       "url": "https://store.steampowered.com/app/2353250/Astrometica/",
       "curator_url": "https://store.steampowered.com/app/2353250/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - gusrud6151 님",
+      "review": "유저 한글 패치 - k-patch",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -2997,9 +2997,9 @@
       "appid": "2951340",
       "url": "https://store.steampowered.com/app/2951340/Moonless_Moon/",
       "curator_url": "https://store.steampowered.com/app/2951340/?curator_clanid=42788178",
-      "review": "유저 한글 대사집 - 로브르",
+      "review": "한글 패치 - razy, 로브르\n한글 대사집 - 로브르",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -4141,6 +4141,15 @@
       "url": "https://store.steampowered.com/app/2370380/_DWorld_Gate/",
       "curator_url": "https://store.steampowered.com/app/2370380/?curator_clanid=42788178",
       "review": "유저 한글 패치 - 바보우 님",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "1606180",
+      "url": "https://store.steampowered.com/app/1606180/II/",
+      "curator_url": "https://store.steampowered.com/app/1606180/?curator_clanid=42788178",
+      "review": "유저 한글 패치 - 물음표 님",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -9477,7 +9486,7 @@
       "appid": "704450",
       "url": "https://store.steampowered.com/app/704450/Neverwinter_Nights_Enhanced_Edition/",
       "curator_url": "https://store.steampowered.com/app/704450/?curator_clanid=42788178",
-      "review": "한글 패치 \n한글 패치\n한글 패치",
+      "review": "한글 패치 - Nasher\n한글 패치\n한글 패치",
       "review_has_url": true,
       "review_url_count": 3,
       "type": "recommended"
@@ -9630,9 +9639,9 @@
       "appid": "518790",
       "url": "https://store.steampowered.com/app/518790/theHunter_Call_of_the_Wild/",
       "curator_url": "https://store.steampowered.com/app/518790/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 - RealTrue 님",
+      "review": "유저 한글 패치 - RadiantWill\n유저 한글 패치 - RealTrue",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -9927,7 +9936,7 @@
       "appid": "743890",
       "url": "https://store.steampowered.com/app/743890/Mega_Man_X_Legacy_Collection/",
       "curator_url": "https://store.steampowered.com/app/743890/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 - 수류운공, 휘슬, 아루미 님",
+      "review": "한글 패치 - 수류운공, 휘슬, 아루미",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -10611,7 +10620,16 @@
       "appid": "237430",
       "url": "https://store.steampowered.com/app/237430/Expeditions_Conquistador/",
       "curator_url": "https://store.steampowered.com/app/237430/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 - rlarlgmdwkd 님",
+      "review": "유저 한글 패치 - 스타비즈\n유저 한글 패치 - rlarlgmdwkd",
+      "review_has_url": true,
+      "review_url_count": 2,
+      "type": "recommended"
+    },
+    {
+      "appid": "838350",
+      "url": "https://store.steampowered.com/app/838350/The_Scroll_Of_Taiwu/",
+      "curator_url": "https://store.steampowered.com/app/838350/?curator_clanid=42788178",
+      "review": "유저 한국어 패치 - 소요객잔 카페",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -11043,9 +11061,9 @@
       "appid": "429720",
       "url": "https://store.steampowered.com/app/429720/IMSCARED/",
       "curator_url": "https://store.steampowered.com/app/429720/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 - 김작 님",
+      "review": "한글 패치\n한글 패치 - 김작",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -13023,9 +13041,9 @@
       "appid": "211600",
       "url": "https://store.steampowered.com/app/211600/Thief_Gold_1999/",
       "curator_url": "https://store.steampowered.com/app/211600/?curator_clanid=42788178",
-      "review": "유저 한국어 패치",
+      "review": "유저 한글 패치 - 제로방송\n유저 한글 패치",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -13104,9 +13122,9 @@
       "appid": "306130",
       "url": "https://store.steampowered.com/app/306130/The_Elder_Scrolls_Online/",
       "curator_url": "https://store.steampowered.com/app/306130/?curator_clanid=42788178",
-      "review": "유저 한글 패치 \n유저 한글 패치 - 차차, worldwideweirdo",
+      "review": "한글 패치 \n한글 패치 \n한글 패치 - 차차, worldwideweirdo",
       "review_has_url": true,
-      "review_url_count": 2,
+      "review_url_count": 3,
       "type": "recommended"
     },
     {
@@ -16272,9 +16290,9 @@
       "appid": "743900",
       "url": "https://store.steampowered.com/app/743900/Mega_Man_X_Legacy_Collection_2/",
       "curator_url": "https://store.steampowered.com/app/743900/?curator_clanid=42788178",
-      "review": "유저 한국어화 패치(록맨X5만 패치) - 수류운공, 아루미 님",
+      "review": "록맨 X5 한글 패치 - 수류운공, 아루미\nX7 한글 패치\nX8 한글 패치",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 3,
       "type": "recommended"
     },
     {

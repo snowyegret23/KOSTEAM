@@ -1020,12 +1020,12 @@
     "source_site_url": "https://hanpe.net/app/jv5x08/command-conquertm-red-alerttm-3",
     "patch_type": "official",
     "patch_links": [
-      "97f047d0",
-      "b243eb18"
+      "b243eb18",
+      "97f047d0"
     ],
     "patch_descriptions": [
-      "원제작자: Nephlite ( 공식 한글 번역 패치",
-      "NEPH님 제작"
+      "NEPH님 제작",
+      "원제작자: Nephlite ( 공식 한글 번역 패치"
     ]
   },
   {
@@ -1344,12 +1344,12 @@
     "source_site_url": "https://hanpe.net/app/4ym502/tropico-3",
     "patch_type": "user",
     "patch_links": [
-      "d70679ad",
-      "f8d4de03"
+      "f8d4de03",
+      "d70679ad"
     ],
     "patch_descriptions": [
-      "Enjoy Your Management Simulation 카페 (가입필요)",
-      "WON.님 블로그"
+      "WON.님 블로그",
+      "Enjoy Your Management Simulation 카페 (가입필요)"
     ]
   },
   {
@@ -1549,13 +1549,13 @@
     "source_site_url": "https://hanpe.net/app/4gxwp9/alien-shooter-2-reloaded",
     "patch_type": "user",
     "patch_links": [
-      "47d897c2",
       "4ffd8a55",
-      "b4d2af06"
+      "b4d2af06",
+      "47d897c2"
     ],
     "patch_descriptions": [
-      "제작자 : 정보없음",
       "poca님 블로그 (출처: 검은개)",
+      "제작자 : 정보없음",
       "제작자 : 정보없음"
     ]
   },
@@ -2398,12 +2398,12 @@
     "source_site_url": "https://hanpe.net/app/jn0ygk/the-darkness-ii",
     "patch_type": "user",
     "patch_links": [
-      "a8e17928",
-      "522e3b28"
+      "522e3b28",
+      "a8e17928"
     ],
     "patch_descriptions": [
-      "백업용 - 위 링크가 열리지 않을 시 사용 [적용법] 1. 게임을 먼저 실행 2. 압축을 푼 exe 파일을 실행시켜 게임에 후킹 후 번역",
-      "랄프님 제작"
+      "랄프님 제작",
+      "백업용 - 위 링크가 열리지 않을 시 사용 [적용법] 1. 게임을 먼저 실행 2. 압축을 푼 exe 파일을 실행시켜 게임에 후킹 후 번역"
     ]
   },
   {
@@ -2640,12 +2640,12 @@
     "source_site_url": "https://hanpe.net/app/l7zx2p/terraria",
     "patch_type": "official",
     "patch_links": [
-      "7b2c24a3",
-      "7aa37ac7"
+      "7aa37ac7",
+      "7b2c24a3"
     ],
     "patch_descriptions": [
-      "공식 번역 개선 패치 제작자 : farnic, ansayo",
-      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다)"
+      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다)",
+      "공식 번역 개선 패치 제작자 : farnic, ansayo"
     ]
   },
   {
@@ -3044,12 +3044,12 @@
     "source_site_url": "https://hanpe.net/app/l259rm/dishonored",
     "patch_type": "official",
     "patch_links": [
-      "f31fc4cb",
-      "fba420a6"
+      "fba420a6",
+      "f31fc4cb"
     ],
     "patch_descriptions": [
-      "DLC - The Brigmore Witches 한글패치 // 정발패키지, 다이렉트 게임즈 구매시 한글",
-      "DLC - The Knife of Dunwall 한긆패치 제작팀 : 팀 커넌드럼"
+      "DLC - The Knife of Dunwall 한긆패치 제작팀 : 팀 커넌드럼 // 정발패키지, 다이렉트 게임즈 구매시 한글",
+      "DLC - The Brigmore Witches 한글패치"
     ]
   },
   {
@@ -3184,9 +3184,9 @@
   },
   {
     "app_id": "208140",
-    "game_title": "ENDLESS™ Space - Definitive Edition",
+    "game_title": "ENDLESS Space™ - Definitive Edition",
     "steam_link": "https://store.steampowered.com/app/208140",
-    "source_site_url": "https://hanpe.net/app/lxy67y/endlesstm-space-definitive-edition",
+    "source_site_url": "https://hanpe.net/app/lxy67y/endless-spacetm-definitive-edition",
     "patch_type": "user",
     "patch_links": [
       "a3a6dd7b",
@@ -3283,9 +3283,9 @@
   },
   {
     "app_id": "211600",
-    "game_title": "Thief Gold",
+    "game_title": "Thief Gold (1999)",
     "steam_link": "https://store.steampowered.com/app/211600",
-    "source_site_url": "https://hanpe.net/app/jpgp9n/thief-gold",
+    "source_site_url": "https://hanpe.net/app/jpgp9n/thief-gold-1999",
     "patch_type": "user",
     "patch_links": [
       "6b02b836"
@@ -3393,13 +3393,13 @@
     "patch_type": "user",
     "patch_links": [
       "de08bd6b",
-      "1302318f",
-      "7bada4bd"
+      "7bada4bd",
+      "1302318f"
     ],
     "patch_descriptions": [
       "전격소년님 블로그 워킹 죠 팀 제작참여 개인 수정버전",
-      "기존 한글패치 개선판 - 만든이 패치제작 및 UI번역 수정, 기술담당 - 제노모프 선생 @onyooj.bsky.app DLC 번역 - ZeroGambit​ 캠페인 번역 및 리플리 캠페인 DLC - 팀워킹죠,Grafitti,응원단장,DUKE NUKEM 말달려,소레니",
-      "워킹 죠 팀 제작"
+      "워킹 죠 팀 제작",
+      "기존 한글패치 개선판 - 만든이 패치제작 및 UI번역 수정, 기술담당 - 제노모프 선생 @onyooj.bsky.app DLC 번역 - ZeroGambit​ 캠페인 번역 및 리플리 캠페인 DLC - 팀워킹죠,Grafitti,응원단장,DUKE NUKEM 말달려,소레니"
     ]
   },
   {
@@ -3873,12 +3873,12 @@
     "source_site_url": "https://hanpe.net/app/j9k73q/ys-i-ii-chronicles",
     "patch_type": "user",
     "patch_links": [
-      "c66b2d93",
-      "39f33f5f"
+      "39f33f5f",
+      "c66b2d93"
     ],
     "patch_descriptions": [
-      "이스 2 Chronicles+",
-      "이스 1 Chronicles+"
+      "이스 1 Chronicles+",
+      "이스 2 Chronicles+"
     ]
   },
   {
@@ -4560,12 +4560,12 @@
     "source_site_url": "https://hanpe.net/app/4err31/papers-please",
     "patch_type": "official",
     "patch_links": [
-      "dda8d899",
-      "f97f3464"
+      "f97f3464",
+      "dda8d899"
     ],
     "patch_descriptions": [
-      "팀 대포동 제작",
-      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작: 산아라, 고블린, Swendel. 검수 피드백: 산아라, 고블린"
+      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작: 산아라, 고블린, Swendel. 검수 피드백: 산아라, 고블린",
+      "팀 대포동 제작"
     ]
   },
   {
@@ -5146,12 +5146,12 @@
     "source_site_url": "https://hanpe.net/app/4g3yry/the-legend-of-heroes-trails-in-the-sky",
     "patch_type": "user",
     "patch_links": [
-      "2129d8f0",
-      "6613e995"
+      "6613e995",
+      "2129d8f0"
     ],
     "patch_descriptions": [
-      "한글화 제공: 누구야 총 검수: 루벤딕스 번역 제공: 푸르른물빛, 날라 번역: 루벤딕스, 푸르른물빛, 외지인, 링켄, 라하르 이미지: 나메보미 [테스터] 루벤딕스, 푸르른물빛, mavenX, choch22, 천령아, 익스, 류이, 로피카나, 켄이치, 하치, Tactics, 미첼",
-      "신 한국어화 프로젝트 (베타)"
+      "신 한국어화 프로젝트 (베타)",
+      "한글화 제공: 누구야 총 검수: 루벤딕스 번역 제공: 푸르른물빛, 날라 번역: 루벤딕스, 푸르른물빛, 외지인, 링켄, 라하르 이미지: 나메보미 [테스터] 루벤딕스, 푸르른물빛, mavenX, choch22, 천령아, 익스, 류이, 로피카나, 켄이치, 하치, Tactics, 미첼"
     ]
   },
   {
@@ -6278,9 +6278,9 @@
   },
   {
     "app_id": "289130",
-    "game_title": "ENDLESS™ Legend",
+    "game_title": "ENDLESS Legend™",
     "steam_link": "https://store.steampowered.com/app/289130",
-    "source_site_url": "https://hanpe.net/app/l7zn6o/endlesstm-legend",
+    "source_site_url": "https://hanpe.net/app/l7zn6o/endless-legendtm",
     "patch_type": "user",
     "patch_links": [
       "13e1fa64",
@@ -6484,12 +6484,12 @@
     "source_site_url": "https://hanpe.net/app/jdz15v/get-even",
     "patch_type": "user",
     "patch_links": [
-      "0469401b",
-      "f8900697"
+      "f8900697",
+      "0469401b"
     ],
     "patch_descriptions": [
-      "ShakyAim 님 번역 (2/2)",
-      "ShakyAim 님 번역 (1/2)"
+      "ShakyAim 님 번역 (1/2)",
+      "ShakyAim 님 번역 (2/2)"
     ]
   },
   {
@@ -6568,12 +6568,12 @@
     "source_site_url": "https://hanpe.net/app/l2k7xq/sunless-sea",
     "patch_type": "user",
     "patch_links": [
-      "045f0d70",
-      "23cf3112"
+      "23cf3112",
+      "045f0d70"
     ],
     "patch_descriptions": [
-      "번역률 55.16% 작업 중단",
-      "최종판"
+      "최종판",
+      "번역률 55.16% 작업 중단"
     ]
   },
   {
@@ -6984,15 +6984,15 @@
     "patch_type": "user",
     "patch_links": [
       "b81ebec3",
-      "b038d363",
+      "cb3bda86",
       "59b0eaac",
-      "cb3bda86"
+      "b038d363"
     ],
     "patch_descriptions": [
       "제작: 클로제 [도움] 게임 폰트: 쩌새님 에피소드 1-3 패치: more님 에피소드 4-5 패치 원본: 플웨즈/루리웹 청광님의 번역팀",
-      "일기장 한국어화 패치 제작: 일게이 A, 일게이 B 원출처: 통베",
+      "코멘터리 파트 1 한국어화 패치 촉수금지 님 제작",
       "코멘터리 파트 1 한국어화 패치 두팡 님 제작",
-      "코멘터리 파트 1 한국어화 패치 촉수금지 님 제작"
+      "일기장 한국어화 패치 제작: 일게이 A, 일게이 B 원출처: 통베"
     ]
   },
   {
@@ -7015,14 +7015,14 @@
     "source_site_url": "https://hanpe.net/app/l7rrqp/we-happy-few",
     "patch_type": "user",
     "patch_links": [
-      "6010ac0f",
       "3aec187b",
-      "2fe32ef1"
+      "2fe32ef1",
+      "6010ac0f"
     ],
     "patch_descriptions": [
-      "제작자 : GGym_",
       "Tissues님 제작",
-      "백업용"
+      "백업용",
+      "제작자 : GGym_"
     ]
   },
   {
@@ -7045,12 +7045,12 @@
     "source_site_url": "https://hanpe.net/app/j80kw0/gurumin-a-monstrous-adventure",
     "patch_type": "user",
     "patch_links": [
-      "af95bead",
-      "eacb74d3"
+      "eacb74d3",
+      "af95bead"
     ],
     "patch_descriptions": [
-      "누구야님 제작 (일본어 음성)",
-      "누구야님 제작"
+      "누구야님 제작",
+      "누구야님 제작 (일본어 음성)"
     ]
   },
   {
@@ -7287,12 +7287,12 @@
     "source_site_url": "https://hanpe.net/app/lk73o8/tales-from-the-borderlands",
     "patch_type": "user",
     "patch_links": [
-      "4d4711ba",
-      "586dce5d"
+      "586dce5d",
+      "4d4711ba"
     ],
     "patch_descriptions": [
-      "구버전 전용 - 에피소드 1만 번",
-      "제작자 : Team AI-Hater"
+      "제작자 : Team AI-Hater",
+      "구버전 전용 - 에피소드 1만 번"
     ]
   },
   {
@@ -8282,12 +8282,12 @@
     "source_site_url": "https://hanpe.net/app/lkzynr/lieat",
     "patch_type": "user",
     "patch_links": [
-      "b53c4724",
-      "4211c717"
+      "4211c717",
+      "b53c4724"
     ],
     "patch_descriptions": [
-      "윈도우 10 한국어화 패치 적용 방법",
-      "제작: △○□× 한글화: 시율 스팀 버전은 링크 댓글 설명 참고"
+      "제작: △○□× 한글화: 시율 스팀 버전은 링크 댓글 설명 참고",
+      "윈도우 10 한국어화 패치 적용 방법"
     ]
   },
   {
@@ -8754,9 +8754,9 @@
   },
   {
     "app_id": "392110",
-    "game_title": "ENDLESS™ Space 2",
+    "game_title": "ENDLESS Space™ 2",
     "steam_link": "https://store.steampowered.com/app/392110",
-    "source_site_url": "https://hanpe.net/app/j00q8x/endlesstm-space-2",
+    "source_site_url": "https://hanpe.net/app/j00q8x/endless-spacetm-2",
     "patch_type": "official",
     "patch_links": [
       "aed18466"
@@ -9400,7 +9400,7 @@
       "1870b8b7"
     ],
     "patch_descriptions": [
-      "한글 패치 제작: 바람 번역단 - LSW // 검수 도움: Kim SangYoon // 번역, 검수, 이미지 작업: LSW"
+      "한글 패치 제작: 바람 번역단 - LSW // 번역, 검수, 이미지 작업: LSW // 검수 도움: Kim SangYoon"
     ]
   },
   {
@@ -9691,13 +9691,13 @@
     "source_site_url": "https://hanpe.net/app/lzpo57/memento",
     "patch_type": "user",
     "patch_links": [
+      "83913976",
       "fda2d730",
-      "56a260a0",
-      "83913976"
+      "56a260a0"
     ],
     "patch_descriptions": [
-      "제작자: Monel, 피재(Plasadica)",
       "제작자 : 정보없음",
+      "제작자: Monel, 피재(Plasadica)",
       "제작자 : 정보없음"
     ]
   },
@@ -9894,12 +9894,12 @@
     "source_site_url": "https://hanpe.net/app/l22g1q/overcooked",
     "patch_type": "user",
     "patch_links": [
-      "a6f01d41",
-      "5630c869"
+      "5630c869",
+      "a6f01d41"
     ],
     "patch_descriptions": [
-      "Fluffy님 제작",
-      "LSW님 제작"
+      "LSW님 제작",
+      "Fluffy님 제작"
     ]
   },
   {
@@ -12049,13 +12049,13 @@
     "patch_type": "official",
     "patch_links": [
       "a0a9e5dd",
-      "b85e7e98",
-      "994e0500"
+      "994e0500",
+      "b85e7e98"
     ],
     "patch_descriptions": [
       "한국어 개선 모드 제작자 : Screamingrock , St.DoctorCowbell",
-      "한국어 개선 패치 (Snori 님 제작)",
-      "제작자 : jinwook0817"
+      "제작자 : jinwook0817",
+      "한국어 개선 패치 (Snori 님 제작)"
     ]
   },
   {
@@ -13155,16 +13155,16 @@
     "patch_type": "user",
     "patch_links": [
       "776edf96",
-      "38b79510",
-      "31527e77",
       "273a6190",
+      "31527e77",
+      "38b79510",
       "447a85e9"
     ],
     "patch_descriptions": [
       "제작자 : 뮤갤러",
-      "제작자 : 뉴비분쇄기",
-      "폰트 개선 패치",
       "제작자 : 마린돌프",
+      "폰트 개선 패치",
+      "제작자 : 뉴비분쇄기",
       "제작자 : Neptunium 고양이 이름 음역 패치"
     ]
   },
@@ -13272,12 +13272,12 @@
     "source_site_url": "https://hanpe.net/app/4q120d/scp-secret-laboratory",
     "patch_type": "user",
     "patch_links": [
-      "310f1350",
-      "66482592"
+      "66482592",
+      "310f1350"
     ],
     "patch_descriptions": [
-      "천상비 님 제작",
-      "비밀 실험실 제작"
+      "비밀 실험실 제작",
+      "천상비 님 제작"
     ]
   },
   {
@@ -13300,14 +13300,14 @@
     "source_site_url": "https://hanpe.net/app/4q97o9/neverwinter-nights-enhanced-edition",
     "patch_type": "user",
     "patch_links": [
-      "6dc43ab2",
       "0d76b110",
+      "6dc43ab2",
       "061c9eca",
       "646bc60d"
     ],
     "patch_descriptions": [
-      "제작자 : Nasher",
       "제작자 : ingleeman",
+      "제작자 : Nasher",
       "제작자 : 정보없음",
       "한글패치가 안 될 경우 참고용"
     ]
@@ -13639,10 +13639,12 @@
     "source_site_url": "https://hanpe.net/app/jwmmk7/%E6%9D%B1%E6%96%B9%E5%A4%A9%E7%A9%BA%E7%92%8B-hidden-star-in-four-seasons",
     "patch_type": "user",
     "patch_links": [
-      "4f772054"
+      "4f772054",
+      "f1cbfadf"
     ],
     "patch_descriptions": [
-      "1. thcrap 를 게임 폴더에 압축 해제 2. thcrap 실행 3. Find games in a specific folder 클릭 4. in the games' folder 클릭 5. 게임 실행파일 이름변경 -> (예 : th16 -> th16_1) 6. thcrap_loader -> th16 으로 변경 7. config 폴더 -> games.js 연 후 th16 실행 파일 경로 파일명 수정 (th16.exe->th16_1.exe) 8. 스팀 속성 -> 시작 옵션에 \"ko.js\" th16 추가"
+      "1. thcrap 를 게임 폴더에 압축 해제 2. thcrap 실행 3. Find games in a specific folder 클릭 4. in the games' folder 클릭 5. 게임 실행파일 이름변경 -> (예 : th16 -> th16_1) 6. thcrap_loader -> th16 으로 변경 7. config 폴더 -> games.js 연 후 th16 실행 파일 경로 파일명 수정 (th16.exe->th16_1.exe) 8. 스팀 속성 -> 시작 옵션에 \"ko.js\" th16 추가",
+      "제작자 : BeGem · CloudYx 리플레이 및 대화 스크립트 정보 제공 · 연어 매뉴얼 문서의 오타 제보"
     ]
   },
   {
@@ -13797,12 +13799,12 @@
     "source_site_url": "https://hanpe.net/app/411qpq/shantae-half-genie-hero-ultimate-edition",
     "patch_type": "user",
     "patch_links": [
-      "07dfb4d6",
-      "545cbc65"
+      "545cbc65",
+      "07dfb4d6"
     ],
     "patch_descriptions": [
-      "코스튬 + 잠옷 DLC 솔라리어스님 제작",
-      "한글 패치 제작: 프기니 번역: Fluffy, Bambab, 팀겐, 실크해트, 4아리수, roc 인게임 제보: 노베"
+      "한글 패치 제작: 프기니 번역: Fluffy, Bambab, 팀겐, 실크해트, 4아리수, roc 인게임 제보: 노베",
+      "코스튬 + 잠옷 DLC 솔라리어스님 제작"
     ]
   },
   {
@@ -14390,6 +14392,19 @@
     ]
   },
   {
+    "app_id": "847370",
+    "game_title": "Sunset Overdrive",
+    "steam_link": "https://store.steampowered.com/app/847370",
+    "source_site_url": "https://hanpe.net/app/j92w6r/sunset-overdrive",
+    "patch_type": "user",
+    "patch_links": [
+      "d28ae4fa"
+    ],
+    "patch_descriptions": [
+      "제작자 : 으잌"
+    ]
+  },
+  {
     "app_id": "848350",
     "game_title": "Katamari Damacy REROLL",
     "steam_link": "https://store.steampowered.com/app/848350",
@@ -14588,12 +14603,12 @@
     "source_site_url": "https://hanpe.net/app/jm6139/the-walking-dead-the-final-season",
     "patch_type": "user",
     "patch_links": [
-      "5bcd678c",
-      "9fc75646"
+      "9fc75646",
+      "5bcd678c"
     ],
     "patch_descriptions": [
-      "에피소드 1~4 제작: 팀 프리스타일 팀장: AlphaCeph 부팀장: 티라미슈우웅, RIMNBERDÙIS06 주관: KKimRoma 번역: 마셜, Edwin_KRD, KKimRoma, Itinerator QA: 마셜, 아킨토스, Edwin_KRD, KKimRoma 이미지: 아킨토스, Edwin_KRD 기술: 아킨토스 게임 제공: 아킨토스",
-      "제작자 : 정보없음"
+      "제작자 : 정보없음",
+      "에피소드 1~4 제작: 팀 프리스타일 팀장: AlphaCeph 부팀장: 티라미슈우웅, RIMNBERDÙIS06 주관: KKimRoma 번역: 마셜, Edwin_KRD, KKimRoma, Itinerator QA: 마셜, 아킨토스, Edwin_KRD, KKimRoma 이미지: 아킨토스, Edwin_KRD 기술: 아킨토스 게임 제공: 아킨토스"
     ]
   },
   {
@@ -17166,12 +17181,12 @@
     "source_site_url": "https://hanpe.net/app/lkep70/%ED%86%A0%ED%83%88%EC%9B%8C-%EC%9B%8C%ED%95%B4%EB%A8%B8-3",
     "patch_type": "official",
     "patch_links": [
-      "bc8d5027",
-      "f5f85933"
+      "f5f85933",
+      "bc8d5027"
     ],
     "patch_descriptions": [
-      "음차 번역 모드 제작자 : Redeemer",
-      "한국어 개선 모드 제작자 : St.DoctorCowbell"
+      "한국어 개선 모드 제작자 : St.DoctorCowbell",
+      "음차 번역 모드 제작자 : Redeemer"
     ]
   },
   {
@@ -17720,12 +17735,12 @@
     "source_site_url": "https://hanpe.net/app/j0g821/pathfinder-wrath-of-the-righteous-enhanced-edition",
     "patch_type": "user",
     "patch_links": [
-      "72e73555",
-      "b114d4ae"
+      "b114d4ae",
+      "72e73555"
     ],
     "patch_descriptions": [
-      "제작자 : 외계인 Pathfinder: Wrath of the Righteous의 DLC: A Dance of Masks, Visitors from Morta 번역",
-      "제작자 : 아킨토스"
+      "제작자 : 아킨토스",
+      "제작자 : 외계인 Pathfinder: Wrath of the Righteous의 DLC: A Dance of Masks, Visitors from Morta 번역"
     ]
   },
   {
@@ -18230,12 +18245,12 @@
     "source_site_url": "https://hanpe.net/app/lzdy57/%EB%8D%B0%EB%93%9C-%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4-3",
     "patch_type": "user",
     "patch_links": [
-      "4d210ef5",
-      "a917c7c2"
+      "a917c7c2",
+      "4d210ef5"
     ],
     "patch_descriptions": [
-      "제작: 루넨스님 폰트 변경 및 가독성 패치 v3",
-      "제작자 : 정보없음"
+      "제작자 : 정보없음",
+      "제작: 루넨스님 폰트 변경 및 가독성 패치 v3"
     ]
   },
   {
@@ -18245,12 +18260,12 @@
     "source_site_url": "https://hanpe.net/app/4q39x9/battlefieldtm-1",
     "patch_type": "user",
     "patch_links": [
-      "00d9a32a",
-      "5b38748f"
+      "5b38748f",
+      "00d9a32a"
     ],
     "patch_descriptions": [
-      "몽키해드님 제작 (MORT 이용: 한글 DB)",
-      "미완성판"
+      "미완성판",
+      "몽키해드님 제작 (MORT 이용: 한글 DB)"
     ]
   },
   {
@@ -18345,6 +18360,19 @@
     ]
   },
   {
+    "app_id": "1260810",
+    "game_title": "东方华彩乱战2 ~ Touhou Blooming Chaos 2",
+    "steam_link": "https://store.steampowered.com/app/1260810",
+    "source_site_url": "https://hanpe.net/app/4omz7x/%E4%B8%9C%E6%96%B9%E5%8D%8E%E5%BD%A9%E4%B9%B1%E6%88%982-touhou-blooming-chaos-2",
+    "patch_type": "user",
+    "patch_links": [
+      "02b7f834"
+    ],
+    "patch_descriptions": [
+      "제작자 : 장석"
+    ]
+  },
+  {
     "app_id": "1263230",
     "game_title": "쿠킹 컴패니언「Cooking Companions」",
     "steam_link": "https://store.steampowered.com/app/1263230",
@@ -18390,12 +18418,12 @@
     "source_site_url": "https://hanpe.net/app/lxxm97/%E8%BF%B7%E5%A4%B1%E5%B9%BB%E9%80%94-lost-in-fantaland",
     "patch_type": "user",
     "patch_links": [
-      "7a36e479",
-      "9ec2ed39"
+      "9ec2ed39",
+      "7a36e479"
     ],
     "patch_descriptions": [
-      "제작자 : 우육친구",
-      "제작자 : 천지회"
+      "제작자 : 천지회",
+      "제작자 : 우육친구"
     ]
   },
   {
@@ -18566,6 +18594,19 @@
     "patch_type": "user",
     "patch_links": [
       "4a3c2240"
+    ],
+    "patch_descriptions": [
+      "제작자 : 정보없음"
+    ]
+  },
+  {
+    "app_id": "1281270",
+    "game_title": "Fatum Betula",
+    "steam_link": "https://store.steampowered.com/app/1281270",
+    "source_site_url": "https://hanpe.net/app/j9doeq/fatum-betula",
+    "patch_type": "user",
+    "patch_links": [
+      "27ba2609"
     ],
     "patch_descriptions": [
       "제작자 : 정보없음"
@@ -18842,12 +18883,12 @@
     "source_site_url": "https://hanpe.net/app/l7r27o/toem-a-photo-adventure",
     "patch_type": "official",
     "patch_links": [
-      "a3314548",
-      "b1c0c124"
+      "b1c0c124",
+      "a3314548"
     ],
     "patch_descriptions": [
-      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다)",
-      "백업용"
+      "백업용",
+      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다)"
     ]
   },
   {
@@ -19184,12 +19225,12 @@
     "source_site_url": "https://hanpe.net/app/lk1y30/the-citadel",
     "patch_type": "user",
     "patch_links": [
-      "7c0051d0",
-      "729f22f6"
+      "729f22f6",
+      "7c0051d0"
     ],
     "patch_descriptions": [
-      "제작자 : Pixel4a",
-      "제작자 : 으잌"
+      "제작자 : 으잌",
+      "제작자 : Pixel4a"
     ]
   },
   {
@@ -19439,12 +19480,12 @@
     "source_site_url": "https://hanpe.net/app/lzd0rp/psych",
     "patch_type": "user",
     "patch_links": [
-      "45ffb9d3",
-      "d7df340c"
+      "d7df340c",
+      "45ffb9d3"
     ],
     "patch_descriptions": [
-      "패치 제작 번역: 주먹왕바이 이미지 수정: 거대토깽 기술 지원: 이솝 검수: 주먹왕바이/거대토깽",
-      "백업용"
+      "백업용",
+      "패치 제작 번역: 주먹왕바이 이미지 수정: 거대토깽 기술 지원: 이솝 검수: 주먹왕바이/거대토깽"
     ]
   },
   {
@@ -19995,12 +20036,12 @@
     "source_site_url": "https://hanpe.net/app/lz8931/carrier-command-2",
     "patch_type": "user",
     "patch_links": [
-      "aeedd1e9",
-      "ea14a29f"
+      "ea14a29f",
+      "aeedd1e9"
     ],
     "patch_descriptions": [
-      "제작자 : 트룸",
-      "제작자 : Harbinger"
+      "제작자 : Harbinger",
+      "제작자 : 트룸"
     ]
   },
   {
@@ -20211,6 +20252,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 정보없음"
+    ]
+  },
+  {
+    "app_id": "1519630",
+    "game_title": "失楽園カルタ",
+    "steam_link": "https://store.steampowered.com/app/1519630",
+    "source_site_url": "https://hanpe.net/app/jnmwwr/%E5%A4%B1%E6%A5%BD%E5%9C%92%E3%82%AB%E3%83%AB%E3%82%BF",
+    "patch_type": "user",
+    "patch_links": [
+      "13e12535"
+    ],
+    "patch_descriptions": [
+      "제작자 : 에스티"
     ]
   },
   {
@@ -20467,12 +20521,12 @@
     "source_site_url": "https://hanpe.net/app/4qz6nd/%E5%A4%A9%E5%91%BD%E5%A5%87%E5%BE%A1%E4%BA%8C-fate-seeker-ii",
     "patch_type": "user",
     "patch_links": [
-      "5df4219e",
-      "8662c1f3"
+      "8662c1f3",
+      "5df4219e"
     ],
     "patch_descriptions": [
-      "또는 게시글에서 [한글패치] 천명기어2 를 찾으면 됩니다",
-      "제작자 : 천지회"
+      "제작자 : 천지회",
+      "또는 게시글에서 [한글패치] 천명기어2 를 찾으면 됩니다"
     ]
   },
   {
@@ -21358,12 +21412,12 @@
     "source_site_url": "https://hanpe.net/app/4rvd2y/the-case-of-the-golden-idol",
     "patch_type": "official",
     "patch_links": [
-      "c1980193",
-      "5f781896"
+      "5f781896",
+      "c1980193"
     ],
     "patch_descriptions": [
-      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다)",
-      "백업용"
+      "백업용",
+      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다)"
     ]
   },
   {
@@ -21637,12 +21691,12 @@
     "source_site_url": "https://hanpe.net/app/lxm907/crysis-remastered",
     "patch_type": "user",
     "patch_links": [
-      "e823a68c",
-      "25e46868"
+      "25e46868",
+      "e823a68c"
     ],
     "patch_descriptions": [
-      "(기존 한긇패치) 1. Game\\Localized 폴더에 파일을 넣어야 함 2. 언어를 일본어로 선택 3. 설정에서 자막 활성화",
-      "기존 한글패치 버그 수정 버전"
+      "기존 한글패치 버그 수정 버전",
+      "(기존 한긇패치) 1. Game\\Localized 폴더에 파일을 넣어야 함 2. 언어를 일본어로 선택 3. 설정에서 자막 활성화"
     ]
   },
   {
@@ -21762,12 +21816,12 @@
     "source_site_url": "https://hanpe.net/app/jmxqdd/the-entropy-centre",
     "patch_type": "user",
     "patch_links": [
-      "a8144c0f",
-      "21b9b763"
+      "21b9b763",
+      "a8144c0f"
     ],
     "patch_descriptions": [
-      "제작 : 역물음표 검수 : Kanarias 기술 지원 : 우민 Special Thanks : 아킨토스, 토루",
-      "백업용"
+      "백업용",
+      "제작 : 역물음표 검수 : Kanarias 기술 지원 : 우민 Special Thanks : 아킨토스, 토루"
     ]
   },
   {
@@ -22177,12 +22231,12 @@
     "source_site_url": "https://hanpe.net/app/j935o6/rockman-exe-advanced-collection-vol2",
     "patch_type": "user",
     "patch_links": [
-      "5f01c816",
-      "9ac2e7fb"
+      "9ac2e7fb",
+      "5f01c816"
     ],
     "patch_descriptions": [
-      "록맨 에그제 4 토너먼트 레드 선/블루 문 한글화 제작자 : 티브",
-      "록맨 에그제 5 팀 오브 블루스/커넬 한글화 제작자 : 티브"
+      "록맨 에그제 5 팀 오브 블루스/커넬 한글화 제작자 : 티브",
+      "록맨 에그제 4 토너먼트 레드 선/블루 문 한글화 제작자 : 티브"
     ]
   },
   {
@@ -22488,12 +22542,12 @@
     "source_site_url": "https://hanpe.net/app/4er2qz/terminator-dark-fate-defiance",
     "patch_type": "user",
     "patch_links": [
-      "dd668a26",
-      "a105920d"
+      "a105920d",
+      "dd668a26"
     ],
     "patch_descriptions": [
-      "제작자 : Harbinger",
-      "제작자 : Harbinger 또는 이 페이지에서 패치 다운로드"
+      "제작자 : Harbinger 또는 이 페이지에서 패치 다운로드",
+      "제작자 : Harbinger"
     ]
   },
   {
@@ -23284,12 +23338,12 @@
     "source_site_url": "https://hanpe.net/app/jpp0nn/road-to-vostok",
     "patch_type": "user",
     "patch_links": [
-      "71c7636c",
-      "58827ef7"
+      "58827ef7",
+      "71c7636c"
     ],
     "patch_descriptions": [
-      "제작자 : Alphaca",
-      "제작자 : MuteJack"
+      "제작자 : MuteJack",
+      "제작자 : Alphaca"
     ]
   },
   {
@@ -24919,14 +24973,14 @@
     "source_site_url": "https://hanpe.net/app/lk0g99/blazblue-entropy-effect",
     "patch_type": "official",
     "patch_links": [
-      "2d266146",
       "39e74b1c",
-      "031531e7"
+      "031531e7",
+      "2d266146"
     ],
     "patch_descriptions": [
-      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 번역기를 이용한 한글화",
       "적용 방법",
-      "제작자:김미녹"
+      "제작자:김미녹",
+      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 번역기를 이용한 한글화"
     ]
   },
   {
@@ -24936,12 +24990,12 @@
     "source_site_url": "https://hanpe.net/app/lzd7e7/the-voidness-lidar-horror-survival-game",
     "patch_type": "user",
     "patch_links": [
-      "667ac707",
-      "ec516b4c"
+      "ec516b4c",
+      "667ac707"
     ],
     "patch_descriptions": [
-      "백업용",
-      "제작자 : 거대토깽"
+      "제작자 : 거대토깽",
+      "백업용"
     ]
   },
   {
@@ -25096,12 +25150,12 @@
     "source_site_url": "https://hanpe.net/app/4196ed/homicipher",
     "patch_type": "user",
     "patch_links": [
-      "07e59936",
-      "dae38558"
+      "dae38558",
+      "07e59936"
     ],
     "patch_descriptions": [
-      "제작자 : 듀콩",
-      "제작자 : 흑끼"
+      "제작자 : 흑끼",
+      "제작자 : 듀콩"
     ]
   },
   {
@@ -26350,6 +26404,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 으잌"
+    ]
+  },
+  {
+    "app_id": "2535950",
+    "game_title": "Battlestar Galactica: Scattered Hopes",
+    "steam_link": "https://store.steampowered.com/app/2535950",
+    "source_site_url": "https://hanpe.net/app/lk3790/battlestar-galactica-scattered-hopes",
+    "patch_type": "user",
+    "patch_links": [
+      "3eabd1f7"
+    ],
+    "patch_descriptions": [
+      "제작자 : 정보없음"
     ]
   },
   {
@@ -28274,12 +28341,12 @@
     "source_site_url": "https://hanpe.net/app/46gmyn/terroro",
     "patch_type": "user",
     "patch_links": [
-      "9f4985e1",
-      "c1acf073"
+      "c1acf073",
+      "9f4985e1"
     ],
     "patch_descriptions": [
-      "제작자 : 막셋",
-      "제작자 : 으잌"
+      "제작자 : 으잌",
+      "제작자 : 막셋"
     ]
   },
   {
@@ -29145,15 +29212,15 @@
     "source_site_url": "https://hanpe.net/app/l28612/%E3%81%A7%E3%81%B3%E3%82%8B%E3%82%B3%E3%83%8D%E3%82%AF%E3%82%B7%E3%83%A7%E3%82%93",
     "patch_type": "user",
     "patch_links": [
+      "32eed9c0",
       "fed4c6cd",
       "c5655d9e",
-      "32eed9c0",
       "f1081ad6"
     ],
     "patch_descriptions": [
+      "총괄: Ewan",
       "텍스트 및 폰트 적용: Oatone (팀 글냥이) 패치 프로그램 제작: Nyabi 본문 텍스트 번역: 체퓨 (팀 글냥이) 이미지 번역: 토니, 체퓨 (팀 글냥이) 영상 번역: 민버드",
       "총괄: Nyabi",
-      "총괄: Ewan",
       "데모판 한글화 번역 - 점박냥이, 이칠공, Gemini AI 도움 주신 분 - 프시"
     ]
   },
@@ -29603,6 +29670,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 레이슈"
+    ]
+  },
+  {
+    "app_id": "3113990",
+    "game_title": "Futamata Ren'ai: Two Times the Trouble",
+    "steam_link": "https://store.steampowered.com/app/3113990",
+    "source_site_url": "https://hanpe.net/app/4ekngv/futamata-renai-two-times-the-trouble",
+    "patch_type": "user",
+    "patch_links": [
+      "c8b5689e"
+    ],
+    "patch_descriptions": [
+      "제작자 : 정보없음"
     ]
   },
   {
@@ -30724,12 +30804,12 @@
     "source_site_url": "https://hanpe.net/app/4eqpz1/beyond-citadel",
     "patch_type": "user",
     "patch_links": [
-      "fd9d3682",
-      "2d870af1"
+      "2d870af1",
+      "fd9d3682"
     ],
     "patch_descriptions": [
-      "제작자 : Pixel4a",
-      "제작자 : 으잌"
+      "제작자 : 으잌",
+      "제작자 : Pixel4a"
     ]
   },
   {
@@ -30784,12 +30864,12 @@
     "source_site_url": "https://hanpe.net/app/4rq9d7/the-house-of-the-dead-2-remake",
     "patch_type": "user",
     "patch_links": [
-      "c14b10bb",
-      "84e503b6"
+      "84e503b6",
+      "c14b10bb"
     ],
     "patch_descriptions": [
-      "번역, 검수 및 패치작업 : 플스대마왕",
-      "제작자 : 루네사 3세 데모판 한글화"
+      "제작자 : 루네사 3세 데모판 한글화",
+      "번역, 검수 및 패치작업 : 플스대마왕"
     ]
   },
   {
@@ -31188,6 +31268,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 젠갤러 ## Special Thanks 작업에 결정적인 도움을 주신 안드레아님 (꽃뱀시뮬레이터 한패 제작자) 한글폰트를 만들어 주신 Snowyegret 님"
+    ]
+  },
+  {
+    "app_id": "3462190",
+    "game_title": "PHASE ZERO",
+    "steam_link": "https://store.steampowered.com/app/3462190",
+    "source_site_url": "https://hanpe.net/app/4g0gwy/phase-zero",
+    "patch_type": "user",
+    "patch_links": [
+      "3c23771e"
+    ],
+    "patch_descriptions": [
+      "데모판 한글화"
     ]
   },
   {
@@ -31701,7 +31794,7 @@
     "source_site_url": "https://hanpe.net/app/j0mqz7/%E6%9D%B1%E6%96%B9%E9%8C%A6%E4%B8%8A%E4%BA%AC-fossilized-wonders",
     "patch_type": "user",
     "patch_links": [
-      "7eb95ce2"
+      "d08c9c4f"
     ],
     "patch_descriptions": [
       "제작자 : 𝕭𝖊𝕲𝖊𝖒"
@@ -31926,6 +32019,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 막셋"
+    ]
+  },
+  {
+    "app_id": "3784760",
+    "game_title": "Elfie: A Sand Plan",
+    "steam_link": "https://store.steampowered.com/app/3784760",
+    "source_site_url": "https://hanpe.net/app/j0e61x/elfie-a-sand-plan",
+    "patch_type": "user",
+    "patch_links": [
+      "74853058"
+    ],
+    "patch_descriptions": [
+      "제작자 : 으잌"
     ]
   },
   {
@@ -32708,12 +32814,12 @@
     "source_site_url": "https://hanpe.net/app/4y6v0e/%E3%82%AE%E3%83%AB%E3%83%89%E6%8E%A2%E6%B1%82%E5%9B%A3%E3%81%B8%E3%82%88%E3%81%86%E3%81%93%E3%81%9D",
     "patch_type": "user",
     "patch_links": [
-      "862a871d",
-      "6a2f0f72"
+      "6a2f0f72",
+      "862a871d"
     ],
     "patch_descriptions": [
-      "제작자 : Pixel4a",
-      "참여 인원: Oatone, Nark, 체퓨"
+      "참여 인원: Oatone, Nark, 체퓨",
+      "제작자 : Pixel4a"
     ]
   },
   {
