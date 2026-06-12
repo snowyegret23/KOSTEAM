@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-10T21:42:17.277Z",
-    "total_with_steam_link": 3316,
+    "generated_at": "2026-06-12T21:35:25.647Z",
+    "total_with_steam_link": 3319,
     "total_without_steam_link": 8,
     "sources": [
       "steamapp",
@@ -12,27 +12,6 @@
     ]
   },
   "games": [
-    {
-      "app_id": "4576490",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/4576490/Casualties_Unknown/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - 카와레인"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/4576490/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
     {
       "app_id": "3939100",
       "game_title": "",
@@ -91,27 +70,6 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/4488860/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "3430340",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/3430340/Dice_A_Million/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - uNa"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/3430340/?curator_clanid=30894603"
       },
       "sources": [
         "quasarplay"
@@ -874,27 +832,6 @@
       ]
     },
     {
-      "app_id": "3892270",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/3892270/Gamble_With_Your_Friends/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - Nark, Oatone\n한글 패치 - chpch"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/3892270/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
       "app_id": "4258330",
       "game_title": "",
       "steam_link": "https://store.steampowered.com/app/4258330/CALLUS/",
@@ -1036,27 +973,6 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/4079340/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "2544110",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/2544110/Broken_Sword__Shadow_of_the_Templars_Reforged/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "유저 한글 패치 - 에디"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/2544110/?curator_clanid=30894603"
       },
       "sources": [
         "quasarplay"
@@ -19837,6 +19753,27 @@
       ]
     },
     {
+      "app_id": "1970580",
+      "game_title": "Backpack Hero",
+      "steam_link": "https://store.steampowered.com/app/1970580",
+      "patch_type": "user",
+      "patch_links": [
+        "4de0f548"
+      ],
+      "patch_descriptions": [
+        "제작자 : enddl3788"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j0qd12/backpack-hero"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "538070",
       "game_title": "Bad Dream: Coma",
       "steam_link": "https://store.steampowered.com/app/538070",
@@ -22775,6 +22712,32 @@
       ]
     },
     {
+      "app_id": "2544110",
+      "game_title": "Broken Sword - Shadow of the Templars: Reforged",
+      "steam_link": "https://store.steampowered.com/app/2544110",
+      "patch_type": "user",
+      "patch_links": [
+        "4b07a4ef",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 에디",
+        "유저 한글 패치 - 에디"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j02506/broken-sword-shadow-of-the-templars-reforged",
+        "quasarplay": "https://store.steampowered.com/app/2544110/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "1092430",
       "game_title": "Budget Cuts 2: Mission Insolvency",
       "steam_link": "https://store.steampowered.com/app/1092430",
@@ -23846,6 +23809,32 @@
       ]
     },
     {
+      "app_id": "4576490",
+      "game_title": "Casualties: Unknown",
+      "steam_link": "https://store.steampowered.com/app/4576490",
+      "patch_type": "user",
+      "patch_links": [
+        "7562a1a9",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : moots 데모판 한글화",
+        "한글 패치 - 카와레인"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j8pe6r/casualties-unknown",
+        "quasarplay": "https://store.steampowered.com/app/4576490/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "1810670",
       "game_title": "Cat Detective Albert Wilde",
       "steam_link": "https://store.steampowered.com/app/1810670",
@@ -23961,7 +23950,7 @@
       ],
       "patch_descriptions": [
         "총괄: 미리칸 폰트: 우캉 그래픽: 베타베타 번역: 미리칸, Charminig, 레몬뱀, 새장속새, MarvintheCreator, InStunt",
-        "유저 한국어 패치 - Team.SM"
+        "한글 패치 - temp"
       ],
       "patch_sources": [
         "steamapp",
@@ -28169,6 +28158,32 @@
       },
       "sources": [
         "steamapp"
+      ]
+    },
+    {
+      "app_id": "3430340",
+      "game_title": "Dice A Million",
+      "steam_link": "https://store.steampowered.com/app/3430340",
+      "patch_type": "user",
+      "patch_links": [
+        "0d5dd23c",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "공식 한글 개선 패치 제작자 : uNa",
+        "한글 패치 - uNa"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4ewk5z/dice-a-million",
+        "quasarplay": "https://store.steampowered.com/app/3430340/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
       ]
     },
     {
@@ -33749,6 +33764,27 @@
       ]
     },
     {
+      "app_id": "4532150",
+      "game_title": "G-MODEアーカイブス+ ゼノサーガ パイドパイパー",
+      "steam_link": "https://store.steampowered.com/app/4532150",
+      "patch_type": "user",
+      "patch_links": [
+        "4f9f2e98"
+      ],
+      "patch_descriptions": [
+        "제작자 : 기그그그"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j07ydx/g-mode%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%E3%82%B9-%E3%82%BC%E3%83%8E%E3%82%B5%E3%83%BC%E3%82%AC-%E3%83%91%E3%82%A4%E3%83%89%E3%83%91%E3%82%A4%E3%83%91%E3%83%BC"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "2850150",
       "game_title": "G-MODEアーカイブス+ ペルソナ3 アイギス THE FIRST MISSION",
       "steam_link": "https://store.steampowered.com/app/2850150",
@@ -33862,6 +33898,32 @@
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/jmnoxn/galaxy-princess-zorana",
         "quasarplay": "https://store.steampowered.com/app/3069630/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "3892270",
+      "game_title": "Gamble With Your Friends",
+      "steam_link": "https://store.steampowered.com/app/3892270",
+      "patch_type": "user",
+      "patch_links": [
+        "61e5fb89",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 여까",
+        "한글 패치 - Nark, Oatone\n한글 패치 - chpch"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jpzopk/gamble-with-your-friends",
+        "quasarplay": "https://store.steampowered.com/app/3892270/?curator_clanid=30894603"
       },
       "sources": [
         "steamapp",
@@ -34486,13 +34548,16 @@
       "patch_type": "user",
       "patch_links": [
         "f7d9e95d",
+        "1a724b70",
         "exist"
       ],
       "patch_descriptions": [
         "제작자 : 카이리",
+        "제작자 : enddl3788 예전 한글패치 (아카이빙 용)",
         "유저 한글 패치 - 카이리"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "quasarplay"
       ],
@@ -37116,6 +37181,27 @@
       ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/jw05q7/holocure-save-the-fans"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "3856280",
+      "game_title": "holoVillage: Our Cozy Days",
+      "steam_link": "https://store.steampowered.com/app/3856280",
+      "patch_type": "user",
+      "patch_links": [
+        "09163300"
+      ],
+      "patch_descriptions": [
+        "제작자 : 방송열심히하는만큼쭈쭈짱커지는중"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/lkd6x2/holovillage-our-cozy-days"
       },
       "sources": [
         "steamapp"
@@ -58733,13 +58819,16 @@
       "patch_type": "user",
       "patch_links": [
         "a4fa5ffb",
+        "53098449",
         "exist"
       ],
       "patch_descriptions": [
         "제작자 : Nasher TTS를 이용한 음성 한글화",
+        "제작자 : Nasher 자막 한글화 패치 (TTS 대신 이걸 받아주세요)",
         "유저 한글 패치 - Nasher"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "quasarplay"
       ],

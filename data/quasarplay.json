@@ -3,8 +3,17 @@
   "curator_name": "Curator #42788178",
   "curator_url": "https://store.steampowered.com/curator/42788178/",
   "total_games": 1832,
-  "exported_at": "2026-06-10T21:41:45.810121",
+  "exported_at": "2026-06-12T21:34:49.097383",
   "games": [
+    {
+      "appid": "200900",
+      "url": "https://store.steampowered.com/app/200900/Cave_Story/",
+      "curator_url": "https://store.steampowered.com/app/200900/?curator_clanid=42788178",
+      "review": "한글 패치 - temp",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
     {
       "appid": "1486920",
       "url": "https://store.steampowered.com/app/1486920/Tempest_Rising/",
@@ -15796,15 +15805,6 @@
       "url": "https://store.steampowered.com/app/256290/Child_of_Light/",
       "curator_url": "https://store.steampowered.com/app/256290/?curator_clanid=42788178",
       "review": "유저 한국어 패치 - 폰트/패치 제작 ~ 프기니 님,\n1차 번역 ~ 미정 님, 시언 님,\n1차,2차 검수 ~ 미리칸 님, 엑세스 님,\nDLC 번역 ~ 미리칸 님​",
-      "review_has_url": true,
-      "review_url_count": 1,
-      "type": "recommended"
-    },
-    {
-      "appid": "200900",
-      "url": "https://store.steampowered.com/app/200900/Cave_Story/",
-      "curator_url": "https://store.steampowered.com/app/200900/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 - Team.SM",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"

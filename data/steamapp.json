@@ -1495,10 +1495,12 @@
     "source_site_url": "https://hanpe.net/app/jvq9k7/star-warstm-knights-of-the-old-republictm",
     "patch_type": "user",
     "patch_links": [
-      "a4fa5ffb"
+      "a4fa5ffb",
+      "53098449"
     ],
     "patch_descriptions": [
-      "제작자 : Nasher TTS를 이용한 음성 한글화"
+      "제작자 : Nasher TTS를 이용한 음성 한글화",
+      "제작자 : Nasher 자막 한글화 패치 (TTS 대신 이걸 받아주세요)"
     ]
   },
   {
@@ -9922,10 +9924,12 @@
     "source_site_url": "https://hanpe.net/app/l7ng60/gold-mining-simulator",
     "patch_type": "user",
     "patch_links": [
-      "f7d9e95d"
+      "f7d9e95d",
+      "1a724b70"
     ],
     "patch_descriptions": [
-      "제작자 : 카이리"
+      "제작자 : 카이리",
+      "제작자 : enddl3788 예전 한글패치 (아카이빙 용)"
     ]
   },
   {
@@ -23384,6 +23388,19 @@
     ]
   },
   {
+    "app_id": "1970580",
+    "game_title": "Backpack Hero",
+    "steam_link": "https://store.steampowered.com/app/1970580",
+    "source_site_url": "https://hanpe.net/app/j0qd12/backpack-hero",
+    "patch_type": "user",
+    "patch_links": [
+      "4de0f548"
+    ],
+    "patch_descriptions": [
+      "제작자 : enddl3788"
+    ]
+  },
+  {
     "app_id": "1975180",
     "game_title": "The Night of the Scissors",
     "steam_link": "https://store.steampowered.com/app/1975180",
@@ -26430,6 +26447,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 한패모"
+    ]
+  },
+  {
+    "app_id": "2544110",
+    "game_title": "Broken Sword - Shadow of the Templars: Reforged",
+    "steam_link": "https://store.steampowered.com/app/2544110",
+    "source_site_url": "https://hanpe.net/app/j02506/broken-sword-shadow-of-the-templars-reforged",
+    "patch_type": "user",
+    "patch_links": [
+      "4b07a4ef"
+    ],
+    "patch_descriptions": [
+      "제작자 : 에디"
     ]
   },
   {
@@ -31124,6 +31154,19 @@
     ]
   },
   {
+    "app_id": "3430340",
+    "game_title": "Dice A Million",
+    "steam_link": "https://store.steampowered.com/app/3430340",
+    "source_site_url": "https://hanpe.net/app/4ewk5z/dice-a-million",
+    "patch_type": "user",
+    "patch_links": [
+      "0d5dd23c"
+    ],
+    "patch_descriptions": [
+      "공식 한글 개선 패치 제작자 : uNa"
+    ]
+  },
+  {
     "app_id": "3433810",
     "game_title": "咸鱼殿下 / My journey",
     "steam_link": "https://store.steampowered.com/app/3433810",
@@ -32271,6 +32314,19 @@
     ]
   },
   {
+    "app_id": "3856280",
+    "game_title": "holoVillage: Our Cozy Days",
+    "steam_link": "https://store.steampowered.com/app/3856280",
+    "source_site_url": "https://hanpe.net/app/lkd6x2/holovillage-our-cozy-days",
+    "patch_type": "user",
+    "patch_links": [
+      "09163300"
+    ],
+    "patch_descriptions": [
+      "제작자 : 방송열심히하는만큼쭈쭈짱커지는중"
+    ]
+  },
+  {
     "app_id": "3864530",
     "game_title": "炽澜号",
     "steam_link": "https://store.steampowered.com/app/3864530",
@@ -32333,6 +32389,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 까칠한 그냥"
+    ]
+  },
+  {
+    "app_id": "3892270",
+    "game_title": "Gamble With Your Friends",
+    "steam_link": "https://store.steampowered.com/app/3892270",
+    "source_site_url": "https://hanpe.net/app/jpzopk/gamble-with-your-friends",
+    "patch_type": "user",
+    "patch_links": [
+      "61e5fb89"
+    ],
+    "patch_descriptions": [
+      "제작자 : 여까"
     ]
   },
   {
@@ -32907,6 +32976,32 @@
     ],
     "patch_descriptions": [
       "제작자 : 으잌"
+    ]
+  },
+  {
+    "app_id": "4532150",
+    "game_title": "G-MODEアーカイブス+ ゼノサーガ パイドパイパー",
+    "steam_link": "https://store.steampowered.com/app/4532150",
+    "source_site_url": "https://hanpe.net/app/j07ydx/g-mode%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%E3%82%B9-%E3%82%BC%E3%83%8E%E3%82%B5%E3%83%BC%E3%82%AC-%E3%83%91%E3%82%A4%E3%83%89%E3%83%91%E3%82%A4%E3%83%91%E3%83%BC",
+    "patch_type": "user",
+    "patch_links": [
+      "4f9f2e98"
+    ],
+    "patch_descriptions": [
+      "제작자 : 기그그그"
+    ]
+  },
+  {
+    "app_id": "4576490",
+    "game_title": "Casualties: Unknown",
+    "steam_link": "https://store.steampowered.com/app/4576490",
+    "source_site_url": "https://hanpe.net/app/j8pe6r/casualties-unknown",
+    "patch_type": "user",
+    "patch_links": [
+      "7562a1a9"
+    ],
+    "patch_descriptions": [
+      "제작자 : moots 데모판 한글화"
     ]
   }
 ]
