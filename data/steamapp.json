@@ -216,12 +216,12 @@
     "source_site_url": "https://hanpe.net/app/4rq1mr/kings-bounty-armored-princess",
     "patch_type": "user",
     "patch_links": [
-      "f55141b1",
-      "69756fd7"
+      "69756fd7",
+      "f55141b1"
     ],
     "patch_descriptions": [
-      "총 지휘: heemangkr, 에이테르 번역 및 재교정 총괄: 루나 번역 지휘: 루나, junghyelove 지도 파일 제작: 고갤러 @@. , 쉰찰리 [번역 참여] 카르님, ruluy 님, 마룬드 님, 바운티르 님, 날개언니 님, 다크마이애즈머 님, 케빈쌤 님, 젊은락커 님, 반달고옴 님여피 님, peopleyy 님, 냉면서생 님, 후니 님, 엔젤하트 님, 세한도 님, 쿠마상 님, 빛으로 님, 로켓단 님, lust4u 님, 아랑 님, 무료함 님, 준혁아빠 님, 뽕까지마 님, 후버 님, 프리맨 님, 모카부족 님, 미아 님, 담드이 님cineami 님, 브리카넬 님, 듀플러 님, Raysinzi 님, 브라운 님, zodinie 님, refuse76 님, 사랑해요 님, 이크에크님 kshsm님",
-      "제작자 : 정보없음"
+      "제작자 : 정보없음",
+      "총 지휘: heemangkr, 에이테르 번역 및 재교정 총괄: 루나 번역 지휘: 루나, junghyelove 지도 파일 제작: 고갤러 @@. , 쉰찰리 [번역 참여] 카르님, ruluy 님, 마룬드 님, 바운티르 님, 날개언니 님, 다크마이애즈머 님, 케빈쌤 님, 젊은락커 님, 반달고옴 님여피 님, peopleyy 님, 냉면서생 님, 후니 님, 엔젤하트 님, 세한도 님, 쿠마상 님, 빛으로 님, 로켓단 님, lust4u 님, 아랑 님, 무료함 님, 준혁아빠 님, 뽕까지마 님, 후버 님, 프리맨 님, 모카부족 님, 미아 님, 담드이 님cineami 님, 브리카넬 님, 듀플러 님, Raysinzi 님, 브라운 님, zodinie 님, refuse76 님, 사랑해요 님, 이크에크님 kshsm님"
     ]
   },
   {
@@ -7270,6 +7270,19 @@
     ]
   },
   {
+    "app_id": "329970",
+    "game_title": "KeeperRL",
+    "steam_link": "https://store.steampowered.com/app/329970",
+    "source_site_url": "https://hanpe.net/app/l2dn93/keeperrl",
+    "patch_type": "user",
+    "patch_links": [
+      "dab6ef8a"
+    ],
+    "patch_descriptions": [
+      "제작자 : 마츄"
+    ]
+  },
+  {
     "app_id": "330390",
     "game_title": "GRANDIA II HD Remaster",
     "steam_link": "https://store.steampowered.com/app/330390",
@@ -7557,6 +7570,19 @@
     "patch_descriptions": [
       "파파bk님 제작",
       "겜블럴님 제작 (대사 패치)"
+    ]
+  },
+  {
+    "app_id": "344630",
+    "game_title": "Princess Evangile All Ages Version",
+    "steam_link": "https://store.steampowered.com/app/344630",
+    "source_site_url": "https://hanpe.net/app/jmpp2d/princess-evangile-all-ages-version",
+    "patch_type": "user",
+    "patch_links": [
+      "a6ecc0ea"
+    ],
+    "patch_descriptions": [
+      "제작자 : 리그라"
     ]
   },
   {
@@ -13614,13 +13640,13 @@
     "patch_type": "user",
     "patch_links": [
       "c6fa1b70",
-      "a4dc1b9c",
-      "43f28606"
+      "43f28606",
+      "a4dc1b9c"
     ],
     "patch_descriptions": [
       "X7 한글화",
-      "X8 한글화",
-      "메가맨 x5 만 번역"
+      "메가맨 x5 만 번역",
+      "X8 한글화"
     ]
   },
   {
@@ -18855,6 +18881,19 @@
     ]
   },
   {
+    "app_id": "1304280",
+    "game_title": "Elementallis",
+    "steam_link": "https://store.steampowered.com/app/1304280",
+    "source_site_url": "https://hanpe.net/app/jnomqn/elementallis",
+    "patch_type": "user",
+    "patch_links": [
+      "8d824707"
+    ],
+    "patch_descriptions": [
+      "제작자 : 정보없음"
+    ]
+  },
+  {
     "app_id": "1305300",
     "game_title": "Love Love School Days",
     "steam_link": "https://store.steampowered.com/app/1305300",
@@ -20700,6 +20739,19 @@
     ],
     "patch_descriptions": [
       "공식 번역 개선 패치 제작자 : 신오솔"
+    ]
+  },
+  {
+    "app_id": "1575980",
+    "game_title": "UsoNatsu ~The Summer Romance Bloomed From A Lie~",
+    "steam_link": "https://store.steampowered.com/app/1575980",
+    "source_site_url": "https://hanpe.net/app/lze271/usonatsu-the-summer-romance-bloomed-from-a-lie",
+    "patch_type": "user",
+    "patch_links": [
+      "6f6e4787"
+    ],
+    "patch_descriptions": [
+      "제작자 : Critias0038"
     ]
   },
   {
@@ -23397,7 +23449,7 @@
       "4de0f548"
     ],
     "patch_descriptions": [
-      "제작자 : enddl3788"
+      "공식 한글 개선 패치 제작자 : enddl3788"
     ]
   },
   {
@@ -24495,12 +24547,12 @@
     "source_site_url": "https://hanpe.net/app/jp1rx3/%E4%B8%8D%E6%80%9D%E8%AD%B0%E3%81%AE%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3-%E9%A2%A8%E6%9D%A5%E3%81%AE%E3%82%B7%E3%83%AC%E3%83%B36-%E3%81%A8%E3%81%90%E3%82%8D%E5%B3%B6%E6%8E%A2%E6%A4%9C%E9%8C%B2",
     "patch_type": "user",
     "patch_links": [
-      "2367a478",
-      "592469c4"
+      "592469c4",
+      "2367a478"
     ],
     "patch_descriptions": [
-      "초벌 번역 : ㅇㄹㅋ 번역,이미지 및 검수 : 플스대마왕 기술지원 : 좋은돌고래",
-      "제작자 : ㅇㄹㅋ"
+      "제작자 : ㅇㄹㅋ",
+      "초벌 번역 : ㅇㄹㅋ 번역,이미지 및 검수 : 플스대마왕 기술지원 : 좋은돌고래"
     ]
   },
   {
@@ -26459,7 +26511,7 @@
       "4b07a4ef"
     ],
     "patch_descriptions": [
-      "제작자 : 에디"
+      "제작자 : 에디 번역: sgmask, 에디"
     ]
   },
   {
@@ -26709,6 +26761,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 으잌"
+    ]
+  },
+  {
+    "app_id": "2597080",
+    "game_title": "Realm of Ink",
+    "steam_link": "https://store.steampowered.com/app/2597080",
+    "source_site_url": "https://hanpe.net/app/jwy8ye/realm-of-ink",
+    "patch_type": "official",
+    "patch_links": [
+      "9a9c7170"
+    ],
+    "patch_descriptions": [
+      "한국어 설정법"
     ]
   },
   {
@@ -27350,6 +27415,19 @@
     ]
   },
   {
+    "app_id": "2720010",
+    "game_title": "Rogue Fable IV",
+    "steam_link": "https://store.steampowered.com/app/2720010",
+    "source_site_url": "https://hanpe.net/app/lkgopr/rogue-fable-iv",
+    "patch_type": "user",
+    "patch_links": [
+      "d11e4061"
+    ],
+    "patch_descriptions": [
+      "제작자 : 무른무리요사는사니요"
+    ]
+  },
+  {
     "app_id": "2721530",
     "game_title": "Afterplace",
     "steam_link": "https://store.steampowered.com/app/2721530",
@@ -27622,6 +27700,19 @@
     ],
     "patch_descriptions": [
       "제작자 : rialia"
+    ]
+  },
+  {
+    "app_id": "2767530",
+    "game_title": "Wicked Seed",
+    "steam_link": "https://store.steampowered.com/app/2767530",
+    "source_site_url": "https://hanpe.net/app/l2vpqq/wicked-seed",
+    "patch_type": "user",
+    "patch_links": [
+      "f16f67b7"
+    ],
+    "patch_descriptions": [
+      "제작자 : 정보없음"
     ]
   },
   {
@@ -29683,10 +29774,10 @@
     "source_site_url": "https://hanpe.net/app/jmvdrd/alabaster-dawn",
     "patch_type": "user",
     "patch_links": [
-      "f7b15a02"
+      "f490c25e"
     ],
     "patch_descriptions": [
-      "데모판 한글화 제작자 : 버깡"
+      "제작자 : 버깡"
     ]
   },
   {
@@ -30745,6 +30836,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 으잌"
+    ]
+  },
+  {
+    "app_id": "3352250",
+    "game_title": "PENTALOOP  -ペンタループ-",
+    "steam_link": "https://store.steampowered.com/app/3352250",
+    "source_site_url": "https://hanpe.net/app/l39kgr/pentaloop-%E3%83%9A%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%BC%E3%83%97",
+    "patch_type": "user",
+    "patch_links": [
+      "537af84e"
+    ],
+    "patch_descriptions": [
+      "패치 제작 및 번역본 수정: 팀 글냥이 (Nark, Oatone, 체퓨, 게임만드는까치, 고민하는중)"
     ]
   },
   {
@@ -32401,7 +32505,7 @@
       "61e5fb89"
     ],
     "patch_descriptions": [
-      "제작자 : 여까"
+      "한글패치 제작: 팀 글냥이 (Nark, Oatone)"
     ]
   },
   {
@@ -32851,6 +32955,19 @@
     ]
   },
   {
+    "app_id": "4258330",
+    "game_title": "CALLUS",
+    "steam_link": "https://store.steampowered.com/app/4258330",
+    "source_site_url": "https://hanpe.net/app/4e1oek/callus",
+    "patch_type": "user",
+    "patch_links": [
+      "918319ed"
+    ],
+    "patch_descriptions": [
+      "제작자 : 김까까"
+    ]
+  },
+  {
     "app_id": "4286410",
     "game_title": "ペンギンウォーズ",
     "steam_link": "https://store.steampowered.com/app/4286410",
@@ -32902,6 +33019,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 으잌"
+    ]
+  },
+  {
+    "app_id": "4398770",
+    "game_title": "Barking from the Dark",
+    "steam_link": "https://store.steampowered.com/app/4398770",
+    "source_site_url": "https://hanpe.net/app/j86e68/barking-from-the-dark",
+    "patch_type": "user",
+    "patch_links": [
+      "302089d3"
+    ],
+    "patch_descriptions": [
+      "제작자 : 정보없음"
     ]
   },
   {
@@ -32979,6 +33109,19 @@
     ]
   },
   {
+    "app_id": "4517340",
+    "game_title": "PATCHED",
+    "steam_link": "https://store.steampowered.com/app/4517340",
+    "source_site_url": "https://hanpe.net/app/l30wpm/patched",
+    "patch_type": "user",
+    "patch_links": [
+      "64e02ded"
+    ],
+    "patch_descriptions": [
+      "제작자 : 김까까"
+    ]
+  },
+  {
     "app_id": "4532150",
     "game_title": "G-MODEアーカイブス+ ゼノサーガ パイドパイパー",
     "steam_link": "https://store.steampowered.com/app/4532150",
@@ -32998,10 +33141,10 @@
     "source_site_url": "https://hanpe.net/app/j8pe6r/casualties-unknown",
     "patch_type": "user",
     "patch_links": [
-      "7562a1a9"
+      "602a8939"
     ],
     "patch_descriptions": [
-      "제작자 : moots 데모판 한글화"
+      "데모판 한글화 제작자 : moots 우리말 번역 만든이 DrawinDarwin, johypark97, Kedr2806, muqhc, Shelt3redcat, topicular 플러그인 만든이 kawalain"
     ]
   }
 ]

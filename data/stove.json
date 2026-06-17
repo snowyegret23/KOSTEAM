@@ -3838,5 +3838,20 @@
       ""
     ],
     "stove_url": "https://store.onstove.com/ko/games/104173"
+  },
+  {
+    "app_id": null,
+    "stove_game_no": "14877",
+    "stove_product_no": "104658",
+    "game_title": "도키몬: 퀘스트 (Dokimon: Quest)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "stove_url": "https://store.onstove.com/ko/games/104658"
   }
 ]
