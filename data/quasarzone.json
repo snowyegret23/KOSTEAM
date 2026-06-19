@@ -2,9 +2,45 @@
   "curator_id": 30894603,
   "curator_name": "Curator #30894603",
   "curator_url": "https://store.steampowered.com/curator/30894603/",
-  "total_games": 903,
-  "exported_at": "2026-06-17T21:39:49.600288",
+  "total_games": 907,
+  "exported_at": "2026-06-19T21:26:24.178783",
   "games": [
+    {
+      "appid": "1875060",
+      "url": "https://store.steampowered.com/app/1875060/Reus_2/",
+      "curator_url": "https://store.steampowered.com/app/1875060/?curator_clanid=30894603",
+      "review": "한글 패치 -",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "278360",
+      "url": "https://store.steampowered.com/app/278360/A_Story_About_My_Uncle/",
+      "curator_url": "https://store.steampowered.com/app/278360/?curator_clanid=30894603",
+      "review": "한글 패치 - 으잌",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "2417470",
+      "url": "https://store.steampowered.com/app/2417470/Beastro/",
+      "curator_url": "https://store.steampowered.com/app/2417470/?curator_clanid=30894603",
+      "review": "한글 패치 - 으잌",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "4249150",
+      "url": "https://store.steampowered.com/app/4249150/Breath_of_Fire_IV/",
+      "curator_url": "https://store.steampowered.com/app/4249150/?curator_clanid=30894603",
+      "review": "한글 패치 - 늠이당",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
     {
       "appid": "4576490",
       "url": "https://store.steampowered.com/app/4576490/Casualties_Unknown/",
@@ -1791,9 +1827,9 @@
       "appid": "3357960",
       "url": "https://store.steampowered.com/app/3357960/KuloNiku_Bowl_Up/",
       "curator_url": "https://store.steampowered.com/app/3357960/?curator_clanid=30894603",
-      "review": "유저 한글 패치 - 한무테",
+      "review": "한글 패치 - killterm\n한글 패치 - 한무테",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {

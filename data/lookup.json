@@ -10501,6 +10501,24 @@
       "quasarplay": "https://store.steampowered.com/app/278080/?curator_clanid=42788178"
     }
   },
+  "278360": {
+    "type": "user",
+    "sources": [
+      "quasarplay"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "한글 패치 - 으잌"
+    ],
+    "patch_sources": [
+      "quasarplay"
+    ],
+    "source_site_urls": {
+      "quasarplay": "https://store.steampowered.com/app/278360/?curator_clanid=30894603"
+    }
+  },
   "280160": {
     "type": "official",
     "sources": [
@@ -17469,7 +17487,7 @@
     ],
     "patch_descriptions": [
       "김작 님 제작",
-      "한글 패치\n한글 패치 - 김작"
+      "한글 패치 - WHALE59\n한글 패치 - 김작"
     ],
     "patch_sources": [
       "steamapp",
@@ -46407,6 +46425,24 @@
       "quasarplay": "https://store.steampowered.com/app/1874490/?curator_clanid=42788178"
     }
   },
+  "1875060": {
+    "type": "user",
+    "sources": [
+      "quasarplay"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "한글 패치 -"
+    ],
+    "patch_sources": [
+      "quasarplay"
+    ],
+    "source_site_urls": {
+      "quasarplay": "https://store.steampowered.com/app/1875060/?curator_clanid=30894603"
+    }
+  },
   "1876890": {
     "type": "user",
     "sources": [
@@ -48470,6 +48506,24 @@
     ],
     "source_site_urls": {
       "stove": "https://store.onstove.com/ko/games/103152"
+    }
+  },
+  "2019300": {
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/104658"
     }
   },
   "2019340": {
@@ -54087,6 +54141,24 @@
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/46z7y9/goodnight-universe",
       "quasarplay": "https://store.steampowered.com/app/2416100/?curator_clanid=30894603"
+    }
+  },
+  "2417470": {
+    "type": "user",
+    "sources": [
+      "quasarplay"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "한글 패치 - 으잌"
+    ],
+    "patch_sources": [
+      "quasarplay"
+    ],
+    "source_site_urls": {
+      "quasarplay": "https://store.steampowered.com/app/2417470/?curator_clanid=30894603"
     }
   },
   "2417850": {
@@ -66587,7 +66659,7 @@
       "exist"
     ],
     "patch_descriptions": [
-      "유저 한글 패치 - 한무테"
+      "한글 패치 - killterm\n한글 패치 - 한무테"
     ],
     "patch_sources": [
       "quasarplay"
@@ -71535,6 +71607,24 @@
       "steamapp": "https://hanpe.net/app/4e0q5y/%E4%B8%BB%E8%A7%92"
     }
   },
+  "4249150": {
+    "type": "user",
+    "sources": [
+      "quasarplay"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "한글 패치 - 늠이당"
+    ],
+    "patch_sources": [
+      "quasarplay"
+    ],
+    "source_site_urls": {
+      "quasarplay": "https://store.steampowered.com/app/4249150/?curator_clanid=30894603"
+    }
+  },
   "4256690": {
     "type": "user",
     "sources": [
@@ -71987,7 +72077,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-06-17T21:40:09.049Z",
-    "total": 3323
+    "generated_at": "2026-06-19T21:26:44.963Z",
+    "total": 3328
   }
 }

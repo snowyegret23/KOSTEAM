@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-06-17T21:40:09.049Z",
-    "total_with_steam_link": 3323,
-    "total_without_steam_link": 9,
+    "generated_at": "2026-06-19T21:26:44.963Z",
+    "total_with_steam_link": 3328,
+    "total_without_steam_link": 8,
     "sources": [
       "steamapp",
       "quasarzone",
@@ -12,6 +12,90 @@
     ]
   },
   "games": [
+    {
+      "app_id": "1875060",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/1875060/Reus_2/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "한글 패치 -"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/1875060/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "278360",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/278360/A_Story_About_My_Uncle/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "한글 패치 - 으잌"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/278360/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2417470",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/2417470/Beastro/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "한글 패치 - 으잌"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/2417470/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "4249150",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/4249150/Breath_of_Fire_IV/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "한글 패치 - 늠이당"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/4249150/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
     {
       "app_id": "3939100",
       "game_title": "",
@@ -2394,7 +2478,7 @@
         "exist"
       ],
       "patch_descriptions": [
-        "유저 한글 패치 - 한무테"
+        "한글 패치 - killterm\n한글 패치 - 한무테"
       ],
       "patch_sources": [
         "quasarplay"
@@ -38659,7 +38743,7 @@
       ],
       "patch_descriptions": [
         "김작 님 제작",
-        "한글 패치\n한글 패치 - 김작"
+        "한글 패치 - WHALE59\n한글 패치 - 김작"
       ],
       "patch_sources": [
         "steamapp",
@@ -73384,6 +73468,27 @@
       ]
     },
     {
+      "app_id": "2019300",
+      "game_title": "도키몬: 퀘스트 (Dokimon: Quest)",
+      "steam_link": "https://store.steampowered.com/app/2019300",
+      "patch_type": "official",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        ""
+      ],
+      "patch_sources": [
+        "stove"
+      ],
+      "source_site_urls": {
+        "stove": "https://store.onstove.com/ko/games/104658"
+      },
+      "sources": [
+        "stove"
+      ]
+    },
+    {
       "app_id": "1988530",
       "game_title": "돌아봐 주세요, 리나 선배!",
       "steam_link": "https://store.steampowered.com/app/1988530",
@@ -82006,25 +82111,6 @@
       },
       "sources": [
         "directg"
-      ]
-    },
-    {
-      "game_title": "도키몬: 퀘스트 (Dokimon: Quest)",
-      "patch_type": "official",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        ""
-      ],
-      "patch_sources": [
-        "stove"
-      ],
-      "source_site_urls": {
-        "stove": "https://store.onstove.com/ko/games/104658"
-      },
-      "sources": [
-        "stove"
       ]
     },
     {
