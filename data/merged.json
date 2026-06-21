@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-19T21:26:44.963Z",
-    "total_with_steam_link": 3328,
+    "generated_at": "2026-06-21T21:30:41.262Z",
+    "total_with_steam_link": 3336,
     "total_without_steam_link": 8,
     "sources": [
       "steamapp",
@@ -217,48 +217,6 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/1634360/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "3795560",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/3795560/Jimmys_No_44_House/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - 듀콩"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/3795560/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "2019340",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/2019340/The_Cecil_The_Journey_Begins/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - 듀콩"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/2019340/?curator_clanid=30894603"
       },
       "sources": [
         "quasarplay"
@@ -700,69 +658,6 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/2186990/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "1193990",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/1193990/Trapped/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "유저 한글 패치 - 김까까"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/1193990/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "2095300",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/2095300/Breakout_13/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "유저 한글 패치 - andrea"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/2095300/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "352240",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/352240/The_Westport_Independent/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "유저 한글 패치 - 트리플나인"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/352240/?curator_clanid=30894603"
       },
       "sources": [
         "quasarplay"
@@ -23793,11 +23688,11 @@
       "steam_link": "https://store.steampowered.com/app/4576490",
       "patch_type": "user",
       "patch_links": [
-        "602a8939",
+        "e8801765",
         "exist"
       ],
       "patch_descriptions": [
-        "데모판 한글화 제작자 : moots 우리말 번역 만든이 DrawinDarwin, johypark97, Kedr2806, muqhc, Shelt3redcat, topicular 플러그인 만든이 kawalain",
+        "데모판 한글화 제작자 : 케드르",
         "한글 패치 - 카와레인"
       ],
       "patch_sources": [
@@ -30420,6 +30315,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "4128400",
+      "game_title": "eBaseball™: PRO SPIRIT",
+      "steam_link": "https://store.steampowered.com/app/4128400",
+      "patch_type": "official",
+      "patch_links": [
+        "4306f8c4"
+      ],
+      "patch_descriptions": [
+        "실제로는 공식 한글화"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4qkk3o/ebaseballtm-pro-spirit"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -39248,6 +39164,27 @@
       ]
     },
     {
+      "app_id": "2307350",
+      "game_title": "Into the Radius 2",
+      "steam_link": "https://store.steampowered.com/app/2307350",
+      "patch_type": "user",
+      "patch_links": [
+        "fa6ec681"
+      ],
+      "patch_descriptions": [
+        "제작자 : refracta"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/lxzn50/into-the-radius-2"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "3070370",
       "game_title": "Invasion of The Halloween Fiends",
       "steam_link": "https://store.steampowered.com/app/3070370",
@@ -43253,16 +43190,37 @@
       "steam_link": "https://store.steampowered.com/app/3815890",
       "patch_type": "user",
       "patch_links": [
-        "0e8a1065"
+        "29ae9dc8"
       ],
       "patch_descriptions": [
-        "제작/그래픽: 나이트하르트 번역: 뚱딴지꽃 Special Thanks: 럭키독 관련으로 여러 정보를 알려주신 270님께 감사합니다."
+        "제작/번역: 체리 오프닝 자막: 익명"
       ],
       "patch_sources": [
         "steamapp"
       ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/jn9dzk/lucky-dog-1"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "205020",
+      "game_title": "Lumino City",
+      "steam_link": "https://store.steampowered.com/app/205020",
+      "patch_type": "user",
+      "patch_links": [
+        "38f62d5b"
+      ],
+      "patch_descriptions": [
+        "제작자 : 휠맨"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4e289v/lumino-city"
       },
       "sources": [
         "steamapp"
@@ -45626,6 +45584,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "4064510",
+      "game_title": "MOLE",
+      "steam_link": "https://store.steampowered.com/app/4064510",
+      "patch_type": "user",
+      "patch_links": [
+        "b838607d"
+      ],
+      "patch_descriptions": [
+        "제작자 : B0614"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/lx7397/mole"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -62640,6 +62619,32 @@
       ]
     },
     {
+      "app_id": "2019340",
+      "game_title": "The Cecil: The Journey Begins",
+      "steam_link": "https://store.steampowered.com/app/2019340",
+      "patch_type": "user",
+      "patch_links": [
+        "9515c7a7",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 듀콩",
+        "한글 패치 - 듀콩"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jpgq23/the-cecil-the-journey-begins",
+        "quasarplay": "https://store.steampowered.com/app/2019340/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "2218840",
       "game_title": "The Children's Friend",
       "steam_link": "https://store.steampowered.com/app/2218840",
@@ -66687,6 +66692,32 @@
       ]
     },
     {
+      "app_id": "352240",
+      "game_title": "The Westport Independent",
+      "steam_link": "https://store.steampowered.com/app/352240",
+      "patch_type": "user",
+      "patch_links": [
+        "d68dc050",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 트리플나인",
+        "유저 한글 패치 - 트리플나인"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4go1d9/the-westport-independent",
+        "quasarplay": "https://store.steampowered.com/app/352240/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "2710480",
       "game_title": "The Wife Next Door",
       "steam_link": "https://store.steampowered.com/app/2710480",
@@ -68286,6 +68317,32 @@
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/4qrkdd/transport-fever-2",
         "quasarplay": "https://store.steampowered.com/app/1066780/?curator_clanid=42788178"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "1193990",
+      "game_title": "Trapped",
+      "steam_link": "https://store.steampowered.com/app/1193990",
+      "patch_type": "user",
+      "patch_links": [
+        "8d99dc20",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 김까까",
+        "유저 한글 패치 - 김까까"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jw9dze/trapped",
+        "quasarplay": "https://store.steampowered.com/app/1193990/?curator_clanid=30894603"
       },
       "sources": [
         "steamapp",
@@ -76331,6 +76388,32 @@
       ]
     },
     {
+      "app_id": "3795560",
+      "game_title": "지미의 44번 집",
+      "steam_link": "https://store.steampowered.com/app/3795560",
+      "patch_type": "user",
+      "patch_links": [
+        "0539856f",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 듀콩",
+        "한글 패치 - 듀콩"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/lz93p7/%EC%A7%80%EB%AF%B8%EC%9D%98-44%EB%B2%88-%EC%A7%91",
+        "quasarplay": "https://store.steampowered.com/app/3795560/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "3263210",
       "game_title": "지하철 퇴마 소녀",
       "steam_link": "https://store.steampowered.com/app/3263210",
@@ -79419,6 +79502,27 @@
       ]
     },
     {
+      "app_id": "4045680",
+      "game_title": "冠を持つ神の手",
+      "steam_link": "https://store.steampowered.com/app/4045680",
+      "patch_type": "user",
+      "patch_links": [
+        "723e9b23"
+      ],
+      "patch_descriptions": [
+        "제작자 : 마유"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jdk3nw/%E5%86%A0%E3%82%92%E6%8C%81%E3%81%A4%E7%A5%9E%E3%81%AE%E6%89%8B"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "3757210",
       "game_title": "利用規約に同意したい",
       "steam_link": "https://store.steampowered.com/app/3757210",
@@ -80531,19 +80635,24 @@
       "steam_link": "https://store.steampowered.com/app/1888010",
       "patch_type": "user",
       "patch_links": [
-        "82f0df1f"
+        "82f0df1f",
+        "exist"
       ],
       "patch_descriptions": [
-        "제작자 : sgmask"
+        "제작자 : sgmask",
+        "유저 한국어 패치 - sgmask 님"
       ],
       "patch_sources": [
-        "steamapp"
+        "steamapp",
+        "quasarplay"
       ],
       "source_site_urls": {
-        "steamapp": "https://hanpe.net/app/jdoggm/%E6%89%80%E5%90%91%E4%B9%8B%E6%9C%AA%E6%9D%A5-towards-future"
+        "steamapp": "https://hanpe.net/app/jdoggm/%E6%89%80%E5%90%91%E4%B9%8B%E6%9C%AA%E6%9D%A5-towards-future",
+        "quasarplay": "https://store.steampowered.com/app/1888010/?curator_clanid=42788178"
       },
       "sources": [
-        "steamapp"
+        "steamapp",
+        "quasarplay"
       ]
     },
     {
@@ -81313,6 +81422,27 @@
       ]
     },
     {
+      "app_id": "3032950",
+      "game_title": "海鳥野ガクの精神鑑定録",
+      "steam_link": "https://store.steampowered.com/app/3032950",
+      "patch_type": "user",
+      "patch_links": [
+        "6041fa20"
+      ],
+      "patch_descriptions": [
+        "제작자 : ㄷㄱㄷㄴ"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j80mvz/%E6%B5%B7%E9%B3%A5%E9%87%8E%E3%82%AC%E3%82%AF%E3%81%AE%E7%B2%BE%E7%A5%9E%E9%91%91%E5%AE%9A%E9%8C%B2"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "2799930",
       "game_title": "灵境·修仙界",
       "steam_link": "https://store.steampowered.com/app/2799930",
@@ -81360,6 +81490,27 @@
       ]
     },
     {
+      "app_id": "3608510",
+      "game_title": "狂想！夏日盛宴",
+      "steam_link": "https://store.steampowered.com/app/3608510",
+      "patch_type": "user",
+      "patch_links": [
+        "59dcc7b2"
+      ],
+      "patch_descriptions": [
+        "제작자 : nutcrackr 지원 언어에 한글 포함"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jw1dp0/%E7%8B%82%E6%83%B3%E5%A4%8F%E6%97%A5%E7%9B%9B%E5%AE%B4"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "1065970",
       "game_title": "狼と香辛料VR/Spice&WolfVR",
       "steam_link": "https://store.steampowered.com/app/1065970",
@@ -81396,6 +81547,27 @@
       ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/lz8pm2/%E7%94%9C%E5%BF%83ai%E8%BF%BD%E6%8D%95%E8%AE%A1%E5%88%92"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "3332830",
+      "game_title": "男神模拟器",
+      "steam_link": "https://store.steampowered.com/app/3332830",
+      "patch_type": "user",
+      "patch_links": [
+        "e4ccf5cb"
+      ],
+      "patch_descriptions": [
+        "제작자 : nutcrackr 지원 언어에 한글 포함"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4enpny/%E7%94%B7%E7%A5%9E%E6%A8%A1%E6%8B%9F%E5%99%A8"
       },
       "sources": [
         "steamapp"
@@ -81977,6 +82149,32 @@
       },
       "sources": [
         "steamapp"
+      ]
+    },
+    {
+      "app_id": "2095300",
+      "game_title": "飞越13号房",
+      "steam_link": "https://store.steampowered.com/app/2095300",
+      "patch_type": "user",
+      "patch_links": [
+        "9d7aca54",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : andrea",
+        "유저 한글 패치 - andrea"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/lzdrko/%E9%A3%9E%E8%B6%8A13%E5%8F%B7%E6%88%BF",
+        "quasarplay": "https://store.steampowered.com/app/2095300/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
       ]
     },
     {

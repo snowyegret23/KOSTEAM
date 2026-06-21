@@ -2,8 +2,8 @@
   "curator_id": 42788178,
   "curator_name": "Curator #42788178",
   "curator_url": "https://store.steampowered.com/curator/42788178/",
-  "total_games": 1832,
-  "exported_at": "2026-06-19T21:26:10.070510",
+  "total_games": 1833,
+  "exported_at": "2026-06-21T21:30:09.572976",
   "games": [
     {
       "appid": "200900",
@@ -6490,6 +6490,15 @@
       "url": "https://store.steampowered.com/app/2130460/FATAL_FRAME__PROJECT_ZERO_Mask_of_the_Lunar_Eclipse/",
       "curator_url": "https://store.steampowered.com/app/2130460/?curator_clanid=42788178",
       "review": "유저 한국어 패치 - 도닦아라싹싹닦아라 님",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "1888010",
+      "url": "https://store.steampowered.com/app/1888010/Towards_Future/",
+      "curator_url": "https://store.steampowered.com/app/1888010/?curator_clanid=42788178",
+      "review": "유저 한국어 패치 - sgmask 님",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"

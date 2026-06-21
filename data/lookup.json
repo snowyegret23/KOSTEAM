@@ -5325,6 +5325,24 @@
       "steamapp": "https://hanpe.net/app/lk0k62/crusader-kings-complete"
     }
   },
+  "205020": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "38f62d5b"
+    ],
+    "patch_descriptions": [
+      "제작자 : 휠맨"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4e289v/lumino-city"
+    }
+  },
   "205100": {
     "type": "official",
     "sources": [
@@ -13721,18 +13739,23 @@
   "352240": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "d68dc050",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 트리플나인",
       "유저 한글 패치 - 트리플나인"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4go1d9/the-westport-independent",
       "quasarplay": "https://store.steampowered.com/app/352240/?curator_clanid=30894603"
     }
   },
@@ -34163,18 +34186,23 @@
   "1193990": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "8d99dc20",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 김까까",
       "유저 한글 패치 - 김까까"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jw9dze/trapped",
       "quasarplay": "https://store.steampowered.com/app/1193990/?curator_clanid=30894603"
     }
   },
@@ -46672,19 +46700,24 @@
   "1888010": {
     "type": "user",
     "sources": [
-      "steamapp"
+      "steamapp",
+      "quasarplay"
     ],
     "links": [
-      "82f0df1f"
+      "82f0df1f",
+      "exist"
     ],
     "patch_descriptions": [
-      "제작자 : sgmask"
+      "제작자 : sgmask",
+      "유저 한국어 패치 - sgmask 님"
     ],
     "patch_sources": [
-      "steamapp"
+      "steamapp",
+      "quasarplay"
     ],
     "source_site_urls": {
-      "steamapp": "https://hanpe.net/app/jdoggm/%E6%89%80%E5%90%91%E4%B9%8B%E6%9C%AA%E6%9D%A5-towards-future"
+      "steamapp": "https://hanpe.net/app/jdoggm/%E6%89%80%E5%90%91%E4%B9%8B%E6%9C%AA%E6%9D%A5-towards-future",
+      "quasarplay": "https://store.steampowered.com/app/1888010/?curator_clanid=42788178"
     }
   },
   "1890740": {
@@ -48529,18 +48562,23 @@
   "2019340": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "9515c7a7",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 듀콩",
       "한글 패치 - 듀콩"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jpgq23/the-cecil-the-journey-begins",
       "quasarplay": "https://store.steampowered.com/app/2019340/?curator_clanid=30894603"
     }
   },
@@ -49509,18 +49547,23 @@
   "2095300": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "9d7aca54",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : andrea",
       "유저 한글 패치 - andrea"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/lzdrko/%E9%A3%9E%E8%B6%8A13%E5%8F%B7%E6%88%BF",
       "quasarplay": "https://store.steampowered.com/app/2095300/?curator_clanid=30894603"
     }
   },
@@ -52624,6 +52667,24 @@
     ],
     "source_site_urls": {
       "quasarplay": "https://store.steampowered.com/app/2306030/?curator_clanid=42788178"
+    }
+  },
+  "2307350": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "fa6ec681"
+    ],
+    "patch_descriptions": [
+      "제작자 : refracta"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/lxzn50/into-the-radius-2"
     }
   },
   "2308630": {
@@ -62684,6 +62745,24 @@
       "quasarplay": "https://store.steampowered.com/app/3031590/?curator_clanid=42788178"
     }
   },
+  "3032950": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "6041fa20"
+    ],
+    "patch_descriptions": [
+      "제작자 : ㄷㄱㄷㄴ"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j80mvz/%E6%B5%B7%E9%B3%A5%E9%87%8E%E3%82%AC%E3%82%AF%E3%81%AE%E7%B2%BE%E7%A5%9E%E9%91%91%E5%AE%9A%E9%8C%B2"
+    }
+  },
   "3037660": {
     "type": "user",
     "sources": [
@@ -66270,6 +66349,24 @@
       "quasarplay": "https://store.steampowered.com/app/3329630/?curator_clanid=30894603"
     }
   },
+  "3332830": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "e4ccf5cb"
+    ],
+    "patch_descriptions": [
+      "제작자 : nutcrackr 지원 언어에 한글 포함"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4enpny/%E7%94%B7%E7%A5%9E%E6%A8%A1%E6%8B%9F%E5%99%A8"
+    }
+  },
   "3333890": {
     "type": "user",
     "sources": [
@@ -68868,6 +68965,24 @@
       "quasarplay": "https://store.steampowered.com/app/3603100/?curator_clanid=30894603"
     }
   },
+  "3608510": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "59dcc7b2"
+    ],
+    "patch_descriptions": [
+      "제작자 : nutcrackr 지원 언어에 한글 포함"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jw1dp0/%E7%8B%82%E6%83%B3%E5%A4%8F%E6%97%A5%E7%9B%9B%E5%AE%B4"
+    }
+  },
   "3612850": {
     "type": "user",
     "sources": [
@@ -69848,18 +69963,23 @@
   "3795560": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "0539856f",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 듀콩",
       "한글 패치 - 듀콩"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/lz93p7/%EC%A7%80%EB%AF%B8%EC%9D%98-44%EB%B2%88-%EC%A7%91",
       "quasarplay": "https://store.steampowered.com/app/3795560/?curator_clanid=30894603"
     }
   },
@@ -70051,10 +70171,10 @@
       "steamapp"
     ],
     "links": [
-      "0e8a1065"
+      "29ae9dc8"
     ],
     "patch_descriptions": [
-      "제작/그래픽: 나이트하르트 번역: 뚱딴지꽃 Special Thanks: 럭키독 관련으로 여러 정보를 알려주신 270님께 감사합니다."
+      "제작/번역: 체리 오프닝 자막: 익명"
     ],
     "patch_sources": [
       "steamapp"
@@ -71145,6 +71265,42 @@
       "steamapp": "https://hanpe.net/app/j539r3/secret-lab-cleaner"
     }
   },
+  "4045680": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "723e9b23"
+    ],
+    "patch_descriptions": [
+      "제작자 : 마유"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jdk3nw/%E5%86%A0%E3%82%92%E6%8C%81%E3%81%A4%E7%A5%9E%E3%81%AE%E6%89%8B"
+    }
+  },
+  "4064510": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "b838607d"
+    ],
+    "patch_descriptions": [
+      "제작자 : B0614"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/lx7397/mole"
+    }
+  },
   "4079340": {
     "type": "user",
     "sources": [
@@ -71341,6 +71497,24 @@
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/4o0k8n/moriyarhythm",
       "quasarplay": "https://store.steampowered.com/app/4127490/?curator_clanid=30894603"
+    }
+  },
+  "4128400": {
+    "type": "official",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "4306f8c4"
+    ],
+    "patch_descriptions": [
+      "실제로는 공식 한글화"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4qkk3o/ebaseballtm-pro-spirit"
     }
   },
   "4137880": {
@@ -72042,11 +72216,11 @@
       "quasarplay"
     ],
     "links": [
-      "602a8939",
+      "e8801765",
       "exist"
     ],
     "patch_descriptions": [
-      "데모판 한글화 제작자 : moots 우리말 번역 만든이 DrawinDarwin, johypark97, Kedr2806, muqhc, Shelt3redcat, topicular 플러그인 만든이 kawalain",
+      "데모판 한글화 제작자 : 케드르",
       "한글 패치 - 카와레인"
     ],
     "patch_sources": [
@@ -72077,7 +72251,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-06-19T21:26:44.963Z",
-    "total": 3328
+    "generated_at": "2026-06-21T21:30:41.262Z",
+    "total": 3336
   }
 }

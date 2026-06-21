@@ -3040,6 +3040,19 @@
     ]
   },
   {
+    "app_id": "205020",
+    "game_title": "Lumino City",
+    "steam_link": "https://store.steampowered.com/app/205020",
+    "source_site_url": "https://hanpe.net/app/4e289v/lumino-city",
+    "patch_type": "user",
+    "patch_links": [
+      "38f62d5b"
+    ],
+    "patch_descriptions": [
+      "제작자 : 휠맨"
+    ]
+  },
+  {
     "app_id": "205100",
     "game_title": "Dishonored",
     "steam_link": "https://store.steampowered.com/app/205100",
@@ -7700,6 +7713,19 @@
     ],
     "patch_descriptions": [
       "한글패치 제작: 프기니 검수/윤문: 소닉, 프로미스, 루빈스타인, 코하쿠 로고 / 그래픽: Rs, MeatGum [번역] 겨울사랑, 소닉, 앗님, 아루바, 김시루시루르, 햄스터 포포, 꺄르릉, 죽은척, FLUSIA2, 먼데이키즈, BLOODLINE"
+    ]
+  },
+  {
+    "app_id": "352240",
+    "game_title": "The Westport Independent",
+    "steam_link": "https://store.steampowered.com/app/352240",
+    "source_site_url": "https://hanpe.net/app/4go1d9/the-westport-independent",
+    "patch_type": "user",
+    "patch_links": [
+      "d68dc050"
+    ],
+    "patch_descriptions": [
+      "제작자 : 트리플나인"
     ]
   },
   {
@@ -17891,6 +17917,19 @@
     ]
   },
   {
+    "app_id": "1193990",
+    "game_title": "Trapped",
+    "steam_link": "https://store.steampowered.com/app/1193990",
+    "source_site_url": "https://hanpe.net/app/jw9dze/trapped",
+    "patch_type": "user",
+    "patch_links": [
+      "8d99dc20"
+    ],
+    "patch_descriptions": [
+      "제작자 : 김까까"
+    ]
+  },
+  {
     "app_id": "1196630",
     "game_title": "넥소몬: 멸종",
     "steam_link": "https://store.steampowered.com/app/1196630",
@@ -23717,6 +23756,19 @@
     ]
   },
   {
+    "app_id": "2019340",
+    "game_title": "The Cecil: The Journey Begins",
+    "steam_link": "https://store.steampowered.com/app/2019340",
+    "source_site_url": "https://hanpe.net/app/jpgq23/the-cecil-the-journey-begins",
+    "patch_type": "user",
+    "patch_links": [
+      "9515c7a7"
+    ],
+    "patch_descriptions": [
+      "제작자 : 듀콩"
+    ]
+  },
+  {
     "app_id": "2019760",
     "game_title": "Necrophosis",
     "steam_link": "https://store.steampowered.com/app/2019760",
@@ -24043,6 +24095,19 @@
     ],
     "patch_descriptions": [
       "공식 한글화 개선 패치 제작자 : 막셋"
+    ]
+  },
+  {
+    "app_id": "2095300",
+    "game_title": "飞越13号房",
+    "steam_link": "https://store.steampowered.com/app/2095300",
+    "source_site_url": "https://hanpe.net/app/lzdrko/%E9%A3%9E%E8%B6%8A13%E5%8F%B7%E6%88%BF",
+    "patch_type": "user",
+    "patch_links": [
+      "9d7aca54"
+    ],
+    "patch_descriptions": [
+      "제작자 : andrea"
     ]
   },
   {
@@ -25251,6 +25316,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 으잌"
+    ]
+  },
+  {
+    "app_id": "2307350",
+    "game_title": "Into the Radius 2",
+    "steam_link": "https://store.steampowered.com/app/2307350",
+    "source_site_url": "https://hanpe.net/app/lxzn50/into-the-radius-2",
+    "patch_type": "user",
+    "patch_links": [
+      "fa6ec681"
+    ],
+    "patch_descriptions": [
+      "제작자 : refracta"
     ]
   },
   {
@@ -29288,6 +29366,19 @@
     ]
   },
   {
+    "app_id": "3032950",
+    "game_title": "海鳥野ガクの精神鑑定録",
+    "steam_link": "https://store.steampowered.com/app/3032950",
+    "source_site_url": "https://hanpe.net/app/j80mvz/%E6%B5%B7%E9%B3%A5%E9%87%8E%E3%82%AC%E3%82%AF%E3%81%AE%E7%B2%BE%E7%A5%9E%E9%91%91%E5%AE%9A%E9%8C%B2",
+    "patch_type": "user",
+    "patch_links": [
+      "6041fa20"
+    ],
+    "patch_descriptions": [
+      "제작자 : ㄷㄱㄷㄴ"
+    ]
+  },
+  {
     "app_id": "3043740",
     "game_title": "Calculate It",
     "steam_link": "https://store.steampowered.com/app/3043740",
@@ -30720,6 +30811,19 @@
     ]
   },
   {
+    "app_id": "3332830",
+    "game_title": "男神模拟器",
+    "steam_link": "https://store.steampowered.com/app/3332830",
+    "source_site_url": "https://hanpe.net/app/4enpny/%E7%94%B7%E7%A5%9E%E6%A8%A1%E6%8B%9F%E5%99%A8",
+    "patch_type": "user",
+    "patch_links": [
+      "e4ccf5cb"
+    ],
+    "patch_descriptions": [
+      "제작자 : nutcrackr 지원 언어에 한글 포함"
+    ]
+  },
+  {
     "app_id": "3337210",
     "game_title": "GIRLS MADE PUDDING",
     "steam_link": "https://store.steampowered.com/app/3337210",
@@ -31775,6 +31879,19 @@
     ]
   },
   {
+    "app_id": "3608510",
+    "game_title": "狂想！夏日盛宴",
+    "steam_link": "https://store.steampowered.com/app/3608510",
+    "source_site_url": "https://hanpe.net/app/jw1dp0/%E7%8B%82%E6%83%B3%E5%A4%8F%E6%97%A5%E7%9B%9B%E5%AE%B4",
+    "patch_type": "user",
+    "patch_links": [
+      "59dcc7b2"
+    ],
+    "patch_descriptions": [
+      "제작자 : nutcrackr 지원 언어에 한글 포함"
+    ]
+  },
+  {
     "app_id": "3612850",
     "game_title": "The Lightkeeper",
     "steam_link": "https://store.steampowered.com/app/3612850",
@@ -32195,6 +32312,19 @@
     ]
   },
   {
+    "app_id": "3795560",
+    "game_title": "지미의 44번 집",
+    "steam_link": "https://store.steampowered.com/app/3795560",
+    "source_site_url": "https://hanpe.net/app/lz93p7/%EC%A7%80%EB%AF%B8%EC%9D%98-44%EB%B2%88-%EC%A7%91",
+    "patch_type": "user",
+    "patch_links": [
+      "0539856f"
+    ],
+    "patch_descriptions": [
+      "제작자 : 듀콩"
+    ]
+  },
+  {
     "app_id": "3795900",
     "game_title": "FRONT MISSION 3: Remake",
     "steam_link": "https://store.steampowered.com/app/3795900",
@@ -32292,10 +32422,10 @@
     "source_site_url": "https://hanpe.net/app/jn9dzk/lucky-dog-1",
     "patch_type": "user",
     "patch_links": [
-      "0e8a1065"
+      "29ae9dc8"
     ],
     "patch_descriptions": [
-      "제작/그래픽: 나이트하르트 번역: 뚱딴지꽃 Special Thanks: 럭키독 관련으로 여러 정보를 알려주신 270님께 감사합니다."
+      "제작/번역: 체리 오프닝 자막: 익명"
     ]
   },
   {
@@ -32730,6 +32860,32 @@
     ]
   },
   {
+    "app_id": "4045680",
+    "game_title": "冠を持つ神の手",
+    "steam_link": "https://store.steampowered.com/app/4045680",
+    "source_site_url": "https://hanpe.net/app/jdk3nw/%E5%86%A0%E3%82%92%E6%8C%81%E3%81%A4%E7%A5%9E%E3%81%AE%E6%89%8B",
+    "patch_type": "user",
+    "patch_links": [
+      "723e9b23"
+    ],
+    "patch_descriptions": [
+      "제작자 : 마유"
+    ]
+  },
+  {
+    "app_id": "4064510",
+    "game_title": "MOLE",
+    "steam_link": "https://store.steampowered.com/app/4064510",
+    "source_site_url": "https://hanpe.net/app/lx7397/mole",
+    "patch_type": "user",
+    "patch_links": [
+      "b838607d"
+    ],
+    "patch_descriptions": [
+      "제작자 : B0614"
+    ]
+  },
+  {
     "app_id": "4103510",
     "game_title": "The Unseen Fears: Inner Darkness Collector's Edition",
     "steam_link": "https://store.steampowered.com/app/4103510",
@@ -32807,6 +32963,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 정보없음"
+    ]
+  },
+  {
+    "app_id": "4128400",
+    "game_title": "eBaseball™: PRO SPIRIT",
+    "steam_link": "https://store.steampowered.com/app/4128400",
+    "source_site_url": "https://hanpe.net/app/4qkk3o/ebaseballtm-pro-spirit",
+    "patch_type": "official",
+    "patch_links": [
+      "4306f8c4"
+    ],
+    "patch_descriptions": [
+      "실제로는 공식 한글화"
     ]
   },
   {
@@ -33141,10 +33310,10 @@
     "source_site_url": "https://hanpe.net/app/j8pe6r/casualties-unknown",
     "patch_type": "user",
     "patch_links": [
-      "602a8939"
+      "e8801765"
     ],
     "patch_descriptions": [
-      "데모판 한글화 제작자 : moots 우리말 번역 만든이 DrawinDarwin, johypark97, Kedr2806, muqhc, Shelt3redcat, topicular 플러그인 만든이 kawalain"
+      "데모판 한글화 제작자 : 케드르"
     ]
   }
 ]
