@@ -540,8 +540,9 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
         return Array.from(ids);
     }
 
-    async function buildExportData(items) {
+    async function buildExportData(items, options = {}) {
         const cartInfoMap = await mapDomItemsToCartInfo(items);
+        const selectedElements = options.selectedElements instanceof Set ? options.selectedElements : null;
 
         const exportItems = items.map((item, index) => {
             const cartInfo = cartInfoMap.get(item);
@@ -554,6 +555,8 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
                 type: cartInfo?.type || 'package',
                 link
             };
+
+            if (selectedElements) exportItem.selected = selectedElements.has(item);
 
             // Set ID based on type
             if (cartInfo?.type === 'bundle') {
@@ -572,6 +575,16 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
             itemCount: exportItems.length,
             items: exportItems
         };
+    }
+
+    async function downloadSelectedCheckoutBackup(items, checkedItems, uncheckedItems) {
+        const selectedElements = new Set(checkedItems.map(item => item.element));
+        const exportData = await buildExportData(items, { selectedElements });
+        exportData.backupReason = 'selected_checkout';
+        exportData.selectedItemCount = checkedItems.length;
+        exportData.unselectedItemCount = uncheckedItems.length;
+        const stamp = new Date().toISOString().replace(/[:.]/g, '-').slice(0, 19);
+        downloadJson(exportData, `steam-cart-selected-checkout-backup-${stamp}`);
     }
 
     function downloadJson(data, filename) {
@@ -872,9 +885,20 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
             return;
         }
 
+        try {
+            await downloadSelectedCheckoutBackup(items, checkedItems, uncheckedItems);
+        } catch (err) {
+            console.debug('[KOSTEAM] Selected checkout backup error:', err);
+            if (!DISABLE_CART_DIALOGS) {
+                window.alert('장바구니 백업 JSON을 생성할 수 없습니다. 다시 시도해 주세요.');
+            }
+            return;
+        }
+
         if (uncheckedItems.length === 0) {
-            // 전부 선택됨 → 그냥 결제 페이지로
-            window.location.href = 'https://store.steampowered.com/checkout/';
+            setTimeout(() => {
+                window.location.href = 'https://store.steampowered.com/checkout/';
+            }, 300);
             return;
         }
 
