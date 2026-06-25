@@ -2,9 +2,72 @@
   "curator_id": 30894603,
   "curator_name": "Curator #30894603",
   "curator_url": "https://store.steampowered.com/curator/30894603/",
-  "total_games": 907,
-  "exported_at": "2026-06-21T21:30:22.116853",
+  "total_games": 913,
+  "exported_at": "2026-06-24T21:31:47.686892",
   "games": [
+    {
+      "appid": "362960",
+      "url": "https://store.steampowered.com/app/362960/Tyranny/",
+      "curator_url": "https://store.steampowered.com/app/362960/?curator_clanid=30894603",
+      "review": "한글 패치 - 이거완전미친게임아냐",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "4398770",
+      "url": "https://store.steampowered.com/app/4398770/Barking_from_the_Dark/",
+      "curator_url": "https://store.steampowered.com/app/4398770/?curator_clanid=30894603",
+      "review": "한글 패치 - B0614",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "2767530",
+      "url": "https://store.steampowered.com/app/2767530/Wicked_Seed/",
+      "curator_url": "https://store.steampowered.com/app/2767530/?curator_clanid=30894603",
+      "review": "한글 패치 - B0614",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "1304280",
+      "url": "https://store.steampowered.com/app/1304280/Elementallis/",
+      "curator_url": "https://store.steampowered.com/app/1304280/?curator_clanid=30894603",
+      "review": "한글 패치 - B0614",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "3198890",
+      "url": "https://store.steampowered.com/app/3198890/Scale_the_Depths/",
+      "curator_url": "https://store.steampowered.com/app/3198890/?curator_clanid=30894603",
+      "review": "한글 패치 - B0614",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "4064510",
+      "url": "https://store.steampowered.com/app/4064510/MOLE/",
+      "curator_url": "https://store.steampowered.com/app/4064510/?curator_clanid=30894603",
+      "review": "한글 패치 - B0614",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "4121170",
+      "url": "https://store.steampowered.com/app/4121170/Fears_to_Fathom__Scratch_Creek/",
+      "curator_url": "https://store.steampowered.com/app/4121170/?curator_clanid=30894603",
+      "review": "한글 패치 - 으잌",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
     {
       "appid": "1875060",
       "url": "https://store.steampowered.com/app/1875060/Reus_2/",
@@ -27,9 +90,9 @@
       "appid": "2417470",
       "url": "https://store.steampowered.com/app/2417470/Beastro/",
       "curator_url": "https://store.steampowered.com/app/2417470/?curator_clanid=30894603",
-      "review": "한글 패치 - 으잌",
+      "review": "한글 패치 - 으잌\n한글 패치 - B0614",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -162,9 +225,9 @@
       "appid": "4258770",
       "url": "https://store.steampowered.com/app/4258770/Dread_Fields/",
       "curator_url": "https://store.steampowered.com/app/4258770/?curator_clanid=30894603",
-      "review": "한글 패치 - 듀콩",
+      "review": "한글 패치 - 듀콩\n한글 패치 - B0614",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -288,18 +351,18 @@
       "appid": "3726370",
       "url": "https://store.steampowered.com/app/3726370/Heavy_Metal_Death_Can/",
       "curator_url": "https://store.steampowered.com/app/3726370/?curator_clanid=30894603",
-      "review": "한글 패치 - 한무테",
+      "review": "한글 패치 - B0614\n한글 패치 - 한무테",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
       "appid": "2904040",
       "url": "https://store.steampowered.com/app/2904040/Cheap_Car_Repair/",
       "curator_url": "https://store.steampowered.com/app/2904040/?curator_clanid=30894603",
-      "review": "한글 패치 - 한무테",
+      "review": "한글 패치 - B0614\n한글 패치 - 한무테",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -1683,9 +1746,9 @@
       "appid": "3660220",
       "url": "https://store.steampowered.com/app/3660220/Syberia__Remastered/",
       "curator_url": "https://store.steampowered.com/app/3660220/?curator_clanid=30894603",
-      "review": "유저 한글 패치 - 한무테",
+      "review": "한글 패치 - 에디\n한글 패치 - 한무테",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -1881,7 +1944,7 @@
       "appid": "1315180",
       "url": "https://store.steampowered.com/app/1315180/Spark_in_the_Dark/",
       "curator_url": "https://store.steampowered.com/app/1315180/?curator_clanid=30894603",
-      "review": "유저 한글 패치 - 풍월량 팬카페 가입 필요\n유저 한글 패치 - 한무테",
+      "review": "한글 패치 - B0614\n한글 패치 - 한무테",
       "review_has_url": true,
       "review_url_count": 2,
       "type": "recommended"
@@ -2349,9 +2412,9 @@
       "appid": "686060",
       "url": "https://store.steampowered.com/app/686060/Mewgenics/",
       "curator_url": "https://store.steampowered.com/app/686060/?curator_clanid=30894603",
-      "review": "유저 한글 패치 - 뮤갤러\n폰트 변경 패치 - 사왈이",
+      "review": "한글 패치 - 뉴비분쇄기\n한글 패치 - 마린돌프\n폰트 변경 패치 - 사왈이",
       "review_has_url": true,
-      "review_url_count": 2,
+      "review_url_count": 3,
       "type": "recommended"
     },
     {
@@ -6498,15 +6561,6 @@
       "appid": "2917990",
       "url": "https://store.steampowered.com/app/2917990/The_Ghost_of_Nichishima/",
       "curator_url": "https://store.steampowered.com/app/2917990/?curator_clanid=30894603",
-      "review": "유저 한글 패치 - 듀콩",
-      "review_has_url": true,
-      "review_url_count": 1,
-      "type": "recommended"
-    },
-    {
-      "appid": "2223220",
-      "url": "https://store.steampowered.com/app/2223220/Choppies/",
-      "curator_url": "https://store.steampowered.com/app/2223220/?curator_clanid=30894603",
       "review": "유저 한글 패치 - 듀콩",
       "review_has_url": true,
       "review_url_count": 1,
