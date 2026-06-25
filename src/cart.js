@@ -89,7 +89,7 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
     // ========== DOM Utility Functions ==========
 
     function getItemKey(item) {
-        const link = item.querySelector('a[href*="/app/"], a[href*="/sub/"], a[href*="/bundle/"]');
+        const link = findItemLink(item);
         if (!link) return null;
         const href = link.getAttribute('href') || '';
         const match = href.match(/\/(app|sub|bundle)\/(\d+)/);
@@ -113,6 +113,15 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
 
     function hasPriceText(text) {
         return text?.includes('₩') || text?.includes('$') || text?.includes('€') || text?.includes('£');
+    }
+
+    function findItemLink(item) {
+        if (!item?.querySelector) return null;
+        for (const selector of ['a[href*="/bundle/"]', 'a[href*="/sub/"]', 'a[href*="/app/"]']) {
+            const link = item.querySelector(selector);
+            if (link) return link;
+        }
+        return null;
     }
 
     // ========== Cart Item Detection ==========
@@ -139,7 +148,8 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
     function looksLikeCartItem(node) {
         if (!node?.querySelector) return false;
         const links = node.querySelectorAll('a[href*="/app/"], a[href*="/sub/"], a[href*="/bundle/"]');
-        if (links.length !== 1 && !node.querySelector('a[href*="/bundle/"]')) return false;
+        if (links.length === 0) return false;
+        if (links.length !== 1 && !node.querySelector('a[href*="/sub/"], a[href*="/bundle/"]')) return false;
         if (!findRemoveButton(node)) return false;
         const text = (node.textContent || '').toLowerCase();
         return text.includes('remove') || text.includes('삭제') || text.includes('제거') || hasPriceText(text);
@@ -217,7 +227,7 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
         ]
             .filter(item => !isRecommendationItem(item))
             .filter(item => looksLikeCartItem(item))
-            .filter(el => el.querySelector('a[href*="/app/"], a[href*="/sub/"], a[href*="/bundle/"]'));
+            .filter(el => findItemLink(el));
 
         const unique = uniqueLeaf(merged);
 
@@ -352,7 +362,7 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
         for (let domIdx = 0; domIdx < domItems.length; domIdx++) {
             const item = domItems[domIdx];
             if (map.has(item)) continue;
-            const link = item.querySelector('a[href*="/app/"], a[href*="/sub/"], a[href*="/bundle/"]');
+            const link = findItemLink(item);
             if (!link) continue;
 
             const href = link.getAttribute('href') || '';
@@ -495,7 +505,7 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
     // ========== Export Functions ==========
 
     function extractItemName(item) {
-        const link = item.querySelector('a[href*="/app/"], a[href*="/sub/"], a[href*="/bundle/"]');
+        const link = findItemLink(item);
         if (!link) return null;
 
         const img = link.querySelector('img');
@@ -509,7 +519,7 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
     }
 
     function extractItemLink(item) {
-        const link = item.querySelector('a[href*="/app/"], a[href*="/sub/"], a[href*="/bundle/"]');
+        const link = findItemLink(item);
         if (!link) return null;
 
         const href = link.getAttribute('href') || '';
@@ -712,6 +722,7 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
                     }
                 }
             });
+            updateSelectAllState();
         });
 
         wishlistAllButton.addEventListener('click', handleSendAllToWishlist);

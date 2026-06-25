@@ -4,21 +4,50 @@
  */
 export const api = (typeof browser !== 'undefined') ? browser : chrome;
 
+function getLastError() {
+    return api.runtime?.lastError;
+}
+
+function wrapAsync(invoke) {
+    return new Promise((resolve, reject) => {
+        let settled = false;
+        const finish = (value) => {
+            if (settled) return;
+            settled = true;
+            resolve(value);
+        };
+        const fail = (err) => {
+            if (settled) return;
+            settled = true;
+            reject(err);
+        };
+        const callback = (result) => {
+            const err = getLastError();
+            if (err) {
+                fail(new Error(err.message));
+            } else {
+                finish(result);
+            }
+        };
+
+        try {
+            const result = invoke(callback);
+            if (result?.then) {
+                result.then(finish, fail);
+            }
+        } catch (err) {
+            fail(err);
+        }
+    });
+}
+
 /**
  * Safely send a message to the runtime
  * @param {Object} message - Message object to send
  * @returns {Promise<any>} Response from the message handler
  */
 export function sendMessage(message) {
-    return new Promise((resolve, reject) => {
-        api.runtime.sendMessage(message, (response) => {
-            if (api.runtime.lastError) {
-                reject(new Error(api.runtime.lastError.message));
-            } else {
-                resolve(response);
-            }
-        });
-    });
+    return wrapAsync(callback => api.runtime.sendMessage(message, callback));
 }
 
 /**
@@ -27,15 +56,7 @@ export function sendMessage(message) {
  * @returns {Promise<Object>} Storage items
  */
 export function storageGet(keys) {
-    return new Promise((resolve, reject) => {
-        api.storage.local.get(keys, (result) => {
-            if (api.runtime.lastError) {
-                reject(new Error(api.runtime.lastError.message));
-            } else {
-                resolve(result);
-            }
-        });
-    });
+    return wrapAsync(callback => api.storage.local.get(keys, callback));
 }
 
 /**
@@ -44,15 +65,7 @@ export function storageGet(keys) {
  * @returns {Promise<void>}
  */
 export function storageSet(items) {
-    return new Promise((resolve, reject) => {
-        api.storage.local.set(items, () => {
-            if (api.runtime.lastError) {
-                reject(new Error(api.runtime.lastError.message));
-            } else {
-                resolve();
-            }
-        });
-    });
+    return wrapAsync(callback => api.storage.local.set(items, callback));
 }
 
 /**
