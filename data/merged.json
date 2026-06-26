@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-24T21:32:06.741Z",
-    "total_with_steam_link": 3343,
+    "generated_at": "2026-06-26T21:31:00.740Z",
+    "total_with_steam_link": 3342,
     "total_without_steam_link": 8,
     "sources": [
       "steamapp",
@@ -3060,7 +3060,7 @@
     {
       "app_id": "3394770",
       "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/3394770/Deadly_Dice_Menherarium/",
+      "steam_link": "https://store.steampowered.com/app/3394770/Menherarium_Deadly_Dice/",
       "patch_type": "user",
       "patch_links": [
         "exist"
@@ -8861,7 +8861,7 @@
     {
       "app_id": "3615160",
       "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/3615160/Teddys_Haven__A_Fantasy_Inspired_Shop_Simulator/",
+      "steam_link": "https://store.steampowered.com/app/3615160/Teddys_Haven/",
       "patch_type": "user",
       "patch_links": [
         "exist"
@@ -14938,27 +14938,6 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/24800/?curator_clanid=42788178"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "42680",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/115300/Call_of_Duty_Modern_Warfare_3_2011/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "유저 한국어 패치 -"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/115300/?curator_clanid=42788178"
       },
       "sources": [
         "quasarplay"

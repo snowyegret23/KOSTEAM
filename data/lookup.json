@@ -3455,24 +3455,6 @@
       "quasarplay": "https://store.steampowered.com/app/41500/?curator_clanid=42788178"
     }
   },
-  "42680": {
-    "type": "user",
-    "sources": [
-      "quasarplay"
-    ],
-    "links": [
-      "exist"
-    ],
-    "patch_descriptions": [
-      "유저 한국어 패치 -"
-    ],
-    "patch_sources": [
-      "quasarplay"
-    ],
-    "source_site_urls": {
-      "quasarplay": "https://store.steampowered.com/app/115300/?curator_clanid=42788178"
-    }
-  },
   "42700": {
     "type": "user",
     "sources": [
@@ -72436,7 +72418,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-06-24T21:32:06.741Z",
-    "total": 3343
+    "generated_at": "2026-06-26T21:31:00.740Z",
+    "total": 3342
   }
 }

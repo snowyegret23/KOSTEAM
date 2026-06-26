@@ -2,8 +2,8 @@
   "curator_id": 42788178,
   "curator_name": "Curator #42788178",
   "curator_url": "https://store.steampowered.com/curator/42788178/",
-  "total_games": 1833,
-  "exported_at": "2026-06-24T21:31:34.281740",
+  "total_games": 1832,
+  "exported_at": "2026-06-26T21:30:25.654874",
   "games": [
     {
       "appid": "200900",
@@ -15859,15 +15859,6 @@
       "url": "https://store.steampowered.com/app/204450/Call_of_Juarez_Gunslinger/",
       "curator_url": "https://store.steampowered.com/app/204450/?curator_clanid=42788178",
       "review": "유저 한국어 패치 - 한필드",
-      "review_has_url": true,
-      "review_url_count": 1,
-      "type": "recommended"
-    },
-    {
-      "appid": "115300",
-      "url": "https://store.steampowered.com/app/115300/Call_of_Duty_Modern_Warfare_3_2011/",
-      "curator_url": "https://store.steampowered.com/app/115300/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 -",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
