@@ -3765,6 +3765,19 @@
     ]
   },
   {
+    "app_id": "220740",
+    "game_title": "Chaos on Deponia",
+    "steam_link": "https://store.steampowered.com/app/220740",
+    "source_site_url": "https://hanpe.net/app/jvn125/chaos-on-deponia",
+    "patch_type": "user",
+    "patch_links": [
+      "a6035566"
+    ],
+    "patch_descriptions": [
+      "제작자 : 초록매실제로"
+    ]
+  },
+  {
     "app_id": "220780",
     "game_title": "Thomas Was Alone",
     "steam_link": "https://store.steampowered.com/app/220780",
@@ -4521,10 +4534,12 @@
     "source_site_url": "https://hanpe.net/app/lkv18r/expeditions-conquistador",
     "patch_type": "user",
     "patch_links": [
-      "c742638b"
+      "c742638b",
+      "a5e60b89"
     ],
     "patch_descriptions": [
-      "rlarlgmdwkd 님 제작 0.1버전"
+      "rlarlgmdwkd 님 제작 0.1버전",
+      "제작자 : 스타비즈"
     ]
   },
   {
@@ -9706,10 +9721,12 @@
     "source_site_url": "https://hanpe.net/app/j0zko2/imscared",
     "patch_type": "user",
     "patch_links": [
-      "847efe43"
+      "847efe43",
+      "b78a17cf"
     ],
     "patch_descriptions": [
-      "김작 님 제작"
+      "김작 님 제작",
+      "제작자 : WHALE59"
     ]
   },
   {
@@ -19332,9 +19349,9 @@
   },
   {
     "app_id": "1374490",
-    "game_title": "RuneScape: Dragonwilds",
+    "game_title": "RuneScape: Dragonwilds 룬스케이프: 드래곤와일즈",
     "steam_link": "https://store.steampowered.com/app/1374490",
-    "source_site_url": "https://hanpe.net/app/jpmq7k/runescape-dragonwilds",
+    "source_site_url": "https://hanpe.net/app/jpmq7k/runescape-dragonwilds-%EB%A3%AC%EC%8A%A4%EC%BC%80%EC%9D%B4%ED%94%84-%EB%93%9C%EB%9E%98%EA%B3%A4%EC%99%80%EC%9D%BC%EC%A6%88",
     "patch_type": "user",
     "patch_links": [
       "942af1db"
@@ -25433,9 +25450,11 @@
     "source_site_url": "https://hanpe.net/app/lxzn50/into-the-radius-2",
     "patch_type": "user",
     "patch_links": [
+      "fa6ec681",
       "fa6ec681"
     ],
     "patch_descriptions": [
+      "제작자 : refracta",
       "제작자 : refracta"
     ]
   },
@@ -28016,6 +28035,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 이미누"
+    ]
+  },
+  {
+    "app_id": "2786760",
+    "game_title": "Another Door",
+    "steam_link": "https://store.steampowered.com/app/2786760",
+    "source_site_url": "https://hanpe.net/app/419kv5/another-door",
+    "patch_type": "user",
+    "patch_links": [
+      "83de6a87"
+    ],
+    "patch_descriptions": [
+      "데모판 한글화 만든이: qhtjr"
     ]
   },
   {
@@ -33463,6 +33495,19 @@
     ],
     "patch_descriptions": [
       "데모판 한글화 제작자 : 케드르"
+    ]
+  },
+  {
+    "app_id": "4674130",
+    "game_title": "The Lakeview Orb 2: Consequences",
+    "steam_link": "https://store.steampowered.com/app/4674130",
+    "source_site_url": "https://hanpe.net/app/j07r72/the-lakeview-orb-2-consequences",
+    "patch_type": "user",
+    "patch_links": [
+      "93989d84"
+    ],
+    "patch_descriptions": [
+      "제작자 : 김까까"
     ]
   }
 ]

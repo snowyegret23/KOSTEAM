@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-26T21:31:00.740Z",
-    "total_with_steam_link": 3342,
+    "generated_at": "2026-06-28T21:25:16.441Z",
+    "total_with_steam_link": 3344,
     "total_without_steam_link": 8,
     "sources": [
       "steamapp",
@@ -196,27 +196,6 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/4488860/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "220740",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/220740/Chaos_on_Deponia/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - 초록매실제로"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/220740/?curator_clanid=30894603"
       },
       "sources": [
         "quasarplay"
@@ -17906,6 +17885,27 @@
       ]
     },
     {
+      "app_id": "2786760",
+      "game_title": "Another Door",
+      "steam_link": "https://store.steampowered.com/app/2786760",
+      "patch_type": "user",
+      "patch_links": [
+        "83de6a87"
+      ],
+      "patch_descriptions": [
+        "데모판 한글화 만든이: qhtjr"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/419kv5/another-door"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "1044620",
       "game_title": "Aokana - Four Rhythms Across the Blue",
       "steam_link": "https://store.steampowered.com/app/1044620",
@@ -23934,6 +23934,32 @@
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/lz26ko/chaos-express-delivery-simulator",
         "quasarplay": "https://store.steampowered.com/app/2818480/?curator_clanid=42788178"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "220740",
+      "game_title": "Chaos on Deponia",
+      "steam_link": "https://store.steampowered.com/app/220740",
+      "patch_type": "user",
+      "patch_links": [
+        "a6035566",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 초록매실제로",
+        "한글 패치 - 초록매실제로"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jvn125/chaos-on-deponia",
+        "quasarplay": "https://store.steampowered.com/app/220740/?curator_clanid=30894603"
       },
       "sources": [
         "steamapp",
@@ -31323,13 +31349,16 @@
       "patch_type": "user",
       "patch_links": [
         "c742638b",
+        "a5e60b89",
         "exist"
       ],
       "patch_descriptions": [
         "rlarlgmdwkd 님 제작 0.1버전",
+        "제작자 : 스타비즈",
         "유저 한글 패치 - 스타비즈\n유저 한글 패치 - rlarlgmdwkd"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "quasarplay"
       ],
@@ -38667,13 +38696,16 @@
       "patch_type": "user",
       "patch_links": [
         "847efe43",
+        "b78a17cf",
         "exist"
       ],
       "patch_descriptions": [
         "김작 님 제작",
+        "제작자 : WHALE59",
         "한글 패치 - WHALE59\n한글 패치 - 김작"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "quasarplay"
       ],
@@ -54455,7 +54487,7 @@
     },
     {
       "app_id": "1374490",
-      "game_title": "RuneScape: Dragonwilds",
+      "game_title": "RuneScape: Dragonwilds 룬스케이프: 드래곤와일즈",
       "steam_link": "https://store.steampowered.com/app/1374490",
       "patch_type": "user",
       "patch_links": [
@@ -54474,7 +54506,7 @@
         "quasarplay"
       ],
       "source_site_urls": {
-        "steamapp": "https://hanpe.net/app/jpmq7k/runescape-dragonwilds",
+        "steamapp": "https://hanpe.net/app/jpmq7k/runescape-dragonwilds-%EB%A3%AC%EC%8A%A4%EC%BC%80%EC%9D%B4%ED%94%84-%EB%93%9C%EB%9E%98%EA%B3%A4%EC%99%80%EC%9D%BC%EC%A6%88",
         "quasarplay": "https://store.steampowered.com/app/1374490/?curator_clanid=30894603"
       },
       "sources": [
@@ -64503,6 +64535,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "4674130",
+      "game_title": "The Lakeview Orb 2: Consequences",
+      "steam_link": "https://store.steampowered.com/app/4674130",
+      "patch_type": "user",
+      "patch_links": [
+        "93989d84"
+      ],
+      "patch_descriptions": [
+        "제작자 : 김까까"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j07r72/the-lakeview-orb-2-consequences"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
