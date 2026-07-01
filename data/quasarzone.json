@@ -2,9 +2,45 @@
   "curator_id": 30894603,
   "curator_name": "Curator #30894603",
   "curator_url": "https://store.steampowered.com/curator/30894603/",
-  "total_games": 913,
-  "exported_at": "2026-06-28T21:24:57.926556",
+  "total_games": 917,
+  "exported_at": "2026-07-01T21:33:06.688527",
   "games": [
+    {
+      "appid": "2307350",
+      "url": "https://store.steampowered.com/app/2307350/Into_the_Radius_2/",
+      "curator_url": "https://store.steampowered.com/app/2307350/?curator_clanid=30894603",
+      "review": "한글 패치 - refracta",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "4699110",
+      "url": "https://store.steampowered.com/app/4699110/Crococo/",
+      "curator_url": "https://store.steampowered.com/app/4699110/?curator_clanid=30894603",
+      "review": "한글 패치 - 김까까",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "1895890",
+      "url": "https://store.steampowered.com/app/1895890/9_Childs_Street/",
+      "curator_url": "https://store.steampowered.com/app/1895890/?curator_clanid=30894603",
+      "review": "한글 패치 - 김까까",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "4674130",
+      "url": "https://store.steampowered.com/app/4674130/The_Lakeview_Orb_2_Consequences/",
+      "curator_url": "https://store.steampowered.com/app/4674130/?curator_clanid=30894603",
+      "review": "한글 패치 - 김까까",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
     {
       "appid": "362960",
       "url": "https://store.steampowered.com/app/362960/Tyranny/",
@@ -3384,7 +3420,7 @@
       "appid": "975370",
       "url": "https://store.steampowered.com/app/975370/Dwarf_Fortress/",
       "curator_url": "https://store.steampowered.com/app/975370/?curator_clanid=30894603",
-      "review": "유저 한글 패치 - refracta, Viz\n유저 한글 패치 - Partholon",
+      "review": "한글 패치 - refracta, Viz\n한글 패치 - Partholon",
       "review_has_url": true,
       "review_url_count": 2,
       "type": "recommended"

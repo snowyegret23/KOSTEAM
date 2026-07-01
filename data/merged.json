@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-28T21:25:16.441Z",
-    "total_with_steam_link": 3344,
+    "generated_at": "2026-07-01T21:33:27.195Z",
+    "total_with_steam_link": 3349,
     "total_without_steam_link": 8,
     "sources": [
       "steamapp",
@@ -12,6 +12,48 @@
     ]
   },
   "games": [
+    {
+      "app_id": "4699110",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/4699110/Crococo/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "한글 패치 - 김까까"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/4699110/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "1895890",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/1895890/9_Childs_Street/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "한글 패치 - 김까까"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/1895890/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
     {
       "app_id": "3198890",
       "game_title": "",
@@ -154,48 +196,6 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/3939100/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "4515660",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/4515660/Control_Im_Not_Coming_Back/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - 으잌"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/4515660/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "4488860",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/4488860/The_Red_Pearls_Of_Borneo/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - 허접이랑말안함"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/4488860/?curator_clanid=30894603"
       },
       "sources": [
         "quasarplay"
@@ -23727,13 +23727,16 @@
       "patch_type": "user",
       "patch_links": [
         "c63101b5",
+        "02e25e34",
         "exist"
       ],
       "patch_descriptions": [
         "총괄: 미리칸 폰트: 우캉 그래픽: 베타베타 번역: 미리칸, Charminig, 레몬뱀, 새장속새, MarvintheCreator, InStunt",
+        "제작자 : temp",
         "한글 패치 - temp"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "quasarplay"
       ],
@@ -25061,6 +25064,32 @@
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/4gdz7g/contrast",
         "quasarplay": "https://store.steampowered.com/app/224460/?curator_clanid=42788178"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "4515660",
+      "game_title": "Control, I'm Not Coming Back",
+      "steam_link": "https://store.steampowered.com/app/4515660",
+      "patch_type": "user",
+      "patch_links": [
+        "b8e60945",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 으잌",
+        "한글 패치 - 으잌"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l2ke1m/control-im-not-coming-back",
+        "quasarplay": "https://store.steampowered.com/app/4515660/?curator_clanid=30894603"
       },
       "sources": [
         "steamapp",
@@ -30074,7 +30103,7 @@
       "patch_descriptions": [
         "제작자 : Partholon",
         "1. 릴리즈 페이지로 이동 2. 가장 위에 있는 버전의 Assets 클릭하면 받을 수 있는 파일들이 나옴 3. 설명서에 적힌 파일을 다운",
-        "유저 한글 패치 - refracta, Viz\n유저 한글 패치 - Partholon"
+        "한글 패치 - refracta, Viz\n한글 패치 - Partholon"
       ],
       "patch_sources": [
         "steamapp",
@@ -39213,19 +39242,24 @@
       "steam_link": "https://store.steampowered.com/app/2307350",
       "patch_type": "user",
       "patch_links": [
-        "fa6ec681"
+        "fa6ec681",
+        "exist"
       ],
       "patch_descriptions": [
-        "제작자 : refracta"
+        "제작자 : refracta",
+        "한글 패치 - refracta"
       ],
       "patch_sources": [
-        "steamapp"
+        "steamapp",
+        "quasarplay"
       ],
       "source_site_urls": {
-        "steamapp": "https://hanpe.net/app/lxzn50/into-the-radius-2"
+        "steamapp": "https://hanpe.net/app/lxzn50/into-the-radius-2",
+        "quasarplay": "https://store.steampowered.com/app/2307350/?curator_clanid=30894603"
       },
       "sources": [
-        "steamapp"
+        "steamapp",
+        "quasarplay"
       ]
     },
     {
@@ -47439,6 +47473,27 @@
       ]
     },
     {
+      "app_id": "2184620",
+      "game_title": "Never 7 - The End of Infinity",
+      "steam_link": "https://store.steampowered.com/app/2184620",
+      "patch_type": "user",
+      "patch_links": [
+        "586aef44"
+      ],
+      "patch_descriptions": [
+        "제작자 : 메갤"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4r5gyo/never-7-the-end-of-infinity"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "2485540",
       "game_title": "Never Ending Nightmare",
       "steam_link": "https://store.steampowered.com/app/2485540",
@@ -48087,6 +48142,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "1423370",
+      "game_title": "NOeSIS02_羽化",
+      "steam_link": "https://store.steampowered.com/app/1423370",
+      "patch_type": "user",
+      "patch_links": [
+        "0068fde0"
+      ],
+      "patch_descriptions": [
+        "제작자 : 사소시"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/lx025z/noesis02_%E7%BE%BD%E5%8C%96"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -64543,19 +64619,24 @@
       "steam_link": "https://store.steampowered.com/app/4674130",
       "patch_type": "user",
       "patch_links": [
-        "93989d84"
+        "93989d84",
+        "exist"
       ],
       "patch_descriptions": [
-        "제작자 : 김까까"
+        "제작자 : 김까까",
+        "한글 패치 - 김까까"
       ],
       "patch_sources": [
-        "steamapp"
+        "steamapp",
+        "quasarplay"
       ],
       "source_site_urls": {
-        "steamapp": "https://hanpe.net/app/j07r72/the-lakeview-orb-2-consequences"
+        "steamapp": "https://hanpe.net/app/j07r72/the-lakeview-orb-2-consequences",
+        "quasarplay": "https://store.steampowered.com/app/4674130/?curator_clanid=30894603"
       },
       "sources": [
-        "steamapp"
+        "steamapp",
+        "quasarplay"
       ]
     },
     {
@@ -65613,6 +65694,32 @@
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/469pw9/the-real-face-of-a-vtuber",
         "quasarplay": "https://store.steampowered.com/app/2871140/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "4488860",
+      "game_title": "The Red Pearls Of Borneo",
+      "steam_link": "https://store.steampowered.com/app/4488860",
+      "patch_type": "user",
+      "patch_links": [
+        "eaa3ff8f",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 허접이랑말안함",
+        "한글 패치 - 허접이랑말안함"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/417xwp/the-red-pearls-of-borneo",
+        "quasarplay": "https://store.steampowered.com/app/4488860/?curator_clanid=30894603"
       },
       "sources": [
         "steamapp",
@@ -71725,11 +71832,11 @@
       "steam_link": "https://store.steampowered.com/app/2518960",
       "patch_type": "user",
       "patch_links": [
-        "053a19c0",
+        "ccc933ba",
         "exist"
       ],
       "patch_descriptions": [
-        "제작자 : 한무테",
+        "제작자 : 정보없음",
         "유저 한글 패치 - gusrud6151 님"
       ],
       "patch_sources": [
@@ -82363,6 +82470,27 @@
       ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/l32od0/%E9%A2%A8%E9%9B%A8%E6%9D%A5%E8%A8%985"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "2161440",
+      "game_title": "风帆纪元 Sailing Era",
+      "steam_link": "https://store.steampowered.com/app/2161440",
+      "patch_type": "user",
+      "patch_links": [
+        "14253f3b"
+      ],
+      "patch_descriptions": [
+        "제작자 : 정보없음"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l7onkp/%E9%A3%8E%E5%B8%86%E7%BA%AA%E5%85%83-sailing-era"
       },
       "sources": [
         "steamapp"

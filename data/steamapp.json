@@ -2800,10 +2800,12 @@
     "source_site_url": "https://hanpe.net/app/4o6wen/cave-story",
     "patch_type": "user",
     "patch_links": [
-      "c63101b5"
+      "c63101b5",
+      "02e25e34"
     ],
     "patch_descriptions": [
-      "총괄: 미리칸 폰트: 우캉 그래픽: 베타베타 번역: 미리칸, Charminig, 레몬뱀, 새장속새, MarvintheCreator, InStunt"
+      "총괄: 미리칸 폰트: 우캉 그래픽: 베타베타 번역: 미리칸, Charminig, 레몬뱀, 새장속새, MarvintheCreator, InStunt",
+      "제작자 : temp"
     ]
   },
   {
@@ -19750,6 +19752,19 @@
     ]
   },
   {
+    "app_id": "1423370",
+    "game_title": "NOeSIS02_羽化",
+    "steam_link": "https://store.steampowered.com/app/1423370",
+    "source_site_url": "https://hanpe.net/app/lx025z/noesis02_%E7%BE%BD%E5%8C%96",
+    "patch_type": "user",
+    "patch_links": [
+      "0068fde0"
+    ],
+    "patch_descriptions": [
+      "제작자 : 사소시"
+    ]
+  },
+  {
     "app_id": "1423600",
     "game_title": "BLUE REFLECTION: Second Light",
     "steam_link": "https://store.steampowered.com/app/1423600",
@@ -24666,6 +24681,19 @@
     ]
   },
   {
+    "app_id": "2161440",
+    "game_title": "风帆纪元 Sailing Era",
+    "steam_link": "https://store.steampowered.com/app/2161440",
+    "source_site_url": "https://hanpe.net/app/l7onkp/%E9%A3%8E%E5%B8%86%E7%BA%AA%E5%85%83-sailing-era",
+    "patch_type": "user",
+    "patch_links": [
+      "14253f3b"
+    ],
+    "patch_descriptions": [
+      "제작자 : 정보없음"
+    ]
+  },
+  {
     "app_id": "2166050",
     "game_title": "Moonleap",
     "steam_link": "https://store.steampowered.com/app/2166050",
@@ -24821,6 +24849,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 엘더크라켄"
+    ]
+  },
+  {
+    "app_id": "2184620",
+    "game_title": "Never 7 - The End of Infinity",
+    "steam_link": "https://store.steampowered.com/app/2184620",
+    "source_site_url": "https://hanpe.net/app/4r5gyo/never-7-the-end-of-infinity",
+    "patch_type": "user",
+    "patch_links": [
+      "586aef44"
+    ],
+    "patch_descriptions": [
+      "제작자 : 메갤"
     ]
   },
   {
@@ -25450,11 +25491,9 @@
     "source_site_url": "https://hanpe.net/app/lxzn50/into-the-radius-2",
     "patch_type": "user",
     "patch_links": [
-      "fa6ec681",
       "fa6ec681"
     ],
     "patch_descriptions": [
-      "제작자 : refracta",
       "제작자 : refracta"
     ]
   },
@@ -26620,10 +26659,10 @@
     "source_site_url": "https://hanpe.net/app/41g09d/wizardry-proving-grounds-of-the-mad-overlord",
     "patch_type": "user",
     "patch_links": [
-      "053a19c0"
+      "ccc933ba"
     ],
     "patch_descriptions": [
-      "제작자 : 한무테"
+      "제작자 : 정보없음"
     ]
   },
   {
@@ -33433,6 +33472,19 @@
     ]
   },
   {
+    "app_id": "4488860",
+    "game_title": "The Red Pearls Of Borneo",
+    "steam_link": "https://store.steampowered.com/app/4488860",
+    "source_site_url": "https://hanpe.net/app/417xwp/the-red-pearls-of-borneo",
+    "patch_type": "user",
+    "patch_links": [
+      "eaa3ff8f"
+    ],
+    "patch_descriptions": [
+      "제작자 : 허접이랑말안함"
+    ]
+  },
+  {
     "app_id": "4504460",
     "game_title": "Lihiman",
     "steam_link": "https://store.steampowered.com/app/4504460",
@@ -33453,6 +33505,19 @@
     "patch_type": "user",
     "patch_links": [
       "41417c66"
+    ],
+    "patch_descriptions": [
+      "제작자 : 으잌"
+    ]
+  },
+  {
+    "app_id": "4515660",
+    "game_title": "Control, I'm Not Coming Back",
+    "steam_link": "https://store.steampowered.com/app/4515660",
+    "source_site_url": "https://hanpe.net/app/l2ke1m/control-im-not-coming-back",
+    "patch_type": "user",
+    "patch_links": [
+      "b8e60945"
     ],
     "patch_descriptions": [
       "제작자 : 으잌"

@@ -4893,13 +4893,16 @@
     ],
     "links": [
       "c63101b5",
+      "02e25e34",
       "exist"
     ],
     "patch_descriptions": [
       "총괄: 미리칸 폰트: 우캉 그래픽: 베타베타 번역: 미리칸, Charminig, 레몬뱀, 새장속새, MarvintheCreator, InStunt",
+      "제작자 : temp",
       "한글 패치 - temp"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp",
       "quasarplay"
     ],
@@ -29228,7 +29231,7 @@
     "patch_descriptions": [
       "제작자 : Partholon",
       "1. 릴리즈 페이지로 이동 2. 가장 위에 있는 버전의 Assets 클릭하면 받을 수 있는 파일들이 나옴 3. 설명서에 적힌 파일을 다운",
-      "유저 한글 패치 - refracta, Viz\n유저 한글 패치 - Partholon"
+      "한글 패치 - refracta, Viz\n한글 패치 - Partholon"
     ],
     "patch_sources": [
       "steamapp",
@@ -38607,6 +38610,24 @@
       "quasarplay": "https://store.steampowered.com/app/1423330/?curator_clanid=30894603"
     }
   },
+  "1423370": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "0068fde0"
+    ],
+    "patch_descriptions": [
+      "제작자 : 사소시"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/lx025z/noesis02_%E7%BE%BD%E5%8C%96"
+    }
+  },
   "1423600": {
     "type": "user",
     "sources": [
@@ -46862,6 +46883,24 @@
       "quasarplay": "https://store.steampowered.com/app/1895350/?curator_clanid=30894603"
     }
   },
+  "1895890": {
+    "type": "user",
+    "sources": [
+      "quasarplay"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "한글 패치 - 김까까"
+    ],
+    "patch_sources": [
+      "quasarplay"
+    ],
+    "source_site_urls": {
+      "quasarplay": "https://store.steampowered.com/app/1895890/?curator_clanid=30894603"
+    }
+  },
   "1895900": {
     "type": "user",
     "sources": [
@@ -50827,6 +50866,24 @@
       "quasarplay": "https://store.steampowered.com/app/2160360/?curator_clanid=30894603"
     }
   },
+  "2161440": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "14253f3b"
+    ],
+    "patch_descriptions": [
+      "제작자 : 정보없음"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/l7onkp/%E9%A3%8E%E5%B8%86%E7%BA%AA%E5%85%83-sailing-era"
+    }
+  },
   "2163330": {
     "type": "user",
     "sources": [
@@ -51189,6 +51246,24 @@
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/jneqyy/guild-saga-vanished-worlds",
       "quasarplay": "https://store.steampowered.com/app/2184350/?curator_clanid=42788178"
+    }
+  },
+  "2184620": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "586aef44"
+    ],
+    "patch_descriptions": [
+      "제작자 : 메갤"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4r5gyo/never-7-the-end-of-infinity"
     }
   },
   "2186680": {
@@ -52781,19 +52856,24 @@
   "2307350": {
     "type": "user",
     "sources": [
-      "steamapp"
+      "steamapp",
+      "quasarplay"
     ],
     "links": [
-      "fa6ec681"
+      "fa6ec681",
+      "exist"
     ],
     "patch_descriptions": [
-      "제작자 : refracta"
+      "제작자 : refracta",
+      "한글 패치 - refracta"
     ],
     "patch_sources": [
-      "steamapp"
+      "steamapp",
+      "quasarplay"
     ],
     "source_site_urls": {
-      "steamapp": "https://hanpe.net/app/lxzn50/into-the-radius-2"
+      "steamapp": "https://hanpe.net/app/lxzn50/into-the-radius-2",
+      "quasarplay": "https://store.steampowered.com/app/2307350/?curator_clanid=30894603"
     }
   },
   "2308630": {
@@ -55883,11 +55963,11 @@
       "quasarplay"
     ],
     "links": [
-      "053a19c0",
+      "ccc933ba",
       "exist"
     ],
     "patch_descriptions": [
-      "제작자 : 한무테",
+      "제작자 : 정보없음",
       "유저 한글 패치 - gusrud6151 님"
     ],
     "patch_sources": [
@@ -72285,18 +72365,23 @@
   "4488860": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "eaa3ff8f",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 허접이랑말안함",
       "한글 패치 - 허접이랑말안함"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/417xwp/the-red-pearls-of-borneo",
       "quasarplay": "https://store.steampowered.com/app/4488860/?curator_clanid=30894603"
     }
   },
@@ -72349,18 +72434,23 @@
   "4515660": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "b8e60945",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 으잌",
       "한글 패치 - 으잌"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/l2ke1m/control-im-not-coming-back",
       "quasarplay": "https://store.steampowered.com/app/4515660/?curator_clanid=30894603"
     }
   },
@@ -72449,23 +72539,46 @@
   "4674130": {
     "type": "user",
     "sources": [
-      "steamapp"
+      "steamapp",
+      "quasarplay"
     ],
     "links": [
-      "93989d84"
+      "93989d84",
+      "exist"
     ],
     "patch_descriptions": [
-      "제작자 : 김까까"
+      "제작자 : 김까까",
+      "한글 패치 - 김까까"
     ],
     "patch_sources": [
-      "steamapp"
+      "steamapp",
+      "quasarplay"
     ],
     "source_site_urls": {
-      "steamapp": "https://hanpe.net/app/j07r72/the-lakeview-orb-2-consequences"
+      "steamapp": "https://hanpe.net/app/j07r72/the-lakeview-orb-2-consequences",
+      "quasarplay": "https://store.steampowered.com/app/4674130/?curator_clanid=30894603"
+    }
+  },
+  "4699110": {
+    "type": "user",
+    "sources": [
+      "quasarplay"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "한글 패치 - 김까까"
+    ],
+    "patch_sources": [
+      "quasarplay"
+    ],
+    "source_site_urls": {
+      "quasarplay": "https://store.steampowered.com/app/4699110/?curator_clanid=30894603"
     }
   },
   "_meta": {
-    "generated_at": "2026-06-28T21:25:16.441Z",
-    "total": 3344
+    "generated_at": "2026-07-01T21:33:27.195Z",
+    "total": 3349
   }
 }
