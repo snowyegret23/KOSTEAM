@@ -34,7 +34,7 @@ export const SOURCE_LABELS = {
     stove: '스토브',
     quasarplay: '퀘이사존 큐레이터',
     directg: '다이렉트 게임즈',
-    steamapp: '한패(구 스팀앱)'
+    steamapp: '한패넷'
 };
 
 // Patch type configurations
