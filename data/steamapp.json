@@ -6041,6 +6041,19 @@
     ]
   },
   {
+    "app_id": "278360",
+    "game_title": "A Story About My Uncle",
+    "steam_link": "https://store.steampowered.com/app/278360",
+    "source_site_url": "https://hanpe.net/app/jprkr3/a-story-about-my-uncle",
+    "patch_type": "user",
+    "patch_links": [
+      "60bed12e"
+    ],
+    "patch_descriptions": [
+      "제작자 : 으잌"
+    ]
+  },
+  {
     "app_id": "280180",
     "game_title": "Hover",
     "steam_link": "https://store.steampowered.com/app/280180",
@@ -21662,10 +21675,10 @@
     "source_site_url": "https://hanpe.net/app/4oge7d/%EB%94%94-%EC%8F%98%EB%A7%88%ED%84%B0%EC%A7%80",
     "patch_type": "user",
     "patch_links": [
-      "958bb1ba"
+      "49518c5c"
     ],
     "patch_descriptions": [
-      "번역기를 이용한 한글화 제작팀 : 팀 AI"
+      "제작자 : 정보없음"
     ]
   },
   {
@@ -23142,6 +23155,19 @@
     "patch_descriptions": [
       "제작자 : 레임3D",
       "제작자 : 마지니형"
+    ]
+  },
+  {
+    "app_id": "1902940",
+    "game_title": "Snacktorio",
+    "steam_link": "https://store.steampowered.com/app/1902940",
+    "source_site_url": "https://hanpe.net/app/jwd9wo/snacktorio",
+    "patch_type": "user",
+    "patch_links": [
+      "c7432aeb"
+    ],
+    "patch_descriptions": [
+      "제작자 : 트로이펠"
     ]
   },
   {
@@ -25312,6 +25338,19 @@
     ]
   },
   {
+    "app_id": "2281410",
+    "game_title": "江城创业记 River Town Factory",
+    "steam_link": "https://store.steampowered.com/app/2281410",
+    "source_site_url": "https://hanpe.net/app/jn2658/%E6%B1%9F%E5%9F%8E%E5%88%9B%E4%B8%9A%E8%AE%B0-river-town-factory",
+    "patch_type": "user",
+    "patch_links": [
+      "33ee9cb6"
+    ],
+    "patch_descriptions": [
+      "제작자 : 트로이펠"
+    ]
+  },
+  {
     "app_id": "2284310",
     "game_title": "Elephantasy: Flipside",
     "steam_link": "https://store.steampowered.com/app/2284310",
@@ -26662,7 +26701,7 @@
       "ccc933ba"
     ],
     "patch_descriptions": [
-      "제작자 : 정보없음"
+      "제작자 : killterm"
     ]
   },
   {
@@ -27553,6 +27592,19 @@
     ]
   },
   {
+    "app_id": "2689930",
+    "game_title": "Detective Instinct: Farewell, My Beloved",
+    "steam_link": "https://store.steampowered.com/app/2689930",
+    "source_site_url": "https://hanpe.net/app/jd9nxv/detective-instinct-farewell-my-beloved",
+    "patch_type": "user",
+    "patch_links": [
+      "413ad3ef"
+    ],
+    "patch_descriptions": [
+      "제작자 : 정보없음"
+    ]
+  },
+  {
     "app_id": "2696050",
     "game_title": "Yarimono",
     "steam_link": "https://store.steampowered.com/app/2696050",
@@ -28440,6 +28492,19 @@
     ]
   },
   {
+    "app_id": "2835780",
+    "game_title": "Gem Miner TD",
+    "steam_link": "https://store.steampowered.com/app/2835780",
+    "source_site_url": "https://hanpe.net/app/l38krz/gem-miner-td",
+    "patch_type": "user",
+    "patch_links": [
+      "dd1857d5"
+    ],
+    "patch_descriptions": [
+      "제작자 : 트로이펠"
+    ]
+  },
+  {
     "app_id": "2836820",
     "game_title": "Baby Blues Nightmares - Toddler Horror Game",
     "steam_link": "https://store.steampowered.com/app/2836820",
@@ -28974,6 +29039,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 으잌"
+    ]
+  },
+  {
+    "app_id": "2928700",
+    "game_title": "특별한 기억",
+    "steam_link": "https://store.steampowered.com/app/2928700",
+    "source_site_url": "https://hanpe.net/app/jm6zo9/%ED%8A%B9%EB%B3%84%ED%95%9C-%EA%B8%B0%EC%96%B5",
+    "patch_type": "user",
+    "patch_links": [
+      "b357075e"
+    ],
+    "patch_descriptions": [
+      "제작자 : 호트구트"
     ]
   },
   {
@@ -29636,7 +29714,7 @@
       "c53ea549"
     ],
     "patch_descriptions": [
-      "제작자 : 솔라리어스"
+      "공식 한국어 번역 개선 패치 제작자 : 솔라리어스"
     ]
   },
   {
@@ -29704,6 +29782,19 @@
     ],
     "patch_descriptions": [
       "제작자 : milesand"
+    ]
+  },
+  {
+    "app_id": "3067930",
+    "game_title": "Labyrinth of Touhou Tri -The Dreaming Girls & The Mysterious Orbs-",
+    "steam_link": "https://store.steampowered.com/app/3067930",
+    "source_site_url": "https://hanpe.net/app/jwepwn/labyrinth-of-touhou-tri-the-dreaming-girls-the-mysterious-orbs",
+    "patch_type": "user",
+    "patch_links": [
+      "64196093"
+    ],
+    "patch_descriptions": [
+      "제작자 : 정보없음"
     ]
   },
   {
@@ -30150,6 +30241,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 한무테"
+    ]
+  },
+  {
+    "app_id": "3141580",
+    "game_title": "台北仲夏夜之梦",
+    "steam_link": "https://store.steampowered.com/app/3141580",
+    "source_site_url": "https://hanpe.net/app/4g8xdy/%E5%8F%B0%E5%8C%97%E4%BB%B2%E5%A4%8F%E5%A4%9C%E4%B9%8B%E6%A2%A6",
+    "patch_type": "user",
+    "patch_links": [
+      "c9435bbd"
+    ],
+    "patch_descriptions": [
+      "제작자 : 호트구트"
     ]
   },
   {
@@ -31184,6 +31288,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 으잌"
+    ]
+  },
+  {
+    "app_id": "3357960",
+    "game_title": "KuloNiku: Bowl Up!",
+    "steam_link": "https://store.steampowered.com/app/3357960",
+    "source_site_url": "https://hanpe.net/app/4e079v/kuloniku-bowl-up",
+    "patch_type": "user",
+    "patch_links": [
+      "82fdcc21"
+    ],
+    "patch_descriptions": [
+      "제작자 : killterm"
     ]
   },
   {
@@ -32356,6 +32473,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 막셋"
+    ]
+  },
+  {
+    "app_id": "3723750",
+    "game_title": "Trading Card Inspector",
+    "steam_link": "https://store.steampowered.com/app/3723750",
+    "source_site_url": "https://hanpe.net/app/4o57ok/trading-card-inspector",
+    "patch_type": "user",
+    "patch_links": [
+      "8b3534fd"
+    ],
+    "patch_descriptions": [
+      "제작자 : Ich-mag-dich"
     ]
   },
   {
