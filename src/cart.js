@@ -30,6 +30,8 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
         '._3F0SnUeC_obtI4WyQtijAa'
     ];
     const REFRESH_DEBOUNCE_MS = 250;
+    const CART_REMOVE_TIMEOUT_MS = 15000;
+    const CART_REMOVE_POLL_MS = 250;
 
     if (!window.location.pathname.startsWith(CART_PATH_PREFIX)) return;
 
@@ -424,6 +426,52 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
     function validateCartSync(domCount) {
         const lineItems = getCartLineItems();
         return lineItems.length === domCount;
+    }
+
+    function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
+
+    async function waitForCondition(predicate, timeoutMs, intervalMs) {
+        const startedAt = Date.now();
+        while (Date.now() - startedAt < timeoutMs) {
+            if (predicate()) return true;
+            await sleep(intervalMs);
+        }
+        return predicate();
+    }
+
+    async function removeCartItemsSequentially(itemsToRemove, expectedRemainingCount) {
+        for (let i = itemsToRemove.length - 1; i >= 0; i--) {
+            const target = itemsToRemove[i];
+            const item = target.key
+                ? findCartItems().find(cartItem => getItemKey(cartItem) === target.key)
+                : target.element;
+            if (!item) continue;
+            const removeButton = findRemoveButton(item);
+            if (!removeButton) return false;
+
+            removeButton.click();
+            const removed = await waitForCondition(
+                () => !item.isConnected
+                    || item.offsetParent === null
+                    || (target.key && !findCartItems().some(cartItem => getItemKey(cartItem) === target.key)),
+                CART_REMOVE_TIMEOUT_MS,
+                CART_REMOVE_POLL_MS
+            );
+            if (!removed) return false;
+            await sleep(CART_REMOVE_POLL_MS);
+        }
+
+        const countSettled = await waitForCondition(
+            () => findCartItems().length === expectedRemainingCount,
+            CART_REMOVE_TIMEOUT_MS,
+            CART_REMOVE_POLL_MS
+        );
+        if (!countSettled) return false;
+
+        await sleep(1000);
+        return true;
     }
 
     // ========== Price Handling ==========
@@ -870,11 +918,12 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
             const box = item.querySelector('.kosteam-cart-checkbox');
             const cartInfo = cartInfoMap.get(item);
             const name = extractItemName(item) || `Item ${index + 1}`;
+            const key = getItemKey(item);
 
             if (box?.checked) {
-                checkedItems.push({ element: item, cartInfo, name });
+                checkedItems.push({ element: item, cartInfo, name, key });
             } else {
-                uncheckedItems.push({ element: item, cartInfo, name });
+                uncheckedItems.push({ element: item, cartInfo, name, key });
             }
         });
 
@@ -920,16 +969,16 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
             autoRestore: true
         });
 
-        // DOM에서 미선택 항목 제거
-        for (let i = uncheckedItems.length - 1; i >= 0; i--) {
-            const removeButton = findRemoveButton(uncheckedItems[i].element);
-            removeButton?.click();
+        const removed = await removeCartItemsSequentially(uncheckedItems, checkedItems.length);
+        if (!removed) {
+            if (!DISABLE_CART_DIALOGS) {
+                window.alert('미선택 항목 제거가 완료되지 않았습니다. 장바구니를 새로고침한 뒤 다시 시도해 주세요.');
+            }
+            return;
         }
 
         // 제거 반영 대기 후 결제 페이지로 이동
-        setTimeout(() => {
-            window.location.href = 'https://store.steampowered.com/checkout/';
-        }, 1500);
+        window.location.href = 'https://store.steampowered.com/checkout/';
     }
 
     async function handleSendAllToWishlist(e) {
