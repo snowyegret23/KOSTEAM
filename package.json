@@ -13,6 +13,7 @@
     "merge": "node scripts/merge.js",
     "resolve-links": "node scripts/resolve-links.js",
     "resolve-links:verify": "node scripts/resolve-links.js --verify",
+    "test": "node --test tests/*.test.js",
     "build:data": "npm run scrape:all && npm run merge",
     "build:data:full": "npm run scrape:all && npm run resolve-links && npm run merge",
     "build:ext": "rollup -c",

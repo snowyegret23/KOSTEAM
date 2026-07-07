@@ -4,6 +4,7 @@
  */
 
 import { sendMessage, storageGet } from './shared/api.js';
+import { waitForKeySet, waitForObservedCondition } from './shared/cart_state.js';
 import { MSG_RESTORE_CART } from './shared/constants.js';
 
 (async function () {
@@ -31,7 +32,8 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
     ];
     const REFRESH_DEBOUNCE_MS = 250;
     const CART_REMOVE_TIMEOUT_MS = 15000;
-    const CART_REMOVE_POLL_MS = 250;
+    const CART_KEY_STABLE_MS = 100;
+    const CHECKOUT_READY_STABLE_MS = 100;
 
     if (!window.location.pathname.startsWith(CART_PATH_PREFIX)) return;
 
@@ -428,50 +430,64 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
         return lineItems.length === domCount;
     }
 
-    function sleep(ms) {
-        return new Promise(resolve => setTimeout(resolve, ms));
+    function getCartItemKeys() {
+        return findCartItems()
+            .map(item => getItemKey(item))
+            .filter(Boolean);
     }
 
-    async function waitForCondition(predicate, timeoutMs, intervalMs) {
-        const startedAt = Date.now();
-        while (Date.now() - startedAt < timeoutMs) {
-            if (predicate()) return true;
-            await sleep(intervalMs);
-        }
-        return predicate();
+    function observeCartChanges(callback) {
+        const root = getCartRoot();
+        const cartObserver = new MutationObserver(callback);
+        cartObserver.observe(root, {
+            attributes: true,
+            childList: true,
+            subtree: true
+        });
+        return () => cartObserver.disconnect();
     }
 
-    async function removeCartItemsSequentially(itemsToRemove, expectedRemainingCount) {
+    function waitForCartKeys(expectedKeys, stableMs = CART_KEY_STABLE_MS) {
+        return waitForKeySet({
+            expectedKeys,
+            getCurrentKeys: getCartItemKeys,
+            observe: observeCartChanges,
+            timeoutMs: CART_REMOVE_TIMEOUT_MS,
+            stableMs
+        });
+    }
+
+    async function waitForNativeCheckoutButtonReady() {
+        const ready = await waitForObservedCondition({
+            condition: () => !!findNativeCheckoutButton({ requireReady: true }),
+            observe: observeCartChanges,
+            timeoutMs: CART_REMOVE_TIMEOUT_MS,
+            stableMs: CHECKOUT_READY_STABLE_MS
+        });
+
+        return ready ? findNativeCheckoutButton({ requireReady: true }) : null;
+    }
+
+    async function removeCartItemsSequentially(itemsToRemove, expectedRemainingKeys) {
+        const expectedKeys = new Set(getCartItemKeys());
+
         for (let i = itemsToRemove.length - 1; i >= 0; i--) {
             const target = itemsToRemove[i];
-            const item = target.key
-                ? findCartItems().find(cartItem => getItemKey(cartItem) === target.key)
-                : target.element;
+            if (!target.key) return false;
+
+            const item = findCartItems().find(cartItem => getItemKey(cartItem) === target.key);
+            expectedKeys.delete(target.key);
             if (!item) continue;
+
             const removeButton = findRemoveButton(item);
             if (!removeButton) return false;
 
             removeButton.click();
-            const removed = await waitForCondition(
-                () => !item.isConnected
-                    || item.offsetParent === null
-                    || (target.key && !findCartItems().some(cartItem => getItemKey(cartItem) === target.key)),
-                CART_REMOVE_TIMEOUT_MS,
-                CART_REMOVE_POLL_MS
-            );
+            const removed = await waitForCartKeys(Array.from(expectedKeys), 0);
             if (!removed) return false;
-            await sleep(CART_REMOVE_POLL_MS);
         }
 
-        const countSettled = await waitForCondition(
-            () => findCartItems().length === expectedRemainingCount,
-            CART_REMOVE_TIMEOUT_MS,
-            CART_REMOVE_POLL_MS
-        );
-        if (!countSettled) return false;
-
-        await sleep(1000);
-        return true;
+        return waitForCartKeys(expectedRemainingKeys);
     }
 
     // ========== Price Handling ==========
@@ -888,7 +904,7 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
                 if (!DISABLE_CART_DIALOGS) {
                     window.alert('장바구니에 추가했습니다. 곧 자동 새로고침합니다.');
                 }
-                setTimeout(() => window.location.reload(), 3000);
+                window.location.reload();
             }
         });
 
@@ -944,10 +960,20 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
             return;
         }
 
+        const checkedKeys = checkedItems.map(item => item.key).filter(Boolean);
+        const uncheckedKeys = uncheckedItems.map(item => item.key).filter(Boolean);
+        if (checkedKeys.length !== checkedItems.length || uncheckedKeys.length !== uncheckedItems.length) {
+            if (!DISABLE_CART_DIALOGS) {
+                window.alert('장바구니 항목 식별 정보를 찾을 수 없습니다. 새로고침 후 다시 시도해 주세요.');
+            }
+            return;
+        }
+
         if (uncheckedItems.length === 0) {
-            setTimeout(() => {
-                continueToCheckout();
-            }, 300);
+            const checkoutStarted = await continueToCheckout();
+            if (!checkoutStarted && !DISABLE_CART_DIALOGS) {
+                window.alert('Steam 결제 버튼이 아직 활성화되지 않았습니다. 장바구니 상태를 확인한 뒤 다시 시도해 주세요.');
+            }
             return;
         }
 
@@ -969,7 +995,7 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
             autoRestore: true
         });
 
-        const removed = await removeCartItemsSequentially(uncheckedItems, checkedItems.length);
+        const removed = await removeCartItemsSequentially(uncheckedItems, checkedKeys);
         if (!removed) {
             if (!DISABLE_CART_DIALOGS) {
                 window.alert('미선택 항목 제거가 완료되지 않았습니다. 장바구니를 새로고침한 뒤 다시 시도해 주세요.');
@@ -977,8 +1003,10 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
             return;
         }
 
-        // 제거 반영 대기 후 결제 페이지로 이동
-        continueToCheckout();
+        const checkoutStarted = await continueToCheckout();
+        if (!checkoutStarted && !DISABLE_CART_DIALOGS) {
+            window.alert('Steam 결제 버튼이 아직 활성화되지 않았습니다. 장바구니 상태를 확인한 뒤 다시 시도해 주세요.');
+        }
     }
 
     async function handleSendAllToWishlist(e) {
@@ -1085,26 +1113,37 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
         totalEl.textContent = currency ? `선택 합계: ${formatCurrency(sum, currency)}` : '선택 합계: -';
     }
 
-    function findNativeCheckoutButton() {
+    function isNativeCheckoutButtonReady(button) {
+        return !!button &&
+            !button.disabled &&
+            button.getAttribute('aria-disabled') !== 'true' &&
+            !button.classList.contains('Disabled');
+    }
+
+    function findNativeCheckoutButton(options = {}) {
+        const { requireReady = false } = options;
         const checkoutCandidates = Array.from(document.querySelectorAll('a, button, div[role="button"]')).filter(el => {
             const href = el.getAttribute('href') || '';
             const text = (el.textContent?.trim() || '').toLowerCase();
-            return (href.includes('/checkout') ||
+            const isCheckout = href.includes('/checkout') ||
                 text === '결제 계속하기' ||
-                text === 'continue to payment') && el.offsetParent !== null;
+                text === 'continue to payment';
+            return isCheckout &&
+                el.offsetParent !== null &&
+                (!requireReady || isNativeCheckoutButtonReady(el));
         });
         return checkoutCandidates.sort((a, b) => {
             return b.getBoundingClientRect().x - a.getBoundingClientRect().x;
         })[0] || null;
     }
 
-    function continueToCheckout() {
-        const checkoutBtn = findNativeCheckoutButton();
+    async function continueToCheckout() {
+        const checkoutBtn = await waitForNativeCheckoutButtonReady();
         if (checkoutBtn) {
             checkoutBtn.click();
-            return;
+            return true;
         }
-        window.location.href = 'https://checkout.steampowered.com/checkout/?accountcart=1';
+        return false;
     }
 
     function ensureBuySelectedButton() {
