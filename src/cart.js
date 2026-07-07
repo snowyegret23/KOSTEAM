@@ -946,7 +946,7 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
 
         if (uncheckedItems.length === 0) {
             setTimeout(() => {
-                window.location.href = 'https://store.steampowered.com/checkout/';
+                continueToCheckout();
             }, 300);
             return;
         }
@@ -978,7 +978,7 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
         }
 
         // 제거 반영 대기 후 결제 페이지로 이동
-        window.location.href = 'https://store.steampowered.com/checkout/';
+        continueToCheckout();
     }
 
     async function handleSendAllToWishlist(e) {
@@ -1085,12 +1085,7 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
         totalEl.textContent = currency ? `선택 합계: ${formatCurrency(sum, currency)}` : '선택 합계: -';
     }
 
-    function ensureBuySelectedButton() {
-        const existing = document.querySelector('.kosteam-buy-selected-sidebar');
-        if (existing && !existing.classList.contains('kosteam-cart-btn')) return;
-        if (existing) existing.remove();
-
-        // 사이드바의 "결제 계속하기" 버튼 찾기 (가장 오른쪽에 보이는 것)
+    function findNativeCheckoutButton() {
         const checkoutCandidates = Array.from(document.querySelectorAll('a, button, div[role="button"]')).filter(el => {
             const href = el.getAttribute('href') || '';
             const text = (el.textContent?.trim() || '').toLowerCase();
@@ -1098,9 +1093,27 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
                 text === '결제 계속하기' ||
                 text === 'continue to payment') && el.offsetParent !== null;
         });
-        const checkoutBtn = checkoutCandidates.sort((a, b) => {
+        return checkoutCandidates.sort((a, b) => {
             return b.getBoundingClientRect().x - a.getBoundingClientRect().x;
         })[0] || null;
+    }
+
+    function continueToCheckout() {
+        const checkoutBtn = findNativeCheckoutButton();
+        if (checkoutBtn) {
+            checkoutBtn.click();
+            return;
+        }
+        window.location.href = 'https://checkout.steampowered.com/checkout/?accountcart=1';
+    }
+
+    function ensureBuySelectedButton() {
+        const existing = document.querySelector('.kosteam-buy-selected-sidebar');
+        if (existing && !existing.classList.contains('kosteam-cart-btn')) return;
+        if (existing) existing.remove();
+
+        // 사이드바의 "결제 계속하기" 버튼 찾기 (가장 오른쪽에 보이는 것)
+        const checkoutBtn = findNativeCheckoutButton();
 
         const btn = document.createElement('button');
         btn.type = 'button';
