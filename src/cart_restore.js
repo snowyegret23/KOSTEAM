@@ -33,6 +33,20 @@ import {
         /주문을\s*완료/
     ];
 
+    const CHECKOUT_RECEIPT_SELECTORS = [
+        '#receipt_area',
+        '#receipt_pipeline',
+        '#checkout_logo_receipt'
+    ];
+
+    const CHECKOUT_ACTIVE_SELECTORS = [
+        '#cart_area',
+        '#checkout_pipeline',
+        '#checkout_logo_default',
+        '#review_tab',
+        '#purchase_bottom'
+    ];
+
     function isStorePage() {
         return window.location.hostname === 'store.steampowered.com';
     }
@@ -97,7 +111,25 @@ import {
         return true;
     }
 
+    function isElementVisible(element) {
+        if (!element) return false;
+
+        const style = window.getComputedStyle(element);
+        if (style.display === 'none' || style.visibility === 'hidden' || Number(style.opacity) === 0) {
+            return false;
+        }
+
+        return element.getClientRects().length > 0;
+    }
+
+    function hasVisibleElement(selectors) {
+        return selectors.some(selector => isElementVisible(document.querySelector(selector)));
+    }
+
     function checkoutLooksFinal() {
+        if (hasVisibleElement(CHECKOUT_RECEIPT_SELECTORS)) return true;
+        if (hasVisibleElement(CHECKOUT_ACTIVE_SELECTORS)) return false;
+
         const text = document.body?.innerText || '';
         if (!text) return false;
 
