@@ -11,3 +11,4 @@ dist/
 *.zip
 STEAM_CART_REPORT.md
 nul
+/feedback
