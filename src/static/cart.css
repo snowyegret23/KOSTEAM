@@ -48,6 +48,15 @@
     cursor: not-allowed;
 }
 
+.kosteam-cart-buy-selected-btn {
+    background: #3895EA;
+    color: #ffffff;
+}
+
+.kosteam-cart-buy-selected-btn:hover {
+    background: #5aabf0;
+}
+
 .kosteam-cart-item-btn {
     padding: 5px 8px;
 }
@@ -81,15 +90,35 @@
 }
 
 @media (max-width: 768px) {
-    .kosteam-cart-controls {
-        position: static;
-        margin: 8px 0;
+    .kosteam-cart-item .kosteam-cart-controls {
+        position: absolute;
+        top: 14px;
+        right: auto;
+        left: 14px;
+        flex-direction: column;
+        gap: 4px;
+        min-width: 54px;
+        margin: 0;
+        padding: 8px 6px;
+        text-align: center;
+    }
+
+    .kosteam-cart-item .kosteam-cart-checkbox-label {
+        margin-right: 0;
     }
 
     .kosteam-cart-bar {
         right: 12px;
         left: 12px;
         bottom: 12px;
+        flex-wrap: wrap;
         justify-content: space-between;
     }
+
+    .kosteam-cart-buy-selected-btn {
+        flex: 1 1 100%;
+        min-height: 40px;
+        font-size: 13px;
+    }
+
 }

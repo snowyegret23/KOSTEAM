@@ -3,14 +3,20 @@
  * Adds per-item selection and checkout controls in Steam cart
  */
 
-import { sendMessage, storageGet } from './shared/api.js';
+import { sendMessage, storageGet, storageSet } from './shared/api.js';
 import { waitForKeySet, waitForObservedCondition } from './shared/cart_state.js';
-import { MSG_RESTORE_CART } from './shared/constants.js';
+import {
+    CART_PURCHASE_COMPLETE_KEY,
+    CART_RESTORE_COMPLETE_KEY,
+    MSG_RESTORE_CART,
+    PENDING_CART_RESTORE_KEY
+} from './shared/constants.js';
 
 (async function () {
     const CART_PATH_PREFIX = '/cart';
     const REMOVE_TEXTS = ['remove', '삭제', '제거', '삭제하기'];
     const SNAPSHOT_STORAGE_KEY = 'kosteam_cart_snapshot';
+    const CART_URL = 'https://store.steampowered.com/cart/';
     const RESTORE_SOURCE_TAG = 'main-cluster-topseller';
     const DISABLE_CART_DIALOGS = false;
     const CART_FEATURE_KEY = 'cart_feature_enabled';
@@ -100,6 +106,19 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
         return match ? `${match[1]}:${match[2]}` : null;
     }
 
+    function getItemSelectionKey(item, items = findCartItems()) {
+        const baseKey = getItemKey(item);
+        if (!baseKey) return null;
+
+        let occurrence = 0;
+        for (const currentItem of items) {
+            if (getItemKey(currentItem) !== baseKey) continue;
+            if (currentItem === item) return `${baseKey}::${occurrence}`;
+            occurrence++;
+        }
+        return baseKey;
+    }
+
     function getLineItemId(item) {
         if (!item?.getAttribute) return null;
         const direct = item.getAttribute('data-line-item-id') || item.getAttribute('data-line_item_id');
@@ -151,9 +170,18 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
 
     function looksLikeCartItem(node) {
         if (!node?.querySelector) return false;
-        const links = node.querySelectorAll('a[href*="/app/"], a[href*="/sub/"], a[href*="/bundle/"]');
+        const links = Array.from(node.querySelectorAll('a[href*="/app/"], a[href*="/sub/"], a[href*="/bundle/"]'));
         if (links.length === 0) return false;
-        if (links.length !== 1 && !node.querySelector('a[href*="/sub/"], a[href*="/bundle/"]')) return false;
+        if (links.length !== 1 && !node.querySelector('a[href*="/sub/"], a[href*="/bundle/"]')) {
+            const appKeys = links
+                .map(link => {
+                    const href = link.getAttribute('href') || '';
+                    const match = href.match(/\/app\/(\d+)/);
+                    return match ? `app:${match[1]}` : null;
+                })
+                .filter(Boolean);
+            if (new Set(appKeys).size !== 1) return false;
+        }
         if (!findRemoveButton(node)) return false;
         const text = (node.textContent || '').toLowerCase();
         return text.includes('remove') || text.includes('삭제') || text.includes('제거') || hasPriceText(text);
@@ -469,21 +497,33 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
     }
 
     async function removeCartItemsSequentially(itemsToRemove, expectedRemainingKeys) {
-        const expectedKeys = new Set(getCartItemKeys());
+        const expectedKeys = getCartItemKeys();
 
         for (let i = itemsToRemove.length - 1; i >= 0; i--) {
             const target = itemsToRemove[i];
             if (!target.key) return false;
 
-            const item = findCartItems().find(cartItem => getItemKey(cartItem) === target.key);
-            expectedKeys.delete(target.key);
+            const currentItems = findCartItems();
+            let item = null;
+            if (target.element?.isConnected && currentItems.includes(target.element)) {
+                item = target.element;
+            }
+            if (!item && target.selectionKey) {
+                item = currentItems.find(cartItem => getItemSelectionKey(cartItem, currentItems) === target.selectionKey);
+            }
+            if (!item) {
+                item = currentItems.find(cartItem => getItemKey(cartItem) === target.key);
+            }
+
+            const expectedIndex = expectedKeys.indexOf(target.key);
+            if (expectedIndex >= 0) expectedKeys.splice(expectedIndex, 1);
             if (!item) continue;
 
             const removeButton = findRemoveButton(item);
             if (!removeButton) return false;
 
             removeButton.click();
-            const removed = await waitForCartKeys(Array.from(expectedKeys), 0);
+            const removed = await waitForCartKeys(expectedKeys, 0);
             if (!removed) return false;
         }
 
@@ -670,6 +710,39 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
         localStorage.setItem(SNAPSHOT_STORAGE_KEY, JSON.stringify(snapshot));
     }
 
+    async function savePendingRestore(snapshot) {
+        try {
+            const token = getWebApiToken();
+            await storageSet({
+                [PENDING_CART_RESTORE_KEY]: {
+                    autoRestore: snapshot.autoRestore === true,
+                    removedItems: snapshot.removedItems || [],
+                    removedItemCount: snapshot.removedItems?.length || 0,
+                    token,
+                    sourceTag: RESTORE_SOURCE_TAG,
+                    savedAt: new Date().toISOString(),
+                    cartUrl: CART_URL
+                },
+                [CART_RESTORE_COMPLETE_KEY]: null,
+                [CART_PURCHASE_COMPLETE_KEY]: null
+            });
+        } catch (err) {
+            console.debug('[KOSTEAM] Pending restore save error:', err);
+        }
+    }
+
+    async function clearPendingRestore(markComplete = false) {
+        try {
+            await storageSet({
+                [PENDING_CART_RESTORE_KEY]: null,
+                [CART_RESTORE_COMPLETE_KEY]: markComplete ? new Date().toISOString() : null,
+                [CART_PURCHASE_COMPLETE_KEY]: null
+            });
+        } catch (err) {
+            console.debug('[KOSTEAM] Pending restore clear error:', err);
+        }
+    }
+
     function getSnapshot() {
         try {
             const raw = localStorage.getItem(SNAPSHOT_STORAGE_KEY);
@@ -781,6 +854,7 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
         total.textContent = '선택 합계: -';
 
         // Buttons
+        const buySelectedButton = createButton('선택항목만 구매', 'kosteam-cart-buy-selected-btn');
         const wishlistAllButton = createButton('전부 찜 목록에 추가', 'kosteam-cart-wishlist-all-btn');
         const wishlistSelectedButton = createButton('선택항목을 찜 목록에 추가', 'kosteam-cart-wishlist-selected-btn');
         const jsonButton = createButton('JSON 저장', 'kosteam-cart-json-btn');
@@ -802,6 +876,7 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
             updateSelectAllState();
         });
 
+        buySelectedButton.addEventListener('click', handleBuySelected);
         wishlistAllButton.addEventListener('click', handleSendAllToWishlist);
         wishlistSelectedButton.addEventListener('click', handleSendSelectedToWishlist);
         jsonButton.addEventListener('click', handleJsonExport);
@@ -809,6 +884,7 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
 
         bar.appendChild(label);
         bar.appendChild(total);
+        bar.appendChild(buySelectedButton);
         bar.appendChild(wishlistAllButton);
         bar.appendChild(wishlistSelectedButton);
         bar.appendChild(jsonButton);
@@ -935,11 +1011,12 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
             const cartInfo = cartInfoMap.get(item);
             const name = extractItemName(item) || `Item ${index + 1}`;
             const key = getItemKey(item);
+            const selectionKey = getItemSelectionKey(item, items);
 
             if (box?.checked) {
-                checkedItems.push({ element: item, cartInfo, name, key });
+                checkedItems.push({ element: item, cartInfo, name, key, selectionKey });
             } else {
-                uncheckedItems.push({ element: item, cartInfo, name, key });
+                uncheckedItems.push({ element: item, cartInfo, name, key, selectionKey });
             }
         });
 
@@ -988,12 +1065,13 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
             return;
         }
 
-        // 스냅샷 저장 (자동 복원 플래그 포함)
-        saveSnapshot({
+        const snapshot = {
             removedItems: itemsToRemove,
             savedWithSelection: true,
             autoRestore: true
-        });
+        };
+        saveSnapshot(snapshot);
+        await savePendingRestore(snapshot);
 
         const removed = await removeCartItemsSequentially(uncheckedItems, checkedKeys);
         if (!removed) {
@@ -1165,12 +1243,6 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
             btn.addEventListener('mouseover', () => { btn.style.background = '#5aabf0'; });
             btn.addEventListener('mouseout', () => { btn.style.background = '#3895EA'; });
             checkoutBtn.insertAdjacentElement('afterend', btn);
-        } else {
-            const bar = document.querySelector('.kosteam-cart-bar');
-            if (bar) {
-                btn.className = 'kosteam-buy-selected-sidebar kosteam-cart-btn';
-                bar.appendChild(btn);
-            }
         }
     }
 
@@ -1200,7 +1272,7 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
             label.textContent = '선택';
             label.className = 'kosteam-cart-checkbox-label';
 
-            const key = getItemKey(item);
+            const key = getItemSelectionKey(item, items);
             if (key && selectedKeys.has(key)) checkbox.checked = true;
 
             getItemPrice(item); // Cache price
@@ -1225,14 +1297,44 @@ import { MSG_RESTORE_CART } from './shared/constants.js';
 
     async function tryAutoRestore() {
         const snapshot = getSnapshot();
-        if (!snapshot?.autoRestore || !snapshot.removedItems?.length) return;
+        let restoreState = {};
+        try {
+            restoreState = await storageGet([
+                PENDING_CART_RESTORE_KEY,
+                CART_RESTORE_COMPLETE_KEY,
+                CART_PURCHASE_COMPLETE_KEY
+            ]);
+        } catch (err) {
+            console.debug('[KOSTEAM] Pending restore state read error:', err);
+        }
 
-        console.log('[KOSTEAM] Auto-restoring', snapshot.removedItems.length, 'items');
+        if (restoreState[CART_RESTORE_COMPLETE_KEY]) {
+            localStorage.removeItem(SNAPSHOT_STORAGE_KEY);
+            await clearPendingRestore();
+            return;
+        }
 
-        const result = await restoreItemsToCart(snapshot.removedItems);
-        localStorage.removeItem(SNAPSHOT_STORAGE_KEY);
+        const pending = restoreState[PENDING_CART_RESTORE_KEY];
+        if (!restoreState[CART_PURCHASE_COMPLETE_KEY]) {
+            return;
+        }
+
+        const restoreItems = snapshot?.removedItems?.length
+            ? snapshot.removedItems
+            : (Array.isArray(pending?.removedItems) ? pending.removedItems : []);
+        const shouldAutoRestore = (snapshot?.autoRestore === true || pending?.autoRestore === true) && restoreItems.length > 0;
+
+        if (!shouldAutoRestore) {
+            return;
+        }
+
+        console.log('[KOSTEAM] Auto-restoring', restoreItems.length, 'items');
+
+        const result = await restoreItemsToCart(restoreItems);
 
         if (result?.success) {
+            localStorage.removeItem(SNAPSHOT_STORAGE_KEY);
+            await clearPendingRestore(true);
             // 복원 성공 → 조용히 새로고침 (API 결과를 DOM에 반영하려면 필요)
             window.location.reload();
         } else {

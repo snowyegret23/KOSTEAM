@@ -1,11 +1,19 @@
 export function keySetsEqual(actualKeys, expectedKeys) {
-    const actual = new Set(actualKeys.filter(Boolean));
-    const expected = new Set(expectedKeys.filter(Boolean));
+    const actual = countKeys(actualKeys);
+    const expected = countKeys(expectedKeys);
     if (actual.size !== expected.size) return false;
-    for (const key of expected) {
-        if (!actual.has(key)) return false;
+    for (const [key, count] of expected) {
+        if (actual.get(key) !== count) return false;
     }
     return true;
+}
+
+function countKeys(keys) {
+    const counts = new Map();
+    for (const key of keys.filter(Boolean)) {
+        counts.set(key, (counts.get(key) || 0) + 1);
+    }
+    return counts;
 }
 
 export function waitForObservedCondition(options) {

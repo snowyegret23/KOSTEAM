@@ -8,6 +8,7 @@
   ],
   "host_permissions": [
     "https://store.steampowered.com/*",
+    "https://checkout.steampowered.com/*",
     "https://api.steampowered.com/*",
     "https://steamcommunity.com/*",
     "https://raw.githubusercontent.com/snowyegret23/KOSTEAM/*"
@@ -41,6 +42,16 @@
       ],
       "css": [
         "cart.css"
+      ],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": [
+        "https://store.steampowered.com/*",
+        "https://checkout.steampowered.com/checkout*"
+      ],
+      "js": [
+        "cart_restore.js"
       ],
       "run_at": "document_idle"
     },
