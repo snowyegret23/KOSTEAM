@@ -3,7 +3,7 @@
   "curator_name": "Curator #42788178",
   "curator_url": "https://store.steampowered.com/curator/42788178/",
   "total_games": 1832,
-  "exported_at": "2026-07-05T21:57:40.012770",
+  "exported_at": "2026-07-08T22:01:52.087807",
   "games": [
     {
       "appid": "400170",
@@ -1440,9 +1440,9 @@
       "appid": "603960",
       "url": "https://store.steampowered.com/app/603960/Star_of_Providence/",
       "curator_url": "https://store.steampowered.com/app/603960/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - flameblast12",
+      "review": "한글 패치\n한글 패치 - flameblast12",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -2151,9 +2151,9 @@
       "appid": "3167180",
       "url": "https://store.steampowered.com/app/3167180/Hello_Love_18_Again/",
       "curator_url": "https://store.steampowered.com/app/3167180/?curator_clanid=42788178",
-      "review": "번역 개선 패치 - 미인이많군요 님",
+      "review": "번역 개선 패치 - 미인이많군요 님\n번역 개선 패치 - andrea",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -3312,7 +3312,7 @@
       "appid": "2826800",
       "url": "https://store.steampowered.com/app/2826800/Amanda_the_Adventurer_2/",
       "curator_url": "https://store.steampowered.com/app/2826800/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 수나이스\n유저 한글 패치 - 으잌㉪\n유저 한글 패치 - 한무테",
+      "review": "한글 패치 - 으잌\n한글 패치 - 수나이스\n한글 패치 - 한무테",
       "review_has_url": true,
       "review_url_count": 3,
       "type": "recommended"
@@ -12285,7 +12285,7 @@
       "appid": "590380",
       "url": "https://store.steampowered.com/app/590380/Into_the_Breach/",
       "curator_url": "https://store.steampowered.com/app/590380/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - marona42\n유저 한글 패치 - Team.SM",
+      "review": "한글 패치 - marona42\n한글 패치 - Team.SM",
       "review_has_url": true,
       "review_url_count": 2,
       "type": "recommended"
@@ -15957,7 +15957,7 @@
       "appid": "250900",
       "url": "https://store.steampowered.com/app/250900/The_Binding_of_Isaac_Rebirth/",
       "curator_url": "https://store.steampowered.com/app/250900/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - Team.SM\n유저 한글 패치 - 이강현",
+      "review": "한글 패치 - Team.SM\n한글 패치 - 이강현",
       "review_has_url": true,
       "review_url_count": 2,
       "type": "recommended"
