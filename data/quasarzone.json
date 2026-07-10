@@ -2,9 +2,45 @@
   "curator_id": 30894603,
   "curator_name": "Curator #30894603",
   "curator_url": "https://store.steampowered.com/curator/30894603/",
-  "total_games": 972,
-  "exported_at": "2026-07-08T22:02:05.495055",
+  "total_games": 976,
+  "exported_at": "2026-07-10T21:57:23.910958",
   "games": [
+    {
+      "appid": "1224290",
+      "url": "https://store.steampowered.com/app/1224290/Horizons_Gate/",
+      "curator_url": "https://store.steampowered.com/app/1224290/?curator_clanid=30894603",
+      "review": "한글 패치 - 뇸뇸",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "4634490",
+      "url": "https://store.steampowered.com/app/4634490/Master_Healer_Kale_with_useless_party/",
+      "curator_url": "https://store.steampowered.com/app/4634490/?curator_clanid=30894603",
+      "review": "한글 패치 - B0614",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "4093240",
+      "url": "https://store.steampowered.com/app/4093240/Tokyo_Valkyries/",
+      "curator_url": "https://store.steampowered.com/app/4093240/?curator_clanid=30894603",
+      "review": "한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "2871440",
+      "url": "https://store.steampowered.com/app/2871440/Squeakross_Home_Squeak_Home/",
+      "curator_url": "https://store.steampowered.com/app/2871440/?curator_clanid=30894603",
+      "review": "한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
     {
       "appid": "1118520",
       "url": "https://store.steampowered.com/app/1118520/Paralives/",
@@ -7515,9 +7551,9 @@
       "appid": "1437760",
       "url": "https://store.steampowered.com/app/1437760/Peripeteia/",
       "curator_url": "https://store.steampowered.com/app/1437760/?curator_clanid=30894603",
-      "review": "유저 한글 패치 - 한무테",
+      "review": "한글 패치 \n한글 패치 - 한무테",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {

@@ -28694,7 +28694,7 @@
     ],
     "patch_descriptions": [
       "제작자 : 한무테",
-      "유저 한글 패치 - 한무테"
+      "한글 패치 - 김까까\n한글 패치 - 한무테"
     ],
     "patch_sources": [
       "steamapp",
@@ -34830,6 +34830,24 @@
       "steamapp": "https://hanpe.net/app/jn07rn/a-way-out"
     }
   },
+  "1224290": {
+    "type": "user",
+    "sources": [
+      "quasarplay"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "한글 패치 - 뇸뇸"
+    ],
+    "patch_sources": [
+      "quasarplay"
+    ],
+    "source_site_urls": {
+      "quasarplay": "https://store.steampowered.com/app/1224290/?curator_clanid=30894603"
+    }
+  },
   "1224700": {
     "type": "user",
     "sources": [
@@ -39022,7 +39040,7 @@
       "exist"
     ],
     "patch_descriptions": [
-      "유저 한글 패치 - 한무테"
+      "한글 패치 \n한글 패치 - 한무테"
     ],
     "patch_sources": [
       "quasarplay"
@@ -61023,6 +61041,24 @@
       "quasarplay": "https://store.steampowered.com/app/2871140/?curator_clanid=30894603"
     }
   },
+  "2871440": {
+    "type": "user",
+    "sources": [
+      "quasarplay"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "한글 패치 - 한무테"
+    ],
+    "patch_sources": [
+      "quasarplay"
+    ],
+    "source_site_urls": {
+      "quasarplay": "https://store.steampowered.com/app/2871440/?curator_clanid=30894603"
+    }
+  },
   "2872930": {
     "type": "user",
     "sources": [
@@ -72005,6 +72041,24 @@
       "quasarplay": "https://store.steampowered.com/app/4083190/?curator_clanid=30894603"
     }
   },
+  "4093240": {
+    "type": "user",
+    "sources": [
+      "quasarplay"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "한글 패치 - 한무테"
+    ],
+    "patch_sources": [
+      "quasarplay"
+    ],
+    "source_site_urls": {
+      "quasarplay": "https://store.steampowered.com/app/4093240/?curator_clanid=30894603"
+    }
+  },
   "4093970": {
     "type": "user",
     "sources": [
@@ -73060,6 +73114,24 @@
       "quasarplay": "https://store.steampowered.com/app/4630570/?curator_clanid=30894603"
     }
   },
+  "4634490": {
+    "type": "user",
+    "sources": [
+      "quasarplay"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "한글 패치 - B0614"
+    ],
+    "patch_sources": [
+      "quasarplay"
+    ],
+    "source_site_urls": {
+      "quasarplay": "https://store.steampowered.com/app/4634490/?curator_clanid=30894603"
+    }
+  },
   "4635840": {
     "type": "user",
     "sources": [
@@ -73192,7 +73264,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-07-08T22:02:25.723Z",
-    "total": 3396
+    "generated_at": "2026-07-10T21:57:45.450Z",
+    "total": 3400
   }
 }

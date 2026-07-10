@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-07-08T22:02:25.723Z",
-    "total_with_steam_link": 3396,
+    "generated_at": "2026-07-10T21:57:45.450Z",
+    "total_with_steam_link": 3400,
     "total_without_steam_link": 8,
     "sources": [
       "steamapp",
@@ -12,6 +12,90 @@
     ]
   },
   "games": [
+    {
+      "app_id": "1224290",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/1224290/Horizons_Gate/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "한글 패치 - 뇸뇸"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/1224290/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "4634490",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/4634490/Master_Healer_Kale_with_useless_party/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "한글 패치 - B0614"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/4634490/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "4093240",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/4093240/Tokyo_Valkyries/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/4093240/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2871440",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/2871440/Squeakross_Home_Squeak_Home/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/2871440/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
     {
       "app_id": "1118520",
       "game_title": "",
@@ -8846,7 +8930,7 @@
         "exist"
       ],
       "patch_descriptions": [
-        "유저 한글 패치 - 한무테"
+        "한글 패치 \n한글 패치 - 한무테"
       ],
       "patch_sources": [
         "quasarplay"
@@ -31107,7 +31191,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 한무테",
-        "유저 한글 패치 - 한무테"
+        "한글 패치 - 김까까\n한글 패치 - 한무테"
       ],
       "patch_sources": [
         "steamapp",

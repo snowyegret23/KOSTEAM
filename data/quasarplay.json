@@ -3,7 +3,7 @@
   "curator_name": "Curator #42788178",
   "curator_url": "https://store.steampowered.com/curator/42788178/",
   "total_games": 1832,
-  "exported_at": "2026-07-08T22:01:52.087807",
+  "exported_at": "2026-07-10T21:57:09.681639",
   "games": [
     {
       "appid": "400170",
@@ -702,9 +702,9 @@
       "appid": "945710",
       "url": "https://store.steampowered.com/app/945710/DreadOut_2/",
       "curator_url": "https://store.steampowered.com/app/945710/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 한무테",
+      "review": "한글 패치 - 김까까\n한글 패치 - 한무테",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
