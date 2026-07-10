@@ -1,24 +1,22 @@
 {
   "manifest_version": 3,
   "name": "KOSTEAM",
-  "version": "1.6.3",
+  "version": "1.6.4",
+  "minimum_chrome_version": "102",
   "description": "Steam 상점 페이지에서 한국어 패치 정보를 확인하세요",
   "permissions": [
-    "storage"
+    "storage",
+    "alarms"
   ],
   "host_permissions": [
-    "https://store.steampowered.com/*",
-    "https://checkout.steampowered.com/*",
     "https://api.steampowered.com/*",
-    "https://steamcommunity.com/*",
     "https://raw.githubusercontent.com/snowyegret23/KOSTEAM/*"
   ],
   "background": {
-    "service_worker": "background.js",
-    "type": "module"
+    "service_worker": "background.js"
   },
   "content_security_policy": {
-    "extension_pages": "script-src 'self'; object-src 'self'"
+    "extension_pages": "script-src 'self'; object-src 'none'"
   },
   "content_scripts": [
     {

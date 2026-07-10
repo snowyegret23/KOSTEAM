@@ -3,7 +3,6 @@
  * Builds for both Chrome and Firefox from shared source
  */
 
-import { nodeResolve } from '@rollup/plugin-node-resolve';
 import terser from '@rollup/plugin-terser';
 import copy from 'rollup-plugin-copy';
 
@@ -29,7 +28,6 @@ function createConfig(browser) {
             sourcemap: !isProduction
         },
         plugins: [
-            nodeResolve(),
             isProduction && terser({
                 format: {
                     comments: false

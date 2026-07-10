@@ -13,27 +13,36 @@ on:
           - chrome
           - firefox
 
+permissions:
+  contents: read
+
 jobs:
   deploy-store:
     runs-on: ubuntu-latest
     steps:
       - name: Download Latest Release Assets
-        uses: robinraju/release-downloader@v1.13
+        id: release
+        uses: robinraju/release-downloader@28fc21f50d76778e7023361aa1f863e717d3d56f # v1.13
         with:
           latest: true
-          fileName: "*.zip"
-          
+          fileName: "*"
+
+      - name: Verify Release Asset Checksums
+        run: sha256sum --check SHA256SUMS
+
       - name: Identify Extension Files
         id: files
+        env:
+          RELEASE_TAG: ${{ steps.release.outputs.tag_name }}
         run: |
-          CHROME_FILE=$(find . -maxdepth 1 -name "*chrome*.zip" | head -n 1)
-          FIREFOX_FILE=$(find . -maxdepth 1 -name "*firefox*.zip" | head -n 1)
+          CHROME_FILE="kosteam-chrome-${RELEASE_TAG}.zip"
+          FIREFOX_FILE="kosteam-firefox-${RELEASE_TAG}.zip"
           
           echo "Found Chrome File: $CHROME_FILE"
           echo "Found Firefox File: $FIREFOX_FILE"
           
           if [[ "${{ github.event.inputs.target }}" == "both" || "${{ github.event.inputs.target }}" == "chrome" ]]; then
-            if [ -z "$CHROME_FILE" ]; then
+            if [ ! -f "$CHROME_FILE" ]; then
               echo "Error: Chrome extension file not found."
               exit 1
             fi
@@ -41,7 +50,7 @@ jobs:
           fi
           
           if [[ "${{ github.event.inputs.target }}" == "both" || "${{ github.event.inputs.target }}" == "firefox" ]]; then
-            if [ -z "$FIREFOX_FILE" ]; then
+            if [ ! -f "$FIREFOX_FILE" ]; then
               echo "Error: Firefox extension file not found."
               exit 1
             fi
@@ -50,7 +59,7 @@ jobs:
 
       - name: Upload to Chrome Web Store
         if: github.event.inputs.target == 'both' || github.event.inputs.target == 'chrome'
-        uses: mnao305/chrome-extension-upload@v6.0.0
+        uses: mnao305/chrome-extension-upload@fdfe79400af990f5145a319e834aee64907ccff4 # v6.0.0
         with:
           file-path: ${{ steps.files.outputs.chrome_path }}
           extension-id: ${{ secrets.EXTENSION_ID }}
@@ -61,10 +70,9 @@ jobs:
 
       - name: Sign & Upload to Firefox Add-ons
         if: github.event.inputs.target == 'both' || github.event.inputs.target == 'firefox'
-        uses: wdzeng/firefox-addon@v1
+        uses: wdzeng/firefox-addon@3184ee491b500e080885e046051366a4228c6e5d # v1
         with:
           addon-guid: 'alevo0918@gmail.com'
           xpi-path: ${{ steps.files.outputs.firefox_path }}
           jwt-issuer: ${{ secrets.FIREFOX_JWT_ISSUER }}
           jwt-secret: ${{ secrets.FIREFOX_JWT_SECRET }}
-          channel: listed

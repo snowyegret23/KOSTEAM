@@ -1,5 +1,6 @@
 import fs from 'fs/promises';
 import path from 'path';
+import { createHash } from 'crypto';
 import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -87,9 +88,10 @@ async function main() {
   console.log('Merging data from all sources...');
   const ALIAS_FILE = path.join(DATA_DIR, 'alias.json');
   let alias = {};
+  let aliasContent = null;
   try {
-    const aliasContent = await fs.readFile(ALIAS_FILE, 'utf-8');
-    alias = JSON.parse(aliasContent);
+    alias = JSON.parse(await fs.readFile(ALIAS_FILE, 'utf-8'));
+    aliasContent = JSON.stringify(alias, null, 2);
     console.log(`Loaded ${Object.keys(alias).length} aliases from alias.json`);
   } catch (err) {
     console.log('No alias.json found, skipping alias normalization.');
@@ -262,8 +264,16 @@ async function main() {
   }
 
   const lookupPath = path.join(DATA_DIR, 'lookup.json');
-  await fs.writeFile(lookupPath, JSON.stringify(lookupByAppId, null, 2), 'utf-8');
+  const lookupContent = JSON.stringify(lookupByAppId, null, 2);
+  await fs.writeFile(lookupPath, lookupContent, 'utf-8');
   console.log(`Lookup table saved to ${lookupPath} (Games: ${withSteamLink.length})`);
+
+  const lookupSha256 = createHash('sha256').update(lookupContent, 'utf-8').digest('hex');
+  const lookupSize = Buffer.byteLength(lookupContent, 'utf-8');
+  const aliasSha256 = aliasContent === null
+    ? null
+    : createHash('sha256').update(aliasContent, 'utf-8').digest('hex');
+  const aliasSize = aliasContent === null ? null : Buffer.byteLength(aliasContent, 'utf-8');
 
   let aliasUpdatedAt = null;
   try {
@@ -281,7 +291,11 @@ async function main() {
     generated_at: generatedAt,
     total: withSteamLink.length,
     alias_updated_at: aliasUpdatedAt,
-    hanpe_last_modified: hanpeLastModified
+    hanpe_last_modified: hanpeLastModified,
+    lookup_sha256: lookupSha256,
+    lookup_size: lookupSize,
+    alias_sha256: aliasSha256,
+    alias_size: aliasSize
   };
 
   const versionPath = path.join(DATA_DIR, 'version.json');

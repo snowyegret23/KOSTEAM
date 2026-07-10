@@ -3,9 +3,22 @@
  * Manages extension popup UI and user settings
  */
 
-import { sendMessage, storageGet, storageSet } from './shared/api.js';
+import {
+    permissionsGetAll,
+    permissionsRequest,
+    sendMessage,
+    storageGet,
+    storageSet
+} from './shared/api.js';
 import { formatTimeAgo } from './shared/time-utils.js';
-import { CACHE_KEY, MSG_CHECK_UPDATE_STATUS, MSG_REFRESH_DATA } from './shared/constants.js';
+import {
+    CACHE_KEY,
+    CART_DATA_PERMISSIONS,
+    CART_FEATURE_KEY,
+    MSG_CHECK_UPDATE_STATUS,
+    MSG_REFRESH_DATA,
+    MSG_SET_CART_FEATURE
+} from './shared/constants.js';
 
 document.addEventListener('DOMContentLoaded', async () => {
     // DOM element references
@@ -21,6 +34,26 @@ document.addEventListener('DOMContentLoaded', async () => {
     const bypassCheckbox = document.getElementById('bypass_language_filter');
     const cartFeatureCheckbox = document.getElementById('cart_feature_enabled');
     const disablePatchCheckbox = document.getElementById('disable_patch_info');
+    let cartDataPermissionSupported = false;
+
+    async function getCartDataPermissionStatus() {
+        const permissions = await permissionsGetAll();
+        if (!permissions || !Object.prototype.hasOwnProperty.call(permissions, 'data_collection')) {
+            return { supported: false, granted: true };
+        }
+        return {
+            supported: true,
+            granted: Array.isArray(permissions.data_collection) &&
+                CART_DATA_PERMISSIONS.every(permission => permissions.data_collection.includes(permission))
+        };
+    }
+
+    async function disableCartFeature() {
+        cartFeatureCheckbox.checked = false;
+        const response = await sendMessage({ type: MSG_SET_CART_FEATURE, enabled: false });
+        if (!response?.success) throw new Error(response?.error || 'Failed to disable cart feature');
+        return response.preserved === true;
+    }
 
     /**
      * Load and display game count statistics
@@ -104,7 +137,7 @@ document.addEventListener('DOMContentLoaded', async () => {
      */
     async function loadSettings() {
         try {
-            const settings = await storageGet([...sourceIds, 'bypass_language_filter', 'cart_feature_enabled', 'disable_patch_info']);
+            const settings = await storageGet([...sourceIds, 'bypass_language_filter', CART_FEATURE_KEY, 'disable_patch_info']);
 
             // Initialize source checkboxes
             sources.forEach(checkbox => {
@@ -126,9 +159,52 @@ document.addEventListener('DOMContentLoaded', async () => {
             }
 
             if (cartFeatureCheckbox) {
-                cartFeatureCheckbox.checked = settings.cart_feature_enabled !== false;
-                cartFeatureCheckbox.addEventListener('change', () => {
-                    storageSet({ cart_feature_enabled: cartFeatureCheckbox.checked });
+                const permissionStatus = await getCartDataPermissionStatus();
+                cartDataPermissionSupported = permissionStatus.supported;
+                cartFeatureCheckbox.checked = settings[CART_FEATURE_KEY] === true && permissionStatus.granted;
+
+                if (settings[CART_FEATURE_KEY] === true && !permissionStatus.granted) {
+                    await disableCartFeature();
+                }
+
+                cartFeatureCheckbox.addEventListener('change', async () => {
+                    cartFeatureCheckbox.disabled = true;
+                    try {
+                        if (!cartFeatureCheckbox.checked) {
+                            const preserved = await disableCartFeature();
+                            if (preserved) {
+                                statusEl.textContent = '복원 대기 중인 상품 ID는 보존했습니다. 다시 활성화한 뒤 Steam 장바구니에서 복원할 수 있습니다.';
+                                statusEl.className = 'status error';
+                            }
+                            return;
+                        }
+
+                        const granted = !cartDataPermissionSupported || await permissionsRequest({
+                            data_collection: [...CART_DATA_PERMISSIONS]
+                        });
+                        if (!granted) {
+                            await disableCartFeature();
+                            statusEl.textContent = '장바구니 기능을 사용하려면 Steam 장바구니 데이터 전송 권한이 필요합니다.';
+                            statusEl.className = 'status error';
+                            return;
+                        }
+
+                        const response = await sendMessage({ type: MSG_SET_CART_FEATURE, enabled: true });
+                        if (!response?.success) throw new Error(response?.error || 'Failed to enable cart feature');
+                        statusEl.textContent = '';
+                        statusEl.className = 'status';
+                    } catch (err) {
+                        console.error('[KOSTEAM] Failed to update cart feature:', err);
+                        try {
+                            await disableCartFeature();
+                        } catch (clearErr) {
+                            console.error('[KOSTEAM] Failed to clear cart restore state:', clearErr);
+                        }
+                        statusEl.textContent = '장바구니 기능 설정을 변경하지 못했습니다.';
+                        statusEl.className = 'status error';
+                    } finally {
+                        cartFeatureCheckbox.disabled = false;
+                    }
                 });
             }
 

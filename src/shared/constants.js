@@ -10,16 +10,24 @@ export const CACHE_ALIAS_KEY = 'kr_patch_alias';
 export const CACHE_VERSION_KEY = 'kr_patch_version';
 export const LAST_UPDATE_CHECK_KEY = 'kr_last_update_check';
 export const PENDING_CART_RESTORE_KEY = 'kosteam_pending_cart_restore';
-export const CART_RESTORE_COMPLETE_KEY = 'kosteam_restore_completed_at';
+export const CART_RESTORE_SECRET_KEY = 'kosteam_pending_cart_restore_secret';
+export const CART_RESTORE_EXPIRY_ALARM = 'kosteam_cart_restore_expiry';
 export const CART_PURCHASE_COMPLETE_KEY = 'kosteam_purchase_completed_at';
 
 // Time constants
 export const UPDATE_INTERVAL_MINUTES = 30;
-export const MS_PER_SECOND = 1000;
 export const MS_PER_MINUTE = 60000;
 export const MS_PER_HOUR = 3600000;
 export const MS_PER_DAY = 86400000;
 export const MS_PER_WEEK = 604800000;
+export const CART_RESTORE_SECRET_TTL_MS = 30 * MS_PER_MINUTE;
+export const CART_FEATURE_KEY = 'cart_feature_enabled';
+export const CART_DATA_PERMISSIONS = Object.freeze([
+    'authenticationInfo',
+    'locationInfo',
+    'websiteContent',
+    'websiteActivity'
+]);
 
 // Default settings
 export const DEFAULT_SETTINGS = {
@@ -56,6 +64,13 @@ export const MSG_GET_PATCH_INFO = 'GET_PATCH_INFO';
 export const MSG_REFRESH_DATA = 'REFRESH_DATA';
 export const MSG_CHECK_UPDATE_STATUS = 'CHECK_UPDATE_STATUS';
 export const MSG_RESTORE_CART = 'RESTORE_CART';
+export const MSG_SAVE_CART_RESTORE = 'SAVE_CART_RESTORE';
+export const MSG_RESTORE_PENDING_CART = 'RESTORE_PENDING_CART';
+export const MSG_RECOVER_CART = 'RECOVER_CART';
+export const MSG_MARK_CART_CHECKOUT_STARTED = 'MARK_CART_CHECKOUT_STARTED';
+export const MSG_MARK_CART_PURCHASE_COMPLETE = 'MARK_CART_PURCHASE_COMPLETE';
+export const MSG_CLEAR_CART_RESTORE = 'CLEAR_CART_RESTORE';
+export const MSG_SET_CART_FEATURE = 'SET_CART_FEATURE';
 
 // Korean language labels for detection
 export const KOREAN_LABELS = ['Korean', '한국어'];
@@ -68,10 +83,3 @@ export const UI_STRINGS = {
     NO_PATCH_INFO_TEXT: '현재 데이터베이스에 등록된 한국어 관련 정보가 없습니다.',
     NO_LINK_TEXT: '패치 정보 사이트로 연결되는 링크를 찾을 수 없습니다.'
 };
-
-// Retry configuration for search bypass
-export const SEARCH_BYPASS_RETRY_DELAY_MS = 100;
-
-// Content script timing constants
-export const CURATOR_SCROLL_TIMEOUT_MS = 5000;
-export const LANGUAGE_TABLE_WATCH_TIMEOUT_MS = 10000;

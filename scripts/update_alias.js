@@ -1,5 +1,6 @@
 import fs from 'fs/promises';
 import path from 'path';
+import { createHash } from 'crypto';
 import { fileURLToPath } from 'url';
 import { resolveUrl, extractSteamAppId, isIgnoredRedirect } from './resolve-links.js';
 
@@ -65,7 +66,8 @@ async function main() {
         await delay(REQUEST_DELAY);
     }
 
-    await fs.writeFile(ALIAS_FILE, JSON.stringify(newAlias, null, 2), 'utf-8');
+    const aliasContent = JSON.stringify(newAlias, null, 2);
+    await fs.writeFile(ALIAS_FILE, aliasContent, 'utf-8');
     console.log(`\nSaved ${Object.keys(newAlias).length} aliases to ${ALIAS_FILE}`);
 
     let versionInfo = {};
@@ -75,6 +77,8 @@ async function main() {
     } catch (err) { }
 
     versionInfo.alias_updated_at = new Date().toISOString();
+    versionInfo.alias_sha256 = createHash('sha256').update(aliasContent, 'utf-8').digest('hex');
+    versionInfo.alias_size = Buffer.byteLength(aliasContent, 'utf-8');
     await fs.writeFile(VERSION_FILE, JSON.stringify(versionInfo, null, 2), 'utf-8');
     console.log(`Updated version.json with alias_updated_at`);
 

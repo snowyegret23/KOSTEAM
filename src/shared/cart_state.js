@@ -20,51 +20,25 @@ export function waitForObservedCondition(options) {
     const {
         condition,
         observe,
-        timeoutMs,
-        stableMs = 0
+        timeoutMs
     } = options;
 
     return new Promise(resolve => {
         let done = false;
-        let stableTimer = null;
         let timeoutTimer = null;
         let disconnect = null;
 
         const finish = value => {
             if (done) return;
             done = true;
-            if (stableTimer) clearTimeout(stableTimer);
             if (timeoutTimer) clearTimeout(timeoutTimer);
             if (disconnect) disconnect();
             resolve(value);
         };
 
-        const clearStableTimer = () => {
-            if (!stableTimer) return;
-            clearTimeout(stableTimer);
-            stableTimer = null;
-        };
-
         const check = () => {
             if (done) return;
-            if (!condition()) {
-                clearStableTimer();
-                return;
-            }
-            if (stableMs <= 0) {
-                finish(true);
-                return;
-            }
-            if (!stableTimer) {
-                stableTimer = setTimeout(() => {
-                    stableTimer = null;
-                    if (condition()) {
-                        finish(true);
-                    } else {
-                        check();
-                    }
-                }, stableMs);
-            }
+            if (condition()) finish(true);
         };
 
         disconnect = observe(check);
@@ -78,14 +52,12 @@ export function waitForKeySet(options) {
         expectedKeys,
         getCurrentKeys,
         observe,
-        timeoutMs,
-        stableMs = 0
+        timeoutMs
     } = options;
 
     return waitForObservedCondition({
         condition: () => keySetsEqual(getCurrentKeys(), expectedKeys),
         observe,
-        timeoutMs,
-        stableMs
+        timeoutMs
     });
 }

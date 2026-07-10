@@ -2,12 +2,6 @@ name: Publish extension
 
 on:
   workflow_dispatch:
-    inputs:
-      force_release:
-        description: '태그가 존재해도 강제로 릴리즈 수행'
-        required: false
-        default: false
-        type: boolean
 
 jobs:
   publish:
@@ -15,10 +9,13 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7
+        with:
+          fetch-tags: true
+          persist-credentials: false
 
       - name: Setup Node
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e # v6
         with:
           node-version: '24'
           cache: 'npm'
@@ -39,11 +36,7 @@ jobs:
         id: tag_check
         run: |
           TAG_NAME="v${{ env.VERSION }}"
-          # Check if manual trigger and force_release is true
-          if [ "${{ github.event_name }}" == "workflow_dispatch" ] && [ "${{ inputs.force_release }}" == "true" ]; then
-            echo "exists=false" >> $GITHUB_OUTPUT
-            echo "Force release requested via manual trigger."
-          elif git fetch origin tag "$TAG_NAME" --no-tags --quiet 2>/dev/null; then
+          if git show-ref --verify --quiet "refs/tags/$TAG_NAME"; then
             echo "exists=true" >> $GITHUB_OUTPUT
             echo "Tag $TAG_NAME already exists. Skipping release."
           else
@@ -56,13 +49,16 @@ jobs:
         run: |
           (cd dist/chrome && zip -r ../../kosteam-chrome-v${{ env.VERSION }}.zip .)
           (cd dist/firefox && zip -r ../../kosteam-firefox-v${{ env.VERSION }}.zip .)
+          sha256sum kosteam-chrome-v${{ env.VERSION }}.zip kosteam-firefox-v${{ env.VERSION }}.zip > SHA256SUMS
 
       - name: Create GitHub release and upload zips
         if: steps.tag_check.outputs.exists == 'false'
-        uses: ncipollo/release-action@v1
+        uses: ncipollo/release-action@339a81892b84b4eeb0f6e744e4574d79d0d9b8dd # v1
         with:
           tag: v${{ env.VERSION }}
-          allowUpdates: true
-          artifacts: "kosteam-chrome-v${{ env.VERSION }}.zip,kosteam-firefox-v${{ env.VERSION }}.zip"
+          commit: ${{ github.sha }}
+          artifactErrorsFailBuild: true
+          artifacts: "kosteam-chrome-v${{ env.VERSION }}.zip,kosteam-firefox-v${{ env.VERSION }}.zip,SHA256SUMS"
+          immutableCreate: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

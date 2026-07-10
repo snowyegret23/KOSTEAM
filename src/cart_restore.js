@@ -1,105 +1,55 @@
-import { sendMessage, storageGet, storageSet } from './shared/api.js';
+import { sendMessage, storageGet } from './shared/api.js';
+import { isConfirmedCheckoutReceipt } from './shared/checkout-receipt.js';
 import {
     CART_PURCHASE_COMPLETE_KEY,
-    CART_RESTORE_COMPLETE_KEY,
-    MSG_RESTORE_CART,
+    MSG_MARK_CART_PURCHASE_COMPLETE,
+    MSG_RESTORE_PENDING_CART,
     PENDING_CART_RESTORE_KEY
 } from './shared/constants.js';
 
 (async function () {
-    const SNAPSHOT_STORAGE_KEY = 'kosteam_cart_snapshot';
-    const FINAL_CHECK_INTERVAL_MS = 1000;
-    const FINAL_CHECK_TIMEOUT_MS = 120000;
-
-    const CHECKOUT_FINAL_PATTERNS = [
-        /purchase\s+complete/i,
-        /thank\s+you\s+for\s+your\s+purchase/i,
-        /your\s+purchase\s+has\s+been\s+completed/i,
-        /receipt/i,
-        /구매\s*완료/,
-        /구매가\s*완료/,
-        /구매해\s*주셔서/,
-        /주문이\s*완료/,
-        /영수증/,
-        /결제\s*완료/
-    ];
-
-    const CHECKOUT_ACTIVE_PATTERNS = [
-        /payment\s+method/i,
-        /review\s*\+\s*purchase/i,
-        /complete\s+your\s+purchase/i,
-        /결제\s*수단/,
-        /결제\s*방법/,
-        /주문을\s*완료/
-    ];
-
-    const CHECKOUT_RECEIPT_SELECTORS = [
-        '#receipt_area',
-        '#receipt_pipeline',
-        '#checkout_logo_receipt'
-    ];
-
-    const CHECKOUT_ACTIVE_SELECTORS = [
-        '#cart_area',
-        '#checkout_pipeline',
-        '#checkout_logo_default',
-        '#review_tab',
-        '#purchase_bottom'
-    ];
-
     function isStorePage() {
         return window.location.hostname === 'store.steampowered.com';
     }
 
     function isCheckoutPage() {
-        return window.location.hostname.endsWith('checkout.steampowered.com');
+        return window.location.hostname === 'checkout.steampowered.com' &&
+            (window.location.pathname === '/checkout' || window.location.pathname.startsWith('/checkout/'));
     }
 
     if (!isStorePage() && !isCheckoutPage()) return;
 
     let pending = null;
-    let purchaseCompletedAt = null;
+    let purchaseMarker = null;
     try {
         const result = await storageGet([PENDING_CART_RESTORE_KEY, CART_PURCHASE_COMPLETE_KEY]);
         pending = result[PENDING_CART_RESTORE_KEY];
-        purchaseCompletedAt = result[CART_PURCHASE_COMPLETE_KEY] || null;
+        purchaseMarker = result[CART_PURCHASE_COMPLETE_KEY] || null;
     } catch (err) {
         console.debug('[KOSTEAM] Pending cart restore read error:', err);
         return;
     }
 
-    if (!pending?.autoRestore || !Array.isArray(pending.removedItems) || pending.removedItems.length === 0) return;
+    if (!pending?.autoRestore ||
+        pending.phase !== 'checkout_started_unknown' ||
+        !pending.transactionId ||
+        !Array.isArray(pending.removedItems) ||
+        pending.removedItems.length === 0) return;
 
-    async function markRestoreComplete() {
-        try {
-            localStorage.removeItem(SNAPSHOT_STORAGE_KEY);
-        } catch {
-            // checkout.steampowered.com cannot clear the store origin snapshot.
-        }
-
-        await storageSet({
-            [PENDING_CART_RESTORE_KEY]: null,
-            [CART_RESTORE_COMPLETE_KEY]: new Date().toISOString(),
-            [CART_PURCHASE_COMPLETE_KEY]: null
+    async function completePurchaseAndRestore() {
+        const response = await sendMessage({
+            type: MSG_MARK_CART_PURCHASE_COMPLETE,
+            transactionId: pending.transactionId,
+            recoveryRevision: pending.recoveryRevision
         });
-    }
-
-    async function markPurchaseComplete() {
-        purchaseCompletedAt = new Date().toISOString();
-        await storageSet({ [CART_PURCHASE_COMPLETE_KEY]: purchaseCompletedAt });
+        if (!response?.success) throw new Error(response?.error || 'Failed to complete cart restoration');
     }
 
     async function restorePendingCart() {
-        if (!pending?.token) {
-            console.debug('[KOSTEAM] Pending cart restore skipped: missing token');
-            return false;
-        }
-
         const response = await sendMessage({
-            type: MSG_RESTORE_CART,
-            token: pending.token,
-            items: pending.removedItems,
-            sourceTag: pending.sourceTag || 'main-cluster-topseller'
+            type: MSG_RESTORE_PENDING_CART,
+            transactionId: pending.transactionId,
+            recoveryRevision: pending.recoveryRevision
         });
 
         if (!response?.success) {
@@ -107,46 +57,35 @@ import {
             return false;
         }
 
-        await markRestoreComplete();
         return true;
     }
 
     function isElementVisible(element) {
-        if (!element) return false;
+        if (!element || element.hidden || element.getAttribute('aria-hidden') === 'true') return false;
 
         const style = window.getComputedStyle(element);
-        if (style.display === 'none' || style.visibility === 'hidden' || Number(style.opacity) === 0) {
-            return false;
-        }
-
+        if (style.display === 'none' || style.visibility === 'hidden' || Number(style.opacity) === 0) return false;
         return element.getClientRects().length > 0;
     }
 
-    function hasVisibleElement(selectors) {
-        return selectors.some(selector => isElementVisible(document.querySelector(selector)));
-    }
-
-    function checkoutLooksFinal() {
-        if (hasVisibleElement(CHECKOUT_RECEIPT_SELECTORS)) return true;
-        if (hasVisibleElement(CHECKOUT_ACTIVE_SELECTORS)) return false;
-
-        const text = document.body?.innerText || '';
-        if (!text) return false;
-
-        const hasFinalSignal = CHECKOUT_FINAL_PATTERNS.some(pattern => pattern.test(text));
-        if (!hasFinalSignal) return false;
-
-        const hasActiveSignal = CHECKOUT_ACTIVE_PATTERNS.some(pattern => pattern.test(text));
-        return !hasActiveSignal || /영수증|receipt/i.test(text);
+    function hasConfirmedReceipt() {
+        const receiptArea = document.querySelector('#receipt_area');
+        return isConfirmedCheckoutReceipt({
+            receiptVisible: isElementVisible(receiptArea),
+            pendingReceiptVisible: isElementVisible(document.querySelector('#pending_receipt_area')),
+            cartVisible: isElementVisible(document.querySelector('#cart_area')),
+            receiptErrorVisible: isElementVisible(receiptArea?.querySelector('#receipt_error_display')),
+            purchaseSummaryVisible: isElementVisible(receiptArea?.querySelector('#purchase_summary_area')),
+            confirmationCodeVisible: isElementVisible(receiptArea?.querySelector('#receipt_confirmation_code'))
+        });
     }
 
     async function runStoreRestore() {
-        if (window.location.pathname.startsWith('/cart')) return;
-        if (!purchaseCompletedAt) return;
+        const purchaseCompleted = purchaseMarker?.transactionId === pending.transactionId;
+        if (window.location.pathname === '/cart' || window.location.pathname.startsWith('/cart/') || !purchaseCompleted) return;
 
         try {
-            const restored = await restorePendingCart();
-            if (restored) {
+            if (await restorePendingCart()) {
                 console.log('[KOSTEAM] Restored pending cart items after returning to Steam Store.');
             }
         } catch (err) {
@@ -154,39 +93,38 @@ import {
         }
     }
 
-    async function runCheckoutRestoreWhenFinal() {
-        const startedAt = Date.now();
+    function runCheckoutRestoreWhenFinal() {
+        let restoring = false;
+        const observer = new MutationObserver(checkReceipt);
 
-        const tick = async () => {
-            if (Date.now() - startedAt > FINAL_CHECK_TIMEOUT_MS) return;
-
-            if (!checkoutLooksFinal()) {
-                setTimeout(tick, FINAL_CHECK_INTERVAL_MS);
-                return;
-            }
+        async function checkReceipt() {
+            if (restoring || !hasConfirmedReceipt()) return;
+            restoring = true;
+            observer.disconnect();
 
             try {
-                await markPurchaseComplete();
-                const restored = await restorePendingCart();
-                if (restored) {
-                    console.log('[KOSTEAM] Restored pending cart items after checkout completion.');
-                }
+                await completePurchaseAndRestore();
+                console.log('[KOSTEAM] Restored pending cart items after checkout completion.');
             } catch (err) {
                 console.debug('[KOSTEAM] Checkout pending cart restore error:', err);
             }
-        };
+        }
 
-        setTimeout(tick, FINAL_CHECK_INTERVAL_MS);
+        observer.observe(document.documentElement, {
+            attributes: true,
+            attributeFilter: ['aria-hidden', 'class', 'hidden', 'style'],
+            childList: true,
+            subtree: true
+        });
+        window.addEventListener('pagehide', () => observer.disconnect(), { once: true });
+        checkReceipt();
     }
 
     async function init() {
         if (isStorePage()) {
             await runStoreRestore();
-            return;
-        }
-
-        if (isCheckoutPage()) {
-            await runCheckoutRestoreWhenFinal();
+        } else {
+            runCheckoutRestoreWhenFinal();
         }
     }
 

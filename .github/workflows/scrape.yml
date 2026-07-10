@@ -13,7 +13,6 @@ on:
         options:
           - all
           - steamapp
-          - quasarplay
           - quasarplay_curator
           - directg
           - stove
@@ -29,39 +28,30 @@ jobs:
     
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v7
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7
         
       - name: Setup Node.js
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e # v6
         with:
           node-version: '24'
           
       - name: Install dependencies
-        run: npm install
+        run: npm ci
         
       - name: Run steamapp scraper
         if: github.event.inputs.scraper == 'all' || github.event.inputs.scraper == 'steamapp' || github.event_name == 'schedule'
         run: npm run scrape:steamapp
         continue-on-error: true
         
-      - name: Run quasarplay scraper
-        if: github.event.inputs.scraper == 'quasarplay'
-        env:
-          TWO_CAPTCHA_API_KEY: ${{ secrets.TWO_CAPTCHA_API_KEY }}
-          QUASARPLAY_COOKIE: ${{ secrets.QUASARPLAY_COOKIE }}
-          QUASARPLAY_PROXY: ${{ secrets.QUASARPLAY_PROXY }}
-        run: npm run scrape:quasarplay -- --all
-        continue-on-error: true
-
       - name: Setup Python
         if: github.event.inputs.scraper == 'all' || github.event.inputs.scraper == 'quasarplay_curator' || github.event_name == 'schedule'
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
         with:
           python-version: '3.14'
 
       - name: Install Python dependencies
         if: github.event.inputs.scraper == 'all' || github.event.inputs.scraper == 'quasarplay_curator' || github.event_name == 'schedule'
-        run: pip install requests beautifulsoup4
+        run: python -m pip install --require-hashes -r requirements-scrape.txt
 
       - name: Run quasarplay curator scraper
         if: github.event.inputs.scraper == 'all' || github.event.inputs.scraper == 'quasarplay_curator' || github.event_name == 'schedule'

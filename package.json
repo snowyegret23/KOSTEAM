@@ -1,6 +1,6 @@
 {
   "name": "kosteam",
-  "version": "1.0.0",
+  "version": "1.6.4",
   "description": "Steam Korean Localization Info Scraper & Chrome Extension",
   "type": "module",
   "scripts": {
@@ -15,27 +15,29 @@
     "resolve-links:verify": "node scripts/resolve-links.js --verify",
     "build:data": "npm run scrape:all && npm run merge",
     "build:data:full": "npm run scrape:all && npm run resolve-links && npm run merge",
-    "build:ext": "rollup -c",
-    "build:ext:prod": "cross-env NODE_ENV=production rollup -c",
-    "build:ext:watch": "rollup -c -w",
+    "build:ext": "npm run clean && rollup -c",
+    "build:ext:prod": "npm run clean && rollup -c --environment NODE_ENV:production",
+    "build:ext:watch": "npm run clean && rollup -c -w",
     "build": "npm run build:ext:prod",
     "clean": "node -e \"const fs=require('fs');['dist'].forEach(d=>fs.rmSync(d,{recursive:true,force:true}))\"",
-    "zip:chrome": "cd dist/chrome && zip -r ../../kosteam-chrome.zip .",
-    "zip:firefox": "cd dist/firefox && zip -r ../../kosteam-firefox.zip .",
-    "zip": "npm run zip:chrome && npm run zip:firefox"
+    "zip:chrome": "web-ext build --source-dir dist/chrome --artifacts-dir . --filename kosteam-chrome.zip --overwrite-dest",
+    "zip:firefox": "web-ext build --source-dir dist/firefox --artifacts-dir . --filename kosteam-firefox.zip --overwrite-dest",
+    "zip": "npm run build && npm run zip:chrome && npm run zip:firefox",
+    "test": "node --test",
+    "lint:firefox": "npm run build && web-ext lint --source-dir dist/firefox",
+    "test:firefox": "npm run lint:firefox && web-ext run --source-dir dist/firefox"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
     "node-fetch": "^3.3.2"
   },
   "devDependencies": {
-    "@rollup/plugin-node-resolve": "^16.0.0",
     "@rollup/plugin-terser": "^1.0.0",
-    "cross-env": "^10.0.0",
     "rollup": "^4.40.0",
-    "rollup-plugin-copy": "^3.5.0"
+    "rollup-plugin-copy": "^3.5.0",
+    "web-ext": "10.4.0"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=20.18.1"
   }
 }

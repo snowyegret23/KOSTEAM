@@ -9,7 +9,7 @@
  * @returns {string|null} appId or null if not found
  */
 function extractAppId(pathname) {
-  const match = pathname.match(/\/app\/(\d+)/);
+  const match = pathname.match(/^\/app\/(\d+)(?:\/|$)/);
   return match ? match[1] : null;
 }
 
@@ -27,10 +27,18 @@ function generateStoreUrl(appId) {
  * @param {Element} container - Container element
  * @returns {boolean} true if link exists
  */
-function hasExistingStoreLink(container) {
+function hasExistingStoreLink(container, appId) {
   if (container.querySelector('.kosteam-store-link')) return true;
-  if (container.querySelector('a[href*="https://store.steampowered.com/app/"]')) return true;
-  return false;
+  return Array.from(container.querySelectorAll('a[href]')).some(link => {
+    try {
+      const url = new URL(link.href);
+      return url.protocol === 'https:' &&
+        url.hostname === 'store.steampowered.com' &&
+        url.pathname.match(/^\/app\/(\d+)(?:\/|$)/)?.[1] === appId;
+    } catch {
+      return false;
+    }
+  });
 }
 
 /**
@@ -76,7 +84,7 @@ function injectStoreLink(doc, pathname) {
   const otherSiteInfo = doc.querySelector('.apphub_OtherSiteInfo');
   if (!otherSiteInfo) return false;
 
-  if (hasExistingStoreLink(otherSiteInfo)) return true;
+  if (hasExistingStoreLink(otherSiteInfo, appId)) return true;
 
   const storeUrl = generateStoreUrl(appId);
   const link = createStoreLinkElement(storeUrl, appId);
@@ -89,9 +97,8 @@ function injectStoreLink(doc, pathname) {
  * Initialize with MutationObserver for dynamic content
  * @param {Document} doc - Document object
  * @param {string} pathname - URL pathname
- * @param {number} [timeout=5000] - Observer timeout in ms
  */
-function initWithObserver(doc, pathname, timeout = 5000) {
+function initWithObserver(doc, pathname) {
   if (injectStoreLink(doc, pathname)) return;
 
   const observer = new MutationObserver(() => {
@@ -104,8 +111,7 @@ function initWithObserver(doc, pathname, timeout = 5000) {
     childList: true,
     subtree: true,
   });
-
-  setTimeout(() => observer.disconnect(), timeout);
+  doc.defaultView?.addEventListener('pagehide', () => observer.disconnect(), { once: true });
 }
 
 // Auto-execute in browser environment

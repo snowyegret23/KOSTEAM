@@ -2,5 +2,9 @@
   "generated_at": "2026-07-08T22:02:25.723Z",
   "total": 3396,
   "alias_updated_at": "2026-07-08T22:01:13.490Z",
-  "hanpe_last_modified": "20260708220117"
+  "hanpe_last_modified": "20260708220117",
+  "lookup_sha256": "f19fb6c1e2c4236e5959ced51240bafbdb1ba28f894376c70ebd085a82937d4e",
+  "lookup_size": 1702241,
+  "alias_sha256": "c5d1ccf55ca866c13aa294e5a2c19d55702b22a17209635f36a73a01e5ff1205",
+  "alias_size": 85
 }

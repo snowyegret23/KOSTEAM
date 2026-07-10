@@ -3,6 +3,7 @@
  * Supports both Chrome (chrome.*) and Firefox (browser.*) APIs
  */
 export const api = (typeof browser !== 'undefined') ? browser : chrome;
+const usesPromiseApi = typeof browser !== 'undefined';
 
 function getLastError() {
     return api.runtime?.lastError;
@@ -41,13 +42,25 @@ function wrapAsync(invoke) {
     });
 }
 
+function callAsync(target, method, args = []) {
+    if (usesPromiseApi) {
+        try {
+            return Promise.resolve(target[method](...args));
+        } catch (err) {
+            return Promise.reject(err);
+        }
+    }
+
+    return wrapAsync(callback => target[method](...args, callback));
+}
+
 /**
  * Safely send a message to the runtime
  * @param {Object} message - Message object to send
  * @returns {Promise<any>} Response from the message handler
  */
 export function sendMessage(message) {
-    return wrapAsync(callback => api.runtime.sendMessage(message, callback));
+    return callAsync(api.runtime, 'sendMessage', [message]);
 }
 
 /**
@@ -56,7 +69,7 @@ export function sendMessage(message) {
  * @returns {Promise<Object>} Storage items
  */
 export function storageGet(keys) {
-    return wrapAsync(callback => api.storage.local.get(keys, callback));
+    return callAsync(api.storage.local, 'get', [keys]);
 }
 
 /**
@@ -65,7 +78,43 @@ export function storageGet(keys) {
  * @returns {Promise<void>}
  */
 export function storageSet(items) {
-    return wrapAsync(callback => api.storage.local.set(items, callback));
+    return callAsync(api.storage.local, 'set', [items]);
+}
+
+export function storageSessionGet(keys) {
+    return callAsync(api.storage.session, 'get', [keys]);
+}
+
+export function storageSessionSet(items) {
+    return callAsync(api.storage.session, 'set', [items]);
+}
+
+export function storageSessionRemove(keys) {
+    return callAsync(api.storage.session, 'remove', [keys]);
+}
+
+export function permissionsGetAll() {
+    return callAsync(api.permissions, 'getAll');
+}
+
+export function permissionsRequest(permissions) {
+    return callAsync(api.permissions, 'request', [permissions]);
+}
+
+export function alarmCreate(name, alarmInfo) {
+    try {
+        return Promise.resolve(api.alarms.create(name, alarmInfo));
+    } catch (err) {
+        return Promise.reject(err);
+    }
+}
+
+export function alarmClear(name) {
+    return callAsync(api.alarms, 'clear', [name]);
+}
+
+export function onAlarm(callback) {
+    api.alarms.onAlarm.addListener(callback);
 }
 
 /**
@@ -93,19 +142,11 @@ export function onInstalled(callback) {
 }
 
 /**
- * Add a listener for browser startup (Chrome only, noop on Firefox)
+ * Add a listener for browser startup
  * @param {Function} callback - Callback function
  */
 export function onStartup(callback) {
     if (api.runtime.onStartup) {
         api.runtime.onStartup.addListener(callback);
     }
-}
-
-/**
- * Open a new tab
- * @param {string} url - URL to open
- */
-export function openTab(url) {
-    api.tabs.create({ url });
 }

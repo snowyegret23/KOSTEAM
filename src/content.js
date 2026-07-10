@@ -4,16 +4,13 @@
  */
 
 import { sendMessage, storageGet, onStorageChanged } from './shared/api.js';
-import { isValidUrl } from './shared/url-validator.js';
+import { isValidSourceUrl } from './shared/url-validator.js';
 import {
     PATCH_TYPES,
     SOURCE_LABELS,
     MSG_GET_PATCH_INFO,
     KOREAN_LABELS,
-    UI_STRINGS,
-    CURATOR_SCROLL_TIMEOUT_MS,
-    LANGUAGE_TABLE_WATCH_TIMEOUT_MS,
-    SEARCH_BYPASS_RETRY_DELAY_MS
+    UI_STRINGS
 } from './shared/constants.js';
 
 (async function () {
@@ -24,7 +21,7 @@ import {
     const appId = appIdMatch[1];
 
     let patchInfoData = null;
-    let observerCleanup = null;
+    const observerCleanups = [];
 
     // Check if URL has curator_clanid parameter and scroll to curator review
     handleCuratorLink();
@@ -35,9 +32,9 @@ import {
             if (response?.success) {
                 patchInfoData = response.info;
             }
-            startLanguageTableWatcher();
         })
-        .catch(err => console.debug('[KOSTEAM] Message error:', err));
+        .catch(err => console.debug('[KOSTEAM] Message error:', err))
+        .finally(startLanguageTableWatcher);
 
     /**
      * Handle curator link - scroll to curator review section if curator_clanid is in URL
@@ -74,93 +71,78 @@ import {
             childList: true,
             subtree: true
         });
-
-        // Stop trying after timeout
-        setTimeout(() => observer.disconnect(), CURATOR_SCROLL_TIMEOUT_MS);
+        observerCleanups.push(() => observer.disconnect());
     }
 
     /**
-     * Start watching for language table and periodically check for updates
+     * Start watching for the language table and its state changes
      */
     function startLanguageTableWatcher() {
-        let lastKoreanSupport = null;
-        let pollInterval = null;
+        let lastKoreanSupport;
+        let observedContainer = null;
 
         /**
          * Check Korean support and update UI if changed
          */
         function checkAndUpdate() {
             const currentSupport = checkOfficialKoreanSupport();
+            if (currentSupport === null) return;
             if (currentSupport !== lastKoreanSupport) {
                 lastKoreanSupport = currentSupport;
-                observer.disconnect();
                 injectPatchInfo(patchInfoData, currentSupport);
-                observer.observe(document.body, { childList: true, subtree: true });
             }
         }
 
-        // MutationObserver to detect when language table is added to DOM
-        const observer = new MutationObserver(() => {
-            const table = document.querySelector('.game_language_options');
-            if (table) {
-                checkAndUpdate();
-            }
+        const tableObserver = new MutationObserver(() => checkAndUpdate());
+
+        const attachTableObserver = () => {
+            const container = document.querySelector('#languageTable') || document.querySelector('.game_language_options');
+            if (!container || container === observedContainer) return;
+
+            tableObserver.disconnect();
+            observedContainer = container;
+            tableObserver.observe(container, {
+                attributes: true,
+                childList: true,
+                subtree: true,
+                characterData: true
+            });
+            checkAndUpdate();
+        };
+
+        const pageObserver = new MutationObserver(() => {
+            if (!observedContainer?.isConnected) attachTableObserver();
         });
 
-        // Start observing DOM changes
-        observer.observe(document.body, {
+        pageObserver.observe(document.body, {
             childList: true,
             subtree: true
         });
-
-        // Polling interval to continuously check (fallback for edge cases)
-        pollInterval = setInterval(() => {
-            checkAndUpdate();
-        }, SEARCH_BYPASS_RETRY_DELAY_MS);
-
-        // Initial check
-        checkAndUpdate();
-
-        // Cleanup function
-        observerCleanup = () => {
-            observer.disconnect();
-            if (pollInterval) {
-                clearInterval(pollInterval);
-            }
-        };
-
-        // Stop polling after timeout (language table should be loaded by then)
-        setTimeout(() => {
-            if (pollInterval) {
-                clearInterval(pollInterval);
-                pollInterval = null;
-            }
-            // Keep MutationObserver running in case of dynamic changes
-        }, LANGUAGE_TABLE_WATCH_TIMEOUT_MS);
+        attachTableObserver();
+        observerCleanups.push(() => {
+            pageObserver.disconnect();
+            tableObserver.disconnect();
+        });
     }
 
     /**
      * Check if the game has official Korean language support on Steam
-     * @returns {boolean}
+     * @returns {boolean|null}
      */
     function checkOfficialKoreanSupport() {
-        const rows = document.querySelectorAll('.game_language_options tr');
+        const table = document.querySelector('.game_language_options');
+        if (!table) return null;
 
-        for (const row of rows) {
-            if (row.classList.contains('unsupported')) continue;
+        const localizedLabel = document.querySelector('#review_language_koreana[data-language]')?.dataset.language;
+        const labels = new Set(KOREAN_LABELS);
+        if (localizedLabel) labels.add(localizedLabel);
 
+        for (const row of table.querySelectorAll('tr')) {
             const firstCell = row.querySelector('td.ellipsis');
-            if (!firstCell) continue;
+            if (!firstCell || !labels.has(firstCell.textContent?.trim() || '')) continue;
 
-            const text = firstCell.textContent?.trim() || '';
-            if (KOREAN_LABELS.includes(text)) {
-                const checks = row.querySelectorAll('td.checkcol');
-                for (const check of checks) {
-                    if (check.textContent?.includes('✔') || check.querySelector('span')) {
-                        return true;
-                    }
-                }
-            }
+            if (row.classList.contains('unsupported')) return false;
+            return !!row.querySelector('td.checkcol span');
         }
 
         return false;
@@ -254,36 +236,14 @@ import {
                 const isSourceEnabled = (source) => settings[`source_${source}`] !== false;
 
                 // Find insertion target
-                let targetArea = document.querySelector('.game_language_options');
-                let noKoreanBox = null;
-
-                // Look for "Korean not supported" notice
-                const noticeBoxContent = document.querySelector('.notice_box_content');
-                if (noticeBoxContent) {
-                    const text = noticeBoxContent.textContent;
-                    if (text.includes('한국어(을)를 지원하지 않습니다') || text.includes('언어 인터페이스')) {
-                        noKoreanBox = noticeBoxContent.closest('.notice_box') || noticeBoxContent;
-                    }
-                }
-
-                if (!noKoreanBox) {
-                    const parentBlocks = document.querySelectorAll('.game_area_description');
-                    for (const block of parentBlocks) {
-                        const text = block.textContent;
-                        if (text.includes('한국어(을)를 지원하지 않습니다') || text.includes('언어 인터페이스')) {
-                            noKoreanBox = block.closest('.notice_box') || block;
-                            break;
-                        }
-                    }
-                }
-
-                if (!noKoreanBox) {
+                let targetArea = document.querySelector('#languageTable') || document.querySelector('.game_language_options');
+                if (!targetArea) {
                     targetArea = document.querySelector('.game_area_purchase_game_wrapper') ||
                         document.querySelector('.game_area_purchase') ||
                         document.querySelector('#game_area_purchase');
                 }
 
-                if (!targetArea && !noKoreanBox) return;
+                if (!targetArea) return;
 
                 // Create banner elements
                 const banner = createElement('div', 'kr-patch-banner');
@@ -313,7 +273,7 @@ import {
                         if (!linksBySource.has(source)) {
                             const url = siteUrls[source] || links[i];
                             // Validate URL before adding
-                            if (!isValidUrl(url)) continue;
+                            if (!isValidSourceUrl(source, url)) continue;
 
                             linksBySource.set(source, {
                                 url: url,
@@ -335,7 +295,7 @@ import {
 
                             const url = siteUrls[source];
 
-                            if (url && isValidUrl(url)) {
+                            if (url && isValidSourceUrl(source, url)) {
                                 // Collect descriptions belonging to this source
                                 const sourceDescs = [];
                                 for (let j = 0; j < patchSources.length; j++) {
@@ -353,9 +313,11 @@ import {
                     }
                 }
 
-                const isOfficial = patchTypeInfo.label.includes('공식');
+                const isOfficial = patchTypeInfo === PATCH_TYPES.OFFICIAL_STEAM ||
+                    patchTypeInfo === PATCH_TYPES.OFFICIAL_WITH_USER ||
+                    patchTypeInfo === PATCH_TYPES.OFFICIAL_ESTIMATED;
                 const hasLinks = linksBySource.size > 0;
-                const isOfficialEstimated = patchTypeInfo.label === PATCH_TYPES.OFFICIAL_ESTIMATED.label;
+                const isOfficialEstimated = patchTypeInfo === PATCH_TYPES.OFFICIAL_ESTIMATED;
 
                 // Helper function to render links list
                 const renderLinksList = () => {
@@ -416,7 +378,7 @@ import {
                     const msgDiv = createElement('div', 'kr-patch-official-text');
                     msgDiv.textContent = UI_STRINGS.OFFICIAL_SUPPORT_TEXT;
                     dataArea.appendChild(msgDiv);
-                } else if (patchTypeInfo.cssClass === 'none') {
+                } else if (patchTypeInfo === PATCH_TYPES.NONE) {
                     dataArea.appendChild(createElement('div', 'kr-patch-none-text', UI_STRINGS.NO_PATCH_INFO_TEXT));
                 } else {
                     dataArea.appendChild(createElement('div', 'kr-patch-none-text', UI_STRINGS.NO_LINK_TEXT));
@@ -426,9 +388,7 @@ import {
                 const existingBanner = document.querySelector('.kr-patch-banner');
                 if (existingBanner) {
                     existingBanner.replaceWith(banner);
-                } else if (noKoreanBox) {
-                    noKoreanBox.replaceWith(banner);
-                } else if (targetArea) {
+                } else {
                     targetArea.parentNode.insertBefore(banner, targetArea);
                 }
             })
@@ -450,7 +410,7 @@ import {
                     .then(response => {
                         if (response && response.success) {
                             const currentSupport = checkOfficialKoreanSupport();
-                            injectPatchInfo(response.info, currentSupport);
+                            if (currentSupport !== null) injectPatchInfo(response.info, currentSupport);
                         }
                     })
                     .catch(err => console.debug('[KOSTEAM] Re-render error:', err));
@@ -459,9 +419,7 @@ import {
     });
 
     // Cleanup on page unload
-    window.addEventListener('beforeunload', () => {
-        if (observerCleanup) {
-            observerCleanup();
-        }
+    window.addEventListener('pagehide', () => {
+        observerCleanups.splice(0).forEach(cleanup => cleanup());
     });
 })();

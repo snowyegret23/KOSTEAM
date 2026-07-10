@@ -2,8 +2,12 @@
  * URL validation utilities for security
  */
 
-// Allowed protocols for external links
-const ALLOWED_PROTOCOLS = ['http:', 'https:'];
+const SOURCE_HOSTS = {
+    steamapp: new Set(['hanpe.net']),
+    quasarplay: new Set(['store.steampowered.com']),
+    directg: new Set(['www.directg.net']),
+    stove: new Set(['store.onstove.com'])
+};
 
 /**
  * Validates if a URL is safe to use as an href
@@ -12,14 +16,36 @@ const ALLOWED_PROTOCOLS = ['http:', 'https:'];
  * @param {string} url - URL to validate
  * @returns {boolean} True if the URL is safe
  */
-export function isValidUrl(url) {
-    if (!url || typeof url !== 'string') {
+export function isValidSourceUrl(source, url) {
+    if (!SOURCE_HOSTS[source] || !url || typeof url !== 'string') {
         return false;
     }
 
     try {
         const parsed = new URL(url);
-        return ALLOWED_PROTOCOLS.includes(parsed.protocol);
+        return parsed.protocol === 'https:' &&
+            !parsed.username &&
+            !parsed.password &&
+            !parsed.port &&
+            SOURCE_HOSTS[source].has(parsed.hostname);
+    } catch {
+        return false;
+    }
+}
+
+export function isValidCheckoutUrl(url, baseUrl = 'https://store.steampowered.com/') {
+    if (!url || typeof url !== 'string') return false;
+
+    try {
+        const parsed = new URL(url, baseUrl);
+        const purchaseType = parsed.searchParams.get('purchasetype');
+        return parsed.protocol === 'https:' &&
+            parsed.hostname === 'checkout.steampowered.com' &&
+            !parsed.username &&
+            !parsed.password &&
+            !parsed.port &&
+            (!parsed.searchParams.has('purchasetype') || purchaseType === 'self') &&
+            (parsed.pathname === '/checkout' || parsed.pathname.startsWith('/checkout/'));
     } catch {
         return false;
     }
