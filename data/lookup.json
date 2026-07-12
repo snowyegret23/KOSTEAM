@@ -16314,13 +16314,16 @@
     ],
     "links": [
       "a6f01df0",
+      "78ac7c3b",
       "exist"
     ],
     "patch_descriptions": [
       "커블님 블로그 1편: 유저 한국어화 패치 이용 2, 3편: 번역기 이용",
+      "제작자 : EL",
       "한글 패치 - EL\n한글 패치 - 커블"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp",
       "quasarplay"
     ],
@@ -26130,7 +26133,7 @@
       "quasarplay"
     ],
     "links": [
-      "571b98bd",
+      "c9e503e7",
       "exist"
     ],
     "patch_descriptions": [
@@ -26144,6 +26147,24 @@
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/l7dq3p/muv-luv",
       "quasarplay": "https://store.steampowered.com/app/802880/?curator_clanid=30894603"
+    }
+  },
+  "802890": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "c9e503e7"
+    ],
+    "patch_descriptions": [
+      "제작자 : shylock"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jv80r1/muv-luv-alternative"
     }
   },
   "809020": {
@@ -36057,12 +36078,15 @@
       "steamapp"
     ],
     "links": [
-      "9bc248f6"
+      "9bc248f6",
+      "3133a30c"
     ],
     "patch_descriptions": [
-      "MORT 사용 필요 - 한글 번역 DB 디제이쿠님 제작 미완성본"
+      "MORT 사용 필요 - 한글 번역 DB 디제이쿠님 제작 미완성본",
+      "제작자 : motionsilse"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp"
     ],
     "source_site_urls": {
@@ -36682,18 +36706,23 @@
   "1305720": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "b0bead44",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 초록매실제로",
       "한글 패치 - 초록매실제로"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jnkrkr/delores-a-thimbleweed-park-mini-adventure",
       "quasarplay": "https://store.steampowered.com/app/1305720/?curator_clanid=30894603"
     }
   },
@@ -46677,18 +46706,23 @@
   "1875060": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "221be446",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 정보없음",
       "한글 패치 -"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jdg2wz/reus-2",
       "quasarplay": "https://store.steampowered.com/app/1875060/?curator_clanid=30894603"
     }
   },
@@ -46998,18 +47032,23 @@
   "1895890": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "2ac7c03c",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 김까까",
       "한글 패치 - 김까까"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jwdqp7/9-childs-street",
       "quasarplay": "https://store.steampowered.com/app/1895890/?curator_clanid=30894603"
     }
   },
@@ -47875,7 +47914,7 @@
       "quasarplay"
     ],
     "links": [
-      "2940ccba",
+      "728764ad",
       "exist"
     ],
     "patch_descriptions": [
@@ -54372,6 +54411,24 @@
       "quasarplay": "https://store.steampowered.com/app/2400510/?curator_clanid=42788178"
     }
   },
+  "2406110": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "c98ff538"
+    ],
+    "patch_descriptions": [
+      "제작자 : 듀콩"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j0e11o/fall-into-decay"
+    }
+  },
   "2406180": {
     "type": "user",
     "sources": [
@@ -54583,18 +54640,23 @@
   "2417470": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "5091c6e9",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 으잌",
       "한글 패치 - 으잌\n한글 패치 - B0614\n한글 패치 - 한무테"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j558y7/%EB%B9%84%EC%8A%A4%ED%8A%B8%EB%A1%9C-beastro",
       "quasarplay": "https://store.steampowered.com/app/2417470/?curator_clanid=30894603"
     }
   },
@@ -61137,10 +61199,10 @@
       "steamapp"
     ],
     "links": [
-      "bd43344f"
+      "8a57b301"
     ],
     "patch_descriptions": [
-      "제작자 : Libner(프로그래밍), kamayoru81(번역)"
+      "제작자 - 프로그래밍 : Libner, kamayoru81 - 번역 : kamayoru81 - 검수 : 김말이, kamayoru81 - 그래픽 수정 : kamayoru81 - 도와주신 분 : 이칠공(270)"
     ],
     "patch_sources": [
       "steamapp"
@@ -63724,7 +63786,7 @@
       "quasarplay"
     ],
     "links": [
-      "64196093",
+      "46e54325",
       "exist"
     ],
     "patch_descriptions": [
@@ -66526,6 +66588,24 @@
       "quasarplay": "https://store.steampowered.com/app/3274300/?curator_clanid=42788178"
     }
   },
+  "3276050": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "8974afb9"
+    ],
+    "patch_descriptions": [
+      "제작자 : 스크갤러"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/46vmex/spacecraft"
+    }
+  },
   "3278560": {
     "type": "user",
     "sources": [
@@ -68920,6 +69000,24 @@
       "quasarplay": "https://store.steampowered.com/app/3521490/?curator_clanid=30894603"
     }
   },
+  "3525970": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "fd5cf6ef"
+    ],
+    "patch_descriptions": [
+      "제작자 :pczld123"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4g87x9/horripilant"
+    }
+  },
   "3527290": {
     "type": "user",
     "sources": [
@@ -69481,6 +69579,24 @@
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/4yy0g0/fantasy-maiden-wars-dream-of-the-stray-dreamer",
       "quasarplay": "https://store.steampowered.com/app/3575980/?curator_clanid=30894603"
+    }
+  },
+  "3583210": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "ad35243e"
+    ],
+    "patch_descriptions": [
+      "제작자 : chpchs"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j9o1k6/crashout-crew"
     }
   },
   "3586420": {
@@ -71643,18 +71759,23 @@
   "3950050": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "740129f1",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : Pixel4a",
       "한글 패치 - Pixel4a"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j039o2/touhou-witchs-night-market",
       "quasarplay": "https://store.steampowered.com/app/3950050/?curator_clanid=30894603"
     }
   },
@@ -72287,6 +72408,24 @@
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/l20255/express-no-6",
       "quasarplay": "https://store.steampowered.com/app/4137880/?curator_clanid=30894603"
+    }
+  },
+  "4138920": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "05c27f6c"
+    ],
+    "patch_descriptions": [
+      "데모판 한글패치 제작자 : fluff 번역: Claude 검수: Claude"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j55987/aliya-timelink2-dawn"
     }
   },
   "4144510": {
@@ -73176,18 +73315,23 @@
   "4699110": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "dbbaa193",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 김까까",
       "한글 패치 - 김까까"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jwgwzn/crococo",
       "quasarplay": "https://store.steampowered.com/app/4699110/?curator_clanid=30894603"
     }
   },
@@ -73264,7 +73408,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-07-10T21:57:45.450Z",
-    "total": 3400
+    "generated_at": "2026-07-12T21:44:05.492Z",
+    "total": 3406
   }
 }

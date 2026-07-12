@@ -9014,10 +9014,12 @@
     "source_site_url": "https://hanpe.net/app/l3mo9o/the-incredible-adventures-of-van-helsing-final-cut",
     "patch_type": "user",
     "patch_links": [
-      "a6f01df0"
+      "a6f01df0",
+      "78ac7c3b"
     ],
     "patch_descriptions": [
-      "커블님 블로그 1편: 유저 한국어화 패치 이용 2, 3편: 번역기 이용"
+      "커블님 블로그 1편: 유저 한국어화 패치 이용 2, 3편: 번역기 이용",
+      "제작자 : EL"
     ]
   },
   {
@@ -9724,10 +9726,12 @@
     "patch_type": "user",
     "patch_links": [
       "847efe43",
+      "b78a17cf",
       "b78a17cf"
     ],
     "patch_descriptions": [
       "김작 님 제작",
+      "제작자 : WHALE59",
       "제작자 : WHALE59"
     ]
   },
@@ -14084,7 +14088,20 @@
     "source_site_url": "https://hanpe.net/app/l7dq3p/muv-luv",
     "patch_type": "user",
     "patch_links": [
-      "571b98bd"
+      "c9e503e7"
+    ],
+    "patch_descriptions": [
+      "제작자 : shylock"
+    ]
+  },
+  {
+    "app_id": "802890",
+    "game_title": "Muv-Luv Alternative",
+    "steam_link": "https://store.steampowered.com/app/802890",
+    "source_site_url": "https://hanpe.net/app/jv80r1/muv-luv-alternative",
+    "patch_type": "user",
+    "patch_links": [
+      "c9e503e7"
     ],
     "patch_descriptions": [
       "제작자 : shylock"
@@ -18681,10 +18698,12 @@
     "source_site_url": "https://hanpe.net/app/j8vgd0/guild-wars-2",
     "patch_type": "user",
     "patch_links": [
-      "9bc248f6"
+      "9bc248f6",
+      "3133a30c"
     ],
     "patch_descriptions": [
-      "MORT 사용 필요 - 한글 번역 DB 디제이쿠님 제작 미완성본"
+      "MORT 사용 필요 - 한글 번역 DB 디제이쿠님 제작 미완성본",
+      "제작자 : motionsilse"
     ]
   },
   {
@@ -18940,6 +18959,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 으잌"
+    ]
+  },
+  {
+    "app_id": "1305720",
+    "game_title": "Delores: A Thimbleweed Park Mini-Adventure",
+    "steam_link": "https://store.steampowered.com/app/1305720",
+    "source_site_url": "https://hanpe.net/app/jnkrkr/delores-a-thimbleweed-park-mini-adventure",
+    "patch_type": "user",
+    "patch_links": [
+      "b0bead44"
+    ],
+    "patch_descriptions": [
+      "제작자 : 초록매실제로"
     ]
   },
   {
@@ -22801,6 +22833,19 @@
     ]
   },
   {
+    "app_id": "1875060",
+    "game_title": "Reus 2",
+    "steam_link": "https://store.steampowered.com/app/1875060",
+    "source_site_url": "https://hanpe.net/app/jdg2wz/reus-2",
+    "patch_type": "user",
+    "patch_links": [
+      "221be446"
+    ],
+    "patch_descriptions": [
+      "제작자 : 정보없음"
+    ]
+  },
+  {
     "app_id": "1876890",
     "game_title": "Wandering Sword",
     "steam_link": "https://store.steampowered.com/app/1876890",
@@ -22891,6 +22936,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 으잌"
+    ]
+  },
+  {
+    "app_id": "1895890",
+    "game_title": "9 Childs Street",
+    "steam_link": "https://store.steampowered.com/app/1895890",
+    "source_site_url": "https://hanpe.net/app/jwdqp7/9-childs-street",
+    "patch_type": "user",
+    "patch_links": [
+      "2ac7c03c"
+    ],
+    "patch_descriptions": [
+      "제작자 : 김까까"
     ]
   },
   {
@@ -23229,7 +23287,7 @@
     "source_site_url": "https://hanpe.net/app/jpq63k/touhou-hero-of-ice-fairy",
     "patch_type": "user",
     "patch_links": [
-      "2940ccba"
+      "728764ad"
     ],
     "patch_descriptions": [
       "제작자 : 장석"
@@ -25727,6 +25785,19 @@
     ]
   },
   {
+    "app_id": "2406110",
+    "game_title": "Fall into decay",
+    "steam_link": "https://store.steampowered.com/app/2406110",
+    "source_site_url": "https://hanpe.net/app/j0e11o/fall-into-decay",
+    "patch_type": "user",
+    "patch_links": [
+      "c98ff538"
+    ],
+    "patch_descriptions": [
+      "제작자 : 듀콩"
+    ]
+  },
+  {
     "app_id": "2408680",
     "game_title": "최강 두부",
     "steam_link": "https://store.steampowered.com/app/2408680",
@@ -25791,6 +25862,19 @@
     ],
     "patch_descriptions": [
       "제작자 : BENBENNBEN"
+    ]
+  },
+  {
+    "app_id": "2417470",
+    "game_title": "비스트로 Beastro",
+    "steam_link": "https://store.steampowered.com/app/2417470",
+    "source_site_url": "https://hanpe.net/app/j558y7/%EB%B9%84%EC%8A%A4%ED%8A%B8%EB%A1%9C-beastro",
+    "patch_type": "user",
+    "patch_links": [
+      "5091c6e9"
+    ],
+    "patch_descriptions": [
+      "제작자 : 으잌"
     ]
   },
   {
@@ -28232,10 +28316,10 @@
     "source_site_url": "https://hanpe.net/app/j95km5/%E6%80%AA%E8%A9%B1",
     "patch_type": "user",
     "patch_links": [
-      "bd43344f"
+      "8a57b301"
     ],
     "patch_descriptions": [
-      "제작자 : Libner(프로그래밍), kamayoru81(번역)"
+      "제작자 - 프로그래밍 : Libner, kamayoru81 - 번역 : kamayoru81 - 검수 : 김말이, kamayoru81 - 그래픽 수정 : kamayoru81 - 도와주신 분 : 이칠공(270)"
     ]
   },
   {
@@ -29187,7 +29271,7 @@
     "source_site_url": "https://hanpe.net/app/jwepwn/labyrinth-of-touhou-tri-the-dreaming-girls-the-mysterious-orbs",
     "patch_type": "user",
     "patch_links": [
-      "64196093"
+      "46e54325"
     ],
     "patch_descriptions": [
       "제작자 : 정보없음"
@@ -30287,6 +30371,19 @@
     ]
   },
   {
+    "app_id": "3276050",
+    "game_title": "SpaceCraft",
+    "steam_link": "https://store.steampowered.com/app/3276050",
+    "source_site_url": "https://hanpe.net/app/46vmex/spacecraft",
+    "patch_type": "user",
+    "patch_links": [
+      "8974afb9"
+    ],
+    "patch_descriptions": [
+      "제작자 : 스크갤러"
+    ]
+  },
+  {
     "app_id": "3278760",
     "game_title": "The Happyhills Homicide",
     "steam_link": "https://store.steampowered.com/app/3278760",
@@ -31247,6 +31344,19 @@
     ]
   },
   {
+    "app_id": "3525970",
+    "game_title": "Horripilant",
+    "steam_link": "https://store.steampowered.com/app/3525970",
+    "source_site_url": "https://hanpe.net/app/4g87x9/horripilant",
+    "patch_type": "user",
+    "patch_links": [
+      "fd5cf6ef"
+    ],
+    "patch_descriptions": [
+      "제작자 :pczld123"
+    ]
+  },
+  {
     "app_id": "3531160",
     "game_title": "荒岛求生：逃出美女岛",
     "steam_link": "https://store.steampowered.com/app/3531160",
@@ -31415,6 +31525,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 정보없음"
+    ]
+  },
+  {
+    "app_id": "3583210",
+    "game_title": "Crashout Crew",
+    "steam_link": "https://store.steampowered.com/app/3583210",
+    "source_site_url": "https://hanpe.net/app/j9o1k6/crashout-crew",
+    "patch_type": "user",
+    "patch_links": [
+      "ad35243e"
+    ],
+    "patch_descriptions": [
+      "제작자 : chpchs"
     ]
   },
   {
@@ -32269,6 +32392,19 @@
     ]
   },
   {
+    "app_id": "3950050",
+    "game_title": "Touhou Witch's Night Market",
+    "steam_link": "https://store.steampowered.com/app/3950050",
+    "source_site_url": "https://hanpe.net/app/j039o2/touhou-witchs-night-market",
+    "patch_type": "user",
+    "patch_links": [
+      "740129f1"
+    ],
+    "patch_descriptions": [
+      "제작자 : Pixel4a"
+    ]
+  },
+  {
     "app_id": "3983920",
     "game_title": "Hollowbrook - Apartments",
     "steam_link": "https://store.steampowered.com/app/3983920",
@@ -32519,6 +32655,19 @@
     ],
     "patch_descriptions": [
       "공식 한글 개선 패치 제작자 : 으잌"
+    ]
+  },
+  {
+    "app_id": "4138920",
+    "game_title": "Aliya: Timelink2 Dawn",
+    "steam_link": "https://store.steampowered.com/app/4138920",
+    "source_site_url": "https://hanpe.net/app/j55987/aliya-timelink2-dawn",
+    "patch_type": "user",
+    "patch_links": [
+      "05c27f6c"
+    ],
+    "patch_descriptions": [
+      "데모판 한글패치 제작자 : fluff 번역: Claude 검수: Claude"
     ]
   },
   {
@@ -32906,6 +33055,19 @@
     "patch_type": "user",
     "patch_links": [
       "93989d84"
+    ],
+    "patch_descriptions": [
+      "제작자 : 김까까"
+    ]
+  },
+  {
+    "app_id": "4699110",
+    "game_title": "Crococo",
+    "steam_link": "https://store.steampowered.com/app/4699110",
+    "source_site_url": "https://hanpe.net/app/jwgwzn/crococo",
+    "patch_type": "user",
+    "patch_links": [
+      "dbbaa193"
     ],
     "patch_descriptions": [
       "제작자 : 김까까"
