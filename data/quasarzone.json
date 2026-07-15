@@ -2,8 +2,8 @@
   "curator_id": 30894603,
   "curator_name": "Curator #30894603",
   "curator_url": "https://store.steampowered.com/curator/30894603/",
-  "total_games": 976,
-  "exported_at": "2026-07-12T21:43:44.904005",
+  "total_games": 977,
+  "exported_at": "2026-07-15T21:55:03.829831",
   "games": [
     {
       "appid": "1224290",
@@ -3916,6 +3916,15 @@
       "url": "https://store.steampowered.com/app/4192250/The_Christmas_Cackler/",
       "curator_url": "https://store.steampowered.com/app/4192250/?curator_clanid=30894603",
       "review": "유저 한글 패치 - 으잌",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "3531160",
+      "url": "https://store.steampowered.com/app/3531160/_/",
+      "curator_url": "https://store.steampowered.com/app/3531160/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 미인이많군요",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"

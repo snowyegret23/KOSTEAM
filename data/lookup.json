@@ -69039,19 +69039,24 @@
   "3531160": {
     "type": "user",
     "sources": [
-      "steamapp"
+      "steamapp",
+      "quasarplay"
     ],
     "links": [
-      "5f951836"
+      "5f951836",
+      "exist"
     ],
     "patch_descriptions": [
-      "제작자 : 미인이많군요"
+      "제작자 : 미인이많군요",
+      "유저 한글 패치 - 미인이많군요"
     ],
     "patch_sources": [
-      "steamapp"
+      "steamapp",
+      "quasarplay"
     ],
     "source_site_urls": {
-      "steamapp": "https://hanpe.net/app/4ypmxw/%E8%8D%92%E5%B2%9B%E6%B1%82%E7%94%9F%E9%80%83%E5%87%BA%E7%BE%8E%E5%A5%B3%E5%B2%9B"
+      "steamapp": "https://hanpe.net/app/4ypmxw/%E8%8D%92%E5%B2%9B%E6%B1%82%E7%94%9F%E9%80%83%E5%87%BA%E7%BE%8E%E5%A5%B3%E5%B2%9B",
+      "quasarplay": "https://store.steampowered.com/app/3531160/?curator_clanid=30894603"
     }
   },
   "3531260": {
@@ -73408,7 +73413,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-07-12T21:44:05.492Z",
+    "generated_at": "2026-07-15T21:55:24.400Z",
     "total": 3406
   }
 }

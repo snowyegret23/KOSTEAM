@@ -3853,5 +3853,20 @@
       ""
     ],
     "stove_url": "https://store.onstove.com/ko/games/104658"
+  },
+  {
+    "app_id": null,
+    "stove_game_no": "14876",
+    "stove_product_no": "104657",
+    "game_title": "인콘비니 (inKONBINI: One Store. Many Stories)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "stove_url": "https://store.onstove.com/ko/games/104657"
   }
 ]
