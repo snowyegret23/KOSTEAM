@@ -2382,9 +2382,9 @@
   },
   {
     "app_id": "65790",
-    "game_title": "ARMA: Cold War Assault",
+    "game_title": "Arma: Cold War Assault Remastered",
     "steam_link": "https://store.steampowered.com/app/65790",
-    "source_site_url": "https://hanpe.net/app/415wed/arma-cold-war-assault",
+    "source_site_url": "https://hanpe.net/app/415wed/arma-cold-war-assault-remastered",
     "patch_type": "user",
     "patch_links": [
       "6dab2ca0"
@@ -3934,7 +3934,7 @@
     ],
     "patch_descriptions": [
       "이스 1 Chronicles+",
-      "이스 2 Chronicles+"
+      "GOG만 적용 가능(스팀 불가능) 이스 2 Chronicles+"
     ]
   },
   {
@@ -8642,19 +8642,6 @@
     "patch_descriptions": [
       "이전 버전 다운로드 방법",
       "초벌 번역: Bashir, GartistN, sund0416, 264 검수: 264, 미리칸 기술 지원, 교정: 미리칸 이전 버전 다운로드 방법 링크2 참고"
-    ]
-  },
-  {
-    "app_id": "384110",
-    "game_title": "Pathologic Classic HD",
-    "steam_link": "https://store.steampowered.com/app/384110",
-    "source_site_url": "https://hanpe.net/app/jnoo9r/pathologic-classic-hd",
-    "patch_type": "user",
-    "patch_links": [
-      "a8671df6"
-    ],
-    "patch_descriptions": [
-      "제작자 : 정보없음"
     ]
   },
   {
@@ -31358,9 +31345,9 @@
   },
   {
     "app_id": "3531160",
-    "game_title": "荒岛求生：逃出美女岛",
+    "game_title": "무인도 생존 ~ 미녀섬에서 탈출",
     "steam_link": "https://store.steampowered.com/app/3531160",
-    "source_site_url": "https://hanpe.net/app/4ypmxw/%E8%8D%92%E5%B2%9B%E6%B1%82%E7%94%9F%E9%80%83%E5%87%BA%E7%BE%8E%E5%A5%B3%E5%B2%9B",
+    "source_site_url": "https://hanpe.net/app/4ypmxw/%EB%AC%B4%EC%9D%B8%EB%8F%84-%EC%83%9D%EC%A1%B4-%EB%AF%B8%EB%85%80%EC%84%AC%EC%97%90%EC%84%9C-%ED%83%88%EC%B6%9C",
     "patch_type": "user",
     "patch_links": [
       "5f951836"

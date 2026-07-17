@@ -3868,5 +3868,20 @@
       ""
     ],
     "stove_url": "https://store.onstove.com/ko/games/104657"
+  },
+  {
+    "app_id": null,
+    "stove_game_no": "15225",
+    "stove_product_no": "104954",
+    "game_title": "포그피어서 (Fogpiercer)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "stove_url": "https://store.onstove.com/ko/games/104954"
   }
 ]

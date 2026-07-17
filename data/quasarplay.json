@@ -3,7 +3,7 @@
   "curator_name": "Curator #42788178",
   "curator_url": "https://store.steampowered.com/curator/42788178/",
   "total_games": 1832,
-  "exported_at": "2026-07-15T21:54:50.142092",
+  "exported_at": "2026-07-17T21:47:36.292046",
   "games": [
     {
       "appid": "400170",
@@ -4446,9 +4446,9 @@
       "appid": "1960270",
       "url": "https://store.steampowered.com/app/1960270/Lootun/",
       "curator_url": "https://store.steampowered.com/app/1960270/?curator_clanid=42788178",
-      "review": "한글 패치 1 - \n한글 패치 2 - 크로이츠 님",
+      "review": "한글 패치\n한글 패치 - 크로이츠\n한글 패치",
       "review_has_url": true,
-      "review_url_count": 2,
+      "review_url_count": 3,
       "type": "recommended"
     },
     {
@@ -5976,9 +5976,9 @@
       "appid": "599460",
       "url": "https://store.steampowered.com/app/599460/Weapon_Shop_Fantasy/",
       "curator_url": "https://store.steampowered.com/app/599460/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - ranbi- 님",
+      "review": "한글 패치\n한글 패치 - ranbi-",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -7101,9 +7101,9 @@
       "appid": "1543030",
       "url": "https://store.steampowered.com/app/1543030/Sword_and_Fairy_7/",
       "curator_url": "https://store.steampowered.com/app/1543030/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 팀AI",
+      "review": "한글 패치 - 부비트랩\n한글 패치 - 팀AI",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -10305,9 +10305,9 @@
       "appid": "758190",
       "url": "https://store.steampowered.com/app/758190/Dragon_Cliff/",
       "curator_url": "https://store.steampowered.com/app/758190/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 - TTLIC 님",
+      "review": "한글 패치 \n한글 패치 - TTLIC",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -16315,7 +16315,7 @@
     },
     {
       "appid": "65790",
-      "url": "https://store.steampowered.com/app/65790/ARMA_Cold_War_Assault/",
+      "url": "https://store.steampowered.com/app/65790/Arma_Cold_War_Assault_Remastered/",
       "curator_url": "https://store.steampowered.com/app/65790/?curator_clanid=42788178",
       "review": "유저 한국어 패치 링크 -",
       "review_has_url": true,

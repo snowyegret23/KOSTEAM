@@ -1274,6 +1274,24 @@
       "quasarplay": "https://store.steampowered.com/app/10680/?curator_clanid=42788178"
     }
   },
+  "12130": {
+    "type": "user",
+    "sources": [
+      "quasarplay"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "한글 패치 - Kovic"
+    ],
+    "patch_sources": [
+      "quasarplay"
+    ],
+    "source_site_urls": {
+      "quasarplay": "https://store.steampowered.com/app/12130/?curator_clanid=30894603"
+    }
+  },
   "12140": {
     "type": "user",
     "sources": [
@@ -4196,7 +4214,7 @@
       "quasarplay"
     ],
     "source_site_urls": {
-      "steamapp": "https://hanpe.net/app/415wed/arma-cold-war-assault",
+      "steamapp": "https://hanpe.net/app/415wed/arma-cold-war-assault-remastered",
       "quasarplay": "https://store.steampowered.com/app/65790/?curator_clanid=42788178"
     }
   },
@@ -6887,7 +6905,7 @@
     ],
     "patch_descriptions": [
       "이스 1 Chronicles+",
-      "이스 2 Chronicles+",
+      "GOG만 적용 가능(스팀 불가능) 이스 2 Chronicles+",
       "이스 1 유저 한국어 패치 - 누구야, Tiren, 아스, 레오네, 아브릴 님,\n \n이스 2 유저 한국어 패치 - 아브릴, 누구야, 茴香 님"
     ],
     "patch_sources": [
@@ -15569,23 +15587,18 @@
   "384110": {
     "type": "user",
     "sources": [
-      "steamapp",
       "quasarplay"
     ],
     "links": [
-      "a8671df6",
       "exist"
     ],
     "patch_descriptions": [
-      "제작자 : 정보없음",
       "유저 한국어 패치 - 행복한나라 님"
     ],
     "patch_sources": [
-      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
-      "steamapp": "https://hanpe.net/app/jnoo9r/pathologic-classic-hd",
       "quasarplay": "https://store.steampowered.com/app/384110/?curator_clanid=42788178"
     }
   },
@@ -18724,6 +18737,24 @@
     ],
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/jwzr6e/goat-simulator-waste-of-space"
+    }
+  },
+  "464150": {
+    "type": "user",
+    "sources": [
+      "quasarplay"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "한글 패치 - 한무테"
+    ],
+    "patch_sources": [
+      "quasarplay"
+    ],
+    "source_site_urls": {
+      "quasarplay": "https://store.steampowered.com/app/464150/?curator_clanid=30894603"
     }
   },
   "464260": {
@@ -22441,7 +22472,7 @@
     ],
     "patch_descriptions": [
       "제작자 : ranbi",
-      "유저 한글 패치 - ranbi- 님"
+      "한글 패치\n한글 패치 - ranbi-"
     ],
     "patch_sources": [
       "steamapp",
@@ -25551,7 +25582,7 @@
     ],
     "patch_descriptions": [
       "TTLIC님 제작",
-      "유저 한국어 패치 - TTLIC 님"
+      "한글 패치 \n한글 패치 - TTLIC"
     ],
     "patch_sources": [
       "steamapp",
@@ -26138,7 +26169,7 @@
     ],
     "patch_descriptions": [
       "제작자 : shylock",
-      "유저 한글 패치 - shylock"
+      "한글 패치 - shylock"
     ],
     "patch_sources": [
       "steamapp",
@@ -26152,19 +26183,24 @@
   "802890": {
     "type": "user",
     "sources": [
-      "steamapp"
+      "steamapp",
+      "quasarplay"
     ],
     "links": [
-      "c9e503e7"
+      "c9e503e7",
+      "exist"
     ],
     "patch_descriptions": [
-      "제작자 : shylock"
+      "제작자 : shylock",
+      "한글 패치 - shylock"
     ],
     "patch_sources": [
-      "steamapp"
+      "steamapp",
+      "quasarplay"
     ],
     "source_site_urls": {
-      "steamapp": "https://hanpe.net/app/jv80r1/muv-luv-alternative"
+      "steamapp": "https://hanpe.net/app/jv80r1/muv-luv-alternative",
+      "quasarplay": "https://store.steampowered.com/app/802890/?curator_clanid=30894603"
     }
   },
   "809020": {
@@ -36075,22 +36111,27 @@
   "1284210": {
     "type": "user",
     "sources": [
-      "steamapp"
+      "steamapp",
+      "quasarplay"
     ],
     "links": [
       "9bc248f6",
-      "3133a30c"
+      "3133a30c",
+      "exist"
     ],
     "patch_descriptions": [
       "MORT 사용 필요 - 한글 번역 DB 디제이쿠님 제작 미완성본",
-      "제작자 : motionsilse"
+      "제작자 : motionsilse",
+      "한글 패치 - motionsilse"
     ],
     "patch_sources": [
       "steamapp",
-      "steamapp"
+      "steamapp",
+      "quasarplay"
     ],
     "source_site_urls": {
-      "steamapp": "https://hanpe.net/app/j8vgd0/guild-wars-2"
+      "steamapp": "https://hanpe.net/app/j8vgd0/guild-wars-2",
+      "quasarplay": "https://store.steampowered.com/app/1284210/?curator_clanid=30894603"
     }
   },
   "1284730": {
@@ -40643,7 +40684,7 @@
     ],
     "patch_descriptions": [
       "번역기를 이용한 한글화 제작자 : 팀 AI",
-      "유저 한글 패치 - 팀AI"
+      "한글 패치 - 부비트랩\n한글 패치 - 팀AI"
     ],
     "patch_sources": [
       "steamapp",
@@ -45649,6 +45690,24 @@
       "quasarplay": "https://store.steampowered.com/app/1812370/?curator_clanid=42788178"
     }
   },
+  "1812910": {
+    "type": "user",
+    "sources": [
+      "quasarplay"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "한글 패치"
+    ],
+    "patch_sources": [
+      "quasarplay"
+    ],
+    "source_site_urls": {
+      "quasarplay": "https://store.steampowered.com/app/1812910/?curator_clanid=30894603"
+    }
+  },
   "1817560": {
     "type": "user",
     "sources": [
@@ -47919,7 +47978,7 @@
     ],
     "patch_descriptions": [
       "제작자 : 장석",
-      "유저 한글 패치 - 장석"
+      "한글 패치 - 장석"
     ],
     "patch_sources": [
       "steamapp",
@@ -47991,7 +48050,7 @@
     ],
     "patch_descriptions": [
       "제작자 : 정보없음",
-      "한글 패치 1 - \n한글 패치 2 - 크로이츠 님"
+      "한글 패치\n한글 패치 - 크로이츠\n한글 패치"
     ],
     "patch_sources": [
       "steamapp",
@@ -56701,6 +56760,24 @@
       "quasarplay": "https://store.steampowered.com/app/2553910/?curator_clanid=30894603"
     }
   },
+  "2555950": {
+    "type": "user",
+    "sources": [
+      "quasarplay"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "한글 패치 - Pixel4a"
+    ],
+    "patch_sources": [
+      "quasarplay"
+    ],
+    "source_site_urls": {
+      "quasarplay": "https://store.steampowered.com/app/2555950/?curator_clanid=30894603"
+    }
+  },
   "2556240": {
     "type": "user",
     "sources": [
@@ -58560,6 +58637,24 @@
       "stove": "https://store.onstove.com/ko/games/3221"
     }
   },
+  "2695260": {
+    "type": "user",
+    "sources": [
+      "quasarplay"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "한글 패치 - 한무테"
+    ],
+    "patch_sources": [
+      "quasarplay"
+    ],
+    "source_site_urls": {
+      "quasarplay": "https://store.steampowered.com/app/2695260/?curator_clanid=30894603"
+    }
+  },
   "2696050": {
     "type": "user",
     "sources": [
@@ -58731,7 +58826,7 @@
       "exist"
     ],
     "patch_descriptions": [
-      "유저 한글 패치 - 한무테"
+      "한글 패치\n한글 패치 - 한무테"
     ],
     "patch_sources": [
       "quasarplay"
@@ -58935,6 +59030,24 @@
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/j8q1e8/orphans",
       "quasarplay": "https://store.steampowered.com/app/2722400/?curator_clanid=42788178"
+    }
+  },
+  "2723430": {
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/104657"
     }
   },
   "2726890": {
@@ -66591,19 +66704,24 @@
   "3276050": {
     "type": "user",
     "sources": [
-      "steamapp"
+      "steamapp",
+      "quasarplay"
     ],
     "links": [
-      "8974afb9"
+      "8974afb9",
+      "exist"
     ],
     "patch_descriptions": [
-      "제작자 : 스크갤러"
+      "제작자 : 스크갤러",
+      "한글 패치 - 스크갤러"
     ],
     "patch_sources": [
-      "steamapp"
+      "steamapp",
+      "quasarplay"
     ],
     "source_site_urls": {
-      "steamapp": "https://hanpe.net/app/46vmex/spacecraft"
+      "steamapp": "https://hanpe.net/app/46vmex/spacecraft",
+      "quasarplay": "https://store.steampowered.com/app/3276050/?curator_clanid=30894603"
     }
   },
   "3278560": {
@@ -69003,19 +69121,24 @@
   "3525970": {
     "type": "user",
     "sources": [
-      "steamapp"
+      "steamapp",
+      "quasarplay"
     ],
     "links": [
-      "fd5cf6ef"
+      "fd5cf6ef",
+      "exist"
     ],
     "patch_descriptions": [
-      "제작자 :pczld123"
+      "제작자 :pczld123",
+      "한글 패치"
     ],
     "patch_sources": [
-      "steamapp"
+      "steamapp",
+      "quasarplay"
     ],
     "source_site_urls": {
-      "steamapp": "https://hanpe.net/app/4g87x9/horripilant"
+      "steamapp": "https://hanpe.net/app/4g87x9/horripilant",
+      "quasarplay": "https://store.steampowered.com/app/3525970/?curator_clanid=30894603"
     }
   },
   "3527290": {
@@ -69055,7 +69178,7 @@
       "quasarplay"
     ],
     "source_site_urls": {
-      "steamapp": "https://hanpe.net/app/4ypmxw/%E8%8D%92%E5%B2%9B%E6%B1%82%E7%94%9F%E9%80%83%E5%87%BA%E7%BE%8E%E5%A5%B3%E5%B2%9B",
+      "steamapp": "https://hanpe.net/app/4ypmxw/%EB%AC%B4%EC%9D%B8%EB%8F%84-%EC%83%9D%EC%A1%B4-%EB%AF%B8%EB%85%80%EC%84%AC%EC%97%90%EC%84%9C-%ED%83%88%EC%B6%9C",
       "quasarplay": "https://store.steampowered.com/app/3531160/?curator_clanid=30894603"
     }
   },
@@ -69075,6 +69198,24 @@
     ],
     "source_site_urls": {
       "quasarplay": "https://store.steampowered.com/app/3531260/?curator_clanid=30894603"
+    }
+  },
+  "3534790": {
+    "type": "user",
+    "sources": [
+      "quasarplay"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "한글 패치 - 으잌"
+    ],
+    "patch_sources": [
+      "quasarplay"
+    ],
+    "source_site_urls": {
+      "quasarplay": "https://store.steampowered.com/app/3534790/?curator_clanid=30894603"
     }
   },
   "3535530": {
@@ -69116,6 +69257,24 @@
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/4r91vo/metal-garden-%EB%A9%94%ED%83%88-%EA%B0%80%EB%93%A0",
       "quasarplay": "https://store.steampowered.com/app/3539440/?curator_clanid=30894603"
+    }
+  },
+  "3540530": {
+    "type": "user",
+    "sources": [
+      "quasarplay"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "한글 패치 - 듀콩"
+    ],
+    "patch_sources": [
+      "quasarplay"
+    ],
+    "source_site_urls": {
+      "quasarplay": "https://store.steampowered.com/app/3540530/?curator_clanid=30894603"
     }
   },
   "3543040": {
@@ -69589,19 +69748,24 @@
   "3583210": {
     "type": "user",
     "sources": [
-      "steamapp"
+      "steamapp",
+      "quasarplay"
     ],
     "links": [
-      "ad35243e"
+      "ad35243e",
+      "exist"
     ],
     "patch_descriptions": [
-      "제작자 : chpchs"
+      "제작자 : chpchs",
+      "한글 패치 - chpch"
     ],
     "patch_sources": [
-      "steamapp"
+      "steamapp",
+      "quasarplay"
     ],
     "source_site_urls": {
-      "steamapp": "https://hanpe.net/app/j9o1k6/crashout-crew"
+      "steamapp": "https://hanpe.net/app/j9o1k6/crashout-crew",
+      "quasarplay": "https://store.steampowered.com/app/3583210/?curator_clanid=30894603"
     }
   },
   "3586420": {
@@ -72620,6 +72784,24 @@
       "quasarplay": "https://store.steampowered.com/app/4197610/?curator_clanid=30894603"
     }
   },
+  "4209630": {
+    "type": "user",
+    "sources": [
+      "quasarplay"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "한글 패치"
+    ],
+    "patch_sources": [
+      "quasarplay"
+    ],
+    "source_site_urls": {
+      "quasarplay": "https://store.steampowered.com/app/4209630/?curator_clanid=30894603"
+    }
+  },
   "4217140": {
     "type": "user",
     "sources": [
@@ -73413,7 +73595,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-07-15T21:55:24.400Z",
-    "total": 3406
+    "generated_at": "2026-07-17T21:48:10.860Z",
+    "total": 3415
   }
 }
