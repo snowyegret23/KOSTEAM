@@ -17628,10 +17628,10 @@
     "source_site_url": "https://hanpe.net/app/l2pnx2/angry-video-game-nerd-i-ii-deluxe",
     "patch_type": "user",
     "patch_links": [
-      "0c29a24f"
+      "09cb92ed"
     ],
     "patch_descriptions": [
-      "제작자 : 정보없음"
+      "한글화: 아모건 폰트 기술 지원: Snowyegret, r35 사용한 폰트: Neo둥근모("
     ]
   },
   {
@@ -19602,10 +19602,10 @@
     "source_site_url": "https://hanpe.net/app/46v532/9-years-of-shadows",
     "patch_type": "user",
     "patch_links": [
-      "7b21134c"
+      "bc40cce7"
     ],
     "patch_descriptions": [
-      "제작자 : 정보없음"
+      "한글화: 아모건"
     ]
   },
   {
@@ -20171,10 +20171,10 @@
     "source_site_url": "https://hanpe.net/app/4r0k8g/alice-escaped",
     "patch_type": "user",
     "patch_links": [
-      "114ae9f1"
+      "62147eb1"
     ],
     "patch_descriptions": [
-      "제작자 : 정보없음"
+      "한글화: 아모건 폰트제작: r35"
     ]
   },
   {
@@ -25017,10 +25017,10 @@
     "source_site_url": "https://hanpe.net/app/4yrw0w/missing-hiker",
     "patch_type": "user",
     "patch_links": [
-      "543ccf15"
+      "e0a7769f"
     ],
     "patch_descriptions": [
-      "제작자 : 정보없음"
+      "한글화: 아모건"
     ]
   },
   {
@@ -25311,10 +25311,10 @@
     "source_site_url": "https://hanpe.net/app/j9330e/shita-ni",
     "patch_type": "user",
     "patch_links": [
-      "13afabdd"
+      "7efb1c3d"
     ],
     "patch_descriptions": [
-      "제작자 : 정보없음"
+      "한글화: 아모건"
     ]
   },
   {
@@ -25655,12 +25655,14 @@
     "source_site_url": "https://hanpe.net/app/jnz9p8/the-coffin-of-andy-and-leyley",
     "patch_type": "user",
     "patch_links": [
-      "a96d4c3b",
-      "bba1f7cb"
+      "130ea2a4",
+      "10a9a134",
+      "4d09743e"
     ],
     "patch_descriptions": [
-      "제작자 : 아모건 스팀 가이드 링크 :",
-      "제작자 : 아모건 데모 버전 한글화"
+      "제작자 : 아모건",
+      "제작자 : 아모건 데모 버전 한글화",
+      "제작자 : Hayarobi"
     ]
   },
   {
@@ -32133,9 +32135,9 @@
   },
   {
     "app_id": "3784760",
-    "game_title": "Elfie: A Sand Plan",
+    "game_title": "Elfie: 코끼리랑 모래성이랑은",
     "steam_link": "https://store.steampowered.com/app/3784760",
-    "source_site_url": "https://hanpe.net/app/j0e61x/elfie-a-sand-plan",
+    "source_site_url": "https://hanpe.net/app/j0e61x/elfie-%EC%BD%94%EB%81%BC%EB%A6%AC%EB%9E%91-%EB%AA%A8%EB%9E%98%EC%84%B1%EC%9D%B4%EB%9E%91%EC%9D%80",
     "patch_type": "user",
     "patch_links": [
       "74853058"

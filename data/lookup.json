@@ -806,6 +806,24 @@
       "quasarplay": "https://store.steampowered.com/app/6900/?curator_clanid=42788178"
     }
   },
+  "6910": {
+    "type": "user",
+    "sources": [
+      "quasarplay"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "한글 패치 - 라딸"
+    ],
+    "patch_sources": [
+      "quasarplay"
+    ],
+    "source_site_urls": {
+      "quasarplay": "https://store.steampowered.com/app/6910/?curator_clanid=30894603"
+    }
+  },
   "7000": {
     "type": "user",
     "sources": [
@@ -1921,6 +1939,24 @@
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/lkekv0/alice-madness-returns",
       "quasarplay": "https://store.steampowered.com/app/19680/?curator_clanid=42788178"
+    }
+  },
+  "19900": {
+    "type": "user",
+    "sources": [
+      "quasarplay"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "한글 패치 - 스키드로우"
+    ],
+    "patch_sources": [
+      "quasarplay"
+    ],
+    "source_site_urls": {
+      "quasarplay": "https://store.steampowered.com/app/19900/?curator_clanid=30894603"
     }
   },
   "19980": {
@@ -3538,7 +3574,7 @@
       "제작자 : 정보없음",
       "이키나님 제작 [도움] K.I.T.V.S, 돌팔이(stonearms), DestinyFATE님 블로그(",
       "제작자 : 공대 남편",
-      "유저 한국어 패치 - 이키나! 님"
+      "한글 패치 - 공대 남편\n한글 패치 - 이키나!"
     ],
     "patch_sources": [
       "steamapp",
@@ -6155,6 +6191,24 @@
       "quasarplay": "https://store.steampowered.com/app/214590/?curator_clanid=42788178"
     }
   },
+  "214730": {
+    "type": "user",
+    "sources": [
+      "quasarplay"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "한글 패치 - weller703"
+    ],
+    "patch_sources": [
+      "quasarplay"
+    ],
+    "source_site_urls": {
+      "quasarplay": "https://store.steampowered.com/app/214730/?curator_clanid=30894603"
+    }
+  },
   "214830": {
     "type": "user",
     "sources": [
@@ -6919,7 +6973,7 @@
     "patch_descriptions": [
       "이스 1 Chronicles+",
       "GOG만 적용 가능(스팀 불가능) 이스 2 Chronicles+",
-      "이스 1 유저 한국어 패치 - 누구야, Tiren, 아스, 레오네, 아브릴 님,\n \n이스 2 유저 한국어 패치 - 아브릴, 누구야, 茴香 님"
+      "이스 1 한글 패치 - 누구야, Tiren, 아스, 레오네, 아브릴\n이스 2 한글 패치(GOG판 전용) - 아브릴, 누구야, 茴香"
     ],
     "patch_sources": [
       "steamapp",
@@ -11386,19 +11440,24 @@
   "292910": {
     "type": "user",
     "sources": [
-      "steamapp"
+      "steamapp",
+      "quasarplay"
     ],
     "links": [
-      "7d187b57"
+      "7d187b57",
+      "exist"
     ],
     "patch_descriptions": [
-      "제작자 : 공대 남편"
+      "제작자 : 공대 남편",
+      "한글 패치 - 공대 남편"
     ],
     "patch_sources": [
-      "steamapp"
+      "steamapp",
+      "quasarplay"
     ],
     "source_site_urls": {
-      "steamapp": "https://hanpe.net/app/4orggx/deponia-the-complete-journey"
+      "steamapp": "https://hanpe.net/app/4orggx/deponia-the-complete-journey",
+      "quasarplay": "https://store.steampowered.com/app/292910/?curator_clanid=30894603"
     }
   },
   "293660": {
@@ -12718,7 +12777,7 @@
     "patch_descriptions": [
       "Only 님 제작",
       "한글 채팅 개선 패치 제작자 : 빗소리P",
-      "유저 한국어 패치 - Only 님"
+      "한글 패치 - Only"
     ],
     "patch_sources": [
       "steamapp",
@@ -22182,6 +22241,24 @@
       "steamapp": "https://hanpe.net/app/j99oze/okami-hd"
     }
   },
+  "588430": {
+    "type": "user",
+    "sources": [
+      "quasarplay"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "한글 패치 - 공대 남편"
+    ],
+    "patch_sources": [
+      "quasarplay"
+    ],
+    "source_site_urls": {
+      "quasarplay": "https://store.steampowered.com/app/588430/?curator_clanid=30894603"
+    }
+  },
   "588650": {
     "type": "official",
     "sources": [
@@ -23956,7 +24033,7 @@
     ],
     "patch_descriptions": [
       "제작자 : 정보없음",
-      "유저 한글 패치 - 한무테"
+      "한글 패치\n한글 패치 - 한무테"
     ],
     "patch_sources": [
       "steamapp",
@@ -25401,7 +25478,7 @@
     "patch_descriptions": [
       "메가맨 x5 만 번역",
       "X6, X7, X8 한글화",
-      "록맨 X5 한글 패치 - 수류운공, 아루미\nX7 한글 패치\nX8 한글 패치"
+      "록맨 X5 한글 패치\n록맨 X6 X7 X8 한글 패치 - unknown"
     ],
     "patch_sources": [
       "steamapp",
@@ -26474,7 +26551,7 @@
     ],
     "patch_descriptions": [
       "제작자 : 정보없음",
-      "유저 한국어 패치 - 솔라리어스 님"
+      "한글 패치 - 솔라리어스"
     ],
     "patch_sources": [
       "steamapp",
@@ -33703,11 +33780,11 @@
       "quasarplay"
     ],
     "links": [
-      "0c29a24f",
+      "09cb92ed",
       "exist"
     ],
     "patch_descriptions": [
-      "제작자 : 정보없음",
+      "한글화: 아모건 폰트 기술 지원: Snowyegret, r35 사용한 폰트: Neo둥근모(",
       "유저 한국어 패치 - 아모건 님\n폰트 기술 지원: Snowyegret, r35 님"
     ],
     "patch_sources": [
@@ -36131,7 +36208,7 @@
       "quasarplay": "https://store.steampowered.com/app/1281630/?curator_clanid=42788178"
     }
   },
-  "1282410": {
+  "1281640": {
     "type": "user",
     "sources": [
       "quasarplay"
@@ -36141,6 +36218,24 @@
     ],
     "patch_descriptions": [
       "한글 패치 - 한무테"
+    ],
+    "patch_sources": [
+      "quasarplay"
+    ],
+    "source_site_urls": {
+      "quasarplay": "https://store.steampowered.com/app/1281640/?curator_clanid=30894603"
+    }
+  },
+  "1282410": {
+    "type": "user",
+    "sources": [
+      "quasarplay"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "한글 패치\n한글 패치 - 한무테"
     ],
     "patch_sources": [
       "quasarplay"
@@ -38423,11 +38518,11 @@
       "quasarplay"
     ],
     "links": [
-      "7b21134c",
+      "bc40cce7",
       "exist"
     ],
     "patch_descriptions": [
-      "제작자 : 정보없음",
+      "한글화: 아모건",
       "유저 한국어 패치 - 아모건 님"
     ],
     "patch_sources": [
@@ -39044,7 +39139,7 @@
     ],
     "patch_descriptions": [
       "공식 번역 개선 패치",
-      "유저 번역 개선 패치 -"
+      "한글 패치 - 공대 남편\n번역 개선 패치 -"
     ],
     "patch_sources": [
       "steamapp",
@@ -39946,11 +40041,11 @@
       "quasarplay"
     ],
     "links": [
-      "114ae9f1",
+      "62147eb1",
       "exist"
     ],
     "patch_descriptions": [
-      "제작자 : 정보없음",
+      "한글화: 아모건 폰트제작: r35",
       "유저 한국어 패치 - 아모건 님"
     ],
     "patch_sources": [
@@ -40720,7 +40815,7 @@
     ],
     "patch_descriptions": [
       "번역기를 이용한 한글화 제작자 : 팀 AI",
-      "한글 패치 - 부비트랩\n한글 패치 - 팀AI"
+      "한글 패치 - tinydungeon\n한글 패치 - 부비트랩\n한글 패치 - 팀AI"
     ],
     "patch_sources": [
       "steamapp",
@@ -45427,7 +45522,7 @@
     ],
     "patch_descriptions": [
       "제작자 : 티브",
-      "배틀 네트워크 록맨 에그제 1\n배틀 네트워크 록맨 에그제 2\n배틀 네트워크 록맨 에그제 3"
+      "한글 패치 - 티브"
     ],
     "patch_sources": [
       "steamapp",
@@ -45452,7 +45547,7 @@
     "patch_descriptions": [
       "록맨 에그제 5 팀 오브 블루스/커넬 한글화 제작자 : 티브",
       "록맨 에그제 4 토너먼트 레드 선/블루 문 한글화 제작자 : 티브",
-      "유저 한글 패치 - 티브\n | 록맨 에그제 4\n | 록맨 에그제 5"
+      "한글 패치 - 티브"
     ],
     "patch_sources": [
       "steamapp",
@@ -49323,19 +49418,24 @@
   "2057760": {
     "type": "user",
     "sources": [
-      "steamapp"
+      "steamapp",
+      "quasarplay"
     ],
     "links": [
-      "35a9b219"
+      "35a9b219",
+      "exist"
     ],
     "patch_descriptions": [
-      "제작자 : ozt88"
+      "제작자 : ozt88",
+      "한글 패치 - aabb0423"
     ],
     "patch_sources": [
-      "steamapp"
+      "steamapp",
+      "quasarplay"
     ],
     "source_site_urls": {
-      "steamapp": "https://hanpe.net/app/j0e626/esoteric-ebb"
+      "steamapp": "https://hanpe.net/app/j0e626/esoteric-ebb",
+      "quasarplay": "https://store.steampowered.com/app/2057760/?curator_clanid=30894603"
     }
   },
   "2060870": {
@@ -49928,6 +50028,24 @@
       "quasarplay": "https://store.steampowered.com/app/2089250/?curator_clanid=30894603"
     }
   },
+  "2090390": {
+    "type": "user",
+    "sources": [
+      "quasarplay"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "한글 패치 - 한무테"
+    ],
+    "patch_sources": [
+      "quasarplay"
+    ],
+    "source_site_urls": {
+      "quasarplay": "https://store.steampowered.com/app/2090390/?curator_clanid=30894603"
+    }
+  },
   "2093010": {
     "type": "official",
     "sources": [
@@ -49995,19 +50113,24 @@
   "2095340": {
     "type": "user",
     "sources": [
-      "steamapp"
+      "steamapp",
+      "quasarplay"
     ],
     "links": [
-      "87ff4a15"
+      "87ff4a15",
+      "exist"
     ],
     "patch_descriptions": [
-      "제작자 : 공대 남편"
+      "제작자 : 공대 남편",
+      "한글 패치 - 공대 남편"
     ],
     "patch_sources": [
-      "steamapp"
+      "steamapp",
+      "quasarplay"
     ],
     "source_site_urls": {
-      "steamapp": "https://hanpe.net/app/jm8mmo/road-96-mile-0"
+      "steamapp": "https://hanpe.net/app/jm8mmo/road-96-mile-0",
+      "quasarplay": "https://store.steampowered.com/app/2095340/?curator_clanid=30894603"
     }
   },
   "2095420": {
@@ -52417,11 +52540,11 @@
       "quasarplay"
     ],
     "links": [
-      "543ccf15",
+      "e0a7769f",
       "exist"
     ],
     "patch_descriptions": [
-      "제작자 : 정보없음",
+      "한글화: 아모건",
       "유저 한국어 패치 - 아모건 님"
     ],
     "patch_sources": [
@@ -53137,11 +53260,11 @@
       "quasarplay"
     ],
     "links": [
-      "13afabdd",
+      "7efb1c3d",
       "exist"
     ],
     "patch_descriptions": [
-      "제작자 : 정보없음",
+      "한글화: 아모건",
       "유저 한국어 패치 - 아강"
     ],
     "patch_sources": [
@@ -54102,7 +54225,7 @@
     ],
     "patch_descriptions": [
       "제작자 : 우육친구",
-      "유저 한글 패치 - 우육친구\n유저 한글 패치 - 한무테"
+      "한글 패치 - 우육친구\n한글 패치 - 한무테"
     ],
     "patch_sources": [
       "steamapp",
@@ -54138,16 +54261,19 @@
       "quasarplay"
     ],
     "links": [
-      "a96d4c3b",
-      "bba1f7cb",
+      "130ea2a4",
+      "10a9a134",
+      "4d09743e",
       "exist"
     ],
     "patch_descriptions": [
-      "제작자 : 아모건 스팀 가이드 링크 :",
+      "제작자 : 아모건",
       "제작자 : 아모건 데모 버전 한글화",
+      "제작자 : Hayarobi",
       "유저 한글 패치 - Screamingrock, 팀 왈도"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp",
       "steamapp",
       "quasarplay"
@@ -62835,6 +62961,24 @@
       "quasarplay": "https://store.steampowered.com/app/2978710/?curator_clanid=42788178"
     }
   },
+  "2980260": {
+    "type": "user",
+    "sources": [
+      "quasarplay"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "한글 패치 - 으잌"
+    ],
+    "patch_sources": [
+      "quasarplay"
+    ],
+    "source_site_urls": {
+      "quasarplay": "https://store.steampowered.com/app/2980260/?curator_clanid=30894603"
+    }
+  },
   "2981070": {
     "type": "user",
     "sources": [
@@ -68634,6 +68778,24 @@
       "steamapp": "https://hanpe.net/app/4rmv5o/%E6%A1%9C%E9%99%8D%E3%82%8B%E4%BB%A3%E3%81%AB%E6%B1%BA%E9%97%98%E3%82%92%E7%B5%A2%E7%88%9B%E7%AB%B6%E6%BC%94"
     }
   },
+  "3446960": {
+    "type": "user",
+    "sources": [
+      "quasarplay"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "한글 패치 - 듀콩"
+    ],
+    "patch_sources": [
+      "quasarplay"
+    ],
+    "source_site_urls": {
+      "quasarplay": "https://store.steampowered.com/app/3446960/?curator_clanid=30894603"
+    }
+  },
   "3447620": {
     "type": "user",
     "sources": [
@@ -70195,6 +70357,24 @@
       "quasarplay": "https://store.steampowered.com/app/3639520/?curator_clanid=30894603"
     }
   },
+  "3641000": {
+    "type": "user",
+    "sources": [
+      "quasarplay"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "한글 패치 - 버섯순이"
+    ],
+    "patch_sources": [
+      "quasarplay"
+    ],
+    "source_site_urls": {
+      "quasarplay": "https://store.steampowered.com/app/3641000/?curator_clanid=30894603"
+    }
+  },
   "3647480": {
     "type": "user",
     "sources": [
@@ -70442,6 +70622,24 @@
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/l75qnp/%EC%82%BC%EA%B5%AD%EC%A7%80-%EC%8B%AD%EC%82%BC%EC%A3%BC-%EB%B3%B4%EB%AC%BC-%EC%A0%84%ED%88%AC%EB%A1%9D",
       "quasarplay": "https://store.steampowered.com/app/3684500/?curator_clanid=30894603"
+    }
+  },
+  "3686580": {
+    "type": "user",
+    "sources": [
+      "quasarplay"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "번역 개선 패치 - ○○"
+    ],
+    "patch_sources": [
+      "quasarplay"
+    ],
+    "source_site_urls": {
+      "quasarplay": "https://store.steampowered.com/app/3686580/?curator_clanid=30894603"
     }
   },
   "3689520": {
@@ -70955,7 +71153,7 @@
       "quasarplay"
     ],
     "source_site_urls": {
-      "steamapp": "https://hanpe.net/app/j0e61x/elfie-a-sand-plan",
+      "steamapp": "https://hanpe.net/app/j0e61x/elfie-%EC%BD%94%EB%81%BC%EB%A6%AC%EB%9E%91-%EB%AA%A8%EB%9E%98%EC%84%B1%EC%9D%B4%EB%9E%91%EC%9D%80",
       "quasarplay": "https://store.steampowered.com/app/3784760/?curator_clanid=30894603"
     }
   },
@@ -71542,6 +71740,24 @@
     ],
     "source_site_urls": {
       "quasarplay": "https://store.steampowered.com/app/3860590/?curator_clanid=30894603"
+    }
+  },
+  "3860920": {
+    "type": "user",
+    "sources": [
+      "quasarplay"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "한글 패치 - 으잌"
+    ],
+    "patch_sources": [
+      "quasarplay"
+    ],
+    "source_site_urls": {
+      "quasarplay": "https://store.steampowered.com/app/3860920/?curator_clanid=30894603"
     }
   },
   "3862670": {
@@ -72149,6 +72365,24 @@
       "steamapp": "https://hanpe.net/app/l32od0/%E9%A2%A8%E9%9B%A8%E6%9D%A5%E8%A8%985"
     }
   },
+  "3997370": {
+    "type": "user",
+    "sources": [
+      "quasarplay"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "한글 패치 - 듀콩"
+    ],
+    "patch_sources": [
+      "quasarplay"
+    ],
+    "source_site_urls": {
+      "quasarplay": "https://store.steampowered.com/app/3997370/?curator_clanid=30894603"
+    }
+  },
   "3998800": {
     "type": "official",
     "sources": [
@@ -72455,24 +72689,6 @@
       "quasarplay": "https://store.steampowered.com/app/4083190/?curator_clanid=30894603"
     }
   },
-  "4093240": {
-    "type": "user",
-    "sources": [
-      "quasarplay"
-    ],
-    "links": [
-      "exist"
-    ],
-    "patch_descriptions": [
-      "한글 패치 - 한무테"
-    ],
-    "patch_sources": [
-      "quasarplay"
-    ],
-    "source_site_urls": {
-      "quasarplay": "https://store.steampowered.com/app/4093240/?curator_clanid=30894603"
-    }
-  },
   "4093970": {
     "type": "user",
     "sources": [
@@ -72553,6 +72769,24 @@
     ],
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/4g103g/%E3%83%94%E3%82%B6%E3%81%A8%E3%81%8A%E9%85%92%E3%81%A8%E8%90%83%E9%A6%99%E3%81%A1%E3%82%83%E3%82%93%E3%81%A8"
+    }
+  },
+  "4113050": {
+    "type": "user",
+    "sources": [
+      "quasarplay"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "한글 패치 - 으잌\n한글 패치 - 팀 글냥이(Oatone, Nark), 여까"
+    ],
+    "patch_sources": [
+      "quasarplay"
+    ],
+    "source_site_urls": {
+      "quasarplay": "https://store.steampowered.com/app/4113050/?curator_clanid=30894603"
     }
   },
   "4119830": {
@@ -72913,6 +73147,24 @@
       "quasarplay": "https://store.steampowered.com/app/4197610/?curator_clanid=30894603"
     }
   },
+  "4198660": {
+    "type": "user",
+    "sources": [
+      "quasarplay"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "한글 패치"
+    ],
+    "patch_sources": [
+      "quasarplay"
+    ],
+    "source_site_urls": {
+      "quasarplay": "https://store.steampowered.com/app/4198660/?curator_clanid=30894603"
+    }
+  },
   "4209630": {
     "type": "user",
     "sources": [
@@ -73242,6 +73494,24 @@
       "steamapp": "https://hanpe.net/app/j03gdo/%E7%99%BE%E5%B0%BA%E6%A7%98"
     }
   },
+  "4358380": {
+    "type": "user",
+    "sources": [
+      "quasarplay"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "한글 패치 - 한무테"
+    ],
+    "patch_sources": [
+      "quasarplay"
+    ],
+    "source_site_urls": {
+      "quasarplay": "https://store.steampowered.com/app/4358380/?curator_clanid=30894603"
+    }
+  },
   "4366330": {
     "type": "user",
     "sources": [
@@ -73411,6 +73681,24 @@
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/lz39wo/abandoned-stories-inherited-silence",
       "quasarplay": "https://store.steampowered.com/app/4478760/?curator_clanid=30894603"
+    }
+  },
+  "4483120": {
+    "type": "user",
+    "sources": [
+      "quasarplay"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "한글 패치 - 으잌"
+    ],
+    "patch_sources": [
+      "quasarplay"
+    ],
+    "source_site_urls": {
+      "quasarplay": "https://store.steampowered.com/app/4483120/?curator_clanid=30894603"
     }
   },
   "4488860": {
@@ -73745,7 +74033,7 @@
     ],
     "patch_descriptions": [
       "제작자 : 김까까",
-      "한글 패치 - 한무테"
+      "한글 패치 - 김까까\n한글 패치 - 한무테"
     ],
     "patch_sources": [
       "steamapp",
@@ -73756,8 +74044,26 @@
       "quasarplay": "https://store.steampowered.com/app/4834070/?curator_clanid=30894603"
     }
   },
+  "4840880": {
+    "type": "user",
+    "sources": [
+      "quasarplay"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "한글 패치 - 김까까"
+    ],
+    "patch_sources": [
+      "quasarplay"
+    ],
+    "source_site_urls": {
+      "quasarplay": "https://store.steampowered.com/app/4840880/?curator_clanid=30894603"
+    }
+  },
   "_meta": {
-    "generated_at": "2026-07-19T21:46:55.202Z",
-    "total": 3419
+    "generated_at": "2026-07-22T22:01:48.597Z",
+    "total": 3435
   }
 }

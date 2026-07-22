@@ -3,7 +3,7 @@
   "curator_name": "Curator #42788178",
   "curator_url": "https://store.steampowered.com/curator/42788178/",
   "total_games": 1832,
-  "exported_at": "2026-07-19T21:46:22.266305",
+  "exported_at": "2026-07-22T22:01:14.602570",
   "games": [
     {
       "appid": "400170",
@@ -3456,9 +3456,9 @@
       "appid": "1798010",
       "url": "https://store.steampowered.com/app/1798010/Mega_Man_Battle_Network_Legacy_Collection_Vol_1/",
       "curator_url": "https://store.steampowered.com/app/1798010/?curator_clanid=42788178",
-      "review": "배틀 네트워크 록맨 에그제 1\n배틀 네트워크 록맨 에그제 2\n배틀 네트워크 록맨 에그제 3",
+      "review": "한글 패치 - 티브",
       "review_has_url": true,
-      "review_url_count": 3,
+      "review_url_count": 1,
       "type": "recommended"
     },
     {
@@ -4050,9 +4050,9 @@
       "appid": "1432860",
       "url": "https://store.steampowered.com/app/1432860/Sun_Haven/",
       "curator_url": "https://store.steampowered.com/app/1432860/?curator_clanid=42788178",
-      "review": "유저 번역 개선 패치 -",
+      "review": "한글 패치 - 공대 남편\n번역 개선 패치 -",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -7101,9 +7101,9 @@
       "appid": "1543030",
       "url": "https://store.steampowered.com/app/1543030/Sword_and_Fairy_7/",
       "curator_url": "https://store.steampowered.com/app/1543030/?curator_clanid=42788178",
-      "review": "한글 패치 - 부비트랩\n한글 패치 - 팀AI",
+      "review": "한글 패치 - tinydungeon\n한글 패치 - 부비트랩\n한글 패치 - 팀AI",
       "review_has_url": true,
-      "review_url_count": 2,
+      "review_url_count": 3,
       "type": "recommended"
     },
     {
@@ -8379,7 +8379,7 @@
       "appid": "814370",
       "url": "https://store.steampowered.com/app/814370/Monster_Sanctuary/",
       "curator_url": "https://store.steampowered.com/app/814370/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 - 솔라리어스 님",
+      "review": "한글 패치 - 솔라리어스",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -10431,7 +10431,7 @@
       "appid": "323220",
       "url": "https://store.steampowered.com/app/323220/Vagante/",
       "curator_url": "https://store.steampowered.com/app/323220/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 - Only 님",
+      "review": "한글 패치 - Only",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -12033,7 +12033,7 @@
       "appid": "223810",
       "url": "https://store.steampowered.com/app/223810/Ys_I__II_Chronicles/",
       "curator_url": "https://store.steampowered.com/app/223810/?curator_clanid=42788178",
-      "review": "이스 1 유저 한국어 패치 - 누구야, Tiren, 아스, 레오네, 아브릴 님,\n \n이스 2 유저 한국어 패치 - 아브릴, 누구야, 茴香 님",
+      "review": "이스 1 한글 패치 - 누구야, Tiren, 아스, 레오네, 아브릴\n이스 2 한글 패치(GOG판 전용) - 아브릴, 누구야, 茴香",
       "review_has_url": true,
       "review_url_count": 2,
       "type": "recommended"
@@ -14220,9 +14220,9 @@
       "appid": "42910",
       "url": "https://store.steampowered.com/app/42910/Magicka/",
       "curator_url": "https://store.steampowered.com/app/42910/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 - 이키나! 님",
+      "review": "한글 패치 - 공대 남편\n한글 패치 - 이키나!",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -16290,9 +16290,9 @@
       "appid": "743900",
       "url": "https://store.steampowered.com/app/743900/Mega_Man_X_Legacy_Collection_2/",
       "curator_url": "https://store.steampowered.com/app/743900/?curator_clanid=42788178",
-      "review": "록맨 X5 한글 패치 - 수류운공, 아루미\nX7 한글 패치\nX8 한글 패치",
+      "review": "록맨 X5 한글 패치\n록맨 X6 X7 X8 한글 패치 - unknown",
       "review_has_url": true,
-      "review_url_count": 3,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
