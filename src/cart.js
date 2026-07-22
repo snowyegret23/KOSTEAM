@@ -570,7 +570,9 @@ import {
             const url = `https://store.steampowered.com/api/appdetails?${params}`;
             const res = await fetch(url, { credentials: 'omit' });
             if (!res.ok) throw new Error(`HTTP ${res.status}`);
-            const json = await res.json();
+            const text = await res.text();
+            const json = JSON.parse(text, (key, value) =>
+                key === '__proto__' || key === 'constructor' || key === 'prototype' ? undefined : value);
             const data = json?.[String(appId)]?.data;
             const packages = Array.isArray(data?.packages)
                 ? data.packages.map(id => Number(id)).filter(id => id > 0)
