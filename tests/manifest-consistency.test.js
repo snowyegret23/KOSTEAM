@@ -17,7 +17,7 @@ test('package metadata uses the supported module and runtime versions', () => {
     assert.equal(packageJson.version, '1.6.4');
     assert.equal(packageJson.type, 'module');
     assert.equal(packageJson.engines.node, '>=20.18.1');
-    assert.equal(packageJson.devDependencies['web-ext'], '10.4.0');
+    assert.equal(packageJson.devDependencies['web-ext'], '10.5.0');
 });
 
 test('browser manifests match package version and hardened shared policy', () => {
