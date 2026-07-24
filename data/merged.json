@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-07-22T22:01:48.597Z",
-    "total_with_steam_link": 3435,
+    "generated_at": "2026-07-24T22:01:34.906Z",
+    "total_with_steam_link": 3440,
     "total_without_steam_link": 8,
     "sources": [
       "steamapp",
@@ -12,6 +12,111 @@
     ]
   },
   "games": [
+    {
+      "app_id": "3655960",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/3655960/Tales_Beyond_The_Tomb__White_Silence/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "한글 패치 - 으잌"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/3655960/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "3712080",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/3712080/Funnel_Runners/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "한글 패치 - 으잌"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/3712080/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2058570",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/2058570/Rift_Wizard_2/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "한글 패치 - killterm"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/2058570/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "4508570",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/4508570/Veritas_Tales_Witch_of_the_Dark_Castle/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "한글 패치 - killterm"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/4508570/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "3590290",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/3590290/DIVE_or_DIE__Children_of_Rain/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "한글 패치"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/3590290/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
     {
       "app_id": "4198660",
       "game_title": "",
@@ -17636,7 +17741,7 @@
       ],
       "patch_descriptions": [
         "한글화: 아모건",
-        "유저 한국어 패치 - 아모건 님"
+        "한글 패치 - 아모건"
       ],
       "patch_sources": [
         "steamapp",
@@ -18961,7 +19066,7 @@
       ],
       "patch_descriptions": [
         "한글화: 아모건 폰트제작: r35",
-        "유저 한국어 패치 - 아모건 님"
+        "한글 패치 - 아모건"
       ],
       "patch_sources": [
         "steamapp",
@@ -19894,7 +19999,7 @@
       ],
       "patch_descriptions": [
         "한글화: 아모건 폰트 기술 지원: Snowyegret, r35 사용한 폰트: Neo둥근모(",
-        "유저 한국어 패치 - 아모건 님\n폰트 기술 지원: Snowyegret, r35 님"
+        "한글 패치 - 아모건\n폰트 기술 지원: Snowyegret, r35"
       ],
       "patch_sources": [
         "steamapp",
@@ -40869,7 +40974,7 @@
       ],
       "patch_descriptions": [
         "제작자 : killterm",
-        "유저 한글 패치 - killterm 님"
+        "한글 패치 - killterm"
       ],
       "patch_sources": [
         "steamapp",
@@ -47656,7 +47761,7 @@
       ],
       "patch_descriptions": [
         "한글화: 아모건",
-        "유저 한국어 패치 - 아모건 님"
+        "한글 패치 - 아모건"
       ],
       "patch_sources": [
         "steamapp",
@@ -58324,7 +58429,7 @@
       ],
       "patch_descriptions": [
         "한글화: 아모건",
-        "유저 한국어 패치 - 아강"
+        "한글 패치 - 아강"
       ],
       "patch_sources": [
         "steamapp",
@@ -65651,7 +65756,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 정보없음",
-        "유저 한글 패치 - fuseson4\n유저 한글 패치 - 아강"
+        "한글 패치 - fuseson4\n한글 패치 - 아강"
       ],
       "patch_sources": [
         "steamapp",

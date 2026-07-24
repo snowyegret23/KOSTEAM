@@ -2,9 +2,54 @@
   "curator_id": 30894603,
   "curator_name": "Curator #30894603",
   "curator_url": "https://store.steampowered.com/curator/30894603/",
-  "total_games": 1009,
-  "exported_at": "2026-07-22T22:01:29.086045",
+  "total_games": 1014,
+  "exported_at": "2026-07-24T22:01:15.140078",
   "games": [
+    {
+      "appid": "3655960",
+      "url": "https://store.steampowered.com/app/3655960/Tales_Beyond_The_Tomb__White_Silence/",
+      "curator_url": "https://store.steampowered.com/app/3655960/?curator_clanid=30894603",
+      "review": "한글 패치 - 으잌",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "3712080",
+      "url": "https://store.steampowered.com/app/3712080/Funnel_Runners/",
+      "curator_url": "https://store.steampowered.com/app/3712080/?curator_clanid=30894603",
+      "review": "한글 패치 - 으잌",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "2058570",
+      "url": "https://store.steampowered.com/app/2058570/Rift_Wizard_2/",
+      "curator_url": "https://store.steampowered.com/app/2058570/?curator_clanid=30894603",
+      "review": "한글 패치 - killterm",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "4508570",
+      "url": "https://store.steampowered.com/app/4508570/Veritas_Tales_Witch_of_the_Dark_Castle/",
+      "curator_url": "https://store.steampowered.com/app/4508570/?curator_clanid=30894603",
+      "review": "한글 패치 - killterm",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "3590290",
+      "url": "https://store.steampowered.com/app/3590290/DIVE_or_DIE__Children_of_Rain/",
+      "curator_url": "https://store.steampowered.com/app/3590290/?curator_clanid=30894603",
+      "review": "한글 패치",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
     {
       "appid": "4198660",
       "url": "https://store.steampowered.com/app/4198660/Demons_Timeline/",

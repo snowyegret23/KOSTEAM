@@ -26420,7 +26420,7 @@
     ],
     "patch_descriptions": [
       "제작자 : killterm",
-      "유저 한글 패치 - killterm 님"
+      "한글 패치 - killterm"
     ],
     "patch_sources": [
       "steamapp",
@@ -33785,7 +33785,7 @@
     ],
     "patch_descriptions": [
       "한글화: 아모건 폰트 기술 지원: Snowyegret, r35 사용한 폰트: Neo둥근모(",
-      "유저 한국어 패치 - 아모건 님\n폰트 기술 지원: Snowyegret, r35 님"
+      "한글 패치 - 아모건\n폰트 기술 지원: Snowyegret, r35"
     ],
     "patch_sources": [
       "steamapp",
@@ -38523,7 +38523,7 @@
     ],
     "patch_descriptions": [
       "한글화: 아모건",
-      "유저 한국어 패치 - 아모건 님"
+      "한글 패치 - 아모건"
     ],
     "patch_sources": [
       "steamapp",
@@ -40046,7 +40046,7 @@
     ],
     "patch_descriptions": [
       "한글화: 아모건 폰트제작: r35",
-      "유저 한국어 패치 - 아모건 님"
+      "한글 패치 - 아모건"
     ],
     "patch_sources": [
       "steamapp",
@@ -49438,6 +49438,24 @@
       "quasarplay": "https://store.steampowered.com/app/2057760/?curator_clanid=30894603"
     }
   },
+  "2058570": {
+    "type": "user",
+    "sources": [
+      "quasarplay"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "한글 패치 - killterm"
+    ],
+    "patch_sources": [
+      "quasarplay"
+    ],
+    "source_site_urls": {
+      "quasarplay": "https://store.steampowered.com/app/2058570/?curator_clanid=30894603"
+    }
+  },
   "2060870": {
     "type": "user",
     "sources": [
@@ -52545,7 +52563,7 @@
     ],
     "patch_descriptions": [
       "한글화: 아모건",
-      "유저 한국어 패치 - 아모건 님"
+      "한글 패치 - 아모건"
     ],
     "patch_sources": [
       "steamapp",
@@ -53265,7 +53283,7 @@
     ],
     "patch_descriptions": [
       "한글화: 아모건",
-      "유저 한국어 패치 - 아강"
+      "한글 패치 - 아강"
     ],
     "patch_sources": [
       "steamapp",
@@ -69093,7 +69111,7 @@
     ],
     "patch_descriptions": [
       "제작자 : 정보없음",
-      "유저 한글 패치 - fuseson4\n유저 한글 패치 - 아강"
+      "한글 패치 - fuseson4\n한글 패치 - 아강"
     ],
     "patch_sources": [
       "steamapp",
@@ -70075,6 +70093,24 @@
       "quasarplay": "https://store.steampowered.com/app/3587610/?curator_clanid=30894603"
     }
   },
+  "3590290": {
+    "type": "user",
+    "sources": [
+      "quasarplay"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "한글 패치"
+    ],
+    "patch_sources": [
+      "quasarplay"
+    ],
+    "source_site_urls": {
+      "quasarplay": "https://store.steampowered.com/app/3590290/?curator_clanid=30894603"
+    }
+  },
   "3595800": {
     "type": "user",
     "sources": [
@@ -70483,6 +70519,24 @@
       "quasarplay": "https://store.steampowered.com/app/3655150/?curator_clanid=30894603"
     }
   },
+  "3655960": {
+    "type": "user",
+    "sources": [
+      "quasarplay"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "한글 패치 - 으잌"
+    ],
+    "patch_sources": [
+      "quasarplay"
+    ],
+    "source_site_urls": {
+      "quasarplay": "https://store.steampowered.com/app/3655960/?curator_clanid=30894603"
+    }
+  },
   "3657210": {
     "type": "user",
     "sources": [
@@ -70773,6 +70827,24 @@
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/jw7wg0/%E7%99%BE%E5%A6%96%E8%AF%95%E7%A6%85%E5%BF%83",
       "quasarplay": "https://store.steampowered.com/app/3709650/?curator_clanid=30894603"
+    }
+  },
+  "3712080": {
+    "type": "user",
+    "sources": [
+      "quasarplay"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "한글 패치 - 으잌"
+    ],
+    "patch_sources": [
+      "quasarplay"
+    ],
+    "source_site_urls": {
+      "quasarplay": "https://store.steampowered.com/app/3712080/?curator_clanid=30894603"
     }
   },
   "3716850": {
@@ -73747,6 +73819,24 @@
       "quasarplay": "https://store.steampowered.com/app/4504460/?curator_clanid=30894603"
     }
   },
+  "4508570": {
+    "type": "user",
+    "sources": [
+      "quasarplay"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "한글 패치 - killterm"
+    ],
+    "patch_sources": [
+      "quasarplay"
+    ],
+    "source_site_urls": {
+      "quasarplay": "https://store.steampowered.com/app/4508570/?curator_clanid=30894603"
+    }
+  },
   "4508710": {
     "type": "user",
     "sources": [
@@ -74063,7 +74153,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-07-22T22:01:48.597Z",
-    "total": 3435
+    "generated_at": "2026-07-24T22:01:34.906Z",
+    "total": 3440
   }
 }
