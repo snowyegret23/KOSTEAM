@@ -447,10 +447,12 @@
     "source_site_url": "https://hanpe.net/app/46ddx2/hitman-blood-money",
     "patch_type": "user",
     "patch_links": [
-      "1e5c80a8"
+      "1e5c80a8",
+      "6d15f2e2"
     ],
     "patch_descriptions": [
-      "영상 한국어화 패치"
+      "영상 한국어화 패치",
+      "제작자 : 몰라"
     ]
   },
   {
@@ -5206,10 +5208,12 @@
     "source_site_url": "https://hanpe.net/app/jm2ov9/the-binding-of-isaac-rebirth",
     "patch_type": "user",
     "patch_links": [
-      "f928bcb1"
+      "f928bcb1",
+      "abffdbdc"
     ],
     "patch_descriptions": [
-      "제작자 : 이강현"
+      "제작자 : 이강현",
+      "제작자 : sawalk Repentance+ 한글패치"
     ]
   },
   {
@@ -17245,10 +17249,12 @@
     "source_site_url": "https://hanpe.net/app/jp8ryw/%EC%97%AD%EB%B6%95%EA%B4%B4-%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%EC%9E%91%EC%A0%84",
     "patch_type": "official",
     "patch_links": [
-      "dfb93cb2"
+      "dfb93cb2",
+      "ed46f921"
     ],
     "patch_descriptions": [
-      "공식 한글 번역 개선 패치"
+      "공식 한글 번역 개선 패치",
+      "제작자 :렌소베리"
     ]
   },
   {
@@ -21422,10 +21428,12 @@
     "source_site_url": "https://hanpe.net/app/l28zzm/hitman-world-of-assassination",
     "patch_type": "user",
     "patch_links": [
-      "99f1634d"
+      "99f1634d",
+      "b7fd5763"
     ],
     "patch_descriptions": [
-      "제작자 : 정보없음"
+      "제작자 : 정보없음",
+      "한글패치 정보"
     ]
   },
   {
@@ -25977,10 +25985,12 @@
     "source_site_url": "https://hanpe.net/app/jw05q7/holocure-save-the-fans",
     "patch_type": "user",
     "patch_links": [
-      "4c581040"
+      "4c581040",
+      "f04bee29"
     ],
     "patch_descriptions": [
-      "제작자 : khronii 참고사항 : 최신 버전에서 패치 적용 안 됨, 구 버전을 받으셔야 합니다"
+      "제작자 : khronii 참고사항 : 최신 버전에서 패치 적용 안 됨, 구 버전을 받으셔야 합니다",
+      "제작자 : 오콕"
     ]
   },
   {
@@ -29291,6 +29301,19 @@
     ]
   },
   {
+    "app_id": "3046300",
+    "game_title": "The Moon Looks Beautiful Tonight: Definitive Edition",
+    "steam_link": "https://store.steampowered.com/app/3046300",
+    "source_site_url": "https://hanpe.net/app/lk1ok2/the-moon-looks-beautiful-tonight-definitive-edition",
+    "patch_type": "user",
+    "patch_links": [
+      "f4fbc7b0"
+    ],
+    "patch_descriptions": [
+      "제작자 : modi"
+    ]
+  },
+  {
     "app_id": "3050600",
     "game_title": "Exorcist: Reviewer of Minds",
     "steam_link": "https://store.steampowered.com/app/3050600",
@@ -29877,10 +29900,12 @@
     "source_site_url": "https://hanpe.net/app/jmnog5/one-turn-kill",
     "patch_type": "user",
     "patch_links": [
-      "969439d4"
+      "969439d4",
+      "116524ce"
     ],
     "patch_descriptions": [
-      "제작자 : koori"
+      "제작자 : koori",
+      "1.0.5 버전 대응 패치 제작자 : 빤갤용고닉"
     ]
   },
   {
@@ -30098,6 +30123,19 @@
     ]
   },
   {
+    "app_id": "3196180",
+    "game_title": "Trivia About You",
+    "steam_link": "https://store.steampowered.com/app/3196180",
+    "source_site_url": "https://hanpe.net/app/jdk33m/trivia-about-you",
+    "patch_type": "user",
+    "patch_links": [
+      "198a2c38"
+    ],
+    "patch_descriptions": [
+      "제작자 : 파미도 파일 링크는 댓글 참조 또는"
+    ]
+  },
+  {
     "app_id": "3200060",
     "game_title": "SANAE's Sylphid Breeze",
     "steam_link": "https://store.steampowered.com/app/3200060",
@@ -30292,6 +30330,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 유하님"
+    ]
+  },
+  {
+    "app_id": "3239250",
+    "game_title": "Clover Reset",
+    "steam_link": "https://store.steampowered.com/app/3239250",
+    "source_site_url": "https://hanpe.net/app/jdkrrm/clover-reset",
+    "patch_type": "user",
+    "patch_links": [
+      "e48a1213"
+    ],
+    "patch_descriptions": [
+      "제작자 : 쿄아야 데모판 한글화"
     ]
   },
   {
@@ -32135,9 +32186,9 @@
   },
   {
     "app_id": "3784760",
-    "game_title": "Elfie: 코끼리랑 모래성이랑은",
+    "game_title": "Elfie: 코끼리랑 모래성이랑",
     "steam_link": "https://store.steampowered.com/app/3784760",
-    "source_site_url": "https://hanpe.net/app/j0e61x/elfie-%EC%BD%94%EB%81%BC%EB%A6%AC%EB%9E%91-%EB%AA%A8%EB%9E%98%EC%84%B1%EC%9D%B4%EB%9E%91%EC%9D%80",
+    "source_site_url": "https://hanpe.net/app/j0e61x/elfie-%EC%BD%94%EB%81%BC%EB%A6%AC%EB%9E%91-%EB%AA%A8%EB%9E%98%EC%84%B1%EC%9D%B4%EB%9E%91",
     "patch_type": "user",
     "patch_links": [
       "74853058"
@@ -33082,6 +33133,19 @@
     ]
   },
   {
+    "app_id": "4337080",
+    "game_title": "龙晶 Draconite",
+    "steam_link": "https://store.steampowered.com/app/4337080",
+    "source_site_url": "https://hanpe.net/app/j5zx33/%E9%BE%99%E6%99%B6-draconite",
+    "patch_type": "user",
+    "patch_links": [
+      "61df6e8c"
+    ],
+    "patch_descriptions": [
+      "제작자 : 파미도 파일은 댓글 참조"
+    ]
+  },
+  {
     "app_id": "4345020",
     "game_title": "百尺様",
     "steam_link": "https://store.steampowered.com/app/4345020",
@@ -33299,6 +33363,19 @@
     ]
   },
   {
+    "app_id": "4710650",
+    "game_title": "白书传说",
+    "steam_link": "https://store.steampowered.com/app/4710650",
+    "source_site_url": "https://hanpe.net/app/4o1yrx/%E7%99%BD%E4%B9%A6%E4%BC%A0%E8%AF%B4",
+    "patch_type": "user",
+    "patch_links": [
+      "0814b8ca"
+    ],
+    "patch_descriptions": [
+      "제작자 : 파미도 파일은 댓글 참조"
+    ]
+  },
+  {
     "app_id": "4820610",
     "game_title": "Project Threshold",
     "steam_link": "https://store.steampowered.com/app/4820610",
@@ -33322,6 +33399,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 김까까"
+    ]
+  },
+  {
+    "app_id": "4877900",
+    "game_title": "wolfworld",
+    "steam_link": "https://store.steampowered.com/app/4877900",
+    "source_site_url": "https://hanpe.net/app/4owg6n/wolfworld",
+    "patch_type": "user",
+    "patch_links": [
+      "be86326c"
+    ],
+    "patch_descriptions": [
+      "제작자 : 파미도 파일은 댓글 참조"
     ]
   }
 ]

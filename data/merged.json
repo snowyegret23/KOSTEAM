@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-07-24T22:01:34.906Z",
-    "total_with_steam_link": 3440,
+    "generated_at": "2026-07-26T21:55:39.206Z",
+    "total_with_steam_link": 3446,
     "total_without_steam_link": 8,
     "sources": [
       "steamapp",
@@ -26870,6 +26870,27 @@
       ]
     },
     {
+      "app_id": "3239250",
+      "game_title": "Clover Reset",
+      "steam_link": "https://store.steampowered.com/app/3239250",
+      "patch_type": "user",
+      "patch_links": [
+        "e48a1213"
+      ],
+      "patch_descriptions": [
+        "제작자 : 쿄아야 데모판 한글화"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jdkrrm/clover-reset"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "3351330",
       "game_title": "Clown Is Hungry",
       "steam_link": "https://store.steampowered.com/app/3351330",
@@ -32769,7 +32790,7 @@
     },
     {
       "app_id": "3784760",
-      "game_title": "Elfie: 코끼리랑 모래성이랑은",
+      "game_title": "Elfie: 코끼리랑 모래성이랑",
       "steam_link": "https://store.steampowered.com/app/3784760",
       "patch_type": "user",
       "patch_links": [
@@ -32785,7 +32806,7 @@
         "quasarplay"
       ],
       "source_site_urls": {
-        "steamapp": "https://hanpe.net/app/j0e61x/elfie-%EC%BD%94%EB%81%BC%EB%A6%AC%EB%9E%91-%EB%AA%A8%EB%9E%98%EC%84%B1%EC%9D%B4%EB%9E%91%EC%9D%80",
+        "steamapp": "https://hanpe.net/app/j0e61x/elfie-%EC%BD%94%EB%81%BC%EB%A6%AC%EB%9E%91-%EB%AA%A8%EB%9E%98%EC%84%B1%EC%9D%B4%EB%9E%91",
         "quasarplay": "https://store.steampowered.com/app/3784760/?curator_clanid=30894603"
       },
       "sources": [
@@ -39200,13 +39221,16 @@
       "patch_type": "user",
       "patch_links": [
         "99f1634d",
+        "b7fd5763",
         "exist"
       ],
       "patch_descriptions": [
         "제작자 : 정보없음",
+        "한글패치 정보",
         "유저 한국어 패치 - 두바이 챕터 및 일부 UI 한국어 패치 적용"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "quasarplay"
       ],
@@ -39252,13 +39276,16 @@
       "patch_type": "user",
       "patch_links": [
         "1e5c80a8",
+        "6d15f2e2",
         "exist"
       ],
       "patch_descriptions": [
         "영상 한국어화 패치",
+        "제작자 : 몰라",
         "유저 한국어 패치"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "quasarplay"
       ],
@@ -39449,12 +39476,15 @@
       "steam_link": "https://store.steampowered.com/app/2420510",
       "patch_type": "user",
       "patch_links": [
-        "4c581040"
+        "4c581040",
+        "f04bee29"
       ],
       "patch_descriptions": [
-        "제작자 : khronii 참고사항 : 최신 버전에서 패치 적용 안 됨, 구 버전을 받으셔야 합니다"
+        "제작자 : khronii 참고사항 : 최신 버전에서 패치 적용 안 됨, 구 버전을 받으셔야 합니다",
+        "제작자 : 오콕"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp"
       ],
       "source_site_urls": {
@@ -50789,13 +50819,16 @@
       "patch_type": "user",
       "patch_links": [
         "969439d4",
+        "116524ce",
         "exist"
       ],
       "patch_descriptions": [
         "제작자 : koori",
+        "1.0.5 버전 대응 패치 제작자 : 빤갤용고닉",
         "한글 패치 - 빤갤용고닉\n한글 패치 - koori"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "quasarplay"
       ],
@@ -64143,13 +64176,16 @@
       "patch_type": "user",
       "patch_links": [
         "f928bcb1",
+        "abffdbdc",
         "exist"
       ],
       "patch_descriptions": [
         "제작자 : 이강현",
+        "제작자 : sawalk Repentance+ 한글패치",
         "한글 패치 - Team.SM\n한글 패치 - 이강현"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "quasarplay"
       ],
@@ -66969,6 +67005,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "3046300",
+      "game_title": "The Moon Looks Beautiful Tonight: Definitive Edition",
+      "steam_link": "https://store.steampowered.com/app/3046300",
+      "patch_type": "user",
+      "patch_links": [
+        "f4fbc7b0"
+      ],
+      "patch_descriptions": [
+        "제작자 : modi"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/lk1ok2/the-moon-looks-beautiful-tonight-definitive-edition"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -70439,6 +70496,27 @@
       ]
     },
     {
+      "app_id": "3196180",
+      "game_title": "Trivia About You",
+      "steam_link": "https://store.steampowered.com/app/3196180",
+      "patch_type": "user",
+      "patch_links": [
+        "198a2c38"
+      ],
+      "patch_descriptions": [
+        "제작자 : 파미도 파일 링크는 댓글 참조 또는"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jdk33m/trivia-about-you"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "23490",
       "game_title": "Tropico 3",
       "steam_link": "https://store.steampowered.com/app/23490",
@@ -73623,6 +73701,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "4877900",
+      "game_title": "wolfworld",
+      "steam_link": "https://store.steampowered.com/app/4877900",
+      "patch_type": "user",
+      "patch_links": [
+        "be86326c"
+      ],
+      "patch_descriptions": [
+        "제작자 : 파미도 파일은 댓글 참조"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4owg6n/wolfworld"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -77708,12 +77807,15 @@
       "steam_link": "https://store.steampowered.com/app/1127700",
       "patch_type": "official",
       "patch_links": [
-        "dfb93cb2"
+        "dfb93cb2",
+        "ed46f921"
       ],
       "patch_descriptions": [
-        "공식 한글 번역 개선 패치"
+        "공식 한글 번역 개선 패치",
+        "제작자 :렌소베리"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp"
       ],
       "source_site_urls": {
@@ -83725,6 +83827,27 @@
       ]
     },
     {
+      "app_id": "4710650",
+      "game_title": "白书传说",
+      "steam_link": "https://store.steampowered.com/app/4710650",
+      "patch_type": "user",
+      "patch_links": [
+        "0814b8ca"
+      ],
+      "patch_descriptions": [
+        "제작자 : 파미도 파일은 댓글 참조"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4o1yrx/%E7%99%BD%E4%B9%A6%E4%BC%A0%E8%AF%B4"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "3709650",
       "game_title": "百妖试禅心",
       "steam_link": "https://store.steampowered.com/app/3709650",
@@ -84462,6 +84585,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "4337080",
+      "game_title": "龙晶 Draconite",
+      "steam_link": "https://store.steampowered.com/app/4337080",
+      "patch_type": "user",
+      "patch_links": [
+        "61df6e8c"
+      ],
+      "patch_descriptions": [
+        "제작자 : 파미도 파일은 댓글 참조"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j5zx33/%E9%BE%99%E6%99%B6-draconite"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
