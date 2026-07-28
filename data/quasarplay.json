@@ -2,8 +2,8 @@
   "curator_id": 42788178,
   "curator_name": "Curator #42788178",
   "curator_url": "https://store.steampowered.com/curator/42788178/",
-  "total_games": 1832,
-  "exported_at": "2026-07-26T21:55:06.683327",
+  "total_games": 1831,
+  "exported_at": "2026-07-28T03:10:44.430987",
   "games": [
     {
       "appid": "400170",
@@ -5788,15 +5788,6 @@
       "url": "https://store.steampowered.com/app/674520/FightN_Rage/",
       "curator_url": "https://store.steampowered.com/app/674520/?curator_clanid=42788178",
       "review": "유저 한글 패치 - 에디 님",
-      "review_has_url": true,
-      "review_url_count": 1,
-      "type": "recommended"
-    },
-    {
-      "appid": "2287220",
-      "url": "https://store.steampowered.com/app/2287220/F1_Manager_2023/",
-      "curator_url": "https://store.steampowered.com/app/2287220/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - Brave Toaster 님",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"

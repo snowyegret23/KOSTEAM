@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-07-26T21:55:39.206Z",
-    "total_with_steam_link": 3446,
+    "generated_at": "2026-07-28T03:11:16.946Z",
+    "total_with_steam_link": 3533,
     "total_without_steam_link": 8,
     "sources": [
       "steamapp",
@@ -811,27 +811,6 @@
       ]
     },
     {
-      "app_id": "249130",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/249130/LEGO_Marvel_Super_Heroes/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - 흐음"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/249130/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
       "app_id": "4366330",
       "game_title": "",
       "steam_link": "https://store.steampowered.com/app/4366330/Rift_Wizard_3/",
@@ -1246,48 +1225,6 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/2817140/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "1856600",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/1856600/Rewrite_Harvest_festa/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - 로브르"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/1856600/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "400160",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/400160/Concrete_Jungle/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - EL"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/400160/?curator_clanid=30894603"
       },
       "sources": [
         "quasarplay"
@@ -9930,27 +9867,6 @@
       ]
     },
     {
-      "app_id": "513710",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/513710/SCUM/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "유저 한글 패치 - 한무테"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/513710/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
       "app_id": "2989270",
       "game_title": "",
       "steam_link": "https://store.steampowered.com/app/2989270/A_Tithe_in_Blood/",
@@ -13687,32 +13603,6 @@
       ]
     },
     {
-      "app_id": "375480",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/375480/Chronicon/",
-      "patch_type": "official",
-      "patch_links": [
-        "exist",
-        "exist"
-      ],
-      "patch_descriptions": [
-        "스토브 인디 한글판\n※ 스팀 키 미제공\n유저 한글 패치 - 한무테",
-        ""
-      ],
-      "patch_sources": [
-        "quasarplay",
-        "stove"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/375480/?curator_clanid=42788178",
-        "stove": "https://store.onstove.com/ko/games/1698"
-      },
-      "sources": [
-        "quasarplay",
-        "stove"
-      ]
-    },
-    {
       "app_id": "452440",
       "game_title": "",
       "steam_link": "https://store.steampowered.com/app/452440/Flowers_Le_volume_sur_printemps/",
@@ -15504,32 +15394,6 @@
       ]
     },
     {
-      "app_id": "1421760",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/1421760/What_Comes_After/",
-      "patch_type": "official",
-      "patch_links": [
-        "exist",
-        "exist"
-      ],
-      "patch_descriptions": [
-        "스토브 인디 한국어화",
-        ""
-      ],
-      "patch_sources": [
-        "quasarplay",
-        "stove"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/1421760/?curator_clanid=42788178",
-        "stove": "https://store.onstove.com/ko/games/426"
-      },
-      "sources": [
-        "quasarplay",
-        "stove"
-      ]
-    },
-    {
       "app_id": "1316800",
       "game_title": "",
       "steam_link": "https://store.steampowered.com/app/1316800/Destropolis/",
@@ -16794,65 +16658,6 @@
       ]
     },
     {
-      "app_id": "667720",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/667720/Red_Faction_Guerrilla_ReMarstered/",
-      "patch_type": "official",
-      "patch_links": [],
-      "patch_descriptions": [
-        "상점 정보에는 한국어 미지원이나, 공식 한국어 자막 지원"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/667720/?curator_clanid=42788178"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "460920",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/460920/Steep/",
-      "patch_type": "official",
-      "patch_links": [],
-      "patch_descriptions": [
-        "한국어 표기가 안되어 있지만, STEEP 윈터 게임 에디션 발매 이후 공식 한국어 지원합니다."
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/460920/?curator_clanid=42788178"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "308040",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/308040/Back_to_Bed/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "유저 한국어 패치 - Fluffy 님"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/308040/?curator_clanid=42788178"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
       "app_id": "474750",
       "game_title": "",
       "steam_link": "https://store.steampowered.com/app/474750/Reigns/",
@@ -16892,53 +16697,6 @@
       },
       "sources": [
         "quasarplay"
-      ]
-    },
-    {
-      "app_id": "493900",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/493900/Dungeons_3/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "다이렉트 게임즈 구매 시 공식 한국어 지원\n \n컴플리트 에디션"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/493900/?curator_clanid=42788178"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "272270",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/272270/Torment_Tides_of_Numenera/",
-      "patch_type": "official",
-      "patch_links": [
-        "exist",
-        "exist"
-      ],
-      "patch_descriptions": [
-        "다이렉트 게임즈 구매 시 한국어 지원",
-        ""
-      ],
-      "patch_sources": [
-        "quasarplay",
-        "directg"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/272270/?curator_clanid=42788178",
-        "directg": "https://www.directg.net/game/game_view.html?product_id=eaec72e0-c669-442b-9ee9-65c3be51d700&sku=76ba804d-eb5a-4973-ab32-6b0397b618e2&platform=1"
-      },
-      "sources": [
-        "quasarplay",
-        "directg"
       ]
     },
     {
@@ -17110,27 +16868,6 @@
       ]
     },
     {
-      "app_id": "1020470",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/1020470/Evoland_Legendary_Edition/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "에보랜드 레전더리 에디션(에보랜드 1, 2 합본팩)\n다이렉트 게임즈 구매 시 한국어 지원,\n한국 스팀판 에보랜드 레전더리 에디션도 한국어 표기는 없으나 한국어 지원합니다.\n※ 스팀 개별판 구매 시에는 한국어 지원 X\n다이렉트 게임즈"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/1020470/?curator_clanid=42788178"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
       "app_id": "310470",
       "game_title": "",
       "steam_link": "https://store.steampowered.com/app/310470/Grand_Ages_Medieval/",
@@ -17152,27 +16889,6 @@
       ]
     },
     {
-      "app_id": "291650",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/291650/Pillars_of_Eternity/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "정발 패키지 & 다이렉트 게임즈 구매 시 공식 한국어 지원,\n \nPillars of Eternity 디피니티브 에디션 구매 시 공식 한국어 지원"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/291650/?curator_clanid=42788178"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
       "app_id": "24800",
       "game_title": "",
       "steam_link": "https://store.steampowered.com/app/24800/Command__Conquer_Red_Alert_3__Uprising/",
@@ -17188,25 +16904,6 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/24800/?curator_clanid=42788178"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "280160",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/280160/Aragami/",
-      "patch_type": "official",
-      "patch_links": [],
-      "patch_descriptions": [
-        "스팀 상점 지원 언어에는 한국어가 빠져있으나, 공식 한국어 지원"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/280160/?curator_clanid=42788178"
       },
       "sources": [
         "quasarplay"
@@ -17833,6 +17530,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "559330",
+      "game_title": "A Fisherman's Tale",
+      "steam_link": "https://store.steampowered.com/app/559330",
+      "patch_type": "official",
+      "patch_links": [
+        "3049889a"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j86rr2/a-fishermans-tale"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -18676,6 +18394,27 @@
       ]
     },
     {
+      "app_id": "603320",
+      "game_title": "Age of Defense",
+      "steam_link": "https://store.steampowered.com/app/603320",
+      "patch_type": "official",
+      "patch_links": [
+        "5882508b"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원 - 언어 장벽 없음"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jnrm7r/age-of-defense"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "221380",
       "game_title": "Age of Empires II (Retired)",
       "steam_link": "https://store.steampowered.com/app/221380",
@@ -18846,6 +18585,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "206500",
+      "game_title": "AirMech",
+      "steam_link": "https://store.steampowered.com/app/206500",
+      "patch_type": "official",
+      "patch_links": [
+        "1017a811"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l2nge2/airmech"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -19056,6 +18816,27 @@
       ]
     },
     {
+      "app_id": "1333470",
+      "game_title": "Alex Kidd in Miracle World DX",
+      "steam_link": "https://store.steampowered.com/app/1333470",
+      "patch_type": "official",
+      "patch_links": [
+        "e7c620df"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jpr7z3/alex-kidd-in-miracle-world-dx"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "1489410",
       "game_title": "Alice Escaped!",
       "steam_link": "https://store.steampowered.com/app/1489410",
@@ -19163,6 +18944,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "630",
+      "game_title": "Alien Swarm",
+      "steam_link": "https://store.steampowered.com/app/630",
+      "patch_type": "official",
+      "patch_links": [
+        "b1952234"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jmpy5d/alien-swarm"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -20348,6 +20150,52 @@
       ]
     },
     {
+      "app_id": "280160",
+      "game_title": "Aragami",
+      "steam_link": "https://store.steampowered.com/app/280160",
+      "patch_type": "official",
+      "patch_links": [
+        "3eebe5ae"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원",
+        "스팀 상점 지원 언어에는 한국어가 빠져있으나, 공식 한국어 지원"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/41o1kd/aragami",
+        "quasarplay": "https://store.steampowered.com/app/280160/?curator_clanid=42788178"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "750520",
+      "game_title": "Arcade Tycoon ™ : Simulation Game",
+      "steam_link": "https://store.steampowered.com/app/750520",
+      "patch_type": "official",
+      "patch_links": [
+        "c1dadc86"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/lkvzgq/arcade-tycoon-tm-simulation-game"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "2981070",
       "game_title": "Arcane Trigger",
       "steam_link": "https://store.steampowered.com/app/2981070",
@@ -20715,6 +20563,27 @@
       ]
     },
     {
+      "app_id": "558100",
+      "game_title": "Art of War: Red Tides",
+      "steam_link": "https://store.steampowered.com/app/558100",
+      "patch_type": "official",
+      "patch_links": [
+        "89c45239"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j0x1n1/art-of-war-red-tides"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "1700",
       "game_title": "Arx Fatalis",
       "steam_link": "https://store.steampowered.com/app/1700",
@@ -20846,6 +20715,48 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "277590",
+      "game_title": "Assassin's Creed Freedom Cry",
+      "steam_link": "https://store.steampowered.com/app/277590",
+      "patch_type": "official",
+      "patch_links": [
+        "0b23af21"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4e7xrz/assassins-creed-freedom-cry"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "242050",
+      "game_title": "Assassin’s Creed® IV Black Flag™",
+      "steam_link": "https://store.steampowered.com/app/242050",
+      "patch_type": "official",
+      "patch_links": [
+        "35cb251a"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jn69k8/assassins-creed-iv-black-flagtm"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -21714,6 +21625,32 @@
       ]
     },
     {
+      "app_id": "308040",
+      "game_title": "Back to Bed",
+      "steam_link": "https://store.steampowered.com/app/308040",
+      "patch_type": "official",
+      "patch_links": [
+        "e69e0047",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원",
+        "유저 한국어 패치 - Fluffy 님"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jpo63w/back-to-bed",
+        "quasarplay": "https://store.steampowered.com/app/308040/?curator_clanid=42788178"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "1735700",
       "game_title": "Back to the Dawn ~브레이크 더 애니멀 프리즌~",
       "steam_link": "https://store.steampowered.com/app/1735700",
@@ -21836,6 +21773,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "573070",
+      "game_title": "BAFL - Brakes Are For Losers",
+      "steam_link": "https://store.steampowered.com/app/573070",
+      "patch_type": "official",
+      "patch_links": [
+        "48273c94"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l3mrk0/bafl-brakes-are-for-losers"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -25531,6 +25489,27 @@
       ]
     },
     {
+      "app_id": "588120",
+      "game_title": "Capsa",
+      "steam_link": "https://store.steampowered.com/app/588120",
+      "patch_type": "official",
+      "patch_links": [
+        "67169435"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jw2gyo/capsa"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "1163550",
       "game_title": "Captain Tsubasa: Rise of New Champions",
       "steam_link": "https://store.steampowered.com/app/1163550",
@@ -25713,6 +25692,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "635060",
+      "game_title": "Castle of no Escape",
+      "steam_link": "https://store.steampowered.com/app/635060",
+      "patch_type": "official",
+      "patch_links": [
+        "821c1865"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jmxrq8/castle-of-no-escape"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -26365,6 +26365,27 @@
       ]
     },
     {
+      "app_id": "219640",
+      "game_title": "Chivalry: Medieval Warfare",
+      "steam_link": "https://store.steampowered.com/app/219640",
+      "patch_type": "official",
+      "patch_links": [
+        "6277e93a"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4698r9/chivalry-medieval-warfare"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "2223220",
       "game_title": "Choppie's",
       "steam_link": "https://store.steampowered.com/app/2223220",
@@ -26482,6 +26503,37 @@
       },
       "sources": [
         "steamapp"
+      ]
+    },
+    {
+      "app_id": "375480",
+      "game_title": "Chronicon",
+      "steam_link": "https://store.steampowered.com/app/375480",
+      "patch_type": "official",
+      "patch_links": [
+        "350d8b4a",
+        "exist",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 크로이츠",
+        "스토브 인디 한글판\n※ 스팀 키 미제공\n유저 한글 패치 - 한무테",
+        ""
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay",
+        "stove"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/46zkp9/chronicon",
+        "quasarplay": "https://store.steampowered.com/app/375480/?curator_clanid=42788178",
+        "stove": "https://store.onstove.com/ko/games/1698"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay",
+        "stove"
       ]
     },
     {
@@ -27221,6 +27273,32 @@
       ]
     },
     {
+      "app_id": "400160",
+      "game_title": "Concrete Jungle",
+      "steam_link": "https://store.steampowered.com/app/400160",
+      "patch_type": "user",
+      "patch_links": [
+        "a1feafca",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "한국어 패치 제작 : EL 번역 : AI",
+        "한글 패치 - EL"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4ezwxv/concrete-jungle",
+        "quasarplay": "https://store.steampowered.com/app/400160/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "2600700",
       "game_title": "CONERU -DIMENSION GIRL-",
       "steam_link": "https://store.steampowered.com/app/2600700",
@@ -27750,6 +27828,27 @@
       ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/lk2gp2/crisis-in-the-kremlin-the-cold-war"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "939000",
+      "game_title": "Crisis VRigade",
+      "steam_link": "https://store.steampowered.com/app/939000",
+      "patch_type": "official",
+      "patch_links": [
+        "c083bd2d"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/41rpop/crisis-vrigade"
       },
       "sources": [
         "steamapp"
@@ -28485,6 +28584,27 @@
       ]
     },
     {
+      "app_id": "723930",
+      "game_title": "Dark Romance: Vampire in Love Collector's Edition",
+      "steam_link": "https://store.steampowered.com/app/723930",
+      "patch_type": "official",
+      "patch_links": [
+        "dfa0acf3"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jno8vr/dark-romance-vampire-in-love-collectors-edition"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "1384670",
       "game_title": "Dark Tales: Edgar Allan Poe's The Devil in the Belfry Collector's Edition",
       "steam_link": "https://store.steampowered.com/app/1384670",
@@ -28624,6 +28744,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "586160",
+      "game_title": "Dash Fleet",
+      "steam_link": "https://store.steampowered.com/app/586160",
+      "patch_type": "official",
+      "patch_links": [
+        "5e2176f9"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jmmqwo/dash-fleet"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -29689,6 +29830,27 @@
       ]
     },
     {
+      "app_id": "496290",
+      "game_title": "Deep Dark Dungeon",
+      "steam_link": "https://store.steampowered.com/app/496290",
+      "patch_type": "official",
+      "patch_links": [
+        "d12d7f71"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l3enxr/deep-dark-dungeon"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "1868360",
       "game_title": "Deep Sleep: Labyrinth of the Forsaken",
       "steam_link": "https://store.steampowered.com/app/1868360",
@@ -30314,6 +30476,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "318090",
+      "game_title": "DICETINY: The Lord of the Dice",
+      "steam_link": "https://store.steampowered.com/app/318090",
+      "patch_type": "official",
+      "patch_links": [
+        "d26db000"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원 - 부분 한글화"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jn973n/dicetiny-the-lord-of-the-dice"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -32200,6 +32383,27 @@
       ]
     },
     {
+      "app_id": "788640",
+      "game_title": "Dungeon Stars",
+      "steam_link": "https://store.steampowered.com/app/788640",
+      "patch_type": "official",
+      "patch_links": [
+        "85d3bc1c"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j86mok/dungeon-stars"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "2287970",
       "game_title": "Dungeon's Legion",
       "steam_link": "https://store.steampowered.com/app/2287970",
@@ -32306,6 +32510,32 @@
         "steamapp",
         "quasarplay",
         "directg"
+      ]
+    },
+    {
+      "app_id": "493900",
+      "game_title": "Dungeons 3",
+      "steam_link": "https://store.steampowered.com/app/493900",
+      "patch_type": "official",
+      "patch_links": [
+        "ff127520",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원",
+        "다이렉트 게임즈 구매 시 공식 한국어 지원\n \n컴플리트 에디션"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jm6199/dungeons-3",
+        "quasarplay": "https://store.steampowered.com/app/493900/?curator_clanid=42788178"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
       ]
     },
     {
@@ -32870,6 +33100,27 @@
       ]
     },
     {
+      "app_id": "503770",
+      "game_title": "Elven Assassin",
+      "steam_link": "https://store.steampowered.com/app/503770",
+      "patch_type": "official",
+      "patch_links": [
+        "0d7ef9d5"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l7e6wv/elven-assassin"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "383120",
       "game_title": "Empyrion - Galactic Survival",
       "steam_link": "https://store.steampowered.com/app/383120",
@@ -32940,6 +33191,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "1337030",
+      "game_title": "En-Train",
+      "steam_link": "https://store.steampowered.com/app/1337030",
+      "patch_type": "official",
+      "patch_links": [
+        "33a0fa0a"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4r0zm2/en-train"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -33552,6 +33824,32 @@
       ]
     },
     {
+      "app_id": "1020470",
+      "game_title": "Evoland Legendary Edition",
+      "steam_link": "https://store.steampowered.com/app/1020470",
+      "patch_type": "official",
+      "patch_links": [
+        "9ec83437",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원",
+        "에보랜드 레전더리 에디션(에보랜드 1, 2 합본팩)\n다이렉트 게임즈 구매 시 한국어 지원,\n한국 스팀판 에보랜드 레전더리 에디션도 한국어 표기는 없으나 한국어 지원합니다.\n※ 스팀 개별판 구매 시에는 한국어 지원 X\n다이렉트 게임즈"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4o6dq5/evoland-legendary-edition",
+        "quasarplay": "https://store.steampowered.com/app/1020470/?curator_clanid=42788178"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "2005090",
       "game_title": "EVOTINCTION",
       "steam_link": "https://store.steampowered.com/app/2005090",
@@ -33841,24 +34139,19 @@
       "steam_link": "https://store.steampowered.com/app/2287220",
       "patch_type": "user",
       "patch_links": [
-        "52334792",
-        "exist"
+        "52334792"
       ],
       "patch_descriptions": [
-        "제작자 : Brave Toaster 번역 참여자: FToaster YUQI Channi URMaMU",
-        "유저 한글 패치 - Brave Toaster 님"
+        "제작자 : Brave Toaster 번역 참여자: FToaster YUQI Channi URMaMU"
       ],
       "patch_sources": [
-        "steamapp",
-        "quasarplay"
+        "steamapp"
       ],
       "source_site_urls": {
-        "steamapp": "https://hanpe.net/app/jpow1n/f1-manager-2023",
-        "quasarplay": "https://store.steampowered.com/app/2287220/?curator_clanid=42788178"
+        "steamapp": "https://hanpe.net/app/jpow1n/f1-manager-2023"
       },
       "sources": [
-        "steamapp",
-        "quasarplay"
+        "steamapp"
       ]
     },
     {
@@ -35223,6 +35516,48 @@
       ]
     },
     {
+      "app_id": "292120",
+      "game_title": "FINAL FANTASY® XIII",
+      "steam_link": "https://store.steampowered.com/app/292120",
+      "patch_type": "official",
+      "patch_links": [
+        "07ab35af"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원 - 상점 공지"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4179yd/final-fantasy-xiii"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "292140",
+      "game_title": "FINAL FANTASY® XIII-2",
+      "steam_link": "https://store.steampowered.com/app/292140",
+      "patch_type": "official",
+      "patch_links": [
+        "616670b5"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원 - 상점 공지"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4r7vqr/final-fantasy-xiii-2"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "2597970",
       "game_title": "Finding Frankie",
       "steam_link": "https://store.steampowered.com/app/2597970",
@@ -35469,6 +35804,27 @@
       ]
     },
     {
+      "app_id": "966330",
+      "game_title": "Flower",
+      "steam_link": "https://store.steampowered.com/app/966330",
+      "patch_type": "official",
+      "patch_links": [
+        "ea4d7d3d"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jpow8k/flower"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "1276330",
       "game_title": "Flying Soldiers",
       "steam_link": "https://store.steampowered.com/app/1276330",
@@ -35544,6 +35900,27 @@
       ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/4qx6dd/for-the-queen"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "1308880",
+      "game_title": "FORECLOSED",
+      "steam_link": "https://store.steampowered.com/app/1308880",
+      "patch_type": "official",
+      "patch_links": [
+        "51dee139"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4o7xxk/foreclosed"
       },
       "sources": [
         "steamapp"
@@ -36141,6 +36518,27 @@
       ]
     },
     {
+      "app_id": "555850",
+      "game_title": "Galactic Landing",
+      "steam_link": "https://store.steampowered.com/app/555850",
+      "patch_type": "official",
+      "patch_links": [
+        "c71377d8"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jpnm5w/galactic-landing"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "3069630",
       "game_title": "Galaxy Princess Zorana",
       "steam_link": "https://store.steampowered.com/app/3069630",
@@ -36662,6 +37060,27 @@
       ]
     },
     {
+      "app_id": "327070",
+      "game_title": "Gloria Victis: Medieval MMORPG",
+      "steam_link": "https://store.steampowered.com/app/327070",
+      "patch_type": "official",
+      "patch_links": [
+        "784a6fef"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원 - 부분 한글화"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jdgdg2/gloria-victis-medieval-mmorpg"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "224500",
       "game_title": "Gnomoria",
       "steam_link": "https://store.steampowered.com/app/224500",
@@ -36795,6 +37214,27 @@
       ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/jwzr6e/goat-simulator-waste-of-space"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "797660",
+      "game_title": "God Test",
+      "steam_link": "https://store.steampowered.com/app/797660",
+      "patch_type": "official",
+      "patch_links": [
+        "e3e00d87"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원 - 낮은 번역 퀄리티"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jdo8nz/god-test"
       },
       "sources": [
         "steamapp"
@@ -38050,6 +38490,27 @@
       ]
     },
     {
+      "app_id": "976730",
+      "game_title": "Halo: The Master Chief Collection",
+      "steam_link": "https://store.steampowered.com/app/976730",
+      "patch_type": "official",
+      "patch_links": [
+        "b95c4671"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원 - 음성, 자막 모두 한국어 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j99g1q/halo-the-master-chief-collection"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "239070",
       "game_title": "Hammerwatch",
       "steam_link": "https://store.steampowered.com/app/239070",
@@ -38206,6 +38667,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "15400",
+      "game_title": "Harvest: Massive Encounter",
+      "steam_link": "https://store.steampowered.com/app/15400",
+      "patch_type": "official",
+      "patch_links": [
+        "7075143d"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/46p5d9/harvest-massive-encounter"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -42195,6 +42677,27 @@
       ]
     },
     {
+      "app_id": "255300",
+      "game_title": "Journey of a Roach",
+      "steam_link": "https://store.steampowered.com/app/255300",
+      "patch_type": "official",
+      "patch_links": [
+        "84619ab9"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4y7dor/journey-of-a-roach"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "2963230",
       "game_title": "Joyville 2",
       "steam_link": "https://store.steampowered.com/app/2963230",
@@ -42377,6 +42880,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "65080",
+      "game_title": "Kaptain Brawe: A Brawe New World",
+      "steam_link": "https://store.steampowered.com/app/65080",
+      "patch_type": "official",
+      "patch_links": [
+        "e0ea88ab"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l3g9z7/kaptain-brawe-a-brawe-new-world"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -42714,6 +43238,27 @@
       ]
     },
     {
+      "app_id": "1242980",
+      "game_title": "KeyWe",
+      "steam_link": "https://store.steampowered.com/app/1242980",
+      "patch_type": "official",
+      "patch_links": [
+        "eb5d24c4"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4rzp17/keywe"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "917200",
       "game_title": "Kill the Dictator",
       "steam_link": "https://store.steampowered.com/app/917200",
@@ -42938,6 +43483,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "777550",
+      "game_title": "King Battle",
+      "steam_link": "https://store.steampowered.com/app/777550",
+      "patch_type": "official",
+      "patch_links": [
+        "573b3292"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jd9q3o/king-battle"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -43673,6 +44239,27 @@
       ]
     },
     {
+      "app_id": "540840",
+      "game_title": "Lara Croft GO",
+      "steam_link": "https://store.steampowered.com/app/540840",
+      "patch_type": "official",
+      "patch_links": [
+        "1228d6f0"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/lz2q6o/lara-croft-go"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "899770",
       "game_title": "Last Epoch",
       "steam_link": "https://store.steampowered.com/app/899770",
@@ -43696,6 +44283,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "903950",
+      "game_title": "Last Oasis",
+      "steam_link": "https://store.steampowered.com/app/903950",
+      "patch_type": "official",
+      "patch_links": [
+        "d6730401"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jmmegn/last-oasis"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -44049,6 +44657,32 @@
       },
       "sources": [
         "steamapp"
+      ]
+    },
+    {
+      "app_id": "249130",
+      "game_title": "LEGO® Marvel™ Super Heroes",
+      "steam_link": "https://store.steampowered.com/app/249130",
+      "patch_type": "user",
+      "patch_links": [
+        "ab511f14",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 흐음",
+        "한글 패치 - 흐음"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j0em92/lego-marveltm-super-heroes",
+        "quasarplay": "https://store.steampowered.com/app/249130/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
       ]
     },
     {
@@ -47582,6 +48216,48 @@
       ]
     },
     {
+      "app_id": "287980",
+      "game_title": "Mini Metro",
+      "steam_link": "https://store.steampowered.com/app/287980",
+      "patch_type": "official",
+      "patch_links": [
+        "903fa2b7"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/lzkkq9/mini-metro"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "481870",
+      "game_title": "Mini Thief",
+      "steam_link": "https://store.steampowered.com/app/481870",
+      "patch_type": "official",
+      "patch_links": [
+        "d0c35064"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원 - 부분 한글화"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/lkdd08/mini-thief"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "1503530",
       "game_title": "Minit Fun Racer",
       "steam_link": "https://store.steampowered.com/app/1503530",
@@ -49020,6 +49696,27 @@
       ]
     },
     {
+      "app_id": "736200",
+      "game_title": "Nana in the Dark",
+      "steam_link": "https://store.steampowered.com/app/736200",
+      "patch_type": "official",
+      "patch_links": [
+        "1499705b"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/lx2oe7/nana-in-the-dark"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "751450",
       "game_title": "Nanairo Reincarnation",
       "steam_link": "https://store.steampowered.com/app/751450",
@@ -49607,6 +50304,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "253330",
+      "game_title": "Neverending Nightmares",
+      "steam_link": "https://store.steampowered.com/app/253330",
+      "patch_type": "official",
+      "patch_links": [
+        "d12ae96d"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j997ge/neverending-nightmares"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -50714,6 +51432,27 @@
       ]
     },
     {
+      "app_id": "492610",
+      "game_title": "One Day : The Sun Disappeared",
+      "steam_link": "https://store.steampowered.com/app/492610",
+      "patch_type": "official",
+      "patch_links": [
+        "493a7f7c"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원 - 한국어 설정 방법"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l2xm3q/one-day-the-sun-disappeared"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "1274140",
       "game_title": "One Dreamer: Prologue",
       "steam_link": "https://store.steampowered.com/app/1274140",
@@ -50737,6 +51476,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "980300",
+      "game_title": "One Finger Death Punch 2",
+      "steam_link": "https://store.steampowered.com/app/980300",
+      "patch_type": "official",
+      "patch_links": [
+        "070a6606"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jpx9rn/one-finger-death-punch-2"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -51504,6 +52264,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "444090",
+      "game_title": "Paladins®",
+      "steam_link": "https://store.steampowered.com/app/444090",
+      "patch_type": "official",
+      "patch_links": [
+        "d1a83df9"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l281p3/paladins"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -52702,6 +53483,32 @@
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/4ge2wg/pieces-of-me",
         "quasarplay": "https://store.steampowered.com/app/2479740/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "291650",
+      "game_title": "Pillars of Eternity",
+      "steam_link": "https://store.steampowered.com/app/291650",
+      "patch_type": "official",
+      "patch_links": [
+        "52bf080f",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원",
+        "정발 패키지 & 다이렉트 게임즈 구매 시 공식 한국어 지원,\n \nPillars of Eternity 디피니티브 에디션 구매 시 공식 한국어 지원"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jde7gv/pillars-of-eternity",
+        "quasarplay": "https://store.steampowered.com/app/291650/?curator_clanid=42788178"
       },
       "sources": [
         "steamapp",
@@ -54352,18 +55159,15 @@
       "patch_type": "official",
       "patch_links": [
         "2a0530f4",
-        "c043c40f",
         "exist",
         "exist"
       ],
       "patch_descriptions": [
         "topicular님 제작",
-        "스토브 독점 한국어화 스팀 비한국어화",
         "유저 한국어 패치 - topicular 님,\n \n스토브 인디 한국어화",
         ""
       ],
       "patch_sources": [
-        "steamapp",
         "steamapp",
         "quasarplay",
         "stove"
@@ -54550,6 +55354,31 @@
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/jwmqve/rebuild-3-gangs-of-deadsville",
         "quasarplay": "https://store.steampowered.com/app/257170/?curator_clanid=42788178"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "667720",
+      "game_title": "Red Faction Guerrilla Re-Mars-tered",
+      "steam_link": "https://store.steampowered.com/app/667720",
+      "patch_type": "official",
+      "patch_links": [
+        "1e5a6be0"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원",
+        "상점 정보에는 한국어 미지원이나, 공식 한국어 자막 지원"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/lz6dqp/red-faction-guerrilla-re-mars-tered",
+        "quasarplay": "https://store.steampowered.com/app/667720/?curator_clanid=42788178"
       },
       "sources": [
         "steamapp",
@@ -54794,6 +55623,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "289780",
+      "game_title": "Requiem: Desiderium Mortis",
+      "steam_link": "https://store.steampowered.com/app/289780",
+      "patch_type": "official",
+      "patch_links": [
+        "6ab770b9"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원 - 한국어 설정법"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/412pdm/requiem-desiderium-mortis"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -55110,6 +55960,32 @@
       ]
     },
     {
+      "app_id": "1856600",
+      "game_title": "Rewrite Harvest festa!",
+      "steam_link": "https://store.steampowered.com/app/1856600",
+      "patch_type": "user",
+      "patch_links": [
+        "f52db3bb",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : Rovre (로브르)",
+        "한글 패치 - 로브르"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j975q3/rewrite-harvest-festa",
+        "quasarplay": "https://store.steampowered.com/app/1856600/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "1680000",
       "game_title": "Rewrite+",
       "steam_link": "https://store.steampowered.com/app/1680000",
@@ -55289,6 +56165,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "748940",
+      "game_title": "Rise of Legions",
+      "steam_link": "https://store.steampowered.com/app/748940",
+      "patch_type": "official",
+      "patch_links": [
+        "c224fda4"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4gxmx3/rise-of-legions"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -56300,6 +57197,27 @@
       ]
     },
     {
+      "app_id": "38210",
+      "game_title": "Roogoo",
+      "steam_link": "https://store.steampowered.com/app/38210",
+      "patch_type": "official",
+      "patch_links": [
+        "843aaeb7"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4og9r5/roogoo"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "965580",
       "game_title": "Root",
       "steam_link": "https://store.steampowered.com/app/965580",
@@ -56349,6 +57267,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "204580",
+      "game_title": "Rotastic",
+      "steam_link": "https://store.steampowered.com/app/204580",
+      "patch_type": "official",
+      "patch_links": [
+        "97bdb5c5"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jwz1ye/rotastic"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -57444,6 +58383,32 @@
       ]
     },
     {
+      "app_id": "513710",
+      "game_title": "SCUM",
+      "steam_link": "https://store.steampowered.com/app/513710",
+      "patch_type": "official",
+      "patch_links": [
+        "11782bb8",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원 - 부분 한글화",
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jvewx9/scum",
+        "quasarplay": "https://store.steampowered.com/app/513710/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "1286220",
       "game_title": "Sea Power : Naval Combat in the Missile Age",
       "steam_link": "https://store.steampowered.com/app/1286220",
@@ -57942,6 +58907,27 @@
       ]
     },
     {
+      "app_id": "916040",
+      "game_title": "SFD : Rogue TRPG",
+      "steam_link": "https://store.steampowered.com/app/916040",
+      "patch_type": "official",
+      "patch_links": [
+        "f2d70d41"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jn6q78/sfd-rogue-trpg"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "233130",
       "game_title": "Shadow Warrior",
       "steam_link": "https://store.steampowered.com/app/233130",
@@ -58111,6 +59097,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "438040",
+      "game_title": "Shakes and Fidget",
+      "steam_link": "https://store.steampowered.com/app/438040",
+      "patch_type": "official",
+      "patch_links": [
+        "f0dbc8d3"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4r3v9r/shakes-and-fidget"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -58452,6 +59459,27 @@
       ]
     },
     {
+      "app_id": "720150",
+      "game_title": "Shikhondo(食魂徒) - Soul Eater",
+      "steam_link": "https://store.steampowered.com/app/720150",
+      "patch_type": "official",
+      "patch_links": [
+        "cec13bb3"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/lzx852/shikhondo%E9%A3%9F%E9%AD%82%E5%BE%92-soul-eater"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "2304970",
       "game_title": "shita ni",
       "steam_link": "https://store.steampowered.com/app/2304970",
@@ -58475,6 +59503,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "229870",
+      "game_title": "ShootMania Storm",
+      "steam_link": "https://store.steampowered.com/app/229870",
+      "patch_type": "official",
+      "patch_links": [
+        "25b2a0a4"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j8xzv2/shootmania-storm"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -58878,6 +59927,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "326180",
+      "game_title": "Sinister City",
+      "steam_link": "https://store.steampowered.com/app/326180",
+      "patch_type": "official",
+      "patch_links": [
+        "d43242f8"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jpo7y3/sinister-city"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -59409,6 +60479,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "473530",
+      "game_title": "Slime-san: Superslime Edition",
+      "steam_link": "https://store.steampowered.com/app/473530",
+      "patch_type": "official",
+      "patch_links": [
+        "887fe5cc"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l3roxz/slime-san-superslime-edition"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -60294,6 +61385,27 @@
       ]
     },
     {
+      "app_id": "314650",
+      "game_title": "SpaceEngine",
+      "steam_link": "https://store.steampowered.com/app/314650",
+      "patch_type": "official",
+      "patch_links": [
+        "b06cbaef"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jwm5qe/spaceengine"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "1315180",
       "game_title": "Spark in the Dark",
       "steam_link": "https://store.steampowered.com/app/1315180",
@@ -60721,6 +61833,27 @@
       ]
     },
     {
+      "app_id": "393380",
+      "game_title": "Squad",
+      "steam_link": "https://store.steampowered.com/app/393380",
+      "patch_type": "official",
+      "patch_links": [
+        "88f9608c"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4er2m1/squad"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "115110",
       "game_title": "Stacking",
       "steam_link": "https://store.steampowered.com/app/115110",
@@ -60753,13 +61886,16 @@
       "patch_type": "user",
       "patch_links": [
         "6d09b881",
+        "39d88299",
         "exist"
       ],
       "patch_descriptions": [
         "제작자 : flameblast12",
+        "제작자 : 정보없음",
         "한글 패치\n한글 패치 - flameblast12"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "quasarplay"
       ],
@@ -61414,6 +62550,31 @@
       ]
     },
     {
+      "app_id": "460920",
+      "game_title": "Steep™",
+      "steam_link": "https://store.steampowered.com/app/460920",
+      "patch_type": "official",
+      "patch_links": [
+        "5ee593f4"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원",
+        "한국어 표기가 안되어 있지만, STEEP 윈터 게임 에디션 발매 이후 공식 한국어 지원합니다."
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4ypmw6/steeptm",
+        "quasarplay": "https://store.steampowered.com/app/460920/?curator_clanid=42788178"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "412830",
       "game_title": "STEINS;GATE",
       "steam_link": "https://store.steampowered.com/app/412830",
@@ -62053,6 +63214,27 @@
       ]
     },
     {
+      "app_id": "340490",
+      "game_title": "Subterrain",
+      "steam_link": "https://store.steampowered.com/app/340490",
+      "patch_type": "official",
+      "patch_links": [
+        "6badb7f5"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jpner3/subterrain"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "1034140",
       "game_title": "Subverse",
       "steam_link": "https://store.steampowered.com/app/1034140",
@@ -62416,6 +63598,27 @@
       ]
     },
     {
+      "app_id": "1525660",
+      "game_title": "Sunblaze",
+      "steam_link": "https://store.steampowered.com/app/1525660",
+      "patch_type": "official",
+      "patch_links": [
+        "a7c4fbfc"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j59g67/sunblaze"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "2080690",
       "game_title": "Sunkenland",
       "steam_link": "https://store.steampowered.com/app/2080690",
@@ -62480,13 +63683,16 @@
       "patch_type": "user",
       "patch_links": [
         "d82ff912",
+        "1d74997e",
         "exist"
       ],
       "patch_descriptions": [
         "제작자 : shake_luna",
+        "제작자 : 으잌",
         "한글 패치 - 으잌\n한글 패치 - shake_luna"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "quasarplay"
       ],
@@ -62549,6 +63755,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "1077530",
+      "game_title": "SUPER BUILD",
+      "steam_link": "https://store.steampowered.com/app/1077530",
+      "patch_type": "official",
+      "patch_links": [
+        "20387b69"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원 - 부분 한글화"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l2z695/super-build"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -62813,13 +64040,16 @@
       "patch_type": "user",
       "patch_links": [
         "cb3c4592",
+        "a05a7c59",
         "exist"
       ],
       "patch_descriptions": [
         "[참가자] 총괄 : DoyeonK 매니저 : wangu, 연육쮸 번역 : TreadNarrowPath, 익명의 까치, NiceBaldEagle, StickmanArtist, grasshoqqer, asukalovesmisato, justhuman0224, snowden, NIKA, sunnylee1995, royfromvt, Gerrard-fan, Lateliam, Hurbmint, Nihilistone, An0Mal1y, jcrus, gbin96, moomeeboo, TheChgods, Kariaeon, black_emperor, Hikinit021, 클론트루퍼, popcornmunchinglandshark, Jayu-Lee",
+        "3.1.0 대응 버전",
         "유저 한글 패치 - DoyeonK"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "quasarplay"
       ],
@@ -63036,6 +64266,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "1019450",
+      "game_title": "Table Manners: Physics-Based Dating Game",
+      "steam_link": "https://store.steampowered.com/app/1019450",
+      "patch_type": "official",
+      "patch_links": [
+        "8bc4c5f1"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4686m2/table-manners-physics-based-dating-game"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -64047,6 +65298,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "41900",
+      "game_title": "The Bard's Tale ARPG: Remastered and Resnarkled",
+      "steam_link": "https://store.steampowered.com/app/41900",
+      "patch_type": "official",
+      "patch_links": [
+        "00a4d006"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j0yxoo/the-bards-tale-arpg-remastered-and-resnarkled"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -66129,6 +67401,27 @@
       ]
     },
     {
+      "app_id": "376210",
+      "game_title": "The Isle",
+      "steam_link": "https://store.steampowered.com/app/376210",
+      "patch_type": "official",
+      "patch_links": [
+        "af898640"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원 - 부분 한글화"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jpx71o/the-isle"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "220090",
       "game_title": "The Journey Down: Chapter One",
       "steam_link": "https://store.steampowered.com/app/220090",
@@ -67811,6 +69104,48 @@
       ]
     },
     {
+      "app_id": "1104280",
+      "game_title": "The Slormancer",
+      "steam_link": "https://store.steampowered.com/app/1104280",
+      "patch_type": "official",
+      "patch_links": [
+        "7936c908"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원 - AI 한글화"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4q7q0e/the-slormancer"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "1424980",
+      "game_title": "The Solitaire Conspiracy",
+      "steam_link": "https://store.steampowered.com/app/1424980",
+      "patch_type": "official",
+      "patch_links": [
+        "96590a4b"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jn62wy/the-solitaire-conspiracy"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "3263280",
       "game_title": "The Spire of Mech Zero",
       "steam_link": "https://store.steampowered.com/app/3263280",
@@ -67938,6 +69273,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "828900",
+      "game_title": "The Stillness of the Wind",
+      "steam_link": "https://store.steampowered.com/app/828900",
+      "patch_type": "official",
+      "patch_links": [
+        "09b5d281"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4q1m3z/the-stillness-of-the-wind"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -69777,6 +71133,37 @@
       ]
     },
     {
+      "app_id": "272270",
+      "game_title": "Torment: Tides of Numenera",
+      "steam_link": "https://store.steampowered.com/app/272270",
+      "patch_type": "official",
+      "patch_links": [
+        "ceb560a9",
+        "exist",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원",
+        "다이렉트 게임즈 구매 시 한국어 지원",
+        ""
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay",
+        "directg"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j8z3w2/torment-tides-of-numenera",
+        "quasarplay": "https://store.steampowered.com/app/272270/?curator_clanid=42788178",
+        "directg": "https://www.directg.net/game/game_view.html?product_id=eaec72e0-c669-442b-9ee9-65c3be51d700&sku=76ba804d-eb5a-4973-ab32-6b0397b618e2&platform=1"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay",
+        "directg"
+      ]
+    },
+    {
       "app_id": "2545220",
       "game_title": "Tormenture",
       "steam_link": "https://store.steampowered.com/app/2545220",
@@ -70069,6 +71456,48 @@
       ]
     },
     {
+      "app_id": "262120",
+      "game_title": "Toy Soldiers: Complete",
+      "steam_link": "https://store.steampowered.com/app/262120",
+      "patch_type": "official",
+      "patch_links": [
+        "77f6b421"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j8xz20/toy-soldiers-complete"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "2555430",
+      "game_title": "TRADESMAN: Deal to Dealer",
+      "steam_link": "https://store.steampowered.com/app/2555430",
+      "patch_type": "official",
+      "patch_links": [
+        "a25133f5"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/410w65/tradesman-deal-to-dealer"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "3723750",
       "game_title": "Trading Card Inspector",
       "steam_link": "https://store.steampowered.com/app/3723750",
@@ -70118,6 +71547,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "914010",
+      "game_title": "Train Station Renovation",
+      "steam_link": "https://store.steampowered.com/app/914010",
+      "patch_type": "official",
+      "patch_links": [
+        "af2578db"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jp83qn/train-station-renovation"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -70387,6 +71837,27 @@
       ]
     },
     {
+      "app_id": "756600",
+      "game_title": "Trianga's Project: Battle Splash 2.0",
+      "steam_link": "https://store.steampowered.com/app/756600",
+      "patch_type": "official",
+      "patch_links": [
+        "19740c0d"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/lkzr92/triangas-project-battle-splash-20"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "35720",
       "game_title": "Trine 2: Complete Story",
       "steam_link": "https://store.steampowered.com/app/35720",
@@ -70517,6 +71988,27 @@
       ]
     },
     {
+      "app_id": "1344070",
+      "game_title": "Trollhunters: Defenders of Arcadia",
+      "steam_link": "https://store.steampowered.com/app/1344070",
+      "patch_type": "official",
+      "patch_links": [
+        "e8b04fbc"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4gp5m3/trollhunters-defenders-of-arcadia"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "23490",
       "game_title": "Tropico 3",
       "steam_link": "https://store.steampowered.com/app/23490",
@@ -70543,6 +72035,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "245620",
+      "game_title": "Tropico 5",
+      "steam_link": "https://store.steampowered.com/app/245620",
+      "patch_type": "official",
+      "patch_links": [
+        "70dffa56"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4oq3gx/tropico-5"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -70653,13 +72166,13 @@
       "app_id": "1205450",
       "game_title": "Turnip Boy Commits Tax Evasion",
       "steam_link": "https://store.steampowered.com/app/1205450",
-      "patch_type": "user",
+      "patch_type": "official",
       "patch_links": [
         "63ce115f",
         "exist"
       ],
       "patch_descriptions": [
-        "번역: LSW, 쿠타르크, BENBENNBEN, EVDA 검수: LSW, 쿠타르크 기술, 이미지 작업: LSW",
+        "번역: LSW, 쿠타르크, BENBENNBEN, EVDA 검수: LSW, 쿠타르크 기술, 이미지 작업: LSW // 실제로는 한글 지원",
         "유저 한국어 패치 - LSW, 쿠타르크, BENBENNBEN, EVDA 님"
       ],
       "patch_sources": [
@@ -70888,6 +72401,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "1223500",
+      "game_title": "Umurangi Generation",
+      "steam_link": "https://store.steampowered.com/app/1223500",
+      "patch_type": "official",
+      "patch_links": [
+        "11b68ddf"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4ew1qz/umurangi-generation"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -71260,6 +72794,32 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "352550",
+      "game_title": "Urban Empire",
+      "steam_link": "https://store.steampowered.com/app/352550",
+      "patch_type": "official",
+      "patch_links": [
+        "4161b62a",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원",
+        ""
+      ],
+      "patch_sources": [
+        "steamapp",
+        "directg"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4qrogz/urban-empire",
+        "directg": "https://www.directg.net/game/game_view.html?product_id=7fe7d388-45ea-4202-a0d1-5e19b58ae0de&sku=2c9157fc-5df0-487c-bc8f-59db5a3dfef7&platform=1"
+      },
+      "sources": [
+        "steamapp",
+        "directg"
       ]
     },
     {
@@ -72407,6 +73967,27 @@
       ]
     },
     {
+      "app_id": "668430",
+      "game_title": "VRacer Hoverbike",
+      "steam_link": "https://store.steampowered.com/app/668430",
+      "patch_type": "official",
+      "patch_links": [
+        "5fe9fcb5"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4ogwpd/vracer-hoverbike"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "70300",
       "game_title": "VVVVVV",
       "steam_link": "https://store.steampowered.com/app/70300",
@@ -72564,6 +74145,48 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "777770",
+      "game_title": "WAR PARTY",
+      "steam_link": "https://store.steampowered.com/app/777770",
+      "patch_type": "official",
+      "patch_links": [
+        "f7d0637b"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4qxqqd/war-party"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "222750",
+      "game_title": "Wargame: Airland Battle",
+      "steam_link": "https://store.steampowered.com/app/222750",
+      "patch_type": "official",
+      "patch_links": [
+        "a5a96a71"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l2vor5/wargame-airland-battle"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -72975,6 +74598,27 @@
       ]
     },
     {
+      "app_id": "243470",
+      "game_title": "Watch_Dogs™",
+      "steam_link": "https://store.steampowered.com/app/243470",
+      "patch_type": "official",
+      "patch_links": [
+        "fded90b4"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원 - 상점 공지"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jw0exk/watch_dogstm"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "3077670",
       "game_title": "Water Delivery",
       "steam_link": "https://store.steampowered.com/app/3077670",
@@ -73210,6 +74854,37 @@
       ]
     },
     {
+      "app_id": "1421760",
+      "game_title": "What Comes After",
+      "steam_link": "https://store.steampowered.com/app/1421760",
+      "patch_type": "official",
+      "patch_links": [
+        "b0432fcf",
+        "exist",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원 - 한국어 관련 주의 사항",
+        "스토브 인디 한국어화",
+        ""
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay",
+        "stove"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4qrpyd/what-comes-after",
+        "quasarplay": "https://store.steampowered.com/app/1421760/?curator_clanid=42788178",
+        "stove": "https://store.onstove.com/ko/games/426"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay",
+        "stove"
+      ]
+    },
+    {
       "app_id": "2432110",
       "game_title": "WHITE ALBUM: Memories like Falling Snow",
       "steam_link": "https://store.steampowered.com/app/2432110",
@@ -73341,6 +75016,27 @@
       ]
     },
     {
+      "app_id": "500710",
+      "game_title": "Wild Terra Online",
+      "steam_link": "https://store.steampowered.com/app/500710",
+      "patch_type": "official",
+      "patch_links": [
+        "ad88f04d"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jn0o1n/wild-terra-online"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "763890",
       "game_title": "Wildermyth",
       "steam_link": "https://store.steampowered.com/app/763890",
@@ -73416,6 +75112,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "1394960",
+      "game_title": "Winter Survival - 겨울 생존",
+      "steam_link": "https://store.steampowered.com/app/1394960",
+      "patch_type": "official",
+      "patch_links": [
+        "30702217"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원 - 부분 한글화"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j89kwz/winter-survival-%EA%B2%A8%EC%9A%B8-%EC%83%9D%EC%A1%B4"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -73800,6 +75517,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "262410",
+      "game_title": "World of Guns: Gun Disassembly",
+      "steam_link": "https://store.steampowered.com/app/262410",
+      "patch_type": "official",
+      "patch_links": [
+        "5dc939e8"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jnzd8n/world-of-guns-gun-disassembly"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -74350,6 +76088,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2067780",
+      "game_title": "Your Turn To Die -Death Game By Majority-",
+      "steam_link": "https://store.steampowered.com/app/2067780",
+      "patch_type": "official",
+      "patch_links": [
+        "46b826cc"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원 - 한국어 설정법"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jmgr25/your-turn-to-die-death-game-by-majority"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -74916,6 +76675,27 @@
       ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/lx8dw7/zwei-the-arges-adventure"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "846030",
+      "game_title": "ΔV: Rings of Saturn",
+      "steam_link": "https://store.steampowered.com/app/846030",
+      "patch_type": "official",
+      "patch_links": [
+        "4db16f9f"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4o96pn/%CE%B4v-rings-of-saturn"
       },
       "sources": [
         "steamapp"
@@ -76102,6 +77882,30 @@
       ]
     },
     {
+      "app_id": "1030830",
+      "game_title": "마피아 II  데피니티브 에디션",
+      "steam_link": "https://store.steampowered.com/app/1030830",
+      "patch_type": "official",
+      "patch_links": [
+        "2cb6d08c",
+        "6d206005"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원 - 한국어 설정법",
+        "실제로는 한글 지원 - 한국어 설정법"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4182d5/%EB%A7%88%ED%94%BC%EC%95%84-ii-%EB%8D%B0%ED%94%BC%EB%8B%88%ED%8B%B0%EB%B8%8C-%EC%97%90%EB%94%94%EC%85%98"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "2694920",
       "game_title": "맨 인 더 다크 (Man in the Dark)",
       "steam_link": "https://store.steampowered.com/app/2694920",
@@ -76329,6 +78133,27 @@
       },
       "sources": [
         "stove"
+      ]
+    },
+    {
+      "app_id": "2353870",
+      "game_title": "미해결 사건: 살인적인 대본 컬렉터 에디션",
+      "steam_link": "https://store.steampowered.com/app/2353870",
+      "patch_type": "official",
+      "patch_links": [
+        "3cd35eae"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jw7x2k/%EB%AF%B8%ED%95%B4%EA%B2%B0-%EC%82%AC%EA%B1%B4-%EC%82%B4%EC%9D%B8%EC%A0%81%EC%9D%B8-%EB%8C%80%EB%B3%B8-%EC%BB%AC%EB%A0%89%ED%84%B0-%EC%97%90%EB%94%94%EC%85%98"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -77592,27 +79417,6 @@
       ]
     },
     {
-      "app_id": "352550",
-      "game_title": "어반 엠파이어",
-      "steam_link": "https://store.steampowered.com/app/352550",
-      "patch_type": "official",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        ""
-      ],
-      "patch_sources": [
-        "directg"
-      ],
-      "source_site_urls": {
-        "directg": "https://www.directg.net/game/game_view.html?product_id=7fe7d388-45ea-4202-a0d1-5e19b58ae0de&sku=2c9157fc-5df0-487c-bc8f-59db5a3dfef7&platform=1"
-      },
-      "sources": [
-        "directg"
-      ]
-    },
-    {
       "app_id": "3211460",
       "game_title": "어비스 시커 심연의 끝에서 무엇을 볼 것인가 (ABYSS SEEKER)",
       "steam_link": "https://store.steampowered.com/app/3211460",
@@ -77868,6 +79672,27 @@
       ]
     },
     {
+      "app_id": "1163600",
+      "game_title": "오메가 라비린스 라이프",
+      "steam_link": "https://store.steampowered.com/app/1163600",
+      "patch_type": "official",
+      "patch_links": [
+        "3e9324b6"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/lkzykq/%EC%98%A4%EB%A9%94%EA%B0%80-%EB%9D%BC%EB%B9%84%EB%A6%B0%EC%8A%A4-%EB%9D%BC%EC%9D%B4%ED%94%84"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "921570",
       "game_title": "옥토패스 트래블러",
       "steam_link": "https://store.steampowered.com/app/921570",
@@ -77883,6 +79708,27 @@
       ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/4e8k5v/%EC%98%A5%ED%86%A0%ED%8C%A8%EC%8A%A4-%ED%8A%B8%EB%9E%98%EB%B8%94%EB%9F%AC"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "2320220",
+      "game_title": "왕실 로맨스: 금지된 마법 컬렉터 에디션",
+      "steam_link": "https://store.steampowered.com/app/2320220",
+      "patch_type": "official",
+      "patch_links": [
+        "14b22d68"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4rvn2g/%EC%99%95%EC%8B%A4-%EB%A1%9C%EB%A7%A8%EC%8A%A4-%EA%B8%88%EC%A7%80%EB%90%9C-%EB%A7%88%EB%B2%95-%EC%BB%AC%EB%A0%89%ED%84%B0-%EC%97%90%EB%94%94%EC%85%98"
       },
       "sources": [
         "steamapp"
@@ -78166,6 +80012,27 @@
       ]
     },
     {
+      "app_id": "1431570",
+      "game_title": "유리세계",
+      "steam_link": "https://store.steampowered.com/app/1431570",
+      "patch_type": "official",
+      "patch_links": [
+        "a938f117"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/lzm2q9/%EC%9C%A0%EB%A6%AC%EC%84%B8%EA%B3%84"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "2914150",
       "game_title": "융융 전파 신드롬",
       "steam_link": "https://store.steampowered.com/app/2914150",
@@ -78189,6 +80056,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2295530",
+      "game_title": "이어진 마음: 머스킷티어 사가 컬렉터 에디션",
+      "steam_link": "https://store.steampowered.com/app/2295530",
+      "patch_type": "official",
+      "patch_links": [
+        "0e53c13f"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4639oe/%EC%9D%B4%EC%96%B4%EC%A7%84-%EB%A7%88%EC%9D%8C-%EB%A8%B8%EC%8A%A4%ED%82%B7%ED%8B%B0%EC%96%B4-%EC%82%AC%EA%B0%80-%EC%BB%AC%EB%A0%89%ED%84%B0-%EC%97%90%EB%94%94%EC%85%98"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -83664,6 +85552,30 @@
       ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/j80mvz/%E6%B5%B7%E9%B3%A5%E9%87%8E%E3%82%AC%E3%82%AF%E3%81%AE%E7%B2%BE%E7%A5%9E%E9%91%91%E5%AE%9A%E9%8C%B2"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "1178490",
+      "game_title": "港詭實錄ParanormalHK",
+      "steam_link": "https://store.steampowered.com/app/1178490",
+      "patch_type": "official",
+      "patch_links": [
+        "8d32298c",
+        "6d206005"
+      ],
+      "patch_descriptions": [
+        "실제로는 한글 지원 - 한국어 설정법",
+        "실제로는 한글 지원 - 한국어 설정법"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j5y107/%E6%B8%AF%E8%A9%AD%E5%AF%A6%E9%8C%84paranormalhk"
       },
       "sources": [
         "steamapp"
