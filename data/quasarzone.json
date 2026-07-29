@@ -2,9 +2,18 @@
   "curator_id": 30894603,
   "curator_name": "Curator #30894603",
   "curator_url": "https://store.steampowered.com/curator/30894603/",
-  "total_games": 1014,
-  "exported_at": "2026-07-28T03:10:57.808301",
+  "total_games": 1015,
+  "exported_at": "2026-07-29T21:56:28.361588",
   "games": [
+    {
+      "appid": "2420510",
+      "url": "https://store.steampowered.com/app/2420510/HoloCure__Save_the_Fans/",
+      "curator_url": "https://store.steampowered.com/app/2420510/?curator_clanid=30894603",
+      "review": "한글 패치 - 오콕\n한글 패치 - khronii",
+      "review_has_url": true,
+      "review_url_count": 2,
+      "type": "recommended"
+    },
     {
       "appid": "3655960",
       "url": "https://store.steampowered.com/app/3655960/Tales_Beyond_The_Tomb__White_Silence/",
@@ -1656,9 +1665,9 @@
       "appid": "2133760",
       "url": "https://store.steampowered.com/app/2133760/Tiny_Bookshop/",
       "curator_url": "https://store.steampowered.com/app/2133760/?curator_clanid=30894603",
-      "review": "유저 한글 패치 - 한패모\n유저 한글 패치 - 한무테",
+      "review": "한글 패치 - 한패모\n한글 패치 - 강한냥\n한글 패치 - 한무테",
       "review_has_url": true,
-      "review_url_count": 2,
+      "review_url_count": 3,
       "type": "recommended"
     },
     {
@@ -8730,9 +8739,9 @@
       "appid": "1207650",
       "url": "https://store.steampowered.com/app/1207650/Suzerain/",
       "curator_url": "https://store.steampowered.com/app/1207650/?curator_clanid=30894603",
-      "review": "유저 한글 패치 - DoyeonK",
+      "review": "한글 패치 - DoyeonK\n3.10 버전 대응 한글 패치",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {

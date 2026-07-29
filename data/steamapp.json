@@ -7009,12 +7009,12 @@
     "source_site_url": "https://hanpe.net/app/l2k7xq/sunless-sea",
     "patch_type": "user",
     "patch_links": [
-      "23cf3112",
-      "045f0d70"
+      "256429ab",
+      "1dd5f553"
     ],
     "patch_descriptions": [
-      "최종판",
-      "번역률 55.16% 작업 중단"
+      "제작자 : bong999993",
+      "제작자 : Anthon 최종판"
     ]
   },
   {
@@ -18190,6 +18190,19 @@
     ]
   },
   {
+    "app_id": "1118520",
+    "game_title": "Paralives",
+    "steam_link": "https://store.steampowered.com/app/1118520",
+    "source_site_url": "https://hanpe.net/app/lx7rvp/paralives",
+    "patch_type": "user",
+    "patch_links": [
+      "490c2eb5"
+    ],
+    "patch_descriptions": [
+      "제작자 : 수나이스"
+    ]
+  },
+  {
     "app_id": "1119600",
     "game_title": "Help Will Come Tomorrow",
     "steam_link": "https://store.steampowered.com/app/1119600",
@@ -18906,10 +18919,10 @@
     "patch_type": "official",
     "patch_links": [
       "8d32298c",
-      "6d206005"
+      "4696f7e7"
     ],
     "patch_descriptions": [
-      "실제로는 한글 지원 - 한국어 설정법",
+      "실제로는 한글 지원",
       "실제로는 한글 지원 - 한국어 설정법"
     ]
   },
@@ -19322,6 +19335,19 @@
     ],
     "patch_descriptions": [
       "실제로는 한글 지원"
+    ]
+  },
+  {
+    "app_id": "1224290",
+    "game_title": "Horizon's Gate",
+    "steam_link": "https://store.steampowered.com/app/1224290",
+    "source_site_url": "https://hanpe.net/app/l2n8z5/horizons-gate",
+    "patch_type": "user",
+    "patch_links": [
+      "a4607ea2"
+    ],
+    "patch_descriptions": [
+      "제작자 : 정보없음"
     ]
   },
   {
@@ -25192,6 +25218,19 @@
     ]
   },
   {
+    "app_id": "2058570",
+    "game_title": "Rift Wizard 2",
+    "steam_link": "https://store.steampowered.com/app/2058570",
+    "source_site_url": "https://hanpe.net/app/jw0vn7/rift-wizard-2",
+    "patch_type": "user",
+    "patch_links": [
+      "cb4adfcc"
+    ],
+    "patch_descriptions": [
+      "- 원작 일본어화 MOD: THE-KI - 한국어 번역: Killterm"
+    ]
+  },
+  {
     "app_id": "2066240",
     "game_title": "Bughouse",
     "steam_link": "https://store.steampowered.com/app/2066240",
@@ -25669,6 +25708,19 @@
     "patch_descriptions": [
       "제작자 : 보리",
       "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : SMOKYSCARLET 적용법)압축을 출어서 나온 폴더를 래빗 앤 스틸 게임파일에 붙혀넣기"
+    ]
+  },
+  {
+    "app_id": "2133760",
+    "game_title": "Tiny Bookshop",
+    "steam_link": "https://store.steampowered.com/app/2133760",
+    "source_site_url": "https://hanpe.net/app/lxxk5z/tiny-bookshop",
+    "patch_type": "user",
+    "patch_links": [
+      "91a14081"
+    ],
+    "patch_descriptions": [
+      "제작자 : 강한냥"
     ]
   },
   {
@@ -29389,6 +29441,19 @@
     "patch_descriptions": [
       "제작자 : 정보없음",
       "제작자 : 천지회"
+    ]
+  },
+  {
+    "app_id": "2817140",
+    "game_title": "怦然心动的她们",
+    "steam_link": "https://store.steampowered.com/app/2817140",
+    "source_site_url": "https://hanpe.net/app/lx8eky/%E6%80%A6%E7%84%B6%E5%BF%83%E5%8A%A8%E7%9A%84%E5%A5%B9%E4%BB%AC",
+    "patch_type": "user",
+    "patch_links": [
+      "f4315564"
+    ],
+    "patch_descriptions": [
+      "제작자 : andrea"
     ]
   },
   {
@@ -34493,6 +34558,19 @@
     ]
   },
   {
+    "app_id": "4366330",
+    "game_title": "Rift Wizard 3",
+    "steam_link": "https://store.steampowered.com/app/4366330",
+    "source_site_url": "https://hanpe.net/app/lz39k2/rift-wizard-3",
+    "patch_type": "user",
+    "patch_links": [
+      "d04d15e6"
+    ],
+    "patch_descriptions": [
+      "- 원작 일본어화 MOD: hapi - 한국어 번역: Killterm"
+    ]
+  },
+  {
     "app_id": "4398770",
     "game_title": "Barking from the Dark",
     "steam_link": "https://store.steampowered.com/app/4398770",
@@ -34538,6 +34616,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 으잌"
+    ]
+  },
+  {
+    "app_id": "4466990",
+    "game_title": "The Guest II",
+    "steam_link": "https://store.steampowered.com/app/4466990",
+    "source_site_url": "https://hanpe.net/app/4qmd99/the-guest-ii",
+    "patch_type": "user",
+    "patch_links": [
+      "38a2a6db"
+    ],
+    "patch_descriptions": [
+      "제작자 : 수나이스"
     ]
   },
   {

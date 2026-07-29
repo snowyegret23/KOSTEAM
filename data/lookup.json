@@ -12237,14 +12237,14 @@
       "quasarplay"
     ],
     "links": [
-      "23cf3112",
-      "045f0d70",
+      "256429ab",
+      "1dd5f553",
       "exist"
     ],
     "patch_descriptions": [
-      "최종판",
-      "번역률 55.16% 작업 중단",
-      "유저 한국어 패치"
+      "제작자 : bong999993",
+      "제작자 : Anthon 최종판",
+      "한글 패치 - Anthon"
     ],
     "patch_sources": [
       "steamapp",
@@ -12698,7 +12698,7 @@
     ],
     "patch_descriptions": [
       "topicular님 제작",
-      "유저 한국어 패치 - topicular 님,\n \n스토브 인디 한국어화",
+      "관찰자 DLC 한글 패치 - topicular",
       ""
     ],
     "patch_sources": [
@@ -15682,7 +15682,7 @@
     ],
     "patch_descriptions": [
       "제작자 : 크로이츠",
-      "스토브 인디 한글판\n※ 스팀 키 미제공\n유저 한글 패치 - 한무테",
+      "한글 패치 - 크로이츠\n스토브 인디 한글판\n한글 패치 - 한무테",
       ""
     ],
     "patch_sources": [
@@ -33943,18 +33943,23 @@
   "1118520": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "490c2eb5",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 수나이스",
       "한글 패치 - 수나이스"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/lx7rvp/paralives",
       "quasarplay": "https://store.steampowered.com/app/1118520/?curator_clanid=30894603"
     }
   },
@@ -35516,10 +35521,10 @@
     ],
     "links": [
       "8d32298c",
-      "6d206005"
+      "4696f7e7"
     ],
     "patch_descriptions": [
-      "실제로는 한글 지원 - 한국어 설정법",
+      "실제로는 한글 지원",
       "실제로는 한글 지원 - 한국어 설정법"
     ],
     "patch_sources": [
@@ -36172,7 +36177,7 @@
     "patch_descriptions": [
       "[참가자] 총괄 : DoyeonK 매니저 : wangu, 연육쮸 번역 : TreadNarrowPath, 익명의 까치, NiceBaldEagle, StickmanArtist, grasshoqqer, asukalovesmisato, justhuman0224, snowden, NIKA, sunnylee1995, royfromvt, Gerrard-fan, Lateliam, Hurbmint, Nihilistone, An0Mal1y, jcrus, gbin96, moomeeboo, TheChgods, Kariaeon, black_emperor, Hikinit021, 클론트루퍼, popcornmunchinglandshark, Jayu-Lee",
       "3.1.0 대응 버전",
-      "유저 한글 패치 - DoyeonK"
+      "한글 패치 - DoyeonK\n3.10 버전 대응 한글 패치"
     ],
     "patch_sources": [
       "steamapp",
@@ -36411,18 +36416,23 @@
   "1224290": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "a4607ea2",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 정보없음",
       "한글 패치 - 뇸뇸"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/l2n8z5/horizons-gate",
       "quasarplay": "https://store.steampowered.com/app/1224290/?curator_clanid=30894603"
     }
   },
@@ -44707,7 +44717,7 @@
     "patch_descriptions": [
       "제작자 : 정보없음",
       "한글패치 정보",
-      "유저 한국어 패치 - 두바이 챕터 및 일부 UI 한국어 패치 적용"
+      "한글 패치"
     ],
     "patch_sources": [
       "steamapp",
@@ -51019,18 +51029,23 @@
   "2058570": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "cb4adfcc",
       "exist"
     ],
     "patch_descriptions": [
+      "- 원작 일본어화 MOD: THE-KI - 한국어 번역: Killterm",
       "한글 패치 - killterm"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jw0vn7/rift-wizard-2",
       "quasarplay": "https://store.steampowered.com/app/2058570/?curator_clanid=30894603"
     }
   },
@@ -52434,18 +52449,23 @@
   "2133760": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "91a14081",
       "exist"
     ],
     "patch_descriptions": [
-      "유저 한글 패치 - 한패모\n유저 한글 패치 - 한무테"
+      "제작자 : 강한냥",
+      "한글 패치 - 한패모\n한글 패치 - 강한냥\n한글 패치 - 한무테"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/lxxk5z/tiny-bookshop",
       "quasarplay": "https://store.steampowered.com/app/2133760/?curator_clanid=30894603"
     }
   },
@@ -56611,22 +56631,27 @@
   "2420510": {
     "type": "user",
     "sources": [
-      "steamapp"
+      "steamapp",
+      "quasarplay"
     ],
     "links": [
       "4c581040",
-      "f04bee29"
+      "f04bee29",
+      "exist"
     ],
     "patch_descriptions": [
       "제작자 : khronii 참고사항 : 최신 버전에서 패치 적용 안 됨, 구 버전을 받으셔야 합니다",
-      "제작자 : 오콕"
+      "제작자 : 오콕",
+      "한글 패치 - 오콕\n한글 패치 - khronii"
     ],
     "patch_sources": [
       "steamapp",
-      "steamapp"
+      "steamapp",
+      "quasarplay"
     ],
     "source_site_urls": {
-      "steamapp": "https://hanpe.net/app/jw05q7/holocure-save-the-fans"
+      "steamapp": "https://hanpe.net/app/jw05q7/holocure-save-the-fans",
+      "quasarplay": "https://store.steampowered.com/app/2420510/?curator_clanid=30894603"
     }
   },
   "2423760": {
@@ -62280,18 +62305,23 @@
   "2817140": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "f4315564",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : andrea",
       "한글 패치 - andrea"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/lx8eky/%E6%80%A6%E7%84%B6%E5%BF%83%E5%8A%A8%E7%9A%84%E5%A5%B9%E4%BB%AC",
       "quasarplay": "https://store.steampowered.com/app/2817140/?curator_clanid=30894603"
     }
   },
@@ -75328,18 +75358,23 @@
   "4366330": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "d04d15e6",
       "exist"
     ],
     "patch_descriptions": [
+      "- 원작 일본어화 MOD: hapi - 한국어 번역: Killterm",
       "한글 패치 - killterm"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/lz39k2/rift-wizard-3",
       "quasarplay": "https://store.steampowered.com/app/4366330/?curator_clanid=30894603"
     }
   },
@@ -75440,18 +75475,23 @@
   "4466990": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "38a2a6db",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 수나이스",
       "한글 패치 - 수나이스"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4qmd99/the-guest-ii",
       "quasarplay": "https://store.steampowered.com/app/4466990/?curator_clanid=30894603"
     }
   },
@@ -75930,7 +75970,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-07-28T03:11:16.946Z",
+    "generated_at": "2026-07-29T21:56:47.988Z",
     "total": 3533
   }
 }

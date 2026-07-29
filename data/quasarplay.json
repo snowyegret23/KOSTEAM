@@ -3,7 +3,7 @@
   "curator_name": "Curator #42788178",
   "curator_url": "https://store.steampowered.com/curator/42788178/",
   "total_games": 1831,
-  "exported_at": "2026-07-28T03:10:44.430987",
+  "exported_at": "2026-07-29T21:56:13.714581",
   "games": [
     {
       "appid": "400170",
@@ -6282,9 +6282,9 @@
       "appid": "375480",
       "url": "https://store.steampowered.com/app/375480/Chronicon/",
       "curator_url": "https://store.steampowered.com/app/375480/?curator_clanid=42788178",
-      "review": "스토브 인디 한글판\n※ 스팀 키 미제공\n유저 한글 패치 - 한무테",
+      "review": "한글 패치 - 크로이츠\n스토브 인디 한글판\n한글 패치 - 한무테",
       "review_has_url": true,
-      "review_url_count": 2,
+      "review_url_count": 3,
       "type": "recommended"
     },
     {
@@ -10431,7 +10431,7 @@
       "appid": "304650",
       "url": "https://store.steampowered.com/app/304650/SUNLESS_SEA/",
       "curator_url": "https://store.steampowered.com/app/304650/?curator_clanid=42788178",
-      "review": "유저 한국어 패치",
+      "review": "한글 패치 - Anthon",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -11448,9 +11448,9 @@
       "appid": "312520",
       "url": "https://store.steampowered.com/app/312520/Rain_World/",
       "curator_url": "https://store.steampowered.com/app/312520/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 - topicular 님,\n \n스토브 인디 한국어화",
+      "review": "관찰자 DLC 한글 패치 - topicular",
       "review_has_url": true,
-      "review_url_count": 2,
+      "review_url_count": 1,
       "type": "recommended"
     },
     {
@@ -16434,7 +16434,7 @@
       "appid": "1659040",
       "url": "https://store.steampowered.com/app/1659040/HITMAN_World_of_Assassination/",
       "curator_url": "https://store.steampowered.com/app/1659040/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 - 두바이 챕터 및 일부 UI 한국어 패치 적용",
+      "review": "한글 패치",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-28T03:11:16.946Z",
+    "generated_at": "2026-07-29T21:56:47.988Z",
     "total_with_steam_link": 3533,
     "total_without_steam_link": 8,
     "sources": [
@@ -49,27 +49,6 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/3712080/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "2058570",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/2058570/Rift_Wizard_2/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - killterm"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/2058570/?curator_clanid=30894603"
       },
       "sources": [
         "quasarplay"
@@ -643,27 +622,6 @@
       ]
     },
     {
-      "app_id": "1224290",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/1224290/Horizons_Gate/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - 뇸뇸"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/1224290/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
       "app_id": "4634490",
       "game_title": "",
       "steam_link": "https://store.steampowered.com/app/4634490/Master_Healer_Kale_with_useless_party/",
@@ -700,48 +658,6 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/2871440/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "1118520",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/1118520/Paralives/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - 수나이스"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/1118520/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "4466990",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/4466990/The_Guest_II/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - 수나이스"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/4466990/?curator_clanid=30894603"
       },
       "sources": [
         "quasarplay"
@@ -805,27 +721,6 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/4186870/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "4366330",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/4366330/Rift_Wizard_3/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - killterm"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/4366330/?curator_clanid=30894603"
       },
       "sources": [
         "quasarplay"
@@ -1204,27 +1099,6 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/3649580/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "2817140",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/2817140/Charming_Hearts/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - andrea"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/2817140/?curator_clanid=30894603"
       },
       "sources": [
         "quasarplay"
@@ -1750,27 +1624,6 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/512180/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "2133760",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/2133760/Tiny_Bookshop/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "유저 한글 패치 - 한패모\n유저 한글 패치 - 한무테"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/2133760/?curator_clanid=30894603"
       },
       "sources": [
         "quasarplay"
@@ -26517,7 +26370,7 @@
       ],
       "patch_descriptions": [
         "제작자 : 크로이츠",
-        "스토브 인디 한글판\n※ 스팀 키 미제공\n유저 한글 패치 - 한무테",
+        "한글 패치 - 크로이츠\n스토브 인디 한글판\n한글 패치 - 한무테",
         ""
       ],
       "patch_sources": [
@@ -39709,7 +39562,7 @@
       "patch_descriptions": [
         "제작자 : 정보없음",
         "한글패치 정보",
-        "유저 한국어 패치 - 두바이 챕터 및 일부 UI 한국어 패치 적용"
+        "한글 패치"
       ],
       "patch_sources": [
         "steamapp",
@@ -39959,21 +39812,26 @@
       "patch_type": "user",
       "patch_links": [
         "4c581040",
-        "f04bee29"
+        "f04bee29",
+        "exist"
       ],
       "patch_descriptions": [
         "제작자 : khronii 참고사항 : 최신 버전에서 패치 적용 안 됨, 구 버전을 받으셔야 합니다",
-        "제작자 : 오콕"
+        "제작자 : 오콕",
+        "한글 패치 - 오콕\n한글 패치 - khronii"
       ],
       "patch_sources": [
         "steamapp",
-        "steamapp"
+        "steamapp",
+        "quasarplay"
       ],
       "source_site_urls": {
-        "steamapp": "https://hanpe.net/app/jw05q7/holocure-save-the-fans"
+        "steamapp": "https://hanpe.net/app/jw05q7/holocure-save-the-fans",
+        "quasarplay": "https://store.steampowered.com/app/2420510/?curator_clanid=30894603"
       },
       "sources": [
-        "steamapp"
+        "steamapp",
+        "quasarplay"
       ]
     },
     {
@@ -40332,6 +40190,32 @@
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/j5215m/hope-lake",
         "quasarplay": "https://store.steampowered.com/app/485690/?curator_clanid=42788178"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "1224290",
+      "game_title": "Horizon's Gate",
+      "steam_link": "https://store.steampowered.com/app/1224290",
+      "patch_type": "user",
+      "patch_links": [
+        "a4607ea2",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 정보없음",
+        "한글 패치 - 뇸뇸"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l2n8z5/horizons-gate",
+        "quasarplay": "https://store.steampowered.com/app/1224290/?curator_clanid=30894603"
       },
       "sources": [
         "steamapp",
@@ -52502,6 +52386,32 @@
       ]
     },
     {
+      "app_id": "1118520",
+      "game_title": "Paralives",
+      "steam_link": "https://store.steampowered.com/app/1118520",
+      "patch_type": "user",
+      "patch_links": [
+        "490c2eb5",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 수나이스",
+        "한글 패치 - 수나이스"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/lx7rvp/paralives",
+        "quasarplay": "https://store.steampowered.com/app/1118520/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "2106840",
       "game_title": "PARANORMASIGHT: The Seven Mysteries of Honjo",
       "steam_link": "https://store.steampowered.com/app/2106840",
@@ -55164,7 +55074,7 @@
       ],
       "patch_descriptions": [
         "topicular님 제작",
-        "유저 한국어 패치 - topicular 님,\n \n스토브 인디 한국어화",
+        "관찰자 DLC 한글 패치 - topicular",
         ""
       ],
       "patch_sources": [
@@ -56031,6 +55941,58 @@
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/4gveg9/ridge-racertm-unbounded",
         "quasarplay": "https://store.steampowered.com/app/202310/?curator_clanid=42788178"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2058570",
+      "game_title": "Rift Wizard 2",
+      "steam_link": "https://store.steampowered.com/app/2058570",
+      "patch_type": "user",
+      "patch_links": [
+        "cb4adfcc",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "- 원작 일본어화 MOD: THE-KI - 한국어 번역: Killterm",
+        "한글 패치 - killterm"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jw0vn7/rift-wizard-2",
+        "quasarplay": "https://store.steampowered.com/app/2058570/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "4366330",
+      "game_title": "Rift Wizard 3",
+      "steam_link": "https://store.steampowered.com/app/4366330",
+      "patch_type": "user",
+      "patch_links": [
+        "d04d15e6",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "- 원작 일본어화 MOD: hapi - 한국어 번역: Killterm",
+        "한글 패치 - killterm"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/lz39k2/rift-wizard-3",
+        "quasarplay": "https://store.steampowered.com/app/4366330/?curator_clanid=30894603"
       },
       "sources": [
         "steamapp",
@@ -63653,14 +63615,14 @@
       "steam_link": "https://store.steampowered.com/app/304650",
       "patch_type": "user",
       "patch_links": [
-        "23cf3112",
-        "045f0d70",
+        "256429ab",
+        "1dd5f553",
         "exist"
       ],
       "patch_descriptions": [
-        "최종판",
-        "번역률 55.16% 작업 중단",
-        "유저 한국어 패치"
+        "제작자 : bong999993",
+        "제작자 : Anthon 최종판",
+        "한글 패치 - Anthon"
       ],
       "patch_sources": [
         "steamapp",
@@ -64046,7 +64008,7 @@
       "patch_descriptions": [
         "[참가자] 총괄 : DoyeonK 매니저 : wangu, 연육쮸 번역 : TreadNarrowPath, 익명의 까치, NiceBaldEagle, StickmanArtist, grasshoqqer, asukalovesmisato, justhuman0224, snowden, NIKA, sunnylee1995, royfromvt, Gerrard-fan, Lateliam, Hurbmint, Nihilistone, An0Mal1y, jcrus, gbin96, moomeeboo, TheChgods, Kariaeon, black_emperor, Hikinit021, 클론트루퍼, popcornmunchinglandshark, Jayu-Lee",
         "3.1.0 대응 버전",
-        "유저 한글 패치 - DoyeonK"
+        "한글 패치 - DoyeonK\n3.10 버전 대응 한글 패치"
       ],
       "patch_sources": [
         "steamapp",
@@ -66901,6 +66863,32 @@
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/4r1nxo/the-great-ace-attorney-chronicles",
         "quasarplay": "https://store.steampowered.com/app/1158850/?curator_clanid=42788178"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "4466990",
+      "game_title": "The Guest II",
+      "steam_link": "https://store.steampowered.com/app/4466990",
+      "patch_type": "user",
+      "patch_links": [
+        "38a2a6db",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 수나이스",
+        "한글 패치 - 수나이스"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4qmd99/the-guest-ii",
+        "quasarplay": "https://store.steampowered.com/app/4466990/?curator_clanid=30894603"
       },
       "sources": [
         "steamapp",
@@ -70606,6 +70594,32 @@
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/4r73ey/timespinner",
         "quasarplay": "https://store.steampowered.com/app/368620/?curator_clanid=42788178"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2133760",
+      "game_title": "Tiny Bookshop",
+      "steam_link": "https://store.steampowered.com/app/2133760",
+      "patch_type": "user",
+      "patch_links": [
+        "91a14081",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 강한냥",
+        "한글 패치 - 한패모\n한글 패치 - 강한냥\n한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/lxxk5z/tiny-bookshop",
+        "quasarplay": "https://store.steampowered.com/app/2133760/?curator_clanid=30894603"
       },
       "sources": [
         "steamapp",
@@ -84338,6 +84352,32 @@
       ]
     },
     {
+      "app_id": "2817140",
+      "game_title": "怦然心动的她们",
+      "steam_link": "https://store.steampowered.com/app/2817140",
+      "patch_type": "user",
+      "patch_links": [
+        "f4315564",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : andrea",
+        "한글 패치 - andrea"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/lx8eky/%E6%80%A6%E7%84%B6%E5%BF%83%E5%8A%A8%E7%9A%84%E5%A5%B9%E4%BB%AC",
+        "quasarplay": "https://store.steampowered.com/app/2817140/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "2876880",
       "game_title": "怪話",
       "steam_link": "https://store.steampowered.com/app/2876880",
@@ -85564,10 +85604,10 @@
       "patch_type": "official",
       "patch_links": [
         "8d32298c",
-        "6d206005"
+        "4696f7e7"
       ],
       "patch_descriptions": [
-        "실제로는 한글 지원 - 한국어 설정법",
+        "실제로는 한글 지원",
         "실제로는 한글 지원 - 한국어 설정법"
       ],
       "patch_sources": [
