@@ -2,8 +2,8 @@
   "curator_id": 42788178,
   "curator_name": "Curator #42788178",
   "curator_url": "https://store.steampowered.com/curator/42788178/",
-  "total_games": 1831,
-  "exported_at": "2026-07-29T21:56:13.714581",
+  "total_games": 1830,
+  "exported_at": "2026-07-31T22:00:17.935700",
   "games": [
     {
       "appid": "400170",
@@ -720,18 +720,18 @@
       "appid": "3278760",
       "url": "https://store.steampowered.com/app/3278760/The_Happyhills_Homicide/",
       "curator_url": "https://store.steampowered.com/app/3278760/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - fuseson4\n유저 한글 패치 - 아강",
+      "review": "한글 패치 - 아모건",
       "review_has_url": true,
-      "review_url_count": 2,
+      "review_url_count": 1,
       "type": "recommended"
     },
     {
       "appid": "3489670",
       "url": "https://store.steampowered.com/app/3489670/The_Happyhills_Homicide_2_Out_For_Blood/",
       "curator_url": "https://store.steampowered.com/app/3489670/?curator_clanid=42788178",
-      "review": "한글 패치 - fuseson4\n한글 패치 - 아강",
+      "review": "한글 패치 - 아강",
       "review_has_url": true,
-      "review_url_count": 2,
+      "review_url_count": 1,
       "type": "recommended"
     },
     {
@@ -7386,15 +7386,6 @@
       "type": "recommended"
     },
     {
-      "appid": "230700",
-      "url": "https://store.steampowered.com/app/230700/LaMulana/",
-      "curator_url": "https://store.steampowered.com/app/230700/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 - 젤리슈빵, 타레링크 님",
-      "review_has_url": true,
-      "review_url_count": 1,
-      "type": "recommended"
-    },
-    {
       "appid": "1689910",
       "url": "https://store.steampowered.com/app/1689910/Dkysei_Bangin_Summer/",
       "curator_url": "https://store.steampowered.com/app/1689910/?curator_clanid=42788178",
@@ -9792,9 +9783,9 @@
       "appid": "6860",
       "url": "https://store.steampowered.com/app/6860/Hitman_Blood_Money/",
       "curator_url": "https://store.steampowered.com/app/6860/?curator_clanid=42788178",
-      "review": "유저 한국어 패치",
+      "review": "한글 패치 - 몰라\n영상 한글 패치",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
