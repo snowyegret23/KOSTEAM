@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-07-31T22:00:51.104Z",
-    "total_with_steam_link": 3552,
+    "generated_at": "2026-08-02T21:51:27.182Z",
+    "total_with_steam_link": 3561,
     "total_without_steam_link": 8,
     "sources": [
       "steamapp",
@@ -349,27 +349,6 @@
       ]
     },
     {
-      "app_id": "368390",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/368390/The_Darkside_Detective/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - EL"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/368390/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
       "app_id": "795420",
       "game_title": "",
       "steam_link": "https://store.steampowered.com/app/795420/The_Darkside_Detective_A_Fumble_in_the_Dark/",
@@ -685,27 +664,6 @@
       ]
     },
     {
-      "app_id": "2090390",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/2090390/Schrdingers_Call/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - Pixel4a\n한글 패치 - 한무테"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/2090390/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
       "app_id": "1281640",
       "game_title": "",
       "steam_link": "https://store.steampowered.com/app/1281640/Medic_Pacific_War/",
@@ -874,27 +832,6 @@
       ]
     },
     {
-      "app_id": "4209630",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/4209630/ELbab/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/4209630/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
       "app_id": "12130",
       "game_title": "",
       "steam_link": "https://store.steampowered.com/app/12130/Manhunt/",
@@ -958,27 +895,6 @@
       ]
     },
     {
-      "app_id": "2555950",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/2555950/Million_Depth/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - Pixel4a\n한글 패치 - HoonGle1007"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/2555950/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
       "app_id": "464150",
       "game_title": "",
       "steam_link": "https://store.steampowered.com/app/464150/Regalia_Of_Men_and_Monarchs/",
@@ -1015,27 +931,6 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/2695260/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "3534790",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/3534790/Mesmalie/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - 으잌"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/3534790/?curator_clanid=30894603"
       },
       "sources": [
         "quasarplay"
@@ -9237,27 +9132,6 @@
       ]
     },
     {
-      "app_id": "1437760",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/1437760/Peripeteia/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 \n한글 패치 - 한무테"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/1437760/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
       "app_id": "2957670",
       "game_title": "",
       "steam_link": "https://store.steampowered.com/app/2957670/THE_TAGALONG_OBSESSION/",
@@ -11823,6 +11697,27 @@
       ]
     },
     {
+      "app_id": "3387330",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/3387330/_Haunting_Record_Phantom_Street/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/3387330/?curator_clanid=42788178"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "1374970",
       "game_title": "",
       "steam_link": "https://store.steampowered.com/app/1374970/Moonscars/",
@@ -12642,6 +12537,27 @@
       ]
     },
     {
+      "app_id": "2922410",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/2922410/Achilles_Survivor/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - gusrud6151 님"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/2922410/?curator_clanid=42788178"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "2657900",
       "game_title": "",
       "steam_link": "https://store.steampowered.com/app/2657900/For_Sale/",
@@ -12804,6 +12720,27 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/3278560/?curator_clanid=42788178"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2108180",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/2108180/Swordhaven_Iron_Conspiracy/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - gusrud6151 님"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/2108180/?curator_clanid=42788178"
       },
       "sources": [
         "quasarplay"
@@ -18295,18 +18232,15 @@
       "patch_type": "official",
       "patch_links": [
         "b82d112d",
-        "bcbd7b20",
         "exist",
         "exist"
       ],
       "patch_descriptions": [
         "제작자 : 구미호던 번역기를 이용한 한글화",
-        "제작자 : 한무테",
         "유저 한글 패치 - gusrud6151 님",
         ""
       ],
       "patch_sources": [
-        "steamapp",
         "steamapp",
         "quasarplay",
         "stove"
@@ -18320,32 +18254,6 @@
         "steamapp",
         "quasarplay",
         "stove"
-      ]
-    },
-    {
-      "app_id": "2922410",
-      "game_title": "Achilles: Survivor",
-      "steam_link": "https://store.steampowered.com/app/2922410",
-      "patch_type": "user",
-      "patch_links": [
-        "c446b7ff",
-        "exist"
-      ],
-      "patch_descriptions": [
-        "제작자 : 한무테",
-        "유저 한글 패치 - gusrud6151 님"
-      ],
-      "patch_sources": [
-        "steamapp",
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "steamapp": "https://hanpe.net/app/lz6807/achilles-survivor",
-        "quasarplay": "https://store.steampowered.com/app/2922410/?curator_clanid=42788178"
-      },
-      "sources": [
-        "steamapp",
-        "quasarplay"
       ]
     },
     {
@@ -22940,6 +22848,27 @@
       ]
     },
     {
+      "app_id": "1269640",
+      "game_title": "Beacon Pines",
+      "steam_link": "https://store.steampowered.com/app/1269640",
+      "patch_type": "user",
+      "patch_links": [
+        "64efdfe8"
+      ],
+      "patch_descriptions": [
+        "제작팀 : Team WASD"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4e0rov/beacon-pines"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "1706090",
       "game_title": "Bean and Nothingness",
       "steam_link": "https://store.steampowered.com/app/1706090",
@@ -25979,13 +25908,16 @@
       "patch_type": "user",
       "patch_links": [
         "6245ade2",
+        "79a95881",
         "exist"
       ],
       "patch_descriptions": [
         "제작자 : 정보없음",
+        "한글패치판 주입 도구",
         "한글 패치 방법 안내 글"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "quasarplay"
       ],
@@ -26033,15 +25965,18 @@
         "d2dff3fa",
         "2bcd2e3b",
         "304538a4",
+        "a6d63dbf",
         "exist"
       ],
       "patch_descriptions": [
         "폐허의 초상화 백업용 // Castlevania Order of Ecclesia 만 공식 한글화",
         "제작자 : was564",
         "창월의 십자가 백업용",
+        "한글패치 개선판 - 스팀 최시판 대응 한글패치(베이스) 제작: was564 — 창월/각인 폰트·대사 한글화 NDS 원작 패치: 창월의 십자가 aleksei·rURiKo·OgreMage / 폐허의 초상화 KAISO·ex 오더 오브 에클레시아 한국어: 게임 공식 번역(KONAMI/M2) 8px 한글 폰트: Galmuri(갈무리) — Quiple, OFL 라이선스 이 개선패치(에클레시아 한글화·8px폰트 주입·오타수정·구조해석·도구): snake7594 (with Claude)",
         "캐슬바니아: 폐허의 초상화, 창월의 십자가 유저 한글 패치 - was564 님,\n※  캐슬바니아 오더 오브 에클레시아는 공식 한글"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "steamapp",
         "steamapp",
@@ -31402,6 +31337,27 @@
       ]
     },
     {
+      "app_id": "611760",
+      "game_title": "Don't Escape: 4 Days to Survive",
+      "steam_link": "https://store.steampowered.com/app/611760",
+      "patch_type": "user",
+      "patch_links": [
+        "74389e5d"
+      ],
+      "patch_descriptions": [
+        "제작팀 : Team WASD"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j80xmk/dont-escape-4-days-to-survive"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "4834070",
       "game_title": "Don't Sleep With The Fishes",
       "steam_link": "https://store.steampowered.com/app/4834070",
@@ -33164,6 +33120,32 @@
       ]
     },
     {
+      "app_id": "4209630",
+      "game_title": "ELbab",
+      "steam_link": "https://store.steampowered.com/app/4209630",
+      "patch_type": "user",
+      "patch_links": [
+        "d88cb4b4",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 정보없음",
+        "한글 패치"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4ykppr/elbab",
+        "quasarplay": "https://store.steampowered.com/app/4209630/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "1304280",
       "game_title": "Elementallis",
       "steam_link": "https://store.steampowered.com/app/1304280",
@@ -34004,6 +33986,27 @@
       ]
     },
     {
+      "app_id": "700600",
+      "game_title": "Evil Genius 2: World Domination",
+      "steam_link": "https://store.steampowered.com/app/700600",
+      "patch_type": "user",
+      "patch_links": [
+        "1a482559"
+      ],
+      "patch_descriptions": [
+        "제작자 : 헐리"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4qg7kz/evil-genius-2-world-domination"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "2785110",
       "game_title": "Evil Holiday",
       "steam_link": "https://store.steampowered.com/app/2785110",
@@ -34130,6 +34133,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "3962020",
+      "game_title": "EXD - Extra Dimensional",
+      "steam_link": "https://store.steampowered.com/app/3962020",
+      "patch_type": "user",
+      "patch_links": [
+        "e27770c8"
+      ],
+      "patch_descriptions": [
+        "제작자 : 닉늬닉늬"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4e12qx/exd-extra-dimensional"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -47891,6 +47915,32 @@
       ]
     },
     {
+      "app_id": "3534790",
+      "game_title": "Mesmalie",
+      "steam_link": "https://store.steampowered.com/app/3534790",
+      "patch_type": "user",
+      "patch_links": [
+        "70aa7990",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 으잌",
+        "한글 패치 - 으잌"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l7y7do/mesmalie",
+        "quasarplay": "https://store.steampowered.com/app/3534790/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "3539440",
       "game_title": "Metal Garden | 메탈 가든",
       "steam_link": "https://store.steampowered.com/app/3539440",
@@ -48329,6 +48379,35 @@
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/j0m3y1/milkmaid-of-the-milky-way",
         "quasarplay": "https://store.steampowered.com/app/544970/?curator_clanid=42788178"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2555950",
+      "game_title": "Million Depth",
+      "steam_link": "https://store.steampowered.com/app/2555950",
+      "patch_type": "user",
+      "patch_links": [
+        "4470a211",
+        "3cfefc4c",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : Pixel4a",
+        "제작자 : HoonGle1007",
+        "한글 패치 - Pixel4a\n한글 패치 - HoonGle1007"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/lzp519/million-depth",
+        "quasarplay": "https://store.steampowered.com/app/2555950/?curator_clanid=30894603"
       },
       "sources": [
         "steamapp",
@@ -51938,13 +52017,19 @@
       "patch_type": "user",
       "patch_links": [
         "1da08ddd",
+        "33aba593",
+        "64dacca7",
         "exist"
       ],
       "patch_descriptions": [
         "제작자 : 정보없음",
+        "비밀번호: I8lsbGNxGZvc 또는",
+        "제작자 : bluems",
         "유저 한글 패치 -"
       ],
       "patch_sources": [
+        "steamapp",
+        "steamapp",
         "steamapp",
         "quasarplay"
       ],
@@ -53497,6 +53582,32 @@
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/jpnkdw/perfect-heist-2",
         "quasarplay": "https://store.steampowered.com/app/1521580/?curator_clanid=42788178"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "1437760",
+      "game_title": "Peripeteia",
+      "steam_link": "https://store.steampowered.com/app/1437760",
+      "patch_type": "user",
+      "patch_links": [
+        "42f9404d",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 정보없음",
+        "한글 패치 \n한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l2zdde/peripeteia",
+        "quasarplay": "https://store.steampowered.com/app/1437760/?curator_clanid=30894603"
       },
       "sources": [
         "steamapp",
@@ -55472,7 +55583,7 @@
         "exist"
       ],
       "patch_descriptions": [
-        "topicular님 제작",
+        "한국어 번역 수정 패치 번역자: B8, topicular",
         "관찰자 DLC 한글 패치 - topicular",
         ""
       ],
@@ -55932,6 +56043,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "4171520",
+      "game_title": "Remnants of a Scare",
+      "steam_link": "https://store.steampowered.com/app/4171520",
+      "patch_type": "user",
+      "patch_links": [
+        "e0b141f9"
+      ],
+      "patch_descriptions": [
+        "데모판 한글화 제작자 : WHALE59"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j8oe2r/remnants-of-a-scare"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -58642,6 +58774,32 @@
       ]
     },
     {
+      "app_id": "2090390",
+      "game_title": "Schrödinger's Call",
+      "steam_link": "https://store.steampowered.com/app/2090390",
+      "patch_type": "user",
+      "patch_links": [
+        "9171a186",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "에피소드1 데모 한글패치 제작자 : Pixel4a",
+        "한글 패치 - Pixel4a\n한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4qn0dx/schr%C3%B6dingers-call",
+        "quasarplay": "https://store.steampowered.com/app/2090390/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "4224460",
       "game_title": "SCP-3008: Infinite Store",
       "steam_link": "https://store.steampowered.com/app/4224460",
@@ -59312,6 +59470,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "324800",
+      "game_title": "Shadow Warrior 2",
+      "steam_link": "https://store.steampowered.com/app/324800",
+      "patch_type": "user",
+      "patch_links": [
+        "7c9eef74"
+      ],
+      "patch_descriptions": [
+        "제작팀 : Team WASD"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jn0qzn/shadow-warrior-2"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -62865,13 +63044,16 @@
       "patch_type": "user",
       "patch_links": [
         "48799b60",
+        "d3aa0c3b",
         "exist"
       ],
       "patch_descriptions": [
         "제작자 : r35",
+        "제작팀 : Team WASD",
         "유저 한글 패치 - r35"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "quasarplay"
       ],
@@ -64020,7 +64202,7 @@
       ],
       "patch_descriptions": [
         "제작자 : bong999993",
-        "제작자 : Anthon 최종판",
+        "제작자 : Anthon 팀 왈도 번역 기반. 다운로드 링크는 댓글 참조",
         "한글 패치 - Anthon"
       ],
       "patch_sources": [
@@ -66470,6 +66652,32 @@
       ]
     },
     {
+      "app_id": "368390",
+      "game_title": "The Darkside Detective",
+      "steam_link": "https://store.steampowered.com/app/368390",
+      "patch_type": "user",
+      "patch_links": [
+        "72245fe8",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 정보없음",
+        "한글 패치 - EL"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/465rky/the-darkside-detective",
+        "quasarplay": "https://store.steampowered.com/app/368390/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "420740",
       "game_title": "The Deed",
       "steam_link": "https://store.steampowered.com/app/420740",
@@ -67394,11 +67602,11 @@
       "steam_link": "https://store.steampowered.com/app/1087760",
       "patch_type": "user",
       "patch_links": [
-        "901e521e",
+        "c094a6b8",
         "exist"
       ],
       "patch_descriptions": [
-        "제작자 : 한무테",
+        "제작팀 : Team WASD",
         "유저 한글 패치 - 한무테 님"
       ],
       "patch_sources": [
@@ -68849,11 +69057,11 @@
       "steam_link": "https://store.steampowered.com/app/3942480",
       "patch_type": "user",
       "patch_links": [
-        "cf6f8a0d",
+        "9bd47604",
         "exist"
       ],
       "patch_descriptions": [
-        "제작자 : sus2040",
+        "제작자 : Alune",
         "유저 한글 패치 - sus2040"
       ],
       "patch_sources": [
@@ -69532,6 +69740,27 @@
       ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/jn62wy/the-solitaire-conspiracy"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "862480",
+      "game_title": "The Spiral Scouts",
+      "steam_link": "https://store.steampowered.com/app/862480",
+      "patch_type": "user",
+      "patch_links": [
+        "d7650f61"
+      ],
+      "patch_descriptions": [
+        "제작팀 : Team WASD"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j89exr/the-spiral-scouts"
       },
       "sources": [
         "steamapp"
@@ -71087,13 +71316,16 @@
       "patch_type": "user",
       "patch_links": [
         "da161e82",
+        "b8e27498",
         "exist"
       ],
       "patch_descriptions": [
         "LSW님 제작",
+        "제작팀 : Team WASD",
         "유저 한국어 패치 - LSW 님"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "quasarplay"
       ],
@@ -76144,6 +76376,27 @@
       ]
     },
     {
+      "app_id": "4293910",
+      "game_title": "XenoFeels",
+      "steam_link": "https://store.steampowered.com/app/4293910",
+      "patch_type": "user",
+      "patch_links": [
+        "f9b9081d"
+      ],
+      "patch_descriptions": [
+        "데모판 한글화 제작자 : Pixel4a"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jp7dok/xenofeels"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "223830",
       "game_title": "Xenonauts",
       "steam_link": "https://store.steampowered.com/app/223830",
@@ -79361,32 +79614,6 @@
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/jdr2zm/%EC%86%8C%EB%8B%89-%ED%8F%AC%EC%8B%9C%EC%A6%88",
         "quasarplay": "https://store.steampowered.com/app/637100/?curator_clanid=42788178"
-      },
-      "sources": [
-        "steamapp",
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "2108180",
-      "game_title": "소드헤이븐",
-      "steam_link": "https://store.steampowered.com/app/2108180",
-      "patch_type": "user",
-      "patch_links": [
-        "4a73121e",
-        "exist"
-      ],
-      "patch_descriptions": [
-        "제작자 : 한무테",
-        "유저 한글 패치 - gusrud6151 님"
-      ],
-      "patch_sources": [
-        "steamapp",
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "steamapp": "https://hanpe.net/app/lk51z8/%EC%86%8C%EB%93%9C%ED%97%A4%EC%9D%B4%EB%B8%90",
-        "quasarplay": "https://store.steampowered.com/app/2108180/?curator_clanid=42788178"
       },
       "sources": [
         "steamapp",
@@ -84614,6 +84841,27 @@
       ]
     },
     {
+      "app_id": "3364860",
+      "game_title": "少女地獄カルデア｜Galaxy Express Chaldea",
+      "steam_link": "https://store.steampowered.com/app/3364860",
+      "patch_type": "user",
+      "patch_links": [
+        "18872065"
+      ],
+      "patch_descriptions": [
+        "제작자 : 에스티"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4q062d/%E5%B0%91%E5%A5%B3%E5%9C%B0%E7%8D%84%E3%82%AB%E3%83%AB%E3%83%87%E3%82%A2galaxy-express-chaldea"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "2842800",
       "game_title": "尸姬之梦",
       "steam_link": "https://store.steampowered.com/app/2842800",
@@ -86464,32 +86712,6 @@
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/lzgk5p/%E8%91%AC%E8%8A%B1%E6%9A%97%E9%BB%91%E6%A1%83%E8%8A%B1%E6%BA%90",
         "quasarplay": "https://store.steampowered.com/app/1506980/?curator_clanid=42788178"
-      },
-      "sources": [
-        "steamapp",
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "3387330",
-      "game_title": "见诡录：阴魂街 Haunting Record: Phantom Street",
-      "steam_link": "https://store.steampowered.com/app/3387330",
-      "patch_type": "user",
-      "patch_links": [
-        "219294e5",
-        "exist"
-      ],
-      "patch_descriptions": [
-        "제작자 : 한무테",
-        "유저 한글 패치 - 한무테"
-      ],
-      "patch_sources": [
-        "steamapp",
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "steamapp": "https://hanpe.net/app/lkoe5r/%E8%A7%81%E8%AF%A1%E5%BD%95%E9%98%B4%E9%AD%82%E8%A1%97-haunting-record-phantom-street",
-        "quasarplay": "https://store.steampowered.com/app/3387330/?curator_clanid=42788178"
       },
       "sources": [
         "steamapp",

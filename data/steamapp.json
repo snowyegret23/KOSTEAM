@@ -6897,10 +6897,12 @@
     "source_site_url": "https://hanpe.net/app/4ekz5z/titan-souls",
     "patch_type": "user",
     "patch_links": [
-      "da161e82"
+      "da161e82",
+      "b8e27498"
     ],
     "patch_descriptions": [
-      "LSW님 제작"
+      "LSW님 제작",
+      "제작팀 : Team WASD"
     ]
   },
   {
@@ -7014,7 +7016,7 @@
     ],
     "patch_descriptions": [
       "제작자 : bong999993",
-      "제작자 : Anthon 최종판"
+      "제작자 : Anthon 팀 왈도 번역 기반. 다운로드 링크는 댓글 참조"
     ]
   },
   {
@@ -7265,7 +7267,7 @@
       "2a0530f4"
     ],
     "patch_descriptions": [
-      "topicular님 제작"
+      "한국어 번역 수정 패치 번역자: B8, topicular"
     ]
   },
   {
@@ -7652,6 +7654,19 @@
     ],
     "patch_descriptions": [
       "GalCancer님 블로그"
+    ]
+  },
+  {
+    "app_id": "324800",
+    "game_title": "Shadow Warrior 2",
+    "steam_link": "https://store.steampowered.com/app/324800",
+    "source_site_url": "https://hanpe.net/app/jn0qzn/shadow-warrior-2",
+    "patch_type": "user",
+    "patch_links": [
+      "7c9eef74"
+    ],
+    "patch_descriptions": [
+      "제작팀 : Team WASD"
     ]
   },
   {
@@ -8762,6 +8777,19 @@
     ],
     "patch_descriptions": [
       "룬엘님 제작"
+    ]
+  },
+  {
+    "app_id": "368390",
+    "game_title": "The Darkside Detective",
+    "steam_link": "https://store.steampowered.com/app/368390",
+    "source_site_url": "https://hanpe.net/app/465rky/the-darkside-detective",
+    "patch_type": "user",
+    "patch_links": [
+      "72245fe8"
+    ],
+    "patch_descriptions": [
+      "제작자 : 정보없음"
     ]
   },
   {
@@ -12426,10 +12454,12 @@
     "source_site_url": "https://hanpe.net/app/4e6nwk/steamworld-dig-2",
     "patch_type": "user",
     "patch_links": [
-      "48799b60"
+      "48799b60",
+      "d3aa0c3b"
     ],
     "patch_descriptions": [
-      "제작자 : r35"
+      "제작자 : r35",
+      "제작팀 : Team WASD"
     ]
   },
   {
@@ -13181,6 +13211,19 @@
     ],
     "patch_descriptions": [
       "DreadNought 40k님 제작"
+    ]
+  },
+  {
+    "app_id": "611760",
+    "game_title": "Don't Escape: 4 Days to Survive",
+    "steam_link": "https://store.steampowered.com/app/611760",
+    "source_site_url": "https://hanpe.net/app/j80xmk/dont-escape-4-days-to-survive",
+    "patch_type": "user",
+    "patch_links": [
+      "74389e5d"
+    ],
+    "patch_descriptions": [
+      "제작팀 : Team WASD"
     ]
   },
   {
@@ -14184,6 +14227,19 @@
     "patch_descriptions": [
       "비밀 실험실 제작",
       "천상비 님 제작"
+    ]
+  },
+  {
+    "app_id": "700600",
+    "game_title": "Evil Genius 2: World Domination",
+    "steam_link": "https://store.steampowered.com/app/700600",
+    "source_site_url": "https://hanpe.net/app/4qg7kz/evil-genius-2-world-domination",
+    "patch_type": "user",
+    "patch_links": [
+      "1a482559"
+    ],
+    "patch_descriptions": [
+      "제작자 : 헐리"
     ]
   },
   {
@@ -15589,6 +15645,19 @@
     ],
     "patch_descriptions": [
       "휠맨 님 제작"
+    ]
+  },
+  {
+    "app_id": "862480",
+    "game_title": "The Spiral Scouts",
+    "steam_link": "https://store.steampowered.com/app/862480",
+    "source_site_url": "https://hanpe.net/app/j89exr/the-spiral-scouts",
+    "patch_type": "user",
+    "patch_links": [
+      "d7650f61"
+    ],
+    "patch_descriptions": [
+      "제작팀 : Team WASD"
     ]
   },
   {
@@ -17761,10 +17830,10 @@
     "source_site_url": "https://hanpe.net/app/4o08g0/the-gunk",
     "patch_type": "user",
     "patch_links": [
-      "901e521e"
+      "c094a6b8"
     ],
     "patch_descriptions": [
-      "제작자 : 한무테"
+      "제작팀 : Team WASD"
     ]
   },
   {
@@ -19768,6 +19837,19 @@
     ]
   },
   {
+    "app_id": "1269640",
+    "game_title": "Beacon Pines",
+    "steam_link": "https://store.steampowered.com/app/1269640",
+    "source_site_url": "https://hanpe.net/app/4e0rov/beacon-pines",
+    "patch_type": "user",
+    "patch_links": [
+      "64efdfe8"
+    ],
+    "patch_descriptions": [
+      "제작팀 : Team WASD"
+    ]
+  },
+  {
     "app_id": "1270580",
     "game_title": "Mind Over Magic",
     "steam_link": "https://store.steampowered.com/app/1270580",
@@ -20245,12 +20327,10 @@
     "source_site_url": "https://hanpe.net/app/l3e0oo/achilles-legends-untold",
     "patch_type": "user",
     "patch_links": [
-      "b82d112d",
-      "bcbd7b20"
+      "b82d112d"
     ],
     "patch_descriptions": [
-      "제작자 : 구미호던 번역기를 이용한 한글화",
-      "제작자 : 한무테"
+      "제작자 : 구미호던 번역기를 이용한 한글화"
     ]
   },
   {
@@ -21109,6 +21189,19 @@
     ]
   },
   {
+    "app_id": "1437760",
+    "game_title": "Peripeteia",
+    "steam_link": "https://store.steampowered.com/app/1437760",
+    "source_site_url": "https://hanpe.net/app/l2zdde/peripeteia",
+    "patch_type": "user",
+    "patch_links": [
+      "42f9404d"
+    ],
+    "patch_descriptions": [
+      "제작자 : 정보없음"
+    ]
+  },
+  {
     "app_id": "1437820",
     "game_title": "三国群英传",
     "steam_link": "https://store.steampowered.com/app/1437820",
@@ -21591,10 +21684,14 @@
     "source_site_url": "https://hanpe.net/app/4q0zvz/opus-echo-of-starsong-full-bloom-edition",
     "patch_type": "user",
     "patch_links": [
-      "1da08ddd"
+      "1da08ddd",
+      "33aba593",
+      "64dacca7"
     ],
     "patch_descriptions": [
-      "제작자 : 정보없음"
+      "제작자 : 정보없음",
+      "비밀번호: I8lsbGNxGZvc 또는",
+      "제작자 : bluems"
     ]
   },
   {
@@ -21892,10 +21989,12 @@
     "source_site_url": "https://hanpe.net/app/4qg77x/castlevania-advance-collection",
     "patch_type": "user",
     "patch_links": [
-      "6245ade2"
+      "6245ade2",
+      "79a95881"
     ],
     "patch_descriptions": [
-      "제작자 : 정보없음"
+      "제작자 : 정보없음",
+      "한글패치판 주입 도구"
     ]
   },
   {
@@ -25415,6 +25514,19 @@
     ]
   },
   {
+    "app_id": "2090390",
+    "game_title": "Schrödinger's Call",
+    "steam_link": "https://store.steampowered.com/app/2090390",
+    "source_site_url": "https://hanpe.net/app/4qn0dx/schr%C3%B6dingers-call",
+    "patch_type": "user",
+    "patch_links": [
+      "9171a186"
+    ],
+    "patch_descriptions": [
+      "에피소드1 데모 한글패치 제작자 : Pixel4a"
+    ]
+  },
+  {
     "app_id": "2093010",
     "game_title": "Supernatural",
     "steam_link": "https://store.steampowered.com/app/2093010",
@@ -25587,19 +25699,6 @@
     ],
     "patch_descriptions": [
       "제작자 : 으잌"
-    ]
-  },
-  {
-    "app_id": "2108180",
-    "game_title": "소드헤이븐",
-    "steam_link": "https://store.steampowered.com/app/2108180",
-    "source_site_url": "https://hanpe.net/app/lk51z8/%EC%86%8C%EB%93%9C%ED%97%A4%EC%9D%B4%EB%B8%90",
-    "patch_type": "user",
-    "patch_links": [
-      "4a73121e"
-    ],
-    "patch_descriptions": [
-      "제작자 : 한무테"
     ]
   },
   {
@@ -26969,12 +27068,14 @@
     "patch_links": [
       "d2dff3fa",
       "2bcd2e3b",
-      "304538a4"
+      "304538a4",
+      "a6d63dbf"
     ],
     "patch_descriptions": [
       "폐허의 초상화 백업용 // Castlevania Order of Ecclesia 만 공식 한글화",
       "제작자 : was564",
-      "창월의 십자가 백업용"
+      "창월의 십자가 백업용",
+      "한글패치 개선판 - 스팀 최시판 대응 한글패치(베이스) 제작: was564 — 창월/각인 폰트·대사 한글화 NDS 원작 패치: 창월의 십자가 aleksei·rURiKo·OgreMage / 폐허의 초상화 KAISO·ex 오더 오브 에클레시아 한국어: 게임 공식 번역(KONAMI/M2) 8px 한글 폰트: Galmuri(갈무리) — Quiple, OFL 라이선스 이 개선패치(에클레시아 한글화·8px폰트 주입·오타수정·구조해석·도구): snake7594 (with Claude)"
     ]
   },
   {
@@ -28000,6 +28101,21 @@
     ],
     "patch_descriptions": [
       "실제로는 한글 지원"
+    ]
+  },
+  {
+    "app_id": "2555950",
+    "game_title": "Million Depth",
+    "steam_link": "https://store.steampowered.com/app/2555950",
+    "source_site_url": "https://hanpe.net/app/lzp519/million-depth",
+    "patch_type": "user",
+    "patch_links": [
+      "4470a211",
+      "3cfefc4c"
+    ],
+    "patch_descriptions": [
+      "제작자 : Pixel4a",
+      "제작자 : HoonGle1007"
     ]
   },
   {
@@ -30062,19 +30178,6 @@
     ],
     "patch_descriptions": [
       "<한글화 참여 - Team. 돌고래떼> 기술 : 부끄지 번역 : 열두살 카마요루 검수 : 열두살 카마요루 미술 : 270 BY 아지안 카마요루 포카리 협조 : 혜성"
-    ]
-  },
-  {
-    "app_id": "2922410",
-    "game_title": "Achilles: Survivor",
-    "steam_link": "https://store.steampowered.com/app/2922410",
-    "source_site_url": "https://hanpe.net/app/lz6807/achilles-survivor",
-    "patch_type": "user",
-    "patch_links": [
-      "c446b7ff"
-    ],
-    "patch_descriptions": [
-      "제작자 : 한무테"
     ]
   },
   {
@@ -32303,6 +32406,19 @@
     ]
   },
   {
+    "app_id": "3364860",
+    "game_title": "少女地獄カルデア｜Galaxy Express Chaldea",
+    "steam_link": "https://store.steampowered.com/app/3364860",
+    "source_site_url": "https://hanpe.net/app/4q062d/%E5%B0%91%E5%A5%B3%E5%9C%B0%E7%8D%84%E3%82%AB%E3%83%AB%E3%83%87%E3%82%A2galaxy-express-chaldea",
+    "patch_type": "user",
+    "patch_links": [
+      "18872065"
+    ],
+    "patch_descriptions": [
+      "제작자 : 에스티"
+    ]
+  },
+  {
     "app_id": "3370870",
     "game_title": "Berry Bury Berry",
     "steam_link": "https://store.steampowered.com/app/3370870",
@@ -32410,19 +32526,6 @@
     ],
     "patch_descriptions": [
       "제작자 : 복소기하학"
-    ]
-  },
-  {
-    "app_id": "3387330",
-    "game_title": "见诡录：阴魂街 Haunting Record: Phantom Street",
-    "steam_link": "https://store.steampowered.com/app/3387330",
-    "source_site_url": "https://hanpe.net/app/lkoe5r/%E8%A7%81%E8%AF%A1%E5%BD%95%E9%98%B4%E9%AD%82%E8%A1%97-haunting-record-phantom-street",
-    "patch_type": "user",
-    "patch_links": [
-      "219294e5"
-    ],
-    "patch_descriptions": [
-      "제작자 : 한무테"
     ]
   },
   {
@@ -32951,6 +33054,19 @@
     ],
     "patch_descriptions": [
       "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : 미인이많군요"
+    ]
+  },
+  {
+    "app_id": "3534790",
+    "game_title": "Mesmalie",
+    "steam_link": "https://store.steampowered.com/app/3534790",
+    "source_site_url": "https://hanpe.net/app/l7y7do/mesmalie",
+    "patch_type": "user",
+    "patch_links": [
+      "70aa7990"
+    ],
+    "patch_descriptions": [
+      "제작자 : 으잌"
     ]
   },
   {
@@ -33995,10 +34111,10 @@
     "source_site_url": "https://hanpe.net/app/4ex3py/the-noexistencen-of-morphean-paradox-the-forest-of-silver-shallots",
     "patch_type": "user",
     "patch_links": [
-      "cf6f8a0d"
+      "9bd47604"
     ],
     "patch_descriptions": [
-      "제작자 : sus2040"
+      "제작자 : Alune"
     ]
   },
   {
@@ -34025,6 +34141,19 @@
     ],
     "patch_descriptions": [
       "제작자 : Pixel4a"
+    ]
+  },
+  {
+    "app_id": "3962020",
+    "game_title": "EXD - Extra Dimensional",
+    "steam_link": "https://store.steampowered.com/app/3962020",
+    "source_site_url": "https://hanpe.net/app/4e12qx/exd-extra-dimensional",
+    "patch_type": "user",
+    "patch_links": [
+      "e27770c8"
+    ],
+    "patch_descriptions": [
+      "제작자 : 닉늬닉늬"
     ]
   },
   {
@@ -34333,6 +34462,19 @@
     ]
   },
   {
+    "app_id": "4171520",
+    "game_title": "Remnants of a Scare",
+    "steam_link": "https://store.steampowered.com/app/4171520",
+    "source_site_url": "https://hanpe.net/app/j8oe2r/remnants-of-a-scare",
+    "patch_type": "user",
+    "patch_links": [
+      "e0b141f9"
+    ],
+    "patch_descriptions": [
+      "데모판 한글화 제작자 : WHALE59"
+    ]
+  },
+  {
     "app_id": "4181110",
     "game_title": "THE VIG",
     "steam_link": "https://store.steampowered.com/app/4181110",
@@ -34382,6 +34524,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 으잌"
+    ]
+  },
+  {
+    "app_id": "4209630",
+    "game_title": "ELbab",
+    "steam_link": "https://store.steampowered.com/app/4209630",
+    "source_site_url": "https://hanpe.net/app/4ykppr/elbab",
+    "patch_type": "user",
+    "patch_links": [
+      "d88cb4b4"
+    ],
+    "patch_descriptions": [
+      "제작자 : 정보없음"
     ]
   },
   {
@@ -34514,6 +34669,19 @@
     ],
     "patch_descriptions": [
       "만든이 : qhtjr(글쓴이) 데모판 한글화"
+    ]
+  },
+  {
+    "app_id": "4293910",
+    "game_title": "XenoFeels",
+    "steam_link": "https://store.steampowered.com/app/4293910",
+    "source_site_url": "https://hanpe.net/app/jp7dok/xenofeels",
+    "patch_type": "user",
+    "patch_links": [
+      "f9b9081d"
+    ],
+    "patch_descriptions": [
+      "데모판 한글화 제작자 : Pixel4a"
     ]
   },
   {
