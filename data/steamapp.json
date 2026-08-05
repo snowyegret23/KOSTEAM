@@ -7085,7 +7085,7 @@
       "ba751094"
     ],
     "patch_descriptions": [
-      "제작자 : 레임3D"
+      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : 레임3D"
     ]
   },
   {
@@ -12837,6 +12837,19 @@
     ],
     "patch_descriptions": [
       "실제로는 한글 지원"
+    ]
+  },
+  {
+    "app_id": "588430",
+    "game_title": "Fallout Shelter",
+    "steam_link": "https://store.steampowered.com/app/588430",
+    "source_site_url": "https://hanpe.net/app/j5m8qe/fallout-shelter",
+    "patch_type": "user",
+    "patch_links": [
+      "6020e4fe"
+    ],
+    "patch_descriptions": [
+      "제작자 : 공대 남편"
     ]
   },
   {
@@ -21156,10 +21169,12 @@
     "source_site_url": "https://hanpe.net/app/lkgn09/sun-haven",
     "patch_type": "official",
     "patch_links": [
-      "e67d14a9"
+      "e67d14a9",
+      "afe2edac"
     ],
     "patch_descriptions": [
-      "공식 번역 개선 패치"
+      "공식 번역 개선 패치",
+      "공식 한글 개선 패치 제작자 : 공대 남편"
     ]
   },
   {
@@ -21596,7 +21611,7 @@
       "09ccc055"
     ],
     "patch_descriptions": [
-      "제작자 : 으잌"
+      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : 으잌"
     ]
   },
   {
@@ -21684,12 +21699,10 @@
     "source_site_url": "https://hanpe.net/app/4q0zvz/opus-echo-of-starsong-full-bloom-edition",
     "patch_type": "user",
     "patch_links": [
-      "1da08ddd",
       "33aba593",
       "64dacca7"
     ],
     "patch_descriptions": [
-      "제작자 : 정보없음",
       "비밀번호: I8lsbGNxGZvc 또는",
       "제작자 : bluems"
     ]
@@ -23768,7 +23781,7 @@
     "source_site_url": "https://hanpe.net/app/l7kore/rockman-exe-advanced-collection-vol1",
     "patch_type": "user",
     "patch_links": [
-      "f2f7640d"
+      "4aeebc81"
     ],
     "patch_descriptions": [
       "제작자 : 티브"
@@ -23781,12 +23794,10 @@
     "source_site_url": "https://hanpe.net/app/j935o6/rockman-exe-advanced-collection-vol2",
     "patch_type": "user",
     "patch_links": [
-      "9ac2e7fb",
-      "5f01c816"
+      "4aeebc81"
     ],
     "patch_descriptions": [
-      "록맨 에그제 5 팀 오브 블루스/커넬 한글화 제작자 : 티브",
-      "록맨 에그제 4 토너먼트 레드 선/블루 문 한글화 제작자 : 티브"
+      "제작자 : 티브"
     ]
   },
   {
@@ -27075,7 +27086,7 @@
       "폐허의 초상화 백업용 // Castlevania Order of Ecclesia 만 공식 한글화",
       "제작자 : was564",
       "창월의 십자가 백업용",
-      "한글패치 개선판 - 스팀 최시판 대응 한글패치(베이스) 제작: was564 — 창월/각인 폰트·대사 한글화 NDS 원작 패치: 창월의 십자가 aleksei·rURiKo·OgreMage / 폐허의 초상화 KAISO·ex 오더 오브 에클레시아 한국어: 게임 공식 번역(KONAMI/M2) 8px 한글 폰트: Galmuri(갈무리) — Quiple, OFL 라이선스 이 개선패치(에클레시아 한글화·8px폰트 주입·오타수정·구조해석·도구): snake7594 (with Claude)"
+      "한글패치 개선판 한글패치(베이스) 제작: was564 — 창월/각인 폰트·대사 한글화 NDS 원작 패치: 창월의 십자가 aleksei·rURiKo·OgreMage / 폐허의 초상화 KAISO·ex 오더 오브 에클레시아 한국어: 게임 공식 번역(KONAMI/M2) 8px 한글 폰트: Galmuri(갈무리) — Quiple, OFL 라이선스 이 개선패치(에클레시아 한글화·8px폰트 주입·오타수정·구조해석·도구): snake7594 (with Claude)"
     ]
   },
   {
@@ -28899,6 +28910,32 @@
     ],
     "patch_descriptions": [
       "제작자 : 한무테"
+    ]
+  },
+  {
+    "app_id": "2710650",
+    "game_title": "Quantum Void",
+    "steam_link": "https://store.steampowered.com/app/2710650",
+    "source_site_url": "https://hanpe.net/app/lx5k77/quantum-void",
+    "patch_type": "user",
+    "patch_links": [
+      "216bd292"
+    ],
+    "patch_descriptions": [
+      "제작자 : 닉늬닉늬"
+    ]
+  },
+  {
+    "app_id": "2712380",
+    "game_title": "Legends of Dragaea: Idle Dungeons",
+    "steam_link": "https://store.steampowered.com/app/2712380",
+    "source_site_url": "https://hanpe.net/app/4yk50e/legends-of-dragaea-idle-dungeons",
+    "patch_type": "user",
+    "patch_links": [
+      "e56ab526"
+    ],
+    "patch_descriptions": [
+      "제작자 : 정보없음"
     ]
   },
   {
@@ -32084,6 +32121,19 @@
     ]
   },
   {
+    "app_id": "3279830",
+    "game_title": "导演，请多多指教",
+    "steam_link": "https://store.steampowered.com/app/3279830",
+    "source_site_url": "https://hanpe.net/app/j9n7de/%E5%AF%BC%E6%BC%94%E8%AF%B7%E5%A4%9A%E5%A4%9A%E6%8C%87%E6%95%99",
+    "patch_type": "user",
+    "patch_links": [
+      "503011a1"
+    ],
+    "patch_descriptions": [
+      "제작자 : andrea"
+    ]
+  },
+  {
     "app_id": "3282390",
     "game_title": "젠장! 미녀들한테 포위당했어! 2",
     "steam_link": "https://store.steampowered.com/app/3282390",
@@ -32191,6 +32241,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 으잌"
+    ]
+  },
+  {
+    "app_id": "3312130",
+    "game_title": "Factory Town 2: Paradise",
+    "steam_link": "https://store.steampowered.com/app/3312130",
+    "source_site_url": "https://hanpe.net/app/j5ggm3/factory-town-2-paradise",
+    "patch_type": "user",
+    "patch_links": [
+      "b0b99320"
+    ],
+    "patch_descriptions": [
+      "제작자 : 휠맨"
     ]
   },
   {
@@ -32773,10 +32836,12 @@
     "source_site_url": "https://hanpe.net/app/jvpqoo/%E5%92%B8%E9%B1%BC%E6%AE%BF%E4%B8%8B-my-journey",
     "patch_type": "user",
     "patch_links": [
-      "752167a2"
+      "752167a2",
+      "5c596bc5"
     ],
     "patch_descriptions": [
-      "제작자 : 미인이많군요"
+      "제작자 : 미인이많군요",
+      "제작자 : andrea"
     ]
   },
   {
@@ -32847,6 +32912,19 @@
     ]
   },
   {
+    "app_id": "3446960",
+    "game_title": "魔亦佛",
+    "steam_link": "https://store.steampowered.com/app/3446960",
+    "source_site_url": "https://hanpe.net/app/jp5xpw/%E9%AD%94%E4%BA%A6%E4%BD%9B",
+    "patch_type": "user",
+    "patch_links": [
+      "fd16d4da"
+    ],
+    "patch_descriptions": [
+      "제작자 : 듀콩"
+    ]
+  },
+  {
     "app_id": "3447620",
     "game_title": "Christmas Story",
     "steam_link": "https://store.steampowered.com/app/3447620",
@@ -32901,6 +32979,19 @@
     ]
   },
   {
+    "app_id": "3458620",
+    "game_title": "轮回修仙传",
+    "steam_link": "https://store.steampowered.com/app/3458620",
+    "source_site_url": "https://hanpe.net/app/jp7ozk/%E8%BD%AE%E5%9B%9E%E4%BF%AE%E4%BB%99%E4%BC%A0",
+    "patch_type": "user",
+    "patch_links": [
+      "275251c9"
+    ],
+    "patch_descriptions": [
+      "제작자 : rayi1004"
+    ]
+  },
+  {
     "app_id": "3460110",
     "game_title": "天地有私，宿命之主",
     "steam_link": "https://store.steampowered.com/app/3460110",
@@ -32946,10 +33037,12 @@
     "source_site_url": "https://hanpe.net/app/4oq180/%E5%99%A9%E6%A2%A6%E6%91%87%E7%AF%AE%E7%8C%AE%E8%8A%B1%E4%BA%8E%E4%BD%A0",
     "patch_type": "user",
     "patch_links": [
-      "2f2d4d94"
+      "2f2d4d94",
+      "151d3730"
     ],
     "patch_descriptions": [
-      "제작자 : 정보없음"
+      "제작자 : 정보없음",
+      "제작자 : 듀콩"
     ]
   },
   {
@@ -33080,6 +33173,19 @@
     ],
     "patch_descriptions": [
       "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : Rovre (로브르)"
+    ]
+  },
+  {
+    "app_id": "3540530",
+    "game_title": "Lost Child",
+    "steam_link": "https://store.steampowered.com/app/3540530",
+    "source_site_url": "https://hanpe.net/app/4qex2e/lost-child",
+    "patch_type": "user",
+    "patch_links": [
+      "0acc6f5b"
+    ],
+    "patch_descriptions": [
+      "제작자 : 듀콩"
     ]
   },
   {
@@ -33277,8 +33383,8 @@
       "6667ee28"
     ],
     "patch_descriptions": [
-      "제작자 : 으잌",
-      "제작자 : 한패모"
+      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : 으잌",
+      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : 한패모"
     ]
   },
   {
@@ -33399,6 +33505,19 @@
     ]
   },
   {
+    "app_id": "3641000",
+    "game_title": "The Incident at Galley House",
+    "steam_link": "https://store.steampowered.com/app/3641000",
+    "source_site_url": "https://hanpe.net/app/jn95p8/the-incident-at-galley-house",
+    "patch_type": "user",
+    "patch_links": [
+      "bed85eeb"
+    ],
+    "patch_descriptions": [
+      "[패치 제작] - 버섯순이 - Snowyegret (IME 버그 관련 기술 지원)"
+    ]
+  },
+  {
     "app_id": "3652650",
     "game_title": "恋爱从离别开始",
     "steam_link": "https://store.steampowered.com/app/3652650",
@@ -33502,6 +33621,19 @@
     ],
     "patch_descriptions": [
       "공식 한글 개선 패치 제작자 : 한패모"
+    ]
+  },
+  {
+    "app_id": "3686580",
+    "game_title": "Repel The Rifts",
+    "steam_link": "https://store.steampowered.com/app/3686580",
+    "source_site_url": "https://hanpe.net/app/l7k53o/repel-the-rifts",
+    "patch_type": "user",
+    "patch_links": [
+      "dbaf7b9b"
+    ],
+    "patch_descriptions": [
+      "공식 한글 개선 패치"
     ]
   },
   {
@@ -33709,7 +33841,7 @@
       "74853058"
     ],
     "patch_descriptions": [
-      "제작자 : 으잌"
+      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : 으잌"
     ]
   },
   {
@@ -34036,7 +34168,7 @@
       "61e5fb89"
     ],
     "patch_descriptions": [
-      "한글패치 제작: 팀 글냥이 (Nark, Oatone)"
+      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 한글패치 제작: 팀 글냥이 (Nark, Oatone)"
     ]
   },
   {
@@ -34196,6 +34328,19 @@
     ]
   },
   {
+    "app_id": "3997370",
+    "game_title": "Perfect Porcelain",
+    "steam_link": "https://store.steampowered.com/app/3997370",
+    "source_site_url": "https://hanpe.net/app/lkvod8/perfect-porcelain",
+    "patch_type": "user",
+    "patch_links": [
+      "742c5ed4"
+    ],
+    "patch_descriptions": [
+      "제작자 : 듀콩"
+    ]
+  },
+  {
     "app_id": "3998800",
     "game_title": "恋爱吗？我家猫会后空翻",
     "steam_link": "https://store.steampowered.com/app/3998800",
@@ -34301,6 +34446,19 @@
       "제작자 : B0614",
       "제작자 : no40son",
       "제작자 : showneykim"
+    ]
+  },
+  {
+    "app_id": "4093240",
+    "game_title": "Tokyo Valkyries",
+    "steam_link": "https://store.steampowered.com/app/4093240",
+    "source_site_url": "https://hanpe.net/app/lkwge0/tokyo-valkyries",
+    "patch_type": "user",
+    "patch_links": [
+      "9bdb6672"
+    ],
+    "patch_descriptions": [
+      "제작자 : 이프심"
     ]
   },
   {
@@ -34420,6 +34578,19 @@
     ],
     "patch_descriptions": [
       "실제로는 공식 한글화"
+    ]
+  },
+  {
+    "app_id": "4137460",
+    "game_title": "我的机器人女友",
+    "steam_link": "https://store.steampowered.com/app/4137460",
+    "source_site_url": "https://hanpe.net/app/4e79ox/%E6%88%91%E7%9A%84%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%A5%B3%E5%8F%8B",
+    "patch_type": "user",
+    "patch_links": [
+      "6ff40020"
+    ],
+    "patch_descriptions": [
+      "제작자 : andrea"
     ]
   },
   {
@@ -34587,10 +34758,12 @@
     "source_site_url": "https://hanpe.net/app/4e0q5y/%E4%B8%BB%E8%A7%92",
     "patch_type": "user",
     "patch_links": [
-      "4d1bcbe3"
+      "4d1bcbe3",
+      "51c270a8"
     ],
     "patch_descriptions": [
-      "데모판 한글화 제작자 : 희망의가위"
+      "데모판 한글화 제작자 : 희망의가위",
+      "제작자 : 호트구트"
     ]
   },
   {
@@ -34682,6 +34855,19 @@
     ],
     "patch_descriptions": [
       "데모판 한글화 제작자 : Pixel4a"
+    ]
+  },
+  {
+    "app_id": "4294490",
+    "game_title": "KOTAMON: My Sis Found A Super-Rare Card In Her Cereal Box, So I Became A Garbage Man To Find The Entire Collection And Earn $1,000,000",
+    "steam_link": "https://store.steampowered.com/app/4294490",
+    "source_site_url": "https://hanpe.net/app/l7n5yp/kotamon-my-sis-found-a-super-rare-card-in-her-cereal-box-so-i-became-a-garbage-man-to-find-the-entire-collection-and-earn-1000000",
+    "patch_type": "user",
+    "patch_links": [
+      "555f3701"
+    ],
+    "patch_descriptions": [
+      "데모판 한글폰트 보완 패치 제작자 : Pixel4a"
     ]
   },
   {
@@ -34849,6 +35035,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 듀콩"
+    ]
+  },
+  {
+    "app_id": "4508570",
+    "game_title": "Veritas Tales: Witch of the Dark Castle",
+    "steam_link": "https://store.steampowered.com/app/4508570",
+    "source_site_url": "https://hanpe.net/app/j5e228/veritas-tales-witch-of-the-dark-castle",
+    "patch_type": "user",
+    "patch_links": [
+      "69159907"
+    ],
+    "patch_descriptions": [
+      "제작자 : killterm"
     ]
   },
   {

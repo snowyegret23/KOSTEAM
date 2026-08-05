@@ -2,9 +2,126 @@
   "curator_id": 30894603,
   "curator_name": "Curator #30894603",
   "curator_url": "https://store.steampowered.com/curator/30894603/",
-  "total_games": 1038,
-  "exported_at": "2026-08-02T21:51:08.479640",
+  "total_games": 1049,
+  "exported_at": "2026-08-05T22:08:12.106923",
   "games": [
+    {
+      "appid": "3312130",
+      "url": "https://store.steampowered.com/app/3312130/Factory_Town_2_Paradise/",
+      "curator_url": "https://store.steampowered.com/app/3312130/?curator_clanid=30894603",
+      "review": "한글 패치 - 휠맨",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "3525620",
+      "url": "https://store.steampowered.com/app/3525620/Wall_Street_Raider/",
+      "curator_url": "https://store.steampowered.com/app/3525620/?curator_clanid=30894603",
+      "review": "한글 패치",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "866400",
+      "url": "https://store.steampowered.com/app/866400/On_The_Western_Front/",
+      "curator_url": "https://store.steampowered.com/app/866400/?curator_clanid=30894603",
+      "review": "한글 패치 - anjFhgkfRk",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "3667230",
+      "url": "https://store.steampowered.com/app/3667230/The_Deadseat/",
+      "curator_url": "https://store.steampowered.com/app/3667230/?curator_clanid=30894603",
+      "review": "한글 패치 - 으잌",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "3751730",
+      "url": "https://store.steampowered.com/app/3751730/Loan_Shark/",
+      "curator_url": "https://store.steampowered.com/app/3751730/?curator_clanid=30894603",
+      "review": "한글 패치 - 으잌",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "3962020",
+      "url": "https://store.steampowered.com/app/3962020/EXD__Extra_Dimensional/",
+      "curator_url": "https://store.steampowered.com/app/3962020/?curator_clanid=30894603",
+      "review": "한글 패치 - 닉늬닉늬",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "700600",
+      "url": "https://store.steampowered.com/app/700600/Evil_Genius_2_World_Domination/",
+      "curator_url": "https://store.steampowered.com/app/700600/?curator_clanid=30894603",
+      "review": "한글 패치 - 헐리",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "862480",
+      "url": "https://store.steampowered.com/app/862480/The_Spiral_Scouts/",
+      "curator_url": "https://store.steampowered.com/app/862480/?curator_clanid=30894603",
+      "review": "한글 패치 - 팀 WASD",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "611760",
+      "url": "https://store.steampowered.com/app/611760/Dont_Escape_4_Days_to_Survive/",
+      "curator_url": "https://store.steampowered.com/app/611760/?curator_clanid=30894603",
+      "review": "한글 패치 - 팀 WASD",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "1269640",
+      "url": "https://store.steampowered.com/app/1269640/Beacon_Pines/",
+      "curator_url": "https://store.steampowered.com/app/1269640/?curator_clanid=30894603",
+      "review": "한글 패치 - 팀 WASD",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "324800",
+      "url": "https://store.steampowered.com/app/324800/Shadow_Warrior_2/",
+      "curator_url": "https://store.steampowered.com/app/324800/?curator_clanid=30894603",
+      "review": "한글 패치 - 팀 WASD",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "1499120",
+      "url": "https://store.steampowered.com/app/1499120/I_Expect_You_To_Die_2_The_Spy_and_the_Liar/",
+      "curator_url": "https://store.steampowered.com/app/1499120/?curator_clanid=30894603",
+      "review": "한글 패치 - 땡땡양",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "2710650",
+      "url": "https://store.steampowered.com/app/2710650/Quantum_Void/",
+      "curator_url": "https://store.steampowered.com/app/2710650/?curator_clanid=30894603",
+      "review": "한글 패치 - 닉늬닉늬",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
     {
       "appid": "4056810",
       "url": "https://store.steampowered.com/app/4056810/_/",
@@ -126,18 +243,18 @@
       "appid": "3558600",
       "url": "https://store.steampowered.com/app/3558600/Leafy_Corner/",
       "curator_url": "https://store.steampowered.com/app/3558600/?curator_clanid=30894603",
-      "review": "한글 패치 - 한무테",
+      "review": "한글 패치 - killterm\n한글 패치 - 한무테",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
       "appid": "4519130",
       "url": "https://store.steampowered.com/app/4519130/MOLDRISE/",
       "curator_url": "https://store.steampowered.com/app/4519130/?curator_clanid=30894603",
-      "review": "한글 패치 - 으잌",
+      "review": "한글 패치 - 으잌\n한글 패치 - B0614",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -279,9 +396,9 @@
       "appid": "4198660",
       "url": "https://store.steampowered.com/app/4198660/Demons_Timeline/",
       "curator_url": "https://store.steampowered.com/app/4198660/?curator_clanid=30894603",
-      "review": "한글 패치",
+      "review": "한글 패치\n한글 패치",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -1413,9 +1530,9 @@
       "appid": "4630570",
       "url": "https://store.steampowered.com/app/4630570/RUNNING_TRAIN/",
       "curator_url": "https://store.steampowered.com/app/4630570/?curator_clanid=30894603",
-      "review": "한글 패치 - 한무테",
+      "review": "한글 패치 - Pixel4a\n한글 패치 - 한무테",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -2556,9 +2673,9 @@
       "appid": "3834880",
       "url": "https://store.steampowered.com/app/3834880/Tales_of_Justice_Academy_Winds_Arise/",
       "curator_url": "https://store.steampowered.com/app/3834880/?curator_clanid=30894603",
-      "review": "유저 한글 패치 - 한무테",
+      "review": "한글 패치 - 타바노\n한글 패치 - 한무테",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -4194,9 +4311,9 @@
       "appid": "3942480",
       "url": "https://store.steampowered.com/app/3942480/The_NOexistenceN_of_Morphean_Paradox__The_Forest_of_Silver_Shallots/",
       "curator_url": "https://store.steampowered.com/app/3942480/?curator_clanid=30894603",
-      "review": "유저 한글 패치 - sus2040",
+      "review": "한글 패치 - Alune\n한글 패치 - sus2040",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -4275,7 +4392,7 @@
       "appid": "2646320",
       "url": "https://store.steampowered.com/app/2646320/WindStop_Strategy/",
       "curator_url": "https://store.steampowered.com/app/2646320/?curator_clanid=30894603",
-      "review": "유저 한글 패치 - 타바노\n유저 한글 패치 - Pixel4a\n유저 한글 패치 - koko",
+      "review": "한글 패치 - 타바노\n한글 패치 - Pixel4a\n한글 패치 - koko",
       "review_has_url": true,
       "review_url_count": 3,
       "type": "recommended"
@@ -5850,9 +5967,9 @@
       "appid": "1822060",
       "url": "https://store.steampowered.com/app/1822060/Those_Who_Rule/",
       "curator_url": "https://store.steampowered.com/app/1822060/?curator_clanid=30894603",
-      "review": "유저 한글 패치 - 레이슈",
+      "review": "한글 패치 - sonagi-psy\n한글 패치 - 레이슈",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -7134,15 +7251,6 @@
       "type": "recommended"
     },
     {
-      "appid": "3751730",
-      "url": "https://store.steampowered.com/app/3751730/Loan_Shark/",
-      "curator_url": "https://store.steampowered.com/app/3751730/?curator_clanid=30894603",
-      "review": "유저 한글 패치 - 으잌㉪",
-      "review_has_url": true,
-      "review_url_count": 1,
-      "type": "recommended"
-    },
-    {
       "appid": "914720",
       "url": "https://store.steampowered.com/app/914720/SHIKIYOKU_Teru_Yumemi_in_the_Nightmare/",
       "curator_url": "https://store.steampowered.com/app/914720/?curator_clanid=30894603",
@@ -7398,9 +7506,9 @@
       "appid": "571310",
       "url": "https://store.steampowered.com/app/571310/SteamWorld_Dig_2/",
       "curator_url": "https://store.steampowered.com/app/571310/?curator_clanid=30894603",
-      "review": "유저 한글 패치 - r35",
+      "review": "한글 패치 - 팀 WASD\n한글 패치 - r35",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -9334,15 +9442,6 @@
       "url": "https://store.steampowered.com/app/1184790/SCP_Fragmented_Minds/",
       "curator_url": "https://store.steampowered.com/app/1184790/?curator_clanid=30894603",
       "review": "유저 한글 패치 - 으잌",
-      "review_has_url": true,
-      "review_url_count": 1,
-      "type": "recommended"
-    },
-    {
-      "appid": "3667230",
-      "url": "https://store.steampowered.com/app/3667230/The_Deadseat/",
-      "curator_url": "https://store.steampowered.com/app/3667230/?curator_clanid=30894603",
-      "review": "유저 한글 패치 - 으잌㉪",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
