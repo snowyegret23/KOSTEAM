@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-08-05T22:08:32.345Z",
+    "generated_at": "2026-08-07T21:34:43.439Z",
     "total_with_steam_link": 3571,
-    "total_without_steam_link": 8,
+    "total_without_steam_link": 9,
     "sources": [
       "steamapp",
       "quasarzone",
@@ -87586,6 +87586,25 @@
       ],
       "source_site_urls": {
         "stove": "https://store.onstove.com/ko/games/102720"
+      },
+      "sources": [
+        "stove"
+      ]
+    },
+    {
+      "game_title": "애쉬 워든",
+      "patch_type": "official",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        ""
+      ],
+      "patch_sources": [
+        "stove"
+      ],
+      "source_site_urls": {
+        "stove": "https://store.onstove.com/ko/games/105255"
       },
       "sources": [
         "stove"
