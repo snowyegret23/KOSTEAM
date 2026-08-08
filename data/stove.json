@@ -3885,11 +3885,11 @@
     "stove_url": "https://store.onstove.com/ko/games/104954"
   },
   {
-    "app_id": null,
+    "app_id": "3913310",
     "stove_game_no": "15552",
     "stove_product_no": "105255",
     "game_title": "애쉬 워든",
-    "steam_link": "",
+    "steam_link": "https://store.steampowered.com/app/3913310",
     "patch_type": "official",
     "patch_links": [
       "exist"
