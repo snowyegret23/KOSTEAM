@@ -39247,6 +39247,27 @@
       "quasarplay": "https://store.steampowered.com/app/1336490/?curator_clanid=42788178"
     }
   },
+  "1336980": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "4603934c",
+      "12620cc7"
+    ],
+    "patch_descriptions": [
+      "제작자 : 소나기",
+      "제작자 : parsifal295"
+    ],
+    "patch_sources": [
+      "steamapp",
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jnz98k/nobunagas-ambition-awakening"
+    }
+  },
   "1337030": {
     "type": "official",
     "sources": [
@@ -53222,13 +53243,16 @@
     ],
     "links": [
       "14253f3b",
+      "9c8298de",
       "exist"
     ],
     "patch_descriptions": [
       "제작자 : 정보없음",
+      "제작자 : 휴리어벨",
       "한글 패치"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp",
       "quasarplay"
     ],
@@ -60109,14 +60133,17 @@
     "links": [
       "beb74a02",
       "bb3d5c72",
+      "93ec999b",
       "exist"
     ],
     "patch_descriptions": [
       "제작자 : 원더러",
       "제작자 : gusrud6151",
+      "제작자 : 루시퍼오오츠카",
       "유저 한글 패치 - 원더러\n유저 한글 패치 - 한무테"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp",
       "steamapp",
       "quasarplay"
@@ -73987,6 +74014,24 @@
       "quasarplay": "https://store.steampowered.com/app/3838290/?curator_clanid=30894603"
     }
   },
+  "3839710": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "e07bb7c8"
+    ],
+    "patch_descriptions": [
+      "제작자 : psm011482-crypto"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4e3yyx/winning-post-10-2026"
+    }
+  },
   "3841220": {
     "type": "user",
     "sources": [
@@ -74431,6 +74476,24 @@
     ],
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/jp5xrn/%E6%81%90%E6%80%96%E8%80%90%E6%80%A7%E8%A8%BA%E6%96%AD%E3%83%86%E3%82%B9%E3%83%88"
+    }
+  },
+  "3913310": {
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/105255"
     }
   },
   "3915140": {
@@ -75273,18 +75336,23 @@
   "4113050": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "9d48010c",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 으잌",
       "한글 패치 - 으잌\n한글 패치 - 팀 글냥이(Oatone, Nark), 여까"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j8reor/wabisabi-sushiderby",
       "quasarplay": "https://store.steampowered.com/app/4113050/?curator_clanid=30894603"
     }
   },
@@ -76311,18 +76379,23 @@
   "4483120": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "9a209c66",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 으잌",
       "한글 패치 - 으잌"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/l30wyr/tales-beyond-the-tomb-no-witnesses",
       "quasarplay": "https://store.steampowered.com/app/4483120/?curator_clanid=30894603"
     }
   },
@@ -76788,7 +76861,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-08-07T21:34:43.439Z",
-    "total": 3571
+    "generated_at": "2026-08-09T21:27:23.217Z",
+    "total": 3574
   }
 }

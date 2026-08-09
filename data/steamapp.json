@@ -20529,6 +20529,21 @@
     ]
   },
   {
+    "app_id": "1336980",
+    "game_title": "NOBUNAGA'S AMBITION: Awakening",
+    "steam_link": "https://store.steampowered.com/app/1336980",
+    "source_site_url": "https://hanpe.net/app/jnz98k/nobunagas-ambition-awakening",
+    "patch_type": "user",
+    "patch_links": [
+      "4603934c",
+      "12620cc7"
+    ],
+    "patch_descriptions": [
+      "제작자 : 소나기",
+      "제작자 : parsifal295"
+    ]
+  },
+  {
     "app_id": "1337030",
     "game_title": "En-Train",
     "steam_link": "https://store.steampowered.com/app/1337030",
@@ -25985,10 +26000,12 @@
     "source_site_url": "https://hanpe.net/app/l7onkp/%E9%A3%8E%E5%B8%86%E7%BA%AA%E5%85%83-sailing-era",
     "patch_type": "user",
     "patch_links": [
-      "14253f3b"
+      "14253f3b",
+      "9c8298de"
     ],
     "patch_descriptions": [
-      "제작자 : 정보없음"
+      "제작자 : 정보없음",
+      "제작자 : 휴리어벨"
     ]
   },
   {
@@ -28572,11 +28589,13 @@
     "patch_type": "user",
     "patch_links": [
       "beb74a02",
-      "bb3d5c72"
+      "bb3d5c72",
+      "93ec999b"
     ],
     "patch_descriptions": [
       "제작자 : 원더러",
-      "제작자 : gusrud6151"
+      "제작자 : gusrud6151",
+      "제작자 : 루시퍼오오츠카"
     ]
   },
   {
@@ -34029,6 +34048,19 @@
     ]
   },
   {
+    "app_id": "3839710",
+    "game_title": "Winning Post 10 2026",
+    "steam_link": "https://store.steampowered.com/app/3839710",
+    "source_site_url": "https://hanpe.net/app/4e3yyx/winning-post-10-2026",
+    "patch_type": "user",
+    "patch_links": [
+      "e07bb7c8"
+    ],
+    "patch_descriptions": [
+      "제작자 : psm011482-crypto"
+    ]
+  },
+  {
     "app_id": "3841220",
     "game_title": "Midnight Crane",
     "steam_link": "https://store.steampowered.com/app/3841220",
@@ -34511,6 +34543,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 정보없음"
+    ]
+  },
+  {
+    "app_id": "4113050",
+    "game_title": "Wabisabi SushiDerby",
+    "steam_link": "https://store.steampowered.com/app/4113050",
+    "source_site_url": "https://hanpe.net/app/j8reor/wabisabi-sushiderby",
+    "patch_type": "user",
+    "patch_links": [
+      "9d48010c"
+    ],
+    "patch_descriptions": [
+      "제작자 : 으잌"
     ]
   },
   {
@@ -35006,6 +35051,19 @@
     "patch_type": "user",
     "patch_links": [
       "57240983"
+    ],
+    "patch_descriptions": [
+      "제작자 : 으잌"
+    ]
+  },
+  {
+    "app_id": "4483120",
+    "game_title": "Tales Beyond The Tomb - No Witnesses",
+    "steam_link": "https://store.steampowered.com/app/4483120",
+    "source_site_url": "https://hanpe.net/app/l30wyr/tales-beyond-the-tomb-no-witnesses",
+    "patch_type": "user",
+    "patch_links": [
+      "9a209c66"
     ],
     "patch_descriptions": [
       "제작자 : 으잌"

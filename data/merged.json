@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-08-07T21:34:43.439Z",
-    "total_with_steam_link": 3571,
+    "generated_at": "2026-08-09T21:27:23.217Z",
+    "total_with_steam_link": 3574,
     "total_without_steam_link": 9,
     "sources": [
       "steamapp",
@@ -700,48 +700,6 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/4358380/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "4113050",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/4113050/Wabisabi_SushiDerby/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - 으잌\n한글 패치 - 팀 글냥이(Oatone, Nark), 여까"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/4113050/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "4483120",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/4483120/Tales_Beyond_The_Tomb__No_Witnesses/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - 으잌"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/4483120/?curator_clanid=30894603"
       },
       "sources": [
         "quasarplay"
@@ -51203,6 +51161,30 @@
       ]
     },
     {
+      "app_id": "1336980",
+      "game_title": "NOBUNAGA'S AMBITION: Awakening",
+      "steam_link": "https://store.steampowered.com/app/1336980",
+      "patch_type": "user",
+      "patch_links": [
+        "4603934c",
+        "12620cc7"
+      ],
+      "patch_descriptions": [
+        "제작자 : 소나기",
+        "제작자 : parsifal295"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jnz98k/nobunagas-ambition-awakening"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "363090",
       "game_title": "NOBUNAGA'S AMBITION: Kakushin with Power Up Kit",
       "steam_link": "https://store.steampowered.com/app/363090",
@@ -65203,6 +65185,32 @@
       ]
     },
     {
+      "app_id": "4483120",
+      "game_title": "Tales Beyond The Tomb - No Witnesses",
+      "steam_link": "https://store.steampowered.com/app/4483120",
+      "patch_type": "user",
+      "patch_links": [
+        "9a209c66",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 으잌",
+        "한글 패치 - 으잌"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l30wyr/tales-beyond-the-tomb-no-witnesses",
+        "quasarplay": "https://store.steampowered.com/app/4483120/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "330830",
       "game_title": "Tales from the Borderlands",
       "steam_link": "https://store.steampowered.com/app/330830",
@@ -71751,14 +71759,17 @@
       "patch_links": [
         "beb74a02",
         "bb3d5c72",
+        "93ec999b",
         "exist"
       ],
       "patch_descriptions": [
         "제작자 : 원더러",
         "제작자 : gusrud6151",
+        "제작자 : 루시퍼오오츠카",
         "유저 한글 패치 - 원더러\n유저 한글 패치 - 한무테"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "steamapp",
         "quasarplay"
@@ -74862,6 +74873,32 @@
       ]
     },
     {
+      "app_id": "4113050",
+      "game_title": "Wabisabi SushiDerby",
+      "steam_link": "https://store.steampowered.com/app/4113050",
+      "patch_type": "user",
+      "patch_links": [
+        "9d48010c",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 으잌",
+        "한글 패치 - 으잌\n한글 패치 - 팀 글냥이(Oatone, Nark), 여까"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j8reor/wabisabi-sushiderby",
+        "quasarplay": "https://store.steampowered.com/app/4113050/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "227200",
       "game_title": "Waking Mars",
       "steam_link": "https://store.steampowered.com/app/227200",
@@ -75939,6 +75976,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "3839710",
+      "game_title": "Winning Post 10 2026",
+      "steam_link": "https://store.steampowered.com/app/3839710",
+      "patch_type": "user",
+      "patch_links": [
+        "e07bb7c8"
+      ],
+      "patch_descriptions": [
+        "제작자 : psm011482-crypto"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4e3yyx/winning-post-10-2026"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -80217,6 +80275,27 @@
       ],
       "source_site_urls": {
         "stove": "https://store.onstove.com/ko/games/102178"
+      },
+      "sources": [
+        "stove"
+      ]
+    },
+    {
+      "app_id": "3913310",
+      "game_title": "애쉬 워든",
+      "steam_link": "https://store.steampowered.com/app/3913310",
+      "patch_type": "official",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        ""
+      ],
+      "patch_sources": [
+        "stove"
+      ],
+      "source_site_urls": {
+        "stove": "https://store.onstove.com/ko/games/105255"
       },
       "sources": [
         "stove"
@@ -87306,13 +87385,16 @@
       "patch_type": "user",
       "patch_links": [
         "14253f3b",
+        "9c8298de",
         "exist"
       ],
       "patch_descriptions": [
         "제작자 : 정보없음",
+        "제작자 : 휴리어벨",
         "한글 패치"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "quasarplay"
       ],
@@ -87516,6 +87598,25 @@
   ],
   "games_no_steam_link": [
     {
+      "game_title": "Under the Moonlight",
+      "patch_type": "official",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        ""
+      ],
+      "patch_sources": [
+        "stove"
+      ],
+      "source_site_urls": {
+        "stove": "https://store.onstove.com/ko/games/105373"
+      },
+      "sources": [
+        "stove"
+      ]
+    },
+    {
       "game_title": "다음은 너야 - 진실게임 (You are the next)",
       "patch_type": "official",
       "patch_links": [
@@ -87586,25 +87687,6 @@
       ],
       "source_site_urls": {
         "stove": "https://store.onstove.com/ko/games/102720"
-      },
-      "sources": [
-        "stove"
-      ]
-    },
-    {
-      "game_title": "애쉬 워든",
-      "patch_type": "official",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        ""
-      ],
-      "patch_sources": [
-        "stove"
-      ],
-      "source_site_urls": {
-        "stove": "https://store.onstove.com/ko/games/105255"
       },
       "sources": [
         "stove"
