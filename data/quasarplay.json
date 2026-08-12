@@ -3,7 +3,7 @@
   "curator_name": "Curator #42788178",
   "curator_url": "https://store.steampowered.com/curator/42788178/",
   "total_games": 1830,
-  "exported_at": "2026-08-09T21:26:48.461106",
+  "exported_at": "2026-08-12T21:39:54.330772",
   "games": [
     {
       "appid": "400170",
@@ -1233,7 +1233,7 @@
       "appid": "3572020",
       "url": "https://store.steampowered.com/app/3572020/KONKONKON/",
       "curator_url": "https://store.steampowered.com/app/3572020/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 으잌㉪",
+      "review": "한글 패치 - 으잌㉪",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -2025,9 +2025,9 @@
       "appid": "2634950",
       "url": "https://store.steampowered.com/app/2634950/Tokyo_Xtreme_Racer/",
       "curator_url": "https://store.steampowered.com/app/2634950/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 원더러\n유저 한글 패치 - 한무테",
+      "review": "한글 패치 - 루시퍼오오츠카\n한글 패치 - 원더러\n한글 패치 - 한무테",
       "review_has_url": true,
-      "review_url_count": 2,
+      "review_url_count": 3,
       "type": "recommended"
     },
     {
