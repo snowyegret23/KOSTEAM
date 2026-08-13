@@ -3915,11 +3915,11 @@
     "stove_url": "https://store.onstove.com/ko/games/105373"
   },
   {
-    "app_id": null,
+    "app_id": "585970",
     "stove_game_no": "14193",
     "stove_product_no": "104063",
     "game_title": "탱크 어썰트 X",
-    "steam_link": "",
+    "steam_link": "https://store.steampowered.com/app/585970",
     "patch_type": "official",
     "patch_links": [
       "exist"
