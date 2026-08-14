@@ -1135,6 +1135,19 @@
     ]
   },
   {
+    "app_id": "19900",
+    "game_title": "Far Cry® 2",
+    "steam_link": "https://store.steampowered.com/app/19900",
+    "source_site_url": "https://hanpe.net/app/4o2wzx/far-cry-2",
+    "patch_type": "user",
+    "patch_links": [
+      "7ba493cb"
+    ],
+    "patch_descriptions": [
+      "제작자 : 스키드로우"
+    ]
+  },
+  {
     "app_id": "20900",
     "game_title": "The Witcher: Enhanced Edition Director's Cut",
     "steam_link": "https://store.steampowered.com/app/20900",
@@ -20010,6 +20023,19 @@
     ]
   },
   {
+    "app_id": "1282410",
+    "game_title": "Hard West 2",
+    "steam_link": "https://store.steampowered.com/app/1282410",
+    "source_site_url": "https://hanpe.net/app/jvpq2o/hard-west-2",
+    "patch_type": "user",
+    "patch_links": [
+      "ee6f3121"
+    ],
+    "patch_descriptions": [
+      "제작자 : 정보없음"
+    ]
+  },
+  {
     "app_id": "1284210",
     "game_title": "Guild Wars 2®",
     "steam_link": "https://store.steampowered.com/app/1284210",
@@ -28589,12 +28615,10 @@
     "patch_type": "user",
     "patch_links": [
       "beb74a02",
-      "bb3d5c72",
       "93ec999b"
     ],
     "patch_descriptions": [
       "제작자 : 원더러",
-      "제작자 : gusrud6151",
       "제작자 : 루시퍼오오츠카"
     ]
   },
@@ -34552,10 +34576,12 @@
     "source_site_url": "https://hanpe.net/app/j8reor/wabisabi-sushiderby",
     "patch_type": "user",
     "patch_links": [
-      "9d48010c"
+      "9d48010c",
+      "d63ec1ff"
     ],
     "patch_descriptions": [
-      "제작자 : 으잌"
+      "제작자 : 으잌",
+      "패치 제작 및 번역: 팀 글냥이 (Oatone, Nark) Special Thanks: 여까"
     ]
   },
   {
@@ -34740,6 +34766,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 으잌"
+    ]
+  },
+  {
+    "app_id": "4198660",
+    "game_title": "Demons' Timeline",
+    "steam_link": "https://store.steampowered.com/app/4198660",
+    "source_site_url": "https://hanpe.net/app/jpv0zw/demons-timeline",
+    "patch_type": "user",
+    "patch_links": [
+      "ff1900e1"
+    ],
+    "patch_descriptions": [
+      "제작자 : Ailuru"
     ]
   },
   {
