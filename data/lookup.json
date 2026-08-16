@@ -30467,13 +30467,16 @@
     ],
     "links": [
       "8586399c",
+      "2f4a0c4c",
       "exist"
     ],
     "patch_descriptions": [
       "제작자 : 한무테",
+      "제작자 : 김까까",
       "한글 패치 - 김까까\n한글 패치 - 한무테"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp",
       "quasarplay"
     ],
@@ -44113,6 +44116,24 @@
       "quasarplay": "https://store.steampowered.com/app/1593230/?curator_clanid=30894603"
     }
   },
+  "1593310": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "d92d9401"
+    ],
+    "patch_descriptions": [
+      "제작자 : 덴댜"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j8zzwk/nekopara-catboys-paradise"
+    }
+  },
   "1596540": {
     "type": "user",
     "sources": [
@@ -55490,18 +55511,23 @@
   "2305640": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "85a7382e",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : killterm",
       "한글 패치 - kilterm"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/lx2pdp/bladesong",
       "quasarplay": "https://store.steampowered.com/app/2305640/?curator_clanid=30894603"
     }
   },
@@ -65330,18 +65356,23 @@
   "2980260": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "325b9743",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 으잌",
       "한글 패치 - 으잌"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4g5790/hypogea",
       "quasarplay": "https://store.steampowered.com/app/2980260/?curator_clanid=30894603"
     }
   },
@@ -73499,18 +73530,23 @@
   "3712080": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "dd4ee8d6",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 으잌",
       "한글 패치 - 으잌"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/l2y56e/funnel-runners",
       "quasarplay": "https://store.steampowered.com/app/3712080/?curator_clanid=30894603"
     }
   },
@@ -74520,18 +74556,23 @@
   "3860920": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "4169bff4",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 으잌",
       "한글 패치 - 으잌"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/l7r3rz/tales-beyond-the-tomb-route-86",
       "quasarplay": "https://store.steampowered.com/app/3860920/?curator_clanid=30894603"
     }
   },
@@ -75513,18 +75554,26 @@
   "4080030": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "c7251734",
+      "7070b09c",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자: killterm",
+      "제작자 : 왱알앵알 macOS 용 패치",
       "한글 패치 - 왱알앵알?, killterm"
     ],
     "patch_sources": [
+      "steamapp",
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/l2p2e5/the-message-from-deep-space",
       "quasarplay": "https://store.steampowered.com/app/4080030/?curator_clanid=30894603"
     }
   },
@@ -75964,18 +76013,23 @@
   "4186870": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "995e66a2",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 김까까",
       "한글 패치 - 김까까"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j8q9n0/besos-shawarma",
       "quasarplay": "https://store.steampowered.com/app/4186870/?curator_clanid=30894603"
     }
   },
@@ -77166,18 +77220,23 @@
   "4840880": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "a42fff5d",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 김까까",
       "한글 패치 - 김까까"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jmw3rd/eskinita",
       "quasarplay": "https://store.steampowered.com/app/4840880/?curator_clanid=30894603"
     }
   },
@@ -77200,7 +77259,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-08-14T21:20:58.769Z",
-    "total": 3592
+    "generated_at": "2026-08-16T21:15:40.286Z",
+    "total": 3593
   }
 }

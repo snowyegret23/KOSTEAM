@@ -16459,10 +16459,12 @@
     "source_site_url": "https://hanpe.net/app/41o8oq/dreadout-2",
     "patch_type": "user",
     "patch_links": [
-      "8586399c"
+      "8586399c",
+      "2f4a0c4c"
     ],
     "patch_descriptions": [
-      "제작자 : 한무테"
+      "제작자 : 한무테",
+      "제작자 : 김까까"
     ]
   },
   {
@@ -22474,6 +22476,19 @@
     ]
   },
   {
+    "app_id": "1593310",
+    "game_title": "NEKOPARA - Catboys Paradise",
+    "steam_link": "https://store.steampowered.com/app/1593310",
+    "source_site_url": "https://hanpe.net/app/j8zzwk/nekopara-catboys-paradise",
+    "patch_type": "user",
+    "patch_links": [
+      "d92d9401"
+    ],
+    "patch_descriptions": [
+      "제작자 : 덴댜"
+    ]
+  },
+  {
     "app_id": "1596540",
     "game_title": "TAISHO x ALICE epilogue",
     "steam_link": "https://store.steampowered.com/app/1596540",
@@ -26826,6 +26841,19 @@
     ]
   },
   {
+    "app_id": "2305640",
+    "game_title": "Bladesong",
+    "steam_link": "https://store.steampowered.com/app/2305640",
+    "source_site_url": "https://hanpe.net/app/lx2pdp/bladesong",
+    "patch_type": "user",
+    "patch_links": [
+      "85a7382e"
+    ],
+    "patch_descriptions": [
+      "제작자 : killterm"
+    ]
+  },
+  {
     "app_id": "2307350",
     "game_title": "Into the Radius 2",
     "steam_link": "https://store.steampowered.com/app/2307350",
@@ -30596,6 +30624,19 @@
     ]
   },
   {
+    "app_id": "2980260",
+    "game_title": "Hypogea",
+    "steam_link": "https://store.steampowered.com/app/2980260",
+    "source_site_url": "https://hanpe.net/app/4g5790/hypogea",
+    "patch_type": "user",
+    "patch_links": [
+      "325b9743"
+    ],
+    "patch_descriptions": [
+      "제작자 : 으잌"
+    ]
+  },
+  {
     "app_id": "2981070",
     "game_title": "Arcane Trigger",
     "steam_link": "https://store.steampowered.com/app/2981070",
@@ -33745,6 +33786,19 @@
     ]
   },
   {
+    "app_id": "3712080",
+    "game_title": "Funnel Runners",
+    "steam_link": "https://store.steampowered.com/app/3712080",
+    "source_site_url": "https://hanpe.net/app/l2y56e/funnel-runners",
+    "patch_type": "user",
+    "patch_links": [
+      "dd4ee8d6"
+    ],
+    "patch_descriptions": [
+      "제작자 : 으잌"
+    ]
+  },
+  {
     "app_id": "3716850",
     "game_title": "Dead Tapes: Fading Father",
     "steam_link": "https://store.steampowered.com/app/3716850",
@@ -34150,6 +34204,19 @@
     ]
   },
   {
+    "app_id": "3860920",
+    "game_title": "Tales Beyond The Tomb - Route 86",
+    "steam_link": "https://store.steampowered.com/app/3860920",
+    "source_site_url": "https://hanpe.net/app/l7r3rz/tales-beyond-the-tomb-route-86",
+    "patch_type": "user",
+    "patch_links": [
+      "4169bff4"
+    ],
+    "patch_descriptions": [
+      "제작자 : 으잌"
+    ]
+  },
+  {
     "app_id": "3864530",
     "game_title": "炽澜号",
     "steam_link": "https://store.steampowered.com/app/3864530",
@@ -34505,6 +34572,21 @@
     ]
   },
   {
+    "app_id": "4080030",
+    "game_title": "The Message from Deep Space",
+    "steam_link": "https://store.steampowered.com/app/4080030",
+    "source_site_url": "https://hanpe.net/app/l2p2e5/the-message-from-deep-space",
+    "patch_type": "user",
+    "patch_links": [
+      "c7251734",
+      "7070b09c"
+    ],
+    "patch_descriptions": [
+      "제작자: killterm",
+      "제작자 : 왱알앵알 macOS 용 패치"
+    ]
+  },
+  {
     "app_id": "4093240",
     "game_title": "Tokyo Valkyries",
     "steam_link": "https://store.steampowered.com/app/4093240",
@@ -34727,6 +34809,19 @@
     ],
     "patch_descriptions": [
       "(공식 한글 개선 패치) 제작자 : 미인이많군요"
+    ]
+  },
+  {
+    "app_id": "4186870",
+    "game_title": "Beso's Shawarma",
+    "steam_link": "https://store.steampowered.com/app/4186870",
+    "source_site_url": "https://hanpe.net/app/j8q9n0/besos-shawarma",
+    "patch_type": "user",
+    "patch_links": [
+      "995e66a2"
+    ],
+    "patch_descriptions": [
+      "제작자 : 김까까"
     ]
   },
   {
@@ -35285,6 +35380,19 @@
     "patch_type": "user",
     "patch_links": [
       "72d4e120"
+    ],
+    "patch_descriptions": [
+      "제작자 : 김까까"
+    ]
+  },
+  {
+    "app_id": "4840880",
+    "game_title": "ESKINITA",
+    "steam_link": "https://store.steampowered.com/app/4840880",
+    "source_site_url": "https://hanpe.net/app/jmw3rd/eskinita",
+    "patch_type": "user",
+    "patch_links": [
+      "a42fff5d"
     ],
     "patch_descriptions": [
       "제작자 : 김까까"

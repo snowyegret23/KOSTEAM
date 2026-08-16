@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-08-14T21:20:58.769Z",
-    "total_with_steam_link": 3592,
+    "generated_at": "2026-08-16T21:15:40.286Z",
+    "total_with_steam_link": 3593,
     "total_without_steam_link": 9,
     "sources": [
       "steamapp",
@@ -622,27 +622,6 @@
       ]
     },
     {
-      "app_id": "2305640",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/2305640/Bladesong/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - kilterm"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/2305640/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
       "app_id": "351700",
       "game_title": "",
       "steam_link": "https://store.steampowered.com/app/351700/UnReal_World/",
@@ -658,27 +637,6 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/351700/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "4080030",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/4080030/The_Message_from_Deep_Space/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - 왱알앵알?, killterm"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/4080030/?curator_clanid=30894603"
       },
       "sources": [
         "quasarplay"
@@ -895,27 +853,6 @@
       ]
     },
     {
-      "app_id": "3712080",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/3712080/Funnel_Runners/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - 으잌"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/3712080/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
       "app_id": "3590290",
       "game_title": "",
       "steam_link": "https://store.steampowered.com/app/3590290/DIVE_or_DIE__Children_of_Rain/",
@@ -1015,69 +952,6 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/4358380/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "2980260",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/2980260/Hypogea/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - 으잌"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/2980260/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "3860920",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/3860920/Tales_Beyond_The_Tomb__Route_86/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - 으잌"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/3860920/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "4840880",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/4840880/ESKINITA/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - 김까까"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/4840880/?curator_clanid=30894603"
       },
       "sources": [
         "quasarplay"
@@ -1246,27 +1120,6 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/4716540/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "4186870",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/4186870/Besos_Shawarma/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - 김까까"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/4186870/?curator_clanid=30894603"
       },
       "sources": [
         "quasarplay"
@@ -5937,7 +5790,7 @@
     {
       "app_id": "3724310",
       "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/3724310/Playtown_3/",
+      "steam_link": "https://store.steampowered.com/app/3724310/PLAYTOWN_Chapter_3/",
       "patch_type": "user",
       "patch_links": [
         "exist"
@@ -23323,6 +23176,32 @@
       ]
     },
     {
+      "app_id": "4186870",
+      "game_title": "Beso's Shawarma",
+      "steam_link": "https://store.steampowered.com/app/4186870",
+      "patch_type": "user",
+      "patch_links": [
+        "995e66a2",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 김까까",
+        "한글 패치 - 김까까"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j8q9n0/besos-shawarma",
+        "quasarplay": "https://store.steampowered.com/app/4186870/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "3371240",
       "game_title": "Beyond Citadel",
       "steam_link": "https://store.steampowered.com/app/3371240",
@@ -24112,6 +23991,32 @@
       },
       "sources": [
         "steamapp"
+      ]
+    },
+    {
+      "app_id": "2305640",
+      "game_title": "Bladesong",
+      "steam_link": "https://store.steampowered.com/app/2305640",
+      "patch_type": "user",
+      "patch_links": [
+        "85a7382e",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : killterm",
+        "한글 패치 - kilterm"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/lx2pdp/bladesong",
+        "quasarplay": "https://store.steampowered.com/app/2305640/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
       ]
     },
     {
@@ -32210,13 +32115,16 @@
       "patch_type": "user",
       "patch_links": [
         "8586399c",
+        "2f4a0c4c",
         "exist"
       ],
       "patch_descriptions": [
         "제작자 : 한무테",
+        "제작자 : 김까까",
         "한글 패치 - 김까까\n한글 패치 - 한무테"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "quasarplay"
       ],
@@ -33889,6 +33797,32 @@
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/jnm2z6/eryis-action",
         "quasarplay": "https://store.steampowered.com/app/261700/?curator_clanid=42788178"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "4840880",
+      "game_title": "ESKINITA",
+      "steam_link": "https://store.steampowered.com/app/4840880",
+      "patch_type": "user",
+      "patch_links": [
+        "a42fff5d",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 김까까",
+        "한글 패치 - 김까까"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jmw3rd/eskinita",
+        "quasarplay": "https://store.steampowered.com/app/4840880/?curator_clanid=30894603"
       },
       "sources": [
         "steamapp",
@@ -36896,6 +36830,32 @@
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/jmemx9/fumes",
         "quasarplay": "https://store.steampowered.com/app/1920430/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "3712080",
+      "game_title": "Funnel Runners",
+      "steam_link": "https://store.steampowered.com/app/3712080",
+      "patch_type": "user",
+      "patch_links": [
+        "dd4ee8d6",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 으잌",
+        "한글 패치 - 으잌"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l2y56e/funnel-runners",
+        "quasarplay": "https://store.steampowered.com/app/3712080/?curator_clanid=30894603"
       },
       "sources": [
         "steamapp",
@@ -41421,6 +41381,32 @@
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/l32y20/hyperspaced",
         "quasarplay": "https://store.steampowered.com/app/1125830/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2980260",
+      "game_title": "Hypogea",
+      "steam_link": "https://store.steampowered.com/app/2980260",
+      "patch_type": "user",
+      "patch_links": [
+        "325b9743",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 으잌",
+        "한글 패치 - 으잌"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4g5790/hypogea",
+        "quasarplay": "https://store.steampowered.com/app/2980260/?curator_clanid=30894603"
       },
       "sources": [
         "steamapp",
@@ -50752,6 +50738,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "1593310",
+      "game_title": "NEKOPARA - Catboys Paradise",
+      "steam_link": "https://store.steampowered.com/app/1593310",
+      "patch_type": "user",
+      "patch_links": [
+        "d92d9401"
+      ],
+      "patch_descriptions": [
+        "제작자 : 덴댜"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j8zzwk/nekopara-catboys-paradise"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -65583,6 +65590,32 @@
       ]
     },
     {
+      "app_id": "3860920",
+      "game_title": "Tales Beyond The Tomb - Route 86",
+      "steam_link": "https://store.steampowered.com/app/3860920",
+      "patch_type": "user",
+      "patch_links": [
+        "4169bff4",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 으잌",
+        "한글 패치 - 으잌"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l7r3rz/tales-beyond-the-tomb-route-86",
+        "quasarplay": "https://store.steampowered.com/app/3860920/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "330830",
       "game_title": "Tales from the Borderlands",
       "steam_link": "https://store.steampowered.com/app/330830",
@@ -69337,6 +69370,35 @@
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/jm9xqn/the-medium",
         "quasarplay": "https://store.steampowered.com/app/1293160/?curator_clanid=42788178"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "4080030",
+      "game_title": "The Message from Deep Space",
+      "steam_link": "https://store.steampowered.com/app/4080030",
+      "patch_type": "user",
+      "patch_links": [
+        "c7251734",
+        "7070b09c",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자: killterm",
+        "제작자 : 왱알앵알 macOS 용 패치",
+        "한글 패치 - 왱알앵알?, killterm"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l2p2e5/the-message-from-deep-space",
+        "quasarplay": "https://store.steampowered.com/app/4080030/?curator_clanid=30894603"
       },
       "sources": [
         "steamapp",
