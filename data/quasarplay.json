@@ -2,8 +2,8 @@
   "curator_id": 42788178,
   "curator_name": "Curator #42788178",
   "curator_url": "https://store.steampowered.com/curator/42788178/",
-  "total_games": 1830,
-  "exported_at": "2026-08-16T21:15:04.806483",
+  "total_games": 1827,
+  "exported_at": "2026-08-19T21:20:33.489026",
   "games": [
     {
       "appid": "400170",
@@ -1207,24 +1207,6 @@
       "url": "https://store.steampowered.com/app/3293800/Fiora/",
       "curator_url": "https://store.steampowered.com/app/3293800/?curator_clanid=42788178",
       "review": "유저 한글 패치 - 한무테",
-      "review_has_url": true,
-      "review_url_count": 1,
-      "type": "recommended"
-    },
-    {
-      "appid": "2922740",
-      "url": "https://store.steampowered.com/app/2922740/DogDogDog/",
-      "curator_url": "https://store.steampowered.com/app/2922740/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 으잌㉪",
-      "review_has_url": true,
-      "review_url_count": 1,
-      "type": "recommended"
-    },
-    {
-      "appid": "3187770",
-      "url": "https://store.steampowered.com/app/3187770/NAGAISAN/",
-      "curator_url": "https://store.steampowered.com/app/3187770/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 으잌㉪",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -4869,9 +4851,9 @@
       "appid": "1771070",
       "url": "https://store.steampowered.com/app/1771070/Midnight_Scenes_The_Nanny/",
       "curator_url": "https://store.steampowered.com/app/1771070/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 손셩 님",
+      "review": "한글 패치 - 으잌\n한글 패치 - 손셩",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -6757,7 +6739,7 @@
     },
     {
       "appid": "1591490",
-      "url": "https://store.steampowered.com/app/1591490/Distant_Memorao/",
+      "url": "https://store.steampowered.com/app/1591490/Distant_Memorajo/",
       "curator_url": "https://store.steampowered.com/app/1591490/?curator_clanid=42788178",
       "review": "유저 한국어 패치 - 팀 KS",
       "review_has_url": true,
@@ -7125,15 +7107,6 @@
       "type": "recommended"
     },
     {
-      "appid": "695330",
-      "url": "https://store.steampowered.com/app/695330/SEASON_A_letter_to_the_future/",
-      "curator_url": "https://store.steampowered.com/app/695330/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 - 구미호뎐 님",
-      "review_has_url": true,
-      "review_url_count": 1,
-      "type": "recommended"
-    },
-    {
       "appid": "1296830",
       "url": "https://store.steampowered.com/app/1296830/_Warm_Snow/",
       "curator_url": "https://store.steampowered.com/app/1296830/?curator_clanid=42788178",
@@ -7387,7 +7360,7 @@
     },
     {
       "appid": "1689910",
-      "url": "https://store.steampowered.com/app/1689910/Dkysei_Bangin_Summer/",
+      "url": "https://store.steampowered.com/app/1689910/Dokyusei_Bangin_Summer/",
       "curator_url": "https://store.steampowered.com/app/1689910/?curator_clanid=42788178",
       "review": "유저 한국어 패치 - 총 괄: 대보로이드, 말붕어, 용자왕국, NOIRE 외 다수",
       "review_has_url": true,
@@ -12859,7 +12832,7 @@
     },
     {
       "appid": "260230",
-      "url": "https://store.steampowered.com/app/260230/Valiant_Hearts_The_Great_War__Soldats_Inconnus__Mmoires_de_la_Grande_Guerre/",
+      "url": "https://store.steampowered.com/app/260230/Valiant_Hearts_The_Great_War__Soldats_Inconnus__Memoires_de_la_Grande_Guerre/",
       "curator_url": "https://store.steampowered.com/app/260230/?curator_clanid=42788178",
       "review": "유저 한국어 패치 - 팀 한글화의 궤적",
       "review_has_url": true,

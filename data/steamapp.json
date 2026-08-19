@@ -78,6 +78,19 @@
     ]
   },
   {
+    "app_id": "1510",
+    "game_title": "Uplink",
+    "steam_link": "https://store.steampowered.com/app/1510",
+    "source_site_url": "https://hanpe.net/app/4121wv/uplink",
+    "patch_type": "user",
+    "patch_links": [
+      "5afc2406"
+    ],
+    "patch_descriptions": [
+      "제작자 : weller703 Uplink OS 전용 모드 한글패치"
+    ]
+  },
+  {
     "app_id": "1690",
     "game_title": "Space Empires V",
     "steam_link": "https://store.steampowered.com/app/1690",
@@ -2300,6 +2313,19 @@
     "patch_descriptions": [
       "제작자 : 정보없음",
       "백"
+    ]
+  },
+  {
+    "app_id": "55100",
+    "game_title": "Homefront",
+    "steam_link": "https://store.steampowered.com/app/55100",
+    "source_site_url": "https://hanpe.net/app/jv62q9/homefront",
+    "patch_type": "user",
+    "patch_links": [
+      "72b93b11"
+    ],
+    "patch_descriptions": [
+      "제작자 : KOZAK"
     ]
   },
   {
@@ -9668,6 +9694,19 @@
     ]
   },
   {
+    "app_id": "403120",
+    "game_title": "THE GAME OF LIFE",
+    "steam_link": "https://store.steampowered.com/app/403120",
+    "source_site_url": "https://hanpe.net/app/j5q9rr/the-game-of-life",
+    "patch_type": "user",
+    "patch_links": [
+      "4de5c8ba"
+    ],
+    "patch_descriptions": [
+      "제작자 : 잇몸4"
+    ]
+  },
+  {
     "app_id": "403190",
     "game_title": "Planetbase",
     "steam_link": "https://store.steampowered.com/app/403190",
@@ -10337,6 +10376,19 @@
     ],
     "patch_descriptions": [
       "한글 패치 제작 : LSW 번역, 검수 : Blue Fox"
+    ]
+  },
+  {
+    "app_id": "435100",
+    "game_title": "2Dark",
+    "steam_link": "https://store.steampowered.com/app/435100",
+    "source_site_url": "https://hanpe.net/app/468202/2dark",
+    "patch_type": "user",
+    "patch_links": [
+      "04cff1a9"
+    ],
+    "patch_descriptions": [
+      "제작자 : 정보없음"
     ]
   },
   {
@@ -13980,6 +14032,19 @@
     ]
   },
   {
+    "app_id": "666150",
+    "game_title": "Prehistoric Kingdom",
+    "steam_link": "https://store.steampowered.com/app/666150",
+    "source_site_url": "https://hanpe.net/app/lz0ezo/prehistoric-kingdom",
+    "patch_type": "user",
+    "patch_links": [
+      "19e26557"
+    ],
+    "patch_descriptions": [
+      "제작자 : SummerSpring"
+    ]
+  },
+  {
     "app_id": "667720",
     "game_title": "Red Faction Guerrilla Re-Mars-tered",
     "steam_link": "https://store.steampowered.com/app/667720",
@@ -15064,6 +15129,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 우육친구"
+    ]
+  },
+  {
+    "app_id": "795420",
+    "game_title": "The Darkside Detective: A Fumble in the Dark",
+    "steam_link": "https://store.steampowered.com/app/795420",
+    "source_site_url": "https://hanpe.net/app/lx1zon/the-darkside-detective-a-fumble-in-the-dark",
+    "patch_type": "user",
+    "patch_links": [
+      "b87d2fd5"
+    ],
+    "patch_descriptions": [
+      "제작: 한국어 패치 저장소"
     ]
   },
   {
@@ -16459,11 +16537,9 @@
     "source_site_url": "https://hanpe.net/app/41o8oq/dreadout-2",
     "patch_type": "user",
     "patch_links": [
-      "8586399c",
       "2f4a0c4c"
     ],
     "patch_descriptions": [
-      "제작자 : 한무테",
       "제작자 : 김까까"
     ]
   },
@@ -21684,6 +21760,19 @@
     ]
   },
   {
+    "app_id": "1499120",
+    "game_title": "I Expect You To Die 2: The Spy and the Liar",
+    "steam_link": "https://store.steampowered.com/app/1499120",
+    "source_site_url": "https://hanpe.net/app/4yy3v6/i-expect-you-to-die-2-the-spy-and-the-liar",
+    "patch_type": "user",
+    "patch_links": [
+      "c776ac1b"
+    ],
+    "patch_descriptions": [
+      "제작자 : Pio"
+    ]
+  },
+  {
     "app_id": "1502970",
     "game_title": "Atelier Sophie: The Alchemist of the Mysterious Book DX",
     "steam_link": "https://store.steampowered.com/app/1502970",
@@ -22476,6 +22565,19 @@
     ]
   },
   {
+    "app_id": "1592110",
+    "game_title": "Spirit of the Island",
+    "steam_link": "https://store.steampowered.com/app/1592110",
+    "source_site_url": "https://hanpe.net/app/jwvydk/spirit-of-the-island",
+    "patch_type": "user",
+    "patch_links": [
+      "b2bc95fa"
+    ],
+    "patch_descriptions": [
+      "제작자 : yeshjho"
+    ]
+  },
+  {
     "app_id": "1593310",
     "game_title": "NEKOPARA - Catboys Paradise",
     "steam_link": "https://store.steampowered.com/app/1593310",
@@ -22538,6 +22640,19 @@
     ],
     "patch_descriptions": [
       "제작자 : Eaubita"
+    ]
+  },
+  {
+    "app_id": "1599020",
+    "game_title": "Tinykin",
+    "steam_link": "https://store.steampowered.com/app/1599020",
+    "source_site_url": "https://hanpe.net/app/jnp8e6/tinykin",
+    "patch_type": "user",
+    "patch_links": [
+      "4ef7c524"
+    ],
+    "patch_descriptions": [
+      "제작자 : 한국어 패치 저장소"
     ]
   },
   {
@@ -24501,6 +24616,19 @@
     ]
   },
   {
+    "app_id": "1901620",
+    "game_title": "Dungeon Travelers: To Heart 2 in Another World",
+    "steam_link": "https://store.steampowered.com/app/1901620",
+    "source_site_url": "https://hanpe.net/app/4r55vo/dungeon-travelers-to-heart-2-in-another-world",
+    "patch_type": "user",
+    "patch_links": [
+      "58363c09"
+    ],
+    "patch_descriptions": [
+      "제작자 : Jougasaki"
+    ]
+  },
+  {
     "app_id": "1902940",
     "game_title": "Snacktorio",
     "steam_link": "https://store.steampowered.com/app/1902940",
@@ -25377,10 +25505,12 @@
     "source_site_url": "https://hanpe.net/app/j0e626/esoteric-ebb",
     "patch_type": "user",
     "patch_links": [
-      "35a9b219"
+      "35a9b219",
+      "f6815468"
     ],
     "patch_descriptions": [
-      "제작자 : ozt88"
+      "제작자 : ozt88",
+      "제작자 : aabb0423"
     ]
   },
   {
@@ -26041,12 +26171,14 @@
     "source_site_url": "https://hanpe.net/app/l7onkp/%E9%A3%8E%E5%B8%86%E7%BA%AA%E5%85%83-sailing-era",
     "patch_type": "user",
     "patch_links": [
-      "14253f3b",
-      "9c8298de"
+      "c3ee8770",
+      "9c8298de",
+      "b8092b51"
     ],
     "patch_descriptions": [
       "제작자 : 정보없음",
-      "제작자 : 휴리어벨"
+      "제작자 : 휴리어벨",
+      "기반 개선패치"
     ]
   },
   {
@@ -27664,6 +27796,19 @@
     ],
     "patch_descriptions": [
       "제작자 : killterm"
+    ]
+  },
+  {
+    "app_id": "2450450",
+    "game_title": "MEGATON MUSASHI W: WIRED",
+    "steam_link": "https://store.steampowered.com/app/2450450",
+    "source_site_url": "https://hanpe.net/app/jnnney/megaton-musashi-w-wired",
+    "patch_type": "user",
+    "patch_links": [
+      "2e7f00f8"
+    ],
+    "patch_descriptions": [
+      "제작자 : 레트로겜보이"
     ]
   },
   {
@@ -32559,9 +32704,11 @@
     "source_site_url": "https://hanpe.net/app/4q062d/%E5%B0%91%E5%A5%B3%E5%9C%B0%E7%8D%84%E3%82%AB%E3%83%AB%E3%83%87%E3%82%A2galaxy-express-chaldea",
     "patch_type": "user",
     "patch_links": [
+      "18872065",
       "18872065"
     ],
     "patch_descriptions": [
+      "제작자 : 에스티",
       "제작자 : 에스티"
     ]
   },
@@ -32875,6 +33022,19 @@
     ]
   },
   {
+    "app_id": "3416690",
+    "game_title": "Tales Beyond The Tomb - The Last Vigil",
+    "steam_link": "https://store.steampowered.com/app/3416690",
+    "source_site_url": "https://hanpe.net/app/419p3m/tales-beyond-the-tomb-the-last-vigil",
+    "patch_type": "user",
+    "patch_links": [
+      "407faf54"
+    ],
+    "patch_descriptions": [
+      "제작자 : 으잌"
+    ]
+  },
+  {
     "app_id": "3419520",
     "game_title": "Quarantine Zone: The Last Check",
     "steam_link": "https://store.steampowered.com/app/3419520",
@@ -33175,10 +33335,12 @@
     "source_site_url": "https://hanpe.net/app/jmvmr9/abyss-kitchen",
     "patch_type": "user",
     "patch_links": [
-      "e7004865"
+      "e7004865",
+      "25ac68c1"
     ],
     "patch_descriptions": [
-      "데모판 한글화 제작자 : Pixel4a"
+      "데모판 한글화 제작자 : Pixel4a",
+      "제작자 : Pixel4a"
     ]
   },
   {
@@ -33472,6 +33634,21 @@
     ]
   },
   {
+    "app_id": "3590290",
+    "game_title": "DIVE or DIE - Children of Rain",
+    "steam_link": "https://store.steampowered.com/app/3590290",
+    "source_site_url": "https://hanpe.net/app/l7nz3e/dive-or-die-children-of-rain",
+    "patch_type": "user",
+    "patch_links": [
+      "2ce54b3a",
+      "87e42c59"
+    ],
+    "patch_descriptions": [
+      "제작자 : 정보없음",
+      "제작자 : SummerSpring"
+    ]
+  },
+  {
     "app_id": "3603100",
     "game_title": "Lost Luminosity",
     "steam_link": "https://store.steampowered.com/app/3603100",
@@ -33643,6 +33820,19 @@
     ]
   },
   {
+    "app_id": "3655960",
+    "game_title": "Tales Beyond The Tomb - White Silence",
+    "steam_link": "https://store.steampowered.com/app/3655960",
+    "source_site_url": "https://hanpe.net/app/lkoxw8/tales-beyond-the-tomb-white-silence",
+    "patch_type": "user",
+    "patch_links": [
+      "eaf9e359"
+    ],
+    "patch_descriptions": [
+      "제작자 : 으잌"
+    ]
+  },
+  {
     "app_id": "3657210",
     "game_title": "Amanda the Adventurer 3",
     "steam_link": "https://store.steampowered.com/app/3657210",
@@ -33809,6 +33999,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 막셋"
+    ]
+  },
+  {
+    "app_id": "3722330",
+    "game_title": "Shift At Midnight",
+    "steam_link": "https://store.steampowered.com/app/3722330",
+    "source_site_url": "https://hanpe.net/app/l28d5e/shift-at-midnight",
+    "patch_type": "user",
+    "patch_links": [
+      "21d13296"
+    ],
+    "patch_descriptions": [
+      "번역 팀 이름: 또 다혜영. 파일 작업 : hamret(까치) 번역 작업 : hamret(까치) 번역 도움 : 서하, 조이"
     ]
   },
   {
@@ -34725,12 +34928,12 @@
     "game_title": "eBaseball™: PRO SPIRIT",
     "steam_link": "https://store.steampowered.com/app/4128400",
     "source_site_url": "https://hanpe.net/app/4qkk3o/ebaseballtm-pro-spirit",
-    "patch_type": "official",
+    "patch_type": "user",
     "patch_links": [
-      "4306f8c4"
+      "805a251e"
     ],
     "patch_descriptions": [
-      "실제로는 공식 한글화"
+      "공식 한글 개선 패치 제작자 : 언제종강하냐"
     ]
   },
   {
@@ -34792,9 +34995,11 @@
     "source_site_url": "https://hanpe.net/app/j8oe2r/remnants-of-a-scare",
     "patch_type": "user",
     "patch_links": [
+      "e0b141f9",
       "e0b141f9"
     ],
     "patch_descriptions": [
+      "데모판 한글화 제작자 : WHALE59",
       "데모판 한글화 제작자 : WHALE59"
     ]
   },
@@ -35279,6 +35484,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 김까까"
+    ]
+  },
+  {
+    "app_id": "4519130",
+    "game_title": "MOLDRISE",
+    "steam_link": "https://store.steampowered.com/app/4519130",
+    "source_site_url": "https://hanpe.net/app/lzg7no/moldrise",
+    "patch_type": "user",
+    "patch_links": [
+      "be4e9ec2"
+    ],
+    "patch_descriptions": [
+      "제작자 : 으잌"
     ]
   },
   {
