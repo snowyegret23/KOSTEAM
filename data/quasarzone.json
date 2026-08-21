@@ -2,9 +2,126 @@
   "curator_id": 30894603,
   "curator_name": "Curator #30894603",
   "curator_url": "https://store.steampowered.com/curator/30894603/",
-  "total_games": 1106,
-  "exported_at": "2026-08-19T21:20:49.835023",
+  "total_games": 1118,
+  "exported_at": "2026-08-21T21:19:06.980379",
   "games": [
+    {
+      "appid": "4164790",
+      "url": "https://store.steampowered.com/app/4164790/Survival_Log/",
+      "curator_url": "https://store.steampowered.com/app/4164790/?curator_clanid=30894603",
+      "review": "한글 패치 - B0614",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "2485750",
+      "url": "https://store.steampowered.com/app/2485750/Midnight_Scenes_A_Safe_Place/",
+      "curator_url": "https://store.steampowered.com/app/2485750/?curator_clanid=30894603",
+      "review": "한글 패치 - 으잌\n한글 패치 - 손셩",
+      "review_has_url": true,
+      "review_url_count": 2,
+      "type": "recommended"
+    },
+    {
+      "appid": "4113480",
+      "url": "https://store.steampowered.com/app/4113480/Midnight_Scenes_Among_Graves/",
+      "curator_url": "https://store.steampowered.com/app/4113480/?curator_clanid=30894603",
+      "review": "한글 패치 - 으잌",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "2396240",
+      "url": "https://store.steampowered.com/app/2396240/SteamWorld_Heist_II/",
+      "curator_url": "https://store.steampowered.com/app/2396240/?curator_clanid=30894603",
+      "review": "한글 패치 - 엘",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "287630",
+      "url": "https://store.steampowered.com/app/287630/The_Council/",
+      "curator_url": "https://store.steampowered.com/app/287630/?curator_clanid=30894603",
+      "review": "한글 패치 - 엘",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "1320140",
+      "url": "https://store.steampowered.com/app/1320140/Small_Saga/",
+      "curator_url": "https://store.steampowered.com/app/1320140/?curator_clanid=30894603",
+      "review": "한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "3940340",
+      "url": "https://store.steampowered.com/app/3940340/Entropy/",
+      "curator_url": "https://store.steampowered.com/app/3940340/?curator_clanid=30894603",
+      "review": "한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "1575990",
+      "url": "https://store.steampowered.com/app/1575990/Twisted_Tower/",
+      "curator_url": "https://store.steampowered.com/app/1575990/?curator_clanid=30894603",
+      "review": "한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "1592110",
+      "url": "https://store.steampowered.com/app/1592110/Spirit_of_the_Island/",
+      "curator_url": "https://store.steampowered.com/app/1592110/?curator_clanid=30894603",
+      "review": "한글 패치 - yeshjho",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "403120",
+      "url": "https://store.steampowered.com/app/403120/THE_GAME_OF_LIFE/",
+      "curator_url": "https://store.steampowered.com/app/403120/?curator_clanid=30894603",
+      "review": "한글 패치 - 잇몸4",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "4128400",
+      "url": "https://store.steampowered.com/app/4128400/eBaseball_PRO_SPIRIT/",
+      "curator_url": "https://store.steampowered.com/app/4128400/?curator_clanid=30894603",
+      "review": "한글 개선 패치 - 언제종강하냐",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "666150",
+      "url": "https://store.steampowered.com/app/666150/Prehistoric_Kingdom/",
+      "curator_url": "https://store.steampowered.com/app/666150/?curator_clanid=30894603",
+      "review": "한글 패치 - SummerSpring",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "2450450",
+      "url": "https://store.steampowered.com/app/2450450/MEGATON_MUSASHI_W_WIRED/",
+      "curator_url": "https://store.steampowered.com/app/2450450/?curator_clanid=30894603",
+      "review": "한글 패치 - 레트로겜보이",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
     {
       "appid": "3488970",
       "url": "https://store.steampowered.com/app/3488970/_/",
@@ -621,9 +738,9 @@
       "appid": "1499120",
       "url": "https://store.steampowered.com/app/1499120/I_Expect_You_To_Die_2_The_Spy_and_the_Liar/",
       "curator_url": "https://store.steampowered.com/app/1499120/?curator_clanid=30894603",
-      "review": "한글 패치 - 땡땡양",
+      "review": "한글 패치 - pio\n한글 패치 - 땡땡양",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -900,9 +1017,9 @@
       "appid": "3590290",
       "url": "https://store.steampowered.com/app/3590290/DIVE_or_DIE__Children_of_Rain/",
       "curator_url": "https://store.steampowered.com/app/3590290/?curator_clanid=30894603",
-      "review": "한글 패치",
+      "review": "한글 패치 \n한글 패치 - SummerSpring",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -1245,15 +1362,6 @@
       "review": "한글 패치 - 수나이스",
       "review_has_url": true,
       "review_url_count": 1,
-      "type": "recommended"
-    },
-    {
-      "appid": "4128400",
-      "url": "https://store.steampowered.com/app/4128400/eBaseball_PRO_SPIRIT/",
-      "curator_url": "https://store.steampowered.com/app/4128400/?curator_clanid=30894603",
-      "review": "공식 한국어 지원",
-      "review_has_url": false,
-      "review_url_count": 0,
       "type": "recommended"
     },
     {
@@ -6147,9 +6255,9 @@
       "appid": "2451100",
       "url": "https://store.steampowered.com/app/2451100/Little_Rocket_Lab/",
       "curator_url": "https://store.steampowered.com/app/2451100/?curator_clanid=30894603",
-      "review": "유저 한글 패치 - 한무테",
+      "review": "한글 패치 - SummerSpring \n한글 패치 - 한무테",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {

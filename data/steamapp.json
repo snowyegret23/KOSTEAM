@@ -495,6 +495,19 @@
     ]
   },
   {
+    "app_id": "6910",
+    "game_title": "Deus Ex: Game of the Year Edition",
+    "steam_link": "https://store.steampowered.com/app/6910",
+    "source_site_url": "https://hanpe.net/app/j80vy8/deus-ex-game-of-the-year-edition",
+    "patch_type": "user",
+    "patch_links": [
+      "8332b291"
+    ],
+    "patch_descriptions": [
+      "제작자 : 라딸"
+    ]
+  },
+  {
     "app_id": "7000",
     "game_title": "Tomb Raider: Legend",
     "steam_link": "https://store.steampowered.com/app/7000",
@@ -6503,6 +6516,19 @@
     ],
     "patch_descriptions": [
       "몽키해드님 블로그"
+    ]
+  },
+  {
+    "app_id": "284050",
+    "game_title": "Sanitarium",
+    "steam_link": "https://store.steampowered.com/app/284050",
+    "source_site_url": "https://hanpe.net/app/4q7p1x/sanitarium",
+    "patch_type": "user",
+    "patch_links": [
+      "9ac424a9"
+    ],
+    "patch_descriptions": [
+      "제작자 : Rudigars"
     ]
   },
   {
@@ -18363,6 +18389,19 @@
     ]
   },
   {
+    "app_id": "1118240",
+    "game_title": "Lake",
+    "steam_link": "https://store.steampowered.com/app/1118240",
+    "source_site_url": "https://hanpe.net/app/jmx7do/lake",
+    "patch_type": "user",
+    "patch_links": [
+      "3f3bcf0d"
+    ],
+    "patch_descriptions": [
+      "제작자 : 데프테로스"
+    ]
+  },
+  {
     "app_id": "1118520",
     "game_title": "Paralives",
     "steam_link": "https://store.steampowered.com/app/1118520",
@@ -22262,19 +22301,6 @@
     ]
   },
   {
-    "app_id": "1564540",
-    "game_title": "죽은 비둘기 열 마리",
-    "steam_link": "https://store.steampowered.com/app/1564540",
-    "source_site_url": "https://hanpe.net/app/j00evo/%EC%A3%BD%EC%9D%80-%EB%B9%84%EB%91%98%EA%B8%B0-%EC%97%B4-%EB%A7%88%EB%A6%AC",
-    "patch_type": "official",
-    "patch_links": [
-      "b182a793"
-    ],
-    "patch_descriptions": [
-      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : 한무테"
-    ]
-  },
-  {
     "app_id": "1566410",
     "game_title": "東方虹龍洞 ～ Unconnected Marketeers.",
     "steam_link": "https://store.steampowered.com/app/1566410",
@@ -25579,19 +25605,6 @@
     ]
   },
   {
-    "app_id": "2075100",
-    "game_title": "체르노빌라이트 2: 금지구역",
-    "steam_link": "https://store.steampowered.com/app/2075100",
-    "source_site_url": "https://hanpe.net/app/j5dmd7/%EC%B2%B4%EB%A5%B4%EB%85%B8%EB%B9%8C%EB%9D%BC%EC%9D%B4%ED%8A%B8-2-%EA%B8%88%EC%A7%80%EA%B5%AC%EC%97%AD",
-    "patch_type": "user",
-    "patch_links": [
-      "2206f3e6"
-    ],
-    "patch_descriptions": [
-      "제작자 : 한무테"
-    ]
-  },
-  {
     "app_id": "2077650",
     "game_title": "Amok Runner",
     "steam_link": "https://store.steampowered.com/app/2077650",
@@ -25717,10 +25730,12 @@
     "source_site_url": "https://hanpe.net/app/4qn0dx/schr%C3%B6dingers-call",
     "patch_type": "user",
     "patch_links": [
-      "9171a186"
+      "9171a186",
+      "619a9ff9"
     ],
     "patch_descriptions": [
-      "에피소드1 데모 한글패치 제작자 : Pixel4a"
+      "에피소드1 데모 한글패치 제작자 : Pixel4a",
+      "제작자 : Pixel4a"
     ]
   },
   {
@@ -30795,6 +30810,19 @@
     ]
   },
   {
+    "app_id": "2983250",
+    "game_title": "AIR",
+    "steam_link": "https://store.steampowered.com/app/2983250",
+    "source_site_url": "https://hanpe.net/app/jv59ko/air",
+    "patch_type": "user",
+    "patch_links": [
+      "2e01e9a1"
+    ],
+    "patch_descriptions": [
+      "제작자 : exqaz"
+    ]
+  },
+  {
     "app_id": "2986600",
     "game_title": "Insight",
     "steam_link": "https://store.steampowered.com/app/2986600",
@@ -32704,11 +32732,9 @@
     "source_site_url": "https://hanpe.net/app/4q062d/%E5%B0%91%E5%A5%B3%E5%9C%B0%E7%8D%84%E3%82%AB%E3%83%AB%E3%83%87%E3%82%A2galaxy-express-chaldea",
     "patch_type": "user",
     "patch_links": [
-      "18872065",
       "18872065"
     ],
     "patch_descriptions": [
-      "제작자 : 에스티",
       "제작자 : 에스티"
     ]
   },
@@ -33856,6 +33882,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 에디"
+    ]
+  },
+  {
+    "app_id": "3669200",
+    "game_title": "Guildrun",
+    "steam_link": "https://store.steampowered.com/app/3669200",
+    "source_site_url": "https://hanpe.net/app/l7vpdo/guildrun",
+    "patch_type": "user",
+    "patch_links": [
+      "003d7c2f"
+    ],
+    "patch_descriptions": [
+      "제작자 : LiyuuFan"
     ]
   },
   {
@@ -35367,6 +35406,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 수나이스"
+    ]
+  },
+  {
+    "app_id": "4468030",
+    "game_title": "OFFBEAT",
+    "steam_link": "https://store.steampowered.com/app/4468030",
+    "source_site_url": "https://hanpe.net/app/l75580/offbeat",
+    "patch_type": "user",
+    "patch_links": [
+      "62e2f28c"
+    ],
+    "patch_descriptions": [
+      "제작자 : Lavient"
     ]
   },
   {

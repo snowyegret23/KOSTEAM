@@ -2,8 +2,8 @@
   "curator_id": 42788178,
   "curator_name": "Curator #42788178",
   "curator_url": "https://store.steampowered.com/curator/42788178/",
-  "total_games": 1827,
-  "exported_at": "2026-08-19T21:20:33.489026",
+  "total_games": 1825,
+  "exported_at": "2026-08-21T21:18:52.116404",
   "games": [
     {
       "appid": "400170",
@@ -5127,15 +5127,6 @@
       "type": "recommended"
     },
     {
-      "appid": "2485750",
-      "url": "https://store.steampowered.com/app/2485750/Midnight_Scenes_A_Safe_Place/",
-      "curator_url": "https://store.steampowered.com/app/2485750/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 손셩 님",
-      "review_has_url": true,
-      "review_url_count": 1,
-      "type": "recommended"
-    },
-    {
       "appid": "2810580",
       "url": "https://store.steampowered.com/app/2810580/Theres_Something_In_The_Ice/",
       "curator_url": "https://store.steampowered.com/app/2810580/?curator_clanid=42788178",
@@ -6418,15 +6409,6 @@
       "url": "https://store.steampowered.com/app/1125830/Hyperspaced/",
       "curator_url": "https://store.steampowered.com/app/1125830/?curator_clanid=42788178",
       "review": "스토브 인디 한국어화 게임: \n스팀 키 미제공",
-      "review_has_url": true,
-      "review_url_count": 1,
-      "type": "recommended"
-    },
-    {
-      "appid": "1592110",
-      "url": "https://store.steampowered.com/app/1592110/Spirit_of_the_Island/",
-      "curator_url": "https://store.steampowered.com/app/1592110/?curator_clanid=42788178",
-      "review": "스토브 인디 한국어화 게임: \n※ 스팀 키 미제공",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
