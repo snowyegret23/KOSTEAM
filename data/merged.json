@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-08-21T21:19:26.026Z",
-    "total_with_steam_link": 3642,
+    "generated_at": "2026-08-23T21:17:30.091Z",
+    "total_with_steam_link": 3644,
     "total_without_steam_link": 9,
     "sources": [
       "steamapp",
@@ -17833,6 +17833,27 @@
       ]
     },
     {
+      "app_id": "2882080",
+      "game_title": "[DE:]Fanastasis",
+      "steam_link": "https://store.steampowered.com/app/2882080",
+      "patch_type": "user",
+      "patch_links": [
+        "11cfa6a4"
+      ],
+      "patch_descriptions": [
+        "제작자 : casw"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jpnrrw/defanastasis"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "2933290",
       "game_title": "[Nightmare Files] Clap Clap",
       "steam_link": "https://store.steampowered.com/app/2933290",
@@ -34537,6 +34558,27 @@
       ]
     },
     {
+      "app_id": "730830",
+      "game_title": "Escape from Monkey Island™",
+      "steam_link": "https://store.steampowered.com/app/730830",
+      "patch_type": "user",
+      "patch_links": [
+        "b9c4c18f"
+      ],
+      "patch_descriptions": [
+        "제작자 : Party1Noodle"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l36d60/escape-from-monkey-islandtm"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "4840880",
       "game_title": "ESKINITA",
       "steam_link": "https://store.steampowered.com/app/4840880",
@@ -38725,13 +38767,13 @@
       "steam_link": "https://store.steampowered.com/app/39500",
       "patch_type": "user",
       "patch_links": [
-        "05f4a831",
         "2beecc55",
+        "05f4a831",
         "exist"
       ],
       "patch_descriptions": [
-        "베타겜님 제작 (※삭제된 포스트 2019.02.28 확인) 하단 링크를 참고해주시기 바랍니다.",
         "제작자 : 정보없음",
+        "베타겜님 제작 (※삭제된 포스트 2019.02.28 확인) 하단 링크를 참고해주시기 바랍니다.",
         "유저 한국어 패치 -"
       ],
       "patch_sources": [
@@ -54527,14 +54569,17 @@
       "patch_links": [
         "b114d4ae",
         "72e73555",
+        "c30b8440",
         "exist"
       ],
       "patch_descriptions": [
         "제작자 : 아킨토스",
         "제작자 : 외계인 Pathfinder: Wrath of the Righteous의 DLC: A Dance of Masks, Visitors from Morta 번역",
+        "제작자 : 슈팅스타",
         "유저 한글 패치 - 아킨토스 님"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "steamapp",
         "quasarplay"
@@ -68101,13 +68146,16 @@
       "patch_type": "user",
       "patch_links": [
         "b2cb4397",
+        "b9c4c18f",
         "exist"
       ],
       "patch_descriptions": [
         "제작자 : 정보없음",
+        "하단 설명 참조",
         "유저 한글 패치"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "quasarplay"
       ],

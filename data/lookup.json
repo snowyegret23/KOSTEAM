@@ -3319,13 +3319,13 @@
       "quasarplay"
     ],
     "links": [
-      "05f4a831",
       "2beecc55",
+      "05f4a831",
       "exist"
     ],
     "patch_descriptions": [
-      "베타겜님 제작 (※삭제된 포스트 2019.02.28 확인) 하단 링크를 참고해주시기 바랍니다.",
       "제작자 : 정보없음",
+      "베타겜님 제작 (※삭제된 포스트 2019.02.28 확인) 하단 링크를 참고해주시기 바랍니다.",
       "유저 한국어 패치 -"
     ],
     "patch_sources": [
@@ -26591,19 +26591,40 @@
     ],
     "links": [
       "b2cb4397",
+      "b9c4c18f",
       "exist"
     ],
     "patch_descriptions": [
       "제작자 : 정보없음",
+      "하단 설명 참조",
       "유저 한글 패치"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/jw1670/the-curse-of-monkey-island",
       "quasarplay": "https://store.steampowered.com/app/730820/?curator_clanid=42788178"
+    }
+  },
+  "730830": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "b9c4c18f"
+    ],
+    "patch_descriptions": [
+      "제작자 : Party1Noodle"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/l36d60/escape-from-monkey-islandtm"
     }
   },
   "731040": {
@@ -36338,14 +36359,17 @@
     "links": [
       "b114d4ae",
       "72e73555",
+      "c30b8440",
       "exist"
     ],
     "patch_descriptions": [
       "제작자 : 아킨토스",
       "제작자 : 외계인 Pathfinder: Wrath of the Righteous의 DLC: A Dance of Masks, Visitors from Morta 번역",
+      "제작자 : 슈팅스타",
       "유저 한글 패치 - 아킨토스 님"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp",
       "steamapp",
       "quasarplay"
@@ -64573,6 +64597,24 @@
       "quasarplay": "https://store.steampowered.com/app/2880460/?curator_clanid=42788178"
     }
   },
+  "2882080": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "11cfa6a4"
+    ],
+    "patch_descriptions": [
+      "제작자 : casw"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jpnrrw/defanastasis"
+    }
+  },
   "2886620": {
     "type": "user",
     "sources": [
@@ -78244,7 +78286,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-08-21T21:19:26.026Z",
-    "total": 3642
+    "generated_at": "2026-08-23T21:17:30.091Z",
+    "total": 3644
   }
 }

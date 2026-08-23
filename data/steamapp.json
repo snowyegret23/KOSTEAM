@@ -1862,12 +1862,12 @@
     "source_site_url": "https://hanpe.net/app/4oqqdn/gothic-3",
     "patch_type": "user",
     "patch_links": [
-      "05f4a831",
-      "2beecc55"
+      "2beecc55",
+      "05f4a831"
     ],
     "patch_descriptions": [
-      "베타겜님 제작 (※삭제된 포스트 2019.02.28 확인) 하단 링크를 참고해주시기 바랍니다.",
-      "제작자 : 정보없음"
+      "제작자 : 정보없음",
+      "베타겜님 제작 (※삭제된 포스트 2019.02.28 확인) 하단 링크를 참고해주시기 바랍니다."
     ]
   },
   {
@@ -14623,10 +14623,25 @@
     "source_site_url": "https://hanpe.net/app/jw1670/the-curse-of-monkey-island",
     "patch_type": "user",
     "patch_links": [
-      "b2cb4397"
+      "b2cb4397",
+      "b9c4c18f"
     ],
     "patch_descriptions": [
-      "제작자 : 정보없음"
+      "제작자 : 정보없음",
+      "하단 설명 참조"
+    ]
+  },
+  {
+    "app_id": "730830",
+    "game_title": "Escape from Monkey Island™",
+    "steam_link": "https://store.steampowered.com/app/730830",
+    "source_site_url": "https://hanpe.net/app/l36d60/escape-from-monkey-islandtm",
+    "patch_type": "user",
+    "patch_links": [
+      "b9c4c18f"
+    ],
+    "patch_descriptions": [
+      "제작자 : Party1Noodle"
     ]
   },
   {
@@ -19183,11 +19198,13 @@
     "patch_type": "user",
     "patch_links": [
       "b114d4ae",
-      "72e73555"
+      "72e73555",
+      "c30b8440"
     ],
     "patch_descriptions": [
       "제작자 : 아킨토스",
-      "제작자 : 외계인 Pathfinder: Wrath of the Righteous의 DLC: A Dance of Masks, Visitors from Morta 번역"
+      "제작자 : 외계인 Pathfinder: Wrath of the Righteous의 DLC: A Dance of Masks, Visitors from Morta 번역",
+      "제작자 : 슈팅스타"
     ]
   },
   {
@@ -30265,6 +30282,19 @@
     ]
   },
   {
+    "app_id": "2882080",
+    "game_title": "[DE:]Fanastasis",
+    "steam_link": "https://store.steampowered.com/app/2882080",
+    "source_site_url": "https://hanpe.net/app/jpnrrw/defanastasis",
+    "patch_type": "user",
+    "patch_links": [
+      "11cfa6a4"
+    ],
+    "patch_descriptions": [
+      "제작자 : casw"
+    ]
+  },
+  {
     "app_id": "2888860",
     "game_title": "Go! Go! Hamster Chef!",
     "steam_link": "https://store.steampowered.com/app/2888860",
@@ -35034,11 +35064,9 @@
     "source_site_url": "https://hanpe.net/app/j8oe2r/remnants-of-a-scare",
     "patch_type": "user",
     "patch_links": [
-      "e0b141f9",
       "e0b141f9"
     ],
     "patch_descriptions": [
-      "데모판 한글화 제작자 : WHALE59",
       "데모판 한글화 제작자 : WHALE59"
     ]
   },
