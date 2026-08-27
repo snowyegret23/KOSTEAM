@@ -1344,18 +1344,23 @@
   "12130": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "19a808f6",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : Kovic",
       "한글 패치 - Kovic"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jpz05k/manhunt",
       "quasarplay": "https://store.steampowered.com/app/12130/?curator_clanid=30894603"
     }
   },
@@ -2051,7 +2056,7 @@
       "quasarplay"
     ],
     "links": [
-      "7ba493cb",
+      "46a06744",
       "exist"
     ],
     "patch_descriptions": [
@@ -11988,7 +11993,7 @@
       "steamapp"
     ],
     "source_site_urls": {
-      "steamapp": "https://hanpe.net/app/j8zevz/the-witcher-3-wild-hunt"
+      "steamapp": "https://hanpe.net/app/j8zevz/%EB%8D%94-%EC%9C%84%EC%B3%90-3-%EC%99%80%EC%9D%BC%EB%93%9C-%ED%97%8C%ED%8A%B8-%EC%BB%B4%ED%94%8C%EB%A6%AC%ED%8A%B8-%EC%97%90%EB%94%94%EC%85%98"
     }
   },
   "292120": {
@@ -13759,14 +13764,17 @@
     "links": [
       "bcba76fc",
       "614c2c25",
+      "6d8c9edb",
       "exist"
     ],
     "patch_descriptions": [
       "제작자 : 정보없음",
       "촌닭투님 제작",
+      "최신 버전 대응 패치 제작자 : 문고리단속반",
       "유저 한글 패치 - 촌닭투\n유저 한글 패치 -"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp",
       "steamapp",
       "quasarplay"
@@ -21349,17 +21357,14 @@
       "quasarplay"
     ],
     "links": [
-      "eb58be8f",
-      "3c5fadd3",
+      "c3495531",
       "exist"
     ],
     "patch_descriptions": [
-      "한국어화 모드 미완성판 RealTrue 님 제작",
-      "제작자: RadiantWill",
+      "제작자: RadiantWill 게시글 리스트에서 최신 버전을 받으시면 됩니다",
       "유저 한글 패치 - RadiantWill\n유저 한글 패치 - RealTrue"
     ],
     "patch_sources": [
-      "steamapp",
       "steamapp",
       "quasarplay"
     ],
@@ -31568,11 +31573,11 @@
       "quasarplay"
     ],
     "links": [
-      "0bb263ba",
+      "6cbfefed",
       "exist"
     ],
     "patch_descriptions": [
-      "제작자 : gusrud6151",
+      "제작자 : jjpatch12",
       "유저 한글 패치 - gusrud6151 님"
     ],
     "patch_sources": [
@@ -73879,6 +73884,24 @@
       "quasarplay": "https://store.steampowered.com/app/3639520/?curator_clanid=30894603"
     }
   },
+  "3639970": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "7b038345"
+    ],
+    "patch_descriptions": [
+      "제작자 : 세페일"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jvyg57/%E7%A5%9E%E6%A4%BF%E5%AD%B8%E5%9C%92%E6%96%B0%E8%81%9E%E9%83%A8kamitsubaki-academy-newspaper-club"
+    }
+  },
   "3641000": {
     "type": "user",
     "sources": [
@@ -78286,7 +78309,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-08-23T21:17:30.091Z",
-    "total": 3644
+    "generated_at": "2026-08-27T00:24:43.717Z",
+    "total": 3645
   }
 }

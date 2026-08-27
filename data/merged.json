@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-08-23T21:17:30.091Z",
-    "total_with_steam_link": 3644,
-    "total_without_steam_link": 9,
+    "generated_at": "2026-08-27T00:24:43.717Z",
+    "total_with_steam_link": 3645,
+    "total_without_steam_link": 10,
     "sources": [
       "steamapp",
       "quasarzone",
@@ -1582,27 +1582,6 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/4358380/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "12130",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/12130/Manhunt/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - Kovic"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/12130/?curator_clanid=30894603"
       },
       "sources": [
         "quasarplay"
@@ -31282,14 +31261,17 @@
       "patch_links": [
         "bcba76fc",
         "614c2c25",
+        "6d8c9edb",
         "exist"
       ],
       "patch_descriptions": [
         "제작자 : 정보없음",
         "촌닭투님 제작",
+        "최신 버전 대응 패치 제작자 : 문고리단속반",
         "유저 한글 패치 - 촌닭투\n유저 한글 패치 -"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "steamapp",
         "quasarplay"
@@ -35148,11 +35130,11 @@
       "steam_link": "https://store.steampowered.com/app/987840",
       "patch_type": "user",
       "patch_links": [
-        "0bb263ba",
+        "6cbfefed",
         "exist"
       ],
       "patch_descriptions": [
-        "제작자 : gusrud6151",
+        "제작자 : jjpatch12",
         "유저 한글 패치 - gusrud6151 님"
       ],
       "patch_sources": [
@@ -35987,7 +35969,7 @@
       "steam_link": "https://store.steampowered.com/app/19900",
       "patch_type": "user",
       "patch_links": [
-        "7ba493cb",
+        "46a06744",
         "exist"
       ],
       "patch_descriptions": [
@@ -48283,6 +48265,32 @@
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/lkxxq2/mana-spark",
         "quasarplay": "https://store.steampowered.com/app/630720/?curator_clanid=42788178"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "12130",
+      "game_title": "Manhunt",
+      "steam_link": "https://store.steampowered.com/app/12130",
+      "patch_type": "user",
+      "patch_links": [
+        "19a808f6",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : Kovic",
+        "한글 패치 - Kovic"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jpz05k/manhunt",
+        "quasarplay": "https://store.steampowered.com/app/12130/?curator_clanid=30894603"
       },
       "sources": [
         "steamapp",
@@ -72409,27 +72417,6 @@
       ]
     },
     {
-      "app_id": "292030",
-      "game_title": "The Witcher 3: Wild Hunt",
-      "steam_link": "https://store.steampowered.com/app/292030",
-      "patch_type": "official",
-      "patch_links": [
-        "c4c3ad9e"
-      ],
-      "patch_descriptions": [
-        "공식 한글 개선 패치 제작자 : Orinoco"
-      ],
-      "patch_sources": [
-        "steamapp"
-      ],
-      "source_site_urls": {
-        "steamapp": "https://hanpe.net/app/j8zevz/the-witcher-3-wild-hunt"
-      },
-      "sources": [
-        "steamapp"
-      ]
-    },
-    {
       "app_id": "20900",
       "game_title": "The Witcher: Enhanced Edition Director's Cut",
       "steam_link": "https://store.steampowered.com/app/20900",
@@ -72539,17 +72526,14 @@
       "steam_link": "https://store.steampowered.com/app/518790",
       "patch_type": "user",
       "patch_links": [
-        "eb58be8f",
-        "3c5fadd3",
+        "c3495531",
         "exist"
       ],
       "patch_descriptions": [
-        "한국어화 모드 미완성판 RealTrue 님 제작",
-        "제작자: RadiantWill",
+        "제작자: RadiantWill 게시글 리스트에서 최신 버전을 받으시면 됩니다",
         "유저 한글 패치 - RadiantWill\n유저 한글 패치 - RealTrue"
       ],
       "patch_sources": [
-        "steamapp",
         "steamapp",
         "quasarplay"
       ],
@@ -79795,6 +79779,27 @@
       },
       "sources": [
         "stove"
+      ]
+    },
+    {
+      "app_id": "292030",
+      "game_title": "더 위쳐 3: 와일드 헌트 - 컴플리트 에디션",
+      "steam_link": "https://store.steampowered.com/app/292030",
+      "patch_type": "official",
+      "patch_links": [
+        "c4c3ad9e"
+      ],
+      "patch_descriptions": [
+        "공식 한글 개선 패치 제작자 : Orinoco"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j8zevz/%EB%8D%94-%EC%9C%84%EC%B3%90-3-%EC%99%80%EC%9D%BC%EB%93%9C-%ED%97%8C%ED%8A%B8-%EC%BB%B4%ED%94%8C%EB%A6%AC%ED%8A%B8-%EC%97%90%EB%94%94%EC%85%98"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -88490,6 +88495,27 @@
       ]
     },
     {
+      "app_id": "3639970",
+      "game_title": "神椿學園新聞部(KAMITSUBAKI ACADEMY NEWSPAPER CLUB)",
+      "steam_link": "https://store.steampowered.com/app/3639970",
+      "patch_type": "user",
+      "patch_links": [
+        "7b038345"
+      ],
+      "patch_descriptions": [
+        "제작자 : 세페일"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jvyg57/%E7%A5%9E%E6%A4%BF%E5%AD%B8%E5%9C%92%E6%96%B0%E8%81%9E%E9%83%A8kamitsubaki-academy-newspaper-club"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "724970",
       "game_title": "神舞幻想 Faith of Danschant",
       "steam_link": "https://store.steampowered.com/app/724970",
@@ -89322,6 +89348,25 @@
       ],
       "source_site_urls": {
         "stove": "https://store.onstove.com/ko/games/102720"
+      },
+      "sources": [
+        "stove"
+      ]
+    },
+    {
+      "game_title": "사이오닉 파수기: 인피니트 (Psionic Sentry : Infinite)",
+      "patch_type": "official",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        ""
+      ],
+      "patch_sources": [
+        "stove"
+      ],
+      "source_site_urls": {
+        "stove": "https://store.onstove.com/ko/games/103996"
       },
       "sources": [
         "stove"
