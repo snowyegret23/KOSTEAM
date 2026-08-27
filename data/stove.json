@@ -3930,11 +3930,11 @@
     "stove_url": "https://store.onstove.com/ko/games/104063"
   },
   {
-    "app_id": null,
+    "app_id": "2598800",
     "stove_game_no": "14116",
     "stove_product_no": "103996",
     "game_title": "사이오닉 파수기: 인피니트 (Psionic Sentry : Infinite)",
-    "steam_link": "",
+    "steam_link": "https://store.steampowered.com/app/2598800",
     "patch_type": "official",
     "patch_links": [
       "exist"
