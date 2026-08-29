@@ -5853,6 +5853,19 @@
     ]
   },
   {
+    "app_id": "260190",
+    "game_title": "Marc Eckō's Getting Up: Contents Under Pressure",
+    "steam_link": "https://store.steampowered.com/app/260190",
+    "source_site_url": "https://hanpe.net/app/j9o2kr/marc-eck%C5%8Ds-getting-up-contents-under-pressure",
+    "patch_type": "user",
+    "patch_links": [
+      "84abcf14"
+    ],
+    "patch_descriptions": [
+      "제작자 : misticjoker"
+    ]
+  },
+  {
     "app_id": "260210",
     "game_title": "Assassin’s Creed® Liberation HD",
     "steam_link": "https://store.steampowered.com/app/260210",
@@ -28668,6 +28681,19 @@
     ]
   },
   {
+    "app_id": "2612660",
+    "game_title": "Kamaitachi no Yoru x3",
+    "steam_link": "https://store.steampowered.com/app/2612660",
+    "source_site_url": "https://hanpe.net/app/j5q3gr/kamaitachi-no-yoru-x3",
+    "patch_type": "user",
+    "patch_links": [
+      "997c164a"
+    ],
+    "patch_descriptions": [
+      "제작자 : 으잌"
+    ]
+  },
+  {
     "app_id": "2612700",
     "game_title": "S4U: CITYPUNK 2011 AND LOVE PUNCH",
     "steam_link": "https://store.steampowered.com/app/2612700",
@@ -33143,6 +33169,19 @@
     ]
   },
   {
+    "app_id": "3432480",
+    "game_title": "Shards of Order",
+    "steam_link": "https://store.steampowered.com/app/3432480",
+    "source_site_url": "https://hanpe.net/app/jw18ze/shards-of-order",
+    "patch_type": "user",
+    "patch_links": [
+      "23634990"
+    ],
+    "patch_descriptions": [
+      "제작자 : SAM7599"
+    ]
+  },
+  {
     "app_id": "3433810",
     "game_title": "咸鱼殿下 / My journey",
     "steam_link": "https://store.steampowered.com/app/3433810",
@@ -33584,6 +33623,19 @@
     ]
   },
   {
+    "app_id": "3558600",
+    "game_title": "Leafy Corner",
+    "steam_link": "https://store.steampowered.com/app/3558600",
+    "source_site_url": "https://hanpe.net/app/4636zx/leafy-corner",
+    "patch_type": "user",
+    "patch_links": [
+      "556d4306"
+    ],
+    "patch_descriptions": [
+      "제작자 : killterm"
+    ]
+  },
+  {
     "app_id": "3561770",
     "game_title": "황금섬",
     "steam_link": "https://store.steampowered.com/app/3561770",
@@ -33828,10 +33880,12 @@
     "source_site_url": "https://hanpe.net/app/l3rgvz/%E5%92%8E%E7%8B%97%E3%81%AE%E8%A1%80-true-blood-nitro-archive",
     "patch_type": "user",
     "patch_links": [
-      "9fd752fd"
+      "9fd752fd",
+      "e75bbc91"
     ],
     "patch_descriptions": [
-      "제작, 그래픽/무비: 나이트하르트 번역(원작 분량): 세츠, 카오리, 펀나라, SuimiR, meiry 번역(시키, 유키히토): 나이트하르트 악곡 번역: sechsKatze(GRIND, STILL), 나이트하르트 테스트: sechsKatze"
+      "제작, 그래픽/무비: 나이트하르트 번역(원작 분량): 세츠, 카오리, 펀나라, SuimiR, meiry 번역(시키, 유키히토): 나이트하르트 악곡 번역: sechsKatze(GRIND, STILL), 나이트하르트 테스트: sechsKatze",
+      "패치 제작자:익명 번역:체리(Hora)"
     ]
   },
   {

@@ -2,9 +2,27 @@
   "curator_id": 30894603,
   "curator_name": "Curator #30894603",
   "curator_url": "https://store.steampowered.com/curator/30894603/",
-  "total_games": 1118,
-  "exported_at": "2026-08-27T00:24:24.147950",
+  "total_games": 1120,
+  "exported_at": "2026-08-29T03:02:05.588501",
   "games": [
+    {
+      "appid": "501990",
+      "url": "https://store.steampowered.com/app/501990/Phantasmagoria/",
+      "curator_url": "https://store.steampowered.com/app/501990/?curator_clanid=30894603",
+      "review": "한글 패치 - 레트로벤처",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "2478970",
+      "url": "https://store.steampowered.com/app/2478970/Tomb_Raider_IIII_Remastered_Starring_Lara_Croft/",
+      "curator_url": "https://store.steampowered.com/app/2478970/?curator_clanid=30894603",
+      "review": "한글 패치 - 노말리토",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
     {
       "appid": "4164790",
       "url": "https://store.steampowered.com/app/4164790/Survival_Log/",

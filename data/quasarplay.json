@@ -2,9 +2,54 @@
   "curator_id": 42788178,
   "curator_name": "Curator #42788178",
   "curator_url": "https://store.steampowered.com/curator/42788178/",
-  "total_games": 1825,
-  "exported_at": "2026-08-27T00:24:07.502497",
+  "total_games": 1830,
+  "exported_at": "2026-08-29T03:01:49.080260",
   "games": [
+    {
+      "appid": "284050",
+      "url": "https://store.steampowered.com/app/284050/Sanitarium/",
+      "curator_url": "https://store.steampowered.com/app/284050/?curator_clanid=42788178",
+      "review": "한글 패치 - Rudigar",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "730830",
+      "url": "https://store.steampowered.com/app/730830/Escape_from_Monkey_Island/",
+      "curator_url": "https://store.steampowered.com/app/730830/?curator_clanid=42788178",
+      "review": "한글 패치 - Party1Noodle",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "3639970",
+      "url": "https://store.steampowered.com/app/3639970/KAMITSUBAKI_ACADEMY_NEWSPAPER_CLUB/",
+      "curator_url": "https://store.steampowered.com/app/3639970/?curator_clanid=42788178",
+      "review": "한글 패치 - 세페일",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "260190",
+      "url": "https://store.steampowered.com/app/260190/Marc_Eckos_Getting_Up_Contents_Under_Pressure/",
+      "curator_url": "https://store.steampowered.com/app/260190/?curator_clanid=42788178",
+      "review": "한글 패치 - misticjoker",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "3432480",
+      "url": "https://store.steampowered.com/app/3432480/Shards_of_Order/",
+      "curator_url": "https://store.steampowered.com/app/3432480/?curator_clanid=42788178",
+      "review": "한글 패치 - SAM7599",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
     {
       "appid": "400170",
       "url": "https://store.steampowered.com/app/400170/The_Incredible_Adventures_of_Van_Helsing_Final_Cut/",
@@ -1944,9 +1989,9 @@
       "appid": "987840",
       "url": "https://store.steampowered.com/app/987840/Expeditions_Rome/",
       "curator_url": "https://store.steampowered.com/app/987840/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - gusrud6151 님",
+      "review": "한글 패치 - jjpatch12\n한글 패치 - gusrud6151",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -5508,9 +5553,9 @@
       "appid": "1184370",
       "url": "https://store.steampowered.com/app/1184370/Pathfinder_Wrath_of_the_Righteous__Enhanced_Edition/",
       "curator_url": "https://store.steampowered.com/app/1184370/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 아킨토스 님",
+      "review": "한글 패치 - 슈팅스타\n한글 패치 - 아킨토스\n한글 패치 - 외계인",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 3,
       "type": "recommended"
     },
     {
@@ -5688,9 +5733,9 @@
       "appid": "730820",
       "url": "https://store.steampowered.com/app/730820/The_Curse_of_Monkey_Island/",
       "curator_url": "https://store.steampowered.com/app/730820/?curator_clanid=42788178",
-      "review": "유저 한글 패치",
+      "review": "한글 패치 - Party1Noodle\n한글 패치",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -5814,9 +5859,9 @@
       "appid": "1963040",
       "url": "https://store.steampowered.com/app/1963040/The_Lost_Village/",
       "curator_url": "https://store.steampowered.com/app/1963040/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 천지회",
+      "review": "한글 패치 - 천지회\n한글 패치 - Kheeman",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -9603,7 +9648,7 @@
       "appid": "518790",
       "url": "https://store.steampowered.com/app/518790/theHunter_Call_of_the_Wild/",
       "curator_url": "https://store.steampowered.com/app/518790/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - RadiantWill\n유저 한글 패치 - RealTrue",
+      "review": "한글 패치 - RadiantWill\n한글 패치 - RealTrue",
       "review_has_url": true,
       "review_url_count": 2,
       "type": "recommended"
@@ -15417,9 +15462,9 @@
       "appid": "329050",
       "url": "https://store.steampowered.com/app/329050/Devil_May_Cry_4_Special_Edition/",
       "curator_url": "https://store.steampowered.com/app/329050/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 촌닭투\n유저 한글 패치 -",
+      "review": "한글 패치 - 촌닭투\n한글 패치 - 문고리단속반",
       "review_has_url": true,
-      "review_url_count": 2,
+      "review_url_count": 3,
       "type": "recommended"
     },
     {

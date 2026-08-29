@@ -10235,6 +10235,29 @@
       "steamapp": "https://hanpe.net/app/jm6yzn/alone-in-the-dark-2008"
     }
   },
+  "260190": {
+    "type": "user",
+    "sources": [
+      "steamapp",
+      "quasarplay"
+    ],
+    "links": [
+      "84abcf14",
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : misticjoker",
+      "한글 패치 - misticjoker"
+    ],
+    "patch_sources": [
+      "steamapp",
+      "quasarplay"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j9o2kr/marc-eck%C5%8Ds-getting-up-contents-under-pressure",
+      "quasarplay": "https://store.steampowered.com/app/260190/?curator_clanid=42788178"
+    }
+  },
   "260210": {
     "type": "user",
     "sources": [
@@ -11447,19 +11470,24 @@
   "284050": {
     "type": "user",
     "sources": [
-      "steamapp"
+      "steamapp",
+      "quasarplay"
     ],
     "links": [
-      "9ac424a9"
+      "9ac424a9",
+      "exist"
     ],
     "patch_descriptions": [
-      "제작자 : Rudigars"
+      "제작자 : Rudigars",
+      "한글 패치 - Rudigar"
     ],
     "patch_sources": [
-      "steamapp"
+      "steamapp",
+      "quasarplay"
     ],
     "source_site_urls": {
-      "steamapp": "https://hanpe.net/app/4q7p1x/sanitarium"
+      "steamapp": "https://hanpe.net/app/4q7p1x/sanitarium",
+      "quasarplay": "https://store.steampowered.com/app/284050/?curator_clanid=42788178"
     }
   },
   "284220": {
@@ -13771,7 +13799,7 @@
       "제작자 : 정보없음",
       "촌닭투님 제작",
       "최신 버전 대응 패치 제작자 : 문고리단속반",
-      "유저 한글 패치 - 촌닭투\n유저 한글 패치 -"
+      "한글 패치 - 촌닭투\n한글 패치 - 문고리단속반"
     ],
     "patch_sources": [
       "steamapp",
@@ -20805,6 +20833,24 @@
       "steamapp": "https://hanpe.net/app/4g99e6/bulletstorm-full-clip-edition"
     }
   },
+  "501990": {
+    "type": "user",
+    "sources": [
+      "quasarplay"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "한글 패치 - 레트로벤처"
+    ],
+    "patch_sources": [
+      "quasarplay"
+    ],
+    "source_site_urls": {
+      "quasarplay": "https://store.steampowered.com/app/501990/?curator_clanid=30894603"
+    }
+  },
   "502100": {
     "type": "user",
     "sources": [
@@ -21362,7 +21408,7 @@
     ],
     "patch_descriptions": [
       "제작자: RadiantWill 게시글 리스트에서 최신 버전을 받으시면 됩니다",
-      "유저 한글 패치 - RadiantWill\n유저 한글 패치 - RealTrue"
+      "한글 패치 - RadiantWill\n한글 패치 - RealTrue"
     ],
     "patch_sources": [
       "steamapp",
@@ -26602,7 +26648,7 @@
     "patch_descriptions": [
       "제작자 : 정보없음",
       "하단 설명 참조",
-      "유저 한글 패치"
+      "한글 패치 - Party1Noodle\n한글 패치"
     ],
     "patch_sources": [
       "steamapp",
@@ -26617,19 +26663,24 @@
   "730830": {
     "type": "user",
     "sources": [
-      "steamapp"
+      "steamapp",
+      "quasarplay"
     ],
     "links": [
-      "b9c4c18f"
+      "b9c4c18f",
+      "exist"
     ],
     "patch_descriptions": [
-      "제작자 : Party1Noodle"
+      "제작자 : Party1Noodle",
+      "한글 패치 - Party1Noodle"
     ],
     "patch_sources": [
-      "steamapp"
+      "steamapp",
+      "quasarplay"
     ],
     "source_site_urls": {
-      "steamapp": "https://hanpe.net/app/l36d60/escape-from-monkey-islandtm"
+      "steamapp": "https://hanpe.net/app/l36d60/escape-from-monkey-islandtm",
+      "quasarplay": "https://store.steampowered.com/app/730830/?curator_clanid=42788178"
     }
   },
   "731040": {
@@ -31578,7 +31629,7 @@
     ],
     "patch_descriptions": [
       "제작자 : jjpatch12",
-      "유저 한글 패치 - gusrud6151 님"
+      "한글 패치 - jjpatch12\n한글 패치 - gusrud6151"
     ],
     "patch_sources": [
       "steamapp",
@@ -36371,7 +36422,7 @@
       "제작자 : 아킨토스",
       "제작자 : 외계인 Pathfinder: Wrath of the Righteous의 DLC: A Dance of Masks, Visitors from Morta 번역",
       "제작자 : 슈팅스타",
-      "유저 한글 패치 - 아킨토스 님"
+      "한글 패치 - 슈팅스타\n한글 패치 - 아킨토스\n한글 패치 - 외계인"
     ],
     "patch_sources": [
       "steamapp",
@@ -50791,7 +50842,7 @@
     "patch_descriptions": [
       "제작자 : Kheeman",
       "제작자 : 천지희",
-      "유저 한글 패치 - 천지회"
+      "한글 패치 - 천지회\n한글 패치 - Kheeman"
     ],
     "patch_sources": [
       "steamapp",
@@ -58644,6 +58695,24 @@
       "quasarplay": "https://store.steampowered.com/app/2475490/?curator_clanid=42788178"
     }
   },
+  "2478970": {
+    "type": "user",
+    "sources": [
+      "quasarplay"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "한글 패치 - 노말리토"
+    ],
+    "patch_sources": [
+      "quasarplay"
+    ],
+    "source_site_urls": {
+      "quasarplay": "https://store.steampowered.com/app/2478970/?curator_clanid=30894603"
+    }
+  },
   "2479740": {
     "type": "user",
     "sources": [
@@ -60480,6 +60549,24 @@
       "quasarplay": "https://store.steampowered.com/app/2597970/?curator_clanid=42788178"
     }
   },
+  "2598800": {
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/103996"
+    }
+  },
   "2599300": {
     "type": "user",
     "sources": [
@@ -60617,6 +60704,24 @@
     ],
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/jpqxzo/from-glory-to-goo"
+    }
+  },
+  "2612660": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "997c164a"
+    ],
+    "patch_descriptions": [
+      "제작자 : 으잌"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j5q3gr/kamaitachi-no-yoru-x3"
     }
   },
   "2612700": {
@@ -71962,6 +72067,29 @@
       "quasarplay": "https://store.steampowered.com/app/3430340/?curator_clanid=30894603"
     }
   },
+  "3432480": {
+    "type": "user",
+    "sources": [
+      "steamapp",
+      "quasarplay"
+    ],
+    "links": [
+      "23634990",
+      "exist"
+    ],
+    "patch_descriptions": [
+      "제작자 : SAM7599",
+      "한글 패치 - SAM7599"
+    ],
+    "patch_sources": [
+      "steamapp",
+      "quasarplay"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jw18ze/shards-of-order",
+      "quasarplay": "https://store.steampowered.com/app/3432480/?curator_clanid=42788178"
+    }
+  },
   "3432750": {
     "type": "user",
     "sources": [
@@ -73247,18 +73375,23 @@
   "3558600": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "556d4306",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : killterm",
       "한글 패치 - killterm\n한글 패치 - 한무테"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4636zx/leafy-corner",
       "quasarplay": "https://store.steampowered.com/app/3558600/?curator_clanid=30894603"
     }
   },
@@ -73869,13 +74002,16 @@
     ],
     "links": [
       "9fd752fd",
+      "e75bbc91",
       "exist"
     ],
     "patch_descriptions": [
       "제작, 그래픽/무비: 나이트하르트 번역(원작 분량): 세츠, 카오리, 펀나라, SuimiR, meiry 번역(시키, 유키히토): 나이트하르트 악곡 번역: sechsKatze(GRIND, STILL), 나이트하르트 테스트: sechsKatze",
+      "패치 제작자:익명 번역:체리(Hora)",
       "유저 한글 패치 - 나이트하르트 외 다수"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp",
       "quasarplay"
     ],
@@ -73887,19 +74023,24 @@
   "3639970": {
     "type": "user",
     "sources": [
-      "steamapp"
+      "steamapp",
+      "quasarplay"
     ],
     "links": [
-      "7b038345"
+      "7b038345",
+      "exist"
     ],
     "patch_descriptions": [
-      "제작자 : 세페일"
+      "제작자 : 세페일",
+      "한글 패치 - 세페일"
     ],
     "patch_sources": [
-      "steamapp"
+      "steamapp",
+      "quasarplay"
     ],
     "source_site_urls": {
-      "steamapp": "https://hanpe.net/app/jvyg57/%E7%A5%9E%E6%A4%BF%E5%AD%B8%E5%9C%92%E6%96%B0%E8%81%9E%E9%83%A8kamitsubaki-academy-newspaper-club"
+      "steamapp": "https://hanpe.net/app/jvyg57/%E7%A5%9E%E6%A4%BF%E5%AD%B8%E5%9C%92%E6%96%B0%E8%81%9E%E9%83%A8kamitsubaki-academy-newspaper-club",
+      "quasarplay": "https://store.steampowered.com/app/3639970/?curator_clanid=42788178"
     }
   },
   "3641000": {
@@ -78309,7 +78450,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-08-27T00:24:43.717Z",
-    "total": 3645
+    "generated_at": "2026-08-29T03:02:24.926Z",
+    "total": 3651
   }
 }
