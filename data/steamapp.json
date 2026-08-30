@@ -730,10 +730,12 @@
     "source_site_url": "https://hanpe.net/app/415kzm/prototypetm",
     "patch_type": "user",
     "patch_links": [
-      "1d6c7c7f"
+      "1d6c7c7f",
+      "4cccea3e"
     ],
     "patch_descriptions": [
-      "waxenface님 제작 (75% 한국어화 패치)"
+      "waxenface님 제작 (75% 한국어화 패치)",
+      "제작자 : 정보없음"
     ]
   },
   {
@@ -1314,10 +1316,12 @@
     "source_site_url": "https://hanpe.net/app/4en79v/the-elder-scrolls-iii-morrowind-game-of-the-year-edition",
     "patch_type": "user",
     "patch_links": [
-      "af5aa876"
+      "af5aa876",
+      "55d36e9d"
     ],
     "patch_descriptions": [
-      "제작자 : 드로거"
+      "제작자 : 드로거",
+      "제작자 : 잔치1국수"
     ]
   },
   {
@@ -2882,9 +2886,11 @@
     "source_site_url": "https://hanpe.net/app/l7mg2v/prototype-2",
     "patch_type": "user",
     "patch_links": [
-      "86800a52"
+      "86800a52",
+      "4cccea3e"
     ],
     "patch_descriptions": [
+      "제작자 : 정보없음",
       "제작자 : 정보없음"
     ]
   },
@@ -5342,6 +5348,19 @@
     "patch_descriptions": [
       "제작자 : 정보없음",
       "제작자 : qhtjr, 살코기가좋아(salomanchicken)"
+    ]
+  },
+  {
+    "app_id": "248860",
+    "game_title": "NEO Scavenger",
+    "steam_link": "https://store.steampowered.com/app/248860",
+    "source_site_url": "https://hanpe.net/app/lzmevo/neo-scavenger",
+    "patch_type": "user",
+    "patch_links": [
+      "499894ba"
+    ],
+    "patch_descriptions": [
+      "제작자 : 레트로벤처"
     ]
   },
   {
@@ -14325,8 +14344,8 @@
       "828bceab"
     ],
     "patch_descriptions": [
-      "제작자 : 정보없음",
-      "제작자 : 정보없음"
+      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다)",
+      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다)"
     ]
   },
   {
@@ -24134,6 +24153,19 @@
     ]
   },
   {
+    "app_id": "1812390",
+    "game_title": "The Elder Scrolls II: Daggerfall",
+    "steam_link": "https://store.steampowered.com/app/1812390",
+    "source_site_url": "https://hanpe.net/app/jwkmwe/the-elder-scrolls-ii-daggerfall",
+    "patch_type": "user",
+    "patch_links": [
+      "4adb0f97"
+    ],
+    "patch_descriptions": [
+      "기존 한국어 번역 참여자(Discord): nogoodman tenacious_lynx_98045 nekonyo gunnerkim 현재 저장소 및 전체 번역 재구축: munument1 번역 파이프라인·검수 보조: OpenAI Codex"
+    ]
+  },
+  {
     "app_id": "1817560",
     "game_title": "VOIDCRISIS",
     "steam_link": "https://store.steampowered.com/app/1817560",
@@ -25596,6 +25628,19 @@
     ]
   },
   {
+    "app_id": "2059170",
+    "game_title": "Quasimorph",
+    "steam_link": "https://store.steampowered.com/app/2059170",
+    "source_site_url": "https://hanpe.net/app/j0qqv6/quasimorph",
+    "patch_type": "user",
+    "patch_links": [
+      "6be5cb14"
+    ],
+    "patch_descriptions": [
+      "공식 한글 개선 패치 제작자 : norubal"
+    ]
+  },
+  {
     "app_id": "2066240",
     "game_title": "Bughouse",
     "steam_link": "https://store.steampowered.com/app/2066240",
@@ -26136,12 +26181,12 @@
     "game_title": "Fields of Mistria",
     "steam_link": "https://store.steampowered.com/app/2142790",
     "source_site_url": "https://hanpe.net/app/415pwp/fields-of-mistria",
-    "patch_type": "user",
+    "patch_type": "official",
     "patch_links": [
       "31aa84cb"
     ],
     "patch_descriptions": [
-      "제작자 : 마그마 번역기를 이용한 한글화"
+      "제작자 : 마그마 번역기를 이용한 한글화 // 공식한글베타"
     ]
   },
   {
@@ -29034,7 +29079,7 @@
       "fda97e73"
     ],
     "patch_descriptions": [
-      "제작자 : 정보없음"
+      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다)"
     ]
   },
   {
@@ -34907,6 +34952,19 @@
     ]
   },
   {
+    "app_id": "4056810",
+    "game_title": "东北往事",
+    "steam_link": "https://store.steampowered.com/app/4056810",
+    "source_site_url": "https://hanpe.net/app/4ggzy6/%E4%B8%9C%E5%8C%97%E5%BE%80%E4%BA%8B",
+    "patch_type": "user",
+    "patch_links": [
+      "65555277"
+    ],
+    "patch_descriptions": [
+      "공식 한글 개선 패치 제작자 : 호트구트"
+    ]
+  },
+  {
     "app_id": "4064510",
     "game_title": "MOLE",
     "steam_link": "https://store.steampowered.com/app/4064510",
@@ -35683,6 +35741,19 @@
     ],
     "patch_descriptions": [
       "데모판 한글화 제작자 : 케드르"
+    ]
+  },
+  {
+    "app_id": "4630570",
+    "game_title": "RUNNING TRAIN | 走ル列車！",
+    "steam_link": "https://store.steampowered.com/app/4630570",
+    "source_site_url": "https://hanpe.net/app/4rk6e2/running-train-%E8%B5%B0%E3%83%AB%E5%88%97%E8%BB%8A",
+    "patch_type": "user",
+    "patch_links": [
+      "129c95e2"
+    ],
+    "patch_descriptions": [
+      "제작자 : Pixel4a"
     ]
   },
   {
