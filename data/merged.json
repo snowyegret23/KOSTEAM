@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-08-30T23:05:39.165Z",
-    "total_with_steam_link": 3653,
+    "generated_at": "2026-09-02T22:57:53.873Z",
+    "total_with_steam_link": 3657,
     "total_without_steam_link": 9,
     "sources": [
       "steamapp",
@@ -1084,27 +1084,6 @@
       ]
     },
     {
-      "app_id": "2684630",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/2684630/Endacopia/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - 으잌"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/2684630/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
       "app_id": "3374720",
       "game_title": "",
       "steam_link": "https://store.steampowered.com/app/3374720/Tales_Beyond_The_Tomb__The_Farms_Secret/",
@@ -1330,48 +1309,6 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/866400/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "3667230",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/3667230/The_Deadseat/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - 으잌"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/3667230/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "3751730",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/3751730/Loan_Shark/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - 으잌"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/3751730/?curator_clanid=30894603"
       },
       "sources": [
         "quasarplay"
@@ -21824,10 +21761,10 @@
       "steam_link": "https://store.steampowered.com/app/1045620",
       "patch_type": "user",
       "patch_links": [
-        "4e8b94e0"
+        "deeafe4c"
       ],
       "patch_descriptions": [
-        "제작자 : 아갤"
+        "제작자 : 아갤러"
       ],
       "patch_sources": [
         "steamapp"
@@ -24965,6 +24902,27 @@
       ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/4qe01z/blue-reflection"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "3825390",
+      "game_title": "BLUE REFLECTION Quartet",
+      "steam_link": "https://store.steampowered.com/app/3825390",
+      "patch_type": "user",
+      "patch_links": [
+        "f8420e1a"
+      ],
+      "patch_descriptions": [
+        "제작자 :피아냐좋아"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4ygrm6/blue-reflection-quartet"
       },
       "sources": [
         "steamapp"
@@ -34317,6 +34275,32 @@
       ]
     },
     {
+      "app_id": "2684630",
+      "game_title": "Endacopia",
+      "steam_link": "https://store.steampowered.com/app/2684630",
+      "patch_type": "user",
+      "patch_links": [
+        "ca079d60",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 으잌",
+        "한글 패치 - 으잌"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/lz0wo7/endacopia",
+        "quasarplay": "https://store.steampowered.com/app/2684630/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "3623050",
       "game_title": "Ending the Happy Route",
       "steam_link": "https://store.steampowered.com/app/3623050",
@@ -39412,6 +39396,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "1217060",
+      "game_title": "Gunfire Reborn",
+      "steam_link": "https://store.steampowered.com/app/1217060",
+      "patch_type": "user",
+      "patch_links": [
+        "d2ae6722"
+      ],
+      "patch_descriptions": [
+        "제작자 : 정보없음"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4exvz1/gunfire-reborn"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -47022,6 +47027,32 @@
       ]
     },
     {
+      "app_id": "3751730",
+      "game_title": "Loan Shark",
+      "steam_link": "https://store.steampowered.com/app/3751730",
+      "patch_type": "user",
+      "patch_links": [
+        "58dc7267",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 으잌",
+        "한글 패치 - 으잌"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jn38m6/loan-shark",
+        "quasarplay": "https://store.steampowered.com/app/3751730/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "2780980",
       "game_title": "LOCKDOWN Protocol",
       "steam_link": "https://store.steampowered.com/app/2780980",
@@ -51992,6 +52023,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "1647550",
+      "game_title": "NEO: The World Ends with You",
+      "steam_link": "https://store.steampowered.com/app/1647550",
+      "patch_type": "user",
+      "patch_links": [
+        "df589be9"
+      ],
+      "patch_descriptions": [
+        "제작자 : 킹갤러"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4ekzkx/neo-the-world-ends-with-you"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -68511,6 +68563,32 @@
       ]
     },
     {
+      "app_id": "3667230",
+      "game_title": "The Deadseat",
+      "steam_link": "https://store.steampowered.com/app/3667230",
+      "patch_type": "user",
+      "patch_links": [
+        "a1d277d9",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 으잌",
+        "한글 패치 - 으잌"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/lxkkw7/the-deadseat",
+        "quasarplay": "https://store.steampowered.com/app/3667230/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "420740",
       "game_title": "The Deed",
       "steam_link": "https://store.steampowered.com/app/420740",
@@ -72896,6 +72974,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "569860",
+      "game_title": "Thimbleweed Park™",
+      "steam_link": "https://store.steampowered.com/app/569860",
+      "patch_type": "user",
+      "patch_links": [
+        "c621abde"
+      ],
+      "patch_descriptions": [
+        "제작자 : scha00"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4qn1m9/thimbleweed-parktm"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {

@@ -22759,6 +22759,24 @@
       "steamapp": "https://hanpe.net/app/jn379n/danganronpa-v3-killing-harmony"
     }
   },
+  "569860": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "c621abde"
+    ],
+    "patch_descriptions": [
+      "제작자 : scha00"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4qn1m9/thimbleweed-parktm"
+    }
+  },
   "570840": {
     "type": "user",
     "sources": [
@@ -32822,10 +32840,10 @@
       "steamapp"
     ],
     "links": [
-      "4e8b94e0"
+      "deeafe4c"
     ],
     "patch_descriptions": [
-      "제작자 : 아갤"
+      "제작자 : 아갤러"
     ],
     "patch_sources": [
       "steamapp"
@@ -37095,6 +37113,24 @@
     ],
     "source_site_urls": {
       "quasarplay": "https://store.steampowered.com/app/1216710/?curator_clanid=30894603"
+    }
+  },
+  "1217060": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "d2ae6722"
+    ],
+    "patch_descriptions": [
+      "제작자 : 정보없음"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4exvz1/gunfire-reborn"
     }
   },
   "1220140": {
@@ -45569,6 +45605,24 @@
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/lx5zv7/spacebourne-2",
       "quasarplay": "https://store.steampowered.com/app/1646850/?curator_clanid=42788178"
+    }
+  },
+  "1647550": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "df589be9"
+    ],
+    "patch_descriptions": [
+      "제작자 : 킹갤러"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4ekzkx/neo-the-world-ends-with-you"
     }
   },
   "1651490": {
@@ -61871,18 +61925,23 @@
   "2684630": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "ca079d60",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 으잌",
       "한글 패치 - 으잌"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/lz0wo7/endacopia",
       "quasarplay": "https://store.steampowered.com/app/2684630/?curator_clanid=30894603"
     }
   },
@@ -74296,18 +74355,23 @@
   "3667230": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "a1d277d9",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 으잌",
       "한글 패치 - 으잌"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/lxkkw7/the-deadseat",
       "quasarplay": "https://store.steampowered.com/app/3667230/?curator_clanid=30894603"
     }
   },
@@ -74852,18 +74916,23 @@
   "3751730": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "58dc7267",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 으잌",
       "한글 패치 - 으잌"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jn38m6/loan-shark",
       "quasarplay": "https://store.steampowered.com/app/3751730/?curator_clanid=30894603"
     }
   },
@@ -75275,6 +75344,24 @@
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/jpqr2k/vigil",
       "quasarplay": "https://store.steampowered.com/app/3817090/?curator_clanid=30894603"
+    }
+  },
+  "3825390": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "f8420e1a"
+    ],
+    "patch_descriptions": [
+      "제작자 :피아냐좋아"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4ygrm6/blue-reflection-quartet"
     }
   },
   "3831120": {
@@ -78510,7 +78597,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-08-30T23:05:39.165Z",
-    "total": 3653
+    "generated_at": "2026-09-02T22:57:53.873Z",
+    "total": 3657
   }
 }

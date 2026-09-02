@@ -12571,6 +12571,19 @@
     ]
   },
   {
+    "app_id": "569860",
+    "game_title": "Thimbleweed Park™",
+    "steam_link": "https://store.steampowered.com/app/569860",
+    "source_site_url": "https://hanpe.net/app/4qn1m9/thimbleweed-parktm",
+    "patch_type": "user",
+    "patch_links": [
+      "c621abde"
+    ],
+    "patch_descriptions": [
+      "제작자 : scha00"
+    ]
+  },
+  {
     "app_id": "570840",
     "game_title": "家有大貓 Nekojishi",
     "steam_link": "https://store.steampowered.com/app/570840",
@@ -17581,10 +17594,10 @@
     "source_site_url": "https://hanpe.net/app/jp83zm/atelier-lulua-the-scion-of-arland",
     "patch_type": "user",
     "patch_links": [
-      "4e8b94e0"
+      "deeafe4c"
     ],
     "patch_descriptions": [
-      "제작자 : 아갤"
+      "제작자 : 아갤러"
     ]
   },
   {
@@ -19553,6 +19566,19 @@
     ],
     "patch_descriptions": [
       "제작자 :kozak"
+    ]
+  },
+  {
+    "app_id": "1217060",
+    "game_title": "Gunfire Reborn",
+    "steam_link": "https://store.steampowered.com/app/1217060",
+    "source_site_url": "https://hanpe.net/app/4exvz1/gunfire-reborn",
+    "patch_type": "user",
+    "patch_links": [
+      "d2ae6722"
+    ],
+    "patch_descriptions": [
+      "제작자 : 정보없음"
     ]
   },
   {
@@ -23033,6 +23059,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 한무테"
+    ]
+  },
+  {
+    "app_id": "1647550",
+    "game_title": "NEO: The World Ends with You",
+    "steam_link": "https://store.steampowered.com/app/1647550",
+    "source_site_url": "https://hanpe.net/app/4ekzkx/neo-the-world-ends-with-you",
+    "patch_type": "user",
+    "patch_links": [
+      "df589be9"
+    ],
+    "patch_descriptions": [
+      "제작자 : 킹갤러"
     ]
   },
   {
@@ -29152,6 +29191,19 @@
     ]
   },
   {
+    "app_id": "2684630",
+    "game_title": "Endacopia",
+    "steam_link": "https://store.steampowered.com/app/2684630",
+    "source_site_url": "https://hanpe.net/app/lz0wo7/endacopia",
+    "patch_type": "user",
+    "patch_links": [
+      "ca079d60"
+    ],
+    "patch_descriptions": [
+      "제작자 : 으잌"
+    ]
+  },
+  {
     "app_id": "2688570",
     "game_title": "The Inn-Sanity",
     "steam_link": "https://store.steampowered.com/app/2688570",
@@ -34040,6 +34092,19 @@
     ]
   },
   {
+    "app_id": "3667230",
+    "game_title": "The Deadseat",
+    "steam_link": "https://store.steampowered.com/app/3667230",
+    "source_site_url": "https://hanpe.net/app/lxkkw7/the-deadseat",
+    "patch_type": "user",
+    "patch_links": [
+      "a1d277d9"
+    ],
+    "patch_descriptions": [
+      "제작자 : 으잌"
+    ]
+  },
+  {
     "app_id": "3669200",
     "game_title": "Guildrun",
     "steam_link": "https://store.steampowered.com/app/3669200",
@@ -34261,6 +34326,19 @@
     ]
   },
   {
+    "app_id": "3751730",
+    "game_title": "Loan Shark",
+    "steam_link": "https://store.steampowered.com/app/3751730",
+    "source_site_url": "https://hanpe.net/app/jn38m6/loan-shark",
+    "patch_type": "user",
+    "patch_links": [
+      "58dc7267"
+    ],
+    "patch_descriptions": [
+      "제작자 : 으잌"
+    ]
+  },
+  {
     "app_id": "3755860",
     "game_title": "BLACK SOULS",
     "steam_link": "https://store.steampowered.com/app/3755860",
@@ -34466,6 +34544,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 으잌"
+    ]
+  },
+  {
+    "app_id": "3825390",
+    "game_title": "BLUE REFLECTION Quartet",
+    "steam_link": "https://store.steampowered.com/app/3825390",
+    "source_site_url": "https://hanpe.net/app/4ygrm6/blue-reflection-quartet",
+    "patch_type": "user",
+    "patch_links": [
+      "f8420e1a"
+    ],
+    "patch_descriptions": [
+      "제작자 :피아냐좋아"
     ]
   },
   {
