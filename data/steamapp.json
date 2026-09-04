@@ -91,6 +91,19 @@
     ]
   },
   {
+    "app_id": "1620",
+    "game_title": "Jagged Alliance 2 Gold",
+    "steam_link": "https://store.steampowered.com/app/1620",
+    "source_site_url": "https://hanpe.net/app/4g20n6/jagged-alliance-2-gold",
+    "patch_type": "user",
+    "patch_links": [
+      "37af47dc"
+    ],
+    "patch_descriptions": [
+      "제작자 : 잔치1국수"
+    ]
+  },
+  {
     "app_id": "1690",
     "game_title": "Space Empires V",
     "steam_link": "https://store.steampowered.com/app/1690",
@@ -953,6 +966,19 @@
     ]
   },
   {
+    "app_id": "15390",
+    "game_title": "Brothers in Arms: Hell's Highway™",
+    "steam_link": "https://store.steampowered.com/app/15390",
+    "source_site_url": "https://hanpe.net/app/l3rgrz/brothers-in-arms-hells-highwaytm",
+    "patch_type": "user",
+    "patch_links": [
+      "ddfd83e1"
+    ],
+    "patch_descriptions": [
+      "제작자 : KOZAK"
+    ]
+  },
+  {
     "app_id": "15400",
     "game_title": "Harvest: Massive Encounter",
     "steam_link": "https://store.steampowered.com/app/15400",
@@ -1173,6 +1199,19 @@
     ],
     "patch_descriptions": [
       "디지님 블로그"
+    ]
+  },
+  {
+    "app_id": "19800",
+    "game_title": "Brothers in Arms: Earned in Blood™",
+    "steam_link": "https://store.steampowered.com/app/19800",
+    "source_site_url": "https://hanpe.net/app/j9ng53/brothers-in-arms-earned-in-bloodtm",
+    "patch_type": "user",
+    "patch_links": [
+      "19a28f53"
+    ],
+    "patch_descriptions": [
+      "제작자 : KOZAK"
     ]
   },
   {
@@ -5390,6 +5429,19 @@
     ]
   },
   {
+    "app_id": "249330",
+    "game_title": "Unholy Heights",
+    "steam_link": "https://store.steampowered.com/app/249330",
+    "source_site_url": "https://hanpe.net/app/46godn/unholy-heights",
+    "patch_type": "user",
+    "patch_links": [
+      "6b62bf66"
+    ],
+    "patch_descriptions": [
+      "제작자 : 안되면말고"
+    ]
+  },
+  {
     "app_id": "249570",
     "game_title": "The Castle Doctrine",
     "steam_link": "https://store.steampowered.com/app/249570",
@@ -5910,6 +5962,19 @@
     ],
     "patch_descriptions": [
       "제작: 프기니 번역: 김민성"
+    ]
+  },
+  {
+    "app_id": "260730",
+    "game_title": "Desperados: Wanted Dead or Alive",
+    "steam_link": "https://store.steampowered.com/app/260730",
+    "source_site_url": "https://hanpe.net/app/jwq5z7/desperados-wanted-dead-or-alive",
+    "patch_type": "user",
+    "patch_links": [
+      "a9cbff68"
+    ],
+    "patch_descriptions": [
+      "제작자 : 노말리토"
     ]
   },
   {
@@ -7626,6 +7691,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 정보없음"
+    ]
+  },
+  {
+    "app_id": "322190",
+    "game_title": "SteamWorld Heist",
+    "steam_link": "https://store.steampowered.com/app/322190",
+    "source_site_url": "https://hanpe.net/app/4r021o/steamworld-heist",
+    "patch_type": "user",
+    "patch_links": [
+      "297197b6"
+    ],
+    "patch_descriptions": [
+      "제작자 : 한국어 패치 저장소"
     ]
   },
   {
@@ -10531,6 +10609,19 @@
     ],
     "patch_descriptions": [
       "다이렉트 게임즈 독점 한국어화 패치"
+    ]
+  },
+  {
+    "app_id": "438490",
+    "game_title": "GOD EATER 2 Rage Burst",
+    "steam_link": "https://store.steampowered.com/app/438490",
+    "source_site_url": "https://hanpe.net/app/4yk650/god-eater-2-rage-burst",
+    "patch_type": "user",
+    "patch_links": [
+      "1949f217"
+    ],
+    "patch_descriptions": [
+      "제작자 : Rein-ArXiv"
     ]
   },
   {
@@ -15322,6 +15413,19 @@
     ]
   },
   {
+    "app_id": "804010",
+    "game_title": "SteamWorld Quest: Hand of Gilgamech",
+    "steam_link": "https://store.steampowered.com/app/804010",
+    "source_site_url": "https://hanpe.net/app/l3p28z/steamworld-quest-hand-of-gilgamech",
+    "patch_type": "user",
+    "patch_links": [
+      "65d7c96e"
+    ],
+    "patch_descriptions": [
+      "제작자 : 한국어 패치 저장소"
+    ]
+  },
+  {
     "app_id": "809020",
     "game_title": "ZeroRanger",
     "steam_link": "https://store.steampowered.com/app/809020",
@@ -16346,6 +16450,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 정보없음"
+    ]
+  },
+  {
+    "app_id": "921780",
+    "game_title": "The Dark Occult",
+    "steam_link": "https://store.steampowered.com/app/921780",
+    "source_site_url": "https://hanpe.net/app/468v7x/the-dark-occult",
+    "patch_type": "user",
+    "patch_links": [
+      "9e4e1133"
+    ],
+    "patch_descriptions": [
+      "제작자 : 김까까"
     ]
   },
   {
@@ -19578,7 +19695,7 @@
       "d2ae6722"
     ],
     "patch_descriptions": [
-      "제작자 : 정보없음"
+      "공식 한글 개선 패치"
     ]
   },
   {
@@ -19959,6 +20076,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 장석"
+    ]
+  },
+  {
+    "app_id": "1262600",
+    "game_title": "Need for Speed™ Rivals",
+    "steam_link": "https://store.steampowered.com/app/1262600",
+    "source_site_url": "https://hanpe.net/app/jmpg6o/need-for-speedtm-rivals",
+    "patch_type": "user",
+    "patch_links": [
+      "7625903d"
+    ],
+    "patch_descriptions": [
+      "제작자 : 노말리토"
     ]
   },
   {
@@ -21897,6 +22027,19 @@
     ],
     "patch_descriptions": [
       "제작자 : Pio"
+    ]
+  },
+  {
+    "app_id": "1502080",
+    "game_title": "ALTDEUS: Beyond Chronos",
+    "steam_link": "https://store.steampowered.com/app/1502080",
+    "source_site_url": "https://hanpe.net/app/jpo6wo/altdeus-beyond-chronos",
+    "patch_type": "user",
+    "patch_links": [
+      "21833b8b"
+    ],
+    "patch_descriptions": [
+      "제작자 : 킹랑"
     ]
   },
   {
@@ -30145,6 +30288,19 @@
     ]
   },
   {
+    "app_id": "2836990",
+    "game_title": "Drunken Rogue",
+    "steam_link": "https://store.steampowered.com/app/2836990",
+    "source_site_url": "https://hanpe.net/app/4qm8pe/drunken-rogue",
+    "patch_type": "user",
+    "patch_links": [
+      "fe02fa27"
+    ],
+    "patch_descriptions": [
+      "데모판 한글화 제작자 : Pixel4a"
+    ]
+  },
+  {
     "app_id": "2839280",
     "game_title": "Natsu-Mon: 20th Century Summer Kid",
     "steam_link": "https://store.steampowered.com/app/2839280",
@@ -31158,9 +31314,9 @@
   },
   {
     "app_id": "3020510",
-    "game_title": "Legend of Heroes: Three Kingdoms",
+    "game_title": "Heroes' Vow: Three Kingdoms",
     "steam_link": "https://store.steampowered.com/app/3020510",
-    "source_site_url": "https://hanpe.net/app/lxkwqy/legend-of-heroes-three-kingdoms",
+    "source_site_url": "https://hanpe.net/app/lxkwqy/heroes-vow-three-kingdoms",
     "patch_type": "user",
     "patch_links": [
       "7e5084b9"
@@ -33012,6 +33168,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 복소기하학"
+    ]
+  },
+  {
+    "app_id": "3382750",
+    "game_title": "Dark of the Depths",
+    "steam_link": "https://store.steampowered.com/app/3382750",
+    "source_site_url": "https://hanpe.net/app/jprevw/dark-of-the-depths",
+    "patch_type": "user",
+    "patch_links": [
+      "f1328474"
+    ],
+    "patch_descriptions": [
+      "제작자 : 김까까"
     ]
   },
   {
@@ -35611,10 +35780,12 @@
     "source_site_url": "https://hanpe.net/app/j86e68/barking-from-the-dark",
     "patch_type": "user",
     "patch_links": [
-      "302089d3"
+      "302089d3",
+      "9563df66"
     ],
     "patch_descriptions": [
-      "제작자 : 정보없음"
+      "제작자 : 정보없음",
+      "제작자 : 김까까"
     ]
   },
   {
@@ -35835,6 +36006,19 @@
     ]
   },
   {
+    "app_id": "4609630",
+    "game_title": "Yokai Crossing",
+    "steam_link": "https://store.steampowered.com/app/4609630",
+    "source_site_url": "https://hanpe.net/app/j8pz58/yokai-crossing",
+    "patch_type": "user",
+    "patch_links": [
+      "6d4dbaf7"
+    ],
+    "patch_descriptions": [
+      "데모판 한글화 제작자 : 김까까"
+    ]
+  },
+  {
     "app_id": "4630570",
     "game_title": "RUNNING TRAIN | 走ル列車！",
     "steam_link": "https://store.steampowered.com/app/4630570",
@@ -35871,6 +36055,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 김까까"
+    ]
+  },
+  {
+    "app_id": "4683360",
+    "game_title": "Draco Blade",
+    "steam_link": "https://store.steampowered.com/app/4683360",
+    "source_site_url": "https://hanpe.net/app/l303rr/draco-blade",
+    "patch_type": "user",
+    "patch_links": [
+      "ddb24785"
+    ],
+    "patch_descriptions": [
+      "데모판 한글화"
     ]
   },
   {

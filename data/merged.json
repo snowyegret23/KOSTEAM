@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-09-02T22:57:53.873Z",
-    "total_with_steam_link": 3657,
-    "total_without_steam_link": 9,
+    "generated_at": "2026-09-04T22:45:53.807Z",
+    "total_with_steam_link": 3665,
+    "total_without_steam_link": 10,
     "sources": [
       "steamapp",
       "quasarzone",
@@ -1042,48 +1042,6 @@
       ]
     },
     {
-      "app_id": "921780",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/921780/The_Dark_Occult/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - 김까까"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/921780/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "3382750",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/3382750/Dark_of_the_Depths/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - 김까까"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/3382750/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
       "app_id": "3374720",
       "game_title": "",
       "steam_link": "https://store.steampowered.com/app/3374720/Tales_Beyond_The_Tomb__The_Farms_Secret/",
@@ -1126,27 +1084,6 @@
       ]
     },
     {
-      "app_id": "249330",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/249330/Unholy_Heights/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - 안되면말고"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/249330/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
       "app_id": "268870",
       "game_title": "",
       "steam_link": "https://store.steampowered.com/app/268870/Satellite_Reign/",
@@ -1183,90 +1120,6 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/1146370/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "322190",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/322190/SteamWorld_Heist/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - 엘"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/322190/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "804010",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/804010/SteamWorld_Quest_Hand_of_Gilgamech/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - 엘"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/804010/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "19800",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/19800/Brothers_in_Arms_Earned_in_Blood/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - KOZAK"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/19800/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "15390",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/15390/Brothers_in_Arms_Hells_Highway/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - KOZAK"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/15390/?curator_clanid=30894603"
       },
       "sources": [
         "quasarplay"
@@ -19881,6 +19734,27 @@
       ]
     },
     {
+      "app_id": "1502080",
+      "game_title": "ALTDEUS: Beyond Chronos",
+      "steam_link": "https://store.steampowered.com/app/1502080",
+      "patch_type": "user",
+      "patch_links": [
+        "21833b8b"
+      ],
+      "patch_descriptions": [
+        "제작자 : 킹랑"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jpo6wo/altdeus-beyond-chronos"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "549260",
       "game_title": "Alwa's Awakening",
       "steam_link": "https://store.steampowered.com/app/549260",
@@ -22825,13 +22699,16 @@
       "patch_type": "user",
       "patch_links": [
         "302089d3",
+        "9563df66",
         "exist"
       ],
       "patch_descriptions": [
         "제작자 : 정보없음",
+        "제작자 : 김까까",
         "한글 패치 - 김까까\n한글 패치 - B0614"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "quasarplay"
       ],
@@ -25446,6 +25323,58 @@
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/j02506/broken-sword-shadow-of-the-templars-reforged",
         "quasarplay": "https://store.steampowered.com/app/2544110/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "19800",
+      "game_title": "Brothers in Arms: Earned in Blood™",
+      "steam_link": "https://store.steampowered.com/app/19800",
+      "patch_type": "user",
+      "patch_links": [
+        "19a28f53",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : KOZAK",
+        "한글 패치 - KOZAK"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j9ng53/brothers-in-arms-earned-in-bloodtm",
+        "quasarplay": "https://store.steampowered.com/app/19800/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "15390",
+      "game_title": "Brothers in Arms: Hell's Highway™",
+      "steam_link": "https://store.steampowered.com/app/15390",
+      "patch_type": "user",
+      "patch_links": [
+        "ddfd83e1",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : KOZAK",
+        "한글 패치 - KOZAK"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l3rgrz/brothers-in-arms-hells-highwaytm",
+        "quasarplay": "https://store.steampowered.com/app/15390/?curator_clanid=30894603"
       },
       "sources": [
         "steamapp",
@@ -29408,6 +29337,32 @@
       ]
     },
     {
+      "app_id": "3382750",
+      "game_title": "Dark of the Depths",
+      "steam_link": "https://store.steampowered.com/app/3382750",
+      "patch_type": "user",
+      "patch_links": [
+        "f1328474",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 김까까",
+        "한글 패치 - 김까까"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jprevw/dark-of-the-depths",
+        "quasarplay": "https://store.steampowered.com/app/3382750/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "723930",
       "game_title": "Dark Romance: Vampire in Love Collector's Edition",
       "steam_link": "https://store.steampowered.com/app/723930",
@@ -30967,6 +30922,27 @@
       ]
     },
     {
+      "app_id": "260730",
+      "game_title": "Desperados: Wanted Dead or Alive",
+      "steam_link": "https://store.steampowered.com/app/260730",
+      "patch_type": "user",
+      "patch_links": [
+        "a9cbff68"
+      ],
+      "patch_descriptions": [
+        "제작자 : 노말리토"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jwq5z7/desperados-wanted-dead-or-alive"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "399790",
       "game_title": "Destiny Warriors RPG",
       "steam_link": "https://store.steampowered.com/app/399790",
@@ -32400,6 +32376,27 @@
       ]
     },
     {
+      "app_id": "4683360",
+      "game_title": "Draco Blade",
+      "steam_link": "https://store.steampowered.com/app/4683360",
+      "patch_type": "user",
+      "patch_links": [
+        "ddb24785"
+      ],
+      "patch_descriptions": [
+        "데모판 한글화"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l303rr/draco-blade"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "396790",
       "game_title": "Dracula's Legacy",
       "steam_link": "https://store.steampowered.com/app/396790",
@@ -33051,6 +33048,27 @@
         "steamapp",
         "quasarplay",
         "stove"
+      ]
+    },
+    {
+      "app_id": "2836990",
+      "game_title": "Drunken Rogue",
+      "steam_link": "https://store.steampowered.com/app/2836990",
+      "patch_type": "user",
+      "patch_links": [
+        "fe02fa27"
+      ],
+      "patch_descriptions": [
+        "데모판 한글화 제작자 : Pixel4a"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4qm8pe/drunken-rogue"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -38439,6 +38457,27 @@
       ]
     },
     {
+      "app_id": "438490",
+      "game_title": "GOD EATER 2 Rage Burst",
+      "steam_link": "https://store.steampowered.com/app/438490",
+      "patch_type": "user",
+      "patch_links": [
+        "1949f217"
+      ],
+      "patch_descriptions": [
+        "제작자 : Rein-ArXiv"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4yk650/god-eater-2-rage-burst"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "797660",
       "game_title": "God Test",
       "steam_link": "https://store.steampowered.com/app/797660",
@@ -39407,7 +39446,7 @@
         "d2ae6722"
       ],
       "patch_descriptions": [
-        "제작자 : 정보없음"
+        "공식 한글 개선 패치"
       ],
       "patch_sources": [
         "steamapp"
@@ -40624,6 +40663,27 @@
       ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/j8oew8/heroes-of-might-magic-v"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "3020510",
+      "game_title": "Heroes' Vow: Three Kingdoms",
+      "steam_link": "https://store.steampowered.com/app/3020510",
+      "patch_type": "user",
+      "patch_links": [
+        "7e5084b9"
+      ],
+      "patch_descriptions": [
+        "제작자 : 짬라이거"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/lxkwqy/heroes-vow-three-kingdoms"
       },
       "sources": [
         "steamapp"
@@ -43971,6 +44031,27 @@
       ]
     },
     {
+      "app_id": "1620",
+      "game_title": "Jagged Alliance 2 Gold",
+      "steam_link": "https://store.steampowered.com/app/1620",
+      "patch_type": "user",
+      "patch_links": [
+        "37af47dc"
+      ],
+      "patch_descriptions": [
+        "제작자 : 잔치1국수"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4g20n6/jagged-alliance-2-gold"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "1084160",
       "game_title": "Jagged Alliance 3",
       "steam_link": "https://store.steampowered.com/app/1084160",
@@ -46074,27 +46155,6 @@
       "sources": [
         "steamapp",
         "quasarplay"
-      ]
-    },
-    {
-      "app_id": "3020510",
-      "game_title": "Legend of Heroes: Three Kingdoms",
-      "steam_link": "https://store.steampowered.com/app/3020510",
-      "patch_type": "user",
-      "patch_links": [
-        "7e5084b9"
-      ],
-      "patch_descriptions": [
-        "제작자 : 짬라이거"
-      ],
-      "patch_sources": [
-        "steamapp"
-      ],
-      "source_site_urls": {
-        "steamapp": "https://hanpe.net/app/lxkwqy/legend-of-heroes-three-kingdoms"
-      },
-      "sources": [
-        "steamapp"
       ]
     },
     {
@@ -51742,6 +51802,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "1262600",
+      "game_title": "Need for Speed™ Rivals",
+      "steam_link": "https://store.steampowered.com/app/1262600",
+      "patch_type": "user",
+      "patch_links": [
+        "7625903d"
+      ],
+      "patch_descriptions": [
+        "제작자 : 노말리토"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jmpg6o/need-for-speedtm-rivals"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -64816,6 +64897,58 @@
       ]
     },
     {
+      "app_id": "322190",
+      "game_title": "SteamWorld Heist",
+      "steam_link": "https://store.steampowered.com/app/322190",
+      "patch_type": "user",
+      "patch_links": [
+        "297197b6",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 한국어 패치 저장소",
+        "한글 패치 - 엘"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4r021o/steamworld-heist",
+        "quasarplay": "https://store.steampowered.com/app/322190/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "804010",
+      "game_title": "SteamWorld Quest: Hand of Gilgamech",
+      "steam_link": "https://store.steampowered.com/app/804010",
+      "patch_type": "user",
+      "patch_links": [
+        "65d7c96e",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 한국어 패치 저장소",
+        "한글 패치 - 엘"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l3p28z/steamworld-quest-hand-of-gilgamech",
+        "quasarplay": "https://store.steampowered.com/app/804010/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "572410",
       "game_title": "Steel Division: Normandy 44",
       "steam_link": "https://store.steampowered.com/app/572410",
@@ -68368,6 +68501,32 @@
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/jw1670/the-curse-of-monkey-island",
         "quasarplay": "https://store.steampowered.com/app/730820/?curator_clanid=42788178"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "921780",
+      "game_title": "The Dark Occult",
+      "steam_link": "https://store.steampowered.com/app/921780",
+      "patch_type": "user",
+      "patch_links": [
+        "9e4e1133",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 김까까",
+        "한글 패치 - 김까까"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/468v7x/the-dark-occult",
+        "quasarplay": "https://store.steampowered.com/app/921780/?curator_clanid=30894603"
       },
       "sources": [
         "steamapp",
@@ -75360,6 +75519,32 @@
       ]
     },
     {
+      "app_id": "249330",
+      "game_title": "Unholy Heights",
+      "steam_link": "https://store.steampowered.com/app/249330",
+      "patch_type": "user",
+      "patch_links": [
+        "6b62bf66",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 안되면말고",
+        "한글 패치 - 안되면말고"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/46godn/unholy-heights",
+        "quasarplay": "https://store.steampowered.com/app/249330/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "809230",
       "game_title": "Unity of Command II",
       "steam_link": "https://store.steampowered.com/app/809230",
@@ -78801,6 +78986,27 @@
         "steamapp",
         "quasarplay",
         "stove"
+      ]
+    },
+    {
+      "app_id": "4609630",
+      "game_title": "Yokai Crossing",
+      "steam_link": "https://store.steampowered.com/app/4609630",
+      "patch_type": "user",
+      "patch_links": [
+        "6d4dbaf7"
+      ],
+      "patch_descriptions": [
+        "데모판 한글화 제작자 : 김까까"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j8pz58/yokai-crossing"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -89672,6 +89878,25 @@
       ],
       "source_site_urls": {
         "stove": "https://store.onstove.com/ko/games/102720"
+      },
+      "sources": [
+        "stove"
+      ]
+    },
+    {
+      "game_title": "스카이 더 스크레이퍼 (SKY THE SCRAPER)",
+      "patch_type": "official",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        ""
+      ],
+      "patch_sources": [
+        "stove"
+      ],
+      "source_site_urls": {
+        "stove": "https://store.onstove.com/ko/games/105321"
       },
       "sources": [
         "stove"

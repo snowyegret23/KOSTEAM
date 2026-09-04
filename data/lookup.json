@@ -155,6 +155,24 @@
       "quasarplay": "https://store.steampowered.com/app/1510/?curator_clanid=30894603"
     }
   },
+  "1620": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "37af47dc"
+    ],
+    "patch_descriptions": [
+      "제작자 : 잔치1국수"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4g20n6/jagged-alliance-2-gold"
+    }
+  },
   "1690": {
     "type": "user",
     "sources": [
@@ -1632,18 +1650,23 @@
   "15390": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "ddfd83e1",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : KOZAK",
       "한글 패치 - KOZAK"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/l3rgrz/brothers-in-arms-hells-highwaytm",
       "quasarplay": "https://store.steampowered.com/app/15390/?curator_clanid=30894603"
     }
   },
@@ -2037,18 +2060,23 @@
   "19800": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "19a28f53",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : KOZAK",
       "한글 패치 - KOZAK"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j9ng53/brothers-in-arms-earned-in-bloodtm",
       "quasarplay": "https://store.steampowered.com/app/19800/?curator_clanid=30894603"
     }
   },
@@ -9373,18 +9401,23 @@
   "249330": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "6b62bf66",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 안되면말고",
       "한글 패치 - 안되면말고"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/46godn/unholy-heights",
       "quasarplay": "https://store.steampowered.com/app/249330/?curator_clanid=30894603"
     }
   },
@@ -10319,6 +10352,24 @@
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/jpg13w/valiant-hearts-the-great-wartm-soldats-inconnus-m%C3%A9moires-de-la-grande-guerretm",
       "quasarplay": "https://store.steampowered.com/app/260230/?curator_clanid=42788178"
+    }
+  },
+  "260730": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "a9cbff68"
+    ],
+    "patch_descriptions": [
+      "제작자 : 노말리토"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jwq5z7/desperados-wanted-dead-or-alive"
     }
   },
   "261030": {
@@ -13389,18 +13440,23 @@
   "322190": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "297197b6",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 한국어 패치 저장소",
       "한글 패치 - 엘"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4r021o/steamworld-heist",
       "quasarplay": "https://store.steampowered.com/app/322190/?curator_clanid=30894603"
     }
   },
@@ -18905,6 +18961,24 @@
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/jvrgm1/zenith",
       "quasarplay": "https://store.steampowered.com/app/438420/?curator_clanid=42788178"
+    }
+  },
+  "438490": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "1949f217"
+    ],
+    "patch_descriptions": [
+      "제작자 : Rein-ArXiv"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4yk650/god-eater-2-rage-burst"
     }
   },
   "439190": {
@@ -28019,18 +28093,23 @@
   "804010": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "65d7c96e",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 한국어 패치 저장소",
       "한글 패치 - 엘"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/l3p28z/steamworld-quest-hand-of-gilgamech",
       "quasarplay": "https://store.steampowered.com/app/804010/?curator_clanid=30894603"
     }
   },
@@ -30227,18 +30306,23 @@
   "921780": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "9e4e1133",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 김까까",
       "한글 패치 - 김까까"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/468v7x/the-dark-occult",
       "quasarplay": "https://store.steampowered.com/app/921780/?curator_clanid=30894603"
     }
   },
@@ -37124,7 +37208,7 @@
       "d2ae6722"
     ],
     "patch_descriptions": [
-      "제작자 : 정보없음"
+      "공식 한글 개선 패치"
     ],
     "patch_sources": [
       "steamapp"
@@ -37936,6 +38020,24 @@
     "source_site_urls": {
       "quasarplay": "https://store.steampowered.com/app/1261520/?curator_clanid=42788178",
       "stove": "https://store.onstove.com/ko/games/813"
+    }
+  },
+  "1262600": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "7625903d"
+    ],
+    "patch_descriptions": [
+      "제작자 : 노말리토"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jmpg6o/need-for-speedtm-rivals"
     }
   },
   "1263230": {
@@ -42715,6 +42817,24 @@
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/4yy3v6/i-expect-you-to-die-2-the-spy-and-the-liar",
       "quasarplay": "https://store.steampowered.com/app/1499120/?curator_clanid=30894603"
+    }
+  },
+  "1502080": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "21833b8b"
+    ],
+    "patch_descriptions": [
+      "제작자 : 킹랑"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jpo6wo/altdeus-beyond-chronos"
     }
   },
   "1502970": {
@@ -64205,6 +64325,24 @@
       "quasarplay": "https://store.steampowered.com/app/2836820/?curator_clanid=42788178"
     }
   },
+  "2836990": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "fe02fa27"
+    ],
+    "patch_descriptions": [
+      "데모판 한글화 제작자 : Pixel4a"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4qm8pe/drunken-rogue"
+    }
+  },
   "2839280": {
     "type": "user",
     "sources": [
@@ -66820,7 +66958,7 @@
       "steamapp"
     ],
     "source_site_urls": {
-      "steamapp": "https://hanpe.net/app/lxkwqy/legend-of-heroes-three-kingdoms"
+      "steamapp": "https://hanpe.net/app/lxkwqy/heroes-vow-three-kingdoms"
     }
   },
   "3021630": {
@@ -71604,18 +71742,23 @@
   "3382750": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "f1328474",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 김까까",
       "한글 패치 - 김까까"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jprevw/dark-of-the-depths",
       "quasarplay": "https://store.steampowered.com/app/3382750/?curator_clanid=30894603"
     }
   },
@@ -77924,13 +78067,16 @@
     ],
     "links": [
       "302089d3",
+      "9563df66",
       "exist"
     ],
     "patch_descriptions": [
       "제작자 : 정보없음",
+      "제작자 : 김까까",
       "한글 패치 - 김까까\n한글 패치 - B0614"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp",
       "quasarplay"
     ],
@@ -78304,6 +78450,24 @@
       "quasarplay": "https://store.steampowered.com/app/4576490/?curator_clanid=30894603"
     }
   },
+  "4609630": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "6d4dbaf7"
+    ],
+    "patch_descriptions": [
+      "데모판 한글화 제작자 : 김까까"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j8pz58/yokai-crossing"
+    }
+  },
   "4630570": {
     "type": "user",
     "sources": [
@@ -78389,6 +78553,24 @@
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/j07r72/the-lakeview-orb-2-consequences",
       "quasarplay": "https://store.steampowered.com/app/4674130/?curator_clanid=30894603"
+    }
+  },
+  "4683360": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "ddb24785"
+    ],
+    "patch_descriptions": [
+      "데모판 한글화"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/l303rr/draco-blade"
     }
   },
   "4699110": {
@@ -78597,7 +78779,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-09-02T22:57:53.873Z",
-    "total": 3657
+    "generated_at": "2026-09-04T22:45:53.807Z",
+    "total": 3665
   }
 }

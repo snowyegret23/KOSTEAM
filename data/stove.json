@@ -3943,5 +3943,20 @@
       ""
     ],
     "stove_url": "https://store.onstove.com/ko/games/103996"
+  },
+  {
+    "app_id": null,
+    "stove_game_no": "15619",
+    "stove_product_no": "105321",
+    "game_title": "스카이 더 스크레이퍼 (SKY THE SCRAPER)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "stove_url": "https://store.onstove.com/ko/games/105321"
   }
 ]
