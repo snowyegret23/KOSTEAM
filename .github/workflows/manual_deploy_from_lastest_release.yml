@@ -59,7 +59,7 @@ jobs:
 
       - name: Upload to Chrome Web Store
         if: github.event.inputs.target == 'both' || github.event.inputs.target == 'chrome'
-        uses: mnao305/chrome-extension-upload@fdfe79400af990f5145a319e834aee64907ccff4 # v6.0.0
+        uses: mnao305/chrome-extension-upload@f549d5d654694a7722d6abfa64c97409ad5e64c1 # v7.0.0
         with:
           file-path: ${{ steps.files.outputs.chrome_path }}
           extension-id: ${{ secrets.EXTENSION_ID }}
