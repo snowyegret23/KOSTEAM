@@ -4,7 +4,7 @@
  */
 
 import terser from '@rollup/plugin-terser';
-import copy from 'rollup-plugin-copy';
+import { copyFile, cp } from 'node:fs/promises';
 
 const isProduction = process.env.NODE_ENV === 'production';
 
@@ -34,23 +34,13 @@ function createConfig(browser) {
                 }
             }),
             // Only copy static files once per browser (on background.js build)
-            name === 'background' && copy({
-                targets: [
-                    // Copy manifest (browser-specific)
-                    {
-                        src: `src/manifests/manifest.${browser}.json`,
-                        dest: outputDir,
-                        rename: 'manifest.json'
-                    },
-                    // Copy shared static files
-                    { src: `${staticDir}/popup.html`, dest: outputDir },
-                    { src: `${staticDir}/popup.css`, dest: outputDir },
-                    { src: `${staticDir}/styles.css`, dest: outputDir },
-                    { src: `${staticDir}/cart.css`, dest: outputDir },
-                    { src: `${staticDir}/icons`, dest: outputDir }
-                ],
-                hook: 'writeBundle'
-            })
+            name === 'background' && {
+                name: 'copy-static',
+                async writeBundle() {
+                    await cp(staticDir, outputDir, { recursive: true });
+                    await copyFile(`src/manifests/manifest.${browser}.json`, `${outputDir}/manifest.json`);
+                }
+            }
         ].filter(Boolean)
     }));
 }

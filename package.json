@@ -28,16 +28,19 @@
     "test:firefox": "npm run lint:firefox && web-ext run --source-dir dist/firefox"
   },
   "dependencies": {
-    "cheerio": "^1.0.0-rc.12",
-    "node-fetch": "^3.3.2"
+    "cheerio": "^1.0.0-rc.12"
   },
   "devDependencies": {
     "@rollup/plugin-terser": "^1.0.0",
     "rollup": "^4.40.0",
-    "rollup-plugin-copy": "^3.5.0",
     "web-ext": "10.6.0"
   },
+  "overrides": {
+    "cheerio": {
+      "encoding-sniffer": "^1.0.2"
+    }
+  },
   "engines": {
-    "node": ">=20.18.1"
+    "node": "^20.19.0 || ^22.12.0 || >=24.0.0"
   }
 }
