@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-09-04T22:45:53.807Z",
-    "total_with_steam_link": 3665,
-    "total_without_steam_link": 10,
+    "generated_at": "2026-09-06T22:39:13.963Z",
+    "total_with_steam_link": 3666,
+    "total_without_steam_link": 9,
     "sources": [
       "steamapp",
       "quasarzone",
@@ -82104,6 +82104,27 @@
       ]
     },
     {
+      "app_id": "2387430",
+      "game_title": "스카이 더 스크레이퍼 (SKY THE SCRAPER)",
+      "steam_link": "https://store.steampowered.com/app/2387430",
+      "patch_type": "official",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        ""
+      ],
+      "patch_sources": [
+        "stove"
+      ],
+      "source_site_urls": {
+        "stove": "https://store.onstove.com/ko/games/105321"
+      },
+      "sources": [
+        "stove"
+      ]
+    },
+    {
       "app_id": "2439710",
       "game_title": "스카이 브레이커스 (Skybreakers)",
       "steam_link": "https://store.steampowered.com/app/2439710",
@@ -89878,25 +89899,6 @@
       ],
       "source_site_urls": {
         "stove": "https://store.onstove.com/ko/games/102720"
-      },
-      "sources": [
-        "stove"
-      ]
-    },
-    {
-      "game_title": "스카이 더 스크레이퍼 (SKY THE SCRAPER)",
-      "patch_type": "official",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        ""
-      ],
-      "patch_sources": [
-        "stove"
-      ],
-      "source_site_urls": {
-        "stove": "https://store.onstove.com/ko/games/105321"
       },
       "sources": [
         "stove"
