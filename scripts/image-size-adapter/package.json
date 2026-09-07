@@ -1,0 +1,10 @@
+{
+  "name": "@kosteam/image-size-adapter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Synchronous image metadata adapter for addons-linter, backed by probe-image-size",
+  "main": "index.cjs",
+  "dependencies": {
+    "probe-image-size": "7.4.0"
+  }
+}
