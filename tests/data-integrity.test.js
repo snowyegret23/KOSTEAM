@@ -39,3 +39,18 @@ test('every rendered source URL satisfies its exact HTTPS allowlist', () => {
         }
     }
 });
+
+test('legacy patch arrays preserve the source and description at each link index', () => {
+    for (const [appId, info] of Object.entries(lookup)) {
+        if (appId === '_meta') continue;
+        assert.equal(info.patch_descriptions.length, info.patch_sources.length, appId);
+        assert.ok(info.patch_descriptions.every(value => typeof value === 'string'), appId);
+        assert.ok(info.patch_sources.every(source => info.sources.includes(source)), appId);
+        assert.ok(info.links.every(value => typeof value === 'string'), appId);
+
+        if (info.links.length > 0) {
+            assert.equal(info.links.length, info.patch_sources.length, appId);
+            assert.ok(info.links.some(Boolean), `${appId}: description-only records must keep links empty`);
+        }
+    }
+});

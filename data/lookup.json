@@ -10754,6 +10754,7 @@
       "directg"
     ],
     "links": [
+      "",
       "exist",
       "exist"
     ],
@@ -11309,7 +11310,8 @@
       "quasarplay"
     ],
     "links": [
-      "3eebe5ae"
+      "3eebe5ae",
+      ""
     ],
     "patch_descriptions": [
       "실제로는 한글 지원",
@@ -15122,6 +15124,7 @@
       "quasarplay"
     ],
     "links": [
+      "",
       "exist"
     ],
     "patch_descriptions": [
@@ -17761,6 +17764,7 @@
       "quasarplay"
     ],
     "links": [
+      "",
       "exist"
     ],
     "patch_descriptions": [
@@ -19696,7 +19700,8 @@
       "quasarplay"
     ],
     "links": [
-      "5ee593f4"
+      "5ee593f4",
+      ""
     ],
     "patch_descriptions": [
       "실제로는 한글 지원",
@@ -25257,6 +25262,7 @@
       "quasarplay"
     ],
     "links": [
+      "",
       "exist"
     ],
     "patch_descriptions": [
@@ -25734,7 +25740,8 @@
       "quasarplay"
     ],
     "links": [
-      "1e5a6be0"
+      "1e5a6be0",
+      ""
     ],
     "patch_descriptions": [
       "실제로는 한글 지원",
@@ -38340,6 +38347,7 @@
       "stove"
     ],
     "links": [
+      "",
       "exist"
     ],
     "patch_descriptions": [
@@ -38724,6 +38732,7 @@
       "stove"
     ],
     "links": [
+      "",
       "exist",
       "exist"
     ],
@@ -48174,7 +48183,8 @@
       "quasarplay"
     ],
     "links": [
-      "7a200534"
+      "7a200534",
+      ""
     ],
     "patch_descriptions": [
       "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다)",
@@ -78797,7 +78807,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-09-06T22:39:13.963Z",
+    "generated_at": "2026-09-07T09:04:52.824Z",
     "total": 3666
   }
 }

@@ -63,25 +63,23 @@ function extractAppIdFromLink(steamLink) {
   return match ? match[1] : null;
 }
 
-function deduplicateLinksWithDescriptions(links, descriptions, sources) {
+function deduplicatePatchEntries(patches) {
   const seen = new Set();
   const resultLinks = [];
   const resultDescs = [];
   const resultSources = [];
-  const maxLen = Math.max(links.length, descriptions.length);
-  for (let i = 0; i < maxLen; i++) {
-    const link = links[i] || '';
-    const desc = descriptions[i] || '';
-    const source = sources[i] || '';
-    const key = `${link}|${desc}|${source}`;
+  for (const { link, description, source } of patches) {
+    const key = JSON.stringify([link, description, source]);
     if (!seen.has(key)) {
       seen.add(key);
-      if (link) resultLinks.push(link);
-      resultDescs.push(desc);
+      resultLinks.push(link);
+      resultDescs.push(description);
       resultSources.push(source);
     }
   }
-  return { links: resultLinks, descriptions: resultDescs, sources: resultSources };
+  // Legacy clients use a nonempty links array to classify additional patch information.
+  const links = resultLinks.some(Boolean) ? resultLinks : [];
+  return { links, descriptions: resultDescs, sources: resultSources };
 }
 
 async function main() {
@@ -109,6 +107,11 @@ async function main() {
     for (const entry of data) {
       const entryLinks = entry.patch_links || [];
       const entryDescs = entry.patch_descriptions || [];
+      const patches = Array.from({ length: Math.max(entryLinks.length, entryDescs.length) }, (_, i) => ({
+        link: entryLinks[i] || '',
+        description: entryDescs[i] || '',
+        source
+      }));
       const siteUrl = entry.source_site_url || entry.stove_url || entry.directg_url;
       const hasLinks = entryLinks.length > 0;
       const isCuratorSource = source === 'quasarplay';
@@ -127,21 +130,8 @@ async function main() {
         const existing = mergedByAppId.get(appId);
         if (existing) {
           existing.sources.push(source);
-          if (!existing.patch_links) existing.patch_links = [];
-          if (!existing.patch_descriptions) existing.patch_descriptions = [];
-          if (!existing.patch_sources) existing.patch_sources = [];
           if (!existing.source_site_urls) existing.source_site_urls = {};
-          for (let i = 0; i < entryLinks.length; i++) {
-            existing.patch_links.push(entryLinks[i]);
-            existing.patch_descriptions.push(entryDescs[i] || '');
-            existing.patch_sources.push(source);
-          }
-          if (entryLinks.length === 0 && entryDescs.length > 0) {
-            for (const desc of entryDescs) {
-              existing.patch_descriptions.push(desc);
-              existing.patch_sources.push(source);
-            }
-          }
+          existing.patches.push(...patches);
           if ((entry.patch_type || 'user') === 'official' && existing.patch_type !== 'official') {
             existing.patch_type = 'official';
           }
@@ -149,17 +139,12 @@ async function main() {
             existing.source_site_urls[source] = siteUrl;
           }
         } else {
-          const patchSources = entryLinks.length > 0
-            ? entryLinks.map(() => source)
-            : entryDescs.length > 0 ? entryDescs.map(() => source) : [];
           const newEntry = {
             app_id: appId,
             game_title: entry.game_title || '',
             steam_link: entry.steam_link || `https://store.steampowered.com/app/${appId}`,
             patch_type: entry.patch_type || 'user',
-            patch_links: [...entryLinks],
-            patch_descriptions: [...entryDescs],
-            patch_sources: patchSources,
+            patches,
             source_site_urls: shouldIncludeSiteUrl ? { [source]: siteUrl } : {},
             sources: [source]
           };
@@ -172,15 +157,8 @@ async function main() {
         const existing = mergedByTitle.get(titleKey);
         if (existing) {
           existing.sources.push(source);
-          if (!existing.patch_links) existing.patch_links = [];
-          if (!existing.patch_descriptions) existing.patch_descriptions = [];
-          if (!existing.patch_sources) existing.patch_sources = [];
           if (!existing.source_site_urls) existing.source_site_urls = {};
-          for (let i = 0; i < entryLinks.length; i++) {
-            existing.patch_links.push(entryLinks[i]);
-            existing.patch_descriptions.push(entryDescs[i] || '');
-            existing.patch_sources.push(source);
-          }
+          existing.patches.push(...patches);
           if ((entry.patch_type || 'user') === 'official' && existing.patch_type !== 'official') {
             existing.patch_type = 'official';
           }
@@ -191,9 +169,7 @@ async function main() {
           const obj = {
             game_title: title,
             patch_type: entry.patch_type || 'user',
-            patch_links: [...entryLinks],
-            patch_descriptions: [...entryDescs],
-            patch_sources: entryLinks.map(() => source),
+            patches,
             source_site_urls: shouldIncludeSiteUrl ? { [source]: siteUrl } : {},
             sources: [source]
           };
@@ -204,25 +180,27 @@ async function main() {
     }
   }
 
-  const withSteamLink = Array.from(mergedByAppId.values()).map(entry => {
-    const d = deduplicateLinksWithDescriptions(entry.patch_links || [], entry.patch_descriptions || [], entry.patch_sources || []);
+  const withSteamLink = Array.from(mergedByAppId.values()).map(({ patches, source_site_urls, sources, ...entry }) => {
+    const d = deduplicatePatchEntries(patches);
     return {
       ...entry,
       patch_links: d.links,
       patch_descriptions: d.descriptions,
       patch_sources: d.sources,
-      sources: [...new Set(entry.sources || [])]
+      source_site_urls,
+      sources: [...new Set(sources)]
     };
   });
 
-  const withoutSteamLink = noSteamLink.map(entry => {
-    const d = deduplicateLinksWithDescriptions(entry.patch_links || [], entry.patch_descriptions || [], entry.patch_sources || []);
+  const withoutSteamLink = noSteamLink.map(({ patches, source_site_urls, sources, ...entry }) => {
+    const d = deduplicatePatchEntries(patches);
     return {
       ...entry,
       patch_links: d.links,
       patch_descriptions: d.descriptions,
       patch_sources: d.sources,
-      sources: [...new Set(entry.sources || [])]
+      source_site_urls,
+      sources: [...new Set(sources)]
     };
   });
 
