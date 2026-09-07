@@ -26,6 +26,7 @@ import {
     let patchInfoReady = false;
     let patchInfoLoading = true;
     let patchRequestId = 0;
+    let patchRenderId = 0;
     const observerCleanups = [];
 
     // Check if URL has curator_clanid parameter and scroll to curator review
@@ -37,6 +38,7 @@ import {
 
     async function refreshPatchInfo() {
         const requestId = ++patchRequestId;
+        patchRenderId++;
         try {
             const response = await sendMessage({ type: MSG_GET_PATCH_INFO, appId });
             if (requestId !== patchRequestId) return;
@@ -241,9 +243,10 @@ import {
      * @param {boolean} hasOfficialKorean - Korean support status
      */
     function injectPatchInfo(info, hasOfficialKorean) {
-
+        const renderId = ++patchRenderId;
         storageGet(['source_steamapp', 'source_quasarplay', 'source_directg', 'source_stove', 'disable_patch_info'])
             .then(settings => {
+                if (renderId !== patchRenderId) return;
                 if (settings.disable_patch_info === true) {
                     const existingBanner = document.querySelector('.kr-patch-banner');
                     if (existingBanner) existingBanner.remove();
@@ -428,6 +431,8 @@ import {
             const hasSourceChange = Object.keys(changes).some(key => key.startsWith('source_'));
             const hasPatchToggle = Object.prototype.hasOwnProperty.call(changes, 'disable_patch_info');
             if (hasPatchToggle && changes.disable_patch_info?.newValue === true) {
+                patchRequestId++;
+                patchRenderId++;
                 const existingBanner = document.querySelector('.kr-patch-banner');
                 if (existingBanner) existingBanner.remove();
                 return;

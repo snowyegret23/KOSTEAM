@@ -120,7 +120,7 @@ function createBackground(fetch, initial = {}) {
         local, session, cacheReads: () => cacheReads,
         send: message => new Promise(resolve => handler(message, {
             id: 'test-extension', url: 'https://store.steampowered.com/cart/', tab: { id: 1 }
-        }, resolve))
+        }, value => resolve(structuredClone(value))))
     };
 }
 
@@ -148,7 +148,7 @@ test('recovery rejects another account after restart and accepts the original ac
     assert.equal(background.local[constants.PENDING_CART_RESTORE_KEY], null);
 });
 
-test('concurrent cold lookups wait for one verified download and reuse the in-memory cache', async () => {
+function makeLookupFixture() {
     const published = JSON.parse(readFileSync(new URL('../data/lookup.json', import.meta.url), 'utf8'));
     const appId = Object.keys(published).find(key => key !== '_meta');
     const lookup = JSON.stringify({ _meta: { generated_at: 'fixture', total: 1 }, [appId]: published[appId] });
@@ -159,6 +159,11 @@ test('concurrent cold lookups wait for one verified download and reuse the in-me
         lookup_size: Buffer.byteLength(lookup), lookup_sha256: digest(lookup),
         alias_size: Buffer.byteLength(alias), alias_sha256: digest(alias)
     };
+    return { appId, lookup, alias, version };
+}
+
+test('concurrent cold lookups wait for one verified download and reuse the in-memory cache', async () => {
+    const { appId, lookup, alias, version } = makeLookupFixture();
     let requests = 0;
     const background = createBackground(async url => {
         requests++;
@@ -173,6 +178,71 @@ test('concurrent cold lookups wait for one verified download and reuse the in-me
     assert.equal(background.cacheReads(), 1);
     assert.equal((await background.send({ type: constants.MSG_GET_PATCH_INFO, appId })).success, true);
     assert.equal(requests, 3);
+    assert.equal(background.cacheReads(), 1);
+});
+
+test('invalid cached data is downloaded again even when version metadata is current', async t => {
+    const { appId, lookup, alias, version } = makeLookupFixture();
+    const validData = JSON.parse(lookup);
+    for (const [name, data, aliases] of [
+        ['missing game', { _meta: validData._meta }, {}],
+        ['invalid entry', { ...validData, [appId]: { type: 'user' } }, {}],
+        ['invalid alias', validData, []],
+        ['mismatched metadata', { ...validData, _meta: { ...validData._meta, generated_at: 'stale' } }, {}]
+    ]) {
+        await t.test(name, async () => {
+            let requests = 0;
+            const background = createBackground(async url => {
+                requests++;
+                if (url === constants.VERSION_URL) return Response.json(version);
+                return new Response(url === constants.DATA_URL ? lookup : alias);
+            }, {
+                [constants.CACHE_KEY]: data,
+                [constants.CACHE_ALIAS_KEY]: aliases,
+                [constants.CACHE_VERSION_KEY]: version,
+                [constants.LAST_UPDATE_CHECK_KEY]: Date.now()
+            });
+            const status = await background.send({ type: constants.MSG_CHECK_UPDATE_STATUS });
+            assert.equal(status.success, true);
+            assert.equal(status.needsUpdate, true);
+            const response = await background.send({ type: constants.MSG_GET_PATCH_INFO, appId });
+            assert.equal(response.success, true);
+            assert.deepEqual(response.info, validData[appId]);
+            assert.equal(requests, 4);
+            assert.deepEqual(background.local[constants.CACHE_KEY], validData);
+        });
+    }
+});
+
+test('invalid cache while offline reports unavailable data rather than no patch', async () => {
+    const { appId, lookup, version } = makeLookupFixture();
+    const background = createBackground(async () => new Response(null, { status: 503 }), {
+        [constants.CACHE_KEY]: { _meta: JSON.parse(lookup)._meta },
+        [constants.CACHE_ALIAS_KEY]: {},
+        [constants.CACHE_VERSION_KEY]: version,
+        [constants.LAST_UPDATE_CHECK_KEY]: Date.now()
+    });
+    const response = await background.send({ type: constants.MSG_GET_PATCH_INFO, appId });
+    assert.equal(response.success, false);
+    assert.match(response.error, /unavailable/);
+});
+
+test('valid legacy cache remains usable offline without version hashes', async () => {
+    const { appId, lookup } = makeLookupFixture();
+    const data = JSON.parse(lookup);
+    let requests = 0;
+    const background = createBackground(async () => {
+        requests++;
+        throw new Error('Offline');
+    }, {
+        [constants.CACHE_KEY]: data,
+        [constants.CACHE_ALIAS_KEY]: {},
+        [constants.LAST_UPDATE_CHECK_KEY]: Date.now()
+    });
+    const response = await background.send({ type: constants.MSG_GET_PATCH_INFO, appId });
+    assert.equal(response.success, true);
+    assert.deepEqual(response.info, data[appId]);
+    assert.equal(requests, 0);
     assert.equal(background.cacheReads(), 1);
 });
 

@@ -141,6 +141,8 @@ function validateVersionInfo(version) {
 
 function validateLookupData(data, version) {
     if (!isPlainObject(data) || !isPlainObject(data._meta)) return false;
+    if (!isPlainObject(version) || typeof version.generated_at !== 'string' ||
+        !Number.isSafeInteger(version.total) || version.total < 0 || version.total > 100000) return false;
     if (data._meta.generated_at !== version.generated_at || data._meta.total !== version.total) return false;
 
     const entries = Object.entries(data).filter(([key]) => key !== '_meta');
@@ -274,10 +276,13 @@ async function fetchData(versionInfo) {
  */
 function loadCachedData() {
     if (!cacheLoadPromise) {
-        cacheLoadPromise = storageGet([CACHE_KEY, CACHE_ALIAS_KEY, LAST_UPDATE_CHECK_KEY])
+        cacheLoadPromise = storageGet([CACHE_KEY, CACHE_ALIAS_KEY, CACHE_VERSION_KEY, LAST_UPDATE_CHECK_KEY])
             .then(result => {
-                if (!cachedData && result[CACHE_KEY]?._meta && result[CACHE_ALIAS_KEY]) {
-                    cachedData = { data: result[CACHE_KEY], alias: result[CACHE_ALIAS_KEY] };
+                const data = result[CACHE_KEY];
+                const alias = result[CACHE_ALIAS_KEY];
+                const version = result[CACHE_VERSION_KEY] || data?._meta;
+                if (!cachedData && validateLookupData(data, version) && validateAliasData(alias)) {
+                    cachedData = { data, alias };
                     nextUpdateCheck = (result[LAST_UPDATE_CHECK_KEY] || 0) + UPDATE_INTERVAL_MINUTES * MS_PER_MINUTE;
                 }
             }).catch(err => { cacheLoadPromise = null; throw err; });
@@ -1131,7 +1136,8 @@ onMessage((message, sender, sendResponse) => {
                 }
 
                 const localVersion = local[CACHE_VERSION_KEY];
-                const needsUpdate = checkNeedsUpdate(localVersion, remoteVersion);
+                await loadCachedData();
+                const needsUpdate = !cachedData || checkNeedsUpdate(localVersion, remoteVersion);
 
                 sendResponse({
                     success: true,
