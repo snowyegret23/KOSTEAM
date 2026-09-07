@@ -15,8 +15,9 @@ async function loadExistingData() {
     try {
         const content = await fs.readFile(OUTPUT_FILE, 'utf-8');
         return JSON.parse(content);
-    } catch {
-        return [];
+    } catch (err) {
+        if (err.code === 'ENOENT') return [];
+        throw err;
     }
 }
 
@@ -38,6 +39,7 @@ async function scrapePage(pageNum) {
 
     try {
         const response = await fetch(url, {
+            signal: AbortSignal.timeout(25000),
             headers: {
                 'User-Agent': 'KOSTEAM-Webscraper/1.0 (+https://github.com/snowyegret23/KOSTEAM)',
                 'Referer': 'https://store.onstove.com/',
@@ -47,16 +49,14 @@ async function scrapePage(pageNum) {
         });
 
         if (!response.ok) {
-            console.error(`Failed to fetch page ${pageNum}: ${response.status}`);
-            return [];
+            throw new Error(`Failed to fetch page ${pageNum}: ${response.status}`);
         }
 
         const json = await response.json();
         console.log(`API Response: code=${json.code}, message=${json.message}, contents=${json.value?.contents?.length || 0}`);
 
-        if (json.code !== 0) {
-            console.error(`API error on page ${pageNum}: ${json.message}`);
-            return [];
+        if (json.code !== 0 || !Array.isArray(json.value?.contents)) {
+            throw new Error(`Invalid STOVE API response on page ${pageNum}`);
         }
 
         const games = [];
@@ -86,8 +86,7 @@ async function scrapePage(pageNum) {
 
         return games;
     } catch (err) {
-        console.error(`Error fetching page ${pageNum}:`, err.message);
-        return [];
+        throw new Error(`Error fetching page ${pageNum}: ${err.message}`);
     }
 }
 
@@ -117,7 +116,7 @@ async function scrapeAll() {
                 console.log(`Page ${page}: ${games.length} games`);
             }
         } catch (err) {
-            console.error(`Error on page ${page}:`, err.message);
+            throw new Error(`Error on page ${page}: ${err.message}`);
         }
         await delay(1000);
     }
@@ -134,6 +133,7 @@ async function main() {
     const existingMap = new Map(existingData.map(g => [g.stove_game_no || g.game_title, g]));
 
     const newData = await scrapeAll();
+    if (newData.length === 0) throw new Error('No STOVE games were collected');
 
     for (const game of newData) {
         const key = game.stove_game_no || game.game_title;
@@ -156,4 +156,4 @@ async function main() {
     console.log(`Saved ${merged.length} games to ${OUTPUT_FILE}`);
 }
 
-main().catch(console.error);
+main().catch(err => { console.error(err); process.exitCode = 1; });

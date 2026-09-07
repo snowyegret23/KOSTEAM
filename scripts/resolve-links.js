@@ -5,30 +5,23 @@ import { fileURLToPath } from 'url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = path.join(__dirname, '..', 'data');
 
-const SOURCES = ['steamapp', 'quasarplay', 'directg', 'stove'];
+const SOURCES = ['steamapp', 'quasarplay', 'quasarzone', 'directg', 'stove'];
 const MAX_REDIRECTS = 5;
 const REQUEST_DELAY = 300;
 
-const IGNORED_REDIRECT_PATTERNS = [
-    /store\.steampowered\.com\/agecheck\//,
-    /store\.steampowered\.com\/login\//,
-    /steampowered\.com\/login/,
-    /steampowered\.com\/age/
-];
+function isSteamStoreUrl(value) {
+    try {
+        const url = new URL(value);
+        return url.protocol === 'https:' && url.hostname === 'store.steampowered.com' &&
+            !url.username && !url.password && !url.port;
+    } catch {
+        return false;
+    }
+}
 
 export function isIgnoredRedirect(originalUrl, redirectedUrl) {
-    if (!redirectedUrl) return false;
-
-    const hasValidSteamAppId = /store\.steampowered\.com\/app\/\d+/.test(originalUrl);
-    if (!hasValidSteamAppId) return false;
-
-    for (const pattern of IGNORED_REDIRECT_PATTERNS) {
-        if (pattern.test(redirectedUrl)) {
-            return true;
-        }
-    }
-
-    return false;
+    return !!extractSteamAppId(originalUrl) && isSteamStoreUrl(redirectedUrl) &&
+        /^\/(?:agecheck|login|age)(?:\/|$)/.test(new URL(redirectedUrl).pathname);
 }
 
 const delay = ms => new Promise(r => setTimeout(r, ms));
@@ -41,10 +34,18 @@ export async function resolveUrl(url, maxRedirects = MAX_REDIRECTS) {
     let redirected = false;
 
     try {
-        while (redirectCount < maxRedirects) {
+        if (!Number.isInteger(maxRedirects) || maxRedirects < 0 || maxRedirects > 10) {
+            throw new Error('Invalid redirect limit');
+        }
+        const visited = new Set();
+        while (true) {
+            if (!isSteamStoreUrl(currentUrl)) throw new Error('Untrusted Steam redirect URL');
+            if (visited.has(currentUrl)) throw new Error('Redirect loop');
+            visited.add(currentUrl);
             const response = await fetch(currentUrl, {
                 method: 'HEAD',
                 redirect: 'manual',
+                signal: AbortSignal.timeout(15000),
                 headers: {
                     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
                 }
@@ -53,16 +54,9 @@ export async function resolveUrl(url, maxRedirects = MAX_REDIRECTS) {
             if (response.status >= 300 && response.status < 400) {
                 const location = response.headers.get('location');
                 if (location) {
-                    let nextUrl;
-                    if (location.startsWith('/')) {
-                        const urlObj = new URL(currentUrl);
-                        nextUrl = `${urlObj.protocol}//${urlObj.host}${location}`;
-                    } else if (!location.startsWith('http')) {
-                        const urlObj = new URL(currentUrl);
-                        nextUrl = `${urlObj.protocol}//${urlObj.host}/${location}`;
-                    } else {
-                        nextUrl = location;
-                    }
+                    const nextUrl = new URL(location, currentUrl).href;
+                    if (!isSteamStoreUrl(nextUrl)) throw new Error('Untrusted Steam redirect URL');
+                    if (redirectCount >= maxRedirects) throw new Error('Too many redirects');
 
                     if (isIgnoredRedirect(url, nextUrl)) {
                         return {
@@ -77,9 +71,10 @@ export async function resolveUrl(url, maxRedirects = MAX_REDIRECTS) {
                     redirected = true;
                     redirectCount++;
                 } else {
-                    break;
+                    throw new Error('Redirect is missing its location');
                 }
             } else {
+                if (!response.ok) throw new Error(`HTTP ${response.status}`);
                 break;
             }
         }
@@ -110,8 +105,8 @@ export async function resolveUrl(url, maxRedirects = MAX_REDIRECTS) {
 }
 
 export function extractSteamAppId(url) {
-    if (!url) return null;
-    const match = url.match(/store\.steampowered\.com\/app\/(\d+)/);
+    if (!isSteamStoreUrl(url)) return null;
+    const match = new URL(url).pathname.match(/^\/app\/(\d+)(?:\/|$)/);
     return match ? match[1] : null;
 }
 
@@ -123,37 +118,39 @@ async function resolveLinksForSource(sourceName) {
         const content = await fs.readFile(filePath, 'utf-8');
         data = JSON.parse(content);
     } catch (err) {
-        console.log(`Skipping ${sourceName}: ${err.message}`);
-        return { processed: 0, updated: 0, skipped: 0 };
+        throw new Error(`Cannot load ${sourceName}: ${err.message}`);
     }
-
-    console.log(`\nProcessing ${sourceName}: ${data.length} entries`);
+    const entries = Array.isArray(data) ? data : data.games;
+    if (!Array.isArray(entries)) throw new Error(`Invalid source data: ${sourceName}`);
+    const linkKey = Array.isArray(data) ? 'steam_link' : 'url';
+    const appKey = Array.isArray(data) ? 'app_id' : 'appid';
+    console.log(`\nProcessing ${sourceName}: ${entries.length} entries`);
 
     let processed = 0;
     let updated = 0;
     let skipped = 0;
 
-    for (const entry of data) {
+    for (const entry of entries) {
         processed++;
 
-        if (entry.steam_link && !entry.steam_link_resolved) {
-            const result = await resolveUrl(entry.steam_link);
+        if (entry[linkKey] && !entry.steam_link_resolved) {
+            const result = await resolveUrl(entry[linkKey]);
 
             if (result.skipped_reason) {
                 skipped++;
             } else if (result.redirected) {
-                entry.steam_link_original = entry.steam_link;
-                entry.steam_link = result.final;
+                entry.steam_link_original = entry[linkKey];
+                entry[linkKey] = result.final;
                 entry.steam_link_resolved = true;
 
                 const newAppId = extractSteamAppId(result.final);
-                if (newAppId && newAppId !== entry.app_id) {
-                    entry.app_id_original = entry.app_id;
-                    entry.app_id = newAppId;
+                if (newAppId && newAppId !== entry[appKey]) {
+                    entry.app_id_original = entry[appKey];
+                    entry[appKey] = newAppId;
                 }
 
                 updated++;
-                console.log(`  [${processed}/${data.length}] Resolved: ${result.original} → ${result.final}`);
+                console.log(`  [${processed}/${entries.length}] Resolved: ${result.original} → ${result.final}`);
             }
 
             await delay(REQUEST_DELAY);
@@ -164,7 +161,7 @@ async function resolveLinksForSource(sourceName) {
             let linksUpdated = false;
 
             for (const link of entry.patch_links) {
-                if (link.startsWith('http')) {
+                if (isSteamStoreUrl(link)) {
                     const result = await resolveUrl(link);
 
                     if (result.skipped_reason) {
@@ -175,7 +172,7 @@ async function resolveLinksForSource(sourceName) {
 
                         if (result.redirected) {
                             linksUpdated = true;
-                            console.log(`  [${processed}/${data.length}] Patch link: ${link} → ${result.final}`);
+                            console.log(`  [${processed}/${entries.length}] Patch link: ${link} → ${result.final}`);
                         }
                     }
 
@@ -193,7 +190,7 @@ async function resolveLinksForSource(sourceName) {
         }
 
         if (processed % 50 === 0) {
-            console.log(`  Progress: ${processed}/${data.length} (updated: ${updated}, skipped: ${skipped})`);
+            console.log(`  Progress: ${processed}/${entries.length} (updated: ${updated}, skipped: ${skipped})`);
         }
     }
 
@@ -213,8 +210,7 @@ async function verifyAllSteamLinks() {
         const content = await fs.readFile(mergedPath, 'utf-8');
         merged = JSON.parse(content);
     } catch (err) {
-        console.log('No merged.json found, skipping verification');
-        return;
+        throw new Error(`Cannot load merged data: ${err.message}`);
     }
 
     const games = merged.games || [];
@@ -230,15 +226,9 @@ async function verifyAllSteamLinks() {
         verified++;
 
         try {
-            const response = await fetch(game.steam_link, {
-                method: 'HEAD',
-                redirect: 'follow',
-                headers: {
-                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
-                }
-            });
-
-            const finalUrl = response.url;
+            const result = await resolveUrl(game.steam_link);
+            if (result.error) throw new Error(result.error);
+            const finalUrl = result.final;
 
             if (isIgnoredRedirect(game.steam_link, finalUrl)) {
                 skipped++;
@@ -281,6 +271,7 @@ async function main() {
     const verifyOnly = args.includes('--verify');
     const sourceArg = args.find(a => a.startsWith('--source='));
     const specificSource = sourceArg ? sourceArg.split('=')[1] : null;
+    if (specificSource && !SOURCES.includes(specificSource)) throw new Error('Unknown source');
 
     console.log('=== Link Resolver ===');
     console.log(`Mode: ${verifyOnly ? 'Verification Only' : 'Full Resolution'}`);
@@ -306,4 +297,6 @@ async function main() {
     console.log(`Total skipped (agecheck/login): ${stats.total_skipped}`);
 }
 
-main().catch(console.error);
+if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+    main().catch(err => { console.error(err); process.exitCode = 1; });
+}

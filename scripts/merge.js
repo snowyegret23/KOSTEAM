@@ -12,13 +12,13 @@ async function loadSourceData(source) {
     const filePath = path.join(DATA_DIR, `${source}.json`);
     const content = await fs.readFile(filePath, 'utf-8');
     const data = JSON.parse(content);
-    if (data && data.games && data.curator_id) {
+    if (data && Array.isArray(data.games) && data.curator_id && data.games.length > 0) {
       return convertCuratorData(data, source);
     }
+    if (!Array.isArray(data) || data.length === 0) throw new Error('Invalid or empty source data');
     return data;
   } catch (err) {
-    console.log(`No data found for ${source}: ${err.message}`);
-    return [];
+    throw new Error(`Cannot merge ${source}: ${err.message}`);
   }
 }
 
@@ -92,7 +92,7 @@ async function main() {
     aliasContent = JSON.stringify(alias, null, 2);
     console.log(`Loaded ${Object.keys(alias).length} aliases from alias.json`);
   } catch (err) {
-    console.log('No alias.json found, skipping alias normalization.');
+    throw new Error(`Cannot load alias mappings: ${err.message}`);
   }
 
   const mergedByAppId = new Map();
@@ -281,4 +281,4 @@ async function main() {
   console.log(`Version info saved to ${versionPath}`);
 }
 
-main().catch(console.error);
+main().catch(err => { console.error(err); process.exitCode = 1; });

@@ -41,7 +41,6 @@ jobs:
       - name: Run steamapp scraper
         if: github.event.inputs.scraper == 'all' || github.event.inputs.scraper == 'steamapp' || github.event_name == 'schedule'
         run: npm run scrape:steamapp
-        continue-on-error: true
         
       - name: Setup Python
         if: github.event.inputs.scraper == 'all' || github.event.inputs.scraper == 'quasarplay_curator' || github.event_name == 'schedule'
@@ -56,26 +55,25 @@ jobs:
       - name: Run quasarplay curator scraper
         if: github.event.inputs.scraper == 'all' || github.event.inputs.scraper == 'quasarplay_curator' || github.event_name == 'schedule'
         run: python scrapers/steam_curator_dump.py --quasarplay
-        continue-on-error: true
 
       - name: Run directg scraper
         if: github.event.inputs.scraper == 'all' || github.event.inputs.scraper == 'directg' || github.event_name == 'schedule'
         run: npm run scrape:directg
-        continue-on-error: true
         
       - name: Run stove scraper
         if: github.event.inputs.scraper == 'all' || github.event.inputs.scraper == 'stove' || github.event_name == 'schedule'
         run: npm run scrape:stove
-        continue-on-error: true
 
       - name: Run update alias
         if: github.event.inputs.scraper == 'update_alias'
         run: node scripts/update_alias.js
-        continue-on-error: true
         
       - name: Merge data
         run: npm run merge
         
+      - name: Validate data and extension contracts
+        run: npm test
+
       - name: Commit and push changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"

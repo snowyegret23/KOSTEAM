@@ -17,8 +17,9 @@ async function loadExistingData() {
     try {
         const content = await fs.readFile(OUTPUT_FILE, 'utf-8');
         return JSON.parse(content);
-    } catch {
-        return [];
+    } catch (err) {
+        if (err.code === 'ENOENT') return [];
+        throw err;
     }
 }
 
@@ -27,6 +28,7 @@ async function scrapePage(pageNum) {
     console.log(`Fetching: ${url}`);
 
     const response = await fetch(url, {
+        signal: AbortSignal.timeout(25000),
         headers: {
             'User-Agent': USER_AGENT,
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
@@ -36,8 +38,7 @@ async function scrapePage(pageNum) {
     });
 
     if (!response.ok) {
-        console.error(`Failed to fetch page ${pageNum}: ${response.status}`);
-        return [];
+        throw new Error(`Failed to fetch page ${pageNum}: ${response.status}`);
     }
 
     const html = await response.text();
@@ -79,6 +80,7 @@ async function scrapeAll() {
 
     console.log('Fetching Page 1...');
     const firstResponse = await fetch(`${BASE_URL}?page=1&sort=release&exclusive_korean=Y`, {
+        signal: AbortSignal.timeout(25000),
         headers: {
             'User-Agent': USER_AGENT,
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
@@ -88,8 +90,7 @@ async function scrapeAll() {
     });
     
     if (!firstResponse.ok) {
-        console.error(`Failed to fetch Page 1: ${firstResponse.status}`);
-        return [];
+        throw new Error(`Failed to fetch Page 1: ${firstResponse.status}`);
     }
 
     const firstHtml = await firstResponse.text();
@@ -118,6 +119,7 @@ async function scrapeAll() {
     });
 
     console.log(`Page 1: ${allGames.size} games`);
+    if (allGames.size === 0 || totalCount <= 0) throw new Error('Invalid or empty DirectG page');
 
     if (allGames.size >= totalCount) {
         return Array.from(allGames.values());
@@ -131,8 +133,7 @@ async function scrapeAll() {
             const games = await scrapePage(page);
 
             if (games.length === 0) {
-                console.log(`No games found on page ${page}, stopping.`);
-                break;
+                throw new Error(`Unexpected empty page ${page}`);
             }
 
             for (const game of games) {
@@ -143,7 +144,7 @@ async function scrapeAll() {
 
             console.log(`Page ${page}: ${games.length} games (total: ${allGames.size})`);
         } catch (err) {
-            console.error(`Error on page ${page}:`, err.message);
+            throw new Error(`Error on page ${page}: ${err.message}`);
         }
     }
 
@@ -182,4 +183,4 @@ async function main() {
     console.log(`Saved ${merged.length} games to ${OUTPUT_FILE}`);
 }
 
-main().catch(console.error);
+main().catch(err => { console.error(err); process.exitCode = 1; });

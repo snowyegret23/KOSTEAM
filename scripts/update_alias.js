@@ -22,8 +22,7 @@ async function main() {
         const content = await fs.readFile(MERGED_FILE, 'utf-8');
         merged = JSON.parse(content);
     } catch (err) {
-        console.error('Error: merged.json not found. Run merge.js first.');
-        return;
+        throw new Error(`Cannot load merged data: ${err.message}`);
     }
 
     let existingAlias = {};
@@ -31,10 +30,12 @@ async function main() {
         const content = await fs.readFile(ALIAS_FILE, 'utf-8');
         existingAlias = JSON.parse(content);
     } catch (err) {
+        if (err.code !== 'ENOENT') throw err;
         console.log('Starting with new alias table.');
     }
 
     const games = merged.games || [];
+    if (!Array.isArray(games) || games.length === 0) throw new Error('Invalid or empty merged data');
     console.log(`Checking ${games.length} games for redirects...`);
 
     const newAlias = { ...existingAlias };
@@ -87,4 +88,4 @@ async function main() {
     }
 }
 
-main().catch(console.error);
+main().catch(err => { console.error(err); process.exitCode = 1; });

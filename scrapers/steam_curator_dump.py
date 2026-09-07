@@ -101,6 +101,7 @@ class SteamCuratorDumper:
         if self._curator_base_url and self._filtered_url:
             return self._curator_base_url
         r = self.session.get(self._curator_page_url, timeout=25)
+        r.raise_for_status()
         html = r.text or ""
         m = re.search(r'g_strCuratorBaseURL\s*=\s*"([^"]+)"', html)
         base = None
@@ -167,11 +168,14 @@ class SteamCuratorDumper:
             "Accept": "*/*",
         }
         r = self.session.get(self._filtered_url, params=self._filtered_params(start, count), headers=headers, timeout=25)
+        r.raise_for_status()
         return r.json()
 
     def get_total_count(self) -> int:
         try:
             data = self._fetch_filtered(0, 1)
+            if not data.get("success"):
+                raise RuntimeError("Curator count request failed")
             total = int(data.get("total_count", 0) or 0)
             self.total_count = total
             return total
@@ -184,18 +188,16 @@ class SteamCuratorDumper:
         start = 0
         total = self.get_total_count()
         if total == 0:
-            self.log("리뷰를 찾을 수 없습니다.")
-            return []
+            raise RuntimeError("Curator review count is unavailable; keeping existing data")
         self.log(f"총 {total}개의 리뷰를 가져옵니다...")
         while start < total:
             try:
                 data = self._fetch_filtered(start, self.batch_size)
                 if not data.get("success"):
-                    self.log(f"API 요청 실패: start={start}")
-                    break
+                    raise RuntimeError(f"API request failed: start={start}")
                 html = data.get("results_html", "")
                 if not html:
-                    break
+                    raise RuntimeError(f"Empty curator page: start={start}")
                 reviews = self._parse_reviews_html(html)
                 all_reviews.extend(reviews)
                 fetched = len(reviews)
@@ -205,13 +207,13 @@ class SteamCuratorDumper:
                 if progress_callback:
                     progress_callback(progress, total)
                 if fetched <= 0:
-                    break
+                    raise RuntimeError("No reviews parsed from curator page")
                 time.sleep(self.delay)
             except Exception as e:
-                self.log(f"오류 발생 (start={start}): {e}")
-                start += self.batch_size
-                continue
+                raise RuntimeError(f"Incomplete curator collection at {start}") from e
         unique = self._remove_duplicates(all_reviews)
+        if len(unique) != total:
+            raise RuntimeError(f"Incomplete curator collection: {len(unique)}/{total}")
         self.log(f"\n완료! {len(unique)}개의 고유 게임 수집됨")
         return unique
 
@@ -304,6 +306,7 @@ class SteamCuratorDumper:
                 "url": url,
                 "curator_url": curator_url,
                 "review": clean_review,
+                "review_raw": raw_review,
                 "review_has_url": has_url,
                 "review_url_count": url_count,
                 "type": rec_type,
@@ -341,7 +344,7 @@ class SteamCuratorDumper:
         with open(output_file, "w", encoding="utf-8-sig", newline="") as f:
             writer = csv.DictWriter(
                 f,
-                fieldnames=["appid", "url", "curator_url", "review", "review_has_url", "review_url_count", "type"],
+                fieldnames=["appid", "url", "curator_url", "review", "review_has_url", "review_url_count", "type", "review_raw"],
             )
             writer.writeheader()
             writer.writerows(reviews)
@@ -374,6 +377,7 @@ def run_quasarplay_dump(sort: str):
     print("=" * 60)
     print("퀘이사플레이 큐레이터 덤프")
     print("=" * 60)
+    completed = []
     for _, config in QUASARPLAY_CURATORS.items():
         print(f"\n[{config['name']}] 덤프 시작...")
         print(f"  큐레이터 ID: {config['id']}")
@@ -382,12 +386,10 @@ def run_quasarplay_dump(sort: str):
         if info.get("followers") is not None:
             print(f"  팔로워: {info.get('followers', 0):,}명")
         reviews = dumper.fetch_reviews()
-        if reviews:
-            output_path = DATA_DIR / config["output"]
-            dumper.export_json(reviews, str(output_path))
-            print(f"  저장됨: {output_path} ({len(reviews)}개 게임)")
-        else:
-            print(f"  경고: {config['name']} 리뷰를 가져오지 못했습니다.")
+        completed.append((dumper, reviews, DATA_DIR / config["output"]))
+    for dumper, reviews, output_path in completed:
+        dumper.export_json(reviews, str(output_path))
+        print(f"  저장됨: {output_path} ({len(reviews)}개 게임)")
     print("\n" + "=" * 60)
     print("퀘이사플레이 큐레이터 덤프 완료!")
     print("=" * 60)

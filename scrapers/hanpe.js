@@ -75,6 +75,7 @@ async function main() {
     const storedLastModified = await getStoredLastModified();
 
     const response = await fetch(API_URL, {
+        signal: AbortSignal.timeout(25000),
         headers: {
             'User-Agent': 'KOSTEAM/1.0 (+https://github.com/snowyegret23/KOSTEAM)'
         }
@@ -86,7 +87,11 @@ async function main() {
 
     const json = await response.json();
     const lastModified = json.last_modified;
-    const results = json.results || [];
+    const results = json.results;
+    if (!Array.isArray(results) || results.length === 0 ||
+        typeof lastModified !== 'string' || !lastModified) {
+        throw new Error('Invalid or empty hanpe API response');
+    }
 
     console.log(`API last_modified: ${lastModified}`);
     console.log(`Stored last_modified: ${storedLastModified || '(none)'}`);
@@ -102,6 +107,7 @@ async function main() {
         .filter(entry => entry.appid)
         .map(convertEntry)
         .sort((a, b) => Number(a.app_id) - Number(b.app_id));
+    if (data.length === 0) throw new Error('No valid hanpe entries');
 
     await fs.writeFile(OUTPUT_FILE, JSON.stringify(data, null, 2), 'utf-8');
 
@@ -117,4 +123,4 @@ async function main() {
     console.log(`Saved ${data.length} games to ${OUTPUT_FILE}`);
 }
 
-main().catch(console.error);
+main().catch(err => { console.error(err); process.exitCode = 1; });

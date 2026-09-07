@@ -1,5 +1,40 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import { resolveUrl, extractSteamAppId } from '../scripts/resolve-links.js';
+
+test('link resolution rejects untrusted initial URLs and every redirect hop', async t => {
+    const requested = [];
+    t.mock.method(globalThis, 'fetch', async url => {
+        requested.push(url);
+        return new Response(null, { status: 302, headers: { location: 'http://127.0.0.1/private' } });
+    });
+    for (const url of ['http://127.0.0.1/', 'https://store.steampowered.com.evil.test/app/1/',
+        'https://store.steampowered.com@evil.test/app/1/', 'file:///private']) {
+        assert.ok((await resolveUrl(url)).error);
+    }
+    assert.equal(requested.length, 0);
+    const result = await resolveUrl('https://store.steampowered.com/app/1/');
+    assert.ok(result.error);
+    assert.equal(requested.length, 1);
+    assert.equal(extractSteamAppId('https://evil.test/store.steampowered.com/app/1/'), null);
+});
+
+test('link resolution uses URL-relative paths and rejects cycles', async t => {
+    const requested = [];
+    t.mock.method(globalThis, 'fetch', async url => {
+        requested.push(url);
+        return requested.length === 1
+            ? new Response(null, { status: 302, headers: { location: '../2/' } })
+            : new Response(null, { status: 200 });
+    });
+    const result = await resolveUrl('https://store.steampowered.com/app/1/');
+    assert.equal(result.final, 'https://store.steampowered.com/app/2/');
+    assert.equal(result.redirected, true);
+    t.mock.method(globalThis, 'fetch', async () => new Response(null, {
+        status: 302, headers: { location: '/app/1/' }
+    }));
+    assert.match((await resolveUrl('https://store.steampowered.com/app/1/')).error, /loop/);
+});
 
 import { isValidCheckoutUrl, isValidSourceUrl } from '../src/shared/url-validator.js';
 
