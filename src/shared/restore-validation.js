@@ -21,6 +21,21 @@ export function isValidTransactionId(value) {
     return typeof value === 'string' && TRANSACTION_ID_PATTERN.test(value);
 }
 
+export function getSteamAccountId(token) {
+    if (typeof token !== 'string' || token.length > MAX_TOKEN_LENGTH) return null;
+    const parts = token.split('.');
+    if (parts.length !== 3 || !parts.every(part => /^[a-z0-9_-]+$/i.test(part))) return null;
+    try {
+        const payload = parts[1].replace(/-/g, '+').replace(/_/g, '/');
+        const { sub } = JSON.parse(atob(payload.padEnd(Math.ceil(payload.length / 4) * 4, '=')));
+        // This binds local recovery state to an account; Steam validates the token itself.
+        return typeof sub === 'string' && /^[1-9]\d{16,19}$/.test(sub) &&
+            BigInt(sub) <= 0xffffffffffffffffn ? sub : null;
+    } catch {
+        return null;
+    }
+}
+
 export function isValidAddItemsResponse(payload) {
     const response = payload?.response;
     if (!response || typeof response !== 'object' || Array.isArray(response)) return false;
@@ -30,7 +45,7 @@ export function isValidAddItemsResponse(payload) {
     }
 
     return response.line_item_ids.every(value => {
-        if (typeof value === 'string') return /^\d+$/.test(value) && value !== '0';
+        if (typeof value === 'string') return /^[1-9]\d*$/.test(value);
         return Number.isSafeInteger(value) && value > 0;
     });
 }
@@ -47,6 +62,8 @@ export function validateCartRestorePayload(payload) {
     if (typeof token !== 'string' || token.length === 0 || token.length > MAX_TOKEN_LENGTH || token !== token.trim()) {
         return { valid: false, error: 'Invalid Steam token' };
     }
+    const accountId = getSteamAccountId(token);
+    if (!accountId) return { valid: false, error: 'Steam account identity is unavailable' };
     if (typeof countryCode !== 'string' || !COUNTRY_CODE_PATTERN.test(countryCode)) {
         return { valid: false, error: 'Invalid Steam country code' };
     }
@@ -82,6 +99,7 @@ export function validateCartRestorePayload(payload) {
         valid: true,
         value: {
             token,
+            accountId,
             items: normalizedItems,
             remainingItems: normalizedRemainingItems,
             countryCode,

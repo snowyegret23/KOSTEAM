@@ -1,3 +1,21 @@
+export function parseCartPrice(text) {
+    const pattern = /([₩$€£])\s*(\d(?:[\d.,\s]*\d)?)|(\d(?:[\d.,\s]*\d)?)\s*([₩$€£])/g;
+    let result = null;
+    for (const match of String(text || '').matchAll(pattern)) {
+        const currency = match[1] || match[4];
+        const raw = (match[2] || match[3]).replace(/\s/g, '');
+        const decimal = currency !== '₩' && /[.,]\d{1,2}$/.test(raw);
+        const split = decimal ? Math.max(raw.lastIndexOf(','), raw.lastIndexOf('.')) : raw.length;
+        const whole = raw.slice(0, split);
+        if (!/^\d+$/.test(whole) && !/^\d{1,3}(?:,\d{3})+$/.test(whole) &&
+            !/^\d{1,3}(?:\.\d{3})+$/.test(whole)) return null;
+        const value = Number(whole.replace(/[.,]/g, '') + (decimal ? `.${raw.slice(split + 1)}` : ''));
+        if (!Number.isFinite(value)) return null;
+        result = { value, currency };
+    }
+    return result;
+}
+
 export function keySetsEqual(actualKeys, expectedKeys) {
     const actual = countKeys(actualKeys);
     const expected = countKeys(expectedKeys);

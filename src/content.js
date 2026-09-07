@@ -10,7 +10,9 @@ import {
     SOURCE_LABELS,
     MSG_GET_PATCH_INFO,
     KOREAN_LABELS,
-    UI_STRINGS
+    UI_STRINGS,
+    CACHE_KEY,
+    CACHE_ALIAS_KEY
 } from './shared/constants.js';
 
 (async function () {
@@ -21,20 +23,37 @@ import {
     const appId = appIdMatch[1];
 
     let patchInfoData = null;
+    let patchInfoReady = false;
+    let patchInfoLoading = true;
+    let patchRequestId = 0;
     const observerCleanups = [];
 
     // Check if URL has curator_clanid parameter and scroll to curator review
     handleCuratorLink();
 
     // Request patch info from background
-    sendMessage({ type: MSG_GET_PATCH_INFO, appId })
-        .then(response => {
-            if (response?.success) {
-                patchInfoData = response.info;
+    startLanguageTableWatcher();
+    refreshPatchInfo();
+
+    async function refreshPatchInfo() {
+        const requestId = ++patchRequestId;
+        try {
+            const response = await sendMessage({ type: MSG_GET_PATCH_INFO, appId });
+            if (requestId !== patchRequestId) return;
+            patchInfoReady = response?.success === true;
+            patchInfoData = patchInfoReady ? response.info : null;
+        } catch (err) {
+            if (requestId !== patchRequestId) return;
+            patchInfoReady = false;
+            console.debug('[KOSTEAM] Message error:', err);
+        } finally {
+            if (requestId === patchRequestId) {
+                patchInfoLoading = false;
+                const currentSupport = checkOfficialKoreanSupport();
+                if (currentSupport !== null) injectPatchInfo(patchInfoData, currentSupport);
             }
-        })
-        .catch(err => console.debug('[KOSTEAM] Message error:', err))
-        .finally(startLanguageTableWatcher);
+        }
+    }
 
     /**
      * Handle curator link - scroll to curator review section if curator_clanid is in URL
@@ -230,7 +249,11 @@ import {
                     if (existingBanner) existingBanner.remove();
                     return;
                 }
-                const patchTypeInfo = getPatchTypeInfo(info, hasOfficialKorean);
+                const patchTypeInfo = patchInfoReady ? getPatchTypeInfo(info, hasOfficialKorean) : {
+                    label: patchInfoLoading ? '정보 조회 중' : '정보 조회 실패',
+                    cssClass: 'unknown',
+                    color: '#607d8b'
+                };
                 if (!patchTypeInfo) return;
 
                 const isSourceEnabled = (source) => settings[`source_${source}`] !== false;
@@ -358,7 +381,11 @@ import {
                 };
 
                 // OFFICIAL_ESTIMATED: Show explanation text first, then links
-                if (isOfficialEstimated) {
+                if (!patchInfoReady) {
+                    dataArea.appendChild(createElement('div', 'kr-patch-none-text', patchInfoLoading
+                        ? '한국어 패치 정보를 불러오는 중입니다.'
+                        : '패치 정보를 불러오지 못했습니다. 확장 프로그램에서 데이터를 새로고침해 주세요.'));
+                } else if (isOfficialEstimated) {
                     const msgDiv = createElement('div', 'kr-patch-official-text');
                     msgDiv.textContent = UI_STRINGS.OFFICIAL_ESTIMATED_TEXT;
                     dataArea.appendChild(msgDiv);
@@ -405,15 +432,8 @@ import {
                 if (existingBanner) existingBanner.remove();
                 return;
             }
-            if (hasSourceChange || hasPatchToggle) {
-                sendMessage({ type: MSG_GET_PATCH_INFO, appId })
-                    .then(response => {
-                        if (response && response.success) {
-                            const currentSupport = checkOfficialKoreanSupport();
-                            if (currentSupport !== null) injectPatchInfo(response.info, currentSupport);
-                        }
-                    })
-                    .catch(err => console.debug('[KOSTEAM] Re-render error:', err));
+            if (hasSourceChange || hasPatchToggle || changes[CACHE_KEY] || changes[CACHE_ALIAS_KEY]) {
+                refreshPatchInfo();
             }
         }
     });

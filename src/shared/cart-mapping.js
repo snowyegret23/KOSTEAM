@@ -50,6 +50,7 @@ export function mapCartEntries(entries, lineItems, appPackagesById = new Map()) 
 
     entries.forEach((entry, index) => {
         if (mapped[index]) return;
+        if (entry?.lineItemId) return;
         const bundleId = toSteamId(entry?.bundleId);
         if (!bundleId) return;
         mapped[index] = consume(candidate => candidate.type === 'bundle' && candidate.bundleId === bundleId);
@@ -57,6 +58,7 @@ export function mapCartEntries(entries, lineItems, appPackagesById = new Map()) 
 
     entries.forEach((entry, index) => {
         if (mapped[index]) return;
+        if (entry?.lineItemId) return;
         const packageId = toSteamId(entry?.packageId);
         if (!packageId) return;
         mapped[index] = consume(candidate => candidate.type === 'package' && candidate.packageId === packageId);
@@ -64,6 +66,7 @@ export function mapCartEntries(entries, lineItems, appPackagesById = new Map()) 
 
     entries.forEach((entry, index) => {
         if (mapped[index]) return;
+        if (entry?.lineItemId) return;
         const appId = toSteamId(entry?.appId);
         if (!appId) return;
 

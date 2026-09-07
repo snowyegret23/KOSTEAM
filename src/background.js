@@ -5,6 +5,7 @@
 
 import {
     api,
+    withRequestTimeout,
     storageGet,
     storageSet,
     storageSessionGet,
@@ -51,6 +52,7 @@ import {
 } from './shared/constants.js';
 
 import {
+    getSteamAccountId,
     isValidAddItemsResponse,
     isValidCartItem,
     isValidTransactionId,
@@ -64,6 +66,10 @@ const MAX_ALIAS_BYTES = 256 * 1024;
 const MAX_CART_API_RESPONSE_BYTES = 1024 * 1024;
 const HASH_PATTERN = /^[0-9a-f]{64}$/;
 const KNOWN_SOURCES = new Set(['steamapp', 'quasarplay', 'directg', 'stove']);
+let updatePromise = null;
+let cacheLoadPromise = null;
+let cachedData = null;
+let nextUpdateCheck = 0;
 
 async function readJsonResponse(response, maxBytes) {
     const declaredHeader = response.headers.get('content-length');
@@ -175,10 +181,12 @@ async function verifyRemotePayload(response, expectedSize, expectedHash, maxByte
  */
 async function getRemoteVersion() {
     try {
-        const response = await fetch(VERSION_URL, { cache: 'no-store' });
-        if (!response.ok) return null;
-        const { value } = await readJsonResponse(response, MAX_VERSION_BYTES);
-        return validateVersionInfo(value) ? value : null;
+        return await withRequestTimeout(async signal => {
+            const response = await fetch(VERSION_URL, { cache: 'no-store', signal });
+            if (!response.ok) return null;
+            const { value } = await readJsonResponse(response, MAX_VERSION_BYTES);
+            return validateVersionInfo(value) ? value : null;
+        });
     } catch (err) {
         console.error('[KOSTEAM] Version fetch error:', err);
         return null;
@@ -189,24 +197,31 @@ async function getRemoteVersion() {
  * Check for updates and fetch if new version available
  * @returns {Promise<Object|null>} Updated data or null
  */
-async function checkForUpdates() {
-    try {
+function checkForUpdates(force = false) {
+    if (updatePromise) return updatePromise;
+    updatePromise = (async () => {
+        await loadCachedData();
         const remoteVersion = await getRemoteVersion();
-        if (!remoteVersion) return null;
+        if (!remoteVersion) throw new Error('Remote version is unavailable');
 
         const local = await storageGet([CACHE_VERSION_KEY]);
         const localVersion = local[CACHE_VERSION_KEY];
 
-        if (checkNeedsUpdate(localVersion, remoteVersion)) {
+        if (force || !cachedData || checkNeedsUpdate(localVersion, remoteVersion)) {
             console.log('[KOSTEAM] New version detected, updating...');
-            return await fetchData(remoteVersion);
+            const data = await fetchData(remoteVersion);
+            if (!data) throw new Error('Patch data update failed');
         }
-
-        return null;
-    } catch (err) {
+        const now = Date.now();
+        await storageSet({ [LAST_UPDATE_CHECK_KEY]: now });
+        nextUpdateCheck = now + UPDATE_INTERVAL_MINUTES * MS_PER_MINUTE;
+        return cachedData?.data || true;
+    })().catch(err => {
+        nextUpdateCheck = Date.now() + MS_PER_MINUTE;
         console.error('[KOSTEAM] Update check failed:', err);
         return null;
-    }
+    }).finally(() => { updatePromise = null; });
+    return updatePromise;
 }
 
 /**
@@ -216,27 +231,33 @@ async function checkForUpdates() {
  */
 async function fetchData(versionInfo) {
     try {
-        const [dataRes, aliasRes] = await Promise.all([
-            fetch(DATA_URL, { cache: 'no-store' }),
-            fetch(ALIAS_URL, { cache: 'no-store' })
-        ]);
-
-        if (!dataRes.ok) throw new Error(`Data fetch failed: ${dataRes.status}`);
-        if (!aliasRes.ok) throw new Error(`Alias fetch failed: ${aliasRes.status}`);
-
-        const [data, alias] = await Promise.all([
-            verifyRemotePayload(dataRes, versionInfo.lookup_size, versionInfo.lookup_sha256, MAX_LOOKUP_BYTES),
-            verifyRemotePayload(aliasRes, versionInfo.alias_size, versionInfo.alias_sha256, MAX_ALIAS_BYTES)
-        ]);
+        const [data, alias] = await withRequestTimeout(async signal => {
+            const fetchPayload = async (url, size, hash, limit) => {
+                const response = await fetch(url, { cache: 'no-store', signal });
+                if (!response.ok) throw new Error(`Data fetch failed: ${response.status}`);
+                return verifyRemotePayload(response, size, hash, limit);
+            };
+            return Promise.all([
+                fetchPayload(DATA_URL, versionInfo.lookup_size, versionInfo.lookup_sha256, MAX_LOOKUP_BYTES),
+                fetchPayload(ALIAS_URL, versionInfo.alias_size, versionInfo.alias_sha256, MAX_ALIAS_BYTES)
+            ]);
+        });
 
         if (!validateLookupData(data, versionInfo)) throw new Error('Invalid lookup schema');
         if (!validateAliasData(alias)) throw new Error('Invalid alias schema');
 
-        await storageSet({
-            [CACHE_KEY]: data,
-            [CACHE_ALIAS_KEY]: alias,
-            [CACHE_VERSION_KEY]: versionInfo
-        });
+        const previousData = cachedData;
+        cachedData = { data, alias };
+        try {
+            await storageSet({
+                [CACHE_KEY]: data,
+                [CACHE_ALIAS_KEY]: alias,
+                [CACHE_VERSION_KEY]: versionInfo
+            });
+        } catch (err) {
+            cachedData = previousData;
+            throw err;
+        }
 
         console.log(`[KOSTEAM] Updated: ${versionInfo.total} games`);
         return data;
@@ -251,28 +272,28 @@ async function fetchData(versionInfo) {
  * Automatically checks for updates if enough time has passed (lazy update)
  * @returns {Promise<{data: Object, alias: Object}>}
  */
-async function getData() {
-    const result = await storageGet([CACHE_KEY, CACHE_ALIAS_KEY, LAST_UPDATE_CHECK_KEY]);
-
-    // Check if we need to update (lazy update pattern)
-    const lastCheck = result[LAST_UPDATE_CHECK_KEY] || 0;
-    const now = Date.now();
-    const updateInterval = UPDATE_INTERVAL_MINUTES * MS_PER_MINUTE;
-
-    if (now - lastCheck > updateInterval) {
-        // Don't wait for update - return current data immediately
-        // Update happens in background
-        checkForUpdates().then(() => {
-            storageSet({ [LAST_UPDATE_CHECK_KEY]: now });
-        }).catch(err => {
-            console.error('[KOSTEAM] Background update failed:', err);
-        });
+function loadCachedData() {
+    if (!cacheLoadPromise) {
+        cacheLoadPromise = storageGet([CACHE_KEY, CACHE_ALIAS_KEY, LAST_UPDATE_CHECK_KEY])
+            .then(result => {
+                if (!cachedData && result[CACHE_KEY]?._meta && result[CACHE_ALIAS_KEY]) {
+                    cachedData = { data: result[CACHE_KEY], alias: result[CACHE_ALIAS_KEY] };
+                    nextUpdateCheck = (result[LAST_UPDATE_CHECK_KEY] || 0) + UPDATE_INTERVAL_MINUTES * MS_PER_MINUTE;
+                }
+            }).catch(err => { cacheLoadPromise = null; throw err; });
     }
+    return cacheLoadPromise;
+}
 
-    return {
-        data: result[CACHE_KEY] || {},
-        alias: result[CACHE_ALIAS_KEY] || {}
-    };
+async function getData() {
+    if (!cachedData) await loadCachedData();
+    if (!cachedData) {
+        await checkForUpdates(true);
+        if (!cachedData) throw new Error('Patch data is unavailable');
+    } else if (Date.now() >= nextUpdateCheck) {
+        checkForUpdates();
+    }
+    return cachedData;
 }
 
 /**
@@ -316,7 +337,9 @@ function isValidAppId(appId) {
 function checkNeedsUpdate(localVersion, remoteVersion) {
     return !validateVersionInfo(localVersion) ||
         localVersion.generated_at !== remoteVersion.generated_at ||
-        localVersion.alias_updated_at !== remoteVersion.alias_updated_at;
+        localVersion.alias_updated_at !== remoteVersion.alias_updated_at ||
+        localVersion.lookup_sha256 !== remoteVersion.lookup_sha256 ||
+        localVersion.alias_sha256 !== remoteVersion.alias_sha256;
 }
 
 function encodeVarint(value) {
@@ -584,7 +607,7 @@ async function addItemsToSteamCart(payload, options = {}) {
         const timeoutTimer = setTimeout(() => controller.abort(), requestTimeout);
 
         try {
-            const response = await fetch('https://api.steampowered.com/IAccountCartService/AddItemsToCart/v1', {
+            const response = await fetch('https://api.steampowered.com/IAccountCartService/AddItemsToCart/v1?format=json', {
                 method: 'POST',
                 body: buildFormData(base64Payload, token),
                 credentials: 'omit',
@@ -650,6 +673,10 @@ function clearCartRestoreStateForMessage(message, senderTabId) {
             pending.transactionId !== message.transactionId ||
             pending.recoveryRevision !== message.recoveryRevision) {
             return { success: false, error: 'Restore transaction does not match' };
+        }
+        const ownerAccountId = pending.accountId || getSteamAccountId(sessionState[CART_RESTORE_SECRET_KEY]?.token);
+        if (message.discard !== true && (!ownerAccountId || getSteamAccountId(message.token) !== ownerAccountId)) {
+            return { success: false, error: 'Restore account does not match' };
         }
         if (pending?.transactionId && isActiveSecretOwnedByOtherTab(
             sessionState[CART_RESTORE_SECRET_KEY],
@@ -730,6 +757,7 @@ function saveCartRestoreTransaction(message, ownerTabId) {
             await storageSet({
                 [PENDING_CART_RESTORE_KEY]: {
                     autoRestore: true,
+                    accountId: validation.value.accountId,
                     phase: 'prepared',
                     removedItems: validation.value.items,
                     originalRemovedItems: validation.value.items,
@@ -785,6 +813,11 @@ function restorePendingCart(transactionId, recoveryRevision, senderTabId) {
             purchaseMarker?.transactionId !== transactionId) {
             return { success: false, error: 'Restore session is unavailable' };
         }
+        const accountId = getSteamAccountId(secret.token);
+        if (!accountId || (pending.accountId && pending.accountId !== accountId)) {
+            return { success: false, error: 'Restore account does not match' };
+        }
+        pending = { ...pending, accountId };
         if (!Number.isFinite(secret.expiresAt) || Date.now() >= secret.expiresAt) {
             await Promise.all([
                 storageSessionRemove([CART_RESTORE_SECRET_KEY]),
@@ -860,6 +893,12 @@ function recoverCartWithFreshToken(message, senderTabId) {
         )) {
             return { success: false, error: 'Restore transaction is active in another tab' };
         }
+
+        const ownerAccountId = pending.accountId || getSteamAccountId(sessionState[CART_RESTORE_SECRET_KEY]?.token);
+        if (!ownerAccountId || validation.value.accountId !== ownerAccountId) {
+            return { success: false, error: 'Restore account does not match' };
+        }
+        pending = { ...pending, accountId: ownerAccountId };
 
         const recoveryTarget = message.recoveryTargetItems === undefined
             ? null
@@ -1070,9 +1109,7 @@ onMessage((message, sender, sendResponse) => {
     if (message.type === MSG_REFRESH_DATA) {
         (async () => {
             try {
-                const remoteVersion = await getRemoteVersion();
-                if (!remoteVersion) throw new Error('Remote version is unavailable');
-                const data = await fetchData(remoteVersion);
+                const data = await checkForUpdates(true);
                 sendResponse({ success: !!data });
             } catch (err) {
                 console.error('[KOSTEAM] REFRESH_DATA error:', err);

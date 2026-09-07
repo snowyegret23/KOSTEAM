@@ -65,3 +65,11 @@ test('prefers an exact line-item identifier when the DOM exposes it', () => {
         { id: 100, type: 'package' }
     ]);
 });
+
+test('a stale line-item identity cannot fall back to another package for the same app', () => {
+    assert.deepEqual(mapCartEntries(
+        [{ lineItemId: 'removed', packageId: 100, appId: 10 }],
+        [{ line_item_id: 'replacement', packageid: 100 }],
+        new Map([[10, [100]]])
+    ), [null]);
+});

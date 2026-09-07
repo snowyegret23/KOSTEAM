@@ -5,6 +5,20 @@
 export const api = (typeof browser !== 'undefined') ? browser : chrome;
 const usesPromiseApi = typeof browser !== 'undefined';
 
+export async function withRequestTimeout(request, timeoutMs = 15000, parentSignal) {
+    const controller = new AbortController();
+    const abort = () => controller.abort();
+    if (parentSignal?.aborted) abort();
+    parentSignal?.addEventListener('abort', abort, { once: true });
+    const timer = setTimeout(abort, timeoutMs);
+    try {
+        return await request(controller.signal);
+    } finally {
+        clearTimeout(timer);
+        parentSignal?.removeEventListener('abort', abort);
+    }
+}
+
 function getLastError() {
     return api.runtime?.lastError;
 }

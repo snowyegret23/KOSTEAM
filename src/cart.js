@@ -3,13 +3,13 @@
  * Adds per-item selection and checkout controls in Steam cart
  */
 
-import { sendMessage, storageGet } from './shared/api.js';
-import { waitForKeySet, waitForObservedCondition } from './shared/cart_state.js';
+import { sendMessage, storageGet, onStorageChanged, withRequestTimeout } from './shared/api.js';
+import { keySetsEqual, parseCartPrice, waitForKeySet, waitForObservedCondition } from './shared/cart_state.js';
 import { getRemoveControlIndex, isContextualRemoveControl } from './shared/cart-controls.js';
 import { mapCartEntries } from './shared/cart-mapping.js';
 import { getCartRecoveryPlan, getMissingCartItems } from './shared/cart-recovery.js';
 import { isValidCheckoutUrl } from './shared/url-validator.js';
-import { isValidCartItem, MAX_CART_RESTORE_ITEMS } from './shared/restore-validation.js';
+import { getSteamAccountId, isValidCartItem, MAX_CART_RESTORE_ITEMS } from './shared/restore-validation.js';
 import {
     CART_FEATURE_KEY,
     CART_PURCHASE_COMPLETE_KEY,
@@ -25,12 +25,6 @@ import {
     const CART_PATH_PREFIX = '/cart';
     const RESTORE_SOURCE_TAG = 'main-cluster-topseller';
     const DISABLE_CART_DIALOGS = false;
-    const PRICE_CURRENCY_PATTERNS = [
-        /₩\s?([\d,]+)/g,
-        /\$\s?([\d,]+(?:\.\d{1,2})?)/g,
-        /€\s?([\d,]+(?:\.\d{1,2})?)/g,
-        /£\s?([\d,]+(?:\.\d{1,2})?)/g
-    ];
     const SELECTORS = [
         '[data-line-item-id]',
         '[data-cart-item-id]',
@@ -69,6 +63,28 @@ import {
     let checkoutInProgress = false;
     let allowNativeCheckoutClick = false;
     let pendingRecoveryBlocked = false;
+    let cartFeatureEnabled = true;
+    const cartRequestController = new AbortController();
+
+    onStorageChanged((changes, area) => {
+        if (area !== 'local' || changes[CART_FEATURE_KEY]?.newValue !== false) return;
+        cartFeatureEnabled = false;
+        cartRequestController.abort();
+        observer.disconnect();
+        document.querySelectorAll('.kosteam-cart-bar, .kosteam-cart-controls, .kosteam-buy-selected-sidebar')
+            .forEach(element => element.remove());
+    });
+
+    async function canModifyCart(accountId) {
+        if (!cartFeatureEnabled || !accountId || getSteamAccountId(getWebApiToken()) !== accountId) return false;
+        try {
+            const settings = await storageGet([CART_FEATURE_KEY]);
+            return cartFeatureEnabled && settings[CART_FEATURE_KEY] === true &&
+                getSteamAccountId(getWebApiToken()) === accountId;
+        } catch {
+            return false;
+        }
+    }
 
     document.addEventListener('click', guardNativeCheckoutDuringSelection, true);
 
@@ -128,6 +144,8 @@ import {
     // ========== DOM Utility Functions ==========
 
     function getItemKey(item) {
+        const lineItemId = getLineItemId(item);
+        if (lineItemId) return `line:${lineItemId}`;
         const reference = getStoreItemReference(item);
         return reference ? `${reference.type}:${reference.id}` : null;
     }
@@ -136,13 +154,7 @@ import {
         const baseKey = getItemKey(item);
         if (!baseKey) return null;
 
-        let occurrence = 0;
-        for (const currentItem of items) {
-            if (getItemKey(currentItem) !== baseKey) continue;
-            if (currentItem === item) return `${baseKey}::${occurrence}`;
-            occurrence++;
-        }
-        return baseKey;
+        return items.filter(currentItem => getItemKey(currentItem) === baseKey).length === 1 ? baseKey : null;
     }
 
     function getLineItemId(item) {
@@ -400,10 +412,17 @@ import {
             };
         });
 
-        const appIds = Array.from(new Set(entries.map(entry => entry.appId).filter(Boolean)));
-        const appPackagesById = new Map(await Promise.all(
-            appIds.map(async appId => [appId, await fetchAppPackageIds(appId)])
-        ));
+        const directMappings = mapCartEntries(entries, lineItems);
+        if (directMappings.length !== entries.length) return map;
+        const appIds = Array.from(new Set(entries
+            .filter((entry, index) => !directMappings[index] && !entry.lineItemId)
+            .map(entry => entry.appId).filter(Boolean)));
+        const appPackagesById = new Map();
+        for (let start = 0; start < appIds.length; start += 4) {
+            const results = await Promise.all(appIds.slice(start, start + 4)
+                .map(async appId => [appId, await fetchAppPackageIds(appId)]));
+            results.forEach(([appId, packages]) => appPackagesById.set(appId, packages));
+        }
         const mappings = mapCartEntries(entries, lineItems, appPackagesById);
         mappings.forEach((info, index) => {
             if (info) map.set(domItems[index], info);
@@ -470,27 +489,23 @@ import {
         return ready ? findNativeCheckoutButton({ requireReady: true }) : null;
     }
 
-    async function removeCartItemsSequentially(itemsToRemove, expectedRemainingKeys) {
-        const expectedKeys = getCartItemKeys();
+    async function removeCartItemsSequentially(itemsToRemove, expectedRemainingKeys, accountId) {
+        const expectedKeys = [...expectedRemainingKeys, ...itemsToRemove.map(item => item.key)];
         const removedItems = [];
 
         for (let i = itemsToRemove.length - 1; i >= 0; i--) {
             const target = itemsToRemove[i];
+            if (!await canModifyCart(accountId)) return { success: false, removedItems, ambiguous: true };
             if (!target.key || !isValidCartItem(target.cartInfo)) {
                 return { success: false, removedItems, ambiguous: false };
             }
 
             const currentItems = findCartItems();
-            let item = null;
-            if (target.element?.isConnected && currentItems.includes(target.element)) {
-                item = target.element;
+            if (!keySetsEqual(currentItems.map(getItemKey), expectedKeys)) {
+                return { success: false, removedItems, ambiguous: true };
             }
-            if (!item && target.selectionKey) {
-                item = currentItems.find(cartItem => getItemSelectionKey(cartItem, currentItems) === target.selectionKey);
-            }
-            if (!item) {
-                item = currentItems.find(cartItem => getItemKey(cartItem) === target.key);
-            }
+            const candidates = currentItems.filter(cartItem => getItemSelectionKey(cartItem, currentItems) === target.selectionKey);
+            const item = target.selectionKey && candidates.length === 1 ? candidates[0] : null;
 
             if (!item) {
                 // A missing node can be a transient React re-render. Do not
@@ -522,37 +537,7 @@ import {
     // ========== Price Handling ==========
 
     function getItemPrice(item) {
-        if (item.dataset?.kosteamPrice) {
-            return {
-                value: Number(item.dataset.kosteamPrice),
-                currency: item.dataset.kosteamCurrency || ''
-            };
-        }
-
-        const priceInfo = parsePriceText(item.textContent || '');
-        if (priceInfo && item.dataset) {
-            item.dataset.kosteamPrice = String(priceInfo.value);
-            item.dataset.kosteamCurrency = priceInfo.currency;
-        }
-        if (priceInfo) return priceInfo;
-        return null;
-    }
-
-    function parsePriceText(text) {
-        if (!text) return null;
-        for (const pattern of PRICE_CURRENCY_PATTERNS) {
-            const matches = [...text.matchAll(pattern)];
-            if (matches.length > 0) {
-                const last = matches[matches.length - 1];
-                const raw = last[1].replace(/,/g, '');
-                const value = Number(raw);
-                if (!Number.isNaN(value)) {
-                    const currency = last[0].trim().replace(raw, '').trim();
-                    return { value, currency };
-                }
-            }
-        }
-        return null;
+        return parseCartPrice(item.textContent);
     }
 
     const appPackageCache = new Map();
@@ -568,9 +553,11 @@ import {
                 l: 'english'
             });
             const url = `https://store.steampowered.com/api/appdetails?${params}`;
-            const res = await fetch(url, { credentials: 'omit' });
-            if (!res.ok) throw new Error(`HTTP ${res.status}`);
-            const json = await res.json();
+            const json = await withRequestTimeout(async signal => {
+                const res = await fetch(url, { credentials: 'omit', signal });
+                if (!res.ok) throw new Error(`HTTP ${res.status}`);
+                return res.json();
+            }, 15000, cartRequestController.signal);
             const data = json?.[String(appId)]?.data;
             const packages = Array.isArray(data?.packages)
                 ? data.packages.map(id => Number(id)).filter(id => id > 0)
@@ -578,7 +565,6 @@ import {
             appPackageCache.set(appId, packages);
             return packages;
         } catch (err) {
-            appPackageCache.set(appId, []);
             return [];
         }
     }
@@ -706,10 +692,12 @@ import {
         }
     }
 
-    async function clearPendingRestore(transactionId, recoveryRevision) {
+    async function clearPendingRestore(transactionId, recoveryRevision, discard = false) {
         try {
             return await sendMessage({
                 type: MSG_CLEAR_CART_RESTORE,
+                token: getWebApiToken(),
+                discard,
                 transactionId,
                 recoveryRevision
             });
@@ -724,6 +712,7 @@ import {
     }
 
     async function sendAppIdsToWishlist(appIds) {
+        const accountId = getSteamAccountId(getWebApiToken());
         const sessionid = getSessionId();
         if (!sessionid) {
             if (!DISABLE_CART_DIALOGS) {
@@ -735,17 +724,21 @@ import {
         let added = 0;
         let failed = 0;
         for (const appId of appIds) {
+            if (!await canModifyCart(accountId)) return { added, failed: appIds.length - added };
             try {
                 const form = new URLSearchParams();
                 form.set('appid', String(appId));
                 form.set('sessionid', sessionid);
-                const res = await fetch('https://store.steampowered.com/api/addtowishlist', {
-                    method: 'POST',
-                    body: form,
-                    credentials: 'include',
-                    redirect: 'error'
-                });
-                const data = res.ok ? await res.json() : null;
+                const data = await withRequestTimeout(async signal => {
+                    const res = await fetch('https://store.steampowered.com/api/addtowishlist', {
+                        method: 'POST',
+                        body: form,
+                        credentials: 'include',
+                        redirect: 'error',
+                        signal
+                    });
+                    return res.ok ? res.json() : null;
+                }, 15000, cartRequestController.signal);
                 if (data?.success) {
                     added++;
                 } else {
@@ -762,6 +755,7 @@ import {
     async function restoreItemsToCart(items, options = {}) {
         const { pending = null, recoveryTargetItems, silent = false } = options;
         const token = getWebApiToken();
+        if (!await canModifyCart(getSteamAccountId(token))) return { success: false, error: 'Cart operation cancelled' };
         const countryCode = getAccountCountryCode();
         if (!token) return { success: false, error: 'missing_token' };
         if (!countryCode) return { success: false, error: 'missing_country_code' };
@@ -828,6 +822,18 @@ import {
         const wishlistSelectedButton = createButton('선택항목을 찜 목록에 추가', 'kosteam-cart-wishlist-selected-btn');
         const jsonButton = createButton('JSON 저장', 'kosteam-cart-json-btn');
         const jsonImportButton = createButton('JSON 불러오기', 'kosteam-cart-json-import-btn');
+        if (pendingRecoveryBlocked) {
+            const discardButton = createButton('자동 복원 정보 지우기', 'kosteam-cart-discard-restore-btn');
+            discardButton.addEventListener('click', async () => {
+                const state = await storageGet([PENDING_CART_RESTORE_KEY]);
+                const pending = state[PENDING_CART_RESTORE_KEY];
+                if (!pending || !window.confirm('자동 복원 대기 정보를 지울까요? 필요한 상품은 백업 JSON으로 복원해 주세요. 현재 장바구니 상품은 삭제하지 않습니다.')) return;
+                const result = await clearPendingRestore(pending.transactionId, pending.recoveryRevision, true);
+                if (result?.success) window.location.reload();
+                else window.alert(`복원 정보를 지우지 못했습니다: ${result?.error || 'unknown'}`);
+            });
+            bar.appendChild(discardButton);
+        }
 
         // Event handlers
         checkbox.addEventListener('change', () => {
@@ -891,6 +897,7 @@ import {
     async function handleJsonImport(e) {
         e.preventDefault();
         e.stopPropagation();
+        if (!cartFeatureEnabled) return;
 
         const input = document.createElement('input');
         input.type = 'file';
@@ -899,7 +906,7 @@ import {
 
         input.addEventListener('change', async () => {
             const file = input.files?.[0];
-            if (!file) return;
+            if (!file || !cartFeatureEnabled) return;
             if (file.size > MAX_IMPORT_FILE_BYTES) {
                 if (!DISABLE_CART_DIALOGS) {
                     window.alert('JSON 파일이 너무 큽니다. 1MB 이하의 장바구니 백업만 불러올 수 있습니다.');
@@ -997,10 +1004,10 @@ import {
         e.preventDefault();
         e.stopPropagation();
 
-        if (checkoutInProgress) return;
+        if (checkoutInProgress || !cartFeatureEnabled) return;
         if (pendingRecoveryBlocked) {
             if (!DISABLE_CART_DIALOGS) {
-                window.alert('이전 장바구니 복원이 완료되지 않았거나 다른 탭에서 진행 중입니다. 해당 탭에서 완료하거나, 장바구니 기능을 껐다 다시 켠 뒤 이 페이지를 새로고침해 주세요.');
+                window.alert('이전 장바구니 복원을 완료하지 못했습니다. 원래 Steam 계정과 진행 중인 탭을 확인해 주세요. 백업 JSON으로 복원하려면 먼저 자동 복원 정보를 지워 주세요.');
             }
             return;
         }
@@ -1036,8 +1043,13 @@ import {
     }
 
     async function performBuySelected() {
-
+        const accountId = getSteamAccountId(getWebApiToken());
+        if (!await canModifyCart(accountId)) return false;
         const items = findCartItems();
+        if (items.some(item => !getItemSelectionKey(item, items))) {
+            window.alert('같은 게임의 장바구니 항목을 정확히 구분할 수 없어 선택 구매를 중단했습니다.');
+            return false;
+        }
         if (!getCartLineItems().every(isSimpleRecoverableLineItem)) {
             if (!DISABLE_CART_DIALOGS) {
                 window.alert('선물·비공개 구매·쿠폰이 적용된 특수 장바구니 항목은 안전하게 복원할 수 없어 선택 구매를 지원하지 않습니다.');
@@ -1103,7 +1115,7 @@ import {
         }
 
         if (uncheckedItems.length === 0) {
-            const checkoutStarted = await continueToCheckout();
+            const checkoutStarted = await continueToCheckout(null, null, checkedKeys, accountId);
             if (!checkoutStarted && !DISABLE_CART_DIALOGS) {
                 window.alert('Steam 결제 버튼이 아직 활성화되지 않았습니다. 장바구니 상태를 확인한 뒤 다시 시도해 주세요.');
             }
@@ -1140,7 +1152,7 @@ import {
             return;
         }
 
-        const removalResult = await removeCartItemsSequentially(uncheckedItems, checkedKeys);
+        const removalResult = await removeCartItemsSequentially(uncheckedItems, checkedKeys, accountId);
         if (!removalResult.success) {
             const rollback = await rollbackInterruptedSelection(
                 removalResult.removedItems,
@@ -1158,7 +1170,9 @@ import {
 
         const checkoutStarted = await continueToCheckout(
             pendingResult.transactionId,
-            pendingResult.recoveryRevision
+            pendingResult.recoveryRevision,
+            checkedKeys,
+            accountId
         );
         if (!checkoutStarted) {
             const rollback = await rollbackInterruptedSelection(
@@ -1242,42 +1256,44 @@ import {
 
     // ========== UI State Management ==========
 
-    function updateSelectAllState() {
+    function updateSelectAllState(items = findCartItems()) {
         const bar = ensureActionBar();
         const checkbox = bar.querySelector('.kosteam-cart-selectall-checkbox');
-        const items = findCartItems();
 
         if (items.length === 0) {
             checkbox.checked = false;
             checkbox.indeterminate = false;
+            updateSelectedTotal(items);
             return;
         }
 
         const selectedCount = items.filter(item => item.querySelector('.kosteam-cart-checkbox')?.checked).length;
         checkbox.checked = selectedCount === items.length;
         checkbox.indeterminate = selectedCount > 0 && selectedCount < items.length;
-        updateSelectedTotal();
+        updateSelectedTotal(items);
     }
 
-    function updateSelectedTotal() {
+    function updateSelectedTotal(items = findCartItems()) {
         const bar = document.querySelector('.kosteam-cart-bar');
         const totalEl = bar?.querySelector('.kosteam-cart-total');
         if (!totalEl) return;
 
-        const items = findCartItems();
         let sum = 0;
         let currency = '';
+        let complete = true;
 
         for (const item of items) {
             if (!item.querySelector('.kosteam-cart-checkbox')?.checked) continue;
             const priceInfo = getItemPrice(item);
-            if (priceInfo) {
+            if (priceInfo && (!currency || currency === priceInfo.currency)) {
                 sum += priceInfo.value;
-                currency = priceInfo.currency || currency;
+                currency = priceInfo.currency;
+            } else {
+                complete = false;
             }
         }
 
-        const nextText = currency ? `선택 합계: ${formatCurrency(sum, currency)}` : '선택 합계: -';
+        const nextText = complete && currency ? `선택 합계: ${formatCurrency(sum, currency)}` : '선택 합계: -';
         if (totalEl.textContent !== nextText) totalEl.textContent = nextText;
     }
 
@@ -1333,7 +1349,7 @@ import {
     }
 
     function guardNativeCheckoutDuringSelection(event) {
-        if (!checkoutInProgress || allowNativeCheckoutClick || !(event.target instanceof Element)) return;
+        if (!cartFeatureEnabled || !checkoutInProgress || allowNativeCheckoutClick || !(event.target instanceof Element)) return;
         const control = event.target.closest('a[href], button');
         if (!control || control.closest('[role="dialog"], dialog')) return;
 
@@ -1345,9 +1361,10 @@ import {
         event.stopImmediatePropagation();
     }
 
-    async function continueToCheckout(transactionId = null, recoveryRevision = null) {
+    async function continueToCheckout(transactionId, recoveryRevision, expectedKeys, accountId) {
         const checkoutBtn = await waitForNativeCheckoutButtonReady();
         if (!checkoutBtn) return false;
+        if (!await canModifyCart(accountId) || !keySetsEqual(getCartItemKeys(), expectedKeys)) return false;
 
         if (transactionId) {
             try {
@@ -1364,7 +1381,8 @@ import {
         }
 
         const currentCheckoutBtn = findNativeCheckoutButton({ requireReady: true });
-        if (!currentCheckoutBtn?.isConnected) return false;
+        if (!currentCheckoutBtn?.isConnected || !cartFeatureEnabled ||
+            getSteamAccountId(getWebApiToken()) !== accountId || !keySetsEqual(getCartItemKeys(), expectedKeys)) return false;
         allowNativeCheckoutClick = true;
         try {
             currentCheckoutBtn.click();
@@ -1397,22 +1415,27 @@ import {
     }
 
     function decorateItems() {
+        if (!cartFeatureEnabled) return;
         const items = findCartItems();
         ensureActionBar();
         ensureBuySelectedButton();
 
         if (items.length === 0) {
-            updateSelectAllState();
+            updateSelectAllState(items);
             return;
         }
 
         for (const item of items) {
-            if (item.querySelector('.kosteam-cart-controls')) continue;
+            const key = getItemSelectionKey(item, items);
+            const existing = item.querySelector('.kosteam-cart-controls');
+            if (existing?.dataset.selectionKey === (key || '')) continue;
+            existing?.remove();
 
             item.classList.add('kosteam-cart-item');
 
             const controls = document.createElement('div');
             controls.className = 'kosteam-cart-controls';
+            controls.dataset.selectionKey = key || '';
 
             const checkbox = document.createElement('input');
             checkbox.type = 'checkbox';
@@ -1422,10 +1445,7 @@ import {
             label.textContent = '선택';
             label.className = 'kosteam-cart-checkbox-label';
 
-            const key = getItemSelectionKey(item, items);
             if (key && selectedKeys.has(key)) checkbox.checked = true;
-
-            getItemPrice(item); // Cache price
 
             checkbox.addEventListener('change', () => {
                 if (key) {
@@ -1440,7 +1460,7 @@ import {
             item.insertBefore(controls, item.firstChild);
         }
 
-        updateSelectAllState();
+        updateSelectAllState(items);
     }
 
     // ========== Auto Restore ==========
@@ -1510,7 +1530,7 @@ import {
     // ========== Initialization ==========
 
     function scheduleRefresh() {
-        if (refreshScheduled) return;
+        if (refreshScheduled || !cartFeatureEnabled) return;
 
         refreshScheduled = true;
         requestAnimationFrame(() => {
@@ -1523,8 +1543,9 @@ import {
 
     async function init() {
         if (await tryAutoRestore()) return;
+        if (!cartFeatureEnabled) return;
         scheduleRefresh();
-        observer.observe(document.body, { childList: true, subtree: true });
+        observer.observe(document.body, { childList: true, subtree: true, characterData: true });
     }
 
     if (document.readyState === 'loading') {
