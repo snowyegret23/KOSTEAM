@@ -158,6 +158,13 @@ document.addEventListener('DOMContentLoaded', async () => {
                 });
             }
 
+            if (disablePatchCheckbox) {
+                disablePatchCheckbox.checked = settings.disable_patch_info === true;
+                disablePatchCheckbox.addEventListener('change', () => {
+                    storageSet({ disable_patch_info: disablePatchCheckbox.checked });
+                });
+            }
+
             if (cartFeatureCheckbox) {
                 const permissionStatus = await getCartDataPermissionStatus();
                 cartDataPermissionSupported = permissionStatus.supported;
@@ -205,13 +212,6 @@ document.addEventListener('DOMContentLoaded', async () => {
                     } finally {
                         cartFeatureCheckbox.disabled = false;
                     }
-                });
-            }
-
-            if (disablePatchCheckbox) {
-                disablePatchCheckbox.checked = settings.disable_patch_info === true;
-                disablePatchCheckbox.addEventListener('change', () => {
-                    storageSet({ disable_patch_info: disablePatchCheckbox.checked });
                 });
             }
         } catch (err) {

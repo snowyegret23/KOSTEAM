@@ -128,7 +128,8 @@ export function alarmClear(name) {
 }
 
 export function onAlarm(callback) {
-    api.alarms.onAlarm.addListener(callback);
+    // A missing cart API must not stop registration of the patch-info message handler.
+    api.alarms?.onAlarm?.addListener(callback);
 }
 
 /**

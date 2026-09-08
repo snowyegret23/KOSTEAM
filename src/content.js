@@ -53,7 +53,7 @@ import {
             if (requestId === patchRequestId) {
                 patchInfoLoading = false;
                 const currentSupport = checkOfficialKoreanSupport();
-                if (currentSupport !== null) injectPatchInfo(patchInfoData, currentSupport);
+                injectPatchInfo(patchInfoData, currentSupport);
             }
         }
     }
@@ -110,7 +110,6 @@ import {
          */
         function checkAndUpdate() {
             const currentSupport = checkOfficialKoreanSupport();
-            if (currentSupport === null) return;
             if (currentSupport !== lastKoreanSupport) {
                 lastKoreanSupport = currentSupport;
                 injectPatchInfo(patchInfoData, currentSupport);
@@ -151,11 +150,11 @@ import {
 
     /**
      * Check if the game has official Korean language support on Steam
-     * @returns {boolean|null}
+     * @returns {boolean}
      */
     function checkOfficialKoreanSupport() {
         const table = document.querySelector('.game_language_options');
-        if (!table) return null;
+        if (!table) return false;
 
         const localizedLabel = document.querySelector('#review_language_koreana[data-language]')?.dataset.language;
         const labels = new Set(KOREAN_LABELS);
@@ -166,7 +165,8 @@ import {
             if (!firstCell || !labels.has(firstCell.textContent?.trim() || '')) continue;
 
             if (row.classList.contains('unsupported')) return false;
-            return !!row.querySelector('td.checkcol span');
+            return Array.from(row.querySelectorAll('td.checkcol')).some(cell =>
+                cell.textContent?.includes('✔') || cell.querySelector('span'));
         }
 
         return false;
@@ -274,9 +274,12 @@ import {
                 const isSourceEnabled = (source) => settings[`source_${source}`] !== false;
 
                 // Find insertion target
-                const noticeContent = Array.from(document.querySelectorAll('.notice_box_content')).find(notice => {
+                const noticeContent = Array.from(document.querySelectorAll(
+                    '.notice_box_content, #purchase_note .game_area_description, .notice_box .game_area_description'
+                )).find(notice => {
                     const text = notice.textContent || '';
-                    return text.includes('한국어') && text.includes('지원하지 않습니다');
+                    return (text.includes('한국어') && text.includes('지원하지 않습니다')) ||
+                        text.includes('언어 인터페이스');
                 });
                 const noKoreanBox = noticeContent?.closest('#purchase_note, .notice_box') || noticeContent;
                 const existingBanner = document.querySelector('.kr-patch-banner');

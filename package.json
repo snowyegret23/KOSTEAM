@@ -33,6 +33,7 @@
   "devDependencies": {
     "@rollup/plugin-terser": "^1.0.0",
     "image-size": "file:scripts/image-size-adapter",
+    "jsdom": "^26.1.0",
     "rollup": "^4.40.0",
     "web-ext": "10.6.0"
   },
