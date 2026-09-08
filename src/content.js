@@ -262,12 +262,9 @@ import {
                 const isSourceEnabled = (source) => settings[`source_${source}`] !== false;
 
                 // Find insertion target
-                let targetArea = document.querySelector('#languageTable') || document.querySelector('.game_language_options');
-                if (!targetArea) {
-                    targetArea = document.querySelector('.game_area_purchase_game_wrapper') ||
-                        document.querySelector('.game_area_purchase') ||
-                        document.querySelector('#game_area_purchase');
-                }
+                const targetArea = document.querySelector('.game_area_purchase_game_wrapper') ||
+                    document.querySelector('.game_area_purchase') ||
+                    document.querySelector('#game_area_purchase');
 
                 if (!targetArea) return;
 
