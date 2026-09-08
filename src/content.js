@@ -27,6 +27,7 @@ import {
     let patchInfoLoading = true;
     let patchRequestId = 0;
     let patchRenderId = 0;
+    let replacedLanguageNotice = null;
     const observerCleanups = [];
 
     // Check if URL has curator_clanid parameter and scroll to curator review
@@ -237,6 +238,16 @@ import {
     }
 
 
+    function removePatchInfo() {
+        const banner = document.querySelector('.kr-patch-banner');
+        if (banner && replacedLanguageNotice) {
+            banner.replaceWith(replacedLanguageNotice);
+        } else if (banner) {
+            banner.remove();
+        }
+        replacedLanguageNotice = null;
+    }
+
     /**
      * Inject the patch info banner into the page
      * @param {Object|null} info - Patch info from database
@@ -248,8 +259,7 @@ import {
             .then(settings => {
                 if (renderId !== patchRenderId) return;
                 if (settings.disable_patch_info === true) {
-                    const existingBanner = document.querySelector('.kr-patch-banner');
-                    if (existingBanner) existingBanner.remove();
+                    removePatchInfo();
                     return;
                 }
                 const patchTypeInfo = patchInfoReady ? getPatchTypeInfo(info, hasOfficialKorean) : {
@@ -262,7 +272,14 @@ import {
                 const isSourceEnabled = (source) => settings[`source_${source}`] !== false;
 
                 // Find insertion target
-                const targetArea = document.querySelector('.game_area_purchase_game_wrapper') ||
+                const noticeContent = Array.from(document.querySelectorAll('.notice_box_content')).find(notice => {
+                    const text = notice.textContent || '';
+                    return text.includes('한국어') && text.includes('지원하지 않습니다');
+                });
+                const noKoreanBox = noticeContent?.closest('#purchase_note, .notice_box') || noticeContent;
+                const existingBanner = document.querySelector('.kr-patch-banner');
+                const targetArea = noKoreanBox || existingBanner ||
+                    document.querySelector('.game_area_purchase_game_wrapper') ||
                     document.querySelector('.game_area_purchase') ||
                     document.querySelector('#game_area_purchase');
 
@@ -412,8 +429,11 @@ import {
                 }
 
                 // Insert banner into page
-                const existingBanner = document.querySelector('.kr-patch-banner');
-                if (existingBanner) {
+                if (noKoreanBox) {
+                    if (existingBanner) existingBanner.remove();
+                    replacedLanguageNotice = noKoreanBox;
+                    noKoreanBox.replaceWith(banner);
+                } else if (existingBanner) {
                     existingBanner.replaceWith(banner);
                 } else {
                     targetArea.parentNode.insertBefore(banner, targetArea);
@@ -430,8 +450,7 @@ import {
             if (hasPatchToggle && changes.disable_patch_info?.newValue === true) {
                 patchRequestId++;
                 patchRenderId++;
-                const existingBanner = document.querySelector('.kr-patch-banner');
-                if (existingBanner) existingBanner.remove();
+                removePatchInfo();
                 return;
             }
             if (hasSourceChange || hasPatchToggle || changes[CACHE_KEY] || changes[CACHE_ALIAS_KEY]) {
