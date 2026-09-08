@@ -611,6 +611,9 @@ import {
 
     async function buildExportData(items, options = {}) {
         const cartInfoMap = await mapDomItemsToCartInfo(items);
+        if (cartInfoMap.size !== items.length) {
+            throw new Error('Cart items could not be mapped to Steam product IDs');
+        }
         const selectedElements = options.selectedElements instanceof Set ? options.selectedElements : null;
 
         const exportItems = items.map((item, index) => {
@@ -889,9 +892,16 @@ import {
             }
             return;
         }
-        const exportData = await buildExportData(items);
-        const date = new Date().toISOString().slice(0, 10);
-        downloadJson(exportData, `steam-cart-${date}`);
+        try {
+            const exportData = await buildExportData(items);
+            const date = new Date().toISOString().slice(0, 10);
+            downloadJson(exportData, `steam-cart-${date}`);
+        } catch (err) {
+            console.debug('[KOSTEAM] JSON export error:', err);
+            if (!DISABLE_CART_DIALOGS) {
+                window.alert('복원에 필요한 Steam 상품 정보를 확인할 수 없어 백업을 저장하지 않았습니다. Steam에 로그인한 뒤 장바구니를 새로고침하고 다시 시도해 주세요.');
+            }
+        }
     }
 
     async function handleJsonImport(e) {
@@ -1044,6 +1054,12 @@ import {
 
     async function performBuySelected() {
         const accountId = getSteamAccountId(getWebApiToken());
+        if (!accountId) {
+            if (!DISABLE_CART_DIALOGS) {
+                window.alert('선택 구매를 이용하려면 Steam에 로그인한 뒤 장바구니를 새로고침해 주세요.');
+            }
+            return false;
+        }
         if (!await canModifyCart(accountId)) return false;
         const items = findCartItems();
         if (items.some(item => !getItemSelectionKey(item, items))) {

@@ -4,6 +4,7 @@
  */
 
 import {
+    onStorageChanged,
     permissionsGetAll,
     permissionsRequest,
     sendMessage,
@@ -13,6 +14,7 @@ import {
 import { formatTimeAgo } from './shared/time-utils.js';
 import {
     CACHE_KEY,
+    CACHE_VERSION_KEY,
     CART_DATA_PERMISSIONS,
     CART_FEATURE_KEY,
     MSG_CHECK_UPDATE_STATUS,
@@ -35,6 +37,13 @@ document.addEventListener('DOMContentLoaded', async () => {
     const cartFeatureCheckbox = document.getElementById('cart_feature_enabled');
     const disablePatchCheckbox = document.getElementById('disable_patch_info');
     let cartDataPermissionSupported = false;
+    let updateStatusRequestId = 0;
+
+    onStorageChanged((changes, area) => {
+        if (area !== 'local') return;
+        if (changes[CACHE_KEY]) loadStats();
+        if (changes[CACHE_VERSION_KEY]) checkUpdateStatus();
+    });
 
     async function getCartDataPermissionStatus() {
         const permissions = await permissionsGetAll();
@@ -76,8 +85,10 @@ document.addEventListener('DOMContentLoaded', async () => {
      * Check and display update status
      */
     async function checkUpdateStatus() {
+        const requestId = ++updateStatusRequestId;
         try {
             const response = await sendMessage({ type: MSG_CHECK_UPDATE_STATUS });
+            if (requestId !== updateStatusRequestId) return;
 
             if (response && response.success) {
                 if (response.remoteVersion && response.remoteVersion.generated_at) {
@@ -96,6 +107,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 dbStatusEl.className = 'stat-value';
             }
         } catch (err) {
+            if (requestId !== updateStatusRequestId) return;
             console.error('[KOSTEAM] Failed to check update status:', err);
             dbStatusEl.textContent = '확인 실패';
             dbStatusEl.className = 'stat-value';

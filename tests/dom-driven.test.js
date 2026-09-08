@@ -443,6 +443,30 @@ test('popup display settings remain usable when the cart permission API is unava
     assert.ok(page.messages.some(message => message.type === 'REFRESH_DATA'));
 });
 
+test('an open popup follows the initial database download and ignores an older update result', async t => {
+    for (const promiseApi of [false, true]) {
+        const html = readFileSync(new URL('../src/static/popup.html', import.meta.url), 'utf8');
+        let initialStatus;
+        let checks = 0;
+        const page = createPage(t, { html, promiseApi, respond: message => {
+            if (message.type !== 'CHECK_UPDATE_STATUS') return { success: true };
+            if (++checks === 1) return new Promise(resolve => { initialStatus = resolve; });
+            return { success: true, needsUpdate: false };
+        } });
+        await page.run('popup');
+        assert.equal(page.document.querySelector('#gameCount').textContent, '-');
+        await page.update({
+            kr_patch_data: { _meta: { total: 1 }, 42: userPatch },
+            kr_patch_version: { generated_at: 'downloaded' }
+        });
+        assert.equal(page.document.querySelector('#gameCount').textContent, '1개');
+        assert.equal(page.document.querySelector('#dbStatus').textContent, '최신 버전');
+        initialStatus({ success: true, needsUpdate: true });
+        await settle();
+        assert.equal(page.document.querySelector('#dbStatus').textContent, '최신 버전');
+    }
+});
+
 test('missing alarms API cannot prevent the background from serving cached patch information', async t => {
     const lookup = { _meta: { generated_at: 'fixture', total: 1 }, 42: userPatch };
     const page = createPage(t, { alarms: false, settings: {
@@ -452,6 +476,44 @@ test('missing alarms API cannot prevent the background from serving cached patch
     const response = await page.send({ type: 'GET_PATCH_INFO', appId: '42' });
     assert.equal(response.success, true);
     assert.equal(response.info, userPatch);
+});
+
+test('guest cart actions explain missing account data and never download an unrestorable backup', async t => {
+    for (const promiseApi of [false, true]) {
+        for (const lineItems of [[], [{ line_item_id: '1', packageid: 100 }]]) {
+            const page = createPage(t, { url: 'https://store.steampowered.com/cart/', promiseApi,
+                settings: { cart_feature_enabled: true }, html: `<style>* { opacity: 1; }</style>
+                <div id="application_config"></div><main id="page_root">
+                <article data-line-item-id="1"><a href="/app/42/">First game</a><span>₩ 1,000</span><button data-cart-remove>Remove</button></article>
+                <article data-line-item-id="2"><a href="/app/43/">Second game</a><span>₩ 2,000</span><button data-cart-remove>Remove</button></article></main>` });
+            const { window, document } = page;
+            document.querySelector('#application_config').setAttribute('data-store_user_config', JSON.stringify({
+                accountcart: { cart: { line_items: lineItems } }
+            }));
+            window.HTMLElement.prototype.getBoundingClientRect = () => ({ top: 0, width: 400, height: 50 });
+            const alerts = [];
+            let downloads = 0;
+            window.alert = text => alerts.push(text);
+            window.URL.createObjectURL = () => { downloads++; return 'blob:https://store.steampowered.com/fixture'; };
+            window.URL.revokeObjectURL = () => {};
+            document.addEventListener('click', event => {
+                if (event.target.closest('a[download]')) event.preventDefault();
+            });
+            await page.run('cart');
+            await new Promise(resolve => window.requestAnimationFrame(resolve));
+            document.querySelector('.kosteam-cart-json-btn').click();
+            await settle();
+            assert.equal(downloads, 0);
+            assert.match(alerts[0], /Steam.*로그인/);
+            document.querySelector('.kosteam-cart-checkbox').click();
+            document.querySelector('.kosteam-cart-buy-selected-btn').click();
+            await settle();
+            assert.equal(alerts.length, 2);
+            assert.match(alerts[1], /선택 구매.*로그인/);
+            assert.equal(page.messages.length, 0);
+            await page.update({ cart_feature_enabled: false });
+        }
+    }
 });
 
 test('1.6.3 cart selection, JSON backups and wishlist buttons retain their behavior', async t => {
