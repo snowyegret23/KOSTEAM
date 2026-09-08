@@ -69,10 +69,10 @@ import {
 
         // Function to find and scroll to curator review
         const scrollToCuratorReview = () => {
-            // Look for curator review section by class
-            const curatorSection = document.querySelector('.referring_curator_ctn');
+            const curatorSection = document.querySelector('[data-featuretarget="referring-curator-review"]') ||
+                document.querySelector('.referring_curator_ctn');
 
-            if (curatorSection) {
+            if (curatorSection && curatorSection.getBoundingClientRect().height > 0) {
                 curatorSection.scrollIntoView({ behavior: 'auto', block: 'start' });
                 return true;
             }
@@ -91,7 +91,9 @@ import {
 
         observer.observe(document.body, {
             childList: true,
-            subtree: true
+            subtree: true,
+            attributes: true,
+            attributeFilter: ['class', 'style', 'hidden']
         });
         observerCleanups.push(() => observer.disconnect());
     }

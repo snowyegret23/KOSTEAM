@@ -1,3 +1,8 @@
+[data-featuretarget="referring-curator-review"],
+.referring_curator_ctn {
+    scroll-margin-top: 80px;
+}
+
 .kr-patch-banner {
     background: linear-gradient(135deg, #1b2838 0%, #2a475e 100%);
     border: 1px solid #4a90d9;
