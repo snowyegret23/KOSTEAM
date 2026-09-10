@@ -11,8 +11,8 @@ const context = vm.createContext({ removeReviewUrls });
 vm.runInContext(mergeSource.slice(mergeSource.indexOf('function convertCuratorData('), mergeSource.indexOf('\nfunction normalizeAppId(')), context);
 
 const cases = [
-    ['한글 패치 - Rudigars', '한글 패치 - Rudigars'],
-    ['한글 패치 - NidRuss', '한글 패치 - NidRuss'],
+    ['한글 패치 - ExampleTranslators', '한글 패치 - ExampleTranslators'],
+    ['한글 패치 - ExampleTeamss', '한글 패치 - ExampleTeamss'],
     ['설치 안내 (https://example.com/patch)', '설치 안내'],
     ['https://example.com/patch(설치 설명)', '(설치 설명)'],
     ['https://example.com/patch,제작자: 번역팀', ',제작자: 번역팀'],
@@ -37,12 +37,12 @@ test('hanpe preserves literal angle-bracket labels and separates HTML lines', ()
 });
 
 test('hanpe keeps patch identities and support while cleaning descriptions', () => {
-    const input = { appid: 42, patches: [{ support: 'official', url: 'https://example.com/patch', comment: '<a href="https://example.com">Rudigars</a>' }] };
+    const input = { appid: 42, patches: [{ support: 'official', url: 'https://example.com/patch', comment: '<a href="https://example.com">ExampleTranslators</a>' }] };
     const result = convertEntry(input);
     assert.equal(result.patch_type, 'official');
     assert.equal(result.patch_links.length, 1);
-    assert.deepEqual(result.patch_descriptions, ['Rudigars']);
-    assert.deepEqual(result.patch_links, convertEntry({ ...input, patches: [{ ...input.patches[0], comment: 'Rudigars' }] }).patch_links);
+    assert.deepEqual(result.patch_descriptions, ['ExampleTranslators']);
+    assert.deepEqual(result.patch_links, convertEntry({ ...input, patches: [{ ...input.patches[0], comment: 'ExampleTranslators' }] }).patch_links);
 });
 
 test('legacy curator URL detection accepts uppercase schemes', () => {
