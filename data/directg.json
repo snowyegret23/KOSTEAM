@@ -531,5 +531,31 @@
       ""
     ],
     "directg_url": "https://www.directg.net/game/game_view.html?product_id=1862855a-3c54-4289-8281-22157da87fdb&sku=5274d043-febe-4a77-8a82-5237b52e842d&platform=1"
+  },
+  {
+    "app_id": null,
+    "game_title": "디스아너드: 방관자의 죽음 + 디스아너드 2 디럭스 번들",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "directg_url": "https://www.directg.net/game/bundle_view.html?sku=e8834da8-abe2-4e53-976a-486facb2f9fb&platform=1"
+  },
+  {
+    "app_id": null,
+    "game_title": "빅터 브란 오버킬 에디션",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "directg_url": "https://www.directg.net/game/game_view.html?product_id=656c43f0-50f7-4c4d-97bb-8339202f0508&sku=82da86ab-f7b9-4e27-bb3b-83d060cbbe7d&platform=1"
   }
 ]
