@@ -1,10 +1,10 @@
 [
   {
-    "app_id": null,
+    "app_id": "2996000",
     "stove_game_no": "15240",
     "stove_product_no": "104968",
     "game_title": "목양신 마을 (Faun Town)",
-    "steam_link": "",
+    "steam_link": "https://store.steampowered.com/app/2996000",
     "patch_type": "official",
     "patch_links": [
       "exist"
