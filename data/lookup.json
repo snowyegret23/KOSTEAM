@@ -27248,24 +27248,6 @@
       "steamapp": "https://hanpe.net/app/lxvwgy/sakura-cupid"
     }
   },
-  "734830": {
-    "type": "official",
-    "sources": [
-      "directg"
-    ],
-    "links": [
-      "exist"
-    ],
-    "patch_descriptions": [
-      ""
-    ],
-    "patch_sources": [
-      "directg"
-    ],
-    "source_site_urls": {
-      "directg": "https://www.directg.net/game/dlc_view.html?sku=ecf2da30-10b6-4041-a0c5-cee80470c549&platform=1"
-    }
-  },
   "735580": {
     "type": "user",
     "sources": [
@@ -28937,42 +28919,6 @@
       "quasarplay": "https://store.steampowered.com/app/821880/?curator_clanid=42788178"
     }
   },
-  "821940": {
-    "type": "official",
-    "sources": [
-      "directg"
-    ],
-    "links": [
-      "exist"
-    ],
-    "patch_descriptions": [
-      ""
-    ],
-    "patch_sources": [
-      "directg"
-    ],
-    "source_site_urls": {
-      "directg": "https://www.directg.net/game/dlc_view.html?sku=48583e52-f1cb-4c97-a9a3-d2fed25d0fcb&platform=1"
-    }
-  },
-  "821950": {
-    "type": "official",
-    "sources": [
-      "directg"
-    ],
-    "links": [
-      "exist"
-    ],
-    "patch_descriptions": [
-      ""
-    ],
-    "patch_sources": [
-      "directg"
-    ],
-    "source_site_urls": {
-      "directg": "https://www.directg.net/game/dlc_view.html?sku=ee8fb2ec-6a77-4eb8-b845-f7dbea982e9f&platform=1"
-    }
-  },
   "828050": {
     "type": "user",
     "sources": [
@@ -29480,24 +29426,6 @@
     ],
     "source_site_urls": {
       "directg": "https://www.directg.net/game/dlc_view.html?sku=6ef4912c-ef0d-4bd1-bf08-093f16f4cf3a&platform=1"
-    }
-  },
-  "854290": {
-    "type": "official",
-    "sources": [
-      "directg"
-    ],
-    "links": [
-      "exist"
-    ],
-    "patch_descriptions": [
-      ""
-    ],
-    "patch_sources": [
-      "directg"
-    ],
-    "source_site_urls": {
-      "directg": "https://www.directg.net/game/dlc_view.html?sku=1dcf18c5-05a1-4d20-8eab-6562219ca698&platform=1"
     }
   },
   "854870": {
@@ -80589,7 +80517,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-09-10T12:14:02.743Z",
-    "total": 3759
+    "generated_at": "2026-09-10T12:26:35.431Z",
+    "total": 3755
   }
 }

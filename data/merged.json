@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-09-10T12:14:02.743Z",
-    "total_with_steam_link": 3759,
-    "total_without_steam_link": 12,
+    "generated_at": "2026-09-10T12:26:35.431Z",
+    "total_with_steam_link": 3755,
+    "total_without_steam_link": 11,
     "sources": [
       "steamapp",
       "quasarzone",
@@ -86956,48 +86956,6 @@
       ]
     },
     {
-      "app_id": "821940",
-      "game_title": "필라스 오브 이터니티 2: 데드파이어 - 겨울의 짐승",
-      "steam_link": "https://store.steampowered.com/app/821940",
-      "patch_type": "official",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        ""
-      ],
-      "patch_sources": [
-        "directg"
-      ],
-      "source_site_urls": {
-        "directg": "https://www.directg.net/game/dlc_view.html?sku=48583e52-f1cb-4c97-a9a3-d2fed25d0fcb&platform=1"
-      },
-      "sources": [
-        "directg"
-      ]
-    },
-    {
-      "app_id": "854290",
-      "game_title": "필라스 오브 이터니티 2: 데드파이어 - 모험가 팩",
-      "steam_link": "https://store.steampowered.com/app/854290",
-      "patch_type": "official",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        ""
-      ],
-      "patch_sources": [
-        "directg"
-      ],
-      "source_site_urls": {
-        "directg": "https://www.directg.net/game/dlc_view.html?sku=1dcf18c5-05a1-4d20-8eab-6562219ca698&platform=1"
-      },
-      "sources": [
-        "directg"
-      ]
-    },
-    {
       "app_id": "854220",
       "game_title": "필라스 오브 이터니티 2: 데드파이어 - 시즌 패스",
       "steam_link": "https://store.steampowered.com/app/854220",
@@ -87013,48 +86971,6 @@
       ],
       "source_site_urls": {
         "directg": "https://www.directg.net/game/dlc_view.html?sku=6ef4912c-ef0d-4bd1-bf08-093f16f4cf3a&platform=1"
-      },
-      "sources": [
-        "directg"
-      ]
-    },
-    {
-      "app_id": "821950",
-      "game_title": "필라스 오브 이터니티 2: 데드파이어 - 잊혀진 성소",
-      "steam_link": "https://store.steampowered.com/app/821950",
-      "patch_type": "official",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        ""
-      ],
-      "patch_sources": [
-        "directg"
-      ],
-      "source_site_urls": {
-        "directg": "https://www.directg.net/game/dlc_view.html?sku=ee8fb2ec-6a77-4eb8-b845-f7dbea982e9f&platform=1"
-      },
-      "sources": [
-        "directg"
-      ]
-    },
-    {
-      "app_id": "734830",
-      "game_title": "필라스 오브 이터니티 2: 데드파이어 - 탐구자, 학살자, 생존자",
-      "steam_link": "https://store.steampowered.com/app/734830",
-      "patch_type": "official",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        ""
-      ],
-      "patch_sources": [
-        "directg"
-      ],
-      "source_site_urls": {
-        "directg": "https://www.directg.net/game/dlc_view.html?sku=ecf2da30-10b6-4041-a0c5-cee80470c549&platform=1"
       },
       "sources": [
         "directg"
@@ -91880,25 +91796,6 @@
     }
   ],
   "games_no_steam_link": [
-    {
-      "game_title": "Under the Moonlight",
-      "patch_type": "official",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        ""
-      ],
-      "patch_sources": [
-        "stove"
-      ],
-      "source_site_urls": {
-        "stove": "https://store.onstove.com/ko/games/105373"
-      },
-      "sources": [
-        "stove"
-      ]
-    },
     {
       "game_title": "다음은 너야 - 진실게임 (You are the next)",
       "patch_type": "official",

@@ -13,58 +13,6 @@
     "directg_url": "https://www.directg.net/game/game_view.html?product_id=07c1a063-e4e8-440a-ae32-5d1017ba93fd&sku=ec8c0cca-5992-432b-af4f-050ea36a85ab&platform=1"
   },
   {
-    "app_id": "821950",
-    "game_title": "필라스 오브 이터니티 2: 데드파이어 - 잊혀진 성소",
-    "steam_link": "https://store.steampowered.com/app/821950",
-    "patch_type": "official",
-    "patch_links": [
-      "exist"
-    ],
-    "patch_descriptions": [
-      ""
-    ],
-    "directg_url": "https://www.directg.net/game/dlc_view.html?sku=ee8fb2ec-6a77-4eb8-b845-f7dbea982e9f&platform=1"
-  },
-  {
-    "app_id": "734830",
-    "game_title": "필라스 오브 이터니티 2: 데드파이어 - 탐구자, 학살자, 생존자",
-    "steam_link": "https://store.steampowered.com/app/734830",
-    "patch_type": "official",
-    "patch_links": [
-      "exist"
-    ],
-    "patch_descriptions": [
-      ""
-    ],
-    "directg_url": "https://www.directg.net/game/dlc_view.html?sku=ecf2da30-10b6-4041-a0c5-cee80470c549&platform=1"
-  },
-  {
-    "app_id": "821940",
-    "game_title": "필라스 오브 이터니티 2: 데드파이어 - 겨울의 짐승",
-    "steam_link": "https://store.steampowered.com/app/821940",
-    "patch_type": "official",
-    "patch_links": [
-      "exist"
-    ],
-    "patch_descriptions": [
-      ""
-    ],
-    "directg_url": "https://www.directg.net/game/dlc_view.html?sku=48583e52-f1cb-4c97-a9a3-d2fed25d0fcb&platform=1"
-  },
-  {
-    "app_id": "854290",
-    "game_title": "필라스 오브 이터니티 2: 데드파이어 - 모험가 팩",
-    "steam_link": "https://store.steampowered.com/app/854290",
-    "patch_type": "official",
-    "patch_links": [
-      "exist"
-    ],
-    "patch_descriptions": [
-      ""
-    ],
-    "directg_url": "https://www.directg.net/game/dlc_view.html?sku=1dcf18c5-05a1-4d20-8eab-6562219ca698&platform=1"
-  },
-  {
     "app_id": "854220",
     "game_title": "필라스 오브 이터니티 2: 데드파이어 - 시즌 패스",
     "steam_link": "https://store.steampowered.com/app/854220",
@@ -182,6 +130,19 @@
     "directg_url": "https://www.directg.net/game/game_view.html?product_id=85a1c6f1-c892-4e09-96f0-35b5e50c677d&sku=4708d1e0-494c-4fab-93f8-9e8a2cf7f233&platform=1"
   },
   {
+    "app_id": null,
+    "game_title": "디스아너드: 방관자의 죽음 + 디스아너드 2 디럭스 번들",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "directg_url": "https://www.directg.net/game/bundle_view.html?sku=e8834da8-abe2-4e53-976a-486facb2f9fb&platform=1"
+  },
+  {
     "app_id": "614570",
     "game_title": "디스아너드: 방관자의 죽음",
     "steam_link": "https://store.steampowered.com/app/614570",
@@ -193,6 +154,19 @@
       ""
     ],
     "directg_url": "https://www.directg.net/game/game_view.html?product_id=6d976f5e-fb7a-4667-b439-19ce503d1e2b&sku=8b3ec080-84e7-4f17-b69b-b0ceeba911ff&platform=1"
+  },
+  {
+    "app_id": null,
+    "game_title": "빅터 브란 오버킬 에디션",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "directg_url": "https://www.directg.net/game/game_view.html?product_id=656c43f0-50f7-4c4d-97bb-8339202f0508&sku=82da86ab-f7b9-4e27-bb3b-83d060cbbe7d&platform=1"
   },
   {
     "app_id": "280180",
@@ -531,31 +505,5 @@
       ""
     ],
     "directg_url": "https://www.directg.net/game/game_view.html?product_id=1862855a-3c54-4289-8281-22157da87fdb&sku=5274d043-febe-4a77-8a82-5237b52e842d&platform=1"
-  },
-  {
-    "app_id": null,
-    "game_title": "디스아너드: 방관자의 죽음 + 디스아너드 2 디럭스 번들",
-    "steam_link": "",
-    "patch_type": "official",
-    "patch_links": [
-      "exist"
-    ],
-    "patch_descriptions": [
-      ""
-    ],
-    "directg_url": "https://www.directg.net/game/bundle_view.html?sku=e8834da8-abe2-4e53-976a-486facb2f9fb&platform=1"
-  },
-  {
-    "app_id": null,
-    "game_title": "빅터 브란 오버킬 에디션",
-    "steam_link": "",
-    "patch_type": "official",
-    "patch_links": [
-      "exist"
-    ],
-    "patch_descriptions": [
-      ""
-    ],
-    "directg_url": "https://www.directg.net/game/game_view.html?product_id=656c43f0-50f7-4c4d-97bb-8339202f0508&sku=82da86ab-f7b9-4e27-bb3b-83d060cbbe7d&platform=1"
   }
 ]
