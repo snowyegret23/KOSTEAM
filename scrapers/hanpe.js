@@ -1,3 +1,5 @@
+import * as cheerio from 'cheerio';
+import { removeReviewUrls } from '../scripts/review-text.js';
 import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -19,12 +21,20 @@ async function getStoredLastModified() {
     }
 }
 
-function removeUrls(text) {
+export function removeUrls(text) {
     if (!text) return '';
-    return text.replace(/https?:\/\/[^\s]+/g, '').replace(/www\.[^\s]+/g, '').replace(/\s+/g, ' ').trim();
+    const html = text.replace(/<\/?([a-z][\w-]*)\b[^>]*>/gi, (tag, name) => {
+        if (/^(a|br|p|div|li|ul|ol|span|b|strong|i|em|script|style)$/i.test(name)) return tag;
+        return tag.replaceAll('<', '&lt;').replaceAll('>', '&gt;');
+    });
+    const $ = cheerio.load(html, null, false);
+    $('br').replaceWith('\n');
+    $('p, div, li').append('\n');
+    $('script, style').remove();
+    return removeReviewUrls($.root().text()).replace(/\s+/g, ' ').trim();
 }
 
-function convertEntry(entry) {
+export function convertEntry(entry) {
     const appId = String(entry.appid);
     const patches = entry.patches || [];
 
@@ -123,4 +133,6 @@ async function main() {
     console.log(`Saved ${data.length} games to ${OUTPUT_FILE}`);
 }
 
-main().catch(err => { console.error(err); process.exitCode = 1; });
+if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+    main().catch(err => { console.error(err); process.exitCode = 1; });
+}

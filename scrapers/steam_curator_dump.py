@@ -32,16 +32,31 @@ def normalize_base_url(raw: str) -> str:
         s += "/"
     return s
 
+def remove_review_urls(text: str):
+    url_pattern = re.compile(r"(?:https?://|www\.)[^\s\"'<>]+", re.IGNORECASE)
+    def replace_url(match):
+        token = match.group(0)
+        annotation = re.search(r"[,(\[（](?=[가-힣])", token)
+        suffix = token[annotation.start():] if annotation else ""
+        url = token[:annotation.start()] if annotation else token
+        for opening, closing in [("(", ")"), ("[", "]"), ("（", "）")]:
+            while url.endswith(closing) and url.count(closing) > url.count(opening):
+                suffix = closing + suffix
+                url = url[:-1]
+        return suffix
+    cleaned, count = url_pattern.subn(replace_url, text)
+    cleaned = re.sub(r"\(\s*\)|\[\s*\]|（\s*）", "", cleaned)
+    return cleaned, count
+
+
 def sanitize_review_text(text: str):
     if not text:
         return "", False, 0
-    url_pattern = re.compile(r'https?://[^\s"\'<>]+')
-    urls = url_pattern.findall(text)
-    cleaned = url_pattern.sub("", text)
+    cleaned, count = remove_review_urls(text)
     cleaned = re.sub(r"링크\s*:", "", cleaned)
     cleaned = re.sub(r"\n+", "\n", cleaned).strip()
-    cleaned = re.sub(r"[,\\s]+$", "", cleaned)
-    return cleaned, len(urls) > 0, len(urls)
+    cleaned = re.sub(r"[,\s]+$", "", cleaned)
+    return cleaned, count > 0, count
 
 def to_abs_steam_url(href: str) -> str:
     if not href:
@@ -306,7 +321,6 @@ class SteamCuratorDumper:
                 "url": url,
                 "curator_url": curator_url,
                 "review": clean_review,
-                "review_raw": raw_review,
                 "review_has_url": has_url,
                 "review_url_count": url_count,
                 "type": rec_type,
@@ -344,7 +358,7 @@ class SteamCuratorDumper:
         with open(output_file, "w", encoding="utf-8-sig", newline="") as f:
             writer = csv.DictWriter(
                 f,
-                fieldnames=["appid", "url", "curator_url", "review", "review_has_url", "review_url_count", "type", "review_raw"],
+                fieldnames=["appid", "url", "curator_url", "review", "review_has_url", "review_url_count", "type"],
             )
             writer.writeheader()
             writer.writerows(reviews)

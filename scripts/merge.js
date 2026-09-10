@@ -1,3 +1,4 @@
+import { removeReviewUrls } from './review-text.js';
 import fs from 'fs/promises';
 import path from 'path';
 import { createHash } from 'crypto';
@@ -25,7 +26,7 @@ async function loadSourceData(source) {
 function convertCuratorData(curatorData, source) {
   return (curatorData.games || []).map(game => {
     const review = game.review || '';
-    const urlPattern = /https?:\/\/[^\s"'<>]+/g;
+    const urlPattern = /(?:https?:\/\/|www\.)[^\s"'<>]+/gi;
     const hasUrl = (typeof game.review_has_url === 'boolean') ? game.review_has_url : urlPattern.test(review);
     const description = extractDescriptionFromReview(review);
     const patchType = hasUrl ? 'user' : 'official';
@@ -43,12 +44,11 @@ function convertCuratorData(curatorData, source) {
 }
 
 function extractDescriptionFromReview(review) {
-  const urlPattern = /https?:\/\/[^\s"'<>]+/g;
-  let text = (review || '').replace(urlPattern, '');
+  let text = removeReviewUrls(review || '');
   text = text.replace(/링크\s*:/g, '');
   text = text.replace(/^[\"']|[\"']$/g, '');
   text = text.replace(/\n+/g, '\n').trim();
-  text = text.replace(/[,\\s]+$/g, '');
+  text = text.replace(/[,\s]+$/g, '');
   return text;
 }
 
