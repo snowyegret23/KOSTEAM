@@ -7096,6 +7096,19 @@
     ]
   },
   {
+    "app_id": "299050",
+    "game_title": "Blood II: The Chosen + Expansion",
+    "steam_link": "https://store.steampowered.com/app/299050",
+    "source_site_url": "https://hanpe.net/app/l2mrgm/blood-ii-the-chosen-expansion",
+    "patch_type": "user",
+    "patch_links": [
+      "61cda297"
+    ],
+    "patch_descriptions": [
+      "제작자 : 한갤러 스팀 GOG 둘다 가능"
+    ]
+  },
+  {
     "app_id": "299950",
     "game_title": "GET EVEN",
     "steam_link": "https://store.steampowered.com/app/299950",
@@ -14006,6 +14019,19 @@
     ]
   },
   {
+    "app_id": "644540",
+    "game_title": "Dies irae ~Amantes amentes~",
+    "steam_link": "https://store.steampowered.com/app/644540",
+    "source_site_url": "https://hanpe.net/app/4gg25g/dies-irae-amantes-amentes",
+    "patch_type": "user",
+    "patch_links": [
+      "8deb33b8"
+    ],
+    "patch_descriptions": [
+      "접속시 VPN 필요"
+    ]
+  },
+  {
     "app_id": "644560",
     "game_title": "Mirror",
     "steam_link": "https://store.steampowered.com/app/644560",
@@ -14381,6 +14407,19 @@
       "폰트 개선 패치",
       "제작자 : 뉴비분쇄기",
       "제작자 : Neptunium 고양이 이름 음역 패치"
+    ]
+  },
+  {
+    "app_id": "691150",
+    "game_title": "Saku Saku: Love Blooms with the Cherry Blossoms",
+    "steam_link": "https://store.steampowered.com/app/691150",
+    "source_site_url": "https://hanpe.net/app/4rqq9g/saku-saku-love-blooms-with-the-cherry-blossoms",
+    "patch_type": "user",
+    "patch_links": [
+      "43a5bb0b"
+    ],
+    "patch_descriptions": [
+      "접속시 VPN 필요"
     ]
   },
   {
@@ -14869,6 +14908,19 @@
     ],
     "patch_descriptions": [
       "번역: 문상혁 a.k.a 토찌, 우지, Boxinganny, LSW 검수, 테스트 플레이: LSW"
+    ]
+  },
+  {
+    "app_id": "743450",
+    "game_title": "Monster Prom",
+    "steam_link": "https://store.steampowered.com/app/743450",
+    "source_site_url": "https://hanpe.net/app/j9dm6e/monster-prom",
+    "patch_type": "user",
+    "patch_links": [
+      "e9b7a2cf"
+    ],
+    "patch_descriptions": [
+      "제작자 : 양말"
     ]
   },
   {
@@ -17329,6 +17381,19 @@
     ]
   },
   {
+    "app_id": "1011990",
+    "game_title": "Dies irae ~Interview with Kaziklu Bey~",
+    "steam_link": "https://store.steampowered.com/app/1011990",
+    "source_site_url": "https://hanpe.net/app/j5y5ke/dies-irae-interview-with-kaziklu-bey",
+    "patch_type": "user",
+    "patch_links": [
+      "8deb33b8"
+    ],
+    "patch_descriptions": [
+      "접속시 VPN 필요"
+    ]
+  },
+  {
     "app_id": "1016600",
     "game_title": "Devil Slayer - Raksasi 斩妖Raksasi",
     "steam_link": "https://store.steampowered.com/app/1016600",
@@ -17715,6 +17780,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 아갤러"
+    ]
+  },
+  {
+    "app_id": "1046790",
+    "game_title": "Eternal Threads",
+    "steam_link": "https://store.steampowered.com/app/1046790",
+    "source_site_url": "https://hanpe.net/app/j91ro3/eternal-threads",
+    "patch_type": "user",
+    "patch_links": [
+      "cbcfda4f"
+    ],
+    "patch_descriptions": [
+      "제작자 : 조니"
     ]
   },
   {
@@ -20983,6 +21061,19 @@
     ]
   },
   {
+    "app_id": "1349130",
+    "game_title": "Fear of The Unknown",
+    "steam_link": "https://store.steampowered.com/app/1349130",
+    "source_site_url": "https://hanpe.net/app/jn3v56/fear-of-the-unknown",
+    "patch_type": "user",
+    "patch_links": [
+      "f3d43710"
+    ],
+    "patch_descriptions": [
+      "제작자 : Ryle"
+    ]
+  },
+  {
     "app_id": "1351080",
     "game_title": "Pharaoh™: A New Era",
     "steam_link": "https://store.steampowered.com/app/1351080",
@@ -21510,6 +21601,19 @@
     ],
     "patch_descriptions": [
       "제작자 : gusrud6151"
+    ]
+  },
+  {
+    "app_id": "1428520",
+    "game_title": "Mech Engineer",
+    "steam_link": "https://store.steampowered.com/app/1428520",
+    "source_site_url": "https://hanpe.net/app/4oqkox/mech-engineer",
+    "patch_type": "user",
+    "patch_links": [
+      "406e9a33"
+    ],
+    "patch_descriptions": [
+      "제작자 : 해적마스터"
     ]
   },
   {
@@ -22317,6 +22421,19 @@
     ],
     "patch_descriptions": [
       "번역기를 이용한 한글화 제작자 : 팀 AI"
+    ]
+  },
+  {
+    "app_id": "1546320",
+    "game_title": "Your Chronicle",
+    "steam_link": "https://store.steampowered.com/app/1546320",
+    "source_site_url": "https://hanpe.net/app/4q37ve/your-chronicle",
+    "patch_type": "user",
+    "patch_links": [
+      "0f286ef5"
+    ],
+    "patch_descriptions": [
+      "제작자 : gilsek"
     ]
   },
   {
@@ -24120,6 +24237,19 @@
     "patch_descriptions": [
       "번역 by. 지에 ZA",
       "제작자 : Prous"
+    ]
+  },
+  {
+    "app_id": "1776970",
+    "game_title": "月に寄りそう乙女の作法",
+    "steam_link": "https://store.steampowered.com/app/1776970",
+    "source_site_url": "https://hanpe.net/app/j00y67/%E6%9C%88%E3%81%AB%E5%AF%84%E3%82%8A%E3%81%9D%E3%81%86%E4%B9%99%E5%A5%B3%E3%81%AE%E4%BD%9C%E6%B3%95",
+    "patch_type": "user",
+    "patch_links": [
+      "cad4e7f5"
+    ],
+    "patch_descriptions": [
+      "접속시 VPN 필요"
     ]
   },
   {
@@ -26203,10 +26333,12 @@
     "source_site_url": "https://hanpe.net/app/4yyd3w/fears-to-fathom-carson-house",
     "patch_type": "user",
     "patch_links": [
-      "da2464b5"
+      "da2464b5",
+      "59a0aba4"
     ],
     "patch_descriptions": [
-      "제작자 : KFC"
+      "제작자 : KFC",
+      "제작자 : burgel"
     ]
   },
   {
@@ -26289,6 +26421,19 @@
     "patch_descriptions": [
       "제작자 : 보리",
       "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : SMOKYSCARLET 적용법)압축을 출어서 나온 폴더를 래빗 앤 스틸 게임파일에 붙혀넣기"
+    ]
+  },
+  {
+    "app_id": "2133400",
+    "game_title": "1989 천 산문",
+    "steam_link": "https://store.steampowered.com/app/2133400",
+    "source_site_url": "https://hanpe.net/app/lx0zpn/1989-%EC%B2%9C-%EC%82%B0%EB%AC%B8",
+    "patch_type": "user",
+    "patch_links": [
+      "8eddd400"
+    ],
+    "patch_descriptions": [
+      "제작자 : 씹을거리"
     ]
   },
   {
@@ -27377,6 +27522,19 @@
     ]
   },
   {
+    "app_id": "2333000",
+    "game_title": "Silver Pines",
+    "steam_link": "https://store.steampowered.com/app/2333000",
+    "source_site_url": "https://hanpe.net/app/4ewdqz/silver-pines",
+    "patch_type": "user",
+    "patch_links": [
+      "d912c4da"
+    ],
+    "patch_descriptions": [
+      "데모판 한글화 제작자 : Ryle"
+    ]
+  },
+  {
     "app_id": "2334730",
     "game_title": "Death Must Die",
     "steam_link": "https://store.steampowered.com/app/2334730",
@@ -27939,6 +28097,19 @@
     ]
   },
   {
+    "app_id": "2417490",
+    "game_title": "HOLEHOLE",
+    "steam_link": "https://store.steampowered.com/app/2417490",
+    "source_site_url": "https://hanpe.net/app/l3rpwr/holehole",
+    "patch_type": "user",
+    "patch_links": [
+      "82e5bba2"
+    ],
+    "patch_descriptions": [
+      "제작자 : 으잌"
+    ]
+  },
+  {
     "app_id": "2419041",
     "game_title": "Spirit Island - Jagged Earth",
     "steam_link": "https://store.steampowered.com/app/2419041",
@@ -28252,6 +28423,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 손셩"
+    ]
+  },
+  {
+    "app_id": "2489650",
+    "game_title": "PRIPRI",
+    "steam_link": "https://store.steampowered.com/app/2489650",
+    "source_site_url": "https://hanpe.net/app/lz38e1/pripri",
+    "patch_type": "user",
+    "patch_links": [
+      "c47374b8"
+    ],
+    "patch_descriptions": [
+      "제작자 : 으잌"
     ]
   },
   {
@@ -29570,6 +29754,19 @@
     ]
   },
   {
+    "app_id": "2725320",
+    "game_title": "Dice of God",
+    "steam_link": "https://store.steampowered.com/app/2725320",
+    "source_site_url": "https://hanpe.net/app/4r1mno/dice-of-god",
+    "patch_type": "user",
+    "patch_links": [
+      "9c2e00f8"
+    ],
+    "patch_descriptions": [
+      "제작자 : 가치무치"
+    ]
+  },
+  {
     "app_id": "2726890",
     "game_title": "拜托！明天和我恋爱吧",
     "steam_link": "https://store.steampowered.com/app/2726890",
@@ -30771,6 +30968,19 @@
     ]
   },
   {
+    "app_id": "2922180",
+    "game_title": "Bonds of Yachiyo",
+    "steam_link": "https://store.steampowered.com/app/2922180",
+    "source_site_url": "https://hanpe.net/app/4ym636/bonds-of-yachiyo",
+    "patch_type": "user",
+    "patch_links": [
+      "10bd0ea3"
+    ],
+    "patch_descriptions": [
+      "제작자 : 이즈렌TV"
+    ]
+  },
+  {
     "app_id": "2925510",
     "game_title": "Voyager-19",
     "steam_link": "https://store.steampowered.com/app/2925510",
@@ -31947,6 +32157,19 @@
     ]
   },
   {
+    "app_id": "3132770",
+    "game_title": "シシテナオ-Even in Death-",
+    "steam_link": "https://store.steampowered.com/app/3132770",
+    "source_site_url": "https://hanpe.net/app/jvp3no/%E3%82%B7%E3%82%B7%E3%83%86%E3%83%8A%E3%82%AA-even-in-death",
+    "patch_type": "user",
+    "patch_links": [
+      "a7ca9609"
+    ],
+    "patch_descriptions": [
+      "제작자 : 이즈렌TV"
+    ]
+  },
+  {
     "app_id": "3137220",
     "game_title": "CrimeSceneCleaners｜特殊清掃",
     "steam_link": "https://store.steampowered.com/app/3137220",
@@ -32161,6 +32384,19 @@
     ]
   },
   {
+    "app_id": "3180410",
+    "game_title": "Project Songbird",
+    "steam_link": "https://store.steampowered.com/app/3180410",
+    "source_site_url": "https://hanpe.net/app/4onodd/project-songbird",
+    "patch_type": "user",
+    "patch_links": [
+      "7a711632"
+    ],
+    "patch_descriptions": [
+      "제작자 : Ryle"
+    ]
+  },
+  {
     "app_id": "3185890",
     "game_title": "我打不过漂亮的她们",
     "steam_link": "https://store.steampowered.com/app/3185890",
@@ -32171,6 +32407,19 @@
     ],
     "patch_descriptions": [
       "공식 한글 개선 패치 제작자 : 미인이많군요"
+    ]
+  },
+  {
+    "app_id": "3187770",
+    "game_title": "NAGAISAN",
+    "steam_link": "https://store.steampowered.com/app/3187770",
+    "source_site_url": "https://hanpe.net/app/l3eqwm/nagaisan",
+    "patch_type": "user",
+    "patch_links": [
+      "12adad91"
+    ],
+    "patch_descriptions": [
+      "제작자 : 으잌"
     ]
   },
   {
@@ -33130,6 +33379,19 @@
     ]
   },
   {
+    "app_id": "3374720",
+    "game_title": "Tales Beyond The Tomb - The Farm's Secret",
+    "steam_link": "https://store.steampowered.com/app/3374720",
+    "source_site_url": "https://hanpe.net/app/4rvzkg/tales-beyond-the-tomb-the-farms-secret",
+    "patch_type": "user",
+    "patch_links": [
+      "becd412a"
+    ],
+    "patch_descriptions": [
+      "제작자 : 으잌"
+    ]
+  },
+  {
     "app_id": "3376520",
     "game_title": "1+1=？",
     "steam_link": "https://store.steampowered.com/app/3376520",
@@ -33636,6 +33898,19 @@
     ]
   },
   {
+    "app_id": "3463050",
+    "game_title": "Dreams of Aether",
+    "steam_link": "https://store.steampowered.com/app/3463050",
+    "source_site_url": "https://hanpe.net/app/lk8632/dreams-of-aether",
+    "patch_type": "user",
+    "patch_links": [
+      "46954ee4"
+    ],
+    "patch_descriptions": [
+      "제작자 : 가치무치"
+    ]
+  },
+  {
     "app_id": "3468500",
     "game_title": "My Waifu Becomes Real",
     "steam_link": "https://store.steampowered.com/app/3468500",
@@ -33941,6 +34216,19 @@
     ]
   },
   {
+    "app_id": "3572020",
+    "game_title": "KONKONKON",
+    "steam_link": "https://store.steampowered.com/app/3572020",
+    "source_site_url": "https://hanpe.net/app/jd0z12/konkonkon",
+    "patch_type": "user",
+    "patch_links": [
+      "200642e5"
+    ],
+    "patch_descriptions": [
+      "제작자 : 으잌"
+    ]
+  },
+  {
     "app_id": "3572580",
     "game_title": "Hachishaku",
     "steam_link": "https://store.steampowered.com/app/3572580",
@@ -33977,6 +34265,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 정보없음"
+    ]
+  },
+  {
+    "app_id": "3576690",
+    "game_title": "Last Laugh",
+    "steam_link": "https://store.steampowered.com/app/3576690",
+    "source_site_url": "https://hanpe.net/app/lkp7qq/last-laugh",
+    "patch_type": "user",
+    "patch_links": [
+      "4a0571b3"
+    ],
+    "patch_descriptions": [
+      "제작자 : Ryle"
     ]
   },
   {
@@ -34809,6 +35110,19 @@
     ]
   },
   {
+    "app_id": "3843520",
+    "game_title": "The Temple of Elemental Evil",
+    "steam_link": "https://store.steampowered.com/app/3843520",
+    "source_site_url": "https://hanpe.net/app/j5m59m/the-temple-of-elemental-evil",
+    "patch_type": "user",
+    "patch_links": [
+      "1f01b87e"
+    ],
+    "patch_descriptions": [
+      "제작자 : 잔치1국수"
+    ]
+  },
+  {
     "app_id": "3850630",
     "game_title": "CODE::LUX",
     "steam_link": "https://store.steampowered.com/app/3850630",
@@ -34975,6 +35289,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 희망의가위"
+    ]
+  },
+  {
+    "app_id": "3902800",
+    "game_title": "[HERROR] Gas Station Case",
+    "steam_link": "https://store.steampowered.com/app/3902800",
+    "source_site_url": "https://hanpe.net/app/j8qdy0/herror-gas-station-case",
+    "patch_type": "user",
+    "patch_links": [
+      "8774c3e2"
+    ],
+    "patch_descriptions": [
+      "제작자 : Ryle"
     ]
   },
   {
@@ -35267,6 +35594,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 이프심"
+    ]
+  },
+  {
+    "app_id": "4093320",
+    "game_title": "Beastfolk Barber",
+    "steam_link": "https://store.steampowered.com/app/4093320",
+    "source_site_url": "https://hanpe.net/app/j531e3/beastfolk-barber",
+    "patch_type": "user",
+    "patch_links": [
+      "7ceffe8d"
+    ],
+    "patch_descriptions": [
+      "데모판 한글화 제작자 : 가치무치"
     ]
   },
   {
@@ -35668,6 +36008,19 @@
     ]
   },
   {
+    "app_id": "4274620",
+    "game_title": "I Hear Them",
+    "steam_link": "https://store.steampowered.com/app/4274620",
+    "source_site_url": "https://hanpe.net/app/j5kxk3/i-hear-them",
+    "patch_type": "user",
+    "patch_links": [
+      "06abe8ef"
+    ],
+    "patch_descriptions": [
+      "제작자 : Ryle"
+    ]
+  },
+  {
     "app_id": "4286410",
     "game_title": "ペンギンウォーズ",
     "steam_link": "https://store.steampowered.com/app/4286410",
@@ -35704,6 +36057,19 @@
     ],
     "patch_descriptions": [
       "데모판 한글화 제작자 : Pixel4a"
+    ]
+  },
+  {
+    "app_id": "4294370",
+    "game_title": "Shroud of the Woods",
+    "steam_link": "https://store.steampowered.com/app/4294370",
+    "source_site_url": "https://hanpe.net/app/j03wx6/shroud-of-the-woods",
+    "patch_type": "user",
+    "patch_links": [
+      "f7248e63"
+    ],
+    "patch_descriptions": [
+      "제작자 : Ryle"
     ]
   },
   {
@@ -35774,6 +36140,19 @@
     ]
   },
   {
+    "app_id": "4391590",
+    "game_title": "BLOOD MALL: RETAPED",
+    "steam_link": "https://store.steampowered.com/app/4391590",
+    "source_site_url": "https://hanpe.net/app/lk3gqr/blood-mall-retaped",
+    "patch_type": "user",
+    "patch_links": [
+      "cfe793d4"
+    ],
+    "patch_descriptions": [
+      "제작자 : Ryle"
+    ]
+  },
+  {
     "app_id": "4398770",
     "game_title": "Barking from the Dark",
     "steam_link": "https://store.steampowered.com/app/4398770",
@@ -35786,6 +36165,19 @@
     "patch_descriptions": [
       "제작자 : 정보없음",
       "제작자 : 김까까"
+    ]
+  },
+  {
+    "app_id": "4411840",
+    "game_title": "Yellowcreek Stories - The Cabin Watcher",
+    "steam_link": "https://store.steampowered.com/app/4411840",
+    "source_site_url": "https://hanpe.net/app/4g0my9/yellowcreek-stories-the-cabin-watcher",
+    "patch_type": "user",
+    "patch_links": [
+      "0a6b4cee"
+    ],
+    "patch_descriptions": [
+      "제작자 : Ryle"
     ]
   },
   {
@@ -35993,6 +36385,19 @@
     ]
   },
   {
+    "app_id": "4540090",
+    "game_title": "DISTURBING FEARS - Workplace",
+    "steam_link": "https://store.steampowered.com/app/4540090",
+    "source_site_url": "https://hanpe.net/app/4g5e9g/disturbing-fears-workplace",
+    "patch_type": "user",
+    "patch_links": [
+      "1b5f22ef"
+    ],
+    "patch_descriptions": [
+      "제작자 : Ryle"
+    ]
+  },
+  {
     "app_id": "4576490",
     "game_title": "Casualties: Unknown",
     "steam_link": "https://store.steampowered.com/app/4576490",
@@ -36003,6 +36408,19 @@
     ],
     "patch_descriptions": [
       "데모판 한글화 제작자 : 케드르"
+    ]
+  },
+  {
+    "app_id": "4602120",
+    "game_title": "500 FINGER FILLET",
+    "steam_link": "https://store.steampowered.com/app/4602120",
+    "source_site_url": "https://hanpe.net/app/4yg67e/500-finger-fillet",
+    "patch_type": "user",
+    "patch_links": [
+      "a78d079d"
+    ],
+    "patch_descriptions": [
+      "데모판 한글화 제작자 : Ryle"
     ]
   },
   {
@@ -36107,6 +36525,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 김까까"
+    ]
+  },
+  {
+    "app_id": "4834000",
+    "game_title": "Deadlined.",
+    "steam_link": "https://store.steampowered.com/app/4834000",
+    "source_site_url": "https://hanpe.net/app/4qw0nx/deadlined",
+    "patch_type": "user",
+    "patch_links": [
+      "ba24ea55"
+    ],
+    "patch_descriptions": [
+      "제작자 : Ryle"
     ]
   },
   {
