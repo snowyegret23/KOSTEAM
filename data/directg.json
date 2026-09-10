@@ -39,9 +39,9 @@
     "directg_url": "https://www.directg.net/game/game_view.html?product_id=38c6747e-0d19-4bea-a799-bf17552b4f7b&sku=9c3c5233-751a-401d-9d91-dc9add71fbec&platform=1"
   },
   {
-    "app_id": null,
+    "app_id": "854290",
     "game_title": "필라스 오브 이터니티 2: 데드파이어 - 옵시디언 에디션",
-    "steam_link": "",
+    "steam_link": "https://store.steampowered.com/app/854290",
     "patch_type": "official",
     "patch_links": [
       "exist"
