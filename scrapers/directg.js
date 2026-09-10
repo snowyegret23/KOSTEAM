@@ -47,8 +47,8 @@ async function scrapePage(pageNum) {
 
     $('#thumb_list div.card').each((_, el) => {
         const $card = $(el);
-        const $titleLink = $card.find('.card-header a');
-        const gameTitle = $titleLink.find('h5.card-title').text().trim() || '';
+        const $titleLink = $card.find('a[href]').first();
+        const gameTitle = $card.find('.product_name_area').text().trim() || '';
         const productLink = $titleLink.attr('href') || '';
 
         if (gameTitle && productLink) {
@@ -100,8 +100,8 @@ async function scrapeAll() {
     const $ = cheerio.load(firstHtml);
     $('#thumb_list div.card').each((_, el) => {
         const $card = $(el);
-        const $titleLink = $card.find('.card-header a');
-        const gameTitle = $titleLink.find('h5.card-title').text().trim() || '';
+        const $titleLink = $card.find('a[href]').first();
+        const gameTitle = $card.find('.product_name_area').text().trim() || '';
         const productLink = $titleLink.attr('href') || '';
 
         if (gameTitle && productLink) {
