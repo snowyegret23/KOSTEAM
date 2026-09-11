@@ -29428,6 +29428,24 @@
       "directg": "https://www.directg.net/game/dlc_view.html?sku=6ef4912c-ef0d-4bd1-bf08-093f16f4cf3a&platform=1"
     }
   },
+  "854290": {
+    "type": "official",
+    "sources": [
+      "directg"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "directg"
+    ],
+    "source_site_urls": {
+      "directg": "https://www.directg.net/game/game_view.html?product_id=38c6747e-0d19-4bea-a799-bf17552b4f7b&sku=edd5c3e7-cc19-4d82-bfd4-4c8906cd1620&platform=1"
+    }
+  },
   "854870": {
     "type": "official",
     "sources": [
@@ -67771,6 +67789,24 @@
       "quasarplay": "https://store.steampowered.com/app/2995190/?curator_clanid=42788178"
     }
   },
+  "2996000": {
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/104968"
+    }
+  },
   "2997980": {
     "type": "user",
     "sources": [
@@ -80517,7 +80553,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-09-10T12:26:35.431Z",
-    "total": 3755
+    "generated_at": "2026-09-11T22:56:47.121Z",
+    "total": 3757
   }
 }

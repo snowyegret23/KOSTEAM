@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-09-10T12:26:35.431Z",
-    "total_with_steam_link": 3755,
-    "total_without_steam_link": 11,
+    "generated_at": "2026-09-11T22:56:47.121Z",
+    "total_with_steam_link": 3757,
+    "total_without_steam_link": 9,
     "sources": [
       "steamapp",
       "quasarzone",
@@ -83094,6 +83094,27 @@
       ]
     },
     {
+      "app_id": "2996000",
+      "game_title": "목양신 마을 (Faun Town)",
+      "steam_link": "https://store.steampowered.com/app/2996000",
+      "patch_type": "official",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        ""
+      ],
+      "patch_sources": [
+        "stove"
+      ],
+      "source_site_urls": {
+        "stove": "https://store.onstove.com/ko/games/104968"
+      },
+      "sources": [
+        "stove"
+      ]
+    },
+    {
       "app_id": "2508780",
       "game_title": "목장이야기 Let's! 바람의 그랜드 바자르",
       "steam_link": "https://store.steampowered.com/app/2508780",
@@ -86971,6 +86992,27 @@
       ],
       "source_site_urls": {
         "directg": "https://www.directg.net/game/dlc_view.html?sku=6ef4912c-ef0d-4bd1-bf08-093f16f4cf3a&platform=1"
+      },
+      "sources": [
+        "directg"
+      ]
+    },
+    {
+      "app_id": "854290",
+      "game_title": "필라스 오브 이터니티 2: 데드파이어 - 옵시디언 에디션",
+      "steam_link": "https://store.steampowered.com/app/854290",
+      "patch_type": "official",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        ""
+      ],
+      "patch_sources": [
+        "directg"
+      ],
+      "source_site_urls": {
+        "directg": "https://www.directg.net/game/game_view.html?product_id=38c6747e-0d19-4bea-a799-bf17552b4f7b&sku=edd5c3e7-cc19-4d82-bfd4-4c8906cd1620&platform=1"
       },
       "sources": [
         "directg"
@@ -91892,25 +91934,6 @@
       ]
     },
     {
-      "game_title": "목양신 마을 (Faun Town)",
-      "patch_type": "official",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        ""
-      ],
-      "patch_sources": [
-        "stove"
-      ],
-      "source_site_urls": {
-        "stove": "https://store.onstove.com/ko/games/104968"
-      },
-      "sources": [
-        "stove"
-      ]
-    },
-    {
       "game_title": "빅터 브란 오버킬 에디션",
       "patch_type": "official",
       "patch_links": [
@@ -91965,25 +91988,6 @@
       },
       "sources": [
         "stove"
-      ]
-    },
-    {
-      "game_title": "필라스 오브 이터니티 2: 데드파이어 - 옵시디언 에디션",
-      "patch_type": "official",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        ""
-      ],
-      "patch_sources": [
-        "directg"
-      ],
-      "source_site_urls": {
-        "directg": "https://www.directg.net/game/game_view.html?product_id=38c6747e-0d19-4bea-a799-bf17552b4f7b&sku=edd5c3e7-cc19-4d82-bfd4-4c8906cd1620&platform=1"
-      },
-      "sources": [
-        "directg"
       ]
     },
     {
