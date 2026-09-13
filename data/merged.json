@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-09-11T22:56:47.121Z",
-    "total_with_steam_link": 3757,
+    "generated_at": "2026-09-13T22:49:10.615Z",
+    "total_with_steam_link": 3761,
     "total_without_steam_link": 9,
     "sources": [
       "steamapp",
@@ -1672,69 +1672,6 @@
       ]
     },
     {
-      "app_id": "3364770",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/3364770/Misty_Judgment/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - 젠갤러"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/3364770/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "3382300",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/3382300/Sovereign_Brain_Empire/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - 젠갤러"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/3382300/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "2959670",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/2959670/BeYourCat/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - 젠갤러"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/2959670/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
       "app_id": "4246860",
       "game_title": "",
       "steam_link": "https://store.steampowered.com/app/4246860/Security_51/",
@@ -1750,27 +1687,6 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/4246860/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "2505590",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/2505590/TK_Punk_Gold/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - 4katpapa"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/2505590/?curator_clanid=30894603"
       },
       "sources": [
         "quasarplay"
@@ -1798,27 +1714,6 @@
       ]
     },
     {
-      "app_id": "2401410",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/2401410/Cabernet/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - 9437545181644348461"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/2401410/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
       "app_id": "2131640",
       "game_title": "",
       "steam_link": "https://store.steampowered.com/app/2131640/METAL_GEAR_SOLID_2_Sons_of_Liberty__Master_Collection_Version/",
@@ -1834,48 +1729,6 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/2131640/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "999020",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/999020/Mega_Man_ZeroZX_Legacy_Collection/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - fm"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/999020/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "4736830",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/4736830/SOL_School_Of_Labyrinth/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - Pixel4a"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/4736830/?curator_clanid=30894603"
       },
       "sources": [
         "quasarplay"
@@ -2254,27 +2107,6 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/2197760/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "1182310",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/1182310/The_Excavation_of_Hobs_Barrow/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - 레트로벤처"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/1182310/?curator_clanid=30894603"
       },
       "sources": [
         "quasarplay"
@@ -25091,6 +24923,27 @@
       ]
     },
     {
+      "app_id": "1478500",
+      "game_title": "Big Walk",
+      "steam_link": "https://store.steampowered.com/app/1478500",
+      "patch_type": "user",
+      "patch_links": [
+        "80e1eefb"
+      ],
+      "patch_descriptions": [
+        "한국어 채팅 수정 모드 제작자 : iopa3944"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j9r0p5/big-walk"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "612470",
       "game_title": "Bio Inc. Redemption",
       "steam_link": "https://store.steampowered.com/app/612470",
@@ -27056,6 +26909,32 @@
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/jp8dpo/bustafellows",
         "quasarplay": "https://store.steampowered.com/app/1494470/?curator_clanid=42788178"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2401410",
+      "game_title": "Cabernet",
+      "steam_link": "https://store.steampowered.com/app/2401410",
+      "patch_type": "user",
+      "patch_links": [
+        "89e07b6d",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 달걀꼬리",
+        "한글 패치 - 9437545181644348461"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4yn9nr/cabernet",
+        "quasarplay": "https://store.steampowered.com/app/2401410/?curator_clanid=30894603"
       },
       "sources": [
         "steamapp",
@@ -50853,6 +50732,32 @@
       ]
     },
     {
+      "app_id": "999020",
+      "game_title": "Mega Man Zero/ZX Legacy Collection",
+      "steam_link": "https://store.steampowered.com/app/999020",
+      "patch_type": "user",
+      "patch_links": [
+        "b42dcac5",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : ㎙☆",
+        "한글 패치 - fm"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j5k3ye/mega-man-zerozx-legacy-collection",
+        "quasarplay": "https://store.steampowered.com/app/999020/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "460120",
       "game_title": "Megadimension Neptunia VII",
       "steam_link": "https://store.steampowered.com/app/460120",
@@ -61608,6 +61513,32 @@
       ]
     },
     {
+      "app_id": "4736830",
+      "game_title": "S.O.L School Of Labyrinth",
+      "steam_link": "https://store.steampowered.com/app/4736830",
+      "patch_type": "user",
+      "patch_links": [
+        "b202c643",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : Pixel4a",
+        "한글 패치 - Pixel4a"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jpw8km/sol-school-of-labyrinth",
+        "quasarplay": "https://store.steampowered.com/app/4736830/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "2612700",
       "game_title": "S4U: CITYPUNK 2011 AND LOVE PUNCH",
       "steam_link": "https://store.steampowered.com/app/2612700",
@@ -62287,6 +62218,32 @@
       ]
     },
     {
+      "app_id": "3382300",
+      "game_title": "SB Empire",
+      "steam_link": "https://store.steampowered.com/app/3382300",
+      "patch_type": "user",
+      "patch_links": [
+        "ec7ac6fb",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 젠갤러",
+        "한글 패치 - 젠갤러"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j8nkmz/sb-empire",
+        "quasarplay": "https://store.steampowered.com/app/3382300/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "2866430",
       "game_title": "Scarlet Defiance: The Wall Between Us",
       "steam_link": "https://store.steampowered.com/app/2866430",
@@ -62528,13 +62485,16 @@
       "patch_type": "official",
       "patch_links": [
         "11782bb8",
+        "bf8f7540",
         "exist"
       ],
       "patch_descriptions": [
         "실제로는 한글 지원 - 부분 한글화",
+        "제작자 : Tigerchoi76",
         "유저 한글 패치 - 한무테"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "quasarplay"
       ],
@@ -71236,6 +71196,32 @@
         "steamapp",
         "quasarplay",
         "directg"
+      ]
+    },
+    {
+      "app_id": "1182310",
+      "game_title": "The Excavation of Hob's Barrow",
+      "steam_link": "https://store.steampowered.com/app/1182310",
+      "patch_type": "user",
+      "patch_links": [
+        "d4e2eb25",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 잭더윌로",
+        "한글 패치 - 레트로벤처"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j56n5e/the-excavation-of-hobs-barrow",
+        "quasarplay": "https://store.steampowered.com/app/1182310/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
       ]
     },
     {
@@ -88020,6 +88006,32 @@
       ]
     },
     {
+      "app_id": "2505590",
+      "game_title": "三国朋克: 爱与破坏之神",
+      "steam_link": "https://store.steampowered.com/app/2505590",
+      "patch_type": "user",
+      "patch_links": [
+        "c54f674a",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 4katpapa",
+        "한글 패치 - 4katpapa"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j02387/%E4%B8%89%E5%9B%BD%E6%9C%8B%E5%85%8B-%E7%88%B1%E4%B8%8E%E7%A0%B4%E5%9D%8F%E4%B9%8B%E7%A5%9E",
+        "quasarplay": "https://store.steampowered.com/app/2505590/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "1437820",
       "game_title": "三国群英传",
       "steam_link": "https://store.steampowered.com/app/1437820",
@@ -88558,6 +88570,32 @@
       ]
     },
     {
+      "app_id": "2959670",
+      "game_title": "做你的猫",
+      "steam_link": "https://store.steampowered.com/app/2959670",
+      "patch_type": "user",
+      "patch_links": [
+        "ec7ac6fb",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 젠갤러",
+        "한글 패치 - 젠갤러"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jwz210/%E5%81%9A%E4%BD%A0%E7%9A%84%E7%8C%AB",
+        "quasarplay": "https://store.steampowered.com/app/2959670/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "2663950",
       "game_title": "再见断刀",
       "steam_link": "https://store.steampowered.com/app/2663950",
@@ -88885,6 +88923,27 @@
       ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/jvpqoo/%E5%92%B8%E9%B1%BC%E6%AE%BF%E4%B8%8B-my-journey"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "3395300",
+      "game_title": "哎呦!这么多美女呀!",
+      "steam_link": "https://store.steampowered.com/app/3395300",
+      "patch_type": "user",
+      "patch_links": [
+        "b0fa33f5"
+      ],
+      "patch_descriptions": [
+        "제작자 : 호트구트"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jpq03k/%E5%93%8E%E5%91%A6%E8%BF%99%E4%B9%88%E5%A4%9A%E7%BE%8E%E5%A5%B3%E5%91%80"
       },
       "sources": [
         "steamapp"
@@ -91165,6 +91224,27 @@
       ]
     },
     {
+      "app_id": "4103960",
+      "game_title": "種も仕掛けも思い出も",
+      "steam_link": "https://store.steampowered.com/app/4103960",
+      "patch_type": "user",
+      "patch_links": [
+        "45ddb2cc"
+      ],
+      "patch_descriptions": [
+        "데모판 한글화 제작자 : Gamucha"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j52d8m/%E7%A8%AE%E3%82%82%E4%BB%95%E6%8E%9B%E3%81%91%E3%82%82%E6%80%9D%E3%81%84%E5%87%BA%E3%82%82"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "3371110",
       "game_title": "究极少女 阿尔特斯",
       "steam_link": "https://store.steampowered.com/app/3371110",
@@ -91282,6 +91362,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2867510",
+      "game_title": "许愿，我要带她们回现代",
+      "steam_link": "https://store.steampowered.com/app/2867510",
+      "patch_type": "user",
+      "patch_links": [
+        "32826570"
+      ],
+      "patch_descriptions": [
+        "제작자 : nutcrackr"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jv806o/%E8%AE%B8%E6%84%BF%E6%88%91%E8%A6%81%E5%B8%A6%E5%A5%B9%E4%BB%AC%E5%9B%9E%E7%8E%B0%E4%BB%A3"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -91422,6 +91523,32 @@
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/lxxm97/%E8%BF%B7%E5%A4%B1%E5%B9%BB%E9%80%94-lost-in-fantaland",
         "quasarplay": "https://store.steampowered.com/app/1266430/?curator_clanid=42788178"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "3364770",
+      "game_title": "迷雾审判",
+      "steam_link": "https://store.steampowered.com/app/3364770",
+      "patch_type": "user",
+      "patch_links": [
+        "ec7ac6fb",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 젠갤러",
+        "한글 패치 - 젠갤러"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/46odp9/%E8%BF%B7%E9%9B%BE%E5%AE%A1%E5%88%A4",
+        "quasarplay": "https://store.steampowered.com/app/3364770/?curator_clanid=30894603"
       },
       "sources": [
         "steamapp",

@@ -11891,10 +11891,12 @@
     "source_site_url": "https://hanpe.net/app/jvewx9/scum",
     "patch_type": "official",
     "patch_links": [
-      "11782bb8"
+      "11782bb8",
+      "bf8f7540"
     ],
     "patch_descriptions": [
-      "실제로는 한글 지원 - 부분 한글화"
+      "실제로는 한글 지원 - 부분 한글화",
+      "제작자 : Tigerchoi76"
     ]
   },
   {
@@ -17316,6 +17318,19 @@
     ]
   },
   {
+    "app_id": "999020",
+    "game_title": "Mega Man Zero/ZX Legacy Collection",
+    "steam_link": "https://store.steampowered.com/app/999020",
+    "source_site_url": "https://hanpe.net/app/j5k3ye/mega-man-zerozx-legacy-collection",
+    "patch_type": "user",
+    "patch_links": [
+      "b42dcac5"
+    ],
+    "patch_descriptions": [
+      "제작자 : ㎙☆"
+    ]
+  },
+  {
     "app_id": "999220",
     "game_title": "Amnesia: Rebirth",
     "steam_link": "https://store.steampowered.com/app/999220",
@@ -19428,6 +19443,19 @@
     "patch_links": [],
     "patch_descriptions": [
       "표기는 없으나 한글 지원"
+    ]
+  },
+  {
+    "app_id": "1182310",
+    "game_title": "The Excavation of Hob's Barrow",
+    "steam_link": "https://store.steampowered.com/app/1182310",
+    "source_site_url": "https://hanpe.net/app/j56n5e/the-excavation-of-hobs-barrow",
+    "patch_type": "user",
+    "patch_links": [
+      "d4e2eb25"
+    ],
+    "patch_descriptions": [
+      "제작자 : 잭더윌로"
     ]
   },
   {
@@ -21984,6 +22012,19 @@
     ],
     "patch_descriptions": [
       "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다)"
+    ]
+  },
+  {
+    "app_id": "1478500",
+    "game_title": "Big Walk",
+    "steam_link": "https://store.steampowered.com/app/1478500",
+    "source_site_url": "https://hanpe.net/app/j9r0p5/big-walk",
+    "patch_type": "user",
+    "patch_links": [
+      "80e1eefb"
+    ],
+    "patch_descriptions": [
+      "한국어 채팅 수정 모드 제작자 : iopa3944"
     ]
   },
   {
@@ -28004,6 +28045,19 @@
     ]
   },
   {
+    "app_id": "2401410",
+    "game_title": "Cabernet",
+    "steam_link": "https://store.steampowered.com/app/2401410",
+    "source_site_url": "https://hanpe.net/app/4yn9nr/cabernet",
+    "patch_type": "user",
+    "patch_links": [
+      "89e07b6d"
+    ],
+    "patch_descriptions": [
+      "제작자 : 달걀꼬리"
+    ]
+  },
+  {
     "app_id": "2406110",
     "game_title": "Fall into decay",
     "steam_link": "https://store.steampowered.com/app/2406110",
@@ -28572,6 +28626,19 @@
     ],
     "patch_descriptions": [
       "제작자 : WHALE59"
+    ]
+  },
+  {
+    "app_id": "2505590",
+    "game_title": "三国朋克: 爱与破坏之神",
+    "steam_link": "https://store.steampowered.com/app/2505590",
+    "source_site_url": "https://hanpe.net/app/j02387/%E4%B8%89%E5%9B%BD%E6%9C%8B%E5%85%8B-%E7%88%B1%E4%B8%8E%E7%A0%B4%E5%9D%8F%E4%B9%8B%E7%A5%9E",
+    "patch_type": "user",
+    "patch_links": [
+      "c54f674a"
+    ],
+    "patch_descriptions": [
+      "제작자 : 4katpapa"
     ]
   },
   {
@@ -30639,6 +30706,19 @@
     ]
   },
   {
+    "app_id": "2867510",
+    "game_title": "许愿，我要带她们回现代",
+    "steam_link": "https://store.steampowered.com/app/2867510",
+    "source_site_url": "https://hanpe.net/app/jv806o/%E8%AE%B8%E6%84%BF%E6%88%91%E8%A6%81%E5%B8%A6%E5%A5%B9%E4%BB%AC%E5%9B%9E%E7%8E%B0%E4%BB%A3",
+    "patch_type": "user",
+    "patch_links": [
+      "32826570"
+    ],
+    "patch_descriptions": [
+      "제작자 : nutcrackr"
+    ]
+  },
+  {
     "app_id": "2869610",
     "game_title": "ArkCraft: The Rebirth of the World",
     "steam_link": "https://store.steampowered.com/app/2869610",
@@ -31166,6 +31246,19 @@
     ],
     "patch_descriptions": [
       "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : 가무차"
+    ]
+  },
+  {
+    "app_id": "2959670",
+    "game_title": "做你的猫",
+    "steam_link": "https://store.steampowered.com/app/2959670",
+    "source_site_url": "https://hanpe.net/app/jwz210/%E5%81%9A%E4%BD%A0%E7%9A%84%E7%8C%AB",
+    "patch_type": "user",
+    "patch_links": [
+      "ec7ac6fb"
+    ],
+    "patch_descriptions": [
+      "제작자 : 젠갤러"
     ]
   },
   {
@@ -33297,6 +33390,19 @@
     ]
   },
   {
+    "app_id": "3364770",
+    "game_title": "迷雾审判",
+    "steam_link": "https://store.steampowered.com/app/3364770",
+    "source_site_url": "https://hanpe.net/app/46odp9/%E8%BF%B7%E9%9B%BE%E5%AE%A1%E5%88%A4",
+    "patch_type": "user",
+    "patch_links": [
+      "ec7ac6fb"
+    ],
+    "patch_descriptions": [
+      "제작자 : 젠갤러"
+    ]
+  },
+  {
     "app_id": "3364860",
     "game_title": "少女地獄カルデア｜Galaxy Express Chaldea",
     "steam_link": "https://store.steampowered.com/app/3364860",
@@ -33433,6 +33539,19 @@
     ]
   },
   {
+    "app_id": "3382300",
+    "game_title": "SB Empire",
+    "steam_link": "https://store.steampowered.com/app/3382300",
+    "source_site_url": "https://hanpe.net/app/j8nkmz/sb-empire",
+    "patch_type": "user",
+    "patch_links": [
+      "ec7ac6fb"
+    ],
+    "patch_descriptions": [
+      "제작자 : 젠갤러"
+    ]
+  },
+  {
     "app_id": "3382750",
     "game_title": "Dark of the Depths",
     "steam_link": "https://store.steampowered.com/app/3382750",
@@ -33510,6 +33629,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 한무테"
+    ]
+  },
+  {
+    "app_id": "3395300",
+    "game_title": "哎呦!这么多美女呀!",
+    "steam_link": "https://store.steampowered.com/app/3395300",
+    "source_site_url": "https://hanpe.net/app/jpq03k/%E5%93%8E%E5%91%A6%E8%BF%99%E4%B9%88%E5%A4%9A%E7%BE%8E%E5%A5%B3%E5%91%80",
+    "patch_type": "user",
+    "patch_links": [
+      "b0fa33f5"
+    ],
+    "patch_descriptions": [
+      "제작자 : 호트구트"
     ]
   },
   {
@@ -35636,6 +35768,19 @@
     ]
   },
   {
+    "app_id": "4103960",
+    "game_title": "種も仕掛けも思い出も",
+    "steam_link": "https://store.steampowered.com/app/4103960",
+    "source_site_url": "https://hanpe.net/app/j52d8m/%E7%A8%AE%E3%82%82%E4%BB%95%E6%8E%9B%E3%81%91%E3%82%82%E6%80%9D%E3%81%84%E5%87%BA%E3%82%82",
+    "patch_type": "user",
+    "patch_links": [
+      "45ddb2cc"
+    ],
+    "patch_descriptions": [
+      "데모판 한글화 제작자 : Gamucha"
+    ]
+  },
+  {
     "app_id": "4104120",
     "game_title": "对不起，我是警察",
     "steam_link": "https://store.steampowered.com/app/4104120",
@@ -36512,6 +36657,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 파미도 파일은 댓글 참조"
+    ]
+  },
+  {
+    "app_id": "4736830",
+    "game_title": "S.O.L School Of Labyrinth",
+    "steam_link": "https://store.steampowered.com/app/4736830",
+    "source_site_url": "https://hanpe.net/app/jpw8km/sol-school-of-labyrinth",
+    "patch_type": "user",
+    "patch_links": [
+      "b202c643"
+    ],
+    "patch_descriptions": [
+      "제작자 : Pixel4a"
     ]
   },
   {

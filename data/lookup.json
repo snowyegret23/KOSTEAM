@@ -21667,13 +21667,16 @@
     ],
     "links": [
       "11782bb8",
+      "bf8f7540",
       "exist"
     ],
     "patch_descriptions": [
       "실제로는 한글 지원 - 부분 한글화",
+      "제작자 : Tigerchoi76",
       "유저 한글 패치 - 한무테"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp",
       "quasarplay"
     ],
@@ -32261,18 +32264,23 @@
   "999020": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "b42dcac5",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : ㎙☆",
       "한글 패치 - fm"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j5k3ye/mega-man-zerozx-legacy-collection",
       "quasarplay": "https://store.steampowered.com/app/999020/?curator_clanid=30894603"
     }
   },
@@ -36894,18 +36902,23 @@
   "1182310": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "d4e2eb25",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 잭더윌로",
       "한글 패치 - 레트로벤처"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j56n5e/the-excavation-of-hobs-barrow",
       "quasarplay": "https://store.steampowered.com/app/1182310/?curator_clanid=30894603"
     }
   },
@@ -42995,6 +43008,24 @@
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/4ekrnz/%EC%9D%B8%EA%B2%A9%ED%95%B4%EC%B2%B4",
       "quasarplay": "https://store.steampowered.com/app/1477070/?curator_clanid=42788178"
+    }
+  },
+  "1478500": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "80e1eefb"
+    ],
+    "patch_descriptions": [
+      "한국어 채팅 수정 모드 제작자 : iopa3944"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j9r0p5/big-walk"
     }
   },
   "1480600": {
@@ -58622,18 +58653,23 @@
   "2401410": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "89e07b6d",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 달걀꼬리",
       "한글 패치 - 9437545181644348461"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4yn9nr/cabernet",
       "quasarplay": "https://store.steampowered.com/app/2401410/?curator_clanid=30894603"
     }
   },
@@ -60378,18 +60414,23 @@
   "2505590": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "c54f674a",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 4katpapa",
       "한글 패치 - 4katpapa"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j02387/%E4%B8%89%E5%9B%BD%E6%9C%8B%E5%85%8B-%E7%88%B1%E4%B8%8E%E7%A0%B4%E5%9D%8F%E4%B9%8B%E7%A5%9E",
       "quasarplay": "https://store.steampowered.com/app/2505590/?curator_clanid=30894603"
     }
   },
@@ -65693,6 +65734,24 @@
       "quasarplay": "https://store.steampowered.com/app/2866430/?curator_clanid=42788178"
     }
   },
+  "2867510": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "32826570"
+    ],
+    "patch_descriptions": [
+      "제작자 : nutcrackr"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jv806o/%E8%AE%B8%E6%84%BF%E6%88%91%E8%A6%81%E5%B8%A6%E5%A5%B9%E4%BB%AC%E5%9B%9E%E7%8E%B0%E4%BB%A3"
+    }
+  },
   "2868100": {
     "type": "user",
     "sources": [
@@ -67121,18 +67180,23 @@
   "2959670": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "ec7ac6fb",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 젠갤러",
       "한글 패치 - 젠갤러"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jwz210/%E5%81%9A%E4%BD%A0%E7%9A%84%E7%8C%AB",
       "quasarplay": "https://store.steampowered.com/app/2959670/?curator_clanid=30894603"
     }
   },
@@ -72704,18 +72768,23 @@
   "3364770": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "ec7ac6fb",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 젠갤러",
       "한글 패치 - 젠갤러"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/46odp9/%E8%BF%B7%E9%9B%BE%E5%AE%A1%E5%88%A4",
       "quasarplay": "https://store.steampowered.com/app/3364770/?curator_clanid=30894603"
     }
   },
@@ -73010,18 +73079,23 @@
   "3382300": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "ec7ac6fb",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 젠갤러",
       "한글 패치 - 젠갤러"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j8nkmz/sb-empire",
       "quasarplay": "https://store.steampowered.com/app/3382300/?curator_clanid=30894603"
     }
   },
@@ -73185,6 +73259,24 @@
     ],
     "source_site_urls": {
       "quasarplay": "https://store.steampowered.com/app/3394770/?curator_clanid=30894603"
+    }
+  },
+  "3395300": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "b0fa33f5"
+    ],
+    "patch_descriptions": [
+      "제작자 : 호트구트"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jpq03k/%E5%93%8E%E5%91%A6%E8%BF%99%E4%B9%88%E5%A4%9A%E7%BE%8E%E5%A5%B3%E5%91%80"
     }
   },
   "3396120": {
@@ -78497,6 +78589,24 @@
       "quasarplay": "https://store.steampowered.com/app/4103510/?curator_clanid=30894603"
     }
   },
+  "4103960": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "45ddb2cc"
+    ],
+    "patch_descriptions": [
+      "데모판 한글화 제작자 : Gamucha"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j52d8m/%E7%A8%AE%E3%82%82%E4%BB%95%E6%8E%9B%E3%81%91%E3%82%82%E6%80%9D%E3%81%84%E5%87%BA%E3%82%82"
+    }
+  },
   "4104120": {
     "type": "user",
     "sources": [
@@ -80396,18 +80506,23 @@
   "4736830": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "b202c643",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : Pixel4a",
       "한글 패치 - Pixel4a"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jpw8km/sol-school-of-labyrinth",
       "quasarplay": "https://store.steampowered.com/app/4736830/?curator_clanid=30894603"
     }
   },
@@ -80553,7 +80668,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-09-11T22:56:47.121Z",
-    "total": 3757
+    "generated_at": "2026-09-13T22:49:10.615Z",
+    "total": 3761
   }
 }
