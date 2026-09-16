@@ -2,8 +2,8 @@
   "curator_id": 42788178,
   "curator_name": "Curator #42788178",
   "curator_url": "https://store.steampowered.com/curator/42788178/",
-  "total_games": 1830,
-  "exported_at": "2026-09-13T22:48:57.027062",
+  "total_games": 1829,
+  "exported_at": "2026-09-16T23:29:58.378177",
   "games": [
     {
       "appid": "284050",
@@ -468,9 +468,9 @@
       "appid": "1213300",
       "url": "https://store.steampowered.com/app/1213300/Rebellion_GODSOUL_Awakening/",
       "curator_url": "https://store.steampowered.com/app/1213300/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 한무테",
+      "review": "한글 패치 - yoodong724\n한글 패치 - 한무테",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -5418,9 +5418,9 @@
       "appid": "950740",
       "url": "https://store.steampowered.com/app/950740/China_Maos_legacy/",
       "curator_url": "https://store.steampowered.com/app/950740/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 새천년, 흐루쇼프 님",
+      "review": "한글 패치 - 흐루쇼프의꽉쥔주먹\n한글 패치 - 새천년, 흐루쇼프",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -9279,7 +9279,7 @@
       "appid": "694770",
       "url": "https://store.steampowered.com/app/694770/Vestaria_Saga_I_War_of_the_Scions/",
       "curator_url": "https://store.steampowered.com/app/694770/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 - 폭사아님 님",
+      "review": "한글 패치 - 폭사아님",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -10422,7 +10422,7 @@
       "appid": "304650",
       "url": "https://store.steampowered.com/app/304650/SUNLESS_SEA/",
       "curator_url": "https://store.steampowered.com/app/304650/?curator_clanid=42788178",
-      "review": "한글 패치 - Anthon\n한글 패치 - dd",
+      "review": "한글 패치 - dd\n한글 패치 - Anthon",
       "review_has_url": true,
       "review_url_count": 2,
       "type": "recommended"
@@ -12214,15 +12214,6 @@
       "url": "https://store.steampowered.com/app/421660/Harmonia/",
       "curator_url": "https://store.steampowered.com/app/421660/?curator_clanid=42788178",
       "review": "유저 한국어 패치 - 고리성운, 시글러스 님",
-      "review_has_url": true,
-      "review_url_count": 1,
-      "type": "recommended"
-    },
-    {
-      "appid": "201271",
-      "url": "https://store.steampowered.com/app/201271/A_Total_War_Saga_FALL_OF_THE_SAMURAI/",
-      "curator_url": "https://store.steampowered.com/app/201271/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - JDY",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -15471,9 +15462,9 @@
       "appid": "238010",
       "url": "https://store.steampowered.com/app/238010/Deus_Ex_Human_Revolution__Directors_Cut/",
       "curator_url": "https://store.steampowered.com/app/238010/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 - 디지, 데이어스 엑스 한글화 카페",
+      "review": "한글 패치 - 디지, 데이어스 엑스 한글화 카페\nDLC 한글 패치 - 뉴로맨서",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {

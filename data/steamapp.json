@@ -4597,6 +4597,19 @@
     ]
   },
   {
+    "app_id": "232790",
+    "game_title": "Broken Age",
+    "steam_link": "https://store.steampowered.com/app/232790",
+    "source_site_url": "https://hanpe.net/app/4g93o3/broken-age",
+    "patch_type": "user",
+    "patch_links": [
+      "003d0833"
+    ],
+    "patch_descriptions": [
+      "제작자 : 한국어 패치 저장소"
+    ]
+  },
+  {
     "app_id": "233130",
     "game_title": "Shadow Warrior",
     "steam_link": "https://store.steampowered.com/app/233130",
@@ -6772,6 +6785,19 @@
     ]
   },
   {
+    "app_id": "287630",
+    "game_title": "The Council",
+    "steam_link": "https://store.steampowered.com/app/287630",
+    "source_site_url": "https://hanpe.net/app/jpop8k/the-council",
+    "patch_type": "user",
+    "patch_links": [
+      "c04fcdcd"
+    ],
+    "patch_descriptions": [
+      "제작자 : 한국어 패치 저장소"
+    ]
+  },
+  {
     "app_id": "287700",
     "game_title": "METAL GEAR SOLID V: THE PHANTOM PAIN",
     "steam_link": "https://store.steampowered.com/app/287700",
@@ -8073,9 +8099,9 @@
   },
   {
     "app_id": "332610",
-    "game_title": "Mystik Belle",
+    "game_title": "Mystik Belle: Enchanted Edition",
     "steam_link": "https://store.steampowered.com/app/332610",
-    "source_site_url": "https://hanpe.net/app/j80o1r/mystik-belle",
+    "source_site_url": "https://hanpe.net/app/j80o1r/mystik-belle-enchanted-edition",
     "patch_type": "user",
     "patch_links": [
       "67d5ac49"
@@ -9591,19 +9617,6 @@
     ],
     "patch_descriptions": [
       "ㅂㄷㅇㄴ 님 제작 완전 한글화 프로젝트"
-    ]
-  },
-  {
-    "app_id": "393380",
-    "game_title": "Squad",
-    "steam_link": "https://store.steampowered.com/app/393380",
-    "source_site_url": "https://hanpe.net/app/4er2m1/squad",
-    "patch_type": "official",
-    "patch_links": [
-      "88f9608c"
-    ],
-    "patch_descriptions": [
-      "실제로는 한글 지원"
     ]
   },
   {
@@ -14398,17 +14411,17 @@
     "patch_type": "user",
     "patch_links": [
       "776edf96",
-      "273a6190",
       "31527e77",
       "38b79510",
+      "273a6190",
       "447a85e9"
     ],
     "patch_descriptions": [
-      "제작자 : 뮤갤러",
-      "제작자 : 마린돌프",
-      "폰트 개선 패치",
-      "제작자 : 뉴비분쇄기",
-      "제작자 : Neptunium 고양이 이름 음역 패치"
+      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : 뮤갤러",
+      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 폰트 개선 패치",
+      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : 뉴비분쇄기",
+      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : 마린돌프",
+      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : Neptunium 고양이 이름 음역 패치"
     ]
   },
   {
@@ -22963,7 +22976,7 @@
       "89728077"
     ],
     "patch_descriptions": [
-      "제작자 : 휠맨"
+      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : 휠맨"
     ]
   },
   {
@@ -25487,8 +25500,8 @@
       "825b23e4"
     ],
     "patch_descriptions": [
-      "제작자 : Kheeman",
-      "제작자 : 천지희"
+      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : Kheeman",
+      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : 천지희"
     ]
   },
   {
@@ -27198,7 +27211,7 @@
       "d98369d7"
     ],
     "patch_descriptions": [
-      "제작자 : 휠맨"
+      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : 휠맨"
     ]
   },
   {
@@ -27428,6 +27441,19 @@
     "patch_descriptions": [
       "제작자 : 흑끼",
       "제작자 : 듀콩"
+    ]
+  },
+  {
+    "app_id": "2304440",
+    "game_title": "Creatures of Ava",
+    "steam_link": "https://store.steampowered.com/app/2304440",
+    "source_site_url": "https://hanpe.net/app/41pz1p/creatures-of-ava",
+    "patch_type": "user",
+    "patch_links": [
+      "540f1d44"
+    ],
+    "patch_descriptions": [
+      "제작팀 : Team WASD"
     ]
   },
   {
@@ -27952,6 +27978,19 @@
     ]
   },
   {
+    "app_id": "2396240",
+    "game_title": "SteamWorld Heist II",
+    "steam_link": "https://store.steampowered.com/app/2396240",
+    "source_site_url": "https://hanpe.net/app/l2e1z2/steamworld-heist-ii",
+    "patch_type": "user",
+    "patch_links": [
+      "7fc048a9"
+    ],
+    "patch_descriptions": [
+      "제작자 : 한국어 패치 저장소"
+    ]
+  },
+  {
     "app_id": "2396980",
     "game_title": "Fate/stay night REMASTERED",
     "steam_link": "https://store.steampowered.com/app/2396980",
@@ -28332,6 +28371,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 천지희"
+    ]
+  },
+  {
+    "app_id": "2451100",
+    "game_title": "Little Rocket Lab",
+    "steam_link": "https://store.steampowered.com/app/2451100",
+    "source_site_url": "https://hanpe.net/app/lze8d1/little-rocket-lab",
+    "patch_type": "user",
+    "patch_links": [
+      "c848ac77"
+    ],
+    "patch_descriptions": [
+      "제작자 : 한글패치 스튜디오"
     ]
   },
   {
@@ -36098,6 +36150,19 @@
     "patch_descriptions": [
       "데모판 한글화 제작자 : 희망의가위",
       "제작자 : 호트구트"
+    ]
+  },
+  {
+    "app_id": "4240150",
+    "game_title": "Sister Other Paranoia",
+    "steam_link": "https://store.steampowered.com/app/4240150",
+    "source_site_url": "https://hanpe.net/app/4yerz0/sister-other-paranoia",
+    "patch_type": "user",
+    "patch_links": [
+      "af7e4cdb"
+    ],
+    "patch_descriptions": [
+      "제작자 : gembleman 도와주신 분) 로고 & 메뉴 식질 : 무스스"
     ]
   },
   {
