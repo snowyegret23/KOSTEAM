@@ -7128,10 +7128,12 @@
     "source_site_url": "https://hanpe.net/app/l2mrgm/blood-ii-the-chosen-expansion",
     "patch_type": "user",
     "patch_links": [
-      "61cda297"
+      "61cda297",
+      "7c07709d"
     ],
     "patch_descriptions": [
-      "제작자 : 한갤러 스팀 GOG 둘다 가능"
+      "제작자 : 한갤러 (v3) 스팀 GOG 둘다 가능",
+      "제작자 : 한갤러 (v4) 스팀 GOG 둘다 가능"
     ]
   },
   {
@@ -7225,8 +7227,8 @@
     "source_site_url": "https://hanpe.net/app/l2k7xq/sunless-sea",
     "patch_type": "user",
     "patch_links": [
-      "256429ab",
-      "1dd5f553"
+      "6f9b7be3",
+      "29526c96"
     ],
     "patch_descriptions": [
       "제작자 : bong999993",
@@ -13551,6 +13553,19 @@
     ]
   },
   {
+    "app_id": "613470",
+    "game_title": "The Inner World - The Last Wind Monk",
+    "steam_link": "https://store.steampowered.com/app/613470",
+    "source_site_url": "https://hanpe.net/app/l3kd9m/the-inner-world-the-last-wind-monk",
+    "patch_type": "user",
+    "patch_links": [
+      "bcb9c484"
+    ],
+    "patch_descriptions": [
+      "제작자 : 휠맨"
+    ]
+  },
+  {
     "app_id": "614570",
     "game_title": "Dishonored®: Death of the Outsider™",
     "steam_link": "https://store.steampowered.com/app/614570",
@@ -15711,6 +15726,19 @@
     ]
   },
   {
+    "app_id": "825630",
+    "game_title": "STEINS;GATE 0",
+    "steam_link": "https://store.steampowered.com/app/825630",
+    "source_site_url": "https://hanpe.net/app/j8e372/steinsgate-0",
+    "patch_type": "user",
+    "patch_links": [
+      "8740f5ce"
+    ],
+    "patch_descriptions": [
+      "제작자 : GaTE;1315"
+    ]
+  },
+  {
     "app_id": "828050",
     "game_title": "The Mirror Lied",
     "steam_link": "https://store.steampowered.com/app/828050",
@@ -15905,19 +15933,6 @@
     ],
     "patch_descriptions": [
       "한글 패치 제작: 바람 번역단 - LSW 번역: 에쎔이, 한마루, 결령, 쿠타르크, LSW 검수: 쿠타르크, LSW 기술 지원: Akintos 이미지 작업: LSW"
-    ]
-  },
-  {
-    "app_id": "849100",
-    "game_title": "Alaskan Road Truckers",
-    "steam_link": "https://store.steampowered.com/app/849100",
-    "source_site_url": "https://hanpe.net/app/4ydpo6/alaskan-road-truckers",
-    "patch_type": "user",
-    "patch_links": [
-      "b8a18df6"
-    ],
-    "patch_descriptions": [
-      "제작자 : 한무테"
     ]
   },
   {
@@ -16599,6 +16614,19 @@
     ],
     "patch_descriptions": [
       "스토브 독점 한국어화 스팀 비한국어화"
+    ]
+  },
+  {
+    "app_id": "930910",
+    "game_title": "STEINS;GATE: Linear Bounded Phenogram",
+    "steam_link": "https://store.steampowered.com/app/930910",
+    "source_site_url": "https://hanpe.net/app/4ex8x1/steinsgate-linear-bounded-phenogram",
+    "patch_type": "user",
+    "patch_links": [
+      "9ae05f0e"
+    ],
+    "patch_descriptions": [
+      "[ 크레딧 ] 프로젝트명: OPERATION 『에케작스』 대표: 1315 기술 지원: 5QS, RoKing, アロエ 이미지 수정: 1315, RoKing 번역 및 검수: 알트아이젠, Alvs, healget, Kampfer, KimPig 기타 도움을 주신 여러 참여자분들"
     ]
   },
   {
@@ -18970,6 +18998,19 @@
     ]
   },
   {
+    "app_id": "1147030",
+    "game_title": "The Terrible Old Man",
+    "steam_link": "https://store.steampowered.com/app/1147030",
+    "source_site_url": "https://hanpe.net/app/l7dv0o/the-terrible-old-man",
+    "patch_type": "user",
+    "patch_links": [
+      "7e189a3b"
+    ],
+    "patch_descriptions": [
+      "제작자 : 치즈가이"
+    ]
+  },
+  {
     "app_id": "1147550",
     "game_title": "Not For Broadcast",
     "steam_link": "https://store.steampowered.com/app/1147550",
@@ -20058,11 +20099,13 @@
     "patch_type": "user",
     "patch_links": [
       "a917c7c2",
-      "4d210ef5"
+      "4d210ef5",
+      "665034ba"
     ],
     "patch_descriptions": [
       "제작자 : 정보없음",
-      "제작: 루넨스님 폰트 변경 및 가독성 패치 v3"
+      "제작: 루넨스님 폰트 변경 및 가독성 패치 v3",
+      "제작자 : 시즈카상 Credit 오리지널 Dead Space™ 3(데드 스페이스 3) 한국어 패치 by 루넨스 Visceral Toolkit by Greavesy DS3 Unpacker by Gibbed 문법 교정 도움 by Google Gemini"
     ]
   },
   {
@@ -26450,6 +26493,19 @@
     ]
   },
   {
+    "app_id": "2131630",
+    "game_title": "METAL GEAR SOLID - Master Collection Version",
+    "steam_link": "https://store.steampowered.com/app/2131630",
+    "source_site_url": "https://hanpe.net/app/lx80d7/metal-gear-solid-master-collection-version",
+    "patch_type": "user",
+    "patch_links": [
+      "d1c54b86"
+    ],
+    "patch_descriptions": [
+      "제작자 : 메갤러"
+    ]
+  },
+  {
     "app_id": "2132690",
     "game_title": "Vivat Slovakia",
     "steam_link": "https://store.steampowered.com/app/2132690",
@@ -27069,19 +27125,6 @@
     ],
     "patch_descriptions": [
       "공식 한글화 번역 개선 패치 총괄 : 사계절먼지 에셋 번역 : 하베스터, 미사일 봄버, 머룸 더 머쉬룸 텍스트 번역및 검토 : 로버티"
-    ]
-  },
-  {
-    "app_id": "2233120",
-    "game_title": "A Quiet Place: The Road Ahead",
-    "steam_link": "https://store.steampowered.com/app/2233120",
-    "source_site_url": "https://hanpe.net/app/j0yv5x/a-quiet-place-the-road-ahead",
-    "patch_type": "user",
-    "patch_links": [
-      "0195368a"
-    ],
-    "patch_descriptions": [
-      "제작자 : 한무테"
     ]
   },
   {
@@ -28571,6 +28614,19 @@
     ]
   },
   {
+    "app_id": "2492670",
+    "game_title": "METAL GEAR SOLID 4: Guns of the Patriots - Master Collection Version",
+    "steam_link": "https://store.steampowered.com/app/2492670",
+    "source_site_url": "https://hanpe.net/app/4qwzy9/metal-gear-solid-4-guns-of-the-patriots-master-collection-version",
+    "patch_type": "user",
+    "patch_links": [
+      "5714283f"
+    ],
+    "patch_descriptions": [
+      "제작자 : AOS"
+    ]
+  },
+  {
     "app_id": "2494450",
     "game_title": "The Last Soldier of the Ming Dynasty",
     "steam_link": "https://store.steampowered.com/app/2494450",
@@ -29260,19 +29316,6 @@
     ],
     "patch_descriptions": [
       "제작자 : 한패모"
-    ]
-  },
-  {
-    "app_id": "2618840",
-    "game_title": "末世少女 Zombie Girl",
-    "steam_link": "https://store.steampowered.com/app/2618840",
-    "source_site_url": "https://hanpe.net/app/lkeryq/%E6%9C%AB%E4%B8%96%E5%B0%91%E5%A5%B3-zombie-girl",
-    "patch_type": "user",
-    "patch_links": [
-      "599673a7"
-    ],
-    "patch_descriptions": [
-      "제작자 : 한무테"
     ]
   },
   {
@@ -35058,6 +35101,19 @@
     ]
   },
   {
+    "app_id": "3782920",
+    "game_title": "記憶の鍵盤",
+    "steam_link": "https://store.steampowered.com/app/3782920",
+    "source_site_url": "https://hanpe.net/app/j5ggx8/%E8%A8%98%E6%86%B6%E3%81%AE%E9%8D%B5%E7%9B%A4",
+    "patch_type": "user",
+    "patch_links": [
+      "fa5dfc2f"
+    ],
+    "patch_descriptions": [
+      "제작자 : 정보없음"
+    ]
+  },
+  {
     "app_id": "3784760",
     "game_title": "Elfie: 코끼리랑 모래성이랑",
     "steam_link": "https://store.steampowered.com/app/3784760",
@@ -35668,6 +35724,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 양심적 인생거부자"
+    ]
+  },
+  {
+    "app_id": "4012810",
+    "game_title": "STEINS;GATE RE:BOOT",
+    "steam_link": "https://store.steampowered.com/app/4012810",
+    "source_site_url": "https://hanpe.net/app/4rq5r2/steinsgate-reboot",
+    "patch_type": "user",
+    "patch_links": [
+      "86fd1b08"
+    ],
+    "patch_descriptions": [
+      "제작자 : Levanus"
     ]
   },
   {

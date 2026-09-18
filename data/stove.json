@@ -1800,21 +1800,6 @@
     "stove_url": "https://store.onstove.com/ko/games/2677"
   },
   {
-    "app_id": "792040",
-    "stove_game_no": "3886",
-    "stove_product_no": "2036",
-    "game_title": "적인걸: 금장미 살인사건 (Detective Di: The Silk Rose Murders)",
-    "steam_link": "https://store.steampowered.com/app/792040",
-    "patch_type": "official",
-    "patch_links": [
-      "exist"
-    ],
-    "patch_descriptions": [
-      ""
-    ],
-    "stove_url": "https://store.onstove.com/ko/games/2036"
-  },
-  {
     "app_id": "2288210",
     "stove_game_no": "4133",
     "stove_product_no": "2180",
@@ -1828,6 +1813,21 @@
       ""
     ],
     "stove_url": "https://store.onstove.com/ko/games/2180"
+  },
+  {
+    "app_id": "792040",
+    "stove_game_no": "3886",
+    "stove_product_no": "2036",
+    "game_title": "적인걸: 금장미 살인사건 (Detective Di: The Silk Rose Murders)",
+    "steam_link": "https://store.steampowered.com/app/792040",
+    "patch_type": "official",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "stove_url": "https://store.onstove.com/ko/games/2036"
   },
   {
     "app_id": "1314770",
@@ -1935,6 +1935,21 @@
     "stove_url": "https://store.onstove.com/ko/games/2183"
   },
   {
+    "app_id": "2210630",
+    "stove_game_no": "4355",
+    "stove_product_no": "2274",
+    "game_title": "프리티 걸스 2048 스트라이크 (Pretty Girls 2048 Strike)",
+    "steam_link": "https://store.steampowered.com/app/2210630",
+    "patch_type": "official",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "stove_url": "https://store.onstove.com/ko/games/2274"
+  },
+  {
     "app_id": "2297230",
     "stove_game_no": "4360",
     "stove_product_no": "2279",
@@ -1993,21 +2008,6 @@
       ""
     ],
     "stove_url": "https://store.onstove.com/ko/games/2277"
-  },
-  {
-    "app_id": "2210630",
-    "stove_game_no": "4355",
-    "stove_product_no": "2274",
-    "game_title": "프리티 걸스 2048 스트라이크 (Pretty Girls 2048 Strike)",
-    "steam_link": "https://store.steampowered.com/app/2210630",
-    "patch_type": "official",
-    "patch_links": [
-      "exist"
-    ],
-    "patch_descriptions": [
-      ""
-    ],
-    "stove_url": "https://store.onstove.com/ko/games/2274"
   },
   {
     "app_id": "2144360",

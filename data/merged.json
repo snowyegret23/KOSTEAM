@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-09-16T23:30:13.405Z",
-    "total_with_steam_link": 3813,
+    "generated_at": "2026-09-18T22:59:23.596Z",
+    "total_with_steam_link": 3818,
     "total_without_steam_link": 9,
     "sources": [
       "steamapp",
@@ -364,69 +364,6 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/410710/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "1147030",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/1147030/The_Terrible_Old_Man/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - 치즈가이"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/1147030/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "613470",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/613470/The_Inner_World__The_Last_Wind_Monk/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - 휠맨"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/613470/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "4012810",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/4012810/STEINSGATE_REBOOT/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - Levanus"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/4012810/?curator_clanid=30894603"
       },
       "sources": [
         "quasarplay"
@@ -1273,6 +1210,27 @@
       ]
     },
     {
+      "app_id": "3749320",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/3749320/Hua_Manlou/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "한글 패치 - andrea"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/3749320/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "3908200",
       "game_title": "",
       "steam_link": "https://store.steampowered.com/app/3908200/3/",
@@ -1372,27 +1330,6 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/3232860/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "2492670",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/2492670/METAL_GEAR_SOLID_4_Guns_of_the_Patriots__Master_Collection_Version/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - AOS\n마스터북 한글 패치 - \n한글 패치 - 매갤러"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/2492670/?curator_clanid=30894603"
       },
       "sources": [
         "quasarplay"
@@ -14826,6 +14763,27 @@
       ]
     },
     {
+      "app_id": "2618840",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/2618840/_Zombie_Girl/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - 한무테 님"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/2618840/?curator_clanid=42788178"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "1363360",
       "game_title": "",
       "steam_link": "https://store.steampowered.com/app/1363360/Noch/",
@@ -15135,6 +15093,48 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/3278560/?curator_clanid=42788178"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2233120",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/2233120/A_Quiet_Place_The_Road_Ahead/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - gusrud6151 님"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/2233120/?curator_clanid=42788178"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "849100",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/849100/Alaskan_Road_Truckers/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "유저 한글 패치 - gusrud6151 님"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/849100/?curator_clanid=42788178"
       },
       "sources": [
         "quasarplay"
@@ -20394,32 +20394,6 @@
       ]
     },
     {
-      "app_id": "2233120",
-      "game_title": "A Quiet Place: The Road Ahead",
-      "steam_link": "https://store.steampowered.com/app/2233120",
-      "patch_type": "user",
-      "patch_links": [
-        "0195368a",
-        "exist"
-      ],
-      "patch_descriptions": [
-        "제작자 : 한무테",
-        "유저 한글 패치 - gusrud6151 님"
-      ],
-      "patch_sources": [
-        "steamapp",
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "steamapp": "https://hanpe.net/app/j0yv5x/a-quiet-place-the-road-ahead",
-        "quasarplay": "https://store.steampowered.com/app/2233120/?curator_clanid=42788178"
-      },
-      "sources": [
-        "steamapp",
-        "quasarplay"
-      ]
-    },
-    {
       "app_id": "1055540",
       "game_title": "A Short Hike",
       "steam_link": "https://store.steampowered.com/app/1055540",
@@ -21503,32 +21477,6 @@
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/lz0297/alan-wakes-american-nightmare",
         "quasarplay": "https://store.steampowered.com/app/202750/?curator_clanid=42788178"
-      },
-      "sources": [
-        "steamapp",
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "849100",
-      "game_title": "Alaskan Road Truckers",
-      "steam_link": "https://store.steampowered.com/app/849100",
-      "patch_type": "user",
-      "patch_links": [
-        "b8a18df6",
-        "exist"
-      ],
-      "patch_descriptions": [
-        "제작자 : 한무테",
-        "유저 한글 패치 - gusrud6151 님"
-      ],
-      "patch_sources": [
-        "steamapp",
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "steamapp": "https://hanpe.net/app/4ydpo6/alaskan-road-truckers",
-        "quasarplay": "https://store.steampowered.com/app/849100/?curator_clanid=42788178"
       },
       "sources": [
         "steamapp",
@@ -26867,13 +26815,16 @@
       "patch_type": "user",
       "patch_links": [
         "61cda297",
+        "7c07709d",
         "exist"
       ],
       "patch_descriptions": [
-        "제작자 : 한갤러 스팀 GOG 둘다 가능",
+        "제작자 : 한갤러 (v3) 스팀 GOG 둘다 가능",
+        "제작자 : 한갤러 (v4) 스팀 GOG 둘다 가능",
         "한글 패치 - 한갤러"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "quasarplay"
       ],
@@ -52117,6 +52068,53 @@
       ]
     },
     {
+      "app_id": "2131630",
+      "game_title": "METAL GEAR SOLID - Master Collection Version",
+      "steam_link": "https://store.steampowered.com/app/2131630",
+      "patch_type": "user",
+      "patch_links": [
+        "d1c54b86"
+      ],
+      "patch_descriptions": [
+        "제작자 : 메갤러"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/lx80d7/metal-gear-solid-master-collection-version"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "2492670",
+      "game_title": "METAL GEAR SOLID 4: Guns of the Patriots - Master Collection Version",
+      "steam_link": "https://store.steampowered.com/app/2492670",
+      "patch_type": "user",
+      "patch_links": [
+        "5714283f",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : AOS",
+        "한글 패치 - AOS\n마스터북 한글 패치 - \n한글 패치 - 매갤러"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4qwzy9/metal-gear-solid-4-guns-of-the-patriots-master-collection-version",
+        "quasarplay": "https://store.steampowered.com/app/2492670/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "287700",
       "game_title": "METAL GEAR SOLID V: THE PHANTOM PAIN",
       "steam_link": "https://store.steampowered.com/app/287700",
@@ -68021,6 +68019,27 @@
       ]
     },
     {
+      "app_id": "825630",
+      "game_title": "STEINS;GATE 0",
+      "steam_link": "https://store.steampowered.com/app/825630",
+      "patch_type": "user",
+      "patch_links": [
+        "8740f5ce"
+      ],
+      "patch_descriptions": [
+        "제작자 : GaTE;1315"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j8e372/steinsgate-0"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "819030",
       "game_title": "STEINS;GATE ELITE",
       "steam_link": "https://store.steampowered.com/app/819030",
@@ -68044,6 +68063,53 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "4012810",
+      "game_title": "STEINS;GATE RE:BOOT",
+      "steam_link": "https://store.steampowered.com/app/4012810",
+      "patch_type": "user",
+      "patch_links": [
+        "86fd1b08",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : Levanus",
+        "한글 패치 - Levanus"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4rq5r2/steinsgate-reboot",
+        "quasarplay": "https://store.steampowered.com/app/4012810/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "930910",
+      "game_title": "STEINS;GATE: Linear Bounded Phenogram",
+      "steam_link": "https://store.steampowered.com/app/930910",
+      "patch_type": "user",
+      "patch_links": [
+        "9ae05f0e"
+      ],
+      "patch_descriptions": [
+        "[ 크레딧 ] 프로젝트명: OPERATION 『에케작스』 대표: 1315 기술 지원: 5QS, RoKing, アロエ 이미지 수정: 1315, RoKing 번역 및 검수: 알트아이젠, Alvs, healget, Kampfer, KimPig 기타 도움을 주신 여러 참여자분들"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4ex8x1/steinsgate-linear-bounded-phenogram"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -69073,8 +69139,8 @@
       "steam_link": "https://store.steampowered.com/app/304650",
       "patch_type": "user",
       "patch_links": [
-        "256429ab",
-        "1dd5f553",
+        "6f9b7be3",
+        "29526c96",
         "exist"
       ],
       "patch_descriptions": [
@@ -73218,6 +73284,32 @@
       ]
     },
     {
+      "app_id": "613470",
+      "game_title": "The Inner World - The Last Wind Monk",
+      "steam_link": "https://store.steampowered.com/app/613470",
+      "patch_type": "user",
+      "patch_links": [
+        "bcb9c484",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 휠맨",
+        "한글 패치 - 휠맨"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l3kd9m/the-inner-world-the-last-wind-monk",
+        "quasarplay": "https://store.steampowered.com/app/613470/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "376210",
       "game_title": "The Isle",
       "steam_link": "https://store.steampowered.com/app/376210",
@@ -75319,6 +75411,32 @@
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/j5m59m/the-temple-of-elemental-evil",
         "quasarplay": "https://store.steampowered.com/app/3843520/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "1147030",
+      "game_title": "The Terrible Old Man",
+      "steam_link": "https://store.steampowered.com/app/1147030",
+      "patch_type": "user",
+      "patch_links": [
+        "7e189a3b",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 치즈가이",
+        "한글 패치 - 치즈가이"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l7dv0o/the-terrible-old-man",
+        "quasarplay": "https://store.steampowered.com/app/1147030/?curator_clanid=30894603"
       },
       "sources": [
         "steamapp",
@@ -83531,14 +83649,17 @@
       "patch_links": [
         "a917c7c2",
         "4d210ef5",
+        "665034ba",
         "exist"
       ],
       "patch_descriptions": [
         "제작자 : 정보없음",
         "제작: 루넨스님 폰트 변경 및 가독성 패치 v3",
+        "제작자 : 시즈카상 Credit 오리지널 Dead Space™ 3(데드 스페이스 3) 한국어 패치 by 루넨스 Visceral Toolkit by Greavesy DS3 Unpacker by Gibbed 문법 교정 도움 by Google Gemini",
         "한글 패치 - 시즈카상, 루넨스"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "steamapp",
         "quasarplay"
@@ -91379,32 +91500,6 @@
       ]
     },
     {
-      "app_id": "2618840",
-      "game_title": "末世少女 Zombie Girl",
-      "steam_link": "https://store.steampowered.com/app/2618840",
-      "patch_type": "user",
-      "patch_links": [
-        "599673a7",
-        "exist"
-      ],
-      "patch_descriptions": [
-        "제작자 : 한무테",
-        "유저 한글 패치 - 한무테 님"
-      ],
-      "patch_sources": [
-        "steamapp",
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "steamapp": "https://hanpe.net/app/lkeryq/%E6%9C%AB%E4%B8%96%E5%B0%91%E5%A5%B3-zombie-girl",
-        "quasarplay": "https://store.steampowered.com/app/2618840/?curator_clanid=42788178"
-      },
-      "sources": [
-        "steamapp",
-        "quasarplay"
-      ]
-    },
-    {
       "app_id": "2617400",
       "game_title": "极简塔防 - Minimalist Tower Defense",
       "steam_link": "https://store.steampowered.com/app/2617400",
@@ -92519,6 +92614,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "3782920",
+      "game_title": "記憶の鍵盤",
+      "steam_link": "https://store.steampowered.com/app/3782920",
+      "patch_type": "user",
+      "patch_links": [
+        "fa5dfc2f"
+      ],
+      "patch_descriptions": [
+        "제작자 : 정보없음"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j5ggx8/%E8%A8%98%E6%86%B6%E3%81%AE%E9%8D%B5%E7%9B%A4"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {

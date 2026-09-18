@@ -2,8 +2,8 @@
   "curator_id": 30894603,
   "curator_name": "Curator #30894603",
   "curator_url": "https://store.steampowered.com/curator/30894603/",
-  "total_games": 1262,
-  "exported_at": "2026-09-16T23:29:58.391732",
+  "total_games": 1263,
+  "exported_at": "2026-09-18T22:59:08.617390",
   "games": [
     {
       "appid": "4920100",
@@ -622,6 +622,15 @@
       "url": "https://store.steampowered.com/app/1864690/Veterum/",
       "curator_url": "https://store.steampowered.com/app/1864690/?curator_clanid=30894603",
       "review": "한글 패치 - zhtjstod-cell",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "3749320",
+      "url": "https://store.steampowered.com/app/3749320/Hua_Manlou/",
+      "curator_url": "https://store.steampowered.com/app/3749320/?curator_clanid=30894603",
+      "review": "한글 패치 - andrea",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"

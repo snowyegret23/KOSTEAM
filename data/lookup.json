@@ -12664,13 +12664,16 @@
     ],
     "links": [
       "61cda297",
+      "7c07709d",
       "exist"
     ],
     "patch_descriptions": [
-      "제작자 : 한갤러 스팀 GOG 둘다 가능",
+      "제작자 : 한갤러 (v3) 스팀 GOG 둘다 가능",
+      "제작자 : 한갤러 (v4) 스팀 GOG 둘다 가능",
       "한글 패치 - 한갤러"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp",
       "quasarplay"
     ],
@@ -12887,8 +12890,8 @@
       "quasarplay"
     ],
     "links": [
-      "256429ab",
-      "1dd5f553",
+      "6f9b7be3",
+      "29526c96",
       "exist"
     ],
     "patch_descriptions": [
@@ -24880,18 +24883,23 @@
   "613470": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "bcb9c484",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 휠맨",
       "한글 패치 - 휠맨"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/l3kd9m/the-inner-world-the-last-wind-monk",
       "quasarplay": "https://store.steampowered.com/app/613470/?curator_clanid=30894603"
     }
   },
@@ -29130,6 +29138,24 @@
       "quasarplay": "https://store.steampowered.com/app/821880/?curator_clanid=42788178"
     }
   },
+  "825630": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "8740f5ce"
+    ],
+    "patch_descriptions": [
+      "제작자 : GaTE;1315"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j8e372/steinsgate-0"
+    }
+  },
   "828050": {
     "type": "user",
     "sources": [
@@ -29534,23 +29560,18 @@
   "849100": {
     "type": "user",
     "sources": [
-      "steamapp",
       "quasarplay"
     ],
     "links": [
-      "b8a18df6",
       "exist"
     ],
     "patch_descriptions": [
-      "제작자 : 한무테",
       "유저 한글 패치 - gusrud6151 님"
     ],
     "patch_sources": [
-      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
-      "steamapp": "https://hanpe.net/app/4ydpo6/alaskan-road-truckers",
       "quasarplay": "https://store.steampowered.com/app/849100/?curator_clanid=42788178"
     }
   },
@@ -31043,6 +31064,24 @@
       "steamapp": "https://hanpe.net/app/4yerx6/broken-lines",
       "quasarplay": "https://store.steampowered.com/app/926580/?curator_clanid=42788178",
       "stove": "https://store.onstove.com/ko/games/75"
+    }
+  },
+  "930910": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "9ae05f0e"
+    ],
+    "patch_descriptions": [
+      "[ 크레딧 ] 프로젝트명: OPERATION 『에케작스』 대표: 1315 기술 지원: 5QS, RoKing, アロエ 이미지 수정: 1315, RoKing 번역 및 검수: 알트아이젠, Alvs, healget, Kampfer, KimPig 기타 도움을 주신 여러 참여자분들"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4ex8x1/steinsgate-linear-bounded-phenogram"
     }
   },
   "933110": {
@@ -36129,18 +36168,23 @@
   "1147030": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "7e189a3b",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 치즈가이",
       "한글 패치 - 치즈가이"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/l7dv0o/the-terrible-old-man",
       "quasarplay": "https://store.steampowered.com/app/1147030/?curator_clanid=30894603"
     }
   },
@@ -38431,14 +38475,17 @@
     "links": [
       "a917c7c2",
       "4d210ef5",
+      "665034ba",
       "exist"
     ],
     "patch_descriptions": [
       "제작자 : 정보없음",
       "제작: 루넨스님 폰트 변경 및 가독성 패치 v3",
+      "제작자 : 시즈카상 Credit 오리지널 Dead Space™ 3(데드 스페이스 3) 한국어 패치 by 루넨스 Visceral Toolkit by Greavesy DS3 Unpacker by Gibbed 문법 교정 도움 by Google Gemini",
       "한글 패치 - 시즈카상, 루넨스"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp",
       "steamapp",
       "quasarplay"
@@ -54854,6 +54901,24 @@
       "quasarplay": "https://store.steampowered.com/app/2130460/?curator_clanid=42788178"
     }
   },
+  "2131630": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "d1c54b86"
+    ],
+    "patch_descriptions": [
+      "제작자 : 메갤러"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/lx80d7/metal-gear-solid-master-collection-version"
+    }
+  },
   "2131640": {
     "type": "user",
     "sources": [
@@ -56618,23 +56683,18 @@
   "2233120": {
     "type": "user",
     "sources": [
-      "steamapp",
       "quasarplay"
     ],
     "links": [
-      "0195368a",
       "exist"
     ],
     "patch_descriptions": [
-      "제작자 : 한무테",
       "유저 한글 패치 - gusrud6151 님"
     ],
     "patch_sources": [
-      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
-      "steamapp": "https://hanpe.net/app/j0yv5x/a-quiet-place-the-road-ahead",
       "quasarplay": "https://store.steampowered.com/app/2233120/?curator_clanid=42788178"
     }
   },
@@ -60747,18 +60807,23 @@
   "2492670": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "5714283f",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : AOS",
       "한글 패치 - AOS\n마스터북 한글 패치 - \n한글 패치 - 매갤러"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4qwzy9/metal-gear-solid-4-guns-of-the-patriots-master-collection-version",
       "quasarplay": "https://store.steampowered.com/app/2492670/?curator_clanid=30894603"
     }
   },
@@ -62691,23 +62756,18 @@
   "2618840": {
     "type": "user",
     "sources": [
-      "steamapp",
       "quasarplay"
     ],
     "links": [
-      "599673a7",
       "exist"
     ],
     "patch_descriptions": [
-      "제작자 : 한무테",
       "유저 한글 패치 - 한무테 님"
     ],
     "patch_sources": [
-      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
-      "steamapp": "https://hanpe.net/app/lkeryq/%E6%9C%AB%E4%B8%96%E5%B0%91%E5%A5%B3-zombie-girl",
       "quasarplay": "https://store.steampowered.com/app/2618840/?curator_clanid=42788178"
     }
   },
@@ -77345,6 +77405,24 @@
       "quasarplay": "https://store.steampowered.com/app/3740360/?curator_clanid=30894603"
     }
   },
+  "3749320": {
+    "type": "user",
+    "sources": [
+      "quasarplay"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "한글 패치 - andrea"
+    ],
+    "patch_sources": [
+      "quasarplay"
+    ],
+    "source_site_urls": {
+      "quasarplay": "https://store.steampowered.com/app/3749320/?curator_clanid=30894603"
+    }
+  },
   "3751730": {
     "type": "user",
     "sources": [
@@ -77471,6 +77549,24 @@
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/jw7z3n/%E3%82%AA%E3%83%90%E3%82%B1%E3%83%A4%E3%82%B7%E3%82%AD",
       "quasarplay": "https://store.steampowered.com/app/3776410/?curator_clanid=30894603"
+    }
+  },
+  "3782920": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "fa5dfc2f"
+    ],
+    "patch_descriptions": [
+      "제작자 : 정보없음"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j5ggx8/%E8%A8%98%E6%86%B6%E3%81%AE%E9%8D%B5%E7%9B%A4"
     }
   },
   "3784760": {
@@ -79076,18 +79172,23 @@
   "4012810": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "86fd1b08",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : Levanus",
       "한글 패치 - Levanus"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4rq5r2/steinsgate-reboot",
       "quasarplay": "https://store.steampowered.com/app/4012810/?curator_clanid=30894603"
     }
   },
@@ -81669,7 +81770,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-09-16T23:30:13.405Z",
-    "total": 3813
+    "generated_at": "2026-09-18T22:59:23.596Z",
+    "total": 3818
   }
 }
