@@ -10413,12 +10413,14 @@
     "source_site_url": "https://hanpe.net/app/lzk189/narcissu-10th-anniversary-anthology-project",
     "patch_type": "user",
     "patch_links": [
-      "64819d9c",
-      "ff9ea9ea"
+      "6cbe0182",
+      "a105f8fe",
+      "7700e4fc"
     ],
     "patch_descriptions": [
       "히메코 에필로그 한글화 번역 - 신군, 어둠의츠무기단, sezI, 시라이시 공무점 검수 - 어둠의츠무기단, sezI 이미지 - 시라이시 공무점 시스템 - 시라이시 공무점, 어둠의츠무기단",
-      "외전 -작은 이리스- 한글화 번역 - 신군, 어둠의츠무기단, sezI, 시라이시 공무점 검수 - 어둠의츠무기단, sezI 이미지 - 시라이시 공무점 시스템 - 시라이시 공무점, 어둠의츠무기단"
+      "외전 -작은 이리스- 한글화 번역 - 신군, 어둠의츠무기단, sezI, 시라이시 공무점 검수 - 어둠의츠무기단, sezI 이미지 - 시라이시 공무점 시스템 - 시라이시 공무점, 어둠의츠무기단",
+      "나르키소스 0 -ZERO- 의 한국어화 패치 접속을 위해 VPN 필요 번역 - 신군, 어둠의츠무기단, sezI, 시라이시 공무점 검수 - 어둠의츠무기단, sezI, 시라이시 공무점 이미지 - 시라이시 공무점 시스템 - 시라이시 공무점, ANON, 어둠의츠무기단"
     ]
   },
   {
@@ -11683,6 +11685,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 정보없음"
+    ]
+  },
+  {
+    "app_id": "501990",
+    "game_title": "Phantasmagoria",
+    "steam_link": "https://store.steampowered.com/app/501990",
+    "source_site_url": "https://hanpe.net/app/4yd392/phantasmagoria",
+    "patch_type": "user",
+    "patch_links": [
+      "ced17363"
+    ],
+    "patch_descriptions": [
+      "제작자 : 잭더윌로"
     ]
   },
   {
@@ -14426,17 +14441,17 @@
     "patch_type": "user",
     "patch_links": [
       "776edf96",
-      "31527e77",
       "38b79510",
       "273a6190",
-      "447a85e9"
+      "447a85e9",
+      "31527e77"
     ],
     "patch_descriptions": [
       "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : 뮤갤러",
-      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 폰트 개선 패치",
       "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : 뉴비분쇄기",
       "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : 마린돌프",
-      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : Neptunium 고양이 이름 음역 패치"
+      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : Neptunium 고양이 이름 음역 패치",
+      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 폰트 개선 패치"
     ]
   },
   {
@@ -16926,10 +16941,12 @@
     "source_site_url": "https://hanpe.net/app/4g9729/china-maos-legacy",
     "patch_type": "user",
     "patch_links": [
-      "b5522faf"
+      "b5522faf",
+      "89d48f3a"
     ],
     "patch_descriptions": [
-      "제작자 : 새천년 번역 도움 : 흐루쇼프"
+      "제작자 : 새천년 번역 도움 : 흐루쇼프",
+      "제작자 : 흐루쇼프의꽉쥔주먹"
     ]
   },
   {
@@ -24378,6 +24395,19 @@
     ]
   },
   {
+    "app_id": "1789030",
+    "game_title": "Maid Cafe on Electric Street",
+    "steam_link": "https://store.steampowered.com/app/1789030",
+    "source_site_url": "https://hanpe.net/app/j8gdyz/maid-cafe-on-electric-street",
+    "patch_type": "user",
+    "patch_links": [
+      "c11528ec"
+    ],
+    "patch_descriptions": [
+      "제작자 : 레트로겜보이"
+    ]
+  },
+  {
     "app_id": "1791910",
     "game_title": "Silent Rain",
     "steam_link": "https://store.steampowered.com/app/1791910",
@@ -26421,6 +26451,19 @@
     ],
     "patch_descriptions": [
       "제작자 : Ospaggi 데모 버전 한글화"
+    ]
+  },
+  {
+    "app_id": "2116120",
+    "game_title": "Incursion Red River",
+    "steam_link": "https://store.steampowered.com/app/2116120",
+    "source_site_url": "https://hanpe.net/app/lz390o/incursion-red-river",
+    "patch_type": "user",
+    "patch_links": [
+      "231462df"
+    ],
+    "patch_descriptions": [
+      "제작자 : 정보없음"
     ]
   },
   {
@@ -28521,6 +28564,19 @@
     ]
   },
   {
+    "app_id": "2478970",
+    "game_title": "Tomb Raider I-III Remastered Starring Lara Croft",
+    "steam_link": "https://store.steampowered.com/app/2478970",
+    "source_site_url": "https://hanpe.net/app/j927o6/tomb-raider-i-iii-remastered-starring-lara-croft",
+    "patch_type": "user",
+    "patch_links": [
+      "5610540c"
+    ],
+    "patch_descriptions": [
+      "제작자 :노말리토"
+    ]
+  },
+  {
     "app_id": "2479740",
     "game_title": "Pieces of me",
     "steam_link": "https://store.steampowered.com/app/2479740",
@@ -28881,6 +28937,19 @@
     "patch_descriptions": [
       "제작자 : 거대토깽",
       "백업용"
+    ]
+  },
+  {
+    "app_id": "2527160",
+    "game_title": "Desktop Explorer",
+    "steam_link": "https://store.steampowered.com/app/2527160",
+    "source_site_url": "https://hanpe.net/app/411oe5/desktop-explorer",
+    "patch_type": "user",
+    "patch_links": [
+      "f207dbb7"
+    ],
+    "patch_descriptions": [
+      "제작자 : FourDragonGun"
     ]
   },
   {
@@ -35127,6 +35196,19 @@
     ]
   },
   {
+    "app_id": "3788590",
+    "game_title": "Sign: Broken Kether",
+    "steam_link": "https://store.steampowered.com/app/3788590",
+    "source_site_url": "https://hanpe.net/app/j9mzx6/sign-broken-kether",
+    "patch_type": "user",
+    "patch_links": [
+      "47a07133"
+    ],
+    "patch_descriptions": [
+      "데모판 한글화 제작자 : 마히히"
+    ]
+  },
+  {
     "app_id": "3793580",
     "game_title": "MAHOUTEQ!",
     "steam_link": "https://store.steampowered.com/app/3793580",
@@ -35829,11 +35911,13 @@
     "patch_type": "user",
     "patch_links": [
       "c7251734",
-      "7070b09c"
+      "7070b09c",
+      "a2d6b849"
     ],
     "patch_descriptions": [
       "제작자: killterm",
-      "제작자 : 왱알앵알 macOS 용 패치"
+      "제작자 : 왱알앵알 macOS 용 패치",
+      "제작자 : 탄산"
     ]
   },
   {
@@ -36869,6 +36953,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 파미도 파일은 댓글 참조"
+    ]
+  },
+  {
+    "app_id": "5044770",
+    "game_title": "The Death Game Report",
+    "steam_link": "https://store.steampowered.com/app/5044770",
+    "source_site_url": "https://hanpe.net/app/jvwzz7/the-death-game-report",
+    "patch_type": "user",
+    "patch_links": [
+      "e5a2d166"
+    ],
+    "patch_descriptions": [
+      "제작자 : 사에"
     ]
   }
 ]

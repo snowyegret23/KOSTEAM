@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-09-18T22:59:23.596Z",
-    "total_with_steam_link": 3818,
+    "generated_at": "2026-09-20T22:55:15.856Z",
+    "total_with_steam_link": 3821,
     "total_without_steam_link": 9,
     "sources": [
       "steamapp",
@@ -406,27 +406,6 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/4696490/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "2527160",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/2527160/Desktop_Explorer/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - UseGun"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/2527160/?curator_clanid=30894603"
       },
       "sources": [
         "quasarplay"
@@ -2443,48 +2422,6 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/18470/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "501990",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/501990/Phantasmagoria/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - 레트로벤처"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/501990/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "2478970",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/2478970/Tomb_Raider_IIII_Remastered_Starring_Lara_Croft/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - 노말리토"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/2478970/?curator_clanid=30894603"
       },
       "sources": [
         "quasarplay"
@@ -12108,27 +12045,6 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/2064810/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "2116120",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/2116120/Incursion_Red_River/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "유저 한글 패치 - 한무테"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/2116120/?curator_clanid=30894603"
       },
       "sources": [
         "quasarplay"
@@ -29376,13 +29292,16 @@
       "patch_type": "user",
       "patch_links": [
         "b5522faf",
+        "89d48f3a",
         "exist"
       ],
       "patch_descriptions": [
         "제작자 : 새천년 번역 도움 : 흐루쇼프",
+        "제작자 : 흐루쇼프의꽉쥔주먹",
         "한글 패치 - 흐루쇼프의꽉쥔주먹\n한글 패치 - 새천년, 흐루쇼프"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "quasarplay"
       ],
@@ -33240,6 +33159,32 @@
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/4orggx/deponia-the-complete-journey",
         "quasarplay": "https://store.steampowered.com/app/292910/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2527160",
+      "game_title": "Desktop Explorer",
+      "steam_link": "https://store.steampowered.com/app/2527160",
+      "patch_type": "user",
+      "patch_links": [
+        "f207dbb7",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : FourDragonGun",
+        "한글 패치 - UseGun"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/411oe5/desktop-explorer",
+        "quasarplay": "https://store.steampowered.com/app/2527160/?curator_clanid=30894603"
       },
       "sources": [
         "steamapp",
@@ -45647,6 +45592,32 @@
       ]
     },
     {
+      "app_id": "2116120",
+      "game_title": "Incursion Red River",
+      "steam_link": "https://store.steampowered.com/app/2116120",
+      "patch_type": "user",
+      "patch_links": [
+        "231462df",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 정보없음",
+        "유저 한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/lz390o/incursion-red-river",
+        "quasarplay": "https://store.steampowered.com/app/2116120/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "2504480",
       "game_title": "Indigo Park: Chapter 1",
       "steam_link": "https://store.steampowered.com/app/2504480",
@@ -50905,6 +50876,27 @@
       ]
     },
     {
+      "app_id": "1789030",
+      "game_title": "Maid Cafe on Electric Street",
+      "steam_link": "https://store.steampowered.com/app/1789030",
+      "patch_type": "user",
+      "patch_links": [
+        "c11528ec"
+      ],
+      "patch_descriptions": [
+        "제작자 : 레트로겜보이"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j8gdyz/maid-cafe-on-electric-street"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "714800",
       "game_title": "Maitetsu",
       "steam_link": "https://store.steampowered.com/app/714800",
@@ -52215,18 +52207,18 @@
       "patch_type": "user",
       "patch_links": [
         "776edf96",
-        "31527e77",
         "38b79510",
         "273a6190",
         "447a85e9",
+        "31527e77",
         "exist"
       ],
       "patch_descriptions": [
         "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : 뮤갤러",
-        "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 폰트 개선 패치",
         "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : 뉴비분쇄기",
         "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : 마린돌프",
         "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : Neptunium 고양이 이름 음역 패치",
+        "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 폰트 개선 패치",
         "한글 패치 - 뉴비분쇄기\n한글 패치 - 마린돌프\n폰트 변경 패치 - 사왈이"
       ],
       "patch_sources": [
@@ -54315,14 +54307,17 @@
       "steam_link": "https://store.steampowered.com/app/426690",
       "patch_type": "user",
       "patch_links": [
-        "64819d9c",
-        "ff9ea9ea"
+        "6cbe0182",
+        "a105f8fe",
+        "7700e4fc"
       ],
       "patch_descriptions": [
         "히메코 에필로그 한글화 번역 - 신군, 어둠의츠무기단, sezI, 시라이시 공무점 검수 - 어둠의츠무기단, sezI 이미지 - 시라이시 공무점 시스템 - 시라이시 공무점, 어둠의츠무기단",
-        "외전 -작은 이리스- 한글화 번역 - 신군, 어둠의츠무기단, sezI, 시라이시 공무점 검수 - 어둠의츠무기단, sezI 이미지 - 시라이시 공무점 시스템 - 시라이시 공무점, 어둠의츠무기단"
+        "외전 -작은 이리스- 한글화 번역 - 신군, 어둠의츠무기단, sezI, 시라이시 공무점 검수 - 어둠의츠무기단, sezI 이미지 - 시라이시 공무점 시스템 - 시라이시 공무점, 어둠의츠무기단",
+        "나르키소스 0 -ZERO- 의 한국어화 패치 접속을 위해 VPN 필요 번역 - 신군, 어둠의츠무기단, sezI, 시라이시 공무점 검수 - 어둠의츠무기단, sezI, 시라이시 공무점 이미지 - 시라이시 공무점 시스템 - 시라이시 공무점, ANON, 어둠의츠무기단"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "steamapp"
       ],
@@ -58065,6 +58060,32 @@
       },
       "sources": [
         "steamapp"
+      ]
+    },
+    {
+      "app_id": "501990",
+      "game_title": "Phantasmagoria",
+      "steam_link": "https://store.steampowered.com/app/501990",
+      "patch_type": "user",
+      "patch_links": [
+        "ced17363",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 잭더윌로",
+        "한글 패치 - 레트로벤처"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4yd392/phantasmagoria",
+        "quasarplay": "https://store.steampowered.com/app/501990/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
       ]
     },
     {
@@ -65029,6 +65050,27 @@
       ]
     },
     {
+      "app_id": "3788590",
+      "game_title": "Sign: Broken Kether",
+      "steam_link": "https://store.steampowered.com/app/3788590",
+      "patch_type": "user",
+      "patch_links": [
+        "47a07133"
+      ],
+      "patch_descriptions": [
+        "데모판 한글화 제작자 : 마히히"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j9mzx6/sign-broken-kether"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "19000",
       "game_title": "Silent Hill Homecoming",
       "steam_link": "https://store.steampowered.com/app/19000",
@@ -71858,6 +71900,27 @@
       ]
     },
     {
+      "app_id": "5044770",
+      "game_title": "The Death Game Report",
+      "steam_link": "https://store.steampowered.com/app/5044770",
+      "patch_type": "user",
+      "patch_links": [
+        "e5a2d166"
+      ],
+      "patch_descriptions": [
+        "제작자 : 사에"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jvwzz7/the-death-game-report"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "420740",
       "game_title": "The Deed",
       "steam_link": "https://store.steampowered.com/app/420740",
@@ -74139,14 +74202,17 @@
       "patch_links": [
         "c7251734",
         "7070b09c",
+        "a2d6b849",
         "exist"
       ],
       "patch_descriptions": [
         "제작자: killterm",
         "제작자 : 왱알앵알 macOS 용 패치",
+        "제작자 : 탄산",
         "한글 패치 - killterm, 왱알앵알\n한글 패치 - 탄산"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "steamapp",
         "quasarplay"
@@ -77069,6 +77135,32 @@
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/jwy8z7/tom-clancys-ghost-recon-future-soldiertm",
         "quasarplay": "https://store.steampowered.com/app/212630/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2478970",
+      "game_title": "Tomb Raider I-III Remastered Starring Lara Croft",
+      "steam_link": "https://store.steampowered.com/app/2478970",
+      "patch_type": "user",
+      "patch_links": [
+        "5610540c",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 :노말리토",
+        "한글 패치 - 노말리토"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j927o6/tomb-raider-i-iii-remastered-starring-lara-croft",
+        "quasarplay": "https://store.steampowered.com/app/2478970/?curator_clanid=30894603"
       },
       "sources": [
         "steamapp",
