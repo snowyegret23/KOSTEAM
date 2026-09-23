@@ -2,8 +2,8 @@
   "curator_id": 30894603,
   "curator_name": "Curator #30894603",
   "curator_url": "https://store.steampowered.com/curator/30894603/",
-  "total_games": 1263,
-  "exported_at": "2026-09-20T22:55:02.324511",
+  "total_games": 1264,
+  "exported_at": "2026-09-23T23:24:54.017065",
   "games": [
     {
       "appid": "4920100",
@@ -10396,6 +10396,15 @@
       "url": "https://store.steampowered.com/app/1723780/Finnish_Cottage_Simulator/",
       "curator_url": "https://store.steampowered.com/app/1723780/?curator_clanid=30894603",
       "review": "유저 한글 패치 - 한무테",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "3020510",
+      "url": "https://store.steampowered.com/app/3020510/Heroes_Vow_Three_Kingdoms/",
+      "curator_url": "https://store.steampowered.com/app/3020510/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - 짬라이거",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"

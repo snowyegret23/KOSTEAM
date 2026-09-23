@@ -68854,19 +68854,24 @@
   "3020510": {
     "type": "user",
     "sources": [
-      "steamapp"
+      "steamapp",
+      "quasarplay"
     ],
     "links": [
-      "7e5084b9"
+      "7e5084b9",
+      "exist"
     ],
     "patch_descriptions": [
-      "제작자 : 짬라이거"
+      "제작자 : 짬라이거",
+      "유저 한글 패치 - 짬라이거"
     ],
     "patch_sources": [
-      "steamapp"
+      "steamapp",
+      "quasarplay"
     ],
     "source_site_urls": {
-      "steamapp": "https://hanpe.net/app/lxkwqy/heroes-vow-three-kingdoms"
+      "steamapp": "https://hanpe.net/app/lxkwqy/heroes-vow-three-kingdoms",
+      "quasarplay": "https://store.steampowered.com/app/3020510/?curator_clanid=30894603"
     }
   },
   "3021630": {
@@ -81853,7 +81858,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-09-20T22:55:15.856Z",
+    "generated_at": "2026-09-23T23:25:08.419Z",
     "total": 3821
   }
 }

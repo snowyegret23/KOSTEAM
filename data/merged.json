@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-09-20T22:55:15.856Z",
+    "generated_at": "2026-09-23T23:25:08.419Z",
     "total_with_steam_link": 3821,
-    "total_without_steam_link": 9,
+    "total_without_steam_link": 11,
     "sources": [
       "steamapp",
       "quasarzone",
@@ -43125,19 +43125,24 @@
       "steam_link": "https://store.steampowered.com/app/3020510",
       "patch_type": "user",
       "patch_links": [
-        "7e5084b9"
+        "7e5084b9",
+        "exist"
       ],
       "patch_descriptions": [
-        "제작자 : 짬라이거"
+        "제작자 : 짬라이거",
+        "유저 한글 패치 - 짬라이거"
       ],
       "patch_sources": [
-        "steamapp"
+        "steamapp",
+        "quasarplay"
       ],
       "source_site_urls": {
-        "steamapp": "https://hanpe.net/app/lxkwqy/heroes-vow-three-kingdoms"
+        "steamapp": "https://hanpe.net/app/lxkwqy/heroes-vow-three-kingdoms",
+        "quasarplay": "https://store.steampowered.com/app/3020510/?curator_clanid=30894603"
       },
       "sources": [
-        "steamapp"
+        "steamapp",
+        "quasarplay"
       ]
     },
     {
@@ -93426,6 +93431,25 @@
       ]
     },
     {
+      "game_title": "리:프레시 (Re:Fresh)",
+      "patch_type": "official",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        ""
+      ],
+      "patch_sources": [
+        "stove"
+      ],
+      "source_site_urls": {
+        "stove": "https://store.onstove.com/ko/games/104254"
+      },
+      "sources": [
+        "stove"
+      ]
+    },
+    {
       "game_title": "빅터 브란 오버킬 에디션",
       "patch_type": "official",
       "patch_links": [
@@ -93480,6 +93504,25 @@
       },
       "sources": [
         "stove"
+      ]
+    },
+    {
+      "game_title": "플루토",
+      "patch_type": "official",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        ""
+      ],
+      "patch_sources": [
+        "directg"
+      ],
+      "source_site_urls": {
+        "directg": "https://www.directg.net/game/game_view.html?product_id=32596753-9c88-451b-8787-9e66bd443373&sku=b2597ff1-ef26-41fb-9734-a34ec2240762&platform=1"
+      },
+      "sources": [
+        "directg"
       ]
     },
     {

@@ -1,5 +1,18 @@
 [
   {
+    "app_id": null,
+    "game_title": "플루토",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "directg_url": "https://www.directg.net/game/game_view.html?product_id=32596753-9c88-451b-8787-9e66bd443373&sku=b2597ff1-ef26-41fb-9734-a34ec2240762&platform=1"
+  },
+  {
     "app_id": "817540",
     "game_title": "스펠포스 3: 소울 하베스트",
     "steam_link": "https://store.steampowered.com/app/817540",
