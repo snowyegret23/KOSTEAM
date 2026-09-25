@@ -1965,21 +1965,6 @@
     "stove_url": "https://store.onstove.com/ko/games/2274"
   },
   {
-    "app_id": "2297230",
-    "stove_game_no": "4360",
-    "stove_product_no": "2279",
-    "game_title": "세트리스(SETTRIS)",
-    "steam_link": "https://store.steampowered.com/app/2297230",
-    "patch_type": "official",
-    "patch_links": [
-      "exist"
-    ],
-    "patch_descriptions": [
-      ""
-    ],
-    "stove_url": "https://store.onstove.com/ko/games/2279"
-  },
-  {
     "app_id": "2077950",
     "stove_game_no": "4356",
     "stove_product_no": "2275",
@@ -2038,6 +2023,21 @@
       ""
     ],
     "stove_url": "https://store.onstove.com/ko/games/2278"
+  },
+  {
+    "app_id": "2297230",
+    "stove_game_no": "4360",
+    "stove_product_no": "2279",
+    "game_title": "세트리스(SETTRIS)",
+    "steam_link": "https://store.steampowered.com/app/2297230",
+    "patch_type": "official",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "stove_url": "https://store.onstove.com/ko/games/2279"
   },
   {
     "app_id": "707030",
@@ -2910,21 +2910,6 @@
     "stove_url": "https://store.onstove.com/ko/games/1035"
   },
   {
-    "app_id": "1233540",
-    "stove_game_no": "2281",
-    "stove_product_no": "1050",
-    "game_title": "버디의 엄마와 아빠가 만났을 때 - 직소 퍼즐 이야기",
-    "steam_link": "https://store.steampowered.com/app/1233540",
-    "patch_type": "official",
-    "patch_links": [
-      "exist"
-    ],
-    "patch_descriptions": [
-      ""
-    ],
-    "stove_url": "https://store.onstove.com/ko/games/1050"
-  },
-  {
     "app_id": "1309130",
     "stove_game_no": "2282",
     "stove_product_no": "1051",
@@ -2938,6 +2923,21 @@
       ""
     ],
     "stove_url": "https://store.onstove.com/ko/games/1051"
+  },
+  {
+    "app_id": "1233540",
+    "stove_game_no": "2281",
+    "stove_product_no": "1050",
+    "game_title": "버디의 엄마와 아빠가 만났을 때 - 직소 퍼즐 이야기",
+    "steam_link": "https://store.steampowered.com/app/1233540",
+    "patch_type": "official",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "stove_url": "https://store.onstove.com/ko/games/1050"
   },
   {
     "app_id": null,
