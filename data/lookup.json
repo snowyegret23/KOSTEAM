@@ -57511,6 +57511,24 @@
       "stove": "https://store.onstove.com/ko/games/2279"
     }
   },
+  "2297650": {
+    "type": "official",
+    "sources": [
+      "stove"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "stove"
+    ],
+    "source_site_urls": {
+      "stove": "https://store.onstove.com/ko/games/104254"
+    }
+  },
   "2297690": {
     "type": "user",
     "sources": [
@@ -69301,6 +69319,24 @@
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/j8z9er/shantae-advance-risky-revolution",
       "quasarplay": "https://store.steampowered.com/app/3055950/?curator_clanid=30894603"
+    }
+  },
+  "3057670": {
+    "type": "official",
+    "sources": [
+      "directg"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "patch_sources": [
+      "directg"
+    ],
+    "source_site_urls": {
+      "directg": "https://www.directg.net/game/game_view.html?product_id=32596753-9c88-451b-8787-9e66bd443373&sku=b2597ff1-ef26-41fb-9734-a34ec2240762&platform=1"
     }
   },
   "3058630": {
@@ -81858,7 +81894,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-09-23T23:25:08.419Z",
-    "total": 3821
+    "generated_at": "2026-09-25T23:46:10.776Z",
+    "total": 3823
   }
 }

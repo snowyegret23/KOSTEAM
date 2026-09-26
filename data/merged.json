@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-09-23T23:25:08.419Z",
-    "total_with_steam_link": 3821,
-    "total_without_steam_link": 11,
+    "generated_at": "2026-09-25T23:46:10.776Z",
+    "total_with_steam_link": 3823,
+    "total_without_steam_link": 9,
     "sources": [
       "steamapp",
       "quasarzone",
@@ -13988,7 +13988,7 @@
     {
       "app_id": "3108510",
       "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/3108510/FlyKnight/",
+      "steam_link": "https://store.steampowered.com/app/3108510/FlyKnight_Enhanced_Edition/",
       "patch_type": "user",
       "patch_links": [
         "exist"
@@ -84151,6 +84151,27 @@
       ]
     },
     {
+      "app_id": "2297650",
+      "game_title": "리:프레시 (Re:Fresh)",
+      "steam_link": "https://store.steampowered.com/app/2297650",
+      "patch_type": "official",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        ""
+      ],
+      "patch_sources": [
+        "stove"
+      ],
+      "source_site_urls": {
+        "stove": "https://store.onstove.com/ko/games/104254"
+      },
+      "sources": [
+        "stove"
+      ]
+    },
+    {
       "app_id": "1277930",
       "game_title": "리들 조커 (Riddle Joker)",
       "steam_link": "https://store.steampowered.com/app/1277930",
@@ -88330,6 +88351,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "3057670",
+      "game_title": "플루토",
+      "steam_link": "https://store.steampowered.com/app/3057670",
+      "patch_type": "official",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        ""
+      ],
+      "patch_sources": [
+        "directg"
+      ],
+      "source_site_urls": {
+        "directg": "https://www.directg.net/game/game_view.html?product_id=32596753-9c88-451b-8787-9e66bd443373&sku=b2597ff1-ef26-41fb-9734-a34ec2240762&platform=1"
+      },
+      "sources": [
+        "directg"
       ]
     },
     {
@@ -93431,25 +93473,6 @@
       ]
     },
     {
-      "game_title": "리:프레시 (Re:Fresh)",
-      "patch_type": "official",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        ""
-      ],
-      "patch_sources": [
-        "stove"
-      ],
-      "source_site_urls": {
-        "stove": "https://store.onstove.com/ko/games/104254"
-      },
-      "sources": [
-        "stove"
-      ]
-    },
-    {
       "game_title": "빅터 브란 오버킬 에디션",
       "patch_type": "official",
       "patch_links": [
@@ -93504,25 +93527,6 @@
       },
       "sources": [
         "stove"
-      ]
-    },
-    {
-      "game_title": "플루토",
-      "patch_type": "official",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        ""
-      ],
-      "patch_sources": [
-        "directg"
-      ],
-      "source_site_urls": {
-        "directg": "https://www.directg.net/game/game_view.html?product_id=32596753-9c88-451b-8787-9e66bd443373&sku=b2597ff1-ef26-41fb-9734-a34ec2240762&platform=1"
-      },
-      "sources": [
-        "directg"
       ]
     },
     {
