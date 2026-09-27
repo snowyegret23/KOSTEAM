@@ -97,10 +97,12 @@
     "source_site_url": "https://hanpe.net/app/4g20n6/jagged-alliance-2-gold",
     "patch_type": "user",
     "patch_links": [
-      "37af47dc"
+      "37af47dc",
+      "d0239201"
     ],
     "patch_descriptions": [
-      "제작자 : 잔치1국수"
+      "제작자 : 잔치1국수",
+      "제작자 : 잔치1국"
     ]
   },
   {
@@ -708,6 +710,19 @@
     ],
     "patch_descriptions": [
       "리레님 제작"
+    ]
+  },
+  {
+    "app_id": "9710",
+    "game_title": "Desperados 2: Cooper's Revenge",
+    "steam_link": "https://store.steampowered.com/app/9710",
+    "source_site_url": "https://hanpe.net/app/4e6ywv/desperados-2-coopers-revenge",
+    "patch_type": "user",
+    "patch_links": [
+      "d41c3176"
+    ],
+    "patch_descriptions": [
+      "제작자 : 노말리토"
     ]
   },
   {
@@ -3789,6 +3804,19 @@
     ]
   },
   {
+    "app_id": "215930",
+    "game_title": "Jagged Alliance 2 - Wildfire",
+    "steam_link": "https://store.steampowered.com/app/215930",
+    "source_site_url": "https://hanpe.net/app/jmkm9d/jagged-alliance-2-wildfire",
+    "patch_type": "user",
+    "patch_links": [
+      "d0239201"
+    ],
+    "patch_descriptions": [
+      "제작자 : 잔치1국수"
+    ]
+  },
+  {
     "app_id": "216910",
     "game_title": "Of Orcs And Men",
     "steam_link": "https://store.steampowered.com/app/216910",
@@ -4060,6 +4088,19 @@
     "patch_links": [],
     "patch_descriptions": [
       "지역 제한"
+    ]
+  },
+  {
+    "app_id": "221680",
+    "game_title": "Rocksmith® 2014 Edition REMASTERED LEARN & PLAY",
+    "steam_link": "https://store.steampowered.com/app/221680",
+    "source_site_url": "https://hanpe.net/app/lx8vgz/rocksmith-2014-edition-remastered-learn-play",
+    "patch_type": "user",
+    "patch_links": [
+      "51766e6d"
+    ],
+    "patch_descriptions": [
+      "제작자 : 정보없음"
     ]
   },
   {
@@ -10776,6 +10817,19 @@
     ]
   },
   {
+    "app_id": "446390",
+    "game_title": "Onechanbara Z2: Chaos",
+    "steam_link": "https://store.steampowered.com/app/446390",
+    "source_site_url": "https://hanpe.net/app/j809v8/onechanbara-z2-chaos",
+    "patch_type": "user",
+    "patch_links": [
+      "37ca45aa"
+    ],
+    "patch_descriptions": [
+      "제작자 : 도미"
+    ]
+  },
+  {
     "app_id": "446800",
     "game_title": "Transport Fever",
     "steam_link": "https://store.steampowered.com/app/446800",
@@ -16117,6 +16171,19 @@
     ]
   },
   {
+    "app_id": "866400",
+    "game_title": "On The Western Front",
+    "steam_link": "https://store.steampowered.com/app/866400",
+    "source_site_url": "https://hanpe.net/app/419g85/on-the-western-front",
+    "patch_type": "user",
+    "patch_links": [
+      "9880b571"
+    ],
+    "patch_descriptions": [
+      "제작자 : GAI"
+    ]
+  },
+  {
     "app_id": "866570",
     "game_title": "System Shock 2: 25th Anniversary Remaster",
     "steam_link": "https://store.steampowered.com/app/866570",
@@ -17421,10 +17488,12 @@
     "source_site_url": "https://hanpe.net/app/46ny12/blacksad-under-the-skin",
     "patch_type": "user",
     "patch_links": [
-      "e65e3a9f"
+      "e65e3a9f",
+      "0cfb215a"
     ],
     "patch_descriptions": [
-      "제작자 : 하지만구"
+      "제작자 : 하지만구",
+      "제작자 : 도미"
     ]
   },
   {
@@ -25868,6 +25937,19 @@
     ]
   },
   {
+    "app_id": "2008100",
+    "game_title": "Rule the Waves 3",
+    "steam_link": "https://store.steampowered.com/app/2008100",
+    "source_site_url": "https://hanpe.net/app/4o6qxd/rule-the-waves-3",
+    "patch_type": "user",
+    "patch_links": [
+      "758ab2fe"
+    ],
+    "patch_descriptions": [
+      "제작자 : GAI"
+    ]
+  },
+  {
     "app_id": "2009620",
     "game_title": "Harvest Hunt",
     "steam_link": "https://store.steampowered.com/app/2009620",
@@ -26463,7 +26545,7 @@
       "231462df"
     ],
     "patch_descriptions": [
-      "제작자 : 정보없음"
+      "제작자 : s10th"
     ]
   },
   {
@@ -26542,9 +26624,11 @@
     "source_site_url": "https://hanpe.net/app/lx80d7/metal-gear-solid-master-collection-version",
     "patch_type": "user",
     "patch_links": [
-      "d1c54b86"
+      "d1c54b86",
+      "2db32299"
     ],
     "patch_descriptions": [
+      "제작자 : 메갤러",
       "제작자 : 메갤러"
     ]
   },
@@ -27158,6 +27242,19 @@
     ]
   },
   {
+    "app_id": "2229880",
+    "game_title": "Command & Conquer™ Tiberian Sun™ and Firestorm™",
+    "steam_link": "https://store.steampowered.com/app/2229880",
+    "source_site_url": "https://hanpe.net/app/4121g5/command-conquertm-tiberian-suntm-and-firestormtm",
+    "patch_type": "user",
+    "patch_links": [
+      "3dbdcc95"
+    ],
+    "patch_descriptions": [
+      "제작: 불바다님 배포: Red2.net"
+    ]
+  },
+  {
     "app_id": "2231450",
     "game_title": "Pizza Tower",
     "steam_link": "https://store.steampowered.com/app/2231450",
@@ -27341,6 +27438,19 @@
     "patch_descriptions": [
       "제작자 : 거대토깽",
       "백업용"
+    ]
+  },
+  {
+    "app_id": "2278630",
+    "game_title": "Livestream 2: Escape from Togaezuka Happy Place",
+    "steam_link": "https://store.steampowered.com/app/2278630",
+    "source_site_url": "https://hanpe.net/app/4g269g/livestream-2-escape-from-togaezuka-happy-place",
+    "patch_type": "user",
+    "patch_links": [
+      "33bceca0"
+    ],
+    "patch_descriptions": [
+      "제작자 : 도미"
     ]
   },
   {
@@ -28925,6 +29035,19 @@
     ]
   },
   {
+    "app_id": "2521380",
+    "game_title": "Legacy of Kain™ Soul Reaver 1&2 Remastered",
+    "steam_link": "https://store.steampowered.com/app/2521380",
+    "source_site_url": "https://hanpe.net/app/l386yo/legacy-of-kaintm-soul-reaver-12-remastered",
+    "patch_type": "user",
+    "patch_links": [
+      "efd01664"
+    ],
+    "patch_descriptions": [
+      "제작자 : devwock"
+    ]
+  },
+  {
     "app_id": "2526500",
     "game_title": "Caught On Camera",
     "steam_link": "https://store.steampowered.com/app/2526500",
@@ -29188,6 +29311,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 으잌"
+    ]
+  },
+  {
+    "app_id": "2585890",
+    "game_title": "Demon Tides",
+    "steam_link": "https://store.steampowered.com/app/2585890",
+    "source_site_url": "https://hanpe.net/app/46pw92/demon-tides",
+    "patch_type": "user",
+    "patch_links": [
+      "b620e540"
+    ],
+    "patch_descriptions": [
+      "제작자 : 정보없음"
     ]
   },
   {
@@ -30021,6 +30157,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 한무테"
+    ]
+  },
+  {
+    "app_id": "2734270",
+    "game_title": "Sector Unknown",
+    "steam_link": "https://store.steampowered.com/app/2734270",
+    "source_site_url": "https://hanpe.net/app/lzxrx1/sector-unknown",
+    "patch_type": "user",
+    "patch_links": [
+      "14a8f1d7"
+    ],
+    "patch_descriptions": [
+      "제작자 : 소나기"
     ]
   },
   {
@@ -32401,6 +32550,19 @@
     ]
   },
   {
+    "app_id": "3118910",
+    "game_title": "현실 잠식",
+    "steam_link": "https://store.steampowered.com/app/3118910",
+    "source_site_url": "https://hanpe.net/app/jweq2e/%ED%98%84%EC%8B%A4-%EC%9E%A0%EC%8B%9D",
+    "patch_type": "user",
+    "patch_links": [
+      "c9d68169"
+    ],
+    "patch_descriptions": [
+      "공식 한글 개선 패치 - 글자깨짐 수정 패치 제작자 : 김까까"
+    ]
+  },
+  {
     "app_id": "3130670",
     "game_title": "Senchu/線虫",
     "steam_link": "https://store.steampowered.com/app/3130670",
@@ -32664,6 +32826,19 @@
     ],
     "patch_descriptions": [
       "공식 한글 개선 패치 제작자 : 미인이많군요"
+    ]
+  },
+  {
+    "app_id": "3187290",
+    "game_title": "Winning Post 10 2025",
+    "steam_link": "https://store.steampowered.com/app/3187290",
+    "source_site_url": "https://hanpe.net/app/j53e33/winning-post-10-2025",
+    "patch_type": "user",
+    "patch_links": [
+      "13a8eda7"
+    ],
+    "patch_descriptions": [
+      "제작자 : GAI"
     ]
   },
   {
@@ -36644,6 +36819,19 @@
     ]
   },
   {
+    "app_id": "4487460",
+    "game_title": "광화 (狂花)",
+    "steam_link": "https://store.steampowered.com/app/4487460",
+    "source_site_url": "https://hanpe.net/app/4een5k/%EA%B4%91%ED%99%94-%E7%8B%82%E8%8A%B1",
+    "patch_type": "user",
+    "patch_links": [
+      "1f9e3216"
+    ],
+    "patch_descriptions": [
+      "공식 한글 개선 패치 제작자 : 김까까"
+    ]
+  },
+  {
     "app_id": "4488860",
     "game_title": "The Red Pearls Of Borneo",
     "steam_link": "https://store.steampowered.com/app/4488860",
@@ -36962,10 +37150,14 @@
     "source_site_url": "https://hanpe.net/app/jvwzz7/the-death-game-report",
     "patch_type": "user",
     "patch_links": [
-      "e5a2d166"
+      "e5a2d166",
+      "d79f8428",
+      "5acf81c3"
     ],
     "patch_descriptions": [
-      "제작자 : 사에"
+      "제작자 : 사에",
+      "제작자 : 시라네",
+      "제작자 : 코드치기싫음"
     ]
   }
 ]

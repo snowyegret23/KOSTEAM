@@ -163,13 +163,16 @@
     ],
     "links": [
       "37af47dc",
+      "d0239201",
       "exist"
     ],
     "patch_descriptions": [
       "제작자 : 잔치1국수",
+      "제작자 : 잔치1국",
       "한글 패치 - 잔치1국수"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp",
       "quasarplay"
     ],
@@ -1213,18 +1216,23 @@
   "9710": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "d41c3176",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 노말리토",
       "한글 패치 - 노말리토"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4e6ywv/desperados-2-coopers-revenge",
       "quasarplay": "https://store.steampowered.com/app/9710/?curator_clanid=30894603"
     }
   },
@@ -6700,18 +6708,23 @@
   "215930": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "d0239201",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 잔치1국수",
       "한글 패치 - 잔치1국수"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jmkm9d/jagged-alliance-2-wildfire",
       "quasarplay": "https://store.steampowered.com/app/215930/?curator_clanid=30894603"
     }
   },
@@ -7216,18 +7229,23 @@
   "221680": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "51766e6d",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 정보없음",
       "한글 패치 - ㅁㅁㅇ"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/lx8vgz/rocksmith-2014-edition-remastered-learn-play",
       "quasarplay": "https://store.steampowered.com/app/221680/?curator_clanid=30894603"
     }
   },
@@ -19610,6 +19628,24 @@
       "quasarplay": "https://store.steampowered.com/app/445220/?curator_clanid=42788178"
     }
   },
+  "446390": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "37ca45aa"
+    ],
+    "patch_descriptions": [
+      "제작자 : 도미"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j809v8/onechanbara-z2-chaos"
+    }
+  },
   "446800": {
     "type": "official",
     "sources": [
@@ -30018,18 +30054,23 @@
   "866400": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "9880b571",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : GAI",
       "한글 패치 - anjFhgkfRk"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/419g85/on-the-western-front",
       "quasarplay": "https://store.steampowered.com/app/866400/?curator_clanid=30894603"
     }
   },
@@ -32627,13 +32668,16 @@
     ],
     "links": [
       "e65e3a9f",
+      "0cfb215a",
       "exist"
     ],
     "patch_descriptions": [
       "제작자 : 하지만구",
+      "제작자 : 도미",
       "유저 한글 패치 - 하지만구"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp",
       "quasarplay"
     ],
@@ -53016,6 +53060,24 @@
       "quasarplay": "https://store.steampowered.com/app/2006140/?curator_clanid=42788178"
     }
   },
+  "2008100": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "758ab2fe"
+    ],
+    "patch_descriptions": [
+      "제작자 : GAI"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4o6qxd/rule-the-waves-3"
+    }
+  },
   "2009620": {
     "type": "user",
     "sources": [
@@ -54717,7 +54779,7 @@
       "exist"
     ],
     "patch_descriptions": [
-      "제작자 : 정보없음",
+      "제작자 : s10th",
       "유저 한글 패치 - 한무테"
     ],
     "patch_sources": [
@@ -54941,12 +55003,15 @@
       "steamapp"
     ],
     "links": [
-      "d1c54b86"
+      "d1c54b86",
+      "2db32299"
     ],
     "patch_descriptions": [
+      "제작자 : 메갤러",
       "제작자 : 메갤러"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp"
     ],
     "source_site_urls": {
@@ -56676,18 +56741,23 @@
   "2229880": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "3dbdcc95",
       "exist"
     ],
     "patch_descriptions": [
+      "제작: 불바다님 배포: Red2.net",
       "한글 패치"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4121g5/command-conquertm-tiberian-suntm-and-firestormtm",
       "quasarplay": "https://store.steampowered.com/app/2229880/?curator_clanid=30894603"
     }
   },
@@ -57183,18 +57253,23 @@
   "2278630": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "33bceca0",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 도미",
       "유저 한글 패치 - 한무테"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4g269g/livestream-2-escape-from-togaezuka-happy-place",
       "quasarplay": "https://store.steampowered.com/app/2278630/?curator_clanid=30894603"
     }
   },
@@ -61385,18 +61460,23 @@
   "2521380": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "efd01664",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : devwock",
       "한글 패치 - devwock"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/l386yo/legacy-of-kaintm-soul-reaver-12-remastered",
       "quasarplay": "https://store.steampowered.com/app/2521380/?curator_clanid=30894603"
     }
   },
@@ -62294,18 +62374,23 @@
   "2585890": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "b620e540",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 정보없음",
       "한글 패치"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/46pw92/demon-tides",
       "quasarplay": "https://store.steampowered.com/app/2585890/?curator_clanid=30894603"
     }
   },
@@ -64417,18 +64502,23 @@
   "2734270": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "14a8f1d7",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 소나기",
       "한글 패치 - 소나기\n한글 패치 - 한무테"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/lzxrx1/sector-unknown",
       "quasarplay": "https://store.steampowered.com/app/2734270/?curator_clanid=30894603"
     }
   },
@@ -70587,18 +70677,23 @@
   "3118910": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "c9d68169",
       "exist"
     ],
     "patch_descriptions": [
+      "공식 한글 개선 패치 - 글자깨짐 수정 패치 제작자 : 김까까",
       "한글 폰트 패치 - 김까까"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jweq2e/%ED%98%84%EC%8B%A4-%EC%9E%A0%EC%8B%9D",
       "quasarplay": "https://store.steampowered.com/app/3118910/?curator_clanid=30894603"
     }
   },
@@ -71319,6 +71414,24 @@
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/4erdy1/%E6%88%91%E6%89%93%E4%B8%8D%E8%BF%87%E6%BC%82%E4%BA%AE%E7%9A%84%E5%A5%B9%E4%BB%AC",
       "quasarplay": "https://store.steampowered.com/app/3185890/?curator_clanid=30894603"
+    }
+  },
+  "3187290": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "13a8eda7"
+    ],
+    "patch_descriptions": [
+      "제작자 : GAI"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j53e33/winning-post-10-2025"
     }
   },
   "3187770": {
@@ -81109,18 +81222,23 @@
   "4487460": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "1f9e3216",
       "exist"
     ],
     "patch_descriptions": [
+      "공식 한글 개선 패치 제작자 : 김까까",
       "한글 패치 - 김까까"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4een5k/%EA%B4%91%ED%99%94-%E7%8B%82%E8%8A%B1",
       "quasarplay": "https://store.steampowered.com/app/4487460/?curator_clanid=30894603"
     }
   },
@@ -81881,12 +81999,18 @@
       "steamapp"
     ],
     "links": [
-      "e5a2d166"
+      "e5a2d166",
+      "d79f8428",
+      "5acf81c3"
     ],
     "patch_descriptions": [
-      "제작자 : 사에"
+      "제작자 : 사에",
+      "제작자 : 시라네",
+      "제작자 : 코드치기싫음"
     ],
     "patch_sources": [
+      "steamapp",
+      "steamapp",
       "steamapp"
     ],
     "source_site_urls": {
@@ -81894,7 +82018,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-09-25T23:46:10.776Z",
-    "total": 3823
+    "generated_at": "2026-09-27T23:34:25.720Z",
+    "total": 3826
   }
 }
