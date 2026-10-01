@@ -4,21 +4,14 @@ function getLabelIds(value) {
         : [];
 }
 
-function hasRemoveText(control) {
-    const text = typeof control?.text === 'string' ? control.text.trim().toLowerCase() : '';
-    return ['remove', '삭제', '제거', '삭제하기'].includes(text);
-}
-
 /**
- * Recognizes the untitled cart action that labels itself together with its
- * owning item. This also covers items where Steam does not render an Add
- * control.
+ * Recognizes a cart action that labels itself together with its owning item.
  *
- * @param {{id?: string, labelledBy?: string, title?: string | null}} control
+ * @param {{id?: string, labelledBy?: string}} control
  * @param {(id: string) => boolean} [isContextId]
  * @returns {boolean}
  */
-export function isContextualRemoveControl(control, isContextId = () => true) {
+export function isContextualCartControl(control, isContextId = () => true) {
     if (!control || typeof isContextId !== 'function') return false;
 
     const id = typeof control.id === 'string' ? control.id.trim() : '';
@@ -27,17 +20,19 @@ export function isContextualRemoveControl(control, isContextId = () => true) {
     const labelIds = getLabelIds(control.labelledBy);
     if (!labelIds.includes(id)) return false;
 
-    const hasTitle = typeof control.title === 'string' && control.title.trim().length > 0;
-    if (hasTitle) return false;
-
     return labelIds.some(labelId => labelId !== id && isContextId(labelId));
+}
+
+export function isContextualRemoveControl(control, isContextId = () => true) {
+    const hasTitle = typeof control?.title === 'string' && control.title.trim().length > 0;
+    return !hasTitle && isContextualCartControl(control, isContextId);
 }
 
 /**
  * Identifies Steam's remove control from a two-control accessibility group.
  * Returns -1 when the relationship is incomplete or ambiguous.
  *
- * @param {{id?: string, labelledBy?: string, title?: string | null, text?: string}[]} controls
+ * @param {{id?: string, labelledBy?: string, title?: string | null, className?: string}[]} controls
  * @param {(id: string) => boolean} [isSharedContextId]
  * @returns {number}
  */
@@ -65,7 +60,11 @@ export function getRemoveControlIndex(controls, isSharedContextId = () => true) 
     if (hasTitle[0] !== hasTitle[1]) return hasTitle[0] ? 1 : 0;
     if (hasTitle[0]) return -1;
 
-    const isRemove = controls.map(hasRemoveText);
-    if (isRemove[0] === isRemove[1]) return -1;
-    return isRemove[0] ? 0 : 1;
+    const classes = controls.map(control => getLabelIds(control.className));
+    const addIndex = classes.findIndex(names => names.includes('_2qvlyUCwtTBUslo1Z7-RlG'));
+    const removeIndex = classes.findIndex(names => names.includes('_3YCgcpoCojlbS6DvkNsG2J'));
+    if (addIndex < 0 || removeIndex < 0 || addIndex === removeIndex) return -1;
+    if (classes[removeIndex].includes('_2qvlyUCwtTBUslo1Z7-RlG') ||
+        classes[addIndex].includes('_3YCgcpoCojlbS6DvkNsG2J')) return -1;
+    return removeIndex;
 }

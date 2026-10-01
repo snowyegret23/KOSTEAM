@@ -5,7 +5,7 @@
 
 import { sendMessage, storageGet, onStorageChanged, withRequestTimeout } from './shared/api.js';
 import { keySetsEqual, parseCartPrice, waitForKeySet, waitForObservedCondition } from './shared/cart_state.js';
-import { getRemoveControlIndex, isContextualRemoveControl } from './shared/cart-controls.js';
+import { getRemoveControlIndex, isContextualCartControl, isContextualRemoveControl } from './shared/cart-controls.js';
 import { mapCartEntries } from './shared/cart-mapping.js';
 import { getCartRecoveryPlan, getMissingCartItems } from './shared/cart-recovery.js';
 import { isValidCheckoutUrl } from './shared/url-validator.js';
@@ -221,8 +221,13 @@ import {
                 .filter(Boolean);
             if (new Set(appKeys).size !== 1) return false;
         }
-        if (!findRemoveButton(node)) return false;
-        return true;
+        if (getLineItemId(node)) return true;
+        return Array.from(node.querySelectorAll('[role="button"]')).some(control => (
+            isUsableControl(control) && isContextualCartControl({
+                id: control.id,
+                labelledBy: control.getAttribute('aria-labelledby')
+            }, contextId => isItemTitleContextId(node, contextId))
+        ));
     }
 
     function collectBySelectors(root) {
@@ -353,7 +358,7 @@ import {
                     id: control.id,
                     labelledBy: control.getAttribute('aria-labelledby'),
                     title: control.getAttribute('title'),
-                    text: control.textContent
+                    className: control.getAttribute('class')
                 })),
                 contextId => isItemTitleContextId(item, contextId)
             );

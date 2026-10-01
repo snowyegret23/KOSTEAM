@@ -61,21 +61,17 @@ test('fails closed when the title marker or group size is ambiguous', () => {
     ]), -1);
 });
 
-test('uses 1.6.3 removal labels only when both related actions lack titles', () => {
-    for (const [addText, removeText] of [['추가', '제거'], ['Add', 'Remove'], ['추가', '삭제하기']]) {
-        const controls = [
-            { id: 'add-id', labelledBy: 'add-id product-id', title: null, text: addText },
-            { id: 'remove-id', labelledBy: 'remove-id product-id', title: null, text: removeText }
-        ];
-        assert.equal(getRemoveControlIndex(controls), 1);
-        assert.equal(getRemoveControlIndex([...controls].reverse()), 0);
-        assert.equal(getRemoveControlIndex(controls, id => id === 'unrelated-product'), -1);
-        assert.equal(getRemoveControlIndex(controls.map(control => ({ ...control, title: 'hint' }))), -1);
-    }
-    for (const text of ['Add', 'Remove Game', 'Remove Game from wishlist', '']) {
-        assert.equal(getRemoveControlIndex([
-            { id: 'first-id', labelledBy: 'first-id product-id', title: null, text },
-            { id: 'second-id', labelledBy: 'second-id product-id', title: null, text }
-        ]), -1);
-    }
+test('untitled actions use Steam control markers independent of wording and order', () => {
+    const controls = [
+        { id: 'add-id', labelledBy: 'add-id product-id', title: null, className: '_2qvlyUCwtTBUslo1Z7-RlG Panel' },
+        { id: 'remove-id', labelledBy: 'remove-id product-id', title: null, className: '_3YCgcpoCojlbS6DvkNsG2J Panel' }
+    ];
+    assert.equal(getRemoveControlIndex(controls), 1);
+    assert.equal(getRemoveControlIndex([...controls].reverse()), 0);
+    assert.equal(getRemoveControlIndex(controls, id => id === 'unrelated-product'), -1);
+    assert.equal(getRemoveControlIndex(controls.map(control => ({ ...control, className: 'unknown' }))), -1);
+    assert.equal(getRemoveControlIndex(controls.map(control => ({ ...control, className: controls[0].className }))), -1);
+    assert.equal(getRemoveControlIndex(controls.map(control => ({ ...control, className: controls[1].className }))), -1);
+    assert.equal(getRemoveControlIndex(controls.map(control => ({ ...control, className: controls.map(c => c.className).join(' ') }))), -1);
+    assert.equal(getRemoveControlIndex(controls.map(control => ({ ...control, title: 'hint' }))), -1);
 });

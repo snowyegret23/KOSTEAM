@@ -49,6 +49,7 @@ test('destructive cart controls use stable element relationships', () => {
     assert.match(cart, /isConnected/);
     assert.match(cart, /aria-hidden/);
     assert.doesNotMatch(cart, /_3YCgcpoCojlbS6DvkNsG2J|_3F0SnUeC_obtI4WyQtijAa|_17GFdSD2pc0BquZk5cejg8|_2rkDlHZ2yi-tFtDk4-CC4U/);
+    assert.doesNotMatch(readSource('shared/cart-controls.js'), /hasRemoveText|textContent|remove.*삭제/);
 });
 
 // Execute the actual extension bundles against DOM fixtures. Network and extension
@@ -517,15 +518,15 @@ test('guest cart actions explain missing account data and never download an unre
 });
 
 test('untitled Steam cart actions preserve prices beside numeric titles and exclude only the unselected item', async t => {
-    for (const [addText, removeText] of [['추가', '제거'], ['Add', 'Remove']]) {
+    for (const [addText, removeText] of [['추가', '제거'], ['Add', 'Remove'], ['追加', '削除'], ['任意の追加操作', '任意の削除操作']]) {
         const token = `e30.${Buffer.from(JSON.stringify({ sub: '76561198000000001' })).toString('base64url')}.signature`;
         const page = createPage(t, { url: 'https://store.steampowered.com/cart/',
             settings: { cart_feature_enabled: true }, html: `<style>* { opacity: 1; }</style>
             <div id="application_config"></div><main id="page_root">
             ${[1, 2].map(id => `<article data-line-item-id="${id}">
                 <a href="/app/${id}/"><img alt="${id === 1 ? "TR-49" : "Second game"}"></a><span id="product-${id}">${id === 1 ? "TR-49" : "Second game"}</span><span>₩ ${id},000</span>
-                <div><div role="button" id="add-${id}" aria-labelledby="add-${id} product-${id}">${addText}</div>
-                <div role="button" id="remove-${id}" aria-labelledby="remove-${id} product-${id}">${removeText}</div></div>
+                <div><div role="button" class="_2qvlyUCwtTBUslo1Z7-RlG" id="add-${id}" aria-labelledby="add-${id} product-${id}">${addText}</div>
+                <div role="button" class="_3YCgcpoCojlbS6DvkNsG2J" id="remove-${id}" aria-labelledby="remove-${id} product-${id}">${removeText}</div></div>
             </article>`).join('')}
             <a href="https://checkout.steampowered.com/checkout/" id="checkout">Continue</a></main>`,
             respond: message => message.type === 'SAVE_CART_RESTORE'
@@ -585,6 +586,44 @@ test('untitled Steam cart actions preserve prices beside numeric titles and excl
         assert.deepEqual(backup.items.map(item => [item.packageId, item.selected]), [[100, true], [200, false]]);
         await page.update({ cart_feature_enabled: false });
     }
+});
+
+test('unknown action markers preserve checkboxes but never click ambiguous removal controls', async t => {
+    const token = `e30.${Buffer.from(JSON.stringify({ sub: '76561198000000001' })).toString('base64url')}.signature`;
+    const page = createPage(t, { url: 'https://store.steampowered.com/cart/',
+        settings: { cart_feature_enabled: true }, html: `<style>* { opacity: 1; }</style>
+        <div id="application_config"></div><main id="page_root">
+        ${[1, 2].map(id => `<article>
+            <a href="/sub/${id}/"><img alt="Game"></a><span id="product-${id}">Game</span><span>₩ 1,000</span>
+            <div><div role="button" id="first-${id}" aria-labelledby="first-${id} product-${id}">未知の操作</div>
+            <div role="button" id="second-${id}" aria-labelledby="second-${id} product-${id}">別の操作</div></div>
+        </article>`).join('')}</main>` });
+    const { window, document } = page;
+    const config = document.querySelector('#application_config');
+    config.setAttribute('data-store_user_config', JSON.stringify({ webapi_token: token,
+        accountcart: { cart: { line_items: [{ line_item_id: '1', packageid: 1 }, { line_item_id: '2', packageid: 2 }] } }
+    }));
+    window.HTMLElement.prototype.getBoundingClientRect = () => ({ top: 0, width: 400, height: 50 });
+    const alerts = [];
+    let actions = 0;
+    window.alert = text => alerts.push(text);
+    window.URL.createObjectURL = () => 'blob:https://store.steampowered.com/fixture';
+    window.URL.revokeObjectURL = () => {};
+    document.addEventListener('click', event => {
+        if (event.target.closest('a[download]')) event.preventDefault();
+        if (event.target.closest('[role="button"]')) actions++;
+    });
+    await page.run('cart');
+    await new Promise(resolve => window.requestAnimationFrame(resolve));
+    assert.equal(document.querySelectorAll('.kosteam-cart-checkbox').length, 2);
+    document.querySelector('.kosteam-cart-checkbox').click();
+    document.querySelector('.kosteam-cart-buy-selected-btn').click();
+    await settle();
+    assert.equal(actions, 0);
+    assert.equal(page.messages.length, 0);
+    assert.match(alerts[0], /다시 추가할 수/);
+    assert.equal(document.querySelector('.kosteam-cart-buy-selected-btn').disabled, false);
+    await page.update({ cart_feature_enabled: false });
 });
 
 test('1.6.3 cart selection, JSON backups and wishlist buttons retain their behavior', async t => {
