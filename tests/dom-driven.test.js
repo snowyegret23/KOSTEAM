@@ -67,7 +67,7 @@ const bundles = Object.fromEntries(await Promise.all(
 ));
 const settle = () => new Promise(resolve => setImmediate(resolve));
 
-function createPage(t, { html = '', lang = '', url = 'https://store.steampowered.com/app/42/',
+function createPage(t, { html = '', lang = 'en', url = 'https://store.steampowered.com/app/42/',
     settings = {}, info = null, promiseApi = false, permissions = {}, alarms = true, respond } = {}) {
     const dom = new JSDOM(`<!doctype html><html lang="${lang}"><body>${html}</body></html>`, {
         url, runScripts: 'outside-only', pretendToBeVisual: true
@@ -152,6 +152,60 @@ const userPatch = {
         quasarplay: 'https://store.steampowered.com/app/42/?curator_clanid=42788178'
     }
 };
+
+const storeLanguageNotice = '한국어 패치 정보를 확인하려면 상점 언어를 한국어 또는 영어로 변경하세요.';
+
+test('other store languages show only the language notice regardless of patch data or source toggles', async t => {
+    for (const lang of ['ja', 'fr', 'de', 'zh-CN', 'enough', '']) {
+        for (const info of [null, userPatch, { ...userPatch, type: 'official' }]) {
+            const page = createPage(t, { lang, html: purchaseArea + languageTable('✔'), info });
+            await page.run();
+            const assertNotice = () => {
+                const banner = page.document.querySelector('.kr-patch-banner');
+                assert.equal(banner?.textContent, storeLanguageNotice, lang);
+                assert.equal(banner.querySelector('a, .kr-patch-type-label, .kr-patch-link-description'), null);
+                assert.equal(page.document.querySelectorAll('.kr-patch-banner').length, 1);
+                assert.equal(page.document.querySelector('#buy').previousElementSibling, banner);
+            };
+            assertNotice();
+            await page.update({ source_steamapp: false });
+            assertNotice();
+            await page.update({ disable_patch_info: true });
+            assert.equal(page.document.querySelector('.kr-patch-banner'), null);
+            await page.update({ disable_patch_info: false });
+            assertNotice();
+        }
+    }
+});
+
+test('the language notice survives pending and failed requests and respects late-response display toggles', async t => {
+    for (const promiseApi of [false, true]) {
+        const replies = [];
+        const page = createPage(t, { lang: 'ja', promiseApi, html: purchaseArea + (promiseApi ? '' : languageTable()),
+            respond: () => new Promise(resolve => replies.push(resolve)) });
+        await page.run();
+        assert.equal(page.document.querySelector('.kr-patch-banner')?.textContent, storeLanguageNotice);
+        replies.shift()({ success: false });
+        await settle();
+        assert.equal(page.document.querySelector('.kr-patch-banner')?.textContent, storeLanguageNotice);
+        await page.update({ kr_patch_data: {} });
+        await page.update({ disable_patch_info: true });
+        replies.shift()({ success: true, info: userPatch });
+        await settle();
+        assert.equal(page.document.querySelector('.kr-patch-banner'), null);
+    }
+});
+
+test('Korean and English store languages retain patch labels and links', async t => {
+    for (const lang of ['ko', 'en', 'ko-KR', 'en-US']) {
+        const page = createPage(t, { lang, html: purchaseArea + languageTable('✔'), info: userPatch });
+        await page.run();
+        assert.equal(page.document.querySelector('.kr-patch-type-label')?.textContent, '공식(추가정보 존재)', lang);
+        assert.deepEqual([...page.document.querySelectorAll('.kr-patch-link-text')].map(link => link.href),
+            Object.values(userPatch.source_site_urls));
+        assert.ok(!page.document.querySelector('.kr-patch-banner').textContent.includes(storeLanguageNotice));
+    }
+});
 
 test('1.6.3 banners stay above purchases for every patch type and both browser APIs', async t => {
     for (const promiseApi of [false, true]) {

@@ -77,6 +77,7 @@ export const KOREAN_LABELS = ['Korean', '한국어'];
 
 // UI text strings
 export const UI_STRINGS = {
+    STORE_LANGUAGE_NOTICE_TEXT: '한국어 패치 정보를 확인하려면 상점 언어를 한국어 또는 영어로 변경하세요.',
     LINK_PREFIX: '링크',
     OFFICIAL_ESTIMATED_TEXT: '패치 정보 사이트에서 한국어 공식 지원으로 분류된 게임입니다.',
     OFFICIAL_SUPPORT_TEXT: '한국어를 공식 지원하는 게임입니다.',

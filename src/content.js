@@ -21,6 +21,7 @@ import {
     if (!appIdMatch) return;
 
     const appId = appIdMatch[1];
+    const supportsPatchInfo = /^(ko|en)(-|$)/i.test(document.documentElement.lang.trim());
 
     let patchInfoData = null;
     let patchInfoReady = false;
@@ -36,6 +37,7 @@ import {
     // Request patch info from background
     startLanguageTableWatcher();
     refreshPatchInfo();
+    if (!supportsPatchInfo) injectPatchInfo(null, false);
 
     async function refreshPatchInfo() {
         const requestId = ++patchRequestId;
@@ -264,15 +266,6 @@ import {
                     removePatchInfo();
                     return;
                 }
-                const patchTypeInfo = patchInfoReady ? getPatchTypeInfo(info, hasOfficialKorean) : {
-                    label: patchInfoLoading ? '정보 조회 중' : '정보 조회 실패',
-                    cssClass: 'unknown',
-                    color: '#607d8b'
-                };
-                if (!patchTypeInfo) return;
-
-                const isSourceEnabled = (source) => settings[`source_${source}`] !== false;
-
                 // Find insertion target
                 const noticeContent = Array.from(document.querySelectorAll(
                     '.notice_box_content, #purchase_note .game_area_description, .notice_box .game_area_description'
@@ -304,6 +297,33 @@ import {
                 const banner = createElement('div', 'kr-patch-banner');
                 const content = createElement('div', 'kr-patch-content');
                 banner.appendChild(content);
+
+                const insertBanner = () => {
+                    if (noKoreanBox) {
+                        if (existingBanner) existingBanner.remove();
+                        replacedLanguageNotice = noKoreanBox;
+                        noKoreanBox.replaceWith(banner);
+                    } else if (existingBanner) {
+                        existingBanner.replaceWith(banner);
+                    } else {
+                        targetArea.parentNode.insertBefore(banner, targetArea);
+                    }
+                };
+
+                if (!supportsPatchInfo) {
+                    content.appendChild(createElement('div', 'kr-patch-none-text', UI_STRINGS.STORE_LANGUAGE_NOTICE_TEXT));
+                    insertBanner();
+                    return;
+                }
+
+                const patchTypeInfo = patchInfoReady ? getPatchTypeInfo(info, hasOfficialKorean) : {
+                    label: patchInfoLoading ? '정보 조회 중' : '정보 조회 실패',
+                    cssClass: 'unknown',
+                    color: '#607d8b'
+                };
+                if (!patchTypeInfo) return;
+
+                const isSourceEnabled = (source) => settings[`source_${source}`] !== false;
 
                 const typeLabel = createElement('div', `kr-patch-type-label ${patchTypeInfo.cssClass}`, patchTypeInfo.label);
                 typeLabel.style.backgroundColor = patchTypeInfo.color;
@@ -444,15 +464,7 @@ import {
                 }
 
                 // Insert banner into page
-                if (noKoreanBox) {
-                    if (existingBanner) existingBanner.remove();
-                    replacedLanguageNotice = noKoreanBox;
-                    noKoreanBox.replaceWith(banner);
-                } else if (existingBanner) {
-                    existingBanner.replaceWith(banner);
-                } else {
-                    targetArea.parentNode.insertBefore(banner, targetArea);
-                }
+                insertBanner();
             })
             .catch(err => console.error('[KOSTEAM] Storage error:', err));
     }
