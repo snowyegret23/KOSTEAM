@@ -278,8 +278,18 @@ import {
                     '.notice_box_content, #purchase_note .game_area_description, .notice_box .game_area_description'
                 )).find(notice => {
                     const text = notice.textContent || '';
-                    return (text.includes('한국어') && text.includes('지원하지 않습니다')) ||
-                        text.includes('언어 인터페이스');
+                    if ((text.includes('한국어') && text.includes('지원하지 않습니다')) ||
+                        text.includes('언어 인터페이스') || /\bKorean\b[^.]*\bnot supported\b/i.test(text)) return true;
+                    if (!document.querySelector('.game_language_options tr.unsupported')) return false;
+                    return Array.from(notice.querySelectorAll('a[href]')).some(link => {
+                        try {
+                            const url = new URL(link.getAttribute('href'), window.location.href);
+                            return url.origin === 'https://store.steampowered.com' &&
+                                url.pathname.replace(/\/$/, '') === '/account/preferences';
+                        } catch {
+                            return false;
+                        }
+                    });
                 });
                 const noKoreanBox = noticeContent?.closest('#purchase_note, .notice_box') || noticeContent;
                 const existingBanner = document.querySelector('.kr-patch-banner');

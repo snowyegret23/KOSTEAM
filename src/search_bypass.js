@@ -47,9 +47,10 @@ import { storageGet } from './shared/api.js';
             document.removeEventListener('visibilitychange', checkFilterState);
         }
 
-        function findMobileControl(root, labels) {
+        function findMobileControl(root, labels, allowFilterIcon = false) {
             const controls = Array.from(root.querySelectorAll('button, [role="button"], div')).filter(element => {
-                if (!labels.includes(element.textContent?.trim())) return false;
+                const text = element.textContent?.trim();
+                if (!labels.includes(text) && !(allowFilterIcon && text && element.querySelector('svg.SVGIcon_Filter'))) return false;
                 return element.matches('button, [role="button"]') ||
                     typeof element.onclick === 'function' || !!element.querySelector('svg.SVGIcon_Filter');
             });
@@ -61,7 +62,8 @@ import { storageGet } from './shared/api.js';
         function closeMobileFilter(root) {
             if (!openedMobileFilter) return;
             const closeLabels = ['닫기', 'Close'];
-            const close = openedMobileFilter.isConnected && closeLabels.includes(openedMobileFilter.textContent?.trim())
+            const close = openedMobileFilter.isConnected &&
+                (closeLabels.includes(openedMobileFilter.textContent?.trim()) || !openedMobileFilter.querySelector('svg.SVGIcon_Filter'))
                 ? openedMobileFilter : findMobileControl(root, closeLabels);
             close?.click();
         }
@@ -91,7 +93,7 @@ import { storageGet } from './shared/api.js';
                     closeMobileFilter(root);
                 }
             } else {
-                openedMobileFilter = findMobileControl(root, ['필터', 'Filter', 'Filters']);
+                openedMobileFilter = findMobileControl(root, ['필터', 'Filter', 'Filters'], true);
                 openedMobileFilter?.click();
             }
         }

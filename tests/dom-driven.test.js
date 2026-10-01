@@ -67,9 +67,9 @@ const bundles = Object.fromEntries(await Promise.all(
 ));
 const settle = () => new Promise(resolve => setImmediate(resolve));
 
-function createPage(t, { html = '', url = 'https://store.steampowered.com/app/42/',
+function createPage(t, { html = '', lang = '', url = 'https://store.steampowered.com/app/42/',
     settings = {}, info = null, promiseApi = false, permissions = {}, alarms = true, respond } = {}) {
-    const dom = new JSDOM(`<!doctype html><html><body>${html}</body></html>`, {
+    const dom = new JSDOM(`<!doctype html><html lang="${lang}"><body>${html}</body></html>`, {
         url, runScripts: 'outside-only', pretendToBeVisual: true
     });
     const { window } = dom;
@@ -218,6 +218,27 @@ test('native Korean notices are replaced completely and restored by the display 
     }
 });
 
+test('localized native language notices are replaced while unrelated purchase warnings remain', async t => {
+    for (const [lang, label] of [['ja', '日本語はサポートされていません'], ['fr', 'Français non disponible'], ['de', 'Deutsch wird nicht unterstützt']]) {
+        const notice = `<div id="purchase_note"><div class="notice_box_content"><b>${label}</b><p><a href="https://store.steampowered.com/account/preferences">Language preferences</a></p></div></div>`;
+        const unsupported = '<table class="game_language_options"><tr class="unsupported"><td class="ellipsis">Local language</td></tr></table>';
+        const page = createPage(t, { lang, html: notice + purchaseArea + unsupported, info: userPatch });
+        const original = page.document.querySelector('#purchase_note');
+        await page.run();
+        assert.equal(original.isConnected, false, lang);
+        await page.update({ disable_patch_info: true });
+        assert.equal(page.document.querySelector('#purchase_note'), original, lang);
+    }
+    for (const href of ['', 'https://example.com/account/preferences']) {
+        const page = createPage(t, { lang: 'ja', html: `<div id="purchase_note"><div class="notice_box_content">Purchase unavailable <a href="${href}">Preferences</a></div></div>${purchaseArea}<table class="game_language_options"><tr class="unsupported"></tr></table>` });
+        await page.run();
+        assert.ok(page.document.querySelector('#purchase_note'));
+    }
+    const english = createPage(t, { html: `<div id="purchase_note"><div class="notice_box_content">Korean is not supported</div></div>${purchaseArea}` });
+    await english.run();
+    assert.equal(english.document.querySelector('#purchase_note'), null);
+});
+
 test('empty patch links retain source descriptions, ordering and live source toggles', async t => {
     const page = createPage(t, { html: purchaseArea + languageTable(), info: userPatch });
     await page.run();
@@ -310,6 +331,33 @@ test('1.6.3 search bypass preserves search terms and explicit filters with ndl=1
 });
 
 const filterChip = text => `<a href=""><svg class="SVGIcon_X_Line"></svg><span>${text}</span></a>`;
+
+test('localized mobile filter icons open and close the same toggle without label matching', async t => {
+    for (const [lang, open, close, selected] of [
+        ['ja', 'フィルター', '閉じる', 'Korean'], ['fr', 'Filtres', 'Fermer', '한국어'],
+        ['de', 'Filter anzeigen', 'Schließen', null]
+    ]) {
+        const page = createPage(t, { lang, url: 'https://store.steampowered.com/category/action/',
+            html: `<div data-featuretarget="sale-display"><div id="toggle"><div><svg class="SVGIcon_Button SVGIcon_Filter"></svg></div><div>${open}</div></div></div>` });
+        const toggle = page.document.querySelector('#toggle');
+        let toggles = 0;
+        let removals = 0;
+        toggle.addEventListener('click', () => {
+            toggles++;
+            toggle.innerHTML = toggles === 1 ? `<div><svg></svg></div><div>${close}</div>` : `<svg class="SVGIcon_Filter"></svg>${open}`;
+            if (toggles !== 1) return;
+            const panel = page.document.createElement('div');
+            panel.innerHTML = selected ? filterChip(selected) : '<input class="DialogInput"><a href="">Action</a>';
+            panel.firstElementChild.addEventListener('click', event => { event.preventDefault(); removals++; });
+            toggle.after(panel);
+        });
+        await page.run('search_bypass');
+        await settle();
+        assert.equal(toggles, 2, lang);
+        assert.equal(removals, selected ? 1 : 0, lang);
+        assert.equal(toggle.textContent, open, lang);
+    }
+});
 
 test('1.6.3 category, tag, genre, VR, Deck and sale pages remove only the selected Korean chip', async t => {
     for (const path of ['/category/action/', '/tags/en/Action/', '/genre/Free%20to%20Play/', '/vr/', '/greatondeck/', '/specials/', '/sale/test']) {
