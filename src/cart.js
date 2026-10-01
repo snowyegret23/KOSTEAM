@@ -321,8 +321,7 @@ import {
             .map(normalizeAccessibleName)
             .filter(Boolean);
 
-        // This compares the product identity exposed by two related elements;
-        // it does not depend on localized Add/Remove wording.
+        // Compare the product identity exposed by two related elements.
         return !!contextName && linkedNames.includes(contextName);
     }
 
@@ -353,7 +352,8 @@ import {
                 controls.map(control => ({
                     id: control.id,
                     labelledBy: control.getAttribute('aria-labelledby'),
-                    title: control.getAttribute('title')
+                    title: control.getAttribute('title'),
+                    text: control.textContent
                 })),
                 contextId => isItemTitleContextId(item, contextId)
             );
@@ -369,7 +369,11 @@ import {
                 '[data-cart-remove], [data-action="remove"], .remove_link, .cart_remove'
             )).filter(isUsableControl)
         );
-        findRemoveControlsByAccessibility(item).forEach(control => candidates.add(control));
+        const contextualControls = findRemoveControlsByAccessibility(item);
+        const removeControls = contextualControls.length > 1
+            ? findRemoveControlsByStructure(item)
+            : contextualControls;
+        removeControls.forEach(control => candidates.add(control));
         return candidates.size === 1 ? candidates.values().next().value : null;
     }
 
@@ -537,7 +541,13 @@ import {
     // ========== Price Handling ==========
 
     function getItemPrice(item) {
-        return parseCartPrice(item.textContent);
+        const texts = document.createTreeWalker(item, NodeFilter.SHOW_TEXT);
+        let price = null;
+        for (let node = texts.nextNode(); node; node = texts.nextNode()) {
+            const parsed = parseCartPrice(node.textContent);
+            if (parsed) price = parsed;
+        }
+        return price;
     }
 
     const appPackageCache = new Map();

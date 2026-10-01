@@ -4,6 +4,11 @@ function getLabelIds(value) {
         : [];
 }
 
+function hasRemoveText(control) {
+    const text = typeof control?.text === 'string' ? control.text.trim().toLowerCase() : '';
+    return ['remove', '삭제', '제거', '삭제하기'].includes(text);
+}
+
 /**
  * Recognizes the untitled cart action that labels itself together with its
  * owning item. This also covers items where Steam does not render an Add
@@ -32,7 +37,7 @@ export function isContextualRemoveControl(control, isContextId = () => true) {
  * Identifies Steam's remove control from a two-control accessibility group.
  * Returns -1 when the relationship is incomplete or ambiguous.
  *
- * @param {{id?: string, labelledBy?: string, title?: string | null}[]} controls
+ * @param {{id?: string, labelledBy?: string, title?: string | null, text?: string}[]} controls
  * @param {(id: string) => boolean} [isSharedContextId]
  * @returns {number}
  */
@@ -57,7 +62,10 @@ export function getRemoveControlIndex(controls, isSharedContextId = () => true) 
     const hasTitle = controls.map(control => (
         typeof control?.title === 'string' && control.title.trim().length > 0
     ));
-    if (hasTitle[0] === hasTitle[1]) return -1;
+    if (hasTitle[0] !== hasTitle[1]) return hasTitle[0] ? 1 : 0;
+    if (hasTitle[0]) return -1;
 
-    return hasTitle[0] ? 1 : 0;
+    const isRemove = controls.map(hasRemoveText);
+    if (isRemove[0] === isRemove[1]) return -1;
+    return isRemove[0] ? 0 : 1;
 }
