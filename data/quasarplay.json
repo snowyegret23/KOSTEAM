@@ -2,8 +2,8 @@
   "curator_id": 42788178,
   "curator_name": "Curator #42788178",
   "curator_url": "https://store.steampowered.com/curator/42788178/",
-  "total_games": 1829,
-  "exported_at": "2026-09-27T23:34:11.225193",
+  "total_games": 1828,
+  "exported_at": "2026-10-01T00:19:54.528937",
   "games": [
     {
       "appid": "284050",
@@ -12927,15 +12927,6 @@
       "review": "유저 한글 패치 - HongSamMild",
       "review_has_url": true,
       "review_url_count": 3,
-      "type": "recommended"
-    },
-    {
-      "appid": "201270",
-      "url": "https://store.steampowered.com/app/201270/Total_War_SHOGUN_2/",
-      "curator_url": "https://store.steampowered.com/app/201270/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 - JDY 님",
-      "review_has_url": true,
-      "review_url_count": 1,
       "type": "recommended"
     },
     {

@@ -1494,14 +1494,17 @@
     "links": [
       "c360ac14",
       "d2de59f1",
+      "5957778f",
       "exist"
     ],
     "patch_descriptions": [
       "제작자 : 정보없음",
       "제작자 : 정보없음",
+      "최신 버전 대응 패치 제작자 : 안고임",
       "유저 한글 패치 - 휠맨\n유저 한글 패치 -"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp",
       "steamapp",
       "quasarplay"
@@ -3111,24 +3114,6 @@
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/l2e652/total-war-napoleon-definitive-edition",
       "quasarplay": "https://store.steampowered.com/app/34030/?curator_clanid=42788178"
-    }
-  },
-  "34330": {
-    "type": "user",
-    "sources": [
-      "quasarplay"
-    ],
-    "links": [
-      "exist"
-    ],
-    "patch_descriptions": [
-      "유저 한국어 패치 - JDY 님"
-    ],
-    "patch_sources": [
-      "quasarplay"
-    ],
-    "source_site_urls": {
-      "quasarplay": "https://store.steampowered.com/app/201270/?curator_clanid=42788178"
     }
   },
   "34870": {
@@ -12404,7 +12389,7 @@
       "steamapp"
     ],
     "source_site_urls": {
-      "steamapp": "https://hanpe.net/app/j8zevz/%EB%8D%94-%EC%9C%84%EC%B3%90-3-%EC%99%80%EC%9D%BC%EB%93%9C-%ED%97%8C%ED%8A%B8-%EC%BB%B4%ED%94%8C%EB%A6%AC%ED%8A%B8-%EC%97%90%EB%94%94%EC%85%98"
+      "steamapp": "https://hanpe.net/app/j8zevz/the-witcher-3-wild-hunt-remastered"
     }
   },
   "292120": {
@@ -55003,15 +54988,12 @@
       "steamapp"
     ],
     "links": [
-      "d1c54b86",
-      "2db32299"
+      "d1c54b86"
     ],
     "patch_descriptions": [
-      "제작자 : 메갤러",
       "제작자 : 메갤러"
     ],
     "patch_sources": [
-      "steamapp",
       "steamapp"
     ],
     "source_site_urls": {
@@ -78383,19 +78365,24 @@
   "3850630": {
     "type": "user",
     "sources": [
-      "steamapp"
+      "steamapp",
+      "quasarplay"
     ],
     "links": [
-      "707125b9"
+      "707125b9",
+      "exist"
     ],
     "patch_descriptions": [
-      "제작자 : Pixel4a"
+      "제작자 : Pixel4a",
+      "유저 한글 패치 - Pixel4a"
     ],
     "patch_sources": [
-      "steamapp"
+      "steamapp",
+      "quasarplay"
     ],
     "source_site_urls": {
-      "steamapp": "https://hanpe.net/app/j52mvr/codelux"
+      "steamapp": "https://hanpe.net/app/j52mvr/codelux",
+      "quasarplay": "https://store.steampowered.com/app/3850630/?curator_clanid=30894603"
     }
   },
   "3851570": {
@@ -78455,6 +78442,24 @@
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/lkd6x2/holovillage-our-cozy-days",
       "quasarplay": "https://store.steampowered.com/app/3856280/?curator_clanid=30894603"
+    }
+  },
+  "3859630": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "5c5d7f5b"
+    ],
+    "patch_descriptions": [
+      "제작자 : 메갤러"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j903kq/metal-gear-solid-master-collection-vol2"
     }
   },
   "3860590": {
@@ -80257,18 +80262,23 @@
   "4191350": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "036989f0",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 김까까",
       "한글 패치 - 김까까"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jpzv5n/tales-of-fear-episode-zero",
       "quasarplay": "https://store.steampowered.com/app/4191350/?curator_clanid=30894603"
     }
   },
@@ -82018,7 +82028,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-09-27T23:34:25.720Z",
+    "generated_at": "2026-10-01T00:20:09.044Z",
     "total": 3826
   }
 }

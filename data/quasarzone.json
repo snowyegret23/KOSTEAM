@@ -2,8 +2,8 @@
   "curator_id": 30894603,
   "curator_name": "Curator #30894603",
   "curator_url": "https://store.steampowered.com/curator/30894603/",
-  "total_games": 1264,
-  "exported_at": "2026-09-27T23:34:11.239013",
+  "total_games": 1265,
+  "exported_at": "2026-10-01T00:19:54.540426",
   "games": [
     {
       "appid": "4920100",
@@ -4195,6 +4195,15 @@
       "url": "https://store.steampowered.com/app/1078350/Ambrosia/",
       "curator_url": "https://store.steampowered.com/app/1078350/?curator_clanid=30894603",
       "review": "유저 한글 패치 - 金真",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "3850630",
+      "url": "https://store.steampowered.com/app/3850630/CODELUX/",
+      "curator_url": "https://store.steampowered.com/app/3850630/?curator_clanid=30894603",
+      "review": "유저 한글 패치 - Pixel4a",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
