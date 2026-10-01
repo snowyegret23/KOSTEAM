@@ -1127,7 +1127,7 @@ import {
         }
 
         if (!DISABLE_CART_DIALOGS && window.confirm(
-            '선택 구매 중 장바구니 복원에 오류가 발생할 경우에 대비해 현재 장바구니 목록을 JSON 파일로 백업하시겠습니까?\n\n확인: 백업 저장 후 구매 진행\n취소: 저장 없이 구매 진행'
+            '현재 장바구니 목록을 JSON 파일로 백업하시겠습니까?'
         )) {
             try {
                 await downloadSelectedCheckoutBackup(items, checkedItems, uncheckedItems);

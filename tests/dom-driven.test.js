@@ -587,7 +587,7 @@ test('untitled Steam cart actions preserve prices beside numeric titles and excl
         assert.deepEqual(JSON.parse(JSON.stringify(saved.remainingItems)), [{ id: 100, type: 'package' }]);
         assert.equal(page.messages.at(-1).type, 'MARK_CART_CHECKOUT_STARTED');
         assert.equal(prompts.length, 1);
-        assert.match(prompts[0], /복원.*오류[\s\S]*JSON[\s\S]*취소.*저장 없이/);
+        assert.equal(prompts[0], '현재 장바구니 목록을 JSON 파일로 백업하시겠습니까?');
         assert.equal(downloads.length, backupAccepted ? 1 : 0);
         if (backupAccepted) {
             const backup = JSON.parse(await downloads[0].text());
