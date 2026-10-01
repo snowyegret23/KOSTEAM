@@ -1126,14 +1126,16 @@ import {
             return;
         }
 
-        try {
-            await downloadSelectedCheckoutBackup(items, checkedItems, uncheckedItems);
-        } catch (err) {
-            console.debug('[KOSTEAM] Selected checkout backup error:', err);
-            if (!DISABLE_CART_DIALOGS) {
+        if (!DISABLE_CART_DIALOGS && window.confirm(
+            '선택 구매 중 장바구니 복원에 오류가 발생할 경우에 대비해 현재 장바구니 목록을 JSON 파일로 백업하시겠습니까?\n\n확인: 백업 저장 후 구매 진행\n취소: 저장 없이 구매 진행'
+        )) {
+            try {
+                await downloadSelectedCheckoutBackup(items, checkedItems, uncheckedItems);
+            } catch (err) {
+                console.debug('[KOSTEAM] Selected checkout backup error:', err);
                 window.alert('장바구니 백업 JSON을 생성할 수 없습니다. 다시 시도해 주세요.');
+                return;
             }
-            return;
         }
 
         const checkedKeys = checkedItems.map(item => item.key).filter(Boolean);
@@ -1194,7 +1196,7 @@ import {
             if (!DISABLE_CART_DIALOGS) {
                 window.alert(rollback?.success
                     ? '미선택 항목 제거가 완료되지 않아 제거된 항목을 즉시 복원했습니다.'
-                    : '미선택 항목 제거와 즉시 복원이 모두 완료되지 않았습니다. 복원 상태와 백업 JSON을 유지했으니 페이지를 새로고침해 주세요.');
+                    : '미선택 항목 제거와 즉시 복원이 모두 완료되지 않았습니다. 자동 복원 정보를 유지했으니 페이지를 새로고침해 주세요.');
             }
             return false;
         }
@@ -1215,7 +1217,7 @@ import {
             if (!DISABLE_CART_DIALOGS) {
                 window.alert(rollback?.success
                     ? 'Steam 결제를 안전하게 시작할 수 없어 제거된 항목을 즉시 복원했습니다.'
-                    : 'Steam 결제를 시작하지 못했고 즉시 복원도 완료되지 않았습니다. 복원 상태와 백업 JSON을 유지했습니다.');
+                    : 'Steam 결제를 시작하지 못했고 즉시 복원도 완료되지 않았습니다. 자동 복원 정보를 유지했습니다.');
             }
         }
         return checkoutStarted;
@@ -1335,18 +1337,19 @@ import {
             !button.classList.contains('Disabled');
     }
 
+    function isVisibleCheckoutControl(element) {
+        if (element.hidden || element.getAttribute('aria-hidden') === 'true') return false;
+        const style = window.getComputedStyle(element);
+        if (style.display === 'none' || style.visibility === 'hidden' || Number(style.opacity) === 0) return false;
+        const rect = element.getBoundingClientRect();
+        return rect.width > 0 && rect.height > 0;
+    }
+
     function findNativeCheckoutButton(options = {}) {
         const { requireReady = false } = options;
         const cartItems = findCartItems();
         const firstItem = cartItems[0];
         let root = firstItem?.parentElement || null;
-        const isVisible = element => {
-            if (element.hidden || element.getAttribute('aria-hidden') === 'true') return false;
-            const style = window.getComputedStyle(element);
-            if (style.display === 'none' || style.visibility === 'hidden' || Number(style.opacity) === 0) return false;
-            const rect = element.getBoundingClientRect();
-            return rect.width > 0 && rect.height > 0;
-        };
         const useIfReady = element => {
             if (!element || (requireReady && !isNativeCheckoutButtonReady(element))) return null;
             return element;
@@ -1363,13 +1366,13 @@ import {
                 return !insideCartItem &&
                     !link.closest('[role="dialog"], dialog') &&
                     isValidCheckoutUrl(link.href) &&
-                    isVisible(link);
+                    isVisibleCheckoutControl(link);
             });
             if (trustedLinks.length > 1) return null;
             if (trustedLinks.length === 1) return useIfReady(trustedLinks[0]);
 
             const nativeButtons = Array.from(root.querySelectorAll('button.DialogButton.Primary')).filter(button => {
-                return !button.closest('[role="dialog"], dialog') && isVisible(button);
+                return !button.closest('[role="dialog"], dialog') && isVisibleCheckoutControl(button);
             });
             if (nativeButtons.length > 1) return null;
             if (nativeButtons.length === 1) return useIfReady(nativeButtons[0]);
@@ -1423,13 +1426,38 @@ import {
         return true;
     }
 
-    function ensureBuySelectedButton() {
-        const existing = document.querySelector('.kosteam-buy-selected-sidebar');
-        if (existing && !existing.classList.contains('kosteam-cart-btn')) return;
-        if (existing) existing.remove();
-
-        // Use the unique visible checkout control within the cart interaction root.
+    function findCheckoutPlacementAnchor() {
         const checkoutBtn = findNativeCheckoutButton();
+        if (!checkoutBtn) return null;
+        const cartItems = findCartItems();
+        const cartRoot = getCartRoot();
+        for (let branch = checkoutBtn.parentElement;
+            branch?.parentElement && cartRoot.contains(branch.parentElement);
+            branch = branch.parentElement) {
+            if (!cartItems.every(item => branch.contains(item))) continue;
+            const candidates = Array.from(branch.parentElement.querySelectorAll('a[href], button.DialogButton.Primary'))
+                .filter(control => !branch.contains(control) &&
+                    !cartItems.some(item => item.contains(control)) &&
+                    !control.closest('[role="dialog"], dialog') &&
+                    (control.tagName !== 'A' || isValidCheckoutUrl(control.href)) &&
+                    isVisibleCheckoutControl(control));
+            if (candidates.length > 0) return candidates.length === 1 ? candidates[0] : checkoutBtn;
+        }
+        return checkoutBtn;
+    }
+
+    function ensureBuySelectedButton() {
+        const checkoutBtn = findCheckoutPlacementAnchor();
+        const existing = document.querySelector('.kosteam-buy-selected-sidebar');
+        if (!checkoutBtn) {
+            existing?.remove();
+            return;
+        }
+        if (existing && !existing.classList.contains('kosteam-cart-btn')) {
+            if (existing.previousElementSibling !== checkoutBtn) checkoutBtn.insertAdjacentElement('afterend', existing);
+            return;
+        }
+        if (existing) existing.remove();
 
         const btn = document.createElement('button');
         btn.type = 'button';

@@ -518,7 +518,9 @@ test('guest cart actions explain missing account data and never download an unre
 });
 
 test('untitled Steam cart actions preserve prices beside numeric titles and exclude only the unselected item', async t => {
-    for (const [addText, removeText] of [['추가', '제거'], ['Add', 'Remove'], ['追加', '削除'], ['任意の追加操作', '任意の削除操作']]) {
+    for (const [addText, removeText, backupAccepted] of [
+        ['추가', '제거'], ['Add', 'Remove'], ['追加', '削除'], ['任意の追加操作', '任意の削除操作']
+    ].flatMap(labels => [false, true].map(accepted => [...labels, accepted]))) {
         const token = `e30.${Buffer.from(JSON.stringify({ sub: '76561198000000001' })).toString('base64url')}.signature`;
         const page = createPage(t, { url: 'https://store.steampowered.com/cart/',
             settings: { cart_feature_enabled: true }, html: `<style>* { opacity: 1; }</style>
@@ -542,10 +544,12 @@ test('untitled Steam cart actions preserve prices beside numeric titles and excl
         config.setAttribute('data-userinfo', JSON.stringify({ country_code: 'KR' }));
         window.HTMLElement.prototype.getBoundingClientRect = () => ({ top: 0, width: 400, height: 50 });
         const alerts = [];
+        const prompts = [];
         const downloads = [];
         const removals = [];
         const additions = [];
         window.alert = text => alerts.push(text);
+        window.confirm = text => { prompts.push(text); return backupAccepted; };
         window.fetch = async () => { throw new Error('No network calls are expected'); };
         window.Blob = Blob;
         window.URL.createObjectURL = blob => { downloads.push(blob); return 'blob:https://store.steampowered.com/fixture'; };
@@ -582,9 +586,64 @@ test('untitled Steam cart actions preserve prices beside numeric titles and excl
         assert.deepEqual(JSON.parse(JSON.stringify(saved.items)), [{ id: 200, type: 'package' }]);
         assert.deepEqual(JSON.parse(JSON.stringify(saved.remainingItems)), [{ id: 100, type: 'package' }]);
         assert.equal(page.messages.at(-1).type, 'MARK_CART_CHECKOUT_STARTED');
-        const backup = JSON.parse(await downloads[0].text());
-        assert.deepEqual(backup.items.map(item => [item.packageId, item.selected]), [[100, true], [200, false]]);
+        assert.equal(prompts.length, 1);
+        assert.match(prompts[0], /복원.*오류[\s\S]*JSON[\s\S]*취소.*저장 없이/);
+        assert.equal(downloads.length, backupAccepted ? 1 : 0);
+        if (backupAccepted) {
+            const backup = JSON.parse(await downloads[0].text());
+            assert.deepEqual(backup.items.map(item => [item.packageId, item.selected]), [[100, true], [200, false]]);
+        }
         await page.update({ cart_feature_enabled: false });
+    }
+});
+
+test('selected purchase stays in the separate cart summary while checkout retains its guarded target', async t => {
+    for (const checkoutText of ['결제 계속하기', 'お支払いに進む', 'Unrelated wording']) {
+        const page = createPage(t, { url: 'https://store.steampowered.com/cart/',
+            settings: { cart_feature_enabled: true }, html: `<style>* { opacity: 1; }</style>
+            <div id="application_config"></div><main id="page_root"><div id="cart-layout">
+            <section id="cart-list"><article data-line-item-id="1"><a href="/sub/100/">Game</a><span>₩ 1,000</span></article>
+                <button class="DialogButton Primary" hidden>Hidden checkout</button>
+                <button class="DialogButton Primary" id="list-checkout">${checkoutText}</button></section>
+            <aside id="summary"><button class="DialogButton Primary" id="summary-checkout">${checkoutText}</button>
+                <div role="dialog"><button class="DialogButton Primary">Dialog action</button></div></aside>
+            </div></main><button class="DialogButton Primary" id="unrelated">Outside cart</button>` });
+        const { window, document } = page;
+        const token = `e30.${Buffer.from(JSON.stringify({ sub: '76561198000000001' })).toString('base64url')}.signature`;
+        document.querySelector('#application_config').setAttribute('data-store_user_config', JSON.stringify({
+            webapi_token: token, accountcart: { cart: { line_items: [{ line_item_id: '1', packageid: 100 }] } }
+        }));
+        window.HTMLElement.prototype.getBoundingClientRect = () => ({ top: 0, width: 400, height: 50 });
+        const prompts = [];
+        let downloads = 0;
+        let listClicks = 0;
+        let otherClicks = 0;
+        window.alert = text => assert.fail(text);
+        window.confirm = text => { prompts.push(text); return false; };
+        window.URL.createObjectURL = () => { downloads++; return 'blob:https://store.steampowered.com/fixture'; };
+        window.URL.revokeObjectURL = () => {};
+        document.querySelector('#list-checkout').addEventListener('click', () => listClicks++);
+        for (const button of document.querySelectorAll('#summary button, #unrelated')) {
+            button.addEventListener('click', () => otherClicks++);
+        }
+        await page.run('cart');
+        await new Promise(resolve => window.requestAnimationFrame(resolve));
+        const selectedButton = document.querySelector('.kosteam-buy-selected-sidebar');
+        assert.equal(selectedButton?.previousElementSibling?.id, 'summary-checkout');
+        assert.equal(document.querySelectorAll('.kosteam-buy-selected-sidebar').length, 1);
+        const replacement = document.querySelector('#summary-checkout').cloneNode(true);
+        document.querySelector('#summary-checkout').replaceWith(replacement);
+        await new Promise(resolve => window.requestAnimationFrame(resolve));
+        assert.equal(selectedButton.previousElementSibling, replacement);
+        document.querySelector('.kosteam-cart-checkbox').click();
+        selectedButton.click();
+        await settle();
+        assert.equal(prompts.length, 1);
+        assert.equal(downloads, 0);
+        assert.equal(listClicks, 1);
+        assert.equal(otherClicks, 0);
+        await page.update({ cart_feature_enabled: false });
+        assert.equal(document.querySelectorAll('.kosteam-buy-selected-sidebar').length, 0);
     }
 });
 
@@ -607,6 +666,7 @@ test('unknown action markers preserve checkboxes but never click ambiguous remov
     const alerts = [];
     let actions = 0;
     window.alert = text => alerts.push(text);
+    window.confirm = () => false;
     window.URL.createObjectURL = () => 'blob:https://store.steampowered.com/fixture';
     window.URL.revokeObjectURL = () => {};
     document.addEventListener('click', event => {
@@ -698,6 +758,7 @@ test('1.6.3 cart selection, JSON backups and wishlist buttons retain their behav
     document.querySelector('.kosteam-cart-buy-selected-btn').click();
     await settle();
     assert.equal(checkouts, 1);
+    assert.equal(downloads.length, 2);
     await page.update({ cart_feature_enabled: false });
     assert.equal(document.querySelectorAll('.kosteam-cart-bar, .kosteam-cart-controls').length, 0);
 });
