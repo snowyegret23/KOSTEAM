@@ -63,6 +63,7 @@ jobs:
         with:
           file-path: ${{ steps.files.outputs.chrome_path }}
           extension-id: ${{ secrets.EXTENSION_ID }}
+          publisher-id: ${{ secrets.CHROME_PUBLISHER_ID }}
           client-id: ${{ secrets.GOOGLE_CLIENT_ID }}
           client-secret: ${{ secrets.GOOGLE_CLIENT_SECRET }}
           refresh-token: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
