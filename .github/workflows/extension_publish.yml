@@ -29,6 +29,9 @@ jobs:
       - name: Build extensions
         run: npm run build
 
+      - name: Validate production bundles across supported environment contracts
+        run: node scripts/run-matrix.js
+
       - name: Read manifest version
         id: get_version
         run: |

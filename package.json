@@ -24,6 +24,9 @@
     "zip:firefox": "web-ext build --source-dir dist/firefox --artifacts-dir . --filename kosteam-firefox.zip --overwrite-dest",
     "zip": "npm run build && npm run zip:chrome && npm run zip:firefox",
     "test": "node --test",
+    "test:matrix": "npm run build && node scripts/run-matrix.js",
+    "test:live": "node scripts/capture-store-fixtures.js --refresh && npm run test:matrix",
+    "test:browser": "npm run build && node scripts/browser-regressions.js",
     "lint:firefox": "npm run build && web-ext lint --source-dir dist/firefox",
     "test:firefox": "npm run lint:firefox && web-ext run --source-dir dist/firefox"
   },

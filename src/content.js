@@ -44,6 +44,8 @@ import {
     async function refreshPatchInfo() {
         const requestId = ++patchRequestId;
         patchRenderId++;
+        patchInfoLoading = true;
+        if (!patchInfoReady) injectPatchInfo(patchInfoData, checkOfficialKoreanSupport());
         try {
             const response = await sendMessage({ type: MSG_GET_PATCH_INFO, appId });
             if (requestId !== patchRequestId) return;
@@ -139,6 +141,7 @@ import {
     function startLanguageTableWatcher() {
         let lastKoreanSupport;
         let observedContainer = null;
+        let observedPurchaseArea = null;
 
         /**
          * Check Korean support and update UI if changed
@@ -171,13 +174,25 @@ import {
             checkAndUpdate();
         };
 
-        const pageObserver = new MutationObserver(() => attachTableObserver());
+        const checkPurchaseArea = () => {
+            const purchaseArea = document.querySelector('#gamepadPurchaseOptions') ||
+                document.querySelector('#game_area_purchase, .game_area_purchase') ||
+                document.querySelector('.game_area_purchase_game_wrapper');
+            if (purchaseArea === observedPurchaseArea) return;
+            observedPurchaseArea = purchaseArea;
+            if (purchaseArea) injectPatchInfo(patchInfoData, checkOfficialKoreanSupport());
+        };
+        const pageObserver = new MutationObserver(() => {
+            attachTableObserver();
+            checkPurchaseArea();
+        });
 
         pageObserver.observe(document.body, {
             childList: true,
             subtree: true
         });
         attachTableObserver();
+        checkPurchaseArea();
         observerCleanups.push(() => {
             pageObserver.disconnect();
             tableObserver.disconnect();

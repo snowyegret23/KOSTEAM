@@ -8,6 +8,7 @@ tmp*cwd
 
 # Build output
 dist/
+test-results/
 *.zip
 STEAM_CART_REPORT.md
 nul
