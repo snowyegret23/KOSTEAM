@@ -71,27 +71,57 @@ import {
 
         if (!curatorClanId) return;
 
+        let stopped = false;
+        let pendingFrame = null;
+        const readyEvents = ['load', 'vgp_gamepadnavready', 'vgp_onfocus'];
+        const inputEvents = ['wheel', 'keydown', 'pointerdown', 'touchstart', 'vgp_onbuttondown'];
+
         // Function to find and scroll to curator review
         const scrollToCuratorReview = () => {
             const curatorSection = document.querySelector('[data-featuretarget="referring-curator-review"]') ||
                 document.querySelector('.referring_curator_ctn');
 
             if (curatorSection && curatorSection.getBoundingClientRect().height > 0) {
+                if (isBigPicture && !curatorSection.contains(document.activeElement)) {
+                    curatorSection.querySelector('a[href], button, [tabindex="0"]')?.focus({ preventScroll: true });
+                }
                 curatorSection.scrollIntoView({ behavior: 'auto', block: 'start' });
                 return true;
             }
             return false;
         };
 
-        // Try immediate scroll
-        if (scrollToCuratorReview()) return;
-
-        // If not found, wait for DOM to load with MutationObserver
-        const observer = new MutationObserver(() => {
+        const tryScroll = () => {
+            if (stopped) return;
             if (scrollToCuratorReview()) {
                 observer.disconnect();
             }
-        });
+        };
+        const observer = new MutationObserver(tryScroll);
+        const scheduleScroll = event => {
+            if (event.type === 'vgp_onfocus' && event.target.closest?.(
+                '[data-featuretarget="referring-curator-review"], .referring_curator_ctn'
+            )) return;
+            if (stopped || pendingFrame !== null) return;
+            pendingFrame = window.requestAnimationFrame(() => {
+                pendingFrame = null;
+                tryScroll();
+            });
+        };
+        const stop = () => {
+            stopped = true;
+            observer.disconnect();
+            if (pendingFrame !== null) window.cancelAnimationFrame(pendingFrame);
+            pendingFrame = null;
+            readyEvents.forEach(event => window.removeEventListener(event, scheduleScroll));
+            inputEvents.forEach(event => window.removeEventListener(event, stop, true));
+        };
+
+        // Steam can restore its initial gamepad focus after the review has rendered.
+        if (isBigPicture) {
+            readyEvents.forEach(event => window.addEventListener(event, scheduleScroll));
+            inputEvents.forEach(event => window.addEventListener(event, stop, { capture: true, passive: true }));
+        }
 
         observer.observe(document.body, {
             childList: true,
@@ -99,7 +129,8 @@ import {
             attributes: true,
             attributeFilter: ['class', 'style', 'hidden']
         });
-        observerCleanups.push(() => observer.disconnect());
+        observerCleanups.push(stop);
+        tryScroll();
     }
 
     /**
@@ -308,7 +339,8 @@ import {
                 const noKoreanBox = gamepadPurchaseArea ? null :
                     noticeContent?.closest('#purchase_note, .notice_box') || noticeContent;
                 const existingBanner = document.querySelector('.kr-patch-banner');
-                const targetArea = gamepadPurchaseArea || noKoreanBox || existingBanner ||
+                const targetArea = gamepadPurchaseArea?.closest('.full_width_carousel_container') ||
+                    gamepadPurchaseArea || noKoreanBox || existingBanner ||
                     document.querySelector('.game_area_purchase_game_wrapper') ||
                     document.querySelector('.game_area_purchase') ||
                     document.querySelector('#game_area_purchase');

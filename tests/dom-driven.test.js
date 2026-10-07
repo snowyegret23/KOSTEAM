@@ -365,13 +365,15 @@ test('Big Picture banners stay outside the hidden legacy purchase area and its l
         const legacy = page.document.querySelector('#game_area_purchase');
         const notice = page.document.querySelector('#purchase_note');
         const purchase = page.document.querySelector('#gamepadPurchaseOptions');
+        const carousel = purchase.parentElement;
         await page.run();
         legacy.style.display = 'none';
         await settle();
         const assertPlacement = () => {
             const banner = page.document.querySelector('.kr-patch-banner');
             assert.equal(banner.closest('#game_area_purchase'), null);
-            assert.equal(purchase.previousElementSibling, banner);
+            assert.equal(carousel.previousElementSibling, banner);
+            assert.equal(banner.closest('.full_width_carousel_container'), null);
             assert.equal(page.document.querySelectorAll('.kr-patch-banner').length, 1);
             assert.equal(notice.parentElement, legacy);
             if (lang === 'ja') assert.equal(banner.textContent, storeLanguageNotice);
@@ -528,6 +530,66 @@ test('Big Picture curator links navigate in the current view while other links k
         ], agent);
         await page.update({ source_steamapp: false });
         assert.equal(page.document.querySelector('.kr-patch-link-text').target, target);
+    }
+});
+
+test('Big Picture curator navigation survives Steam startup focus and keeps controller focus on the review', async t => {
+    const page = createPage(t, {
+        url: 'https://store.steampowered.com/app/42/?curator_clanid=42788178',
+        html: '<button id="top">Trailer</button><section data-featuretarget="referring-curator-review"><a href="https://store.steampowered.com/curator/42788178/" tabindex="0">Curator</a></section>'
+    });
+    Object.defineProperty(page.window.navigator, 'userAgent', { value: 'Valve Steam Gamepad' });
+    const frames = [];
+    page.window.requestAnimationFrame = callback => frames.push(callback);
+    page.window.HTMLElement.prototype.getBoundingClientRect = () => ({ height: 100 });
+    const scrolls = [];
+    page.window.HTMLElement.prototype.scrollIntoView = function () { scrolls.push(this); };
+    const review = page.document.querySelector('section');
+    const link = review.querySelector('a');
+    await page.run();
+    frames.splice(0).forEach(callback => callback());
+    assert.equal(page.document.activeElement, link);
+    const beforeReset = scrolls.length;
+    const top = page.document.querySelector('#top');
+    top.focus();
+    top.dispatchEvent(new page.window.CustomEvent('vgp_onfocus', { bubbles: true, detail: { source: 4 } }));
+    page.window.dispatchEvent(new page.window.Event('vgp_gamepadnavready'));
+    page.window.dispatchEvent(new page.window.Event('load'));
+    assert.equal(frames.length, 1);
+    frames.splice(0).forEach(callback => callback());
+    assert.equal(page.document.activeElement, link);
+    assert.equal(scrolls.length, beforeReset + 1);
+    assert.equal(scrolls.at(-1), review);
+    link.dispatchEvent(new page.window.CustomEvent('vgp_onfocus', { bubbles: true }));
+    assert.equal(frames.length, 0);
+});
+
+test('Big Picture curator correction stops on user input or page exit, including queued corrections', async t => {
+    for (const event of ['wheel', 'keydown', 'pointerdown', 'touchstart', 'vgp_onbuttondown', 'pagehide']) {
+        const page = createPage(t, {
+            url: 'https://store.steampowered.com/app/42/?curator_clanid=42788178',
+            html: '<section data-featuretarget="referring-curator-review"><a href="#">Curator</a></section>'
+        });
+        Object.defineProperty(page.window.navigator, 'userAgent', { value: 'Valve Steam Gamepad' });
+        const frames = new Map();
+        let nextFrame = 0;
+        page.window.requestAnimationFrame = callback => { frames.set(++nextFrame, callback); return nextFrame; };
+        page.window.cancelAnimationFrame = id => frames.delete(id);
+        page.window.HTMLElement.prototype.getBoundingClientRect = () => ({ height: 100 });
+        let scrolls = 0;
+        page.window.HTMLElement.prototype.scrollIntoView = () => scrolls++;
+        await page.run();
+        page.window.dispatchEvent(new page.window.Event('vgp_gamepadnavready'));
+        assert.equal(frames.size, 1, event);
+        page.window.dispatchEvent(new page.window.Event(event));
+        const beforeInput = scrolls;
+        assert.equal(frames.size, 0, event);
+        page.window.dispatchEvent(new page.window.Event('vgp_gamepadnavready'));
+        page.document.body.dispatchEvent(new page.window.CustomEvent('vgp_onfocus', { bubbles: true }));
+        page.document.querySelector('section').append(' Loaded');
+        await settle();
+        assert.equal(frames.size, 0, event);
+        assert.equal(scrolls, beforeInput, event);
     }
 });
 
