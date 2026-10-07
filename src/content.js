@@ -21,6 +21,7 @@ import {
     if (!appIdMatch) return;
 
     const appId = appIdMatch[1];
+    const storeBrowseCacheSelector = '[data-featuretarget="apppage-store-browse-cache"]';
     const supportsPatchInfo = /^(ko|en)(-|$)/i.test(document.documentElement.lang.trim());
 
     let patchInfoData = null;
@@ -101,7 +102,7 @@ import {
     }
 
     /**
-     * Start watching for the language table and its state changes
+     * Start watching for language support data and its state changes
      */
     function startLanguageTableWatcher() {
         let lastKoreanSupport;
@@ -121,23 +122,24 @@ import {
         const tableObserver = new MutationObserver(() => checkAndUpdate());
 
         const attachTableObserver = () => {
-            const container = document.querySelector('#languageTable') || document.querySelector('.game_language_options');
-            if (!container || container === observedContainer) return;
+            const container = document.querySelector('#languageTable') || document.querySelector('.game_language_options') ||
+                document.querySelector(storeBrowseCacheSelector);
+            if (container === observedContainer) return;
 
             tableObserver.disconnect();
             observedContainer = container;
-            tableObserver.observe(container, {
-                attributes: true,
-                childList: true,
-                subtree: true,
-                characterData: true
-            });
+            if (container) {
+                tableObserver.observe(container, {
+                    attributes: true,
+                    childList: true,
+                    subtree: true,
+                    characterData: true
+                });
+            }
             checkAndUpdate();
         };
 
-        const pageObserver = new MutationObserver(() => {
-            if (!observedContainer?.isConnected) attachTableObserver();
-        });
+        const pageObserver = new MutationObserver(() => attachTableObserver());
 
         pageObserver.observe(document.body, {
             childList: true,
@@ -156,7 +158,23 @@ import {
      */
     function checkOfficialKoreanSupport() {
         const table = document.querySelector('.game_language_options');
-        if (!table) return false;
+        if (!table) {
+            const cache = document.querySelector(storeBrowseCacheSelector);
+            try {
+                const payloads = JSON.parse(cache?.getAttribute('data-props') || '{}')?.rgPayloads;
+                if (!Array.isArray(payloads)) return false;
+
+                const koreanLanguageId = 4;
+                return payloads.some(payload => Array.isArray(payload?.rgStoreItems) &&
+                    payload.rgStoreItems.some(item => item?.item_type === 0 && item.success === 1 &&
+                        String(item.id) === appId && Array.isArray(item.supported_languages) &&
+                        item.supported_languages.some(language => language?.elanguage === koreanLanguageId &&
+                            [language.supported, language.full_audio, language.subtitles].some(value =>
+                                value === true || value === 1))));
+            } catch {
+                return false;
+            }
+        }
 
         const localizedLabel = document.querySelector('#review_language_koreana[data-language]')?.dataset.language;
         const labels = new Set(KOREAN_LABELS);

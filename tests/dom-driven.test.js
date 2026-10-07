@@ -144,6 +144,9 @@ function createPage(t, { html = '', lang = 'en', url = 'https://store.steampower
 
 const purchaseArea = '<main id="purchase"><div id="game_area_purchase"><div class="game_area_purchase_game_wrapper" id="buy">Buy</div></div></main>';
 const languageTable = (cell = '', label = 'Korean') => `<aside><table class="game_language_options"><tr><td class="ellipsis">${label}</td><td class="checkcol">${cell}</td></tr></table></aside>`;
+const storeBrowseCache = items => `<div data-featuretarget="apppage-store-browse-cache" data-props="${JSON.stringify({
+    rgPayloads: [{ rgStoreItems: items }]
+}).replaceAll('"', '&quot;')}"></div>`;
 const userPatch = {
     type: 'user', sources: ['steamapp', 'quasarplay'], links: ['', ''],
     patch_sources: ['steamapp', 'quasarplay'], patch_descriptions: ['제작자: 번역팀', '유저 한글 패치'],
@@ -232,6 +235,115 @@ test('1.6.3 literal language checkmarks still identify official Korean support',
     const page = createPage(t, { html: purchaseArea + languageTable('✔') });
     await page.run();
     assert.equal(page.document.querySelector('.kr-patch-type-label').textContent, '공식 한국어');
+});
+
+test('Big Picture identifies official Korean support from the current app store data', async t => {
+    for (const promiseApi of [false, true]) {
+        for (const flag of ['supported', 'full_audio', 'subtitles']) {
+            for (const value of [1, true]) {
+                const info = value === true ? userPatch : null;
+                const page = createPage(t, { promiseApi, info,
+                    url: 'https://store.steampowered.com/app/1174180/',
+                    html: '<main><div id="game_area_purchase"></div></main>' + storeBrowseCache([
+                        { item_type: 0, id: 43, appid: 43, success: 1, supported_languages: [] },
+                        { item_type: 0, id: 1174180, appid: 1174180, success: 1, supported_languages: [
+                            { elanguage: 0, supported: 1, full_audio: 1, subtitles: 1 },
+                            { elanguage: 4, eadditionallanguage: -1, supported: 0, full_audio: 0, subtitles: 0, [flag]: value }
+                        ] }
+                    ]) });
+                await page.run();
+                assert.equal(page.document.querySelector('.kr-patch-type-label')?.textContent,
+                    info ? '공식(추가정보 존재)' : '공식 한국어');
+                assert.equal(page.document.querySelectorAll('.kr-patch-banner').length, 1);
+                assert.equal(page.document.querySelector('#game_area_purchase').previousElementSibling.className, 'kr-patch-banner');
+                assert.equal(page.messages.length, 1);
+            }
+        }
+    }
+});
+
+test('Big Picture does not borrow language support from other apps, packages or invalid data', async t => {
+    const supported = { item_type: 0, id: 42, appid: 42, success: 1,
+        supported_languages: [{ elanguage: 4, supported: 1 }] };
+    for (const item of [
+        null,
+        { ...supported, id: 43, appid: 43 },
+        { ...supported, item_type: 1 },
+        { ...supported, item_type: 2 },
+        { ...supported, success: 2 },
+        { ...supported, supported_languages: [{ elanguage: 0, supported: 1 }] },
+        { ...supported, supported_languages: [{ elanguage: 4, supported: 0, full_audio: 0, subtitles: 0 }] },
+        { ...supported, supported_languages: [{ elanguage: 4, supported: '0', full_audio: 'false' }] },
+        { ...supported, supported_languages: [null] },
+        { ...supported, supported_languages: null },
+        { ...supported, supported_languages: {} },
+        { ...supported, supported_languages: [], included_items: { included_apps: [supported] } }
+    ]) {
+        const page = createPage(t, { html: purchaseArea + storeBrowseCache([item]) });
+        await page.run();
+        assert.equal(page.document.querySelector('.kr-patch-type-label')?.textContent, '한국어 없음');
+    }
+    for (const raw of ['{', '{}', 'null', '{"rgPayloads":null}', '{"rgPayloads":{}}', '{"rgPayloads":[null,{}, {"rgStoreItems":{}}]}']) {
+        const page = createPage(t, { html: purchaseArea + storeBrowseCache([]), info: userPatch });
+        page.document.querySelector('[data-featuretarget]').setAttribute('data-props', raw);
+        await page.run();
+        assert.equal(page.document.querySelector('.kr-patch-type-label')?.textContent, '유저패치');
+    }
+});
+
+test('Big Picture reacts to late, changed, replaced and removed store language data', async t => {
+    const page = createPage(t, { html: purchaseArea, info: userPatch });
+    await page.run();
+    const label = () => page.document.querySelector('.kr-patch-type-label')?.textContent;
+    assert.equal(label(), '유저패치');
+    page.document.body.insertAdjacentHTML('beforeend', '<div data-featuretarget="apppage-store-browse-cache"></div>');
+    await settle();
+    const cache = page.document.querySelector('[data-featuretarget]');
+    const data = { rgPayloads: [{ rgStoreItems: [
+        { item_type: 0, id: 42, appid: 42, success: 1, supported_languages: [{ elanguage: 4, subtitles: 1 }] }
+    ] }] };
+    cache.setAttribute('data-props', JSON.stringify(data));
+    await settle();
+    assert.equal(label(), '공식(추가정보 존재)');
+    cache.setAttribute('data-props', '{');
+    await settle();
+    assert.equal(label(), '유저패치');
+    cache.outerHTML = storeBrowseCache(data.rgPayloads[0].rgStoreItems);
+    await settle();
+    assert.equal(label(), '공식(추가정보 존재)');
+    await page.update({ disable_patch_info: true });
+    page.document.querySelector('[data-featuretarget]').remove();
+    await settle();
+    assert.equal(page.document.querySelector('.kr-patch-banner'), null);
+    await page.update({ disable_patch_info: false });
+    assert.equal(label(), '유저패치');
+    page.document.body.insertAdjacentHTML('beforeend', storeBrowseCache(data.rgPayloads[0].rgStoreItems));
+    await settle();
+    assert.equal(label(), '공식(추가정보 존재)');
+    page.document.querySelector('[data-featuretarget]').remove();
+    await settle();
+    assert.equal(label(), '유저패치');
+    assert.equal(page.document.querySelectorAll('.kr-patch-banner').length, 1);
+});
+
+test('desktop language tables remain authoritative when store data is also present', async t => {
+    const page = createPage(t, { html: purchaseArea + storeBrowseCache([
+        { item_type: 0, id: 42, appid: 42, success: 1, supported_languages: [{ elanguage: 4, supported: 1 }] }
+    ]) });
+    await page.run();
+    assert.equal(page.document.querySelector('.kr-patch-type-label')?.textContent, '공식 한국어');
+    page.document.body.insertAdjacentHTML('beforeend', languageTable());
+    await settle();
+    assert.equal(page.document.querySelector('.kr-patch-type-label')?.textContent, '한국어 없음');
+    page.document.querySelector('td.checkcol').textContent = '✔';
+    await settle();
+    assert.equal(page.document.querySelector('.kr-patch-type-label')?.textContent, '공식 한국어');
+    page.document.querySelector('tr').classList.add('unsupported');
+    await settle();
+    assert.equal(page.document.querySelector('.kr-patch-type-label')?.textContent, '한국어 없음');
+    page.document.querySelector('aside').remove();
+    await settle();
+    assert.equal(page.document.querySelector('.kr-patch-type-label')?.textContent, '공식 한국어');
 });
 
 test('purchase container fallbacks keep free-to-play and older store layouts out of the sidebar', async t => {
