@@ -22,6 +22,7 @@ import {
 
     const appId = appIdMatch[1];
     const storeBrowseCacheSelector = '[data-featuretarget="apppage-store-browse-cache"]';
+    const isBigPicture = /Valve Steam (?:Gamepad|Tenfoot)/i.test(navigator.userAgent);
     const supportsPatchInfo = /^(ko|en)(-|$)/i.test(document.documentElement.lang.trim());
 
     let patchInfoData = null;
@@ -426,7 +427,7 @@ import {
 
                         const linkAnchor = createElement('a', 'kr-patch-link-text', `[ ${getSourceLabel(source)} ]`);
                         linkAnchor.href = data.url;
-                        linkAnchor.target = '_blank';
+                        linkAnchor.target = source === 'quasarplay' && isBigPicture ? '_self' : '_blank';
                         linkAnchor.rel = 'noopener noreferrer';
                         headerDiv.appendChild(linkAnchor);
 

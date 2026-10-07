@@ -467,6 +467,38 @@ test('curator links wait for visible legacy and current reviews, then scroll onl
     }
 });
 
+test('Big Picture curator links navigate in the current view while other links keep their target', async t => {
+    for (const [agent, target] of [
+        ['Mozilla/5.0 Valve Steam Gamepad', '_self'],
+        ['Mozilla/5.0 Valve Steam Tenfoot', '_self'],
+        ['Mozilla/5.0 Valve Steam Client', '_blank'],
+        ['Mozilla/5.0 Chrome/139.0.0.0 Safari/537.36', '_blank']
+    ]) {
+        const curatorUrl = 'https://store.steampowered.com/app/1348700/?curator_clanid=42788178';
+        const info = { ...userPatch, source_site_urls: {
+            steamapp: 'https://hanpe.net/app/418x9m/spicewolf-vr2', quasarplay: curatorUrl
+        } };
+        const page = createPage(t, { url: 'https://store.steampowered.com/app/1348700/SpiceWolf_VR2/',
+            html: purchaseArea, info });
+        Object.defineProperty(page.window.navigator, 'userAgent', { value: agent });
+        const clicks = [];
+        page.document.addEventListener('click', event => {
+            const link = event.target.closest('a');
+            if (!link) return;
+            clicks.push({ href: link.href, target: link.target, prevented: event.defaultPrevented });
+            event.preventDefault();
+        });
+        await page.run();
+        page.document.querySelectorAll('.kr-patch-link-text').forEach(link => link.click());
+        assert.deepEqual(clicks, [
+            { href: info.source_site_urls.steamapp, target: '_blank', prevented: false },
+            { href: curatorUrl, target, prevented: false }
+        ], agent);
+        await page.update({ source_steamapp: false });
+        assert.equal(page.document.querySelector('.kr-patch-link-text').target, target);
+    }
+});
+
 test('curator scrolling does not run on ordinary app links or after leaving the page', async t => {
     for (const query of ['', '?curator_clanid=42788178']) {
         const page = createPage(t, { url: `https://store.steampowered.com/app/42/${query}` });
