@@ -357,6 +357,38 @@ test('purchase container fallbacks keep free-to-play and older store layouts out
     }
 });
 
+test('Big Picture banners stay outside the hidden legacy purchase area and its language notice', async t => {
+    for (const lang of ['ko', 'en', 'ja']) {
+        const page = createPage(t, { lang, info: userPatch, html: `
+            <div class="full_width_carousel_container"><div id="gamepadPurchaseOptions" data-featuretarget="purchase-options"><button>Demo</button><button>Buy</button></div></div>
+            <div id="game_area_purchase" class="game_area_purchase"><div id="purchase_note"><div class="notice_box_content">한국어(을)를 지원하지 않습니다</div></div></div>` });
+        const legacy = page.document.querySelector('#game_area_purchase');
+        const notice = page.document.querySelector('#purchase_note');
+        const purchase = page.document.querySelector('#gamepadPurchaseOptions');
+        await page.run();
+        legacy.style.display = 'none';
+        await settle();
+        const assertPlacement = () => {
+            const banner = page.document.querySelector('.kr-patch-banner');
+            assert.equal(banner.closest('#game_area_purchase'), null);
+            assert.equal(purchase.previousElementSibling, banner);
+            assert.equal(page.document.querySelectorAll('.kr-patch-banner').length, 1);
+            assert.equal(notice.parentElement, legacy);
+            if (lang === 'ja') assert.equal(banner.textContent, storeLanguageNotice);
+            else assert.equal(banner.querySelector('.kr-patch-type-label').textContent, '유저패치');
+        };
+        assertPlacement();
+        purchase.innerHTML = '<button>Loaded purchase options</button>';
+        await page.update({ source_steamapp: false });
+        assertPlacement();
+        await page.update({ disable_patch_info: true });
+        assert.equal(page.document.querySelector('.kr-patch-banner'), null);
+        assert.equal(notice.parentElement, legacy);
+        await page.update({ disable_patch_info: false });
+        assertPlacement();
+    }
+});
+
 test('1.6.3 database patch information remains visible without a language table', async t => {
     const page = createPage(t, { html: purchaseArea, info: userPatch });
     await page.run();

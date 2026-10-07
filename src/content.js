@@ -286,6 +286,7 @@ import {
                     return;
                 }
                 // Find insertion target
+                const gamepadPurchaseArea = document.querySelector('#gamepadPurchaseOptions');
                 const noticeContent = Array.from(document.querySelectorAll(
                     '.notice_box_content, #purchase_note .game_area_description, .notice_box .game_area_description'
                 )).find(notice => {
@@ -303,9 +304,11 @@ import {
                         }
                     });
                 });
-                const noKoreanBox = noticeContent?.closest('#purchase_note, .notice_box') || noticeContent;
+                // Big Picture hides the legacy purchase area, including its language notice.
+                const noKoreanBox = gamepadPurchaseArea ? null :
+                    noticeContent?.closest('#purchase_note, .notice_box') || noticeContent;
                 const existingBanner = document.querySelector('.kr-patch-banner');
-                const targetArea = noKoreanBox || existingBanner ||
+                const targetArea = gamepadPurchaseArea || noKoreanBox || existingBanner ||
                     document.querySelector('.game_area_purchase_game_wrapper') ||
                     document.querySelector('.game_area_purchase') ||
                     document.querySelector('#game_area_purchase');
