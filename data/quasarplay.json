@@ -3,7 +3,7 @@
   "curator_name": "Curator #42788178",
   "curator_url": "https://store.steampowered.com/curator/42788178/",
   "total_games": 1828,
-  "exported_at": "2026-10-04T23:47:48.245826",
+  "exported_at": "2026-10-08T00:41:08.094221",
   "games": [
     {
       "appid": "284050",
@@ -2853,9 +2853,9 @@
       "appid": "1003890",
       "url": "https://store.steampowered.com/app/1003890/Blacksad_Under_the_Skin/",
       "curator_url": "https://store.steampowered.com/app/1003890/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 하지만구",
+      "review": "한글 패치 - 하지만구\n한글 패치 - 도미",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -9027,7 +9027,7 @@
       "appid": "899970",
       "url": "https://store.steampowered.com/app/899970/NEKOPARA_Extra/",
       "curator_url": "https://store.steampowered.com/app/899970/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 - 와들, DVD, 게지네 님",
+      "review": "한글 패치 - 와들, DVD, 게지네",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -14778,7 +14778,7 @@
       "appid": "12210",
       "url": "https://store.steampowered.com/app/12210/Grand_Theft_Auto_IV_The_Complete_Edition/",
       "curator_url": "https://store.steampowered.com/app/12210/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 휠맨\n유저 한글 패치 -",
+      "review": "한글 패치 - 휠맨\n한글 패치 - 안고임",
       "review_has_url": true,
       "review_url_count": 2,
       "type": "recommended"

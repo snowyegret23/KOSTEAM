@@ -1180,6 +1180,19 @@
     ]
   },
   {
+    "app_id": "18470",
+    "game_title": "Helldorado",
+    "steam_link": "https://store.steampowered.com/app/18470",
+    "source_site_url": "https://hanpe.net/app/j562d8/helldorado",
+    "patch_type": "user",
+    "patch_links": [
+      "7f8522ce"
+    ],
+    "patch_descriptions": [
+      "제작자 : 노말리토"
+    ]
+  },
+  {
     "app_id": "18500",
     "game_title": "Defense Grid: The Awakening",
     "steam_link": "https://store.steampowered.com/app/18500",
@@ -4207,6 +4220,19 @@
     ],
     "patch_descriptions": [
       "[창작마당 콘텐츠] 번역 및 배포: Eden Kim 검수: Monochrome [공식 현지화] 번역: Eden Kim 검수: Monochrome 기타 도움: Liasder, Khan"
+    ]
+  },
+  {
+    "app_id": "223100",
+    "game_title": "Homefront®: The Revolution",
+    "steam_link": "https://store.steampowered.com/app/223100",
+    "source_site_url": "https://hanpe.net/app/4r8oxg/homefront-the-revolution",
+    "patch_type": "user",
+    "patch_links": [
+      "930ea638"
+    ],
+    "patch_descriptions": [
+      "제작자 : KOZAK"
     ]
   },
   {
@@ -7765,6 +7791,19 @@
     ]
   },
   {
+    "app_id": "320430",
+    "game_title": "Ascension: Deckbuilding Game",
+    "steam_link": "https://store.steampowered.com/app/320430",
+    "source_site_url": "https://hanpe.net/app/l2e9xq/ascension-deckbuilding-game",
+    "patch_type": "user",
+    "patch_links": [
+      "26cf98f6"
+    ],
+    "patch_descriptions": [
+      "사용 폰트 : 마루 부리 , 송명 도움 주신 분 : KABAL 기반 패치"
+    ]
+  },
+  {
     "app_id": "321300",
     "game_title": "Mount & Blade: Warband - Viking Conquest Reforged Edition",
     "steam_link": "https://store.steampowered.com/app/321300",
@@ -8690,6 +8729,19 @@
     ],
     "patch_descriptions": [
       "패치 v1.0 번역, 검수: 돌삔, JLim 패치제작, 기술지원: LSW"
+    ]
+  },
+  {
+    "app_id": "359100",
+    "game_title": "Q.U.B.E. 2",
+    "steam_link": "https://store.steampowered.com/app/359100",
+    "source_site_url": "https://hanpe.net/app/4roomr/qube-2",
+    "patch_type": "user",
+    "patch_links": [
+      "7cdc0b4b"
+    ],
+    "patch_descriptions": [
+      "제작자 : 노말리토"
     ]
   },
   {
@@ -11724,7 +11776,7 @@
     "source_site_url": "https://hanpe.net/app/4eqxqz/arcanum-of-steamworks-and-magick-obscura",
     "patch_type": "user",
     "patch_links": [
-      "db94fb79"
+      "a9b09adf"
     ],
     "patch_descriptions": [
       "제작자 : 정보없음"
@@ -16467,10 +16519,12 @@
     "source_site_url": "https://hanpe.net/app/4r1m2r/nekopara-extra",
     "patch_type": "user",
     "patch_links": [
-      "8bbcc378"
+      "8bbcc378",
+      "95bdb541"
     ],
     "patch_descriptions": [
-      "제작자 : 정보없음"
+      "제작자 : 정보없음",
+      "제작자 : 해탈한 세르 OVA DLC 한글패치 자막 싱크가 BD기반이라 1초 빠르게 해야합니다."
     ]
   },
   {
@@ -19105,10 +19159,12 @@
     "source_site_url": "https://hanpe.net/app/jnzv08/not-for-broadcast",
     "patch_type": "user",
     "patch_links": [
-      "f73da94b"
+      "f73da94b",
+      "9f588b33"
     ],
     "patch_descriptions": [
-      "제작자 : shake_luna"
+      "제작자 : shake_luna",
+      "제작자 : eaubita"
     ]
   },
   {
@@ -22728,6 +22784,19 @@
     ]
   },
   {
+    "app_id": "1555140",
+    "game_title": "Born of Bread",
+    "steam_link": "https://store.steampowered.com/app/1555140",
+    "source_site_url": "https://hanpe.net/app/4r3m57/born-of-bread",
+    "patch_type": "official",
+    "patch_links": [
+      "2452d118"
+    ],
+    "patch_descriptions": [
+      "스토브 공식 한글 (스팀 x)"
+    ]
+  },
+  {
     "app_id": "1555910",
     "game_title": "Wet Nightmares",
     "steam_link": "https://store.steampowered.com/app/1555910",
@@ -24647,6 +24716,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 바나나우유"
+    ]
+  },
+  {
+    "app_id": "1811500",
+    "game_title": "LOOPERS",
+    "steam_link": "https://store.steampowered.com/app/1811500",
+    "source_site_url": "https://hanpe.net/app/4o7wyk/loopers",
+    "patch_type": "user",
+    "patch_links": [
+      "61a7e4e3"
+    ],
+    "patch_descriptions": [
+      "제작자 : etashi04"
     ]
   },
   {
@@ -26838,14 +26920,12 @@
     "source_site_url": "https://hanpe.net/app/l7onkp/%E9%A3%8E%E5%B8%86%E7%BA%AA%E5%85%83-sailing-era",
     "patch_type": "user",
     "patch_links": [
-      "c3ee8770",
-      "9c8298de",
-      "b8092b51"
+      "7b28ce62",
+      "12709a44"
     ],
     "patch_descriptions": [
-      "제작자 : 정보없음",
-      "제작자 : 휴리어벨",
-      "기반 개선패치"
+      "제작자 : 진정한보수",
+      "제작자 : 도모체프스키"
     ]
   },
   {
@@ -27343,6 +27423,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 손셩"
+    ]
+  },
+  {
+    "app_id": "2260920",
+    "game_title": "NEKOPARA Extra - NEKOPARA OVA",
+    "steam_link": "https://store.steampowered.com/app/2260920",
+    "source_site_url": "https://hanpe.net/app/l7pzgp/nekopara-extra-nekopara-ova",
+    "patch_type": "user",
+    "patch_links": [
+      "95bdb541"
+    ],
+    "patch_descriptions": [
+      "제작자 : 해탈한 세르 자막 싱크가 BD기반이라 1초 빠르게 해야합니다."
     ]
   },
   {
@@ -28273,9 +28366,11 @@
     "source_site_url": "https://hanpe.net/app/j5mo6e/dungeons-degenerate-gamblers",
     "patch_type": "user",
     "patch_links": [
+      "e7cc0d6a",
       "e7cc0d6a"
     ],
     "patch_descriptions": [
+      "제작자 : 으잌",
       "제작자 : 으잌"
     ]
   },
@@ -35052,10 +35147,12 @@
     "source_site_url": "https://hanpe.net/app/l7vpdo/guildrun",
     "patch_type": "user",
     "patch_links": [
-      "003d7c2f"
+      "003d7c2f",
+      "2d6bad83"
     ],
     "patch_descriptions": [
-      "제작자 : LiyuuFan"
+      "데모판 한글화 제작자 : LiyuuFan",
+      "데모판 한글패치 일본어 MOD 제작: @tomathinn_G 한국어 MOD 제작: @himmel_dev"
     ]
   },
   {
@@ -35617,6 +35714,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 잔치1국수"
+    ]
+  },
+  {
+    "app_id": "3846480",
+    "game_title": "PLATONICA SPACE",
+    "steam_link": "https://store.steampowered.com/app/3846480",
+    "source_site_url": "https://hanpe.net/app/l2d9v3/platonica-space",
+    "patch_type": "user",
+    "patch_links": [
+      "c9d2d587"
+    ],
+    "patch_descriptions": [
+      "제작자 : etashi04"
     ]
   },
   {
@@ -36752,6 +36862,19 @@
     "patch_type": "official",
     "patch_links": [],
     "patch_descriptions": []
+  },
+  {
+    "app_id": "4423590",
+    "game_title": "うつらうつらとつつうらうらと",
+    "steam_link": "https://store.steampowered.com/app/4423590",
+    "source_site_url": "https://hanpe.net/app/jmn8v5/%E3%81%86%E3%81%A4%E3%82%89%E3%81%86%E3%81%A4%E3%82%89%E3%81%A8%E3%81%A4%E3%81%A4%E3%81%86%E3%82%89%E3%81%86%E3%82%89%E3%81%A8",
+    "patch_type": "user",
+    "patch_links": [
+      "013637e1"
+    ],
+    "patch_descriptions": [
+      "제작자 : 델망"
+    ]
   },
   {
     "app_id": "4429720",
