@@ -1305,21 +1305,6 @@
     "stove_url": "https://store.onstove.com/ko/games/3459"
   },
   {
-    "app_id": "2585050",
-    "stove_game_no": "6394",
-    "stove_product_no": "3458",
-    "game_title": "타이론 소울 (TYRONE SOULZ)",
-    "steam_link": "https://store.steampowered.com/app/2585050",
-    "patch_type": "official",
-    "patch_links": [
-      "exist"
-    ],
-    "patch_descriptions": [
-      ""
-    ],
-    "stove_url": "https://store.onstove.com/ko/games/3458"
-  },
-  {
     "app_id": "2192390",
     "stove_game_no": "5729",
     "stove_product_no": "3473",
@@ -1333,6 +1318,21 @@
       ""
     ],
     "stove_url": "https://store.onstove.com/ko/games/3473"
+  },
+  {
+    "app_id": "2585050",
+    "stove_game_no": "6394",
+    "stove_product_no": "3458",
+    "game_title": "타이론 소울 (TYRONE SOULZ)",
+    "steam_link": "https://store.steampowered.com/app/2585050",
+    "patch_type": "official",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "stove_url": "https://store.onstove.com/ko/games/3458"
   },
   {
     "app_id": "2319030",
@@ -1965,6 +1965,21 @@
     "stove_url": "https://store.onstove.com/ko/games/2274"
   },
   {
+    "app_id": "2297230",
+    "stove_game_no": "4360",
+    "stove_product_no": "2279",
+    "game_title": "세트리스(SETTRIS)",
+    "steam_link": "https://store.steampowered.com/app/2297230",
+    "patch_type": "official",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "stove_url": "https://store.onstove.com/ko/games/2279"
+  },
+  {
     "app_id": "2144360",
     "stove_game_no": "4359",
     "stove_product_no": "2278",
@@ -2023,21 +2038,6 @@
       ""
     ],
     "stove_url": "https://store.onstove.com/ko/games/2277"
-  },
-  {
-    "app_id": "2297230",
-    "stove_game_no": "4360",
-    "stove_product_no": "2279",
-    "game_title": "세트리스(SETTRIS)",
-    "steam_link": "https://store.steampowered.com/app/2297230",
-    "patch_type": "official",
-    "patch_links": [
-      "exist"
-    ],
-    "patch_descriptions": [
-      ""
-    ],
-    "stove_url": "https://store.onstove.com/ko/games/2279"
   },
   {
     "app_id": "707030",
@@ -2445,21 +2445,6 @@
     "stove_url": "https://store.onstove.com/ko/games/1866"
   },
   {
-    "app_id": "1812060",
-    "stove_game_no": "3407",
-    "stove_product_no": "1816",
-    "game_title": "요괴도: 백귀야행 컴플리트 에디션",
-    "steam_link": "https://store.steampowered.com/app/1812060",
-    "patch_type": "official",
-    "patch_links": [
-      "exist"
-    ],
-    "patch_descriptions": [
-      ""
-    ],
-    "stove_url": "https://store.onstove.com/ko/games/1816"
-  },
-  {
     "app_id": "1303740",
     "stove_game_no": "3410",
     "stove_product_no": "1841",
@@ -2488,6 +2473,21 @@
       ""
     ],
     "stove_url": "https://store.onstove.com/ko/games/1862"
+  },
+  {
+    "app_id": "1812060",
+    "stove_game_no": "3407",
+    "stove_product_no": "1816",
+    "game_title": "요괴도: 백귀야행 컴플리트 에디션",
+    "steam_link": "https://store.steampowered.com/app/1812060",
+    "patch_type": "official",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "stove_url": "https://store.onstove.com/ko/games/1816"
   },
   {
     "app_id": "1426110",

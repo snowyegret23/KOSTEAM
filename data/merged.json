@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-08T00:41:22.499Z",
+    "generated_at": "2026-10-10T00:28:08.580Z",
     "total_with_steam_link": 3873,
     "total_without_steam_link": 9,
     "sources": [
@@ -12578,7 +12578,7 @@
     {
       "app_id": "3111080",
       "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/3111080/Secret_Agent_Wizard_Boy_and_the_International_Crime_Syndicate/",
+      "steam_link": "https://store.steampowered.com/app/3111080/Secret_Agent_Wizard_Boy/",
       "patch_type": "user",
       "patch_links": [
         "exist"
