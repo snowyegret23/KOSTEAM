@@ -529,6 +529,71 @@ test('1.6.3 search bypass preserves search terms and explicit filters with ndl=1
     assert.deepEqual(page.navigations, []);
 });
 
+for (const client of ['Client', 'Gamepad', 'Tenfoot']) {
+    for (const promiseApi of [false, true]) {
+        test(`Steam search ${client}/${promiseApi ? 'promise' : 'callback'} waits for a loaded, visible view and redirects once`, async t => {
+            for (const term of ['danganronpa', 'mad father', 'Spice&Wolf VR2', 'Portal 2', 'Stardew Valley']) {
+                const url = new URL('https://store.steampowered.com/search?snr=1_12_4__7&specials=1&supportedlang=english');
+                url.searchParams.set('term', term);
+                const page = createPage(t, { url: url.href, promiseApi });
+                await settle();
+                Object.defineProperty(page.window.navigator, 'userAgent', { value: `Mozilla/5.0 Valve Steam ${client}` });
+                let readyState = 'loading';
+                let visibilityState = 'visible';
+                Object.defineProperty(page.document, 'readyState', { get: () => readyState });
+                Object.defineProperty(page.document, 'visibilityState', { get: () => visibilityState });
+                await page.run('search_bypass');
+                assert.deepEqual(page.navigations, [], 'document_start must not replace the Steam view');
+                readyState = 'interactive';
+                page.document.dispatchEvent(new page.window.Event('DOMContentLoaded'));
+                assert.deepEqual(page.navigations, [], 'DOM readiness is not window load');
+                visibilityState = 'hidden';
+                readyState = 'complete';
+                page.window.dispatchEvent(new page.window.Event('load'));
+                assert.deepEqual(page.navigations, [], 'a hidden browser view must not navigate');
+                visibilityState = 'visible';
+                page.document.dispatchEvent(new page.window.Event('visibilitychange'));
+                url.searchParams.set('ndl', '1');
+                assert.deepEqual(page.navigations, [url.href]);
+                page.window.dispatchEvent(new page.window.Event('load'));
+                page.document.dispatchEvent(new page.window.Event('visibilitychange'));
+                assert.equal(page.navigations.length, 1, 'readiness events cannot trigger duplicate navigation');
+            }
+        });
+    }
+}
+
+test('Steam search pending redirects are cancelled on page exit, disabled settings and existing ndl', async t => {
+    for (const [query, settings, leave] of [
+        ['?term=danganronpa', {}, true],
+        ['?term=danganronpa', { bypass_language_filter: false }, false],
+        ['?term=danganronpa&ndl=1', {}, false]
+    ]) {
+        const page = createPage(t, { url: `https://store.steampowered.com/search${query}`, settings });
+        await settle();
+        Object.defineProperty(page.window.navigator, 'userAgent', { value: 'Mozilla/5.0 Valve Steam Client' });
+        let readyState = 'loading';
+        Object.defineProperty(page.document, 'readyState', { get: () => readyState });
+        await page.run('search_bypass');
+        if (leave) page.window.dispatchEvent(new page.window.Event('pagehide'));
+        readyState = 'complete';
+        page.window.dispatchEvent(new page.window.Event('load'));
+        page.document.dispatchEvent(new page.window.Event('visibilitychange'));
+        assert.deepEqual(page.navigations, []);
+    }
+});
+
+test('web browser search bypass still redirects at document_start', async t => {
+    for (const promiseApi of [false, true]) {
+        const page = createPage(t, { url: 'https://store.steampowered.com/search?term=danganronpa', promiseApi });
+        await settle();
+        Object.defineProperty(page.window.navigator, 'userAgent', { value: promiseApi ? 'Mozilla/5.0 Firefox/140.0' : 'Mozilla/5.0 Chrome/140.0.0.0' });
+        Object.defineProperty(page.document, 'readyState', { value: 'loading' });
+        await page.run('search_bypass');
+        assert.deepEqual(page.navigations, ['https://store.steampowered.com/search?term=danganronpa&ndl=1']);
+    }
+});
+
 const filterChip = text => `<a href=""><svg class="SVGIcon_X_Line"></svg><span>${text}</span></a>`;
 
 test('localized mobile filter icons open and close the same toggle without label matching', async t => {

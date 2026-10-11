@@ -83,9 +83,10 @@ export function createPage(t, { html = '', lang = 'en', url = 'https://store.ste
                 vm.runInNewContext(bundles[script], {
                     window: {
                         location: Object.assign(new URL(url), { replace: value => navigations.push(value) }),
-                        addEventListener: window.addEventListener.bind(window)
+                        addEventListener: window.addEventListener.bind(window),
+                        removeEventListener: window.removeEventListener.bind(window)
                     },
-                    document: window.document, MutationObserver: window.MutationObserver,
+                    document: window.document, navigator: window.navigator, MutationObserver: window.MutationObserver,
                     URL, console: window.console, [promiseApi ? 'browser' : 'chrome']: api
                 });
             } else {

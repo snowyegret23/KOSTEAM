@@ -21,7 +21,7 @@ import { storageGet } from './shared/api.js';
             if (isSearch) {
                 if (url.searchParams.get('ndl') !== '1') {
                     url.searchParams.set('ndl', '1');
-                    window.location.replace(url.href);
+                    redirectSearchWhenReady(url);
                 }
                 return;
             }
@@ -29,6 +29,29 @@ import { storageGet } from './shared/api.js';
         } catch (err) {
             console.debug('[KOSTEAM] Search bypass error:', err);
         }
+    }
+
+    function redirectSearchWhenReady(url) {
+        if (!/Valve Steam/i.test(navigator.userAgent)) {
+            window.location.replace(url.href);
+            return;
+        }
+
+        // Let Steam finish attaching the visible search view before replacing it.
+        const cleanup = () => {
+            window.removeEventListener('load', redirect);
+            document.removeEventListener('visibilitychange', redirect);
+            window.removeEventListener('pagehide', cleanup);
+        };
+        const redirect = () => {
+            if (document.readyState !== 'complete' || document.visibilityState === 'hidden') return;
+            cleanup();
+            window.location.replace(url.href);
+        };
+        window.addEventListener('load', redirect);
+        document.addEventListener('visibilitychange', redirect);
+        window.addEventListener('pagehide', cleanup, { once: true });
+        redirect();
     }
 
     function watchBrowseFilters() {
