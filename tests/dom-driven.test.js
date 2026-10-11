@@ -385,26 +385,45 @@ test('late patch responses cannot undo a display toggle or replace newer patch d
     assert.equal(page.document.querySelector('.kr-patch-type-label').textContent, '공식지원 추정');
 });
 
-test('curator links wait for visible legacy and current reviews, then scroll only once', async t => {
-    for (const marker of ['class="referring_curator_ctn"', 'data-featuretarget="referring-curator-review"']) {
-        const page = createPage(t, { url: 'https://store.steampowered.com/app/42/?curator_clanid=42788178' });
-        const calls = [];
-        page.window.HTMLElement.prototype.scrollIntoView = function () { calls.push(this); };
-        page.window.HTMLElement.prototype.getBoundingClientRect = function () {
-            return { height: this.hidden || !this.textContent ? 0 : 100 };
-        };
-        await page.run();
-        page.document.body.insertAdjacentHTML('beforeend', `<section ${marker} hidden></section>`);
-        const review = page.document.querySelector('section');
-        await settle();
-        assert.equal(calls.length, 0);
-        review.textContent = '추천 게임';
-        review.hidden = false;
-        await settle();
-        assert.deepEqual(calls, [review]);
-        review.append(' 추가 설명');
-        await settle();
-        assert.deepEqual(calls, [review]);
+test('curator links wait for visible reviews and coalesce queued Big Picture load corrections', async t => {
+    for (const agent of ['Mozilla/5.0 Chrome/140', 'Valve Steam Gamepad', 'Valve Steam Tenfoot']) {
+        for (const marker of ['class="referring_curator_ctn"', 'data-featuretarget="referring-curator-review"']) {
+            const page = createPage(t, { url: 'https://store.steampowered.com/app/42/?curator_clanid=42788178' });
+            Object.defineProperty(page.window.navigator, 'userAgent', { value: agent });
+            const frames = new Map();
+            let nextFrame = 0;
+            page.window.requestAnimationFrame = callback => { frames.set(++nextFrame, callback); return nextFrame; };
+            page.window.cancelAnimationFrame = id => frames.delete(id);
+            const calls = [];
+            page.window.HTMLElement.prototype.scrollIntoView = function () { calls.push(this); };
+            page.window.HTMLElement.prototype.getBoundingClientRect = function () {
+                return { height: this.hidden || !this.textContent ? 0 : 100 };
+            };
+            await page.run();
+            page.document.body.insertAdjacentHTML('beforeend', `<section ${marker} hidden></section>`);
+            const review = page.document.querySelector('section');
+            await settle();
+            assert.equal(calls.length, 0);
+            page.window.dispatchEvent(new page.window.Event('load'));
+            page.window.dispatchEvent(new page.window.Event('load'));
+            assert.equal(frames.size, agent.includes('Valve Steam') ? 1 : 0);
+            review.textContent = '추천 게임';
+            review.hidden = false;
+            await settle();
+            assert.deepEqual(calls, [review]);
+            review.append(' 추가 설명');
+            await settle();
+            assert.deepEqual(calls, [review]);
+            for (const [id, callback] of frames) {
+                frames.delete(id);
+                callback();
+            }
+            const expected = agent.includes('Valve Steam') ? [review, review] : [review];
+            assert.deepEqual(calls, expected);
+            review.append(' 수정된 설명');
+            await settle();
+            assert.deepEqual(calls, expected);
+        }
     }
 });
 
