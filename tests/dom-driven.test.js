@@ -413,16 +413,16 @@ test('curator links wait for visible reviews and coalesce queued Big Picture loa
             assert.deepEqual(calls, [review]);
             review.append(' 추가 설명');
             await settle();
-            assert.deepEqual(calls, [review]);
+            assert.deepEqual(calls, agent.includes('Valve Steam') ? [review, review] : [review]);
             for (const [id, callback] of frames) {
                 frames.delete(id);
                 callback();
             }
-            const expected = agent.includes('Valve Steam') ? [review, review] : [review];
+            const expected = agent.includes('Valve Steam') ? [review, review, review] : [review];
             assert.deepEqual(calls, expected);
             review.append(' 수정된 설명');
             await settle();
-            assert.deepEqual(calls, expected);
+            assert.deepEqual(calls, agent.includes('Valve Steam') ? [...expected, review] : expected);
         }
     }
 });
@@ -488,6 +488,14 @@ test('Big Picture curator navigation survives Steam startup focus and keeps cont
     assert.equal(scrolls.at(-1), review);
     link.dispatchEvent(new page.window.CustomEvent('vgp_onfocus', { bubbles: true }));
     assert.equal(frames.length, 0);
+
+    review.innerHTML = '<div role="button" tabindex="0"><a href="https://store.steampowered.com/curator/42788178/">Hydrated review</a></div>';
+    const hydratedReview = review.querySelector('[role="button"]');
+    top.focus();
+    await settle();
+    frames.splice(0).forEach(callback => callback());
+    assert.equal(page.document.activeElement, hydratedReview, 'Late Steam rendering must restore focus to the visible review');
+    assert.equal(scrolls.at(-1), review);
 });
 
 test('Big Picture curator correction stops on user input or page exit, including queued corrections', async t => {

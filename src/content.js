@@ -95,7 +95,7 @@ import {
 
         const tryScroll = () => {
             if (stopped) return;
-            if (scrollToCuratorReview()) {
+            if (scrollToCuratorReview() && !isBigPicture) {
                 observer.disconnect();
             }
         };

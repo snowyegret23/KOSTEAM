@@ -76,6 +76,9 @@ const server = createServer(async (request, response) => {
             try{
                 await new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)));
                 ${navigation ? `document.querySelector('#startup-focus').focus();document.querySelector('#startup-focus').dispatchEvent(new CustomEvent('vgp_onfocus',{bubbles:true,detail:{source:4}}));
+                await new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)));
+                document.querySelector('[data-featuretarget="referring-curator-review"]').innerHTML='<div role="button" tabindex="0"><a href="#">Hydrated curator review</a></div>';
+                document.querySelector('#startup-focus').focus();
                 await new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)));` : ''}
                 const banner=document.querySelector('.kr-patch-banner');verify(banner,'Banner missing');
                 verify(document.querySelectorAll('.kr-patch-banner').length===1,'Duplicate banner');
