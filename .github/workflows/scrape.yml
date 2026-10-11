@@ -43,13 +43,11 @@ jobs:
         run: npm run scrape:steamapp
         
       - name: Setup Python
-        if: github.event.inputs.scraper == 'all' || github.event.inputs.scraper == 'quasarplay_curator' || github.event_name == 'schedule'
         uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7
         with:
           python-version: '3.14'
 
       - name: Install Python dependencies
-        if: github.event.inputs.scraper == 'all' || github.event.inputs.scraper == 'quasarplay_curator' || github.event_name == 'schedule'
         run: python -m pip install --require-hashes -r requirements-scrape.txt
 
       - name: Run quasarplay curator scraper

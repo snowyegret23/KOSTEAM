@@ -3,7 +3,7 @@ name: Extension regression tests
 on:
   push:
     branches: [main]
-    paths: ['src/**', 'tests/**', 'scripts/**', 'package*.json', 'rollup.config.js', '.github/workflows/extension_tests.yml']
+    paths: ['src/**', 'tests/**', 'scripts/**', 'scrapers/**', 'requirements-scrape.txt', 'package*.json', 'rollup.config.js', '.github/workflows/extension_tests.yml']
   pull_request:
   workflow_dispatch:
 
@@ -28,6 +28,7 @@ jobs:
       - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7
         with:
           python-version: '3.14'
+      - run: python -m pip install --require-hashes -r requirements-scrape.txt
       - run: npm ci
       - run: npm test
       - run: npm run test:matrix

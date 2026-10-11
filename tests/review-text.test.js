@@ -58,20 +58,41 @@ test('curator snapshots do not retain unprocessed review text', () => {
     }
 });
 
-test('Python curator sanitizer preserves names and surrounding descriptions', () => {
+test('Python curator dependencies parse HTML and preserve review descriptions', () => {
     const script = `
-import ast, json, re, sys
-from pathlib import Path
-tree = ast.parse(Path('scrapers/steam_curator_dump.py').read_text(encoding='utf-8'))
-nodes = [n for n in tree.body if isinstance(n, ast.FunctionDef) and n.name in ('sanitize_review_text', 'remove_review_urls')]
-scope = {'re': re}
-exec(compile(ast.Module(body=nodes, type_ignores=[]), '<review-test>', 'exec'), scope)
+import json, runpy, sys
+import requests
+
+scope = runpy.run_path('scrapers/steam_curator_dump.py', run_name='curator_test')
 cases = json.loads(sys.stdin.read())
 for raw, expected in cases:
     actual, has_url, count = scope['sanitize_review_text'](raw)
     assert actual == expected, (raw, actual, expected)
     assert has_url == ('https://' in raw.lower() or 'www.' in raw.lower()), (raw, has_url)
     assert count == int(has_url), (raw, count)
+
+dumper = scope['SteamCuratorDumper'](42788178, verbose=False)
+for kind in ('recommended', 'not_recommended', 'informational'):
+    html = f'''<div class="recommendation {kind}">
+      <a href="/app/1348700/?snr=1">Spice&amp;Wolf VR2</a>
+      <a href="/app/1348700/">Duplicate link</a>
+      <div class="recommendation_desc">한글 패치 &amp; 검수<br>번역팀 https://example.com/patch</div>
+    </div>'''
+    response = requests.Response()
+    response.status_code = 200
+    response._content = json.dumps({'results_html': html}, ensure_ascii=False).encode('utf-8')
+    reviews = dumper._parse_reviews_html(response.json()['results_html'])
+    assert reviews == [{
+        'appid': '1348700',
+        'url': 'https://store.steampowered.com/app/1348700/',
+        'curator_url': 'https://store.steampowered.com/app/1348700/?curator_clanid=42788178',
+        'review': '한글 패치 & 검수\\n번역팀',
+        'review_has_url': True,
+        'review_url_count': 1,
+        'type': kind,
+    }], reviews
+assert dumper._parse_reviews_html('<div>No reviews</div>') == []
+dumper.session.close()
 `;
     const result = spawnSync('python', ['-B', '-c', script], {
         cwd: new URL('..', import.meta.url), input: JSON.stringify(cases), encoding: 'utf8',
