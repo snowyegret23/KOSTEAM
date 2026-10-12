@@ -1119,10 +1119,12 @@
     "source_site_url": "https://hanpe.net/app/jv63wo/dead-space-2008",
     "patch_type": "user",
     "patch_links": [
-      "31e33173"
+      "31e33173",
+      "37ffd98f"
     ],
     "patch_descriptions": [
-      "제작자 : 정보없음"
+      "제작자 : 정보없음",
+      "제작자 : 유메카 / YJSoft (둘다 접니다. 다른 활동명)"
     ]
   },
   {
@@ -3972,6 +3974,19 @@
     ]
   },
   {
+    "app_id": "219910",
+    "game_title": "Edna & Harvey: Harvey's New Eyes",
+    "steam_link": "https://store.steampowered.com/app/219910",
+    "source_site_url": "https://hanpe.net/app/j01yw2/edna-harvey-harveys-new-eyes",
+    "patch_type": "user",
+    "patch_links": [
+      "de0642ff"
+    ],
+    "patch_descriptions": [
+      "제작자 : 정보없음"
+    ]
+  },
+  {
     "app_id": "219990",
     "game_title": "Grim Dawn",
     "steam_link": "https://store.steampowered.com/app/219990",
@@ -6674,12 +6689,12 @@
     "source_site_url": "https://hanpe.net/app/j5583r/soma",
     "patch_type": "user",
     "patch_links": [
-      "cb6588cf",
-      "89f9be53"
+      "89f9be53",
+      "cb6588cf"
     ],
     "patch_descriptions": [
-      "한글화: 조개껍데기, YellowPanda 번역: YellowPanda, 월황주청백현, 시노우지 이미지 한글화: 로제카, 도원 Special Thanks: 으아아, Mandus, 리자드리",
-      "Contributions - Translation - YellowPanda(StupidPanda), 월황주청백현, 시노우지 -Patch Scripting- 조개껍데기(rkddkwlenfdl), YellowPanda(StupidPanda) -Texture Modification- 로제카(lozeca), 도원 -Special Thanks to- 으아아, Mandus, 리자드리\""
+      "Contributions - Translation - YellowPanda(StupidPanda), 월황주청백현, 시노우지 -Patch Scripting- 조개껍데기(rkddkwlenfdl), YellowPanda(StupidPanda) -Texture Modification- 로제카(lozeca), 도원 -Special Thanks to- 으아아, Mandus, 리자드리\"",
+      "한글화: 조개껍데기, YellowPanda 번역: YellowPanda, 월황주청백현, 시노우지 이미지 한글화: 로제카, 도원 Special Thanks: 으아아, Mandus, 리자드리"
     ]
   },
   {
@@ -7677,6 +7692,19 @@
     ]
   },
   {
+    "app_id": "317100",
+    "game_title": "Republique",
+    "steam_link": "https://store.steampowered.com/app/317100",
+    "source_site_url": "https://hanpe.net/app/4omdyd/republique",
+    "patch_type": "user",
+    "patch_links": [
+      "0f1d92c5"
+    ],
+    "patch_descriptions": [
+      "제작자 : 한국어 패치 저장소"
+    ]
+  },
+  {
     "app_id": "317360",
     "game_title": "Double Action: Boogaloo",
     "steam_link": "https://store.steampowered.com/app/317360",
@@ -8279,10 +8307,12 @@
     "source_site_url": "https://hanpe.net/app/l2eqxq/deus-ex-mankind-divided",
     "patch_type": "user",
     "patch_links": [
-      "1f19d328"
+      "1f19d328",
+      "ff837cd6"
     ],
     "patch_descriptions": [
-      "미완성판"
+      "미완성판",
+      "제작자 : 뉴로맨서"
     ]
   },
   {
@@ -9683,11 +9713,13 @@
     "patch_type": "user",
     "patch_links": [
       "550ad10e",
-      "613afd6d"
+      "613afd6d",
+      "27ca68c8"
     ],
     "patch_descriptions": [
       "제작자 : 미니오 1.08 버전 대응",
-      "팀 왈도 제작 [번역 및 검수 참여자] 고인고갤러, 발렌, 으잌, 에어마스터, 푀비, 김티엘, MA, Khazanism(Khazanism), 츠루넬, Kami, 모르네요, Yubin Nam, 오마지로, ㅇㅅ, 에닉, SONIC BOOM, ifucancarryme, KimSo, 로비보이, 카레가 없어, 네즈, 송드 기술: MaxShouldier, 미리칸"
+      "팀 왈도 제작 [번역 및 검수 참여자] 고인고갤러, 발렌, 으잌, 에어마스터, 푀비, 김티엘, MA, Khazanism(Khazanism), 츠루넬, Kami, 모르네요, Yubin Nam, 오마지로, ㅇㅅ, 에닉, SONIC BOOM, ifucancarryme, KimSo, 로비보이, 카레가 없어, 네즈, 송드 기술: MaxShouldier, 미리칸",
+      "제작자 : 한글패치 스튜디오"
     ]
   },
   {
@@ -10894,6 +10926,19 @@
     ],
     "patch_descriptions": [
       "올가미님 제작"
+    ]
+  },
+  {
+    "app_id": "446810",
+    "game_title": "Blossom Tales: The Sleeping King",
+    "steam_link": "https://store.steampowered.com/app/446810",
+    "source_site_url": "https://hanpe.net/app/4rvk0y/blossom-tales-the-sleeping-king",
+    "patch_type": "user",
+    "patch_links": [
+      "9d4d0e04"
+    ],
+    "patch_descriptions": [
+      "제작자 : 한국어 패치 저장소"
     ]
   },
   {
@@ -13938,6 +13983,19 @@
     ]
   },
   {
+    "app_id": "628770",
+    "game_title": "Tangledeep",
+    "steam_link": "https://store.steampowered.com/app/628770",
+    "source_site_url": "https://hanpe.net/app/j08wz6/tangledeep",
+    "patch_type": "user",
+    "patch_links": [
+      "a4ba77fd"
+    ],
+    "patch_descriptions": [
+      "제작자 : 한국어 패치 저장소"
+    ]
+  },
+  {
     "app_id": "630310",
     "game_title": "The Mummy Demastered",
     "steam_link": "https://store.steampowered.com/app/630310",
@@ -16276,6 +16334,19 @@
     ],
     "patch_descriptions": [
       "한글화: 바람 번역단 패치 제작: LSW 번역, 검수: LSW 이미지 작업: LSW"
+    ]
+  },
+  {
+    "app_id": "871420",
+    "game_title": "Lovecraft's Untold Stories",
+    "steam_link": "https://store.steampowered.com/app/871420",
+    "source_site_url": "https://hanpe.net/app/41871q/lovecrafts-untold-stories",
+    "patch_type": "user",
+    "patch_links": [
+      "3a0564e8"
+    ],
+    "patch_descriptions": [
+      "제작자 : 한국어 패치 저장소"
     ]
   },
   {
@@ -19032,6 +19103,21 @@
     ]
   },
   {
+    "app_id": "1129190",
+    "game_title": "Our Life: Beginnings & Always",
+    "steam_link": "https://store.steampowered.com/app/1129190",
+    "source_site_url": "https://hanpe.net/app/lkzm8r/our-life-beginnings-always",
+    "patch_type": "user",
+    "patch_links": [
+      "39bf4719",
+      "c97ad7c2"
+    ],
+    "patch_descriptions": [
+      "제작자 : 산사나무",
+      "DLC 한글 패치 제작자 : 산사나무"
+    ]
+  },
+  {
     "app_id": "1131900",
     "game_title": "3rd eye",
     "steam_link": "https://store.steampowered.com/app/1131900",
@@ -19230,6 +19316,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 정보없음"
+    ]
+  },
+  {
+    "app_id": "1154810",
+    "game_title": "Going Under",
+    "steam_link": "https://store.steampowered.com/app/1154810",
+    "source_site_url": "https://hanpe.net/app/4r36qr/going-under",
+    "patch_type": "user",
+    "patch_links": [
+      "8bf70e6b"
+    ],
+    "patch_descriptions": [
+      "제작자 : 한국어 패치 저장소"
     ]
   },
   {
@@ -19828,6 +19927,19 @@
     ]
   },
   {
+    "app_id": "1199030",
+    "game_title": "Tainted Grail: Conquest",
+    "steam_link": "https://store.steampowered.com/app/1199030",
+    "source_site_url": "https://hanpe.net/app/jvpdm8/tainted-grail-conquest",
+    "patch_type": "user",
+    "patch_links": [
+      "1e7f83f2"
+    ],
+    "patch_descriptions": [
+      "제작자 : 한국어 패치 저장소"
+    ]
+  },
+  {
     "app_id": "1201400",
     "game_title": "Not For Broadcast: Prologue",
     "steam_link": "https://store.steampowered.com/app/1201400",
@@ -20187,11 +20299,13 @@
     "patch_type": "user",
     "patch_links": [
       "a4c2fc32",
-      "3f5e507f"
+      "3f5e507f",
+      "b88709f3"
     ],
     "patch_descriptions": [
       "MORT 이용 한글 번역 DB",
-      "제작자 : 으잌"
+      "제작자 : 으잌",
+      "제작자 : 한글패치 스튜디오"
     ]
   },
   {
@@ -21364,6 +21478,19 @@
     ],
     "patch_descriptions": [
       "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : 딸기맨"
+    ]
+  },
+  {
+    "app_id": "1376320",
+    "game_title": "Askara",
+    "steam_link": "https://store.steampowered.com/app/1376320",
+    "source_site_url": "https://hanpe.net/app/l7z9gv/askara",
+    "patch_type": "user",
+    "patch_links": [
+      "434e15df"
+    ],
+    "patch_descriptions": [
+      "제작자 : 한글패치 스튜디오"
     ]
   },
   {
@@ -24507,6 +24634,19 @@
     ]
   },
   {
+    "app_id": "1777440",
+    "game_title": "Kimi ga Nozomu Eien: Enhanced Edition",
+    "steam_link": "https://store.steampowered.com/app/1777440",
+    "source_site_url": "https://hanpe.net/app/jw6q6o/kimi-ga-nozomu-eien-enhanced-edition",
+    "patch_type": "user",
+    "patch_links": [
+      "1635576d"
+    ],
+    "patch_descriptions": [
+      "접속시 VPN 필요"
+    ]
+  },
+  {
     "app_id": "1780370",
     "game_title": "Mr. Rainer's Solve-It Service",
     "steam_link": "https://store.steampowered.com/app/1780370",
@@ -24907,6 +25047,19 @@
     ]
   },
   {
+    "app_id": "1836660",
+    "game_title": "Super Night Riders S1",
+    "steam_link": "https://store.steampowered.com/app/1836660",
+    "source_site_url": "https://hanpe.net/app/4697en/super-night-riders-s1",
+    "patch_type": "user",
+    "patch_links": [
+      "0981c26a"
+    ],
+    "patch_descriptions": [
+      "제작자 : 한글패치 스튜디오"
+    ]
+  },
+  {
     "app_id": "1839430",
     "game_title": "Dolls Nest",
     "steam_link": "https://store.steampowered.com/app/1839430",
@@ -25068,6 +25221,19 @@
     "patch_descriptions": [
       "제작자 : 정보없음",
       "제작자 : 듀콩"
+    ]
+  },
+  {
+    "app_id": "1856480",
+    "game_title": "KamiYaba: Destiny on a Dicey Deadline",
+    "steam_link": "https://store.steampowered.com/app/1856480",
+    "source_site_url": "https://hanpe.net/app/4yrv82/kamiyaba-destiny-on-a-dicey-deadline",
+    "patch_type": "user",
+    "patch_links": [
+      "6daab7c4"
+    ],
+    "patch_descriptions": [
+      "접속시 VPN 필요"
     ]
   },
   {
@@ -26417,6 +26583,19 @@
     ]
   },
   {
+    "app_id": "2088570",
+    "game_title": "Tiny Rogues",
+    "steam_link": "https://store.steampowered.com/app/2088570",
+    "source_site_url": "https://hanpe.net/app/l7r62v/tiny-rogues",
+    "patch_type": "user",
+    "patch_links": [
+      "858698f3"
+    ],
+    "patch_descriptions": [
+      "제작자 : 한글패치 스튜디오"
+    ]
+  },
+  {
     "app_id": "2090390",
     "game_title": "Schrödinger's Call",
     "steam_link": "https://store.steampowered.com/app/2090390",
@@ -26921,11 +27100,13 @@
     "patch_type": "user",
     "patch_links": [
       "7b28ce62",
-      "12709a44"
+      "12709a44",
+      "7dc40f1c"
     ],
     "patch_descriptions": [
       "제작자 : 진정한보수",
-      "제작자 : 도모체프스키"
+      "제작자 : 도모체프스키",
+      "제작자 : 한글패치 스튜디오"
     ]
   },
   {
@@ -27772,6 +27953,19 @@
     ]
   },
   {
+    "app_id": "2307160",
+    "game_title": "Yukiiro Sign",
+    "steam_link": "https://store.steampowered.com/app/2307160",
+    "source_site_url": "https://hanpe.net/app/l7ng8p/yukiiro-sign",
+    "patch_type": "user",
+    "patch_links": [
+      "db0838aa"
+    ],
+    "patch_descriptions": [
+      "접속시 VPN 필요"
+    ]
+  },
+  {
     "app_id": "2307350",
     "game_title": "Into the Radius 2",
     "steam_link": "https://store.steampowered.com/app/2307350",
@@ -28105,6 +28299,19 @@
     ]
   },
   {
+    "app_id": "2370530",
+    "game_title": "Ready or Not - The Deadline is coming!",
+    "steam_link": "https://store.steampowered.com/app/2370530",
+    "source_site_url": "https://hanpe.net/app/467v3x/ready-or-not-the-deadline-is-coming",
+    "patch_type": "user",
+    "patch_links": [
+      "a5dfe536"
+    ],
+    "patch_descriptions": [
+      "접속시 VPN 필요"
+    ]
+  },
+  {
     "app_id": "2373630",
     "game_title": "Moonring",
     "steam_link": "https://store.steampowered.com/app/2373630",
@@ -28366,11 +28573,9 @@
     "source_site_url": "https://hanpe.net/app/j5mo6e/dungeons-degenerate-gamblers",
     "patch_type": "user",
     "patch_links": [
-      "e7cc0d6a",
       "e7cc0d6a"
     ],
     "patch_descriptions": [
-      "제작자 : 으잌",
       "제작자 : 으잌"
     ]
   },
@@ -30333,6 +30538,19 @@
     ]
   },
   {
+    "app_id": "2747770",
+    "game_title": "Wednesdays",
+    "steam_link": "https://store.steampowered.com/app/2747770",
+    "source_site_url": "https://hanpe.net/app/j896gz/wednesdays",
+    "patch_type": "user",
+    "patch_links": [
+      "91d05335"
+    ],
+    "patch_descriptions": [
+      "제작자 : 한국어 패치 저장소"
+    ]
+  },
+  {
     "app_id": "2750410",
     "game_title": "クビトリドオルズ・レトリーバー: 島津怪談01",
     "steam_link": "https://store.steampowered.com/app/2750410",
@@ -31745,10 +31963,12 @@
     "source_site_url": "https://hanpe.net/app/l7797v/starsand-island",
     "patch_type": "user",
     "patch_links": [
-      "6244b829"
+      "6244b829",
+      "36d1405c"
     ],
     "patch_descriptions": [
-      "제작자 : 원아리"
+      "제작자 : 원아리",
+      "제작자 : 한글패치 스튜디오"
     ]
   },
   {
@@ -31801,6 +32021,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 한무테"
+    ]
+  },
+  {
+    "app_id": "2977260",
+    "game_title": "The Guild 1 Remake: Europa 1410",
+    "steam_link": "https://store.steampowered.com/app/2977260",
+    "source_site_url": "https://hanpe.net/app/4gvy10/the-guild-1-remake-europa-1410",
+    "patch_type": "user",
+    "patch_links": [
+      "30058fd3"
+    ],
+    "patch_descriptions": [
+      "제작자 : 한글패치 스튜디오"
     ]
   },
   {
@@ -33069,6 +33302,19 @@
     ]
   },
   {
+    "app_id": "3204020",
+    "game_title": "Juufuutei Raden™'s Guide for Pixel Museum",
+    "steam_link": "https://store.steampowered.com/app/3204020",
+    "source_site_url": "https://hanpe.net/app/4ex1vy/juufuutei-radentms-guide-for-pixel-museum",
+    "patch_type": "user",
+    "patch_links": [
+      "2fe4cb85"
+    ],
+    "patch_descriptions": [
+      "제작자 : 정보없음"
+    ]
+  },
+  {
     "app_id": "3206410",
     "game_title": "The Sinking Forest - 沈んだ森 -",
     "steam_link": "https://store.steampowered.com/app/3206410",
@@ -33889,6 +34135,19 @@
     ]
   },
   {
+    "app_id": "3373500",
+    "game_title": "Scavland",
+    "steam_link": "https://store.steampowered.com/app/3373500",
+    "source_site_url": "https://hanpe.net/app/419eqq/scavland",
+    "patch_type": "user",
+    "patch_links": [
+      "7fe275dc"
+    ],
+    "patch_descriptions": [
+      "제작자 : 한글패치 스튜디오"
+    ]
+  },
+  {
     "app_id": "3373660",
     "game_title": "Look Outside",
     "steam_link": "https://store.steampowered.com/app/3373660",
@@ -33897,12 +34156,14 @@
     "patch_links": [
       "5b8e39d6",
       "aad647d1",
-      "98876c86"
+      "98876c86",
+      "73bd2d8c"
     ],
     "patch_descriptions": [
       "제작자 : 참치 김밥",
       "제작자 : ㅇㄷㄹㅅ",
-      "제작자 : 룩 아웃사이드 갤러리"
+      "제작자 : 룩 아웃사이드 갤러리",
+      "제작자 : 한글패치 스튜디오"
     ]
   },
   {
@@ -33982,7 +34243,7 @@
       "ec7ac6fb"
     ],
     "patch_descriptions": [
-      "제작자 : 젠갤러"
+      "공식 한글 개선 패치 제작자 : 젠갤러"
     ]
   },
   {
@@ -35964,6 +36225,19 @@
     ]
   },
   {
+    "app_id": "3925760",
+    "game_title": "Unfair Flips",
+    "steam_link": "https://store.steampowered.com/app/3925760",
+    "source_site_url": "https://hanpe.net/app/jdne5w/unfair-flips",
+    "patch_type": "user",
+    "patch_links": [
+      "3b1f1ec9"
+    ],
+    "patch_descriptions": [
+      "패치 제작 및 번역: 팀 글냥이 (Oatone) Special Thanks: 여까"
+    ]
+  },
+  {
     "app_id": "3942480",
     "game_title": "The NOexistenceN of Morphean Paradox : The Forest of Silver Shallots",
     "steam_link": "https://store.steampowered.com/app/3942480",
@@ -36013,6 +36287,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 닉늬닉늬"
+    ]
+  },
+  {
+    "app_id": "3971950",
+    "game_title": "In Falsus",
+    "steam_link": "https://store.steampowered.com/app/3971950",
+    "source_site_url": "https://hanpe.net/app/j53p5e/in-falsus",
+    "patch_type": "user",
+    "patch_links": [
+      "b03878ce"
+    ],
+    "patch_descriptions": [
+      "제작자 : 네로링"
     ]
   },
   {
@@ -37098,6 +37385,19 @@
     ]
   },
   {
+    "app_id": "4549300",
+    "game_title": "My Dearest Direst Disaster",
+    "steam_link": "https://store.steampowered.com/app/4549300",
+    "source_site_url": "https://hanpe.net/app/jp78km/my-dearest-direst-disaster",
+    "patch_type": "user",
+    "patch_links": [
+      "599e4ba8"
+    ],
+    "patch_descriptions": [
+      "접속시 VPN 필요"
+    ]
+  },
+  {
     "app_id": "4576490",
     "game_title": "Casualties: Unknown",
     "steam_link": "https://store.steampowered.com/app/4576490",
@@ -37235,6 +37535,19 @@
     "patch_type": "user",
     "patch_links": [
       "c63aee4d"
+    ],
+    "patch_descriptions": [
+      "제작자 : 김까까"
+    ]
+  },
+  {
+    "app_id": "4830660",
+    "game_title": "つぐのひ -天招ねく救いの糸-",
+    "steam_link": "https://store.steampowered.com/app/4830660",
+    "source_site_url": "https://hanpe.net/app/j0rvr2/%E3%81%A4%E3%81%90%E3%81%AE%E3%81%B2-%E5%A4%A9%E6%8B%9B%E3%81%AD%E3%81%8F%E6%95%91%E3%81%84%E3%81%AE%E7%B3%B8",
+    "patch_type": "user",
+    "patch_links": [
+      "439c7112"
     ],
     "patch_descriptions": [
       "제작자 : 김까까"
