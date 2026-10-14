@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-10-12T00:09:40.467Z",
-    "total_with_steam_link": 3886,
-    "total_without_steam_link": 9,
+    "generated_at": "2026-10-14T23:37:27.732Z",
+    "total_with_steam_link": 3889,
+    "total_without_steam_link": 10,
     "sources": [
       "steamapp",
       "quasarzone",
@@ -29090,6 +29090,27 @@
       ]
     },
     {
+      "app_id": "3253690",
+      "game_title": "Castle of Shikigami 3",
+      "steam_link": "https://store.steampowered.com/app/3253690",
+      "patch_type": "user",
+      "patch_links": [
+        "fd1f64a5"
+      ],
+      "patch_descriptions": [
+        "제작자 : sonagi-psy"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/lx8een/castle-of-shikigami-3"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "1552550",
       "game_title": "Castlevania Advance Collection",
       "steam_link": "https://store.steampowered.com/app/1552550",
@@ -56601,6 +56622,27 @@
       ]
     },
     {
+      "app_id": "3510740",
+      "game_title": "Normal Golf Game",
+      "steam_link": "https://store.steampowered.com/app/3510740",
+      "patch_type": "user",
+      "patch_links": [
+        "ba8c6643"
+      ],
+      "patch_descriptions": [
+        "제작자 : killterm"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4r9po2/normal-golf-game"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "466560",
       "game_title": "Northgard: Definitive Edition",
       "steam_link": "https://store.steampowered.com/app/466560",
@@ -72510,6 +72552,27 @@
       ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/4r5nry/the-binding-of-isaac-repentance"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "4655600",
+      "game_title": "The Bird of the North",
+      "steam_link": "https://store.steampowered.com/app/4655600",
+      "patch_type": "user",
+      "patch_links": [
+        "fc875bda"
+      ],
+      "patch_descriptions": [
+        "제작자 : killterm"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jnqgzk/the-bird-of-the-north"
       },
       "sources": [
         "steamapp"
@@ -94930,6 +94993,25 @@
     }
   ],
   "games_no_steam_link": [
+    {
+      "game_title": "귀신은 그림자가 없다",
+      "patch_type": "official",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        ""
+      ],
+      "patch_sources": [
+        "stove"
+      ],
+      "source_site_urls": {
+        "stove": "https://store.onstove.com/ko/games/105955"
+      },
+      "sources": [
+        "stove"
+      ]
+    },
     {
       "game_title": "다음은 너야 - 진실게임 (You are the next)",
       "patch_type": "official",

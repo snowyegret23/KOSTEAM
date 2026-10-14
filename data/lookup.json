@@ -73158,6 +73158,24 @@
       "quasarplay": "https://store.steampowered.com/app/3252400/?curator_clanid=42788178"
     }
   },
+  "3253690": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "fd1f64a5"
+    ],
+    "patch_descriptions": [
+      "제작자 : sonagi-psy"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/lx8een/castle-of-shikigami-3"
+    }
+  },
   "3255330": {
     "type": "user",
     "sources": [
@@ -76295,6 +76313,24 @@
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/jmvmr9/abyss-kitchen",
       "quasarplay": "https://store.steampowered.com/app/3508910/?curator_clanid=30894603"
+    }
+  },
+  "3510740": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "ba8c6643"
+    ],
+    "patch_descriptions": [
+      "제작자 : killterm"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4r9po2/normal-golf-game"
     }
   },
   "3513480": {
@@ -82833,6 +82869,24 @@
       "quasarplay": "https://store.steampowered.com/app/4645760/?curator_clanid=30894603"
     }
   },
+  "4655600": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "fc875bda"
+    ],
+    "patch_descriptions": [
+      "제작자 : killterm"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jnqgzk/the-bird-of-the-north"
+    }
+  },
   "4674130": {
     "type": "user",
     "sources": [
@@ -83258,7 +83312,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-10-12T00:09:40.467Z",
-    "total": 3886
+    "generated_at": "2026-10-14T23:37:27.732Z",
+    "total": 3889
   }
 }

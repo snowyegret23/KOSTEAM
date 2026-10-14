@@ -33579,6 +33579,19 @@
     ]
   },
   {
+    "app_id": "3253690",
+    "game_title": "Castle of Shikigami 3",
+    "steam_link": "https://store.steampowered.com/app/3253690",
+    "source_site_url": "https://hanpe.net/app/lx8een/castle-of-shikigami-3",
+    "patch_type": "user",
+    "patch_links": [
+      "fd1f64a5"
+    ],
+    "patch_descriptions": [
+      "제작자 : sonagi-psy"
+    ]
+  },
+  {
     "app_id": "3255330",
     "game_title": "Parasomnia: No REM",
     "steam_link": "https://store.steampowered.com/app/3255330",
@@ -34817,6 +34830,19 @@
     "patch_descriptions": [
       "데모판 한글화 제작자 : Pixel4a",
       "제작자 : Pixel4a"
+    ]
+  },
+  {
+    "app_id": "3510740",
+    "game_title": "Normal Golf Game",
+    "steam_link": "https://store.steampowered.com/app/3510740",
+    "source_site_url": "https://hanpe.net/app/4r9po2/normal-golf-game",
+    "patch_type": "user",
+    "patch_links": [
+      "ba8c6643"
+    ],
+    "patch_descriptions": [
+      "제작자 : killterm"
     ]
   },
   {
@@ -37460,6 +37486,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 으잌"
+    ]
+  },
+  {
+    "app_id": "4655600",
+    "game_title": "The Bird of the North",
+    "steam_link": "https://store.steampowered.com/app/4655600",
+    "source_site_url": "https://hanpe.net/app/jnqgzk/the-bird-of-the-north",
+    "patch_type": "user",
+    "patch_links": [
+      "fc875bda"
+    ],
+    "patch_descriptions": [
+      "제작자 : killterm"
     ]
   },
   {

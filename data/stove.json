@@ -1,5 +1,20 @@
 [
   {
+    "app_id": null,
+    "stove_game_no": "16281",
+    "stove_product_no": "105955",
+    "game_title": "귀신은 그림자가 없다",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "stove_url": "https://store.onstove.com/ko/games/105955"
+  },
+  {
     "app_id": "2297650",
     "stove_game_no": "14436",
     "stove_product_no": "104254",
