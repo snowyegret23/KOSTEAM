@@ -1,6 +1,36 @@
 [
   {
     "app_id": null,
+    "stove_game_no": "15859",
+    "stove_product_no": "105556",
+    "game_title": "비욘드 디스 스타즈 (Beyond These Stars)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "stove_url": "https://store.onstove.com/ko/games/105556"
+  },
+  {
+    "app_id": null,
+    "stove_game_no": "16500",
+    "stove_product_no": "106132",
+    "game_title": "바벨의 영주",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "stove_url": "https://store.onstove.com/ko/games/106132"
+  },
+  {
+    "app_id": null,
     "stove_game_no": "16281",
     "stove_product_no": "105955",
     "game_title": "귀신은 그림자가 없다",
@@ -13,6 +43,21 @@
       ""
     ],
     "stove_url": "https://store.onstove.com/ko/games/105955"
+  },
+  {
+    "app_id": null,
+    "stove_game_no": "15092",
+    "stove_product_no": "104852",
+    "game_title": "어센딩 인페르노 (Ascending Inferno)",
+    "steam_link": "",
+    "patch_type": "official",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "stove_url": "https://store.onstove.com/ko/games/104852"
   },
   {
     "app_id": "2297650",

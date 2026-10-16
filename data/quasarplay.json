@@ -3,7 +3,7 @@
   "curator_name": "Curator #42788178",
   "curator_url": "https://store.steampowered.com/curator/42788178/",
   "total_games": 1828,
-  "exported_at": "2026-10-14T23:37:13.876286",
+  "exported_at": "2026-10-16T23:13:31.894557",
   "games": [
     {
       "appid": "284050",
@@ -3771,9 +3771,9 @@
       "appid": "1390190",
       "url": "https://store.steampowered.com/app/1390190/APICO/",
       "curator_url": "https://store.steampowered.com/app/1390190/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 마그마 님",
+      "review": "한글 패치 - Sowiq\n한글 패치 - 마그마",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -5265,9 +5265,9 @@
       "appid": "1896750",
       "url": "https://store.steampowered.com/app/1896750/Cursed/",
       "curator_url": "https://store.steampowered.com/app/1896750/?curator_clanid=42788178",
-      "review": "유저 한글 패치 - 으잌㉪ 님",
+      "review": "한글 패치 - Deadmoon\n한글 패치 - 으잌㉪ 님",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -5517,9 +5517,9 @@
       "appid": "787480",
       "url": "https://store.steampowered.com/app/787480/Phoenix_Wright_Ace_Attorney_Trilogy/",
       "curator_url": "https://store.steampowered.com/app/787480/?curator_clanid=42788178",
-      "review": "유저 번역 개선 패치 - 건방진용자 님",
+      "review": "번역 개선 패치 - 건방진용자",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -6084,7 +6084,7 @@
       "appid": "866190",
       "url": "https://store.steampowered.com/app/866190/Irony_Curtain_From_Matryoshka_with_Love/",
       "curator_url": "https://store.steampowered.com/app/866190/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 - 까칠한그냥 님",
+      "review": "한글 패치 - 까칠한그냥",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -7309,15 +7309,6 @@
       "url": "https://store.steampowered.com/app/1730590/The_Entropy_Centre/",
       "curator_url": "https://store.steampowered.com/app/1730590/?curator_clanid=42788178",
       "review": "유저 한국어 패치 - 역물음표, Kanarias, 우민 님",
-      "review_has_url": true,
-      "review_url_count": 1,
-      "type": "recommended"
-    },
-    {
-      "appid": "384110",
-      "url": "https://store.steampowered.com/app/384110/Pathologic_Classic_HD/",
-      "curator_url": "https://store.steampowered.com/app/384110/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 - 행복한나라 님",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -12930,6 +12921,15 @@
       "type": "recommended"
     },
     {
+      "appid": "201270",
+      "url": "https://store.steampowered.com/app/201270/Total_War_SHOGUN_2/",
+      "curator_url": "https://store.steampowered.com/app/201270/?curator_clanid=42788178",
+      "review": "유저 한국어 패치 - JDY 님",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
       "appid": "325610",
       "url": "https://store.steampowered.com/app/325610/Total_War_ATTILA/",
       "curator_url": "https://store.steampowered.com/app/325610/?curator_clanid=42788178",
@@ -13869,9 +13869,9 @@
       "appid": "405640",
       "url": "https://store.steampowered.com/app/405640/Pony_Island/",
       "curator_url": "https://store.steampowered.com/app/405640/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 - Team.SM",
+      "review": "한글 패치 - 아기단또\n한글 패치 - Team.SM",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -14391,9 +14391,9 @@
       "appid": "203350",
       "url": "https://store.steampowered.com/app/203350/Kings_Bounty_Warriors_of_the_North/",
       "curator_url": "https://store.steampowered.com/app/203350/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 - 킹스바운티 워리어 오브 노스 한글화 카페",
+      "review": "한글 패치 - 대한글화시대\n한글 패치 - 킹스바운티 워리어 오브 노스 한글화 카페",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -15102,9 +15102,9 @@
       "appid": "22330",
       "url": "https://store.steampowered.com/app/22330/The_Elder_Scrolls_IV_Oblivion_Game_of_the_Year_Edition_2009/",
       "curator_url": "https://store.steampowered.com/app/22330/?curator_clanid=42788178",
-      "review": "유저 한국어 패치",
+      "review": "한글 패치 - Party1Noodle\n한글 패치",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
@@ -15453,7 +15453,7 @@
       "appid": "238010",
       "url": "https://store.steampowered.com/app/238010/Deus_Ex_Human_Revolution__Directors_Cut/",
       "curator_url": "https://store.steampowered.com/app/238010/?curator_clanid=42788178",
-      "review": "한글 패치 - 디지, 데이어스 엑스 한글화 카페\nDLC 한글 패치 - 뉴로맨서",
+      "review": "한글 패치 - 뉴로맨서\n한글 패치 - 디지, 데이어스 엑스 한글화 카페",
       "review_has_url": true,
       "review_url_count": 2,
       "type": "recommended"
@@ -15462,7 +15462,7 @@
       "appid": "337000",
       "url": "https://store.steampowered.com/app/337000/Deus_Ex_Mankind_Divided/",
       "curator_url": "https://store.steampowered.com/app/337000/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 - Task Force 29 카페",
+      "review": "한글 패치 - 뉴로맨서\n한글 패치 - Task Force 29 카페\nttps://cafe.naver.com/taskforce29/392",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
@@ -15552,9 +15552,9 @@
       "appid": "17470",
       "url": "https://store.steampowered.com/app/17470/Dead_Space_2008/",
       "curator_url": "https://store.steampowered.com/app/17470/?curator_clanid=42788178",
-      "review": "유저 한국어 패치 -",
+      "review": "한글 패치 - 유메카\n한글 패치",
       "review_has_url": true,
-      "review_url_count": 1,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {
