@@ -9058,12 +9058,14 @@
     "patch_links": [
       "1159c2ab",
       "f419dda5",
-      "77f8a17b"
+      "77f8a17b",
+      "ef3afc6e"
     ],
     "patch_descriptions": [
       "Koyo12204 님 제작",
       "추가 패치 파일",
-      "제작자 : 제로"
+      "제작자 : 제로",
+      "제작자 : 정보없음"
     ]
   },
   {
@@ -14561,6 +14563,19 @@
     ]
   },
   {
+    "app_id": "675260",
+    "game_title": "Batman: The Enemy Within - The Telltale Series",
+    "steam_link": "https://store.steampowered.com/app/675260",
+    "source_site_url": "https://hanpe.net/app/l2nod5/batman-the-enemy-within-the-telltale-series",
+    "patch_type": "user",
+    "patch_links": [
+      "670a45c6"
+    ],
+    "patch_descriptions": [
+      "제작자 : suny7760"
+    ]
+  },
+  {
     "app_id": "677120",
     "game_title": "Heroes of Hammerwatch",
     "steam_link": "https://store.steampowered.com/app/677120",
@@ -16408,10 +16423,12 @@
     "source_site_url": "https://hanpe.net/app/jm5r8o/noita",
     "patch_type": "official",
     "patch_links": [
-      "d0f61e0d"
+      "d0f61e0d",
+      "5efd0c0f"
     ],
     "patch_descriptions": [
-      "제작자 : Tenn 공식 한글 개선 패치"
+      "제작자 : Tenn 공식 한글 개선 패치",
+      "폰트 수정모드 제작자 : 미냐"
     ]
   },
   {
@@ -17452,6 +17469,19 @@
     ],
     "patch_descriptions": [
       "실제로는 한글 지원"
+    ]
+  },
+  {
+    "app_id": "980830",
+    "game_title": "Spirit Hunter: Death Mark",
+    "steam_link": "https://store.steampowered.com/app/980830",
+    "source_site_url": "https://hanpe.net/app/jnerm6/spirit-hunter-death-mark",
+    "patch_type": "user",
+    "patch_links": [
+      "d02eb0d1"
+    ],
+    "patch_descriptions": [
+      "제작자 : shrimplord89"
     ]
   },
   {
@@ -24044,6 +24074,19 @@
     ]
   },
   {
+    "app_id": "1691970",
+    "game_title": "Danganronpa S: Ultimate Summer Camp",
+    "steam_link": "https://store.steampowered.com/app/1691970",
+    "source_site_url": "https://hanpe.net/app/4e2y2k/danganronpa-s-ultimate-summer-camp",
+    "patch_type": "user",
+    "patch_links": [
+      "7f6ac2c4"
+    ],
+    "patch_descriptions": [
+      "제작자 : WinterSkaDi (점심모머글까)"
+    ]
+  },
+  {
     "app_id": "1692000",
     "game_title": "雨音スイッチ - Amane Switch -",
     "steam_link": "https://store.steampowered.com/app/1692000",
@@ -25356,6 +25399,19 @@
     ]
   },
   {
+    "app_id": "1879330",
+    "game_title": "WARRIORS OROCHI 3 Ultimate Definitive Edition",
+    "steam_link": "https://store.steampowered.com/app/1879330",
+    "source_site_url": "https://hanpe.net/app/4qe0rx/warriors-orochi-3-ultimate-definitive-edition",
+    "patch_type": "user",
+    "patch_links": [
+      "410d21b7"
+    ],
+    "patch_descriptions": [
+      "제작자 : kimjh-eclipse"
+    ]
+  },
+  {
     "app_id": "1880330",
     "game_title": "Sanfu",
     "steam_link": "https://store.steampowered.com/app/1880330",
@@ -25669,6 +25725,19 @@
     "patch_descriptions": [
       "한 글 팀 : 플스대마왕",
       "제작자 : 천지회 기술지원 : 으잌"
+    ]
+  },
+  {
+    "app_id": "1933660",
+    "game_title": "Demons Roots",
+    "steam_link": "https://store.steampowered.com/app/1933660",
+    "source_site_url": "https://hanpe.net/app/jvmew7/demons-roots",
+    "patch_type": "user",
+    "patch_links": [
+      "6188e516"
+    ],
+    "patch_descriptions": [
+      "제작자 : 유동적"
     ]
   },
   {
@@ -26448,6 +26517,19 @@
     ],
     "patch_descriptions": [
       "제작자 : oren88"
+    ]
+  },
+  {
+    "app_id": "2074910",
+    "game_title": "Photogenic Minds : Identity",
+    "steam_link": "https://store.steampowered.com/app/2074910",
+    "source_site_url": "https://hanpe.net/app/l206z5/photogenic-minds-identity",
+    "patch_type": "user",
+    "patch_links": [
+      "f7f0a164"
+    ],
+    "patch_descriptions": [
+      "제작자 : 이미누"
     ]
   },
   {
@@ -28727,6 +28809,19 @@
     ]
   },
   {
+    "app_id": "2421750",
+    "game_title": "Gunman Contracts - Stand Alone",
+    "steam_link": "https://store.steampowered.com/app/2421750",
+    "source_site_url": "https://hanpe.net/app/jp5m8m/gunman-contracts-stand-alone",
+    "patch_type": "user",
+    "patch_links": [
+      "71888e79"
+    ],
+    "patch_descriptions": [
+      "제작자 : 제콜"
+    ]
+  },
+  {
     "app_id": "2424010",
     "game_title": "Parcel Simulator",
     "steam_link": "https://store.steampowered.com/app/2424010",
@@ -29997,6 +30092,19 @@
     ]
   },
   {
+    "app_id": "2645580",
+    "game_title": "Free Stars: The Ur-Quan Masters",
+    "steam_link": "https://store.steampowered.com/app/2645580",
+    "source_site_url": "https://hanpe.net/app/4gow50/free-stars-the-ur-quan-masters",
+    "patch_type": "user",
+    "patch_links": [
+      "e0dab788"
+    ],
+    "patch_descriptions": [
+      "제작자 : rodpold"
+    ]
+  },
+  {
     "app_id": "2646320",
     "game_title": "息风谷战略",
     "steam_link": "https://store.steampowered.com/app/2646320",
@@ -30405,6 +30513,19 @@
     ],
     "patch_descriptions": [
       "번역기를 이용한 한글화 제작자 : 닐스친구"
+    ]
+  },
+  {
+    "app_id": "2722200",
+    "game_title": "Sugar,sugar,sugarcoat",
+    "steam_link": "https://store.steampowered.com/app/2722200",
+    "source_site_url": "https://hanpe.net/app/j8yvmk/sugarsugarsugarcoat",
+    "patch_type": "user",
+    "patch_links": [
+      "c369049a"
+    ],
+    "patch_descriptions": [
+      "제작자 : 정보없음"
     ]
   },
   {
@@ -31487,6 +31608,19 @@
     ],
     "patch_descriptions": [
       "제작자 : casw"
+    ]
+  },
+  {
+    "app_id": "2887580",
+    "game_title": "Active Matter",
+    "steam_link": "https://store.steampowered.com/app/2887580",
+    "source_site_url": "https://hanpe.net/app/4qkzex/active-matter",
+    "patch_type": "user",
+    "patch_links": [
+      "8b41a09c"
+    ],
+    "patch_descriptions": [
+      "제작자 : 내몸에서나가감스트"
     ]
   },
   {
@@ -34273,6 +34407,19 @@
     ]
   },
   {
+    "app_id": "3385960",
+    "game_title": "BattleGroupVR2",
+    "steam_link": "https://store.steampowered.com/app/3385960",
+    "source_site_url": "https://hanpe.net/app/jdn8zm/battlegroupvr2",
+    "patch_type": "user",
+    "patch_links": [
+      "6e3b5e71"
+    ],
+    "patch_descriptions": [
+      "공식 한글 개선 패치 제작자 : 제콜"
+    ]
+  },
+  {
     "app_id": "3388890",
     "game_title": "Magical Nut Ikuno",
     "steam_link": "https://store.steampowered.com/app/3388890",
@@ -34895,6 +35042,19 @@
     ],
     "patch_descriptions": [
       "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : 미인이많군요"
+    ]
+  },
+  {
+    "app_id": "3533360",
+    "game_title": "Filiy Eclipse",
+    "steam_link": "https://store.steampowered.com/app/3533360",
+    "source_site_url": "https://hanpe.net/app/4rmkpg/filiy-eclipse",
+    "patch_type": "user",
+    "patch_links": [
+      "c9afe532"
+    ],
+    "patch_descriptions": [
+      "제작자 : 빗소리P"
     ]
   },
   {
@@ -37564,6 +37724,19 @@
     ],
     "patch_descriptions": [
       "제작자 : Pixel4a"
+    ]
+  },
+  {
+    "app_id": "4739660",
+    "game_title": "Drag'n Wash",
+    "steam_link": "https://store.steampowered.com/app/4739660",
+    "source_site_url": "https://hanpe.net/app/l3xw2z/dragn-wash",
+    "patch_type": "user",
+    "patch_links": [
+      "0e22a656"
+    ],
+    "patch_descriptions": [
+      "제작자 : 정보없음"
     ]
   },
   {

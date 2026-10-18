@@ -16221,15 +16221,18 @@
       "1159c2ab",
       "f419dda5",
       "77f8a17b",
+      "ef3afc6e",
       "exist"
     ],
     "patch_descriptions": [
       "Koyo12204 님 제작",
       "추가 패치 파일",
       "제작자 : 제로",
+      "제작자 : 정보없음",
       "유저 한글 패치 - 자올\n유저 한글 패치 - ingleeman"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp",
       "steamapp",
       "steamapp",
@@ -26826,18 +26829,23 @@
   "675260": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "670a45c6",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : suny7760",
       "한글 패치 - 한무테"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/l2nod5/batman-the-enemy-within-the-telltale-series",
       "quasarplay": "https://store.steampowered.com/app/675260/?curator_clanid=30894603"
     }
   },
@@ -30691,13 +30699,16 @@
     ],
     "links": [
       "d0f61e0d",
+      "5efd0c0f",
       "exist"
     ],
     "patch_descriptions": [
       "제작자 : Tenn 공식 한글 개선 패치",
+      "폰트 수정모드 제작자 : 미냐",
       "번역 개선 패치 - Tenn\n스펠 랩 모드 한글 패치"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp",
       "quasarplay"
     ],
@@ -32703,6 +32714,24 @@
     ],
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/jpx9rn/one-finger-death-punch-2"
+    }
+  },
+  "980830": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "d02eb0d1"
+    ],
+    "patch_descriptions": [
+      "제작자 : shrimplord89"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jnerm6/spirit-hunter-death-mark"
     }
   },
   "981430": {
@@ -48301,6 +48330,24 @@
       "steamapp": "https://hanpe.net/app/jdkgv2/start-again-a-prologue"
     }
   },
+  "1691970": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "7f6ac2c4"
+    ],
+    "patch_descriptions": [
+      "제작자 : WinterSkaDi (점심모머글까)"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4e2y2k/danganronpa-s-ultimate-summer-camp"
+    }
+  },
   "1692000": {
     "type": "user",
     "sources": [
@@ -51765,18 +51812,23 @@
   "1879330": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "410d21b7",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : kimjh-eclipse",
       "한글 패치 - 한무테"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4qe0rx/warriors-orochi-3-ultimate-definitive-edition",
       "quasarplay": "https://store.steampowered.com/app/1879330/?curator_clanid=30894603"
     }
   },
@@ -52653,6 +52705,24 @@
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/l25w7m/suikoden-iii-hd-remaster-gate-rune-and-dunan-unification-wars",
       "quasarplay": "https://store.steampowered.com/app/1932640/?curator_clanid=30894603"
+    }
+  },
+  "1933660": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "6188e516"
+    ],
+    "patch_descriptions": [
+      "제작자 : 유동적"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jvmew7/demons-roots"
     }
   },
   "1934080": {
@@ -54675,6 +54745,24 @@
     ],
     "source_site_urls": {
       "quasarplay": "https://store.steampowered.com/app/2074690/?curator_clanid=42788178"
+    }
+  },
+  "2074910": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "f7f0a164"
+    ],
+    "patch_descriptions": [
+      "제작자 : 이미누"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/l206z5/photogenic-minds-identity"
     }
   },
   "2075070": {
@@ -60733,6 +60821,24 @@
       "quasarplay": "https://store.steampowered.com/app/2420510/?curator_clanid=30894603"
     }
   },
+  "2421750": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "71888e79"
+    ],
+    "patch_descriptions": [
+      "제작자 : 제콜"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jp5m8m/gunman-contracts-stand-alone"
+    }
+  },
   "2423760": {
     "type": "user",
     "sources": [
@@ -64452,6 +64558,24 @@
       "quasarplay": "https://store.steampowered.com/app/2644620/?curator_clanid=42788178"
     }
   },
+  "2645580": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "e0dab788"
+    ],
+    "patch_descriptions": [
+      "제작자 : rodpold"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4gow50/free-stars-the-ur-quan-masters"
+    }
+  },
   "2646320": {
     "type": "user",
     "sources": [
@@ -65477,6 +65601,24 @@
     ],
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/j01dzo/starfield-shattered-space"
+    }
+  },
+  "2722200": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "c369049a"
+    ],
+    "patch_descriptions": [
+      "제작자 : 정보없음"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j8yvmk/sugarsugarsugarcoat"
     }
   },
   "2722400": {
@@ -68143,6 +68285,24 @@
     ],
     "source_site_urls": {
       "quasarplay": "https://store.steampowered.com/app/2886620/?curator_clanid=30894603"
+    }
+  },
+  "2887580": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "8b41a09c"
+    ],
+    "patch_descriptions": [
+      "제작자 : 내몸에서나가감스트"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4qkzex/active-matter"
     }
   },
   "2888860": {
@@ -75672,6 +75832,24 @@
       "quasarplay": "https://store.steampowered.com/app/3382750/?curator_clanid=30894603"
     }
   },
+  "3385960": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "6e3b5e71"
+    ],
+    "patch_descriptions": [
+      "공식 한글 개선 패치 제작자 : 제콜"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jdn8zm/battlegroupvr2"
+    }
+  },
   "3387330": {
     "type": "user",
     "sources": [
@@ -77363,6 +77541,24 @@
     ],
     "source_site_urls": {
       "quasarplay": "https://store.steampowered.com/app/3531260/?curator_clanid=30894603"
+    }
+  },
+  "3533360": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "c9afe532"
+    ],
+    "patch_descriptions": [
+      "제작자 : 빗소리P"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4rmkpg/filiy-eclipse"
     }
   },
   "3534790": {
@@ -84104,6 +84300,24 @@
       "quasarplay": "https://store.steampowered.com/app/4736830/?curator_clanid=30894603"
     }
   },
+  "4739660": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "0e22a656"
+    ],
+    "patch_descriptions": [
+      "제작자 : 정보없음"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/l3xw2z/dragn-wash"
+    }
+  },
   "4740420": {
     "type": "user",
     "sources": [
@@ -84383,7 +84597,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-10-16T23:13:45.785Z",
-    "total": 3946
+    "generated_at": "2026-10-18T22:43:51.083Z",
+    "total": 3957
   }
 }

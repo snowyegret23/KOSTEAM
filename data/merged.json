@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-10-16T23:13:45.785Z",
-    "total_with_steam_link": 3946,
-    "total_without_steam_link": 13,
+    "generated_at": "2026-10-18T22:43:51.083Z",
+    "total_with_steam_link": 3957,
+    "total_without_steam_link": 14,
     "sources": [
       "steamapp",
       "quasarzone",
@@ -3667,27 +3667,6 @@
       ]
     },
     {
-      "app_id": "1879330",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/1879330/WARRIORS_OROCHI_3_Ultimate_Definitive_Edition/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - 한무테"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/1879330/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
       "app_id": "2770330",
       "game_title": "",
       "steam_link": "https://store.steampowered.com/app/2770330/Chaos_Front/",
@@ -3745,27 +3724,6 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/2552440/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "675260",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/675260/Batman_The_Enemy_Within__The_Telltale_Series/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - 한무테"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/675260/?curator_clanid=30894603"
       },
       "sources": [
         "quasarplay"
@@ -22313,6 +22271,27 @@
       ]
     },
     {
+      "app_id": "2887580",
+      "game_title": "Active Matter",
+      "steam_link": "https://store.steampowered.com/app/2887580",
+      "patch_type": "user",
+      "patch_links": [
+        "8b41a09c"
+      ],
+      "patch_descriptions": [
+        "제작자 : 내몸에서나가감스트"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4qkzex/active-matter"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "211440",
       "game_title": "Adventures of Shuggy",
       "steam_link": "https://store.steampowered.com/app/211440",
@@ -26508,6 +26487,32 @@
       ]
     },
     {
+      "app_id": "675260",
+      "game_title": "Batman: The Enemy Within - The Telltale Series",
+      "steam_link": "https://store.steampowered.com/app/675260",
+      "patch_type": "user",
+      "patch_links": [
+        "670a45c6",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : suny7760",
+        "한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l2nod5/batman-the-enemy-within-the-telltale-series",
+        "quasarplay": "https://store.steampowered.com/app/675260/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "502820",
       "game_title": "Batman™: Arkham VR",
       "steam_link": "https://store.steampowered.com/app/502820",
@@ -26545,15 +26550,18 @@
         "1159c2ab",
         "f419dda5",
         "77f8a17b",
+        "ef3afc6e",
         "exist"
       ],
       "patch_descriptions": [
         "Koyo12204 님 제작",
         "추가 패치 파일",
         "제작자 : 제로",
+        "제작자 : 정보없음",
         "유저 한글 패치 - 자올\n유저 한글 패치 - ingleeman"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "steamapp",
         "steamapp",
@@ -26770,6 +26778,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "3385960",
+      "game_title": "BattleGroupVR2",
+      "steam_link": "https://store.steampowered.com/app/3385960",
+      "patch_type": "user",
+      "patch_links": [
+        "6e3b5e71"
+      ],
+      "patch_descriptions": [
+        "공식 한글 개선 패치 제작자 : 제콜"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jdn8zm/battlegroupvr2"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -33132,6 +33161,27 @@
       ]
     },
     {
+      "app_id": "1691970",
+      "game_title": "Danganronpa S: Ultimate Summer Camp",
+      "steam_link": "https://store.steampowered.com/app/1691970",
+      "patch_type": "user",
+      "patch_links": [
+        "7f6ac2c4"
+      ],
+      "patch_descriptions": [
+        "제작자 : WinterSkaDi (점심모머글까)"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4e2y2k/danganronpa-s-ultimate-summer-camp"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "567640",
       "game_title": "Danganronpa V3: Killing Harmony",
       "steam_link": "https://store.steampowered.com/app/567640",
@@ -34806,6 +34856,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "1933660",
+      "game_title": "Demons Roots",
+      "steam_link": "https://store.steampowered.com/app/1933660",
+      "patch_type": "user",
+      "patch_links": [
+        "6188e516"
+      ],
+      "patch_descriptions": [
+        "제작자 : 유동적"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jvmew7/demons-roots"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -36529,6 +36600,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "4739660",
+      "game_title": "Drag'n Wash",
+      "steam_link": "https://store.steampowered.com/app/4739660",
+      "patch_type": "user",
+      "patch_links": [
+        "0e22a656"
+      ],
+      "patch_descriptions": [
+        "제작자 : 정보없음"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l3xw2z/dragn-wash"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -40814,6 +40906,27 @@
       ]
     },
     {
+      "app_id": "3533360",
+      "game_title": "Filiy Eclipse",
+      "steam_link": "https://store.steampowered.com/app/3533360",
+      "patch_type": "user",
+      "patch_links": [
+        "c9afe532"
+      ],
+      "patch_descriptions": [
+        "제작자 : 빗소리P"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4rmkpg/filiy-eclipse"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "514740",
       "game_title": "Final Cut: Death on the Silver Screen Collector's Edition",
       "steam_link": "https://store.steampowered.com/app/514740",
@@ -41501,6 +41614,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2645580",
+      "game_title": "Free Stars: The Ur-Quan Masters",
+      "steam_link": "https://store.steampowered.com/app/2645580",
+      "patch_type": "user",
+      "patch_links": [
+        "e0dab788"
+      ],
+      "patch_descriptions": [
+        "제작자 : rodpold"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4gow50/free-stars-the-ur-quan-masters"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -43715,6 +43849,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2421750",
+      "game_title": "Gunman Contracts - Stand Alone",
+      "steam_link": "https://store.steampowered.com/app/2421750",
+      "patch_type": "user",
+      "patch_links": [
+        "71888e79"
+      ],
+      "patch_descriptions": [
+        "제작자 : 제콜"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jp5m8m/gunman-contracts-stand-alone"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -57814,13 +57969,16 @@
       "patch_type": "official",
       "patch_links": [
         "d0f61e0d",
+        "5efd0c0f",
         "exist"
       ],
       "patch_descriptions": [
         "제작자 : Tenn 공식 한글 개선 패치",
+        "폰트 수정모드 제작자 : 미냐",
         "번역 개선 패치 - Tenn\n스펠 랩 모드 한글 패치"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "quasarplay"
       ],
@@ -60518,6 +60676,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2074910",
+      "game_title": "Photogenic Minds : Identity",
+      "steam_link": "https://store.steampowered.com/app/2074910",
+      "patch_type": "user",
+      "patch_links": [
+        "f7f0a164"
+      ],
+      "patch_descriptions": [
+        "제작자 : 이미누"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l206z5/photogenic-minds-identity"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -69504,6 +69683,27 @@
       ]
     },
     {
+      "app_id": "980830",
+      "game_title": "Spirit Hunter: Death Mark",
+      "steam_link": "https://store.steampowered.com/app/980830",
+      "patch_type": "user",
+      "patch_links": [
+        "d02eb0d1"
+      ],
+      "patch_descriptions": [
+        "제작자 : shrimplord89"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jnerm6/spirit-hunter-death-mark"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "1236720",
       "game_title": "Spirit Island",
       "steam_link": "https://store.steampowered.com/app/1236720",
@@ -71387,6 +71587,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2722200",
+      "game_title": "Sugar,sugar,sugarcoat",
+      "steam_link": "https://store.steampowered.com/app/2722200",
+      "patch_type": "user",
+      "patch_links": [
+        "c369049a"
+      ],
+      "patch_descriptions": [
+        "제작자 : 정보없음"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j8yvmk/sugarsugarsugarcoat"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -83479,6 +83700,32 @@
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/4yr1rr/warriors-of-the-nile",
         "quasarplay": "https://store.steampowered.com/app/1267470/?curator_clanid=42788178"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "1879330",
+      "game_title": "WARRIORS OROCHI 3 Ultimate Definitive Edition",
+      "steam_link": "https://store.steampowered.com/app/1879330",
+      "patch_type": "user",
+      "patch_links": [
+        "410d21b7",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : kimjh-eclipse",
+        "한글 패치 - 한무테"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4qe0rx/warriors-orochi-3-ultimate-definitive-edition",
+        "quasarplay": "https://store.steampowered.com/app/1879330/?curator_clanid=30894603"
       },
       "sources": [
         "steamapp",
@@ -96404,6 +96651,25 @@
       },
       "sources": [
         "directg"
+      ]
+    },
+    {
+      "game_title": "안락온실",
+      "patch_type": "official",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        ""
+      ],
+      "patch_sources": [
+        "stove"
+      ],
+      "source_site_urls": {
+        "stove": "https://store.onstove.com/ko/games/105915"
+      },
+      "sources": [
+        "stove"
       ]
     },
     {
