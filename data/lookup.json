@@ -1142,12 +1142,12 @@
       "steamapp"
     ],
     "links": [
-      "0dfedfb7",
-      "c570934d"
+      "c570934d",
+      "0dfedfb7"
     ],
     "patch_descriptions": [
-      "(공식 한글 개선 패치) 제작자 : 복2",
-      "(공식 한글 개선 패치)"
+      "(공식 한글 개선 패치)",
+      "(공식 한글 개선 패치) 제작자 : 복2"
     ],
     "patch_sources": [
       "steamapp",
@@ -1528,8 +1528,8 @@
       "quasarplay"
     ],
     "links": [
-      "c360ac14",
       "d2de59f1",
+      "c360ac14",
       "5957778f",
       "exist"
     ],
@@ -3505,7 +3505,7 @@
       "quasarplay"
     ],
     "source_site_urls": {
-      "steamapp": "https://hanpe.net/app/4oqqdn/gothic-3",
+      "steamapp": "https://hanpe.net/app/4oqqdn/gothic-3-classic",
       "quasarplay": "https://store.steampowered.com/app/39500/?curator_clanid=42788178"
     }
   },
@@ -6048,7 +6048,7 @@
       "quasarplay"
     ],
     "source_site_urls": {
-      "steamapp": "https://hanpe.net/app/lzy5mo/rayman-origins",
+      "steamapp": "https://hanpe.net/app/lzy5mo/%EB%A0%88%EC%9D%B4%EB%A7%A8-%EC%98%A4%EB%A6%AC%EC%A7%84",
       "quasarplay": "https://store.steampowered.com/app/207490/?curator_clanid=42788178"
     }
   },
@@ -6105,8 +6105,8 @@
       "quasarplay"
     ],
     "links": [
-      "a3a6dd7b",
       "7d75b622",
+      "a3a6dd7b",
       "exist"
     ],
     "patch_descriptions": [
@@ -7605,13 +7605,13 @@
       "quasarplay"
     ],
     "links": [
-      "617173f9",
       "cb203e58",
+      "617173f9",
       "exist"
     ],
     "patch_descriptions": [
-      "주관: 고블린 번역: 고블린 검수: 고블린 폰트,기술: 쩌새",
       "백업용 - 위 링크가 열리지 않을 시 사용",
+      "주관: 고블린 번역: 고블린 검수: 고블린 폰트,기술: 쩌새",
       "유저 한국어 패치 - 한필드"
     ],
     "patch_sources": [
@@ -9059,13 +9059,13 @@
       "quasarplay"
     ],
     "links": [
-      "a8926e77",
       "9658220b",
+      "a8926e77",
       "exist"
     ],
     "patch_descriptions": [
-      "팀 왈도 제작 (원본 한글 패치 ▲)",
       "밤하늘바람님 제작 (수정패치 - 원본 설치 후 수정패치 진행 ▲)",
+      "팀 왈도 제작 (원본 한글 패치 ▲)",
       "유저 한국어 패치 - 팀 왈도 & 밤하늘바람 님"
     ],
     "patch_sources": [
@@ -12159,7 +12159,7 @@
       "quasarplay"
     ],
     "source_site_urls": {
-      "steamapp": "https://hanpe.net/app/lz2n2p/metro-2033-redux",
+      "steamapp": "https://hanpe.net/app/lz2n2p/%EB%A9%94%ED%8A%B8%EB%A1%9C-2033-%EB%A6%AC%EB%8D%95%EC%8A%A4",
       "quasarplay": "https://store.steampowered.com/app/286690/?curator_clanid=42788178"
     }
   },
@@ -12182,7 +12182,7 @@
       "quasarplay"
     ],
     "source_site_urls": {
-      "steamapp": "https://hanpe.net/app/jpo32k/metro-last-light-redux",
+      "steamapp": "https://hanpe.net/app/jpo32k/%EB%A9%94%ED%8A%B8%EB%A1%9C-%EB%9D%BC%EC%8A%A4%ED%8A%B8-%EB%9D%BC%EC%9D%B4%ED%8A%B8-%EB%A6%AC%EB%8D%95%EC%8A%A4",
       "quasarplay": "https://store.steampowered.com/app/287390/?curator_clanid=42788178"
     }
   },
@@ -13186,7 +13186,7 @@
       "quasarplay"
     ],
     "source_site_urls": {
-      "steamapp": "https://hanpe.net/app/4qq599/vaultbreakers",
+      "steamapp": "https://hanpe.net/app/4qq599/%EB%B3%BC%ED%8A%B8%EB%B8%8C%EB%A0%88%EC%9D%B4%EC%BB%A4%EC%8A%A4",
       "quasarplay": "https://store.steampowered.com/app/306910/?curator_clanid=30894603"
     }
   },
@@ -13888,16 +13888,16 @@
     ],
     "links": [
       "b81ebec3",
-      "cb3bda86",
       "59b0eaac",
       "b038d363",
+      "cb3bda86",
       "exist"
     ],
     "patch_descriptions": [
       "제작: 클로제 [도움] 게임 폰트: 쩌새님 에피소드 1-3 패치: more님 에피소드 4-5 패치 원본: 플웨즈/루리웹 청광님의 번역팀",
-      "코멘터리 파트 1 한국어화 패치 촉수금지 님 제작",
       "코멘터리 파트 1 한국어화 패치 두팡 님 제작",
       "일기장 한국어화 패치 제작: 일게이 A, 일게이 B 원출처: 통베",
+      "코멘터리 파트 1 한국어화 패치 촉수금지 님 제작",
       "유저 한국어 패치 - moretz77, 클로제, 쩌새, more, 청광 님 등,\n \n일기장 추가 한국어 패치 -"
     ],
     "patch_sources": [
@@ -16218,16 +16218,16 @@
       "quasarplay"
     ],
     "links": [
-      "1159c2ab",
       "f419dda5",
       "77f8a17b",
+      "1159c2ab",
       "ef3afc6e",
       "exist"
     ],
     "patch_descriptions": [
-      "Koyo12204 님 제작",
       "추가 패치 파일",
       "제작자 : 제로",
+      "Koyo12204 님 제작",
       "제작자 : 정보없음",
       "유저 한글 패치 - 자올\n유저 한글 패치 - ingleeman"
     ],
@@ -18698,7 +18698,7 @@
       "steamapp"
     ],
     "source_site_urls": {
-      "steamapp": "https://hanpe.net/app/jdkmmm/metro-exodus"
+      "steamapp": "https://hanpe.net/app/jdkmmm/%EB%A9%94%ED%8A%B8%EB%A1%9C-%EC%97%91%EC%86%8C%EB%8D%94%EC%8A%A4"
     }
   },
   "412830": {
@@ -20876,12 +20876,12 @@
       "steamapp"
     ],
     "links": [
-      "93ce3a73",
-      "938bac79"
+      "938bac79",
+      "93ce3a73"
     ],
     "patch_descriptions": [
-      "타이탄퀘스트<TitanQuest> 그림던<GrimDawn> 카페 (가입 필요) 아모님의 Titan Quest: Ragnarök 대응 수정 한국어화 패치",
-      "아세인님 댓글 참고 (예전 버전)"
+      "아세인님 댓글 참고 (예전 버전)",
+      "타이탄퀘스트<TitanQuest> 그림던<GrimDawn> 카페 (가입 필요) 아모님의 Titan Quest: Ragnarök 대응 수정 한국어화 패치"
     ],
     "patch_sources": [
       "steamapp",
@@ -21464,14 +21464,14 @@
     ],
     "links": [
       "4d58b94a",
-      "9f4484c8",
       "cabca65c",
+      "9f4484c8",
       "exist"
     ],
     "patch_descriptions": [
       "제작자 : 지에일",
-      "패치가 안 될 경우",
       "이전 한글패치",
+      "패치가 안 될 경우",
       "유저 한글 패치 - 지에일\n유저 한글 패치"
     ],
     "patch_sources": [
@@ -25059,6 +25059,24 @@
       "quasarplay": "https://store.steampowered.com/app/607660/?curator_clanid=42788178"
     }
   },
+  "609150": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "04a40a83"
+    ],
+    "patch_descriptions": [
+      "제작자 : snake759494"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/468r92/star-oceantm-the-last-hope-tm-4k-full-hd-remaster"
+    }
+  },
   "610460": {
     "type": "user",
     "sources": [
@@ -26339,6 +26357,24 @@
       "quasarplay": "https://store.steampowered.com/app/645630/?curator_clanid=42788178"
     }
   },
+  "645730": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "0feda815"
+    ],
+    "patch_descriptions": [
+      "제작자 : 태스크마스터"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jd0e7z/resonance-of-fatetmend-of-eternitytm-4khd-edition"
+    }
+  },
   "648100": {
     "type": "user",
     "sources": [
@@ -26479,13 +26515,13 @@
       "quasarplay"
     ],
     "links": [
-      "143c6576",
       "2d86a8b4",
+      "143c6576",
       "exist"
     ],
     "patch_descriptions": [
-      "카페 가입 & 등업 필요",
       "그래픽 한국어화 패치",
+      "카페 가입 & 등업 필요",
       "유저 한국어 패치 - '소요객잔(逍遙客棧) - 협객풍운전' 카페 가입 및 정품 인증 필요"
     ],
     "patch_sources": [
@@ -31038,7 +31074,7 @@
       "quasarplay"
     ],
     "source_site_urls": {
-      "steamapp": "https://hanpe.net/app/jd9x7v/last-epoch",
+      "steamapp": "https://hanpe.net/app/jd9x7v/%EB%9D%BC%EC%8A%A4%ED%8A%B8-%EC%97%90%ED%8F%AC%ED%81%AC",
       "quasarplay": "https://store.steampowered.com/app/899770/?curator_clanid=30894603"
     }
   },
@@ -32542,13 +32578,13 @@
       "quasarplay"
     ],
     "links": [
-      "6b622b13",
       "d4ce29ec",
+      "6b622b13",
       "exist"
     ],
     "patch_descriptions": [
-      "제작자 : Partholon",
       "1. 릴리즈 페이지로 이동 2. 가장 위에 있는 버전의 Assets 클릭하면 받을 수 있는 파일들이 나옴 3. 설명서에 적힌 파일을 다운",
+      "제작자 : Partholon",
       "한글 패치 - refracta, Viz\n한글 패치 - Partholon"
     ],
     "patch_sources": [
@@ -38305,7 +38341,7 @@
       "quasarplay"
     ],
     "source_site_urls": {
-      "steamapp": "https://hanpe.net/app/jvqox7/%EC%9D%B8%EC%8A%88%EB%9D%BC%EC%98%A4%EB%94%94%EB%93%9C-enshrouded",
+      "steamapp": "https://hanpe.net/app/jvqox7/enshrouded",
       "quasarplay": "https://store.steampowered.com/app/1203620/?curator_clanid=30894603"
     }
   },
@@ -48437,13 +48473,13 @@
       "quasarplay"
     ],
     "links": [
-      "8b840309",
       "0ca079ed",
+      "8b840309",
       "exist"
     ],
     "patch_descriptions": [
-      "제작자 : 오고루",
       "백업용",
+      "제작자 : 오고루",
       "유저 한국어 패치 - 오고루 님"
     ],
     "patch_sources": [
@@ -48967,13 +49003,13 @@
       "quasarplay"
     ],
     "links": [
-      "418b0383",
       "97d3af57",
+      "418b0383",
       "exist"
     ],
     "patch_descriptions": [
-      "백업용",
       "제작자 : songmin9813 공식 한글 개선 패치",
+      "백업용",
       "번역 개선 패치 - 잠수돌침대"
     ],
     "patch_sources": [
@@ -51143,8 +51179,8 @@
       "quasarplay"
     ],
     "links": [
-      "c4798912",
       "2480144e",
+      "c4798912",
       "exist"
     ],
     "patch_descriptions": [
@@ -53044,24 +53080,19 @@
   "1955800": {
     "type": "user",
     "sources": [
-      "steamapp",
-      "quasarplay"
+      "steamapp"
     ],
     "links": [
-      "94547405",
-      "exist"
+      "94547405"
     ],
     "patch_descriptions": [
-      "제작자 : 구미호던 번역기를 이용한 한글화",
-      "유저 한글 패치 - 구미호뎐 님"
+      "제작자 : 구미호던 번역기를 이용한 한글화"
     ],
     "patch_sources": [
-      "steamapp",
-      "quasarplay"
+      "steamapp"
     ],
     "source_site_urls": {
-      "steamapp": "https://hanpe.net/app/4o71vn/%ED%8A%B8%EB%9E%9C%EC%8A%A4%ED%8F%AC%EB%A8%B8-%EC%96%B4%EC%8A%A4%EC%8A%A4%ED%8C%8C%ED%81%AC-%EC%9B%90%EC%A0%95%EB%8C%80",
-      "quasarplay": "https://store.steampowered.com/app/1955800/?curator_clanid=42788178"
+      "steamapp": "https://hanpe.net/app/4o71vn/%ED%8A%B8%EB%9E%9C%EC%8A%A4%ED%8F%AC%EB%A8%B8-%EC%96%B4%EC%8A%A4%EC%8A%A4%ED%8C%8C%ED%81%AC-%EC%9B%90%EC%A0%95%EB%8C%80"
     }
   },
   "1955830": {
@@ -65539,6 +65570,24 @@
       "quasarplay": "https://store.steampowered.com/app/2719060/?curator_clanid=42788178"
     }
   },
+  "2719200": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "28046f29"
+    ],
+    "patch_descriptions": [
+      "제작자 : 미로롱"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4g1o7y/samurai-warriors-4-dx"
+    }
+  },
   "2720010": {
     "type": "user",
     "sources": [
@@ -73574,13 +73623,13 @@
       "quasarplay"
     ],
     "links": [
-      "8d473a45",
       "0832a33c",
+      "8d473a45",
       "exist"
     ],
     "patch_descriptions": [
-      "제작자 : Pixel4a",
       "데모판 한글화 제작자 : Pixel4a",
+      "제작자 : Pixel4a",
       "유저 한글 패치 - Pixel4a\n유저 한글 패치 - 한무테"
     ],
     "patch_sources": [
@@ -77428,18 +77477,23 @@
   "3525620": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "666befe3",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 도시드워프",
       "한글 패치"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j032z6/wall-street-raider",
       "quasarplay": "https://store.steampowered.com/app/3525620/?curator_clanid=30894603"
     }
   },
@@ -79325,24 +79379,6 @@
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/4o57ok/trading-card-inspector",
       "quasarplay": "https://store.steampowered.com/app/3723750/?curator_clanid=30894603"
-    }
-  },
-  "3724310": {
-    "type": "user",
-    "sources": [
-      "quasarplay"
-    ],
-    "links": [
-      "exist"
-    ],
-    "patch_descriptions": [
-      "유저 한글 패치 - 한무테"
-    ],
-    "patch_sources": [
-      "quasarplay"
-    ],
-    "source_site_urls": {
-      "quasarplay": "https://store.steampowered.com/app/3724310/?curator_clanid=30894603"
     }
   },
   "3726370": {
@@ -83637,7 +83673,7 @@
       "quasarplay"
     ],
     "source_site_urls": {
-      "steamapp": "https://hanpe.net/app/417xwp/the-red-pearls-of-borneo",
+      "steamapp": "https://hanpe.net/app/417xwp/%EB%B3%B4%EB%A5%B4%EB%84%A4%EC%98%A4%EC%9D%98-%EB%B6%89%EC%9D%80-%EC%A7%84%EC%A3%BC",
       "quasarplay": "https://store.steampowered.com/app/4488860/?curator_clanid=30894603"
     }
   },
@@ -84593,11 +84629,11 @@
       "steamapp"
     ],
     "source_site_urls": {
-      "steamapp": "https://hanpe.net/app/jvwzz7/the-death-game-report"
+      "steamapp": "https://hanpe.net/app/jvwzz7/%EB%8D%B0%EC%8A%A4%EA%B2%8C%EC%9E%84-%EB%B3%B4%EA%B3%A0%EC%84%9C"
     }
   },
   "_meta": {
-    "generated_at": "2026-10-18T22:43:51.083Z",
-    "total": 3957
+    "generated_at": "2026-10-21T23:53:21.078Z",
+    "total": 3959
   }
 }

@@ -652,12 +652,12 @@
     "source_site_url": "https://hanpe.net/app/jwzxro/sid-meiers-civilization-v",
     "patch_type": "official",
     "patch_links": [
-      "0dfedfb7",
-      "c570934d"
+      "c570934d",
+      "0dfedfb7"
     ],
     "patch_descriptions": [
-      "(공식 한글 개선 패치) 제작자 : 복2",
-      "(공식 한글 개선 패치)"
+      "(공식 한글 개선 패치)",
+      "(공식 한글 개선 패치) 제작자 : 복2"
     ]
   },
   {
@@ -866,8 +866,8 @@
     "source_site_url": "https://hanpe.net/app/jm3zwo/grand-theft-auto-iv-the-complete-edition",
     "patch_type": "user",
     "patch_links": [
-      "c360ac14",
       "d2de59f1",
+      "c360ac14",
       "5957778f"
     ],
     "patch_descriptions": [
@@ -1945,9 +1945,9 @@
   },
   {
     "app_id": "39500",
-    "game_title": "Gothic® 3",
+    "game_title": "Gothic 3 Classic",
     "steam_link": "https://store.steampowered.com/app/39500",
-    "source_site_url": "https://hanpe.net/app/4oqqdn/gothic-3",
+    "source_site_url": "https://hanpe.net/app/4oqqdn/gothic-3-classic",
     "patch_type": "user",
     "patch_links": [
       "2beecc55",
@@ -3412,9 +3412,9 @@
   },
   {
     "app_id": "207490",
-    "game_title": "Rayman® Origins",
+    "game_title": "레이맨 오리진",
     "steam_link": "https://store.steampowered.com/app/207490",
-    "source_site_url": "https://hanpe.net/app/lzy5mo/rayman-origins",
+    "source_site_url": "https://hanpe.net/app/lzy5mo/%EB%A0%88%EC%9D%B4%EB%A7%A8-%EC%98%A4%EB%A6%AC%EC%A7%84",
     "patch_type": "user",
     "patch_links": [
       "1df3697f"
@@ -3456,8 +3456,8 @@
     "source_site_url": "https://hanpe.net/app/lxy67y/endless-spacetm-definitive-edition",
     "patch_type": "user",
     "patch_links": [
-      "a3a6dd7b",
-      "7d75b622"
+      "7d75b622",
+      "a3a6dd7b"
     ],
     "patch_descriptions": [
       "제작자 : 정보없음",
@@ -4311,12 +4311,12 @@
     "source_site_url": "https://hanpe.net/app/4gdz7g/contrast",
     "patch_type": "user",
     "patch_links": [
-      "617173f9",
-      "cb203e58"
+      "cb203e58",
+      "617173f9"
     ],
     "patch_descriptions": [
-      "주관: 고블린 번역: 고블린 검수: 고블린 폰트,기술: 쩌새",
-      "백업용 - 위 링크가 열리지 않을 시 사용"
+      "백업용 - 위 링크가 열리지 않을 시 사용",
+      "주관: 고블린 번역: 고블린 검수: 고블린 폰트,기술: 쩌새"
     ]
   },
   {
@@ -5130,12 +5130,12 @@
     "source_site_url": "https://hanpe.net/app/jv72d1/middle-earthtm-shadow-of-mordortm",
     "patch_type": "user",
     "patch_links": [
-      "a8926e77",
-      "9658220b"
+      "9658220b",
+      "a8926e77"
     ],
     "patch_descriptions": [
-      "팀 왈도 제작 (원본 한글 패치 ▲)",
-      "밤하늘바람님 제작 (수정패치 - 원본 설치 후 수정패치 진행 ▲)"
+      "밤하늘바람님 제작 (수정패치 - 원본 설치 후 수정패치 진행 ▲)",
+      "팀 왈도 제작 (원본 한글 패치 ▲)"
     ]
   },
   {
@@ -6831,9 +6831,9 @@
   },
   {
     "app_id": "286690",
-    "game_title": "Metro 2033 Redux",
+    "game_title": "메트로 2033 리덕스",
     "steam_link": "https://store.steampowered.com/app/286690",
-    "source_site_url": "https://hanpe.net/app/lz2n2p/metro-2033-redux",
+    "source_site_url": "https://hanpe.net/app/lz2n2p/%EB%A9%94%ED%8A%B8%EB%A1%9C-2033-%EB%A6%AC%EB%8D%95%EC%8A%A4",
     "patch_type": "user",
     "patch_links": [
       "7670dccd"
@@ -6844,9 +6844,9 @@
   },
   {
     "app_id": "287390",
-    "game_title": "Metro: Last Light Redux",
+    "game_title": "메트로: 라스트 라이트 리덕스",
     "steam_link": "https://store.steampowered.com/app/287390",
-    "source_site_url": "https://hanpe.net/app/jpo32k/metro-last-light-redux",
+    "source_site_url": "https://hanpe.net/app/jpo32k/%EB%A9%94%ED%8A%B8%EB%A1%9C-%EB%9D%BC%EC%8A%A4%ED%8A%B8-%EB%9D%BC%EC%9D%B4%ED%8A%B8-%EB%A6%AC%EB%8D%95%EC%8A%A4",
     "patch_type": "user",
     "patch_links": [
       "7f87b7f0"
@@ -7377,9 +7377,9 @@
   },
   {
     "app_id": "306910",
-    "game_title": "Vaultbreakers",
+    "game_title": "볼트브레이커스",
     "steam_link": "https://store.steampowered.com/app/306910",
-    "source_site_url": "https://hanpe.net/app/4qq599/vaultbreakers",
+    "source_site_url": "https://hanpe.net/app/4qq599/%EB%B3%BC%ED%8A%B8%EB%B8%8C%EB%A0%88%EC%9D%B4%EC%BB%A4%EC%8A%A4",
     "patch_type": "user",
     "patch_links": [
       "ba751094"
@@ -7777,15 +7777,15 @@
     "patch_type": "user",
     "patch_links": [
       "b81ebec3",
-      "cb3bda86",
       "59b0eaac",
-      "b038d363"
+      "b038d363",
+      "cb3bda86"
     ],
     "patch_descriptions": [
       "제작: 클로제 [도움] 게임 폰트: 쩌새님 에피소드 1-3 패치: more님 에피소드 4-5 패치 원본: 플웨즈/루리웹 청광님의 번역팀",
-      "코멘터리 파트 1 한국어화 패치 촉수금지 님 제작",
       "코멘터리 파트 1 한국어화 패치 두팡 님 제작",
-      "일기장 한국어화 패치 제작: 일게이 A, 일게이 B 원출처: 통베"
+      "일기장 한국어화 패치 제작: 일게이 A, 일게이 B 원출처: 통베",
+      "코멘터리 파트 1 한국어화 패치 촉수금지 님 제작"
     ]
   },
   {
@@ -9056,15 +9056,15 @@
     "source_site_url": "https://hanpe.net/app/4romd7/battle-brothers",
     "patch_type": "user",
     "patch_links": [
-      "1159c2ab",
       "f419dda5",
       "77f8a17b",
+      "1159c2ab",
       "ef3afc6e"
     ],
     "patch_descriptions": [
-      "Koyo12204 님 제작",
       "추가 패치 파일",
       "제작자 : 제로",
+      "Koyo12204 님 제작",
       "제작자 : 정보없음"
     ]
   },
@@ -10269,9 +10269,9 @@
   },
   {
     "app_id": "412020",
-    "game_title": "Metro Exodus",
+    "game_title": "메트로 엑소더스",
     "steam_link": "https://store.steampowered.com/app/412020",
-    "source_site_url": "https://hanpe.net/app/jdkmmm/metro-exodus",
+    "source_site_url": "https://hanpe.net/app/jdkmmm/%EB%A9%94%ED%8A%B8%EB%A1%9C-%EC%97%91%EC%86%8C%EB%8D%94%EC%8A%A4",
     "patch_type": "official",
     "patch_links": [
       "c973ad03"
@@ -11400,12 +11400,12 @@
     "source_site_url": "https://hanpe.net/app/jvknk1/titan-quest-anniversary-edition",
     "patch_type": "official",
     "patch_links": [
-      "93ce3a73",
-      "938bac79"
+      "938bac79",
+      "93ce3a73"
     ],
     "patch_descriptions": [
-      "타이탄퀘스트<TitanQuest> 그림던<GrimDawn> 카페 (가입 필요) 아모님의 Titan Quest: Ragnarök 대응 수정 한국어화 패치",
-      "아세인님 댓글 참고 (예전 버전)"
+      "아세인님 댓글 참고 (예전 버전)",
+      "타이탄퀘스트<TitanQuest> 그림던<GrimDawn> 카페 (가입 필요) 아모님의 Titan Quest: Ragnarök 대응 수정 한국어화 패치"
     ]
   },
   {
@@ -11712,13 +11712,13 @@
     "patch_type": "user",
     "patch_links": [
       "4d58b94a",
-      "9f4484c8",
-      "cabca65c"
+      "cabca65c",
+      "9f4484c8"
     ],
     "patch_descriptions": [
       "제작자 : 지에일",
-      "패치가 안 될 경우",
-      "이전 한글패치"
+      "이전 한글패치",
+      "패치가 안 될 경우"
     ]
   },
   {
@@ -13615,6 +13615,19 @@
     ]
   },
   {
+    "app_id": "609150",
+    "game_title": "STAR OCEAN™ - THE LAST HOPE -™ 4K & Full HD Remaster",
+    "steam_link": "https://store.steampowered.com/app/609150",
+    "source_site_url": "https://hanpe.net/app/468r92/star-oceantm-the-last-hope-tm-4k-full-hd-remaster",
+    "patch_type": "user",
+    "patch_links": [
+      "04a40a83"
+    ],
+    "patch_descriptions": [
+      "제작자 : snake759494"
+    ]
+  },
+  {
     "app_id": "610460",
     "game_title": "Rise of Balloons",
     "steam_link": "https://store.steampowered.com/app/610460",
@@ -14286,6 +14299,19 @@
     ]
   },
   {
+    "app_id": "645730",
+    "game_title": "RESONANCE OF FATE™/END OF ETERNITY™ 4K/HD EDITION",
+    "steam_link": "https://store.steampowered.com/app/645730",
+    "source_site_url": "https://hanpe.net/app/jd0e7z/resonance-of-fatetmend-of-eternitytm-4khd-edition",
+    "patch_type": "user",
+    "patch_links": [
+      "0feda815"
+    ],
+    "patch_descriptions": [
+      "제작자 : 태스크마스터"
+    ]
+  },
+  {
     "app_id": "648100",
     "game_title": "Raging Loop",
     "steam_link": "https://store.steampowered.com/app/648100",
@@ -14357,12 +14383,12 @@
     "source_site_url": "https://hanpe.net/app/461x3x/%E4%BE%A0%E5%AE%A2%E9%A3%8E%E4%BA%91%E4%BC%A0%E5%89%8D%E4%BC%A0tale-of-wuxiathe-pre-sequel",
     "patch_type": "user",
     "patch_links": [
-      "143c6576",
-      "2d86a8b4"
+      "2d86a8b4",
+      "143c6576"
     ],
     "patch_descriptions": [
-      "카페 가입 & 등업 필요",
-      "그래픽 한국어화 패치"
+      "그래픽 한국어화 패치",
+      "카페 가입 & 등업 필요"
     ]
   },
   {
@@ -16589,9 +16615,9 @@
   },
   {
     "app_id": "899770",
-    "game_title": "Last Epoch",
+    "game_title": "라스트 에포크",
     "steam_link": "https://store.steampowered.com/app/899770",
-    "source_site_url": "https://hanpe.net/app/jd9x7v/last-epoch",
+    "source_site_url": "https://hanpe.net/app/jd9x7v/%EB%9D%BC%EC%8A%A4%ED%8A%B8-%EC%97%90%ED%8F%AC%ED%81%AC",
     "patch_type": "user",
     "patch_links": [
       "a37dbea4"
@@ -17392,12 +17418,12 @@
     "source_site_url": "https://hanpe.net/app/4er1kz/dwarf-fortress",
     "patch_type": "user",
     "patch_links": [
-      "6b622b13",
-      "d4ce29ec"
+      "d4ce29ec",
+      "6b622b13"
     ],
     "patch_descriptions": [
-      "제작자 : Partholon",
-      "1. 릴리즈 페이지로 이동 2. 가장 위에 있는 버전의 Assets 클릭하면 받을 수 있는 파일들이 나옴 3. 설명서에 적힌 파일을 다운"
+      "1. 릴리즈 페이지로 이동 2. 가장 위에 있는 버전의 Assets 클릭하면 받을 수 있는 파일들이 나옴 3. 설명서에 적힌 파일을 다운",
+      "제작자 : Partholon"
     ]
   },
   {
@@ -20025,9 +20051,9 @@
   },
   {
     "app_id": "1203620",
-    "game_title": "인슈라오디드 (Enshrouded)",
+    "game_title": "Enshrouded",
     "steam_link": "https://store.steampowered.com/app/1203620",
-    "source_site_url": "https://hanpe.net/app/jvqox7/%EC%9D%B8%EC%8A%88%EB%9D%BC%EC%98%A4%EB%94%94%EB%93%9C-enshrouded",
+    "source_site_url": "https://hanpe.net/app/jvqox7/enshrouded",
     "patch_type": "official",
     "patch_links": [
       "7cae5f18",
@@ -24132,12 +24158,12 @@
     "source_site_url": "https://hanpe.net/app/4e6q5y/whos-lila",
     "patch_type": "user",
     "patch_links": [
-      "8b840309",
-      "0ca079ed"
+      "0ca079ed",
+      "8b840309"
     ],
     "patch_descriptions": [
-      "제작자 : 오고루",
-      "백업용"
+      "백업용",
+      "제작자 : 오고루"
     ]
   },
   {
@@ -24333,12 +24359,12 @@
     "source_site_url": "https://hanpe.net/app/4166qv/aspire-inas-tale",
     "patch_type": "official",
     "patch_links": [
-      "418b0383",
-      "97d3af57"
+      "97d3af57",
+      "418b0383"
     ],
     "patch_descriptions": [
-      "백업용",
-      "제작자 : songmin9813 공식 한글 개선 패치"
+      "제작자 : songmin9813 공식 한글 개선 패치",
+      "백업용"
     ]
   },
   {
@@ -25165,8 +25191,8 @@
     "source_site_url": "https://hanpe.net/app/j5g30m/brigandine-the-legend-of-runersia",
     "patch_type": "user",
     "patch_links": [
-      "c4798912",
-      "2480144e"
+      "2480144e",
+      "c4798912"
     ],
     "patch_descriptions": [
       "제작자 : 정보없음",
@@ -30477,6 +30503,19 @@
     ]
   },
   {
+    "app_id": "2719200",
+    "game_title": "SAMURAI WARRIORS 4 DX",
+    "steam_link": "https://store.steampowered.com/app/2719200",
+    "source_site_url": "https://hanpe.net/app/4g1o7y/samurai-warriors-4-dx",
+    "patch_type": "user",
+    "patch_links": [
+      "28046f29"
+    ],
+    "patch_descriptions": [
+      "제작자 : 미로롱"
+    ]
+  },
+  {
     "app_id": "2720010",
     "game_title": "Rogue Fable IV",
     "steam_link": "https://store.steampowered.com/app/2720010",
@@ -33533,12 +33572,12 @@
     "source_site_url": "https://hanpe.net/app/j9o81e/the-weeping-swan-ten-days-of-the-citys-fall",
     "patch_type": "user",
     "patch_links": [
-      "8d473a45",
-      "0832a33c"
+      "0832a33c",
+      "8d473a45"
     ],
     "patch_descriptions": [
-      "제작자 : Pixel4a",
-      "데모판 한글화 제작자 : Pixel4a"
+      "데모판 한글화 제작자 : Pixel4a",
+      "제작자 : Pixel4a"
     ]
   },
   {
@@ -35016,6 +35055,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 으잌"
+    ]
+  },
+  {
+    "app_id": "3525620",
+    "game_title": "Wall Street Raider",
+    "steam_link": "https://store.steampowered.com/app/3525620",
+    "source_site_url": "https://hanpe.net/app/j032z6/wall-street-raider",
+    "patch_type": "user",
+    "patch_links": [
+      "666befe3"
+    ],
+    "patch_descriptions": [
+      "제작자 : 도시드워프"
     ]
   },
   {
@@ -37455,9 +37507,9 @@
   },
   {
     "app_id": "4488860",
-    "game_title": "The Red Pearls Of Borneo",
+    "game_title": "보르네오의 붉은 진주",
     "steam_link": "https://store.steampowered.com/app/4488860",
-    "source_site_url": "https://hanpe.net/app/417xwp/the-red-pearls-of-borneo",
+    "source_site_url": "https://hanpe.net/app/417xwp/%EB%B3%B4%EB%A5%B4%EB%84%A4%EC%98%A4%EC%9D%98-%EB%B6%89%EC%9D%80-%EC%A7%84%EC%A3%BC",
     "patch_type": "user",
     "patch_links": [
       "eaa3ff8f"
@@ -37819,9 +37871,9 @@
   },
   {
     "app_id": "5044770",
-    "game_title": "The Death Game Report",
+    "game_title": "데스게임 보고서",
     "steam_link": "https://store.steampowered.com/app/5044770",
-    "source_site_url": "https://hanpe.net/app/jvwzz7/the-death-game-report",
+    "source_site_url": "https://hanpe.net/app/jvwzz7/%EB%8D%B0%EC%8A%A4%EA%B2%8C%EC%9E%84-%EB%B3%B4%EA%B3%A0%EC%84%9C",
     "patch_type": "user",
     "patch_links": [
       "e5a2d166",
