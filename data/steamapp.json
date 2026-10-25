@@ -1607,14 +1607,14 @@
     "source_site_url": "https://hanpe.net/app/jdvwmm/kings-bounty-the-legend",
     "patch_type": "user",
     "patch_links": [
-      "0b1e6dd3",
       "50bea835",
-      "63eeb990"
+      "63eeb990",
+      "0b1e6dd3"
     ],
     "patch_descriptions": [
-      "[참여] heemangkr님, 고어빠님, 무료함님, 붉은달님, 치우천왕님, 해님님, 아인님, 후니님, 씨즐님, 밤아찌님, terrorofsky님, 찬님, 유클리드님, 환타머신님, 하늘보리님, peopleyy님, 황혼의장님, 열심히잘님, 제닐님, 단비님, 실버팽님, zodinie님, zeod님, 카친스키님, 아디안님, 고등어님, 이광표님, 카산드라님, flame67님, 초코송군님, 망중한님, 안경님, 밍구리님, 오로메님, 정대단님, 페퍼님, 수선화님, 프리맨님, 운석가이님, 희야님, 란님, 까만귀신님, 린킨님, 슬링거님, 라이프님, 이슈탈님, 비니힐님",
       "제작자 : 정보없음",
-      "지렁이님 제작"
+      "지렁이님 제작",
+      "[참여] heemangkr님, 고어빠님, 무료함님, 붉은달님, 치우천왕님, 해님님, 아인님, 후니님, 씨즐님, 밤아찌님, terrorofsky님, 찬님, 유클리드님, 환타머신님, 하늘보리님, peopleyy님, 황혼의장님, 열심히잘님, 제닐님, 단비님, 실버팽님, zodinie님, zeod님, 카친스키님, 아디안님, 고등어님, 이광표님, 카산드라님, flame67님, 초코송군님, 망중한님, 안경님, 밍구리님, 오로메님, 정대단님, 페퍼님, 수선화님, 프리맨님, 운석가이님, 희야님, 란님, 까만귀신님, 린킨님, 슬링거님, 라이프님, 이슈탈님, 비니힐님"
     ]
   },
   {
@@ -3091,12 +3091,12 @@
     "source_site_url": "https://hanpe.net/app/lxxkmz/sleeping-dogs",
     "patch_type": "user",
     "patch_links": [
-      "f47e7d30",
-      "4fdfe4b2"
+      "4fdfe4b2",
+      "f47e7d30"
     ],
     "patch_descriptions": [
-      "주관: 개나소랑 번역: 개나소랑, 탄스 검수: 개나소랑 기술: 제냐 Thanks to: 갈갈갈(카키코미군), 봉숑",
-      "제작: 제냐 본편 번역: 개나소랑 DLC 번역: skyneto, 타마마대령, 레갈마인드 Thanks to: 쩌새"
+      "제작: 제냐 본편 번역: 개나소랑 DLC 번역: skyneto, 타마마대령, 레갈마인드 Thanks to: 쩌새",
+      "주관: 개나소랑 번역: 개나소랑, 탄스 검수: 개나소랑 기술: 제냐 Thanks to: 갈갈갈(카키코미군), 봉숑"
     ]
   },
   {
@@ -4069,6 +4069,19 @@
     ]
   },
   {
+    "app_id": "220700",
+    "game_title": "RPG Maker VX Ace",
+    "steam_link": "https://store.steampowered.com/app/220700",
+    "source_site_url": "https://hanpe.net/app/j09g12/rpg-maker-vx-ace",
+    "patch_type": "user",
+    "patch_links": [
+      "c0489558"
+    ],
+    "patch_descriptions": [
+      "제작자 : 벽령"
+    ]
+  },
+  {
     "app_id": "220740",
     "game_title": "Chaos on Deponia",
     "steam_link": "https://store.steampowered.com/app/220740",
@@ -4933,10 +4946,12 @@
     "source_site_url": "https://hanpe.net/app/j0zy06/deus-ex-human-revolution-directors-cut",
     "patch_type": "user",
     "patch_links": [
-      "245bfb4d"
+      "245bfb4d",
+      "c179f6b9"
     ],
     "patch_descriptions": [
-      "디지님 제작"
+      "디지님 제작",
+      "제작자 : 뉴로맨서"
     ]
   },
   {
@@ -8818,10 +8833,12 @@
     "source_site_url": "https://hanpe.net/app/4rqrqg/call-of-cthulhu-prisoner-of-ice",
     "patch_type": "user",
     "patch_links": [
-      "d7386779"
+      "d7386779",
+      "8a3b3f45"
     ],
     "patch_descriptions": [
-      "제작자 : 정보없음"
+      "제작자 : 정보없음",
+      "제작자 : 슬램백호"
     ]
   },
   {
@@ -11428,12 +11445,12 @@
     "source_site_url": "https://hanpe.net/app/46ye2e/zero-escape-the-nonary-games",
     "patch_type": "user",
     "patch_links": [
-      "ca8c88fd",
-      "da33bee3"
+      "da33bee3",
+      "ca8c88fd"
     ],
     "patch_descriptions": [
-      "9시간 9명의 9의 문 한글패치 [패치에 도움을 주신 분들] 번역: 한글화트수 기술지원: blacksmith01 검수: 루밍, 집게로니아, blacksmith01, hadong, momo11, qqqqq",
-      "선인사망입니다 한글패치 [번역] re_k, 루밍, 무명, 빼신맨,싱 [기술 지원] Blacksmith01 [이미지 편집] 무명 [오프닝 영상 편집] 루밍 [검수] Hyomo, JAGUAR 재규어, Jungyeong ssunk, 루밍, 무명, 빼신맨, 함정역입니다"
+      "선인사망입니다 한글패치 [번역] re_k, 루밍, 무명, 빼신맨,싱 [기술 지원] Blacksmith01 [이미지 편집] 무명 [오프닝 영상 편집] 루밍 [검수] Hyomo, JAGUAR 재규어, Jungyeong ssunk, 루밍, 무명, 빼신맨, 함정역입니다",
+      "9시간 9명의 9의 문 한글패치 [패치에 도움을 주신 분들] 번역: 한글화트수 기술지원: blacksmith01 검수: 루밍, 집게로니아, blacksmith01, hadong, momo11, qqqqq"
     ]
   },
   {
@@ -14992,6 +15009,19 @@
     ]
   },
   {
+    "app_id": "723910",
+    "game_title": "Dark Canvas: Blood and Stone Collector's Edition",
+    "steam_link": "https://store.steampowered.com/app/723910",
+    "source_site_url": "https://hanpe.net/app/l3r9yz/dark-canvas-blood-and-stone-collectors-edition",
+    "patch_type": "user",
+    "patch_links": [
+      "f86a1d7f"
+    ],
+    "patch_descriptions": [
+      "제작자 : syuusaku12"
+    ]
+  },
+  {
     "app_id": "723930",
     "game_title": "Dark Romance: Vampire in Love Collector's Edition",
     "steam_link": "https://store.steampowered.com/app/723930",
@@ -16733,6 +16763,19 @@
     ]
   },
   {
+    "app_id": "915310",
+    "game_title": "SNKRX",
+    "steam_link": "https://store.steampowered.com/app/915310",
+    "source_site_url": "https://hanpe.net/app/jdor2o/snkrx",
+    "patch_type": "user",
+    "patch_links": [
+      "43f3b1cc"
+    ],
+    "patch_descriptions": [
+      "제작자 : Translate-inboong"
+    ]
+  },
+  {
     "app_id": "916040",
     "game_title": "SFD : Rogue TRPG",
     "steam_link": "https://store.steampowered.com/app/916040",
@@ -17409,6 +17452,19 @@
     ],
     "patch_descriptions": [
       "[ 크레딧 ] 대표: 1315 기술 지원: 5QS, Mangosteen 그래픽 수정: 1315, Kampfer, kenter7317, RoKing, 망가도치 번역 및 검수: Alvs, dd, healget, kenter7317, RoKing, 그리든"
+    ]
+  },
+  {
+    "app_id": "970570",
+    "game_title": "CHAOS;CHILD",
+    "steam_link": "https://store.steampowered.com/app/970570",
+    "source_site_url": "https://hanpe.net/app/l2mwme/chaoschild",
+    "patch_type": "user",
+    "patch_links": [
+      "b94ec4a9"
+    ],
+    "patch_descriptions": [
+      "<참여 명단> 패치제작/번역: 구내, Yuki 그래픽, 검수: 당근, 레이, 아냐, Yuki 무비: Yuki 테스트: 당근, 레이, 아냐, 움, Yuki"
     ]
   },
   {
@@ -21534,6 +21590,19 @@
     ],
     "patch_descriptions": [
       "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : 딸기맨"
+    ]
+  },
+  {
+    "app_id": "1374860",
+    "game_title": "Nocturne",
+    "steam_link": "https://store.steampowered.com/app/1374860",
+    "source_site_url": "https://hanpe.net/app/l321wz/nocturne",
+    "patch_type": "user",
+    "patch_links": [
+      "1a0a492d"
+    ],
+    "patch_descriptions": [
+      "제작자 : Metal20"
     ]
   },
   {
@@ -25983,12 +26052,12 @@
     "source_site_url": "https://hanpe.net/app/l28z33/the-lost-village",
     "patch_type": "user",
     "patch_links": [
-      "58897a70",
-      "825b23e4"
+      "825b23e4",
+      "58897a70"
     ],
     "patch_descriptions": [
-      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : Kheeman",
-      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : 천지희"
+      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : 천지희",
+      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : Kheeman"
     ]
   },
   {
@@ -26225,6 +26294,19 @@
     ],
     "patch_descriptions": [
       "번역기를 이용한 한글화 제작자 : Pixel4a"
+    ]
+  },
+  {
+    "app_id": "1998530",
+    "game_title": "Yoiyami Dancers: Twilight Danmaku Dancers",
+    "steam_link": "https://store.steampowered.com/app/1998530",
+    "source_site_url": "https://hanpe.net/app/4y0xm6/yoiyami-dancers-twilight-danmaku-dancers",
+    "patch_type": "user",
+    "patch_links": [
+      "d49e173c"
+    ],
+    "patch_descriptions": [
+      "제작자 : 밤하늘바라기s"
     ]
   },
   {
@@ -28627,9 +28709,11 @@
     "source_site_url": "https://hanpe.net/app/4qzqmd/soulash-2",
     "patch_type": "user",
     "patch_links": [
-      "58febd93"
+      "58febd93",
+      "b7bf662e"
     ],
     "patch_descriptions": [
+      "제작자 : 도시드워프",
       "제작자 : 도시드워프"
     ]
   },
@@ -28884,6 +28968,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 으잌"
+    ]
+  },
+  {
+    "app_id": "2430660",
+    "game_title": "MiceGard",
+    "steam_link": "https://store.steampowered.com/app/2430660",
+    "source_site_url": "https://hanpe.net/app/jvneo5/micegard",
+    "patch_type": "user",
+    "patch_links": [
+      "03c5c2a9"
+    ],
+    "patch_descriptions": [
+      "제작자 : Translate-inboong"
     ]
   },
   {
@@ -29559,6 +29656,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 으잌"
+    ]
+  },
+  {
+    "app_id": "2552430",
+    "game_title": "KINGDOM HEARTS -HD 1.5+2.5 ReMIX-",
+    "steam_link": "https://store.steampowered.com/app/2552430",
+    "source_site_url": "https://hanpe.net/app/j56pd7/kingdom-hearts-hd-1525-remix",
+    "patch_type": "user",
+    "patch_links": [
+      "7ab95966"
+    ],
+    "patch_descriptions": [
+      "Kingdom Hearts Final Mix 한글패치 제작자 : 7cloud"
     ]
   },
   {
@@ -30284,12 +30394,12 @@
     "source_site_url": "https://hanpe.net/app/j8qvzz/akai-onna-%E8%B5%A4%E3%81%84%E5%A5%B3",
     "patch_type": "user",
     "patch_links": [
-      "a4a68218",
-      "de9445a6"
+      "de9445a6",
+      "a4a68218"
     ],
     "patch_descriptions": [
-      "백업용",
-      "제작자 : 거대토깽"
+      "제작자 : 거대토깽",
+      "백업용"
     ]
   },
   {
@@ -35064,9 +35174,11 @@
     "source_site_url": "https://hanpe.net/app/j032z6/wall-street-raider",
     "patch_type": "user",
     "patch_links": [
-      "666befe3"
+      "8ebff525",
+      "2efdf362"
     ],
     "patch_descriptions": [
+      "제작자 : 도시드워프",
       "제작자 : 도시드워프"
     ]
   },
@@ -36135,6 +36247,19 @@
     "patch_descriptions": [
       "공식 한글 개선 패치 제작자 : 희망의가위",
       "공식 한글 개선 패치 제작자 : 바나나우유"
+    ]
+  },
+  {
+    "app_id": "3832490",
+    "game_title": "Antivirus Survivors 2003 Professional",
+    "steam_link": "https://store.steampowered.com/app/3832490",
+    "source_site_url": "https://hanpe.net/app/jppr23/antivirus-survivors-2003-professional",
+    "patch_type": "user",
+    "patch_links": [
+      "545091b0"
+    ],
+    "patch_descriptions": [
+      "제작자 : 정보없음"
     ]
   },
   {

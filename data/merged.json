@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-10-23T23:44:38.706Z",
-    "total_with_steam_link": 3959,
+    "generated_at": "2026-10-25T23:00:35.739Z",
+    "total_with_steam_link": 3965,
     "total_without_steam_link": 13,
     "sources": [
       "steamapp",
@@ -1078,27 +1078,6 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/298050/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "2552430",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/2552430/KINGDOM_HEARTS_HD_1525_ReMIX/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "킹덤 하츠 1 - 7Cloud\nRE:COM\nBBS\n2\n358/2 데이즈"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/2552430/?curator_clanid=30894603"
       },
       "sources": [
         "quasarplay"
@@ -3745,27 +3724,6 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/3160640/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "723910",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/723910/Dark_Canvas_Blood_and_Stone_Collectors_Edition/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - 까칠한 그냥"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/723910/?curator_clanid=30894603"
       },
       "sources": [
         "quasarplay"
@@ -20707,27 +20665,6 @@
       ]
     },
     {
-      "app_id": "220700",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/220700/RPG_Maker_VX_Ace/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "유저 한국어 패치 - 이키나! 님"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/220700/?curator_clanid=42788178"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
       "app_id": "19980",
       "game_title": "",
       "steam_link": "https://store.steampowered.com/app/19980/Prince_of_Persia/",
@@ -22725,13 +22662,13 @@
       "steam_link": "https://store.steampowered.com/app/2674190",
       "patch_type": "user",
       "patch_links": [
-        "a4a68218",
         "de9445a6",
+        "a4a68218",
         "exist"
       ],
       "patch_descriptions": [
-        "백업용",
         "제작자 : 거대토깽",
+        "백업용",
         "유저 한글 패치 - 거대토깽 님"
       ],
       "patch_sources": [
@@ -24052,6 +23989,27 @@
       ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/419kv5/another-door"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "3832490",
+      "game_title": "Antivirus Survivors 2003 Professional",
+      "steam_link": "https://store.steampowered.com/app/3832490",
+      "patch_type": "user",
+      "patch_links": [
+        "545091b0"
+      ],
+      "patch_descriptions": [
+        "제작자 : 정보없음"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jppr23/antivirus-survivors-2003-professional"
       },
       "sources": [
         "steamapp"
@@ -29559,13 +29517,16 @@
       "patch_type": "user",
       "patch_links": [
         "d7386779",
+        "8a3b3f45",
         "exist"
       ],
       "patch_descriptions": [
         "제작자 : 정보없음",
+        "제작자 : 슬램백호",
         "한국어 패치"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "quasarplay"
       ],
@@ -30751,6 +30712,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "970570",
+      "game_title": "CHAOS;CHILD",
+      "steam_link": "https://store.steampowered.com/app/970570",
+      "patch_type": "user",
+      "patch_links": [
+        "b94ec4a9"
+      ],
+      "patch_descriptions": [
+        "<참여 명단> 패치제작/번역: 구내, Yuki 그래픽, 검수: 당근, 레이, 아냐, Yuki 무비: Yuki 테스트: 당근, 레이, 아냐, 움, Yuki"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l2mwme/chaoschild"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -33213,6 +33195,32 @@
       ]
     },
     {
+      "app_id": "723910",
+      "game_title": "Dark Canvas: Blood and Stone Collector's Edition",
+      "steam_link": "https://store.steampowered.com/app/723910",
+      "patch_type": "user",
+      "patch_links": [
+        "f86a1d7f",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : syuusaku12",
+        "한글 패치 - 까칠한 그냥"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l3r9yz/dark-canvas-blood-and-stone-collectors-edition",
+        "quasarplay": "https://store.steampowered.com/app/723910/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "2100",
       "game_title": "Dark Messiah of Might & Magic",
       "steam_link": "https://store.steampowered.com/app/2100",
@@ -35125,13 +35133,16 @@
       "patch_type": "user",
       "patch_links": [
         "245bfb4d",
+        "c179f6b9",
         "exist"
       ],
       "patch_descriptions": [
         "디지님 제작",
+        "제작자 : 뉴로맨서",
         "한글 패치 - 뉴로맨서\n한글 패치 - 디지, 데이어스 엑스 한글화 카페"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "quasarplay"
       ],
@@ -49761,15 +49772,15 @@
       "steam_link": "https://store.steampowered.com/app/25900",
       "patch_type": "user",
       "patch_links": [
-        "0b1e6dd3",
         "50bea835",
         "63eeb990",
+        "0b1e6dd3",
         "exist"
       ],
       "patch_descriptions": [
-        "[참여] heemangkr님, 고어빠님, 무료함님, 붉은달님, 치우천왕님, 해님님, 아인님, 후니님, 씨즐님, 밤아찌님, terrorofsky님, 찬님, 유클리드님, 환타머신님, 하늘보리님, peopleyy님, 황혼의장님, 열심히잘님, 제닐님, 단비님, 실버팽님, zodinie님, zeod님, 카친스키님, 아디안님, 고등어님, 이광표님, 카산드라님, flame67님, 초코송군님, 망중한님, 안경님, 밍구리님, 오로메님, 정대단님, 페퍼님, 수선화님, 프리맨님, 운석가이님, 희야님, 란님, 까만귀신님, 린킨님, 슬링거님, 라이프님, 이슈탈님, 비니힐님",
         "제작자 : 정보없음",
         "지렁이님 제작",
+        "[참여] heemangkr님, 고어빠님, 무료함님, 붉은달님, 치우천왕님, 해님님, 아인님, 후니님, 씨즐님, 밤아찌님, terrorofsky님, 찬님, 유클리드님, 환타머신님, 하늘보리님, peopleyy님, 황혼의장님, 열심히잘님, 제닐님, 단비님, 실버팽님, zodinie님, zeod님, 카친스키님, 아디안님, 고등어님, 이광표님, 카산드라님, flame67님, 초코송군님, 망중한님, 안경님, 밍구리님, 오로메님, 정대단님, 페퍼님, 수선화님, 프리맨님, 운석가이님, 희야님, 란님, 까만귀신님, 린킨님, 슬링거님, 라이프님, 이슈탈님, 비니힐님",
         "유저 한국어 패치 - heemangkr, 고어빠, 무료함, 붉은달, 치우천왕, 해님, 아인, 후니, 씨즐, 밤아찌, terrorofsky, 찬, 유클리드, 환타머신, 하늘보리, propleyy, 황혼의장, 열심히잘, 제닐, 단비, 실버팽, zodinie, zeod 님 등"
       ],
       "patch_sources": [
@@ -49859,6 +49870,32 @@
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/4167w5/kingdom-come-deliverance-ii",
         "quasarplay": "https://store.steampowered.com/app/1771300/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2552430",
+      "game_title": "KINGDOM HEARTS -HD 1.5+2.5 ReMIX-",
+      "steam_link": "https://store.steampowered.com/app/2552430",
+      "patch_type": "user",
+      "patch_links": [
+        "7ab95966",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "Kingdom Hearts Final Mix 한글패치 제작자 : 7cloud",
+        "킹덤 하츠 1 - 7Cloud\nRE:COM\nBBS\n2\n358/2 데이즈"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j56pd7/kingdom-hearts-hd-1525-remix",
+        "quasarplay": "https://store.steampowered.com/app/2552430/?curator_clanid=30894603"
       },
       "sources": [
         "steamapp",
@@ -54424,6 +54461,27 @@
       ]
     },
     {
+      "app_id": "2430660",
+      "game_title": "MiceGard",
+      "steam_link": "https://store.steampowered.com/app/2430660",
+      "patch_type": "user",
+      "patch_links": [
+        "03c5c2a9"
+      ],
+      "patch_descriptions": [
+        "제작자 : Translate-inboong"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jvneo5/micegard"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "1250410",
       "game_title": "Microsoft Flight Simulator (2020) 40th Anniversary Edition",
       "steam_link": "https://store.steampowered.com/app/1250410",
@@ -57786,6 +57844,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "1374860",
+      "game_title": "Nocturne",
+      "steam_link": "https://store.steampowered.com/app/1374860",
+      "patch_type": "user",
+      "patch_links": [
+        "1a0a492d"
+      ],
+      "patch_descriptions": [
+        "제작자 : Metal20"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l321wz/nocturne"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -64887,6 +64966,32 @@
       ]
     },
     {
+      "app_id": "220700",
+      "game_title": "RPG Maker VX Ace",
+      "steam_link": "https://store.steampowered.com/app/220700",
+      "patch_type": "user",
+      "patch_links": [
+        "c0489558",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 벽령",
+        "유저 한국어 패치 - 이키나! 님"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j09g12/rpg-maker-vx-ace",
+        "quasarplay": "https://store.steampowered.com/app/220700/?curator_clanid=42788178"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "2087460",
       "game_title": "Ruff Ghanor",
       "steam_link": "https://store.steampowered.com/app/2087460",
@@ -68330,12 +68435,12 @@
       "steam_link": "https://store.steampowered.com/app/202170",
       "patch_type": "user",
       "patch_links": [
-        "f47e7d30",
-        "4fdfe4b2"
+        "4fdfe4b2",
+        "f47e7d30"
       ],
       "patch_descriptions": [
-        "주관: 개나소랑 번역: 개나소랑, 탄스 검수: 개나소랑 기술: 제냐 Thanks to: 갈갈갈(카키코미군), 봉숑",
-        "제작: 제냐 본편 번역: 개나소랑 DLC 번역: skyneto, 타마마대령, 레갈마인드 Thanks to: 쩌새"
+        "제작: 제냐 본편 번역: 개나소랑 DLC 번역: skyneto, 타마마대령, 레갈마인드 Thanks to: 쩌새",
+        "주관: 개나소랑 번역: 개나소랑, 탄스 검수: 개나소랑 기술: 제냐 Thanks to: 갈갈갈(카키코미군), 봉숑"
       ],
       "patch_sources": [
         "steamapp",
@@ -68681,6 +68786,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "915310",
+      "game_title": "SNKRX",
+      "steam_link": "https://store.steampowered.com/app/915310",
+      "patch_type": "user",
+      "patch_links": [
+        "43f3b1cc"
+      ],
+      "patch_descriptions": [
+        "제작자 : Translate-inboong"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jdor2o/snkrx"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -69050,13 +69176,16 @@
       "patch_type": "user",
       "patch_links": [
         "58febd93",
+        "b7bf662e",
         "exist"
       ],
       "patch_descriptions": [
         "제작자 : 도시드워프",
+        "제작자 : 도시드워프",
         "유저 한글 패치 - 도시드워프"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "quasarplay"
       ],
@@ -76905,13 +77034,13 @@
       "steam_link": "https://store.steampowered.com/app/1963040",
       "patch_type": "user",
       "patch_links": [
-        "58897a70",
         "825b23e4",
+        "58897a70",
         "exist"
       ],
       "patch_descriptions": [
-        "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : Kheeman",
         "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : 천지희",
+        "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : Kheeman",
         "한글 패치 - 천지회\n한글 패치 - Kheeman"
       ],
       "patch_sources": [
@@ -83167,14 +83296,17 @@
       "steam_link": "https://store.steampowered.com/app/3525620",
       "patch_type": "user",
       "patch_links": [
-        "666befe3",
+        "8ebff525",
+        "2efdf362",
         "exist"
       ],
       "patch_descriptions": [
         "제작자 : 도시드워프",
+        "제작자 : 도시드워프",
         "한글 패치"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "quasarplay"
       ],
@@ -85250,6 +85382,27 @@
       ]
     },
     {
+      "app_id": "1998530",
+      "game_title": "Yoiyami Dancers: Twilight Danmaku Dancers",
+      "steam_link": "https://store.steampowered.com/app/1998530",
+      "patch_type": "user",
+      "patch_links": [
+        "d49e173c"
+      ],
+      "patch_descriptions": [
+        "제작자 : 밤하늘바라기s"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4y0xm6/yoiyami-dancers-twilight-danmaku-dancers"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "4609630",
       "game_title": "Yokai Crossing",
       "steam_link": "https://store.steampowered.com/app/4609630",
@@ -85860,13 +86013,13 @@
       "steam_link": "https://store.steampowered.com/app/477740",
       "patch_type": "user",
       "patch_links": [
-        "ca8c88fd",
         "da33bee3",
+        "ca8c88fd",
         "exist"
       ],
       "patch_descriptions": [
-        "9시간 9명의 9의 문 한글패치 [패치에 도움을 주신 분들] 번역: 한글화트수 기술지원: blacksmith01 검수: 루밍, 집게로니아, blacksmith01, hadong, momo11, qqqqq",
         "선인사망입니다 한글패치 [번역] re_k, 루밍, 무명, 빼신맨,싱 [기술 지원] Blacksmith01 [이미지 편집] 무명 [오프닝 영상 편집] 루밍 [검수] Hyomo, JAGUAR 재규어, Jungyeong ssunk, 루밍, 무명, 빼신맨, 함정역입니다",
+        "9시간 9명의 9의 문 한글패치 [패치에 도움을 주신 분들] 번역: 한글화트수 기술지원: blacksmith01 검수: 루밍, 집게로니아, blacksmith01, hadong, momo11, qqqqq",
         "극한탈출: 9시간 9명 9의 문 -  \n극한탈출 ADV 선인사망 -"
       ],
       "patch_sources": [
