@@ -26,6 +26,19 @@
     ]
   },
   {
+    "app_id": "130",
+    "game_title": "Half-Life: Blue Shift",
+    "steam_link": "https://store.steampowered.com/app/130",
+    "source_site_url": "https://hanpe.net/app/l7991z/half-life-blue-shift",
+    "patch_type": "user",
+    "patch_links": [
+      "3f65f581"
+    ],
+    "patch_descriptions": [
+      "제작자 : 줄하나"
+    ]
+  },
+  {
     "app_id": "630",
     "game_title": "Alien Swarm",
     "steam_link": "https://store.steampowered.com/app/630",
@@ -266,6 +279,19 @@
     ]
   },
   {
+    "app_id": "3720",
+    "game_title": "Evil Genius",
+    "steam_link": "https://store.steampowered.com/app/3720",
+    "source_site_url": "https://hanpe.net/app/j95z35/evil-genius",
+    "patch_type": "user",
+    "patch_links": [
+      "bf057aeb"
+    ],
+    "patch_descriptions": [
+      "제작자 : 조로"
+    ]
+  },
+  {
     "app_id": "3830",
     "game_title": "Psychonauts",
     "steam_link": "https://store.steampowered.com/app/3830",
@@ -397,6 +423,58 @@
     ],
     "patch_descriptions": [
       "좋은 풍경님 제작"
+    ]
+  },
+  {
+    "app_id": "4850",
+    "game_title": "Cossacks: Back to War",
+    "steam_link": "https://store.steampowered.com/app/4850",
+    "source_site_url": "https://hanpe.net/app/j5k9d3/cossacks-back-to-war",
+    "patch_type": "user",
+    "patch_links": [
+      "510c8139"
+    ],
+    "patch_descriptions": [
+      "제작자 : 조로"
+    ]
+  },
+  {
+    "app_id": "4870",
+    "game_title": "Cossacks: Art of War",
+    "steam_link": "https://store.steampowered.com/app/4870",
+    "source_site_url": "https://hanpe.net/app/j0yrg1/cossacks-art-of-war",
+    "patch_type": "user",
+    "patch_links": [
+      "510c8139"
+    ],
+    "patch_descriptions": [
+      "제작자 : 조로"
+    ]
+  },
+  {
+    "app_id": "4880",
+    "game_title": "Cossacks: European Wars",
+    "steam_link": "https://store.steampowered.com/app/4880",
+    "source_site_url": "https://hanpe.net/app/j93oo6/cossacks-european-wars",
+    "patch_type": "user",
+    "patch_links": [
+      "510c8139"
+    ],
+    "patch_descriptions": [
+      "제작자 : 조로"
+    ]
+  },
+  {
+    "app_id": "4890",
+    "game_title": "Cossacks II: Battle for Europe",
+    "steam_link": "https://store.steampowered.com/app/4890",
+    "source_site_url": "https://hanpe.net/app/4603qe/cossacks-ii-battle-for-europe",
+    "patch_type": "user",
+    "patch_links": [
+      "68afbc6e"
+    ],
+    "patch_descriptions": [
+      "제작자 : 조로"
     ]
   },
   {
@@ -1260,6 +1338,19 @@
     ]
   },
   {
+    "app_id": "19980",
+    "game_title": "Prince of Persia®",
+    "steam_link": "https://store.steampowered.com/app/19980",
+    "source_site_url": "https://hanpe.net/app/j065oj/prince-of-persia",
+    "patch_type": "user",
+    "patch_links": [
+      "c8a33133"
+    ],
+    "patch_descriptions": [
+      "가이드 제작자 : 환불했어요 패치 제작자 : POLO"
+    ]
+  },
+  {
     "app_id": "20900",
     "game_title": "The Witcher: Enhanced Edition Director's Cut",
     "steam_link": "https://store.steampowered.com/app/20900",
@@ -1618,6 +1709,19 @@
     ]
   },
   {
+    "app_id": "25980",
+    "game_title": "Majesty 2",
+    "steam_link": "https://store.steampowered.com/app/25980",
+    "source_site_url": "https://hanpe.net/app/j8epx0/majesty-2",
+    "patch_type": "user",
+    "patch_links": [
+      "88dbad36"
+    ],
+    "patch_descriptions": [
+      "제작자 : 조로"
+    ]
+  },
+  {
     "app_id": "31170",
     "game_title": "Tales of Monkey Island: Complete Season",
     "steam_link": "https://store.steampowered.com/app/31170",
@@ -1697,6 +1801,19 @@
     "patch_descriptions": [
       "팀 C-3P0 제작",
       "팀 C-3P0 제작"
+    ]
+  },
+  {
+    "app_id": "32750",
+    "game_title": "Comanche 4",
+    "steam_link": "https://store.steampowered.com/app/32750",
+    "source_site_url": "https://hanpe.net/app/l3p8m7/comanche-4",
+    "patch_type": "user",
+    "patch_links": [
+      "c72cdf45"
+    ],
+    "patch_descriptions": [
+      "제작자 : 조로"
     ]
   },
   {
@@ -2948,6 +3065,45 @@
     ],
     "patch_descriptions": [
       "Aqune님 블로그 [패치 제작(관계)자] 붉은 인간, 한필드 고블린, 헤류, BeDuck, 창곰, Laci, Maximus, Sour Cream"
+    ]
+  },
+  {
+    "app_id": "115200",
+    "game_title": "Cossacks II: Napoleonic Wars",
+    "steam_link": "https://store.steampowered.com/app/115200",
+    "source_site_url": "https://hanpe.net/app/4111rv/cossacks-ii-napoleonic-wars",
+    "patch_type": "user",
+    "patch_links": [
+      "99445d9e"
+    ],
+    "patch_descriptions": [
+      "제작자 : 조로"
+    ]
+  },
+  {
+    "app_id": "115210",
+    "game_title": "American Conquest",
+    "steam_link": "https://store.steampowered.com/app/115210",
+    "source_site_url": "https://hanpe.net/app/l73kko/american-conquest",
+    "patch_type": "user",
+    "patch_links": [
+      "050f8dc0"
+    ],
+    "patch_descriptions": [
+      "제작자 : 조로"
+    ]
+  },
+  {
+    "app_id": "115220",
+    "game_title": "American Conquest: Fight Back",
+    "steam_link": "https://store.steampowered.com/app/115220",
+    "source_site_url": "https://hanpe.net/app/j8vke2/american-conquest-fight-back",
+    "patch_type": "user",
+    "patch_links": [
+      "050f8dc0"
+    ],
+    "patch_descriptions": [
+      "제작자 : 조로"
     ]
   },
   {
@@ -5881,13 +6037,13 @@
     "patch_type": "user",
     "patch_links": [
       "174318e2",
-      "a2ba86ca",
-      "c02b7c53"
+      "c02b7c53",
+      "a2ba86ca"
     ],
     "patch_descriptions": [
       "HD 모드 전용 한글패치",
-      "구버전 다운로드 명령어 : dotnet DepotDownloader.dll -app 254700 -depot 254701 -manifest 7608705427663292112 -username 스팀id -password 스팀비번",
-      "원본파일용. 구버전 한글 패치가 있을경우 스팀 무결성 검사를 해야 정상적인 패치 적용 이 방법을 통해 구버전으로 롤백해야 함 download_depot 254700 254701 7608705427663292112 또는 링크 3 참고"
+      "원본파일용. 구버전 한글 패치가 있을경우 스팀 무결성 검사를 해야 정상적인 패치 적용 이 방법을 통해 구버전으로 롤백해야 함 download_depot 254700 254701 7608705427663292112 또는 링크 3 참고",
+      "구버전 다운로드 명령어 : dotnet DepotDownloader.dll -app 254700 -depot 254701 -manifest 7608705427663292112 -username 스팀id -password 스팀비번"
     ]
   },
   {
@@ -8787,6 +8943,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 노말리토"
+    ]
+  },
+  {
+    "app_id": "359230",
+    "game_title": "Lethis - Path of Progress",
+    "steam_link": "https://store.steampowered.com/app/359230",
+    "source_site_url": "https://hanpe.net/app/jn9qqr/lethis-path-of-progress",
+    "patch_type": "user",
+    "patch_links": [
+      "1525ef34"
+    ],
+    "patch_descriptions": [
+      "제작자 : 조로"
     ]
   },
   {
@@ -12866,6 +13035,19 @@
     ]
   },
   {
+    "app_id": "566050",
+    "game_title": "Zeus + Poseidon",
+    "steam_link": "https://store.steampowered.com/app/566050",
+    "source_site_url": "https://hanpe.net/app/l7nkoz/zeus-poseidon",
+    "patch_type": "user",
+    "patch_links": [
+      "795dcec9"
+    ],
+    "patch_descriptions": [
+      "제작자 : 조로"
+    ]
+  },
+  {
     "app_id": "567640",
     "game_title": "Danganronpa V3: Killing Harmony",
     "steam_link": "https://store.steampowered.com/app/567640",
@@ -15391,6 +15573,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 정보없음"
+    ]
+  },
+  {
+    "app_id": "757210",
+    "game_title": "EMERGENCY 4 Deluxe",
+    "steam_link": "https://store.steampowered.com/app/757210",
+    "source_site_url": "https://hanpe.net/app/j5ko2m/emergency-4-deluxe",
+    "patch_type": "user",
+    "patch_links": [
+      "38404beb"
+    ],
+    "patch_descriptions": [
+      "제작자 : 조로"
     ]
   },
   {
@@ -18302,12 +18497,12 @@
     "source_site_url": "https://hanpe.net/app/4yvdne/dinkum%EB%94%A9%EC%BB%B4",
     "patch_type": "official",
     "patch_links": [
-      "8b7d85b2",
-      "238a640d"
+      "238a640d",
+      "8b7d85b2"
     ],
     "patch_descriptions": [
-      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 적용 방법 :",
-      "한글패치 개선 버전 제작자 : 사이버 엘프"
+      "한글패치 개선 버전 제작자 : 사이버 엘프",
+      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 적용 방법 :"
     ]
   },
   {
@@ -18817,12 +19012,12 @@
     "source_site_url": "https://hanpe.net/app/j0q8do/%E6%9D%B1%E6%96%B9%E5%9C%B0%E9%9C%8A%E6%AE%BF-subterranean-animism",
     "patch_type": "user",
     "patch_links": [
-      "4f772054",
-      "128d3459"
+      "128d3459",
+      "4f772054"
     ],
     "patch_descriptions": [
-      "1. thcrap 를 게임 폴더에 압축 해제 2. thcrap 실행 3. Find games in a specific folder 클릭 4. in the games' folder 클릭 5. 게임 실행파일 이름변경 -> (예 : th11 -> th11_1) 6. thcrap_loader.exe -> th11.exe 으로 변경 7. config 폴더 -> games.js 연 후 th11 실행 파일 경로 파일명 수정 (th11.exe->th11_1.exe) 8. 스팀 속성 -> 시작 옵션에 \"ko.js\" th11 추가",
-      "백업용 - thcrap 주소"
+      "백업용 - thcrap 주소",
+      "1. thcrap 를 게임 폴더에 압축 해제 2. thcrap 실행 3. Find games in a specific folder 클릭 4. in the games' folder 클릭 5. 게임 실행파일 이름변경 -> (예 : th11 -> th11_1) 6. thcrap_loader.exe -> th11.exe 으로 변경 7. config 폴더 -> games.js 연 후 th11 실행 파일 경로 파일명 수정 (th11.exe->th11_1.exe) 8. 스팀 속성 -> 시작 옵션에 \"ko.js\" th11 추가"
     ]
   },
   {
@@ -19236,12 +19431,12 @@
     "source_site_url": "https://hanpe.net/app/j0dvm2/3rd-eye",
     "patch_type": "user",
     "patch_links": [
-      "ce95e733",
-      "df4ff18f"
+      "df4ff18f",
+      "ce95e733"
     ],
     "patch_descriptions": [
-      "(회원 가입 불필요 링크)",
-      "회원 가입 필요"
+      "회원 가입 필요",
+      "(회원 가입 불필요 링크)"
     ]
   },
   {
@@ -28638,6 +28833,19 @@
     ]
   },
   {
+    "app_id": "2387040",
+    "game_title": "Legends of the Round Table",
+    "steam_link": "https://store.steampowered.com/app/2387040",
+    "source_site_url": "https://hanpe.net/app/l779gz/legends-of-the-round-table",
+    "patch_type": "user",
+    "patch_links": [
+      "db59ca7a"
+    ],
+    "patch_descriptions": [
+      "제작자 : aabb0423"
+    ]
+  },
+  {
     "app_id": "2389570",
     "game_title": "Sniper Killer",
     "steam_link": "https://store.steampowered.com/app/2389570",
@@ -37740,9 +37948,9 @@
   },
   {
     "app_id": "4532150",
-    "game_title": "G-MODEアーカイブス+ ゼノサーガ パイドパイパー",
+    "game_title": "G-MODE Archives+ Xenosaga Pied Piper",
     "steam_link": "https://store.steampowered.com/app/4532150",
-    "source_site_url": "https://hanpe.net/app/j07ydx/g-mode%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%E3%82%B9-%E3%82%BC%E3%83%8E%E3%82%B5%E3%83%BC%E3%82%AC-%E3%83%91%E3%82%A4%E3%83%89%E3%83%91%E3%82%A4%E3%83%91%E3%83%BC",
+    "source_site_url": "https://hanpe.net/app/j07ydx/g-mode-archives-xenosaga-pied-piper",
     "patch_type": "user",
     "patch_links": [
       "4f9f2e98"

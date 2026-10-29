@@ -2,8 +2,8 @@
   "curator_id": 30894603,
   "curator_name": "Curator #30894603",
   "curator_url": "https://store.steampowered.com/curator/30894603/",
-  "total_games": 1382,
-  "exported_at": "2026-10-25T23:00:22.426312",
+  "total_games": 1383,
+  "exported_at": "2026-10-29T00:34:14.241084",
   "games": [
     {
       "appid": "384630",
@@ -1839,6 +1839,15 @@
       "review": "한글 패치 - Pixel4a\n한글 패치 - SummerSpring",
       "review_has_url": true,
       "review_url_count": 2,
+      "type": "recommended"
+    },
+    {
+      "appid": "4957110",
+      "url": "https://store.steampowered.com/app/4957110/群侠传幸存者/",
+      "curator_url": "https://store.steampowered.com/app/4957110/?curator_clanid=30894603",
+      "review": "한글 패치 - 천혈현",
+      "review_has_url": true,
+      "review_url_count": 1,
       "type": "recommended"
     },
     {

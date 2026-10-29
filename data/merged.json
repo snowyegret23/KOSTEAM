@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-10-25T23:00:35.739Z",
-    "total_with_steam_link": 3965,
+    "generated_at": "2026-10-29T00:34:28.648Z",
+    "total_with_steam_link": 3980,
     "total_without_steam_link": 13,
     "sources": [
       "steamapp",
@@ -721,27 +721,6 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/571720/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "2387040",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/2387040/Legends_of_the_Round_Table/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - aabb0423"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/2387040/?curator_clanid=30894603"
       },
       "sources": [
         "quasarplay"
@@ -3157,6 +3136,27 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/2973390/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "4957110",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/4957110/群侠传幸存者/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "한글 패치 - 천혈현"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/4957110/?curator_clanid=30894603"
       },
       "sources": [
         "quasarplay"
@@ -20665,27 +20665,6 @@
       ]
     },
     {
-      "app_id": "19980",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/19980/Prince_of_Persia/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "유저 한국어 패치 -"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/19980/?curator_clanid=42788178"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
       "app_id": "341000",
       "game_title": "",
       "steam_link": "https://store.steampowered.com/app/341000/Mad_Games_Tycoon/",
@@ -21259,12 +21238,12 @@
       "steam_link": "https://store.steampowered.com/app/1131900",
       "patch_type": "user",
       "patch_links": [
-        "ce95e733",
-        "df4ff18f"
+        "df4ff18f",
+        "ce95e733"
       ],
       "patch_descriptions": [
-        "(회원 가입 불필요 링크)",
-        "회원 가입 필요"
+        "회원 가입 필요",
+        "(회원 가입 불필요 링크)"
       ],
       "patch_sources": [
         "steamapp",
@@ -23424,6 +23403,48 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "115210",
+      "game_title": "American Conquest",
+      "steam_link": "https://store.steampowered.com/app/115210",
+      "patch_type": "user",
+      "patch_links": [
+        "050f8dc0"
+      ],
+      "patch_descriptions": [
+        "제작자 : 조로"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l73kko/american-conquest"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "115220",
+      "game_title": "American Conquest: Fight Back",
+      "steam_link": "https://store.steampowered.com/app/115220",
+      "patch_type": "user",
+      "patch_links": [
+        "050f8dc0"
+      ],
+      "patch_descriptions": [
+        "제작자 : 조로"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j8vke2/american-conquest-fight-back"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -27358,14 +27379,14 @@
       "patch_type": "user",
       "patch_links": [
         "174318e2",
-        "a2ba86ca",
         "c02b7c53",
+        "a2ba86ca",
         "exist"
       ],
       "patch_descriptions": [
         "HD 모드 전용 한글패치",
-        "구버전 다운로드 명령어 : dotnet DepotDownloader.dll -app 254700 -depot 254701 -manifest 7608705427663292112 -username 스팀id -password 스팀비번",
         "원본파일용. 구버전 한글 패치가 있을경우 스팀 무결성 검사를 해야 정상적인 패치 적용 이 방법을 통해 구버전으로 롤백해야 함 download_depot 254700 254701 7608705427663292112 또는 링크 3 참고",
+        "구버전 다운로드 명령어 : dotnet DepotDownloader.dll -app 254700 -depot 254701 -manifest 7608705427663292112 -username 스팀id -password 스팀비번",
         "HD Project 대응 한국어 패치 - k3ith33 님,\n \n오리지널 유저 한국어 패치 - 촌닭투, 감자, 개복치 님"
       ],
       "patch_sources": [
@@ -31688,6 +31709,27 @@
       ]
     },
     {
+      "app_id": "32750",
+      "game_title": "Comanche 4",
+      "steam_link": "https://store.steampowered.com/app/32750",
+      "patch_type": "user",
+      "patch_links": [
+        "c72cdf45"
+      ],
+      "patch_descriptions": [
+        "제작자 : 조로"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l3p8m7/comanche-4"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "17480",
       "game_title": "Command & Conquer™ Red Alert™ 3",
       "steam_link": "https://store.steampowered.com/app/17480",
@@ -32110,6 +32152,111 @@
       ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/jmkov5/cosmoteer-starship-architect-commander"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "4890",
+      "game_title": "Cossacks II: Battle for Europe",
+      "steam_link": "https://store.steampowered.com/app/4890",
+      "patch_type": "user",
+      "patch_links": [
+        "68afbc6e"
+      ],
+      "patch_descriptions": [
+        "제작자 : 조로"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4603qe/cossacks-ii-battle-for-europe"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "115200",
+      "game_title": "Cossacks II: Napoleonic Wars",
+      "steam_link": "https://store.steampowered.com/app/115200",
+      "patch_type": "user",
+      "patch_links": [
+        "99445d9e"
+      ],
+      "patch_descriptions": [
+        "제작자 : 조로"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4111rv/cossacks-ii-napoleonic-wars"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "4870",
+      "game_title": "Cossacks: Art of War",
+      "steam_link": "https://store.steampowered.com/app/4870",
+      "patch_type": "user",
+      "patch_links": [
+        "510c8139"
+      ],
+      "patch_descriptions": [
+        "제작자 : 조로"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j0yrg1/cossacks-art-of-war"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "4850",
+      "game_title": "Cossacks: Back to War",
+      "steam_link": "https://store.steampowered.com/app/4850",
+      "patch_type": "user",
+      "patch_links": [
+        "510c8139"
+      ],
+      "patch_descriptions": [
+        "제작자 : 조로"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j5k9d3/cossacks-back-to-war"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "4880",
+      "game_title": "Cossacks: European Wars",
+      "steam_link": "https://store.steampowered.com/app/4880",
+      "patch_type": "user",
+      "patch_links": [
+        "510c8139"
+      ],
+      "patch_descriptions": [
+        "제작자 : 조로"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j93oo6/cossacks-european-wars"
       },
       "sources": [
         "steamapp"
@@ -35545,13 +35692,13 @@
       "steam_link": "https://store.steampowered.com/app/1062520",
       "patch_type": "official",
       "patch_links": [
-        "8b7d85b2",
         "238a640d",
+        "8b7d85b2",
         "exist"
       ],
       "patch_descriptions": [
-        "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 적용 방법 :",
         "한글패치 개선 버전 제작자 : 사이버 엘프",
+        "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 적용 방법 :",
         "유저 한글 패치 - rhona78 님,\n유저 한글 패치 - Kheeman 님"
       ],
       "patch_sources": [
@@ -38359,6 +38506,27 @@
       ]
     },
     {
+      "app_id": "757210",
+      "game_title": "EMERGENCY 4 Deluxe",
+      "steam_link": "https://store.steampowered.com/app/757210",
+      "patch_type": "user",
+      "patch_links": [
+        "38404beb"
+      ],
+      "patch_descriptions": [
+        "제작자 : 조로"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j5ko2m/emergency-4-deluxe"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "383120",
       "game_title": "Empyrion - Galactic Survival",
       "steam_link": "https://store.steampowered.com/app/383120",
@@ -39118,6 +39286,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "3720",
+      "game_title": "Evil Genius",
+      "steam_link": "https://store.steampowered.com/app/3720",
+      "patch_type": "user",
+      "patch_links": [
+        "bf057aeb"
+      ],
+      "patch_descriptions": [
+        "제작자 : 조로"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j95z35/evil-genius"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -42001,7 +42190,7 @@
     },
     {
       "app_id": "4532150",
-      "game_title": "G-MODEアーカイブス+ ゼノサーガ パイドパイパー",
+      "game_title": "G-MODE Archives+ Xenosaga Pied Piper",
       "steam_link": "https://store.steampowered.com/app/4532150",
       "patch_type": "user",
       "patch_links": [
@@ -42014,7 +42203,7 @@
         "steamapp"
       ],
       "source_site_urls": {
-        "steamapp": "https://hanpe.net/app/j07ydx/g-mode%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%E3%82%B9-%E3%82%BC%E3%83%8E%E3%82%B5%E3%83%BC%E3%82%AC-%E3%83%91%E3%82%A4%E3%83%89%E3%83%91%E3%82%A4%E3%83%91%E3%83%BC"
+        "steamapp": "https://hanpe.net/app/j07ydx/g-mode-archives-xenosaga-pied-piper"
       },
       "sources": [
         "steamapp"
@@ -44137,6 +44326,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "130",
+      "game_title": "Half-Life: Blue Shift",
+      "steam_link": "https://store.steampowered.com/app/130",
+      "patch_type": "user",
+      "patch_links": [
+        "3f65f581"
+      ],
+      "patch_descriptions": [
+        "제작자 : 줄하나"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l7991z/half-life-blue-shift"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -50985,6 +51195,32 @@
       ]
     },
     {
+      "app_id": "2387040",
+      "game_title": "Legends of the Round Table",
+      "steam_link": "https://store.steampowered.com/app/2387040",
+      "patch_type": "user",
+      "patch_links": [
+        "db59ca7a",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : aabb0423",
+        "한글 패치 - aabb0423"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l779gz/legends-of-the-round-table",
+        "quasarplay": "https://store.steampowered.com/app/2387040/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "249130",
       "game_title": "LEGO® Marvel™ Super Heroes",
       "steam_link": "https://store.steampowered.com/app/249130",
@@ -51107,6 +51343,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "359230",
+      "game_title": "Lethis - Path of Progress",
+      "steam_link": "https://store.steampowered.com/app/359230",
+      "patch_type": "user",
+      "patch_links": [
+        "1525ef34"
+      ],
+      "patch_descriptions": [
+        "제작자 : 조로"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jn9qqr/lethis-path-of-progress"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -53184,6 +53441,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "25980",
+      "game_title": "Majesty 2",
+      "steam_link": "https://store.steampowered.com/app/25980",
+      "patch_type": "user",
+      "patch_links": [
+        "88dbad36"
+      ],
+      "patch_descriptions": [
+        "제작자 : 조로"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j8epx0/majesty-2"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -61416,6 +61694,32 @@
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/lz9z29/primordia",
         "quasarplay": "https://store.steampowered.com/app/227000/?curator_clanid=42788178"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "19980",
+      "game_title": "Prince of Persia®",
+      "steam_link": "https://store.steampowered.com/app/19980",
+      "patch_type": "user",
+      "patch_links": [
+        "c8a33133",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "가이드 제작자 : 환불했어요 패치 제작자 : POLO",
+        "유저 한국어 패치 -"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j065oj/prince-of-persia",
+        "quasarplay": "https://store.steampowered.com/app/19980/?curator_clanid=42788178"
       },
       "sources": [
         "steamapp",
@@ -86089,6 +86393,27 @@
       ]
     },
     {
+      "app_id": "566050",
+      "game_title": "Zeus + Poseidon",
+      "steam_link": "https://store.steampowered.com/app/566050",
+      "patch_type": "user",
+      "patch_links": [
+        "795dcec9"
+      ],
+      "patch_descriptions": [
+        "제작자 : 조로"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l7nkoz/zeus-poseidon"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "416680",
       "game_title": "Zombie Night Terror",
       "steam_link": "https://store.steampowered.com/app/416680",
@@ -94997,12 +95322,12 @@
       "steam_link": "https://store.steampowered.com/app/1100150",
       "patch_type": "user",
       "patch_links": [
-        "4f772054",
-        "128d3459"
+        "128d3459",
+        "4f772054"
       ],
       "patch_descriptions": [
-        "1. thcrap 를 게임 폴더에 압축 해제 2. thcrap 실행 3. Find games in a specific folder 클릭 4. in the games' folder 클릭 5. 게임 실행파일 이름변경 -> (예 : th11 -> th11_1) 6. thcrap_loader.exe -> th11.exe 으로 변경 7. config 폴더 -> games.js 연 후 th11 실행 파일 경로 파일명 수정 (th11.exe->th11_1.exe) 8. 스팀 속성 -> 시작 옵션에 \"ko.js\" th11 추가",
-        "백업용 - thcrap 주소"
+        "백업용 - thcrap 주소",
+        "1. thcrap 를 게임 폴더에 압축 해제 2. thcrap 실행 3. Find games in a specific folder 클릭 4. in the games' folder 클릭 5. 게임 실행파일 이름변경 -> (예 : th11 -> th11_1) 6. thcrap_loader.exe -> th11.exe 으로 변경 7. config 폴더 -> games.js 연 후 th11 실행 파일 경로 파일명 수정 (th11.exe->th11_1.exe) 8. 스팀 속성 -> 시작 옵션에 \"ko.js\" th11 추가"
       ],
       "patch_sources": [
         "steamapp",
