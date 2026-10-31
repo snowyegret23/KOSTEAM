@@ -2,8 +2,8 @@
   "curator_id": 42788178,
   "curator_name": "Curator #42788178",
   "curator_url": "https://store.steampowered.com/curator/42788178/",
-  "total_games": 1827,
-  "exported_at": "2026-10-29T00:34:14.229885",
+  "total_games": 1828,
+  "exported_at": "2026-10-31T00:19:27.409702",
   "games": [
     {
       "appid": "284050",
@@ -4161,6 +4161,15 @@
       "review": "유저 한글 패치 - 버섯순이 님",
       "review_has_url": true,
       "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "3054820",
+      "url": "https://store.steampowered.com/app/3054820/DevilConnection/",
+      "curator_url": "https://store.steampowered.com/app/3054820/?curator_clanid=42788178",
+      "review": "유저 한글 패치 - 점박냥이, 이칠공\n유저 한글 패치 - 팀글냥이\n유저 한글 패치 - Nyabi, Ewan 등",
+      "review_has_url": true,
+      "review_url_count": 3,
       "type": "recommended"
     },
     {

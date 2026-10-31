@@ -360,21 +360,6 @@
     "stove_url": "https://store.onstove.com/ko/games/102720"
   },
   {
-    "app_id": "2439760",
-    "stove_game_no": "13253",
-    "stove_product_no": "103151",
-    "game_title": "백합, 즐겨보실래요 (Love Yuri)",
-    "steam_link": "https://store.steampowered.com/app/2439760",
-    "patch_type": "official",
-    "patch_links": [
-      "exist"
-    ],
-    "patch_descriptions": [
-      ""
-    ],
-    "stove_url": "https://store.onstove.com/ko/games/103151"
-  },
-  {
     "app_id": "2018640",
     "stove_game_no": "13254",
     "stove_product_no": "103152",
@@ -388,6 +373,21 @@
       ""
     ],
     "stove_url": "https://store.onstove.com/ko/games/103152"
+  },
+  {
+    "app_id": "2439760",
+    "stove_game_no": "13253",
+    "stove_product_no": "103151",
+    "game_title": "백합, 즐겨보실래요 (Love Yuri)",
+    "steam_link": "https://store.steampowered.com/app/2439760",
+    "patch_type": "official",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "stove_url": "https://store.onstove.com/ko/games/103151"
   },
   {
     "app_id": "1589570",

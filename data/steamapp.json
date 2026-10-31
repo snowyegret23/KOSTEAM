@@ -11854,14 +11854,14 @@
     "source_site_url": "https://hanpe.net/app/jwk510/city-car-driving",
     "patch_type": "user",
     "patch_links": [
-      "d7359562",
       "c61436ed",
-      "71046d3b"
+      "71046d3b",
+      "d7359562"
     ],
     "patch_descriptions": [
-      "백업요 - 위 백업용 패치를 받기 전 필수 패치",
       "제작자 : 위쳐",
-      "백업용"
+      "백업용",
+      "백업요 - 위 백업용 패치를 받기 전 필수 패치"
     ]
   },
   {
@@ -13642,6 +13642,19 @@
     ],
     "patch_descriptions": [
       "로컬라이징, 테스트 플레이: 바람 번역단 - LSW 추가 패치"
+    ]
+  },
+  {
+    "app_id": "598330",
+    "game_title": "SimAirport",
+    "steam_link": "https://store.steampowered.com/app/598330",
+    "source_site_url": "https://hanpe.net/app/j08pe6/simairport",
+    "patch_type": "user",
+    "patch_links": [
+      "ca8e3581"
+    ],
+    "patch_descriptions": [
+      "제작자 : 짬라이거"
     ]
   },
   {
@@ -15534,6 +15547,19 @@
     ],
     "patch_descriptions": [
       "재번역 패치 부분 검수판"
+    ]
+  },
+  {
+    "app_id": "754500",
+    "game_title": "Plutocracy",
+    "steam_link": "https://store.steampowered.com/app/754500",
+    "source_site_url": "https://hanpe.net/app/jmx7nd/plutocracy",
+    "patch_type": "user",
+    "patch_links": [
+      "dc22c75c"
+    ],
+    "patch_descriptions": [
+      "제작자 : 짬라이거"
     ]
   },
   {
@@ -23640,6 +23666,19 @@
     ]
   },
   {
+    "app_id": "1591530",
+    "game_title": "SAMURAI WARRIORS 5",
+    "steam_link": "https://store.steampowered.com/app/1591530",
+    "source_site_url": "https://hanpe.net/app/4o078x/samurai-warriors-5",
+    "patch_type": "user",
+    "patch_links": [
+      "502c1e82"
+    ],
+    "patch_descriptions": [
+      "제작자 : 미로롱"
+    ]
+  },
+  {
     "app_id": "1592110",
     "game_title": "Spirit of the Island",
     "steam_link": "https://store.steampowered.com/app/1592110",
@@ -30637,6 +30676,19 @@
     ]
   },
   {
+    "app_id": "2680550",
+    "game_title": "Hollywood Animal",
+    "steam_link": "https://store.steampowered.com/app/2680550",
+    "source_site_url": "https://hanpe.net/app/jmr1d9/hollywood-animal",
+    "patch_type": "user",
+    "patch_links": [
+      "214fd8a8"
+    ],
+    "patch_descriptions": [
+      "제작자 : 짬라이거"
+    ]
+  },
+  {
     "app_id": "2684630",
     "game_title": "Endacopia",
     "steam_link": "https://store.steampowered.com/app/2684630",
@@ -31197,6 +31249,19 @@
     ],
     "patch_descriptions": [
       "제작자 : gusrud6151"
+    ]
+  },
+  {
+    "app_id": "2770330",
+    "game_title": "Chaos Front",
+    "steam_link": "https://store.steampowered.com/app/2770330",
+    "source_site_url": "https://hanpe.net/app/l2x7ne/chaos-front",
+    "patch_type": "user",
+    "patch_links": [
+      "56a6405a"
+    ],
+    "patch_descriptions": [
+      "제작자 : 짬라이거"
     ]
   },
   {
@@ -31849,6 +31914,19 @@
     ]
   },
   {
+    "app_id": "2870430",
+    "game_title": "갓슬레이어 아레나",
+    "steam_link": "https://store.steampowered.com/app/2870430",
+    "source_site_url": "https://hanpe.net/app/4on1p0/%EA%B0%93%EC%8A%AC%EB%A0%88%EC%9D%B4%EC%96%B4-%EC%95%84%EB%A0%88%EB%82%98",
+    "patch_type": "user",
+    "patch_links": [
+      "e10dbc9d"
+    ],
+    "patch_descriptions": [
+      "제작자 : 짬라이거"
+    ]
+  },
+  {
     "app_id": "2871140",
     "game_title": "The Real Face of a VTuber",
     "steam_link": "https://store.steampowered.com/app/2871140",
@@ -32346,10 +32424,12 @@
     "source_site_url": "https://hanpe.net/app/41ek3d/the-end-of-history",
     "patch_type": "user",
     "patch_links": [
-      "ecc32171"
+      "ecc32171",
+      "ce750db5"
     ],
     "patch_descriptions": [
-      "제작자 : shkim101"
+      "제작자 : shkim101",
+      "제작자 : 짬라이거"
     ]
   },
   {
@@ -32757,7 +32837,7 @@
       "7e5084b9"
     ],
     "patch_descriptions": [
-      "제작자 : 짬라이거"
+      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : 짬라이거"
     ]
   },
   {
@@ -33260,6 +33340,19 @@
       "기계번역 초안 제작해주신 한재 님",
       "제작자 : 비밀요원T",
       "번역을 매끄럽게 수정해주신 TCR 님"
+    ]
+  },
+  {
+    "app_id": "3101770",
+    "game_title": "Wander Hero",
+    "steam_link": "https://store.steampowered.com/app/3101770",
+    "source_site_url": "https://hanpe.net/app/4gepgy/wander-hero",
+    "patch_type": "user",
+    "patch_links": [
+      "3d25f368"
+    ],
+    "patch_descriptions": [
+      "제작자 : 짬라이거"
     ]
   },
   {
