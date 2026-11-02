@@ -2,8 +2,8 @@
   "curator_id": 30894603,
   "curator_name": "Curator #30894603",
   "curator_url": "https://store.steampowered.com/curator/30894603/",
-  "total_games": 1383,
-  "exported_at": "2026-10-31T00:19:27.424848",
+  "total_games": 1384,
+  "exported_at": "2026-11-02T00:11:11.292176",
   "games": [
     {
       "appid": "384630",
@@ -7356,6 +7356,15 @@
       "review": "유저 한글 패치 - 아레이아드",
       "review_has_url": true,
       "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "3469850",
+      "url": "https://store.steampowered.com/app/3469850/Cradle_of_Nightmare_Flowers_to_you/",
+      "curator_url": "https://store.steampowered.com/app/3469850/?curator_clanid=30894603",
+      "review": "한글 패치 - 듀콩\n한글 패치",
+      "review_has_url": true,
+      "review_url_count": 2,
       "type": "recommended"
     },
     {

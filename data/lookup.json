@@ -57452,11 +57452,11 @@
       "quasarplay"
     ],
     "links": [
-      "67c4bd7b",
+      "b43b9c9d",
       "exist"
     ],
     "patch_descriptions": [
-      "제작자 : 엘더크라켄",
+      "제작자 : 소나기",
       "한글 패치 - 소나기\n한글 패치 - elderkra켄"
     ],
     "patch_sources": [
@@ -77498,22 +77498,27 @@
   "3469850": {
     "type": "user",
     "sources": [
-      "steamapp"
+      "steamapp",
+      "quasarplay"
     ],
     "links": [
       "2f2d4d94",
-      "151d3730"
+      "151d3730",
+      "exist"
     ],
     "patch_descriptions": [
       "제작자 : 정보없음",
-      "제작자 : 듀콩"
+      "제작자 : 듀콩",
+      "한글 패치 - 듀콩\n한글 패치"
     ],
     "patch_sources": [
       "steamapp",
-      "steamapp"
+      "steamapp",
+      "quasarplay"
     ],
     "source_site_urls": {
-      "steamapp": "https://hanpe.net/app/4oq180/%E5%99%A9%E6%A2%A6%E6%91%87%E7%AF%AE%E7%8C%AE%E8%8A%B1%E4%BA%8E%E4%BD%A0"
+      "steamapp": "https://hanpe.net/app/4oq180/%E5%99%A9%E6%A2%A6%E6%91%87%E7%AF%AE%E7%8C%AE%E8%8A%B1%E4%BA%8E%E4%BD%A0",
+      "quasarplay": "https://store.steampowered.com/app/3469850/?curator_clanid=30894603"
     }
   },
   "3470560": {
@@ -85154,7 +85159,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-10-31T00:19:40.904Z",
+    "generated_at": "2026-11-02T00:11:26.831Z",
     "total": 3984
   }
 }
