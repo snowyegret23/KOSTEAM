@@ -22,7 +22,7 @@ const expectedHostPermissions = new Set([
 test('package metadata uses the supported module and runtime versions', () => {
     assert.equal(packageJson.version, '1.6.6');
     assert.equal(packageJson.type, 'module');
-    assert.equal(packageJson.engines.node, '^24.15.0');
+    assert.equal(packageJson.engines.node, '^26.0.0');
     assert.equal(packageJson.devDependencies['web-ext'], '10.7.0');
 });
 
