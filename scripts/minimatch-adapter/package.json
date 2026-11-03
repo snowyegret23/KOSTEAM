@@ -1,0 +1,10 @@
+{
+  "name": "@kosteam/minimatch-adapter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Legacy CommonJS interface for security-patched minimatch",
+  "main": "index.cjs",
+  "dependencies": {
+    "minimatch-modern": "npm:minimatch@11.0.4"
+  }
+}

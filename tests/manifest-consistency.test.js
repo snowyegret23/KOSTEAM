@@ -84,6 +84,45 @@ test('replacement parser rejects zero-length image boxes without hanging', () =>
     assert.equal(result.status, 0, result.stderr);
 });
 
+test('Firefox tooling resolves the patched glob matcher through its legacy API', async () => {
+    const adapter = readJson('../scripts/minimatch-adapter/package.json');
+    const files = ['src/content.js', 'src/cart.js', 'src/icons/icon16.png', '.private.js'];
+    for (const consumer of ['eslint', '@eslint/config-array', '@eslint/eslintrc', 'multimatch']) {
+        const consumerRequire = createRequire(linterRequire.resolve(consumer));
+        const matcher = consumerRequire('minimatch');
+        const installedAdapter = consumerRequire('minimatch/package.json');
+        assert.equal(installedAdapter.name, adapter.name, consumer);
+        assert.deepEqual(installedAdapter.dependencies, adapter.dependencies, consumer);
+        const adapterRequire = createRequire(consumerRequire.resolve('minimatch'));
+        const backend = adapterRequire('minimatch-modern/package.json');
+        assert.equal(`npm:minimatch@${backend.version}`, adapter.dependencies['minimatch-modern']);
+        assert.equal(typeof matcher, 'function', consumer);
+        assert.deepEqual(matcher.match(files, 'src/{content,cart}.js'), files.slice(0, 2));
+        assert.equal(new matcher.Minimatch('**/*.png').match(files[2]), true);
+        assert.equal(matcher('.private.js', '*.js'), false);
+        assert.equal(matcher.defaults({ dot: true })('.private.js', '*.js'), true);
+    }
+    const { default: multimatch } = await import('multimatch');
+    assert.deepEqual(multimatch(files, ['**/*.js', '!**/cart.js']), ['src/content.js']);
+    const { ESLint } = linterRequire('eslint');
+    const eslint = new ESLint({
+        overrideConfigFile: true,
+        overrideConfig: [{ files: ['scripts/**/*.js'], rules: { 'no-undef': 'error' } }]
+    });
+    const [result] = await eslint.lintText('missingGlobal();', { filePath: 'scripts/check.js' });
+    assert.equal(result.errorCount, 1);
+    assert.equal(result.messages[0].ruleId, 'no-undef');
+});
+
+test('patched glob preprocessing handles amplification patterns within bounded resources', () => {
+    const result = spawnSync(process.execPath, ['--max-old-space-size=64', '-e', `
+        const matcher = require(${JSON.stringify(linterRequire.resolve('minimatch'))});
+        new matcher.Minimatch('**/../'.repeat(64) + 'file.js', { optimizationLevel: 2 });
+    `], { encoding: 'utf8', timeout: 3000, windowsHide: true });
+    assert.ifError(result.error);
+    assert.equal(result.status, 0, result.stderr);
+});
+
 test('browser manifests match package version and hardened shared policy', () => {
     for (const [browser, manifest] of manifests) {
         assert.equal(manifest.version, packageJson.version, browser);
