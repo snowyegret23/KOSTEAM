@@ -61,10 +61,12 @@ export function getRemoveControlIndex(controls, isSharedContextId = () => true) 
     if (hasTitle[0]) return -1;
 
     const classes = controls.map(control => getLabelIds(control.className));
-    const addIndex = classes.findIndex(names => names.includes('_2qvlyUCwtTBUslo1Z7-RlG'));
-    const removeIndex = classes.findIndex(names => names.includes('_3YCgcpoCojlbS6DvkNsG2J'));
+    const addClasses = ['_2qvlyUCwtTBUslo1Z7-RlG', '_8IaR06zcRE4-'];
+    const removeClasses = ['_3YCgcpoCojlbS6DvkNsG2J', 'BFDdk5e7x8k-'];
+    const addIndex = classes.findIndex(names => addClasses.some(name => names.includes(name)));
+    const removeIndex = classes.findIndex(names => removeClasses.some(name => names.includes(name)));
     if (addIndex < 0 || removeIndex < 0 || addIndex === removeIndex) return -1;
-    if (classes[removeIndex].includes('_2qvlyUCwtTBUslo1Z7-RlG') ||
-        classes[addIndex].includes('_3YCgcpoCojlbS6DvkNsG2J')) return -1;
+    if (addClasses.some(name => classes[removeIndex].includes(name)) ||
+        removeClasses.some(name => classes[addIndex].includes(name))) return -1;
     return removeIndex;
 }

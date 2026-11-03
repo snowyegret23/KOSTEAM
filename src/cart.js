@@ -8,6 +8,7 @@ import { keySetsEqual, parseCartPrice, waitForKeySet, waitForObservedCondition }
 import { getRemoveControlIndex, isContextualCartControl, isContextualRemoveControl } from './shared/cart-controls.js';
 import { mapCartEntries } from './shared/cart-mapping.js';
 import { getCartRecoveryPlan, getMissingCartItems } from './shared/cart-recovery.js';
+import { readSsrCartData } from './shared/cart-data.js';
 import { isValidCheckoutUrl } from './shared/url-validator.js';
 import { getSteamAccountId, isValidCartItem, MAX_CART_RESTORE_ITEMS } from './shared/restore-validation.js';
 import {
@@ -55,7 +56,7 @@ import {
     }
 
     window.addEventListener('pageshow', event => {
-        if (event.persisted) window.location.reload();
+        if (event.persisted) init();
     });
 
     const selectedKeys = new Set();
@@ -63,7 +64,9 @@ import {
     let checkoutInProgress = false;
     let allowNativeCheckoutClick = false;
     let pendingRecoveryBlocked = false;
+    let initializing = false;
     let cartFeatureEnabled = true;
+    let fetchedCartData = null;
     const cartRequestController = new AbortController();
 
     onStorageChanged((changes, area) => {
@@ -75,7 +78,9 @@ import {
             .forEach(element => element.remove());
     });
 
-    async function canModifyCart(accountId) {
+    async function canModifyCart(accountId, refresh = true) {
+        if (!cartFeatureEnabled || !accountId) return false;
+        if (refresh && !await refreshCartData()) return false;
         if (!cartFeatureEnabled || !accountId || getSteamAccountId(getWebApiToken()) !== accountId) return false;
         try {
             const settings = await storageGet([CART_FEATURE_KEY]);
@@ -92,7 +97,7 @@ import {
 
     function getStoreUserConfigJson() {
         const el = document.querySelector('#application_config');
-        if (!el) return null;
+        if (!el) return fetchedCartData;
         const raw = el.getAttribute('data-store_user_config')
             || el.getAttribute('data-store-user-config')
             || el.dataset.storeUserConfig
@@ -106,15 +111,46 @@ import {
         }
     }
 
+    async function refreshCartData() {
+        if (!cartFeatureEnabled) return false;
+        if (document.querySelector('#application_config')) return !!getStoreUserConfigJson();
+        fetchedCartData = null;
+        try {
+            const html = await withRequestTimeout(async signal => {
+                const response = await fetch('https://store.steampowered.com/cart/', {
+                    credentials: 'include', cache: 'no-store', redirect: 'error', signal
+                });
+                if (!response.ok) throw new Error('Steam cart request failed');
+                const text = await response.text();
+                if (text.length > 5 * 1024 * 1024) throw new Error('Steam cart response is too large');
+                return text;
+            }, 15000, cartRequestController.signal);
+            if (!cartFeatureEnabled) return false;
+            fetchedCartData = readSsrCartData(new DOMParser().parseFromString(html, 'text/html'));
+            return true;
+        } catch {
+            return false;
+        }
+    }
+
+    async function requireCartData() {
+        if (await refreshCartData()) return true;
+        if (cartFeatureEnabled && !DISABLE_CART_DIALOGS) {
+            window.alert('Steam 장바구니 정보를 불러오지 못했습니다. 잠시 후 다시 시도해 주세요. 상품은 변경하지 않았습니다.');
+        }
+        return false;
+    }
+
     function getWebApiToken() {
         const cfg = getStoreUserConfigJson();
         return cfg?.webapi_token || '';
     }
 
     function getAccountCountryCode() {
-        const raw = document.querySelector('#application_config')?.getAttribute('data-userinfo') || '';
+        const config = document.querySelector('#application_config');
+        const raw = config?.getAttribute('data-userinfo') || '';
         try {
-            const code = JSON.parse(raw)?.country_code;
+            const code = config ? JSON.parse(raw)?.country_code : fetchedCartData?.userInfo?.country_code;
             return typeof code === 'string' && /^[A-Z]{2}$/.test(code) ? code : '';
         } catch {
             return '';
@@ -222,7 +258,7 @@ import {
             if (new Set(appKeys).size !== 1) return false;
         }
         if (getLineItemId(node)) return true;
-        return Array.from(node.querySelectorAll('[role="button"]')).some(control => (
+        return Array.from(node.querySelectorAll('button, [role="button"]')).some(control => (
             isUsableControl(control) && isContextualCartControl({
                 id: control.id,
                 labelledBy: control.getAttribute('aria-labelledby')
@@ -331,7 +367,7 @@ import {
     }
 
     function findRemoveControlsByAccessibility(item) {
-        return Array.from(item.querySelectorAll('[role="button"]')).filter(control => (
+        return Array.from(item.querySelectorAll('button, [role="button"]')).filter(control => (
             isUsableControl(control) &&
             isContextualRemoveControl({
                 id: control.id,
@@ -343,7 +379,7 @@ import {
 
     function findRemoveControlsByStructure(item) {
         const parents = new Set(
-            Array.from(item.querySelectorAll('[role="button"]'))
+            Array.from(item.querySelectorAll('button, [role="button"]'))
                 .map(control => control.parentElement)
                 .filter(Boolean)
         );
@@ -351,7 +387,7 @@ import {
 
         for (const parent of parents) {
             const controls = Array.from(parent.children)
-                .filter(child => child.getAttribute('role') === 'button');
+                .filter(child => child.matches('button, [role="button"]'));
             if (!controls.every(isUsableControl)) continue;
             const removeIndex = getRemoveControlIndex(
                 controls.map(control => ({
@@ -512,6 +548,16 @@ import {
             const currentItems = findCartItems();
             if (!keySetsEqual(currentItems.map(getItemKey), expectedKeys)) {
                 return { success: false, removedItems, ambiguous: true };
+            }
+            if (fetchedCartData) {
+                const currentMap = await mapDomItemsToCartInfo(currentItems);
+                if (currentMap.size !== currentItems.length || !getCartLineItems().every(isSimpleRecoverableLineItem)) {
+                    return { success: false, removedItems, ambiguous: true };
+                }
+                const currentInfo = currentMap.get(currentItems.find(item => getItemSelectionKey(item, currentItems) === target.selectionKey));
+                if (currentInfo?.id !== target.cartInfo.id || currentInfo?.type !== target.cartInfo.type) {
+                    return { success: false, removedItems, ambiguous: true };
+                }
             }
             const candidates = currentItems.filter(cartItem => getItemSelectionKey(cartItem, currentItems) === target.selectionKey);
             const item = target.selectionKey && candidates.length === 1 ? candidates[0] : null;
@@ -730,6 +776,7 @@ import {
     }
 
     async function sendAppIdsToWishlist(appIds) {
+        if (!await requireCartData()) return { added: 0, failed: appIds.length };
         const accountId = getSteamAccountId(getWebApiToken());
         const sessionid = getSessionId();
         if (!sessionid) {
@@ -772,8 +819,9 @@ import {
 
     async function restoreItemsToCart(items, options = {}) {
         const { pending = null, recoveryTargetItems, silent = false } = options;
+        const accountId = getSteamAccountId(getWebApiToken());
+        if (!await canModifyCart(accountId)) return { success: false, error: 'Cart operation cancelled' };
         const token = getWebApiToken();
-        if (!await canModifyCart(getSteamAccountId(token))) return { success: false, error: 'Cart operation cancelled' };
         const countryCode = getAccountCountryCode();
         if (!token) return { success: false, error: 'missing_token' };
         if (!countryCode) return { success: false, error: 'missing_country_code' };
@@ -900,6 +948,7 @@ import {
     async function handleJsonExport(e) {
         e.preventDefault();
         e.stopPropagation();
+        if (!await requireCartData()) return;
         const items = findCartItems();
         if (items.length === 0) {
             if (!DISABLE_CART_DIALOGS) {
@@ -977,6 +1026,7 @@ import {
                 return;
             }
 
+            if (!await requireCartData()) return;
             const currentDomCount = findCartItems().length;
             const currentCartItems = getCurrentCartInfoItems();
             if (!validateCartSync(currentDomCount) || currentCartItems.length !== currentDomCount) {
@@ -1068,6 +1118,7 @@ import {
     }
 
     async function performBuySelected() {
+        if (!await requireCartData()) return false;
         const accountId = getSteamAccountId(getWebApiToken());
         if (!accountId) {
             if (!DISABLE_CART_DIALOGS) {
@@ -1075,7 +1126,7 @@ import {
             }
             return false;
         }
-        if (!await canModifyCart(accountId)) return false;
+        if (!await canModifyCart(accountId, false)) return false;
         const items = findCartItems();
         if (items.some(item => !getItemSelectionKey(item, items))) {
             window.alert('같은 게임의 장바구니 항목을 정확히 구분할 수 없어 선택 구매를 중단했습니다.');
@@ -1193,6 +1244,7 @@ import {
                 removalResult.ambiguous,
                 fullRecoveryTarget
             );
+            pendingRecoveryBlocked = !rollback?.success;
             if (!DISABLE_CART_DIALOGS) {
                 window.alert(rollback?.success
                     ? '미선택 항목 제거가 완료되지 않아 제거된 항목을 즉시 복원했습니다.'
@@ -1214,6 +1266,7 @@ import {
                 false,
                 fullRecoveryTarget
             );
+            pendingRecoveryBlocked = !rollback?.success;
             if (!DISABLE_CART_DIALOGS) {
                 window.alert(rollback?.success
                     ? 'Steam 결제를 안전하게 시작할 수 없어 제거된 항목을 즉시 복원했습니다.'
@@ -1399,6 +1452,7 @@ import {
         const checkoutBtn = await waitForNativeCheckoutButtonReady();
         if (!checkoutBtn) return false;
         if (!await canModifyCart(accountId) || !keySetsEqual(getCartItemKeys(), expectedKeys)) return false;
+        if (fetchedCartData && (await mapDomItemsToCartInfo(findCartItems())).size !== expectedKeys.length) return false;
 
         if (transactionId) {
             try {
@@ -1547,6 +1601,10 @@ import {
         }
 
         const pending = restoreState[PENDING_CART_RESTORE_KEY];
+        if (pending && !await refreshCartData()) {
+            pendingRecoveryBlocked = true;
+            return false;
+        }
         const purchaseMarker = restoreState[CART_PURCHASE_COMPLETE_KEY];
         const purchaseCompleted = purchaseMarker?.transactionId
             ? purchaseMarker.transactionId === pending?.transactionId
@@ -1601,10 +1659,21 @@ import {
     const observer = new MutationObserver(() => scheduleRefresh());
 
     async function init() {
-        if (await tryAutoRestore()) return;
-        if (!cartFeatureEnabled) return;
-        scheduleRefresh();
-        observer.observe(document.body, { childList: true, subtree: true, characterData: true });
+        if (initializing || !cartFeatureEnabled) return;
+        initializing = true;
+        checkoutInProgress = true;
+        pendingRecoveryBlocked = false;
+        setSelectedCheckoutButtonsDisabled(true);
+        try {
+            if (await tryAutoRestore()) return;
+            if (!cartFeatureEnabled) return;
+            scheduleRefresh();
+            observer.observe(document.body, { childList: true, subtree: true, characterData: true });
+        } finally {
+            initializing = false;
+            checkoutInProgress = false;
+            setSelectedCheckoutButtonsDisabled(false);
+        }
     }
 
     if (document.readyState === 'loading') {

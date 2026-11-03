@@ -75,3 +75,14 @@ test('untitled actions use Steam control markers independent of wording and orde
     assert.equal(getRemoveControlIndex(controls.map(control => ({ ...control, className: controls.map(c => c.className).join(' ') }))), -1);
     assert.equal(getRemoveControlIndex(controls.map(control => ({ ...control, title: 'hint' }))), -1);
 });
+
+test('SSR action markers preserve accessibility checks and reject conflicting roles', () => {
+    const controls = [
+        { id: 'add', labelledBy: 'add product', className: '_8IaR06zcRE4-' },
+        { id: 'remove', labelledBy: 'remove product', className: 'BFDdk5e7x8k-' }
+    ];
+    assert.equal(getRemoveControlIndex(controls), 1);
+    assert.equal(getRemoveControlIndex([...controls].reverse()), 0);
+    assert.equal(getRemoveControlIndex(controls, id => id === 'other'), -1);
+    assert.equal(getRemoveControlIndex(controls.map(c => ({ ...c, className: '_8IaR06zcRE4- BFDdk5e7x8k-' }))), -1);
+});

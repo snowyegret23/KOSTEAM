@@ -5,6 +5,254 @@ import { createPage, settle } from './support/page.js';
 
 const readSource = name => readFileSync(new URL(`../src/${name}`, import.meta.url), 'utf-8');
 
+function ssrCartHtml(lineItems, { accountId = '76561198000000001', loggedIn = true } = {}) {
+    const accountNumber = Number(BigInt(accountId) - 76561197960265728n);
+    const token = `e30.${Buffer.from(JSON.stringify({ sub: accountId })).toString('base64url')}.signature`;
+    const data = {
+        route: '/cart/',
+        UserConfig: { logged_in: loggedIn, steamid: loggedIn ? accountId : '0', accountid: loggedIn ? accountNumber : 0, country_code: 'KR' },
+        loaderData: [JSON.stringify({ steamid: accountId, ...(loggedIn ? { strWebAPIToken: token } : {}) }),
+            JSON.stringify({ cartID: { type: loggedIn ? 'account' : 'anonymous' } })],
+        renderContext: { queryData: JSON.stringify({ queries: [{
+            queryKey: ['shopping_cart', loggedIn ? 'account' : null, loggedIn ? accountNumber : 0],
+            state: { status: 'success', data: { line_items: lineItems } }
+        }] }) }
+    };
+    return `<script id="valve-ssr-data" type="application/json">${JSON.stringify(data)}</script>`;
+}
+
+async function createSsrCartPage(t, { respond, settings = {}, present = [1, 2, 3] } = {}) {
+    const products = [
+        { path: '/bundle/82996/', name: 'Witch’s Apocalyptic Journey + Soundtrack', bundleid: 82996 },
+        { path: '/sub/101/', name: 'Second game', packageid: 101 },
+        { path: '/sub/202/', name: 'Third game', packageid: 202 }
+    ];
+    const state = { items: products.map((product, i) => ({ line_item_id: String(i + 1),
+        ...(product.bundleid ? { bundleid: product.bundleid } : { packageid: product.packageid }) })).filter((_, i) => present.includes(i + 1)),
+        removals: [], checkouts: 0, alerts: [], fetches: [], downloads: [], accountId: '76561198000000001' };
+    const page = createPage(t, { url: 'https://store.steampowered.com/cart/?l=koreana',
+        settings: { cart_feature_enabled: true, ...settings },
+        html: `<style>* { opacity: 1; }</style><main id="StoreTemplate"><section id="cart-list">
+        ${products.map((product, i) => !present.includes(i + 1) ? '' : `<article id="row-${i + 1}"><a href="${product.path}">${product.name}</a>
+            <span id="product-${i + 1}">${product.name}</span><span>₩ 1,000</span><div>
+            <button class="_8IaR06zcRE4-" id="add-${i + 1}" aria-labelledby="add-${i + 1} product-${i + 1}">추가</button>
+            <button class="BFDdk5e7x8k-" id="remove-${i + 1}" aria-labelledby="remove-${i + 1} product-${i + 1}">제거</button>
+            </div></article>`).join('')}
+        <a href="https://checkout.steampowered.com/checkout/?accountcart=1" id="checkout">결제 계속하기</a></section>
+        <aside><a href="https://checkout.steampowered.com/checkout/?accountcart=1" id="summary-checkout">결제 계속하기</a></aside></main>`,
+        respond: respond || (message => message.type === 'SAVE_CART_RESTORE'
+            ? { success: true, transactionId: '123e4567-e89b-42d3-a456-426614174000', recoveryRevision: 0 }
+            : { success: true }) });
+    const { window, document } = page;
+    window.HTMLElement.prototype.getBoundingClientRect = () => ({ top: 0, width: 400, height: 50 });
+    window.alert = message => state.alerts.push(message);
+    window.confirm = () => false;
+    window.fetch = async (url, options) => {
+        state.fetches.push({ url, options });
+        if (state.fetchError) throw new Error('Network failure');
+        if (state.onFetch) await state.onFetch();
+        return { ok: true, text: async () => state.html ?? ssrCartHtml(state.items, state) };
+    };
+    window.Blob = Blob;
+    window.URL.createObjectURL = blob => { state.downloads.push(blob); return 'blob:https://store.steampowered.com/fixture'; };
+    window.URL.revokeObjectURL = () => {};
+    document.addEventListener('click', event => {
+        if (event.target.closest('a[download], #checkout, #summary-checkout')) event.preventDefault();
+        if (event.target.closest('#checkout, #summary-checkout')) state.checkouts++;
+    });
+    for (let id = 1; id <= 3; id++) {
+        if (!present.includes(id)) continue;
+        document.getElementById(`remove-${id}`).onclick = () => {
+            state.removals.push(id);
+            state.items = state.items.filter(item => item.line_item_id !== String(id));
+            document.getElementById(`row-${id}`).remove();
+            state.afterRemove?.(id);
+        };
+    }
+    await page.run('cart');
+    await new Promise(resolve => window.requestAnimationFrame(resolve));
+    return { ...page, state };
+}
+
+test('issue 77: hydrated SSR cart selects the soundtrack bundle and preserves the two unselected packages', async t => {
+    const page = await createSsrCartPage(t);
+    assert.equal(page.document.querySelectorAll('.kosteam-cart-checkbox').length, 3);
+    page.document.querySelector('#row-1 .kosteam-cart-checkbox').click();
+    page.document.querySelector('.kosteam-cart-buy-selected-btn').click();
+    await settle();
+    await settle();
+    assert.deepEqual(page.state.alerts, []);
+    assert.deepEqual(page.state.removals, [3, 2]);
+    assert.equal(page.state.checkouts, 1);
+    const saved = page.messages.find(message => message.type === 'SAVE_CART_RESTORE');
+    assert.deepEqual(JSON.parse(JSON.stringify(saved.items)), [{ id: 101, type: 'package' }, { id: 202, type: 'package' }]);
+    assert.deepEqual(JSON.parse(JSON.stringify(saved.remainingItems)), [{ id: 82996, type: 'bundle' }]);
+    assert.equal(page.messages.at(-1).type, 'MARK_CART_CHECKOUT_STARTED');
+    await page.update({ cart_feature_enabled: false });
+});
+
+test('SSR cart supports each selection combination without losing bundle identity', async t => {
+    for (let mask = 1; mask < 8; mask++) {
+        await t.test(`selection ${mask}`, async t => {
+            const page = await createSsrCartPage(t);
+            for (let id = 1; id <= 3; id++) {
+                if (mask & (1 << (id - 1))) page.document.querySelector(`#row-${id} .kosteam-cart-checkbox`).click();
+            }
+            page.document.querySelector('.kosteam-cart-buy-selected-btn').click();
+            await settle();
+            await settle();
+            assert.deepEqual(page.state.alerts, []);
+            assert.deepEqual(page.state.removals, [3, 2, 1].filter(id => !(mask & (1 << (id - 1)))));
+            assert.equal(page.state.checkouts, 1);
+            assert.equal(page.messages.some(m => m.type === 'SAVE_CART_RESTORE'), mask !== 7);
+            if (mask !== 7) {
+                const saved = page.messages.find(m => m.type === 'SAVE_CART_RESTORE');
+                assert.equal(saved.items.length + saved.remainingItems.length, 3);
+                assert.equal(saved.items.some(item => item.type === 'bundle' && item.id === 82996), !(mask & 1));
+            }
+            for (const { url, options } of page.state.fetches) {
+                assert.equal(url, 'https://store.steampowered.com/cart/');
+                assert.equal(options.credentials, 'include');
+                assert.equal(options.redirect, 'error');
+                assert.equal(options.cache, 'no-store');
+            }
+            await page.update({ cart_feature_enabled: false });
+        });
+    }
+});
+
+test('SSR cart failures never masquerade as an empty cart or delete products', async t => {
+    const malformed = [
+        ['network failure', null], ['missing data', '<html>Login required</html>'],
+        ['invalid JSON', '<script id="valve-ssr-data" type="application/json">{</script>'],
+        ['wrong route', data => { data.route = '/account/'; }],
+        ['another account token', data => { data.UserConfig.steamid = '76561198000000002'; }],
+        ['another account number', data => { data.UserConfig.accountid++; }],
+        ['missing token', data => { data.loaderData[0] = '{}'; }],
+        ['request cart', data => { data.loaderData[1] = JSON.stringify({ cartID: { type: 'request' } }); }],
+        ['failed query', data => { const q = JSON.parse(data.renderContext.queryData); q.queries[0].state.status = 'error'; data.renderContext.queryData = JSON.stringify(q); }],
+        ['missing query', data => { data.renderContext.queryData = '{"queries":[]}'; }],
+        ['duplicate query', data => { const q = JSON.parse(data.renderContext.queryData); q.queries.push(q.queries[0]); data.renderContext.queryData = JSON.stringify(q); }]
+    ];
+    for (const [name, change] of malformed) {
+        await t.test(name, async t => {
+            const page = await createSsrCartPage(t);
+            if (change === null) page.state.fetchError = true;
+            else if (typeof change === 'string') page.state.html = change;
+            else {
+                const doc = new page.window.DOMParser().parseFromString(ssrCartHtml(page.state.items), 'text/html');
+                const data = JSON.parse(doc.querySelector('script').textContent);
+                change(data);
+                page.state.html = `<script id="valve-ssr-data" type="application/json">${JSON.stringify(data)}</script>`;
+            }
+            page.document.querySelector('#row-1 .kosteam-cart-checkbox').click();
+            page.document.querySelector('.kosteam-cart-buy-selected-btn').click();
+            await settle();
+            assert.deepEqual(page.state.removals, []);
+            assert.equal(page.state.checkouts, 0);
+            assert.equal(page.messages.length, 0);
+            assert.match(page.state.alerts[0], /정보를 불러오지 못/);
+            assert.equal(page.document.querySelector('.kosteam-cart-buy-selected-btn').disabled, false);
+            await page.update({ cart_feature_enabled: false });
+        });
+    }
+});
+
+test('SSR logged-out cart is distinguished from a data-loading failure', async t => {
+    const page = await createSsrCartPage(t);
+    page.state.loggedIn = false;
+    page.document.querySelector('#row-1 .kosteam-cart-checkbox').click();
+    page.document.querySelector('.kosteam-cart-buy-selected-btn').click();
+    await settle();
+    assert.match(page.state.alerts[0], /로그인/);
+    assert.deepEqual(page.state.removals, []);
+    assert.equal(page.messages.length, 0);
+    await page.update({ cart_feature_enabled: false });
+});
+
+test('SSR account changes and concurrent server cart changes stop partial checkout with recovery retained', async t => {
+    for (const change of ['account', 'product', 'gift', 'network']) {
+        await t.test(change, async t => {
+            const page = await createSsrCartPage(t);
+            page.state.afterRemove = () => {
+                if (change === 'account') page.state.accountId = '76561198000000002';
+                if (change === 'product') page.state.items[1].packageid = 999;
+                if (change === 'gift') page.state.items[1].flags = { is_gift: true };
+                if (change === 'network') page.state.fetchError = true;
+            };
+            page.document.querySelector('#row-1 .kosteam-cart-checkbox').click();
+            page.document.querySelector('.kosteam-cart-buy-selected-btn').click();
+            await settle();
+            await settle();
+            assert.deepEqual(page.state.removals, [3]);
+            assert.equal(page.state.checkouts, 0);
+            assert.deepEqual(page.messages.map(m => m.type), ['SAVE_CART_RESTORE']);
+            assert.match(page.state.alerts[0], /자동 복원 정보를 유지/);
+            page.document.querySelector('.kosteam-cart-buy-selected-btn').click();
+            await settle();
+            assert.match(page.state.alerts.at(-1), /이전 장바구니 복원/);
+            assert.equal(page.messages.length, 1);
+            await page.update({ cart_feature_enabled: false });
+        });
+    }
+});
+
+test('SSR prepared recovery fetches current cart before restoring only the missing items', async t => {
+    const page = await createSsrCartPage(t, { present: [1, 2], settings: { kosteam_pending_cart_restore: {
+        autoRestore: true, phase: 'prepared', recoveryRevision: 0,
+        transactionId: '123e4567-e89b-42d3-a456-426614174000', accountId: '76561198000000001',
+        removedItems: [{ type: 'package', id: 101 }, { type: 'package', id: 202 }],
+        remainingItems: [{ type: 'bundle', id: 82996 }]
+    } } });
+    const recovery = page.messages.find(message => message.type === 'RECOVER_CART');
+    assert.deepEqual(JSON.parse(JSON.stringify(recovery?.items)), [{ type: 'package', id: 202 }]);
+    assert.equal(page.state.removals.length, 0);
+    await page.update({ cart_feature_enabled: false });
+});
+
+test('SSR cart disabling while a request is pending cannot resume checkout', async t => {
+    const page = await createSsrCartPage(t);
+    let release;
+    page.state.onFetch = () => new Promise(resolve => { release = resolve; });
+    page.document.querySelector('#row-1 .kosteam-cart-checkbox').click();
+    page.document.querySelector('.kosteam-cart-buy-selected-btn').click();
+    await settle();
+    await page.update({ cart_feature_enabled: false });
+    release();
+    await settle();
+    assert.deepEqual(page.state.removals, []);
+    assert.equal(page.state.checkouts, 0);
+    assert.equal(page.messages.length, 0);
+});
+
+test('cached cart return recovers excluded items before reloading and coalesces duplicate pageshow events', async t => {
+    const page = await createSsrCartPage(t, { present: [1] });
+    await page.update({ kosteam_pending_cart_restore: {
+        autoRestore: true, phase: 'checkout_started_unknown', recoveryRevision: 1,
+        transactionId: '123e4567-e89b-42d3-a456-426614174000', accountId: '76561198000000001',
+        removedItems: [{ type: 'package', id: 101 }, { type: 'package', id: 202 }],
+        remainingItems: [{ type: 'bundle', id: 82996 }]
+    } });
+    let release;
+    page.state.onFetch = () => new Promise(resolve => { release = resolve; });
+    page.window.dispatchEvent(new page.window.PageTransitionEvent('pageshow', { persisted: true }));
+    page.window.dispatchEvent(new page.window.PageTransitionEvent('pageshow', { persisted: true }));
+    await settle();
+    assert.equal(page.state.fetches.length, 1);
+    assert.equal(page.document.querySelector('.kosteam-cart-buy-selected-btn').disabled, true);
+    page.state.onFetch = null;
+    release();
+    await settle();
+    await settle();
+    const recovery = page.messages.filter(message => message.type === 'RECOVER_CART');
+    assert.equal(recovery.length, 1);
+    assert.deepEqual(JSON.parse(JSON.stringify(recovery[0].items)), [
+        { type: 'package', id: 101 }, { type: 'package', id: 202 }
+    ]);
+    assert.equal(page.state.checkouts, 0);
+    await page.update({ cart_feature_enabled: false });
+});
+
 test('dynamic page checks use observers without polling or whole-body text scans', () => {
     for (const name of ['content.js', 'community.js', 'search_bypass.js', 'cart_restore.js']) {
         const source = readSource(name);
