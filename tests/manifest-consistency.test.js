@@ -27,8 +27,16 @@ test('package metadata uses the supported module and runtime versions', () => {
 });
 
 test('Firefox tooling resolves the replacement image parser', () => {
-    assert.equal(linterRequire('image-size/package.json').name, '@kosteam/image-size-adapter');
+    const adapter = readJson('../scripts/image-size-adapter/package.json');
+    const installedAdapter = linterRequire('image-size/package.json');
+    assert.equal(installedAdapter.name, adapter.name);
+    assert.deepEqual(installedAdapter.dependencies, adapter.dependencies);
+    const adapterRequire = createRequire(linterRequire.resolve('image-size'));
+    const parserVersion = adapterRequire('probe-image-size/package.json').version;
+    assert.equal(parserVersion, adapter.dependencies['probe-image-size']);
     const lock = readJson('../package-lock.json');
+    assert.equal(lock.packages['node_modules/image-size'].dependencies['probe-image-size'], parserVersion);
+    assert.equal(lock.packages['node_modules/probe-image-size'].version, parserVersion);
     assert.equal(Object.values(lock.packages).some(entry => (
         entry.resolved?.startsWith('https://registry.npmjs.org/image-size/')
     )), false);
