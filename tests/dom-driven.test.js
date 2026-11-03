@@ -225,6 +225,73 @@ test('SSR cart disabling while a request is pending cannot resume checkout', asy
     assert.equal(page.messages.length, 0);
 });
 
+test('enabling cart controls on an already open disabled cart reloads once without modifying products', async t => {
+    const page = await createSsrCartPage(t, { settings: { cart_feature_enabled: false } });
+    assert.equal(page.document.querySelector('.kosteam-cart-bar'), null);
+    await page.update({ cart_feature_enabled: true });
+    assert.equal(page.navigations.length, 1);
+    await page.update({ cart_feature_enabled: true });
+    assert.equal(page.navigations.length, 1);
+    assert.deepEqual(page.state.fetches, []);
+    assert.deepEqual(page.state.removals, []);
+});
+
+test('reenabling a disabled cart reloads without reviving an interrupted checkout', async t => {
+    const page = await createSsrCartPage(t);
+    let release;
+    page.state.onFetch = () => new Promise(resolve => { release = resolve; });
+    page.document.querySelector('#row-1 .kosteam-cart-checkbox').click();
+    page.document.querySelector('.kosteam-cart-buy-selected-btn').click();
+    await settle();
+    await page.update({ cart_feature_enabled: false });
+    await page.update({ cart_feature_enabled: true });
+    release();
+    await settle();
+    assert.equal(page.navigations.length, 1);
+    assert.equal(page.document.querySelector('.kosteam-cart-bar'), null);
+    assert.deepEqual(page.state.removals, []);
+    assert.equal(page.state.checkouts, 0);
+    assert.deepEqual(page.messages, []);
+});
+
+for (const initiallyEnabled of [false, true]) {
+    test(`cached cart return reconciles a missed setting change from ${initiallyEnabled}`, async t => {
+        const page = await createSsrCartPage(t, { settings: { cart_feature_enabled: initiallyEnabled } });
+        page.local.cart_feature_enabled = !initiallyEnabled;
+        page.window.dispatchEvent(new page.window.PageTransitionEvent('pageshow', { persisted: false }));
+        await settle();
+        assert.equal(page.navigations.length, 0);
+        page.window.dispatchEvent(new page.window.PageTransitionEvent('pageshow', { persisted: true }));
+        page.window.dispatchEvent(new page.window.PageTransitionEvent('pageshow', { persisted: true }));
+        await settle();
+        assert.equal(page.navigations.length, 1);
+        assert.deepEqual(page.state.fetches, []);
+        assert.deepEqual(page.state.removals, []);
+        assert.equal(page.state.checkouts, 0);
+    });
+}
+
+test('an unchanged disabled cached cart stays inactive', async t => {
+    const page = await createSsrCartPage(t, { settings: { cart_feature_enabled: false } });
+    page.window.dispatchEvent(new page.window.PageTransitionEvent('pageshow', { persisted: true }));
+    await settle();
+    assert.deepEqual(page.navigations, []);
+    assert.deepEqual(page.state.fetches, []);
+    assert.equal(page.document.querySelector('.kosteam-cart-bar'), null);
+});
+
+test('cached cart return does not restore products when the feature setting cannot be read', async t => {
+    const page = await createSsrCartPage(t);
+    const api = page.window.browser || page.window.chrome;
+    api.storage.local.get = () => { throw new Error('Storage unavailable'); };
+    page.window.dispatchEvent(new page.window.PageTransitionEvent('pageshow', { persisted: true }));
+    await settle();
+    assert.deepEqual(page.navigations, []);
+    assert.deepEqual(page.state.fetches, []);
+    assert.deepEqual(page.state.removals, []);
+    assert.deepEqual(page.messages, []);
+});
+
 test('cached cart return recovers excluded items before reloading and coalesces duplicate pageshow events', async t => {
     const page = await createSsrCartPage(t, { present: [1] });
     await page.update({ kosteam_pending_cart_restore: {
@@ -1273,6 +1340,78 @@ test('unknown action markers preserve checkboxes but never click ambiguous remov
     await page.update({ cart_feature_enabled: false });
 });
 
+for (const scenario of [
+    { name: 'mixed new and already wishlisted games', wishlist: [43], already: 1 },
+    { name: 'repeated addition of all games', wishlist: [42, 43], allExisting: true, already: 2 },
+    { name: 'a rejected game absent from the wishlist', wishlist: [999] },
+    { name: 'an HTTP error adding a game', postError: true },
+    { name: 'an HTTP error reading the wishlist', lookupError: true },
+    { name: 'a network error reading the wishlist', lookupThrows: true },
+    { name: 'a malformed wishlist response', wishlist: ['43'] },
+    { name: 'disabling the feature during verification', wishlist: [43], disable: true },
+    { name: 'switching accounts during verification', wishlist: [43], switchAccount: true }
+]) {
+    test(`cart wishlist distinguishes existing games from failures: ${scenario.name}`, { timeout: 10000 }, async t => {
+        const makeToken = sub => `e30.${Buffer.from(JSON.stringify({ sub })).toString('base64url')}.signature`;
+        const page = createPage(t, { url: 'https://store.steampowered.com/cart/',
+            settings: { cart_feature_enabled: true }, html: `<style>* { opacity: 1; }</style>
+            <div id="application_config"></div><main id="page_root">
+            <article data-line-item-id="1"><a href="/app/42/">First game</a><span>₩ 1,000</span><button data-cart-remove>Remove</button></article>
+            <article data-line-item-id="2"><a href="/app/43/">Second game</a><span>₩ 2,000</span><button data-cart-remove>Remove</button></article>
+            </main>` });
+        const { window, document } = page;
+        const config = document.querySelector('#application_config');
+        const userConfig = { webapi_token: makeToken('76561198000000001'), accountcart: { cart: {
+            line_items: [{ line_item_id: '1', packageid: 100 }, { line_item_id: '2', packageid: 200 }]
+        } } };
+        config.setAttribute('data-store_user_config', JSON.stringify(userConfig));
+        config.setAttribute('data-userinfo', JSON.stringify({ country_code: 'KR' }));
+        document.cookie = 'sessionid=fixture-session';
+        window.HTMLElement.prototype.getBoundingClientRect = () => ({ top: 0, width: 400, height: 50 });
+        const alerts = [];
+        const addedIds = [];
+        let lookups = 0;
+        let resolveAlert;
+        const alertShown = new Promise(resolve => { resolveAlert = resolve; });
+        window.alert = message => { alerts.push(message); resolveAlert(); };
+        window.fetch = async (url, options) => {
+            assert.equal(options.credentials, 'include');
+            assert.equal(options.redirect, 'error');
+            assert.ok(options.signal);
+            if (url === 'https://store.steampowered.com/api/addtowishlist') {
+                const id = Number(options.body.get('appid'));
+                addedIds.push(id);
+                return { ok: !(id === 43 && scenario.postError), json: async () => ({
+                    success: id === 42 && !scenario.allExisting, wishlistCount: 69
+                }) };
+            }
+            const parsed = new URL(url);
+            assert.equal(parsed.origin + parsed.pathname, 'https://store.steampowered.com/dynamicstore/userdata/');
+            assert.equal(parsed.searchParams.get('id'), '39734273');
+            assert.equal(options.cache, 'no-store');
+            lookups++;
+            if (scenario.lookupThrows) throw new Error('Fixture network failure');
+            if (scenario.disable) await page.update({ cart_feature_enabled: false });
+            if (scenario.switchAccount) {
+                config.setAttribute('data-store_user_config', JSON.stringify({ ...userConfig,
+                    webapi_token: makeToken('76561198000000002') }));
+            }
+            return { ok: !scenario.lookupError, json: async () => ({ rgWishlist: scenario.wishlist }) };
+        };
+        await page.run('cart');
+        await new Promise(resolve => window.requestAnimationFrame(resolve));
+        document.querySelector('.kosteam-cart-wishlist-all-btn').click();
+        await alertShown;
+        assert.deepEqual(addedIds, [42, 43]);
+        assert.equal(lookups, scenario.postError ? 0 : 1);
+        const added = scenario.allExisting ? 0 : 1;
+        const already = scenario.already || 0;
+        assert.equal(alerts.at(-1), `찜목록 추가 완료: ${added}개\n이미 찜한 게임: ${already}개\n실패: ${2 - added - already}개\n\n(번들은 낱개 상품으로 찜 목록에 추가됩니다.)`);
+        assert.equal(document.querySelectorAll('article').length, 2);
+        assert.equal(page.messages.length, 0);
+    });
+}
+
 test('1.6.3 cart selection, JSON backups and wishlist buttons retain their behavior', async t => {
     const token = `e30.${Buffer.from(JSON.stringify({ sub: '76561198000000001' })).toString('base64url')}.signature`;
     const page = createPage(t, { url: 'https://store.steampowered.com/cart/',
@@ -1291,7 +1430,8 @@ test('1.6.3 cart selection, JSON backups and wishlist buttons retain their behav
     config.setAttribute('data-userinfo', JSON.stringify({ country_code: 'KR' }));
     window.HTMLElement.prototype.getBoundingClientRect = () => ({ top: 0, width: 400, height: 50 });
     window.alert = () => {};
-    window.confirm = () => true;
+    const prompts = [];
+    window.confirm = text => { prompts.push(text); return true; };
     document.cookie = 'sessionid=fixture-session';
     const wishlist = [];
     window.fetch = async (url, options) => {
@@ -1338,6 +1478,7 @@ test('1.6.3 cart selection, JSON backups and wishlist buttons retain their behav
     await settle();
     const restore = page.messages.find(message => message.type === 'RESTORE_CART');
     assert.deepEqual(JSON.parse(JSON.stringify(restore?.items)), [{ id: 200, type: 'package' }]);
+    assert.deepEqual(prompts, ['1개 누락 항목을 장바구니에 추가할까요?\nOld backup item']);
     document.querySelector('.kosteam-cart-selectall-checkbox').click();
     assert.equal(document.querySelector('.kosteam-cart-total').textContent, '선택 합계: ₩ 3,000');
     let checkouts = 0;

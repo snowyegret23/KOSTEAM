@@ -48,16 +48,46 @@ import {
         // Storage access can be blocked by browser privacy settings.
     }
 
+    let cartFeatureEnabled = false;
+    let cartSetupComplete = false;
+    let reloadingForSetting = false;
+
+    function reloadForCartSetting() {
+        if (reloadingForSetting) return;
+        reloadingForSetting = true;
+        cartFeatureEnabled = false;
+        window.location.reload();
+    }
+
+    onStorageChanged((changes, area) => {
+        const change = changes[CART_FEATURE_KEY];
+        if (area === 'local' && change?.newValue === true && change.oldValue !== true) {
+            reloadForCartSetting();
+        }
+    });
+
+    window.addEventListener('pageshow', async event => {
+        if (!event.persisted || reloadingForSetting) return;
+        try {
+            const settings = await storageGet([CART_FEATURE_KEY]);
+            if (reloadingForSetting) return;
+            if ((settings[CART_FEATURE_KEY] === true) !== cartFeatureEnabled) {
+                reloadForCartSetting();
+            } else if (cartFeatureEnabled && cartSetupComplete) {
+                init();
+            }
+        } catch (err) {
+            console.debug('[KOSTEAM] Cached cart settings read error:', err);
+        }
+    });
+
     try {
         const settings = await storageGet([CART_FEATURE_KEY]);
-        if (settings[CART_FEATURE_KEY] !== true) return;
+        cartFeatureEnabled = !reloadingForSetting && settings[CART_FEATURE_KEY] === true;
+        if (!cartFeatureEnabled) return;
     } catch {
         return;
     }
-
-    window.addEventListener('pageshow', event => {
-        if (event.persisted) init();
-    });
 
     const selectedKeys = new Set();
     let refreshScheduled = false;
@@ -65,7 +95,6 @@ import {
     let allowNativeCheckoutClick = false;
     let pendingRecoveryBlocked = false;
     let initializing = false;
-    let cartFeatureEnabled = true;
     let fetchedCartData = null;
     const cartRequestController = new AbortController();
 
@@ -776,20 +805,22 @@ import {
     }
 
     async function sendAppIdsToWishlist(appIds) {
-        if (!await requireCartData()) return { added: 0, failed: appIds.length };
+        if (!await requireCartData()) return { added: 0, already: 0, failed: appIds.length };
         const accountId = getSteamAccountId(getWebApiToken());
         const sessionid = getSessionId();
         if (!sessionid) {
             if (!DISABLE_CART_DIALOGS) {
                 window.alert('찜목록 요청 실패: 세션 정보를 찾을 수 없습니다.');
             }
-            return { added: 0, failed: appIds.length };
+            return { added: 0, already: 0, failed: appIds.length };
         }
 
         let added = 0;
+        let already = 0;
         let failed = 0;
+        const rejected = [];
         for (const appId of appIds) {
-            if (!await canModifyCart(accountId)) return { added, failed: appIds.length - added };
+            if (!await canModifyCart(accountId)) return { added, already, failed: appIds.length - added };
             try {
                 const form = new URLSearchParams();
                 form.set('appid', String(appId));
@@ -808,13 +839,34 @@ import {
                     added++;
                 } else {
                     failed++;
+                    if (data?.success === false) rejected.push(appId);
                 }
             } catch (err) {
                 console.debug('[KOSTEAM] Wishlist add error:', err);
                 failed++;
             }
         }
-        return { added, failed };
+        if (rejected.length && await canModifyCart(accountId)) {
+            try {
+                const accountNumber = BigInt(accountId) - 76561197960265728n;
+                const url = `https://store.steampowered.com/dynamicstore/userdata/?id=${accountNumber}&cc=${getAccountCountryCode()}`;
+                const data = await withRequestTimeout(async signal => {
+                    const response = await fetch(url, {
+                        credentials: 'include', cache: 'no-store', redirect: 'error', signal
+                    });
+                    return response.ok ? response.json() : null;
+                }, 15000, cartRequestController.signal);
+                if (await canModifyCart(accountId) && Array.isArray(data?.rgWishlist) &&
+                    data.rgWishlist.every(id => Number.isInteger(id) && id > 0)) {
+                    const wishlist = new Set(data.rgWishlist);
+                    already = rejected.filter(id => wishlist.has(id)).length;
+                    failed -= already;
+                }
+            } catch (err) {
+                console.debug('[KOSTEAM] Wishlist verification error:', err);
+            }
+        }
+        return { added, already, failed };
     }
 
     async function restoreItemsToCart(items, options = {}) {
@@ -1043,8 +1095,11 @@ import {
                 return;
             }
 
-            const shownNames = items.slice(0, 10).map(i => typeof i?.name === 'string' ? i.name.slice(0, 100) : '?');
-            const names = `${shownNames.join(', ')}${items.length > shownNames.length ? ` 외 ${items.length - shownNames.length}개` : ''}`;
+            const shownNames = missingItems.slice(0, 10).map(item => {
+                const original = items[restoreItems.indexOf(item)];
+                return typeof original?.name === 'string' ? original.name.slice(0, 100) : '?';
+            });
+            const names = `${shownNames.join(', ')}${missingItems.length > shownNames.length ? ` 외 ${missingItems.length - shownNames.length}개` : ''}`;
             if (!DISABLE_CART_DIALOGS) {
                 if (!window.confirm(`${missingItems.length}개 누락 항목을 장바구니에 추가할까요?\n${names}`)) return;
             }
@@ -1298,9 +1353,9 @@ import {
             return;
         }
 
-        const { added, failed } = await sendAppIdsToWishlist(uniqueAppIds);
+        const { added, already, failed } = await sendAppIdsToWishlist(uniqueAppIds);
         if (!DISABLE_CART_DIALOGS) {
-            window.alert(`찜목록 추가 완료: ${added}개\n실패: ${failed}개\n\n(번들은 낱개 상품으로 찜 목록에 추가됩니다.)`);
+            window.alert(`찜목록 추가 완료: ${added}개\n이미 찜한 게임: ${already}개\n실패: ${failed}개\n\n(번들은 낱개 상품으로 찜 목록에 추가됩니다.)`);
         }
     }
 
@@ -1334,9 +1389,9 @@ import {
             return;
         }
 
-        const { added, failed } = await sendAppIdsToWishlist(uniqueAppIds);
+        const { added, already, failed } = await sendAppIdsToWishlist(uniqueAppIds);
         if (!DISABLE_CART_DIALOGS) {
-            window.alert(`찜목록 추가 완료: ${added}개\n실패: ${failed}개`);
+            window.alert(`찜목록 추가 완료: ${added}개\n이미 찜한 게임: ${already}개\n실패: ${failed}개`);
         }
     }
 
@@ -1657,6 +1712,7 @@ import {
     }
 
     const observer = new MutationObserver(() => scheduleRefresh());
+    cartSetupComplete = true;
 
     async function init() {
         if (initializing || !cartFeatureEnabled) return;

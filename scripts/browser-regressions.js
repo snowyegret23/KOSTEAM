@@ -4,6 +4,8 @@ import { readFile, writeFile, mkdir } from 'node:fs/promises';
 const samples = JSON.parse(await readFile('tests/fixtures/store-samples.json', 'utf8')).results;
 const script = await readFile('dist/chrome/content.js', 'utf8');
 const styles = await readFile('dist/chrome/styles.css', 'utf8');
+const popupHtml = await readFile('dist/chrome/popup.html', 'utf8');
+const popupStyles = await readFile('dist/chrome/popup.css', 'utf8');
 const scenarios = [];
 for (const sample of samples) {
     for (const [layout, width] of [['desktop', 1440], ['desktop', 412], ['gamepad', 1280], ['gamepad', 1920]]) {
@@ -13,18 +15,19 @@ for (const sample of samples) {
 for (const sample of samples.filter(sample => sample.info?.source_site_urls?.quasarplay).slice(0, 5)) {
     scenarios.push({ sample, layout: 'gamepad', width: 1280, language: 'koreana', navigation: true });
 }
+for (const width of [200, 320, 412]) scenarios.push({ popup: true, width });
 const json = value => JSON.stringify(value).replaceAll('<', '\\u003c');
 const root = `<!doctype html><html lang="ko"><meta charset="utf-8"><title>KOSTEAM browser regression</title>
 <style>body{font:16px system-ui;margin:24px}iframe{position:absolute;left:0;top:140px;border:0;height:760px}pre{white-space:pre-wrap}</style>
-<h1>KOSTEAM Chromium 렌더링 검증</h1><p>실제 브라우저의 DOM/CSS를 사용합니다. 확장 API와 Steam 초기 포커스 이벤트는 모의 응답입니다.</p>
+<h1>KOSTEAM 브라우저 렌더링 검증</h1><p>실제 브라우저의 DOM/CSS를 사용합니다. 확장 API와 Steam 초기 포커스 이벤트는 모의 응답입니다.</p>
 <output id="status">실행 중</output><pre id="summary"></pre><script>
-const scenarios=${json(scenarios.map(({ sample, ...scenario }) => ({ ...scenario, appId: sample.appId, expected: sample.expected })))};
+const scenarios=${json(scenarios.map(({ sample, ...scenario }) => ({ ...scenario, appId: sample?.appId, expected: sample?.expected })))};
 const results=[];
 (async()=>{
  for(let index=0;index<scenarios.length;index++){
   const scenario=scenarios[index],frame=document.createElement('iframe');
   frame.width=scenario.width;
-  frame.src='/app/'+scenario.appId+'/?scenario='+index+(scenario.navigation?'&curator_clanid=42788178':'');
+  frame.src=(scenario.popup?'/popup/':'/app/'+scenario.appId+'/')+'?scenario='+index+(scenario.navigation?'&curator_clanid=42788178':'');
   document.body.append(frame);
   const result=await new Promise(resolve=>{
    const timer=setTimeout(()=>{window.removeEventListener('message',receive);resolve({pass:false,error:'Page timeout'});},10000);
@@ -63,9 +66,43 @@ const server = createServer(async (request, response) => {
         response.setHeader('Content-Type', 'text/html; charset=utf-8');
         response.setHeader('Cache-Control', 'no-store');
         if (url.pathname === '/') { response.end(root); return; }
+        if (url.pathname === '/icons/icon32.png') {
+            response.setHeader('Content-Type', 'image/png');
+            response.end(await readFile('dist/chrome/icons/icon32.png'));
+            return;
+        }
         const index = Number(url.searchParams.get('scenario'));
         const scenario = scenarios[index];
-        if (!scenario || url.pathname !== `/app/${scenario.sample.appId}/`) { response.writeHead(404); response.end(); return; }
+        if (scenario?.popup && url.pathname === '/popup/') {
+            const check = `window.addEventListener('load',async()=>{
+                const verify=(value,message)=>{if(!value)throw new Error(message)};
+                try {
+                    document.querySelector('#gameCount').textContent='3,984개';
+                    document.querySelector('#remoteUpdate').textContent='1일 전';
+                    document.querySelector('#dbStatus').textContent='업데이트 필요!';
+                    await new Promise(resolve=>requestAnimationFrame(resolve));
+                    const children=[...document.body.children].filter(element=>element.checkVisibility());
+                    const rects=children.map(element=>element.getBoundingClientRect());
+                    const width=Math.ceil(Math.max(...rects.map(rect=>rect.right))-Math.min(...rects.map(rect=>rect.left)));
+                    const height=Math.ceil(Math.max(...rects.map(rect=>rect.bottom))-Math.min(...rects.map(rect=>rect.top)));
+                    verify(width===320,'Popup host measures wrong width: '+width);
+                    frameElement.width=width;frameElement.style.height=height+'px';
+                    await new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)));
+                    verify(document.documentElement.scrollWidth<=innerWidth,'Popup horizontal overflow');
+                    verify(document.documentElement.scrollHeight<=innerHeight,'Popup vertical overflow');
+                    for(const element of document.querySelectorAll('button,input,a,.stat-value')){
+                        const rect=element.getBoundingClientRect();
+                        verify(rect.left>=0&&rect.right<=innerWidth&&rect.top>=0&&rect.bottom<=innerHeight,'Popup control clipped');
+                    }
+                    parent.postMessage({scenario:${index},pass:true,width,height},location.origin);
+                }catch(error){parent.postMessage({scenario:${index},pass:false,error:error.message},location.origin);}
+            });`;
+            response.end(popupHtml.replace('<link rel="stylesheet" href="popup.css">', `<style>${popupStyles}</style>`)
+                .replace('src="icons/icon32.png"', 'src="/icons/icon32.png"')
+                .replace('<script src="popup.js"></script>', `<script>${check}</script>`));
+            return;
+        }
+        if (!scenario || url.pathname !== `/app/${scenario.sample?.appId}/`) { response.writeHead(404); response.end(); return; }
         const { sample, layout, language, navigation } = scenario;
         const page = sample.pages.find(value => value.layout === layout && value.language === language);
         const setup = `Object.defineProperty(navigator,'userAgent',{value:${json(layout === 'gamepad' ? 'Mozilla/5.0 Valve Steam Gamepad' : 'Mozilla/5.0 Chrome/140.0.0.0 Safari/537.36')}});

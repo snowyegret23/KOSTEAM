@@ -89,6 +89,19 @@ export function createPage(t, { html = '', lang = 'en', url = 'https://store.ste
                     document: window.document, navigator: window.navigator, MutationObserver: window.MutationObserver,
                     URL, console: window.console, [promiseApi ? 'browser' : 'chrome']: api
                 });
+            } else if (script === 'cart') {
+                const cartWindow = Object.create(window);
+                cartWindow.addEventListener = window.addEventListener.bind(window);
+                cartWindow.getComputedStyle = window.getComputedStyle.bind(window);
+                Object.defineProperty(cartWindow, 'location', {
+                    value: Object.assign(new URL(url), { reload: () => navigations.push(url) })
+                });
+                window.__cartTestWindow = cartWindow;
+                try {
+                    window.eval(`(function(window) { ${bundles[script]} })(__cartTestWindow);`);
+                } finally {
+                    delete window.__cartTestWindow;
+                }
             } else {
                 window.eval(bundles[script]);
             }

@@ -9,83 +9,85 @@
 </head>
 
 <body>
-    <div class="header">
-        <img class="header-icon" src="icons/icon32.png" alt="KR">
-        <span class="header-title">KOSTEAM</span>
-    </div>
-
-    <div class="stats">
-        <div class="stat-item">
-            <span class="stat-label">등록된 게임</span>
-            <span class="stat-value" id="gameCount">-</span>
+    <main class="popup-content">
+        <div class="header">
+            <img class="header-icon" src="icons/icon32.png" alt="KR">
+            <span class="header-title">KOSTEAM</span>
         </div>
-        <div class="stat-item">
-            <span class="stat-label">원격 DB 업데이트</span>
-            <span class="stat-value" id="remoteUpdate">-</span>
+
+        <div class="stats">
+            <div class="stat-item">
+                <span class="stat-label">등록된 게임</span>
+                <span class="stat-value" id="gameCount">-</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">원격 DB 업데이트</span>
+                <span class="stat-value" id="remoteUpdate">-</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">로컬 DB 상태</span>
+                <span class="stat-value" id="dbStatus">확인 중...</span>
+            </div>
         </div>
-        <div class="stat-item">
-            <span class="stat-label">로컬 DB 상태</span>
-            <span class="stat-value" id="dbStatus">확인 중...</span>
+
+        <button class="btn btn-primary" id="refreshBtn">
+            데이터 새로고침
+        </button>
+
+        <div class="status" id="status"></div>
+
+        <div class="settings-title">표시 소스 설정</div>
+        <div class="source-options">
+            <label class="source-item">
+                <input type="checkbox" id="source_steamapp" checked>
+                한패넷
+            </label>
+            <label class="source-item">
+                <input type="checkbox" id="source_quasarplay" checked>
+                퀘이사존
+            </label>
+            <label class="source-item">
+                <input type="checkbox" id="source_directg" checked>
+                다이렉트 게임즈
+            </label>
+            <label class="source-item">
+                <input type="checkbox" id="source_stove" checked>
+                스토브
+            </label>
         </div>
-    </div>
 
-    <button class="btn btn-primary" id="refreshBtn">
-        데이터 새로고침
-    </button>
+        <div class="settings-title">추가 설정</div>
+        <div class="source-options single-column">
+            <label class="source-item">
+                <input type="checkbox" id="disable_patch_info">
+                한국어 패치 정보 표시 끄기
+            </label>
+            <label class="source-item">
+                <input type="checkbox" id="bypass_language_filter" checked>
+                한국어 검색 필터 자동해제
+            </label>
+            <label class="source-item">
+                <input type="checkbox" id="cart_feature_enabled">
+                장바구니 추가 기능 활성화
+            </label>
+        </div>
 
-    <div class="status" id="status"></div>
+        <div class="footer">
+            데이터 출처: <a href="https://hanpe.net/hanguls" target="_blank" rel="noopener noreferrer">한패넷</a>,
+            <a href="https://store.steampowered.com/curator/30894603" target="_blank" rel="noopener noreferrer">퀘이사존 큐레이터</a>,<br>
+            <a href="https://directg.net/game/game_search_thumb.html?exclusive_korean=Y" target="_blank" rel="noopener noreferrer">다이렉트 게임즈</a>,
+            <a href="https://store.onstove.com/ko/store/search?direction=LATEST&features=99" target="_blank" rel="noopener noreferrer">스토브</a>
+        </div>
 
-    <div class="settings-title">표시 소스 설정</div>
-    <div class="source-options">
-        <label class="source-item">
-            <input type="checkbox" id="source_steamapp" checked>
-            한패넷
-        </label>
-        <label class="source-item">
-            <input type="checkbox" id="source_quasarplay" checked>
-            퀘이사존
-        </label>
-        <label class="source-item">
-            <input type="checkbox" id="source_directg" checked>
-            다이렉트 게임즈
-        </label>
-        <label class="source-item">
-            <input type="checkbox" id="source_stove" checked>
-            스토브
-        </label>
-    </div>
-
-    <div class="settings-title">추가 설정</div>
-    <div class="source-options single-column">
-        <label class="source-item">
-            <input type="checkbox" id="disable_patch_info">
-            한국어 패치 정보 표시 끄기
-        </label>
-        <label class="source-item">
-            <input type="checkbox" id="bypass_language_filter" checked>
-            한국어 검색 필터 자동해제
-        </label>
-        <label class="source-item">
-            <input type="checkbox" id="cart_feature_enabled">
-            장바구니 추가 기능 활성화
-        </label>
-    </div>
-
-    <div class="footer">
-        데이터 출처: <a href="https://hanpe.net/hanguls" target="_blank" rel="noopener noreferrer">한패넷</a>,
-        <a href="https://store.steampowered.com/curator/30894603" target="_blank" rel="noopener noreferrer">퀘이사존 큐레이터</a>,<br>
-        <a href="https://directg.net/game/game_search_thumb.html?exclusive_korean=Y" target="_blank" rel="noopener noreferrer">다이렉트 게임즈</a>,
-        <a href="https://store.onstove.com/ko/store/search?direction=LATEST&features=99" target="_blank" rel="noopener noreferrer">스토브</a>
-    </div>
-
-    <div class="footer2">
-        <a href="https://chromewebstore.google.com/detail/cbcganplchikpgchgppklcblpjibhnnc" target="_blank" rel="noopener noreferrer">Chrome 웹
-            스토어</a>
-        |
-        <a href="https://addons.mozilla.org/ko/firefox/addon/kosteam/" target="_blank" rel="noopener noreferrer">Firefox 웹 스토어</a>
-        |
-        <a href="https://github.com/snowyegret23/KOSTEAM" target="_blank" rel="noopener noreferrer">GitHub</a>
-    </div>
+        <div class="footer2">
+            <a href="https://chromewebstore.google.com/detail/cbcganplchikpgchgppklcblpjibhnnc" target="_blank" rel="noopener noreferrer">Chrome 웹
+                스토어</a>
+            |
+            <a href="https://addons.mozilla.org/ko/firefox/addon/kosteam/" target="_blank" rel="noopener noreferrer">Firefox 웹 스토어</a>
+            |
+            <a href="https://github.com/snowyegret23/KOSTEAM" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+    </main>
 
     <script src="popup.js"></script>
 </body>
