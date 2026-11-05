@@ -1009,6 +1009,19 @@
     ]
   },
   {
+    "app_id": "13500",
+    "game_title": "Prince of Persia: Warrior Within™",
+    "steam_link": "https://store.steampowered.com/app/13500",
+    "source_site_url": "https://hanpe.net/app/jwrnn4/prince-of-persia-warrior-withintm",
+    "patch_type": "user",
+    "patch_links": [
+      "4de1fa1f"
+    ],
+    "patch_descriptions": [
+      "제작자 : 슬램백호"
+    ]
+  },
+  {
     "app_id": "13520",
     "game_title": "Far Cry®",
     "steam_link": "https://store.steampowered.com/app/13520",
@@ -2940,12 +2953,12 @@
     "source_site_url": "https://hanpe.net/app/j8o1y8/shank-2",
     "patch_type": "user",
     "patch_links": [
-      "331a4ee1",
-      "4d5d8838"
+      "4d5d8838",
+      "331a4ee1"
     ],
     "patch_descriptions": [
-      "주관: 랄프 번역: legalmind, 고블린, Scarra 영상자막 제작: 김고은 아트 번역: 개나소랑",
-      "백업용 - 위 링크가 열리지 않을 시 사용"
+      "백업용 - 위 링크가 열리지 않을 시 사용",
+      "주관: 랄프 번역: legalmind, 고블린, Scarra 영상자막 제작: 김고은 아트 번역: 개나소랑"
     ]
   },
   {
@@ -4661,6 +4674,19 @@
     ],
     "patch_descriptions": [
       "mumu 님 제작"
+    ]
+  },
+  {
+    "app_id": "229480",
+    "game_title": "Dungeons & Dragons: Chronicles of Mystara",
+    "steam_link": "https://store.steampowered.com/app/229480",
+    "source_site_url": "https://hanpe.net/app/lkvkg8/dungeons-dragons-chronicles-of-mystara",
+    "patch_type": "user",
+    "patch_links": [
+      "de8de6e9"
+    ],
+    "patch_descriptions": [
+      "제작자 : 태스크마스터"
     ]
   },
   {
@@ -7407,6 +7433,19 @@
     ]
   },
   {
+    "app_id": "300550",
+    "game_title": "Shadowrun: Dragonfall - Director's Cut",
+    "steam_link": "https://store.steampowered.com/app/300550",
+    "source_site_url": "https://hanpe.net/app/j9k8nr/shadowrun-dragonfall-directors-cut",
+    "patch_type": "user",
+    "patch_links": [
+      "7283ecac"
+    ],
+    "patch_descriptions": [
+      "제작자 : aabb0423"
+    ]
+  },
+  {
     "app_id": "302510",
     "game_title": "Ryse: Son of Rome",
     "steam_link": "https://store.steampowered.com/app/302510",
@@ -9003,10 +9042,12 @@
     "patch_type": "user",
     "patch_links": [
       "d7386779",
-      "8a3b3f45"
+      "8a3b3f45",
+      "900d56c5"
     ],
     "patch_descriptions": [
       "제작자 : 정보없음",
+      "제작자 : 슬램백호",
       "제작자 : 슬램백호"
     ]
   },
@@ -11097,10 +11138,12 @@
     "source_site_url": "https://hanpe.net/app/j809v8/onechanbara-z2-chaos",
     "patch_type": "user",
     "patch_links": [
-      "37ca45aa"
+      "37ca45aa",
+      "6aed44df"
     ],
     "patch_descriptions": [
-      "제작자 : 도미"
+      "제작자 : 도미",
+      "제작자 : 태스크마스터"
     ]
   },
   {
@@ -16984,6 +17027,19 @@
     ]
   },
   {
+    "app_id": "915200",
+    "game_title": "Republique VR",
+    "steam_link": "https://store.steampowered.com/app/915200",
+    "source_site_url": "https://hanpe.net/app/l2m6gm/republique-vr",
+    "patch_type": "user",
+    "patch_links": [
+      "bbd3c721"
+    ],
+    "patch_descriptions": [
+      "제작자 : 총재X"
+    ]
+  },
+  {
     "app_id": "915310",
     "game_title": "SNKRX",
     "steam_link": "https://store.steampowered.com/app/915310",
@@ -22052,6 +22108,17 @@
     ]
   },
   {
+    "app_id": "1395840",
+    "game_title": "The End of the World and Her Room",
+    "steam_link": "https://store.steampowered.com/app/1395840",
+    "source_site_url": "https://hanpe.net/app/4r9krr/the-end-of-the-world-and-her-room",
+    "patch_type": "official",
+    "patch_links": [],
+    "patch_descriptions": [
+      "실제로는 공식한글"
+    ]
+  },
+  {
     "app_id": "1397110",
     "game_title": "Harthorn",
     "steam_link": "https://store.steampowered.com/app/1397110",
@@ -22157,6 +22224,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 시리우스"
+    ]
+  },
+  {
+    "app_id": "1408610",
+    "game_title": "Call of the Wild: The Angler™",
+    "steam_link": "https://store.steampowered.com/app/1408610",
+    "source_site_url": "https://hanpe.net/app/4ezx8z/call-of-the-wild-the-anglertm",
+    "patch_type": "user",
+    "patch_links": [
+      "c2b1c827"
+    ],
+    "patch_descriptions": [
+      "제작자 : 태스크마스터"
     ]
   },
   {
@@ -24088,6 +24168,19 @@
     ]
   },
   {
+    "app_id": "1654170",
+    "game_title": "Agony VR",
+    "steam_link": "https://store.steampowered.com/app/1654170",
+    "source_site_url": "https://hanpe.net/app/41pxmd/agony-vr",
+    "patch_type": "user",
+    "patch_links": [
+      "dada59cf"
+    ],
+    "patch_descriptions": [
+      "제작자 : 총재X"
+    ]
+  },
+  {
     "app_id": "1655190",
     "game_title": "AIKAGI",
     "steam_link": "https://store.steampowered.com/app/1655190",
@@ -25734,10 +25827,12 @@
     "source_site_url": "https://hanpe.net/app/4qe0rx/warriors-orochi-3-ultimate-definitive-edition",
     "patch_type": "user",
     "patch_links": [
-      "410d21b7"
+      "410d21b7",
+      "0c28a329"
     ],
     "patch_descriptions": [
-      "제작자 : kimjh-eclipse"
+      "제작자 : kimjh-eclipse",
+      "제작자 : 태스크마스터"
     ]
   },
   {
@@ -31823,6 +31918,19 @@
     ]
   },
   {
+    "app_id": "2863680",
+    "game_title": "ZERO PARADES: Director's Cut",
+    "steam_link": "https://store.steampowered.com/app/2863680",
+    "source_site_url": "https://hanpe.net/app/l2y1nq/zero-parades-directors-cut",
+    "patch_type": "user",
+    "patch_links": [
+      "c858c3d3"
+    ],
+    "patch_descriptions": [
+      "제작자 : AOS"
+    ]
+  },
+  {
     "app_id": "2864560",
     "game_title": "용의 나라 룬 팩토리",
     "steam_link": "https://store.steampowered.com/app/2864560",
@@ -37782,6 +37890,17 @@
     ]
   },
   {
+    "app_id": "4366360",
+    "game_title": "Balorizon",
+    "steam_link": "https://store.steampowered.com/app/4366360",
+    "source_site_url": "https://hanpe.net/app/jp75qw/balorizon",
+    "patch_type": "official",
+    "patch_links": [],
+    "patch_descriptions": [
+      "실제로는 공식한글"
+    ]
+  },
+  {
     "app_id": "4391590",
     "game_title": "BLOOD MALL: RETAPED",
     "steam_link": "https://store.steampowered.com/app/4391590",
@@ -37829,7 +37948,9 @@
     "source_site_url": "https://hanpe.net/app/4e008x/mercury-elopement-syndrome",
     "patch_type": "official",
     "patch_links": [],
-    "patch_descriptions": []
+    "patch_descriptions": [
+      "실제로는 공식한글"
+    ]
   },
   {
     "app_id": "4423590",
@@ -38144,6 +38265,19 @@
     ]
   },
   {
+    "app_id": "4645760",
+    "game_title": "How Much for the Body in the Freezer",
+    "steam_link": "https://store.steampowered.com/app/4645760",
+    "source_site_url": "https://hanpe.net/app/4eemm1/how-much-for-the-body-in-the-freezer",
+    "patch_type": "user",
+    "patch_links": [
+      "3ea9bc7d"
+    ],
+    "patch_descriptions": [
+      "제작자 : Eueeeeeeeek"
+    ]
+  },
+  {
     "app_id": "4655600",
     "game_title": "The Bird of the North",
     "steam_link": "https://store.steampowered.com/app/4655600",
@@ -38206,6 +38340,17 @@
     ],
     "patch_descriptions": [
       "제작자 : 파미도 파일은 댓글 참조"
+    ]
+  },
+  {
+    "app_id": "4729160",
+    "game_title": "The Kuon Island Nursery Rhyme Murders: Case Notes",
+    "steam_link": "https://store.steampowered.com/app/4729160",
+    "source_site_url": "https://hanpe.net/app/l7vxqo/the-kuon-island-nursery-rhyme-murders-case-notes",
+    "patch_type": "official",
+    "patch_links": [],
+    "patch_descriptions": [
+      "실제론 한글 지원"
     ]
   },
   {

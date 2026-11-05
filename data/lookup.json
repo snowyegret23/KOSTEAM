@@ -1743,6 +1743,24 @@
       "quasarplay": "https://store.steampowered.com/app/12900/?curator_clanid=42788178"
     }
   },
+  "13500": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "4de1fa1f"
+    ],
+    "patch_descriptions": [
+      "제작자 : 슬램백호"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jwrnn4/prince-of-persia-warrior-withintm"
+    }
+  },
   "13520": {
     "type": "user",
     "sources": [
@@ -5162,13 +5180,13 @@
       "quasarplay"
     ],
     "links": [
-      "331a4ee1",
       "4d5d8838",
+      "331a4ee1",
       "exist"
     ],
     "patch_descriptions": [
-      "주관: 랄프 번역: legalmind, 고블린, Scarra 영상자막 제작: 김고은 아트 번역: 개나소랑",
       "백업용 - 위 링크가 열리지 않을 시 사용",
+      "주관: 랄프 번역: legalmind, 고블린, Scarra 영상자막 제작: 김고은 아트 번역: 개나소랑",
       "유저 한국어 패치 - 한필드, 개나소랑, 김고은, Scarra, 고블린, 레갈마인드 님"
     ],
     "patch_sources": [
@@ -8141,6 +8159,24 @@
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/j9qww3/full-throttle-remastered",
       "quasarplay": "https://store.steampowered.com/app/228360/?curator_clanid=42788178"
+    }
+  },
+  "229480": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "de8de6e9"
+    ],
+    "patch_descriptions": [
+      "제작자 : 태스크마스터"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/lkvkg8/dungeons-dragons-chronicles-of-mystara"
     }
   },
   "229870": {
@@ -13069,18 +13105,23 @@
   "300550": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "7283ecac",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : aabb0423",
       "한글 패치 - aabb0423"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j9k8nr/shadowrun-dragonfall-directors-cut",
       "quasarplay": "https://store.steampowered.com/app/300550/?curator_clanid=30894603"
     }
   },
@@ -16016,14 +16057,17 @@
     "links": [
       "d7386779",
       "8a3b3f45",
+      "900d56c5",
       "exist"
     ],
     "patch_descriptions": [
       "제작자 : 정보없음",
       "제작자 : 슬램백호",
+      "제작자 : 슬램백호",
       "한국어 패치"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp",
       "steamapp",
       "quasarplay"
@@ -20111,13 +20155,16 @@
     ],
     "links": [
       "37ca45aa",
+      "6aed44df",
       "exist"
     ],
     "patch_descriptions": [
       "제작자 : 도미",
+      "제작자 : 태스크마스터",
       "한글 패치 - 도미"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp",
       "quasarplay"
     ],
@@ -31600,6 +31647,24 @@
       "quasarplay": "https://store.steampowered.com/app/914720/?curator_clanid=30894603"
     }
   },
+  "915200": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "bbd3c721"
+    ],
+    "patch_descriptions": [
+      "제작자 : 총재X"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/l2m6gm/republique-vr"
+    }
+  },
   "915310": {
     "type": "user",
     "sources": [
@@ -42808,6 +42873,22 @@
       "quasarplay": "https://store.steampowered.com/app/1395520/?curator_clanid=30894603"
     }
   },
+  "1395840": {
+    "type": "official",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [],
+    "patch_descriptions": [
+      "실제로는 공식한글"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4r9krr/the-end-of-the-world-and-her-room"
+    }
+  },
   "1397110": {
     "type": "user",
     "sources": [
@@ -43155,6 +43236,24 @@
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/jw05on/the-world-of-kungfu-dragon-and-eagle",
       "quasarplay": "https://store.steampowered.com/app/1407450/?curator_clanid=42788178"
+    }
+  },
+  "1408610": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "c2b1c827"
+    ],
+    "patch_descriptions": [
+      "제작자 : 태스크마스터"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4ezx8z/call-of-the-wild-the-anglertm"
     }
   },
   "1409840": {
@@ -48006,6 +48105,24 @@
       "stove": "https://store.onstove.com/ko/games/3214"
     }
   },
+  "1654170": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "dada59cf"
+    ],
+    "patch_descriptions": [
+      "제작자 : 총재X"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/41pxmd/agony-vr"
+    }
+  },
   "1654660": {
     "type": "user",
     "sources": [
@@ -52234,13 +52351,16 @@
     ],
     "links": [
       "410d21b7",
+      "0c28a329",
       "exist"
     ],
     "patch_descriptions": [
       "제작자 : kimjh-eclipse",
+      "제작자 : 태스크마스터",
       "한글 패치 - 한무테"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp",
       "quasarplay"
     ],
@@ -68260,6 +68380,24 @@
       "steamapp": "https://hanpe.net/app/4g317g/the-fear-business"
     }
   },
+  "2863680": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "c858c3d3"
+    ],
+    "patch_descriptions": [
+      "제작자 : AOS"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/l2y1nq/zero-parades-directors-cut"
+    }
+  },
   "2864560": {
     "type": "official",
     "sources": [
@@ -83824,6 +83962,22 @@
       "quasarplay": "https://store.steampowered.com/app/4366330/?curator_clanid=30894603"
     }
   },
+  "4366360": {
+    "type": "official",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [],
+    "patch_descriptions": [
+      "실제로는 공식한글"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jp75qw/balorizon"
+    }
+  },
   "4369130": {
     "type": "user",
     "sources": [
@@ -83964,8 +84118,12 @@
       "steamapp"
     ],
     "links": [],
-    "patch_descriptions": [],
-    "patch_sources": [],
+    "patch_descriptions": [
+      "실제로는 공식한글"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/4e008x/mercury-elopement-syndrome"
     }
@@ -84629,18 +84787,23 @@
   "4645760": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "3ea9bc7d",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : Eueeeeeeeek",
       "한글 패치 - 으잌"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4eemm1/how-much-for-the-body-in-the-freezer",
       "quasarplay": "https://store.steampowered.com/app/4645760/?curator_clanid=30894603"
     }
   },
@@ -84801,6 +84964,22 @@
     ],
     "source_site_urls": {
       "quasarplay": "https://store.steampowered.com/app/4716540/?curator_clanid=30894603"
+    }
+  },
+  "4729160": {
+    "type": "official",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [],
+    "patch_descriptions": [
+      "실제론 한글 지원"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/l7vxqo/the-kuon-island-nursery-rhyme-murders-case-notes"
     }
   },
   "4735070": {
@@ -85159,7 +85338,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-11-02T00:11:26.831Z",
-    "total": 3984
+    "generated_at": "2026-11-05T01:15:28.347Z",
+    "total": 3993
   }
 }

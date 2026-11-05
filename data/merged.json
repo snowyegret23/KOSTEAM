@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-11-02T00:11:26.831Z",
-    "total_with_steam_link": 3984,
-    "total_without_steam_link": 13,
+    "generated_at": "2026-11-05T01:15:28.347Z",
+    "total_with_steam_link": 3993,
+    "total_without_steam_link": 14,
     "sources": [
       "steamapp",
       "quasarzone",
@@ -721,27 +721,6 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/571720/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "300550",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/300550/Shadowrun_Dragonfall_Directors_Cut/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - aabb0423"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/300550/?curator_clanid=30894603"
       },
       "sources": [
         "quasarplay"
@@ -2737,27 +2716,6 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/3046350/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "4645760",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/4645760/How_Much_for_the_Body_in_the_Freezer/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - 으잌"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/4645760/?curator_clanid=30894603"
       },
       "sources": [
         "quasarplay"
@@ -22396,6 +22354,27 @@
       ]
     },
     {
+      "app_id": "1654170",
+      "game_title": "Agony VR",
+      "steam_link": "https://store.steampowered.com/app/1654170",
+      "patch_type": "user",
+      "patch_links": [
+        "dada59cf"
+      ],
+      "patch_descriptions": [
+        "제작자 : 총재X"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/41pxmd/agony-vr"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "948740",
       "game_title": "AI: The Somnium Files",
       "steam_link": "https://store.steampowered.com/app/948740",
@@ -25990,6 +25969,25 @@
       ]
     },
     {
+      "app_id": "4366360",
+      "game_title": "Balorizon",
+      "steam_link": "https://store.steampowered.com/app/4366360",
+      "patch_type": "official",
+      "patch_links": [],
+      "patch_descriptions": [
+        "실제로는 공식한글"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jp75qw/balorizon"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "424250",
       "game_title": "Balrum",
       "steam_link": "https://store.steampowered.com/app/424250",
@@ -29476,14 +29474,17 @@
       "patch_links": [
         "d7386779",
         "8a3b3f45",
+        "900d56c5",
         "exist"
       ],
       "patch_descriptions": [
         "제작자 : 정보없음",
         "제작자 : 슬램백호",
+        "제작자 : 슬램백호",
         "한국어 패치"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "steamapp",
         "quasarplay"
@@ -29843,6 +29844,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "1408610",
+      "game_title": "Call of the Wild: The Angler™",
+      "steam_link": "https://store.steampowered.com/app/1408610",
+      "patch_type": "user",
+      "patch_links": [
+        "c2b1c827"
+      ],
+      "patch_descriptions": [
+        "제작자 : 태스크마스터"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4ezx8z/call-of-the-wild-the-anglertm"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -37774,6 +37796,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "229480",
+      "game_title": "Dungeons & Dragons: Chronicles of Mystara",
+      "steam_link": "https://store.steampowered.com/app/229480",
+      "patch_type": "user",
+      "patch_links": [
+        "de8de6e9"
+      ],
+      "patch_descriptions": [
+        "제작자 : 태스크마스터"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/lkvkg8/dungeons-dragons-chronicles-of-mystara"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -46618,6 +46661,32 @@
       ]
     },
     {
+      "app_id": "4645760",
+      "game_title": "How Much for the Body in the Freezer",
+      "steam_link": "https://store.steampowered.com/app/4645760",
+      "patch_type": "user",
+      "patch_links": [
+        "3ea9bc7d",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : Eueeeeeeeek",
+        "한글 패치 - 으잌"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4eemm1/how-much-for-the-body-in-the-freezer",
+        "quasarplay": "https://store.steampowered.com/app/4645760/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "1106940",
       "game_title": "How to Raise a Wolf Girl",
       "steam_link": "https://store.steampowered.com/app/1106940",
@@ -54479,8 +54548,12 @@
       "steam_link": "https://store.steampowered.com/app/4417890",
       "patch_type": "official",
       "patch_links": [],
-      "patch_descriptions": [],
-      "patch_sources": [],
+      "patch_descriptions": [
+        "실제로는 공식한글"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/4e008x/mercury-elopement-syndrome"
       },
@@ -58976,13 +59049,16 @@
       "patch_type": "user",
       "patch_links": [
         "37ca45aa",
+        "6aed44df",
         "exist"
       ],
       "patch_descriptions": [
         "제작자 : 도미",
+        "제작자 : 태스크마스터",
         "한글 패치 - 도미"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "quasarplay"
       ],
@@ -61711,6 +61787,27 @@
       ]
     },
     {
+      "app_id": "13500",
+      "game_title": "Prince of Persia: Warrior Within™",
+      "steam_link": "https://store.steampowered.com/app/13500",
+      "patch_type": "user",
+      "patch_links": [
+        "4de1fa1f"
+      ],
+      "patch_descriptions": [
+        "제작자 : 슬램백호"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jwrnn4/prince-of-persia-warrior-withintm"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "19980",
       "game_title": "Prince of Persia®",
       "steam_link": "https://store.steampowered.com/app/19980",
@@ -63445,6 +63542,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "915200",
+      "game_title": "Republique VR",
+      "steam_link": "https://store.steampowered.com/app/915200",
+      "patch_type": "user",
+      "patch_links": [
+        "bbd3c721"
+      ],
+      "patch_descriptions": [
+        "제작자 : 총재X"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l2m6gm/republique-vr"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -67222,6 +67340,32 @@
       ]
     },
     {
+      "app_id": "300550",
+      "game_title": "Shadowrun: Dragonfall - Director's Cut",
+      "steam_link": "https://store.steampowered.com/app/300550",
+      "patch_type": "user",
+      "patch_links": [
+        "7283ecac",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : aabb0423",
+        "한글 패치 - aabb0423"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j9k8nr/shadowrun-dragonfall-directors-cut",
+        "quasarplay": "https://store.steampowered.com/app/300550/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "346940",
       "game_title": "Shadowrun: Hong Kong - Extended Edition",
       "steam_link": "https://store.steampowered.com/app/346940",
@@ -67368,13 +67512,13 @@
       "steam_link": "https://store.steampowered.com/app/102840",
       "patch_type": "user",
       "patch_links": [
-        "331a4ee1",
         "4d5d8838",
+        "331a4ee1",
         "exist"
       ],
       "patch_descriptions": [
-        "주관: 랄프 번역: legalmind, 고블린, Scarra 영상자막 제작: 김고은 아트 번역: 개나소랑",
         "백업용 - 위 링크가 열리지 않을 시 사용",
+        "주관: 랄프 번역: legalmind, 고블린, Scarra 영상자막 제작: 김고은 아트 번역: 개나소랑",
         "유저 한국어 패치 - 한필드, 개나소랑, 김고은, Scarra, 고블린, 레갈마인드 님"
       ],
       "patch_sources": [
@@ -75580,6 +75724,25 @@
       ]
     },
     {
+      "app_id": "1395840",
+      "game_title": "The End of the World and Her Room",
+      "steam_link": "https://store.steampowered.com/app/1395840",
+      "patch_type": "official",
+      "patch_links": [],
+      "patch_descriptions": [
+        "실제로는 공식한글"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4r9krr/the-end-of-the-world-and-her-room"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "1730590",
       "game_title": "The Entropy Centre",
       "steam_link": "https://store.steampowered.com/app/1730590",
@@ -76827,6 +76990,25 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "4729160",
+      "game_title": "The Kuon Island Nursery Rhyme Murders: Case Notes",
+      "steam_link": "https://store.steampowered.com/app/4729160",
+      "patch_type": "official",
+      "patch_links": [],
+      "patch_descriptions": [
+        "실제론 한글 지원"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l7vxqo/the-kuon-island-nursery-rhyme-murders-case-notes"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -84113,13 +84295,16 @@
       "patch_type": "user",
       "patch_links": [
         "410d21b7",
+        "0c28a329",
         "exist"
       ],
       "patch_descriptions": [
         "제작자 : kimjh-eclipse",
+        "제작자 : 태스크마스터",
         "한글 패치 - 한무테"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "quasarplay"
       ],
@@ -86445,6 +86630,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2863680",
+      "game_title": "ZERO PARADES: Director's Cut",
+      "steam_link": "https://store.steampowered.com/app/2863680",
+      "patch_type": "user",
+      "patch_links": [
+        "c858c3d3"
+      ],
+      "patch_descriptions": [
+        "제작자 : AOS"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l2y1nq/zero-parades-directors-cut"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -97125,6 +97331,25 @@
     }
   ],
   "games_no_steam_link": [
+    {
+      "game_title": "TheMaze: In Dark",
+      "patch_type": "official",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        ""
+      ],
+      "patch_sources": [
+        "stove"
+      ],
+      "source_site_urls": {
+        "stove": "https://store.onstove.com/ko/games/3064"
+      },
+      "sources": [
+        "stove"
+      ]
+    },
     {
       "game_title": "귀신은 그림자가 없다",
       "patch_type": "official",
