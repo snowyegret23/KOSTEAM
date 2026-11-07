@@ -2040,21 +2040,6 @@
     "stove_url": "https://store.onstove.com/ko/games/2279"
   },
   {
-    "app_id": "2210630",
-    "stove_game_no": "4355",
-    "stove_product_no": "2274",
-    "game_title": "프리티 걸스 2048 스트라이크 (Pretty Girls 2048 Strike)",
-    "steam_link": "https://store.steampowered.com/app/2210630",
-    "patch_type": "official",
-    "patch_links": [
-      "exist"
-    ],
-    "patch_descriptions": [
-      ""
-    ],
-    "stove_url": "https://store.onstove.com/ko/games/2274"
-  },
-  {
     "app_id": "2144360",
     "stove_game_no": "4359",
     "stove_product_no": "2278",
@@ -2113,6 +2098,21 @@
       ""
     ],
     "stove_url": "https://store.onstove.com/ko/games/2277"
+  },
+  {
+    "app_id": "2210630",
+    "stove_game_no": "4355",
+    "stove_product_no": "2274",
+    "game_title": "프리티 걸스 2048 스트라이크 (Pretty Girls 2048 Strike)",
+    "steam_link": "https://store.steampowered.com/app/2210630",
+    "patch_type": "official",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "stove_url": "https://store.onstove.com/ko/games/2274"
   },
   {
     "app_id": "707030",
@@ -2520,21 +2520,6 @@
     "stove_url": "https://store.onstove.com/ko/games/1866"
   },
   {
-    "app_id": "1812060",
-    "stove_game_no": "3407",
-    "stove_product_no": "1816",
-    "game_title": "요괴도: 백귀야행 컴플리트 에디션",
-    "steam_link": "https://store.steampowered.com/app/1812060",
-    "patch_type": "official",
-    "patch_links": [
-      "exist"
-    ],
-    "patch_descriptions": [
-      ""
-    ],
-    "stove_url": "https://store.onstove.com/ko/games/1816"
-  },
-  {
     "app_id": "1426110",
     "stove_game_no": "3412",
     "stove_product_no": "1779",
@@ -2578,6 +2563,21 @@
       ""
     ],
     "stove_url": "https://store.onstove.com/ko/games/1862"
+  },
+  {
+    "app_id": "1812060",
+    "stove_game_no": "3407",
+    "stove_product_no": "1816",
+    "game_title": "요괴도: 백귀야행 컴플리트 에디션",
+    "steam_link": "https://store.steampowered.com/app/1812060",
+    "patch_type": "official",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "stove_url": "https://store.onstove.com/ko/games/1816"
   },
   {
     "app_id": "1418160",

@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-05T01:15:28.347Z",
-  "total": 3993,
-  "alias_updated_at": "2026-11-05T01:14:16.279Z",
-  "hanpe_last_modified": "20261105011425",
-  "lookup_sha256": "990ae5317406b51d1278fba3819d2486ad7adcab0149a9cf6fa2b690a30fcc29",
-  "lookup_size": 1964319,
+  "generated_at": "2026-11-07T00:35:05.802Z",
+  "total": 3994,
+  "alias_updated_at": "2026-11-07T00:33:53.986Z",
+  "hanpe_last_modified": "20261107003400",
+  "lookup_sha256": "77d565c1af86372f47a3664d4ab2e136d6fae10efaff7ddb440af36d0889f6ea",
+  "lookup_size": 1964822,
   "alias_sha256": "c5d1ccf55ca866c13aa294e5a2c19d55702b22a17209635f36a73a01e5ff1205",
   "alias_size": 85
 }

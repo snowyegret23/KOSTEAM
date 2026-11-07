@@ -2307,13 +2307,13 @@
     "source_site_url": "https://hanpe.net/app/jdo01v/magicka",
     "patch_type": "user",
     "patch_links": [
-      "bc06ec24",
       "9eb49851",
+      "bc06ec24",
       "5f2d8fe7"
     ],
     "patch_descriptions": [
-      "제작자 : 정보없음",
       "이키나님 제작 [도움] K.I.T.V.S, 돌팔이(stonearms), DestinyFATE님 블로그",
+      "제작자 : 정보없음",
       "제작자 : 공대 남편"
     ]
   },
@@ -10828,11 +10828,26 @@
     "patch_type": "user",
     "patch_links": [
       "9f422b27",
-      "b1552f2d"
+      "b1552f2d",
+      "265f09d4"
     ],
     "patch_descriptions": [
       "누구야 님 제작",
-      "제작자 : 정보없음"
+      "제작자 : 정보없음",
+      "제작자 : 신념이"
+    ]
+  },
+  {
+    "app_id": "427700",
+    "game_title": "Zwei: The Ilvard Insurrection",
+    "steam_link": "https://store.steampowered.com/app/427700",
+    "source_site_url": "https://hanpe.net/app/j0nzr7/zwei-the-ilvard-insurrection",
+    "patch_type": "user",
+    "patch_links": [
+      "9321073a"
+    ],
+    "patch_descriptions": [
+      "제작자 : 신념이"
     ]
   },
   {
@@ -14298,10 +14313,12 @@
     "source_site_url": "https://hanpe.net/app/lzkym2/devil-may-cry-hd-collection",
     "patch_type": "user",
     "patch_links": [
-      "50da19b1"
+      "50da19b1",
+      "3b48ac2d"
     ],
     "patch_descriptions": [
-      "제작자 : 단갤러 2편 한글화"
+      "제작자 : 단갤러 2편 한글화",
+      "DMC1 한글 패치 제작자 : 문고리단속반"
     ]
   },
   {
