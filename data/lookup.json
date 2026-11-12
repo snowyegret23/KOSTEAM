@@ -610,18 +610,23 @@
   "3920": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "be0fc81d",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 힛맨",
       "한글 패치 - 힛맨"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jnoo5k/sid-meiers-pirates",
       "quasarplay": "https://store.steampowered.com/app/3920/?curator_clanid=30894603"
     }
   },
@@ -9055,13 +9060,13 @@
       "quasarplay"
     ],
     "links": [
-      "f97f3464",
       "dda8d899",
+      "f97f3464",
       "exist"
     ],
     "patch_descriptions": [
-      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작: 산아라, 고블린, Swendel. 검수 피드백: 산아라, 고블린",
       "팀 대포동 제작",
+      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작: 산아라, 고블린, Swendel. 검수 피드백: 산아라, 고블린",
       "문화어 패치 - 팀 대포동,\n \n최신 파일: \n유저 패치"
     ],
     "patch_sources": [
@@ -12036,13 +12041,16 @@
     ],
     "links": [
       "e45d1790",
+      "a43b74fc",
       "exist"
     ],
     "patch_descriptions": [
       "팀 한글화의 궤적 제작 한글 패치 제작: 프기니 번역/검수: 원뿔, 키미보이, 잼아저씨 교정: 루, 리내리내",
+      "최신 버전 호환 패치 제작자 : 김일성의꿈 원본 제작자 : 한글 패치 제작 - 프기니 번역/검수 - 원뿔, 키미보이, 잼아저씨 교정 - 루, 리내리내",
       "유저 한국어 패치 - 패치 제작 - 프기니\n번역/검수 - 원뿔, 키미보이, 잼아저씨\n교정 - 루, 리내리내"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp",
       "quasarplay"
     ],
@@ -13110,13 +13118,16 @@
     ],
     "links": [
       "7283ecac",
+      "fa9c66f8",
       "exist"
     ],
     "patch_descriptions": [
       "제작자 : aabb0423",
+      "제작자 : 슈팅스타",
       "한글 패치 - aabb0423"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp",
       "quasarplay"
     ],
@@ -17550,18 +17561,23 @@
   "384630": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "481832bb",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 아스티",
       "한글 패치"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/l7nxwp/aviary-attorney",
       "quasarplay": "https://store.steampowered.com/app/384630/?curator_clanid=30894603"
     }
   },
@@ -18554,6 +18570,24 @@
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/41oz2v/vikings-wolves-of-midgard",
       "directg": "https://www.directg.net/game/game_view.html?product_id=f0586696-b9b3-4db7-8b64-4ab401f2d5fa&sku=a49193e3-3302-434c-8cc7-236d4edad7b8&platform=1"
+    }
+  },
+  "404690": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "ea392437"
+    ],
+    "patch_descriptions": [
+      "제작자 : 아스티"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4e085y/this-book-is-a-dungeon"
     }
   },
   "405540": {
@@ -24846,13 +24880,13 @@
       "quasarplay"
     ],
     "links": [
-      "99bd7781",
       "1f6232e5",
+      "99bd7781",
       "exist"
     ],
     "patch_descriptions": [
-      "한글 패치 제작, 이미지 작업: LSW [번역, 검수팀] LSW, 1101168, Tos1n, 쵸코 + 케로로중사, LeejyBaker, 허문성, Anywhom, 보라, OCI, 크림슨 박",
       "한국어화 패치 수정판 배포 DM으로 요청",
+      "한글 패치 제작, 이미지 작업: LSW [번역, 검수팀] LSW, 1101168, Tos1n, 쵸코 + 케로로중사, LeejyBaker, 허문성, Anywhom, 보라, OCI, 크림슨 박",
       "유저 한국어 패치 - 패치 제작, 이미지 작업 : LSW\n번역, 검수팀 : LSW, 1101168, Tos1n, 쵸코 + 케로로중사, LeejyBaker, 허문성, Anywhom, 보라, OCI, 크림슨 박 님"
     ],
     "patch_sources": [
@@ -26375,6 +26409,24 @@
       "stove": "https://store.onstove.com/ko/games/331"
     }
   },
+  "636570": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "67fdb8dc"
+    ],
+    "patch_descriptions": [
+      "제작자 : sirecoymarsh"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jwy990/nights-of-azure-2-bride-of-the-new-moon"
+    }
+  },
   "637090": {
     "type": "user",
     "sources": [
@@ -26622,12 +26674,15 @@
       "steamapp"
     ],
     "links": [
-      "8deb33b8"
+      "8deb33b8",
+      "ee97c4d9"
     ],
     "patch_descriptions": [
-      "접속시 VPN 필요"
+      "접속시 VPN 필요",
+      "제작자 : sirecoymarsh"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp"
     ],
     "source_site_urls": {
@@ -26854,13 +26909,13 @@
       "quasarplay"
     ],
     "links": [
-      "2d86a8b4",
       "143c6576",
+      "2d86a8b4",
       "exist"
     ],
     "patch_descriptions": [
-      "그래픽 한국어화 패치",
       "카페 가입 & 등업 필요",
+      "그래픽 한국어화 패치",
       "유저 한국어 패치 - '소요객잔(逍遙客棧) - 협객풍운전' 카페 가입 및 정품 인증 필요"
     ],
     "patch_sources": [
@@ -28301,6 +28356,24 @@
     ],
     "source_site_urls": {
       "quasarplay": "https://store.steampowered.com/app/736850/?curator_clanid=42788178"
+    }
+  },
+  "738650": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "0622c9bd"
+    ],
+    "patch_descriptions": [
+      "제작자 : sirecoymarsh"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/410gkq/seers-isle"
     }
   },
   "739080": {
@@ -29750,6 +29823,24 @@
       "quasarplay": "https://store.steampowered.com/app/812560/?curator_clanid=42788178"
     }
   },
+  "812810": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "ab275b25"
+    ],
+    "patch_descriptions": [
+      "제작자 : 아스티"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jv85m1/missed-messages"
+    }
+  },
   "813700": {
     "type": "user",
     "sources": [
@@ -29766,6 +29857,24 @@
     ],
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/jdgm1v/sakura-sadist"
+    }
+  },
+  "813780": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "3705ca28"
+    ],
+    "patch_descriptions": [
+      "공식 한글 개선 패치 제작자 : 이카루스"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/l78zve/age-of-empires-ii-definitive-edition"
     }
   },
   "814370": {
@@ -33261,6 +33370,24 @@
       "quasarplay": "https://store.steampowered.com/app/983970/?curator_clanid=30894603"
     }
   },
+  "984470": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "e32a186b"
+    ],
+    "patch_descriptions": [
+      "제작자 : sirecoymarsh"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/41p5mp/big-dipper"
+    }
+  },
   "984800": {
     "type": "user",
     "sources": [
@@ -33636,12 +33763,15 @@
       "steamapp"
     ],
     "links": [
-      "8deb33b8"
+      "8deb33b8",
+      "90d4f3ae"
     ],
     "patch_descriptions": [
-      "접속시 VPN 필요"
+      "접속시 VPN 필요",
+      "제작자 : sirecoymarsh"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp"
     ],
     "source_site_urls": {
@@ -35804,6 +35934,24 @@
       "quasarplay": "https://store.steampowered.com/app/1094780/?curator_clanid=42788178"
     }
   },
+  "1094820": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "6888c79b"
+    ],
+    "patch_descriptions": [
+      "제작자 : sirecoymarsh"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j8y2nr/%E5%BE%92%E8%8A%B1%E7%95%B0%E8%AD%9A-adabana-odd-tales"
+    }
+  },
   "1095120": {
     "type": "official",
     "sources": [
@@ -36181,6 +36329,24 @@
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/j0dgn6/how-to-raise-a-wolf-girl",
       "quasarplay": "https://store.steampowered.com/app/1106940/?curator_clanid=42788178"
+    }
+  },
+  "1109680": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "1821b445"
+    ],
+    "patch_descriptions": [
+      "제작자 : 제네할"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j5de98/regiments"
     }
   },
   "1110050": {
@@ -37908,6 +38074,24 @@
       "quasarplay": "https://store.steampowered.com/app/1167750/?curator_clanid=30894603"
     }
   },
+  "1169040": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "bd89dd06"
+    ],
+    "patch_descriptions": [
+      "한글 번역 개선 모드 제작자 : P3CKO Lim"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4q32go/necesse-%EB%84%A4%EC%84%B8%EC%8A%A4"
+    }
+  },
   "1169740": {
     "type": "official",
     "sources": [
@@ -39081,13 +39265,13 @@
       "quasarplay"
     ],
     "links": [
-      "92e04684",
       "2ca53dab",
+      "92e04684",
       "exist"
     ],
     "patch_descriptions": [
-      "제작팀 : 팀 왈도",
       "제작자 : Biowareonly 폰트 개선 패치",
+      "제작팀 : 팀 왈도",
       "유저 한글 패치 - 팀 왈도\n폰트 개선"
     ],
     "patch_sources": [
@@ -39948,13 +40132,13 @@
       "quasarplay"
     ],
     "links": [
-      "9ec2ed39",
       "7a36e479",
+      "9ec2ed39",
       "exist"
     ],
     "patch_descriptions": [
-      "제작자 : 천지회",
       "제작자 : 우육친구",
+      "제작자 : 천지회",
       "유저 한글 패치 - 천지회\n유저 한글 패치 - 우육친구"
     ],
     "patch_sources": [
@@ -42248,6 +42432,24 @@
     ],
     "source_site_urls": {
       "stove": "https://store.onstove.com/ko/games/888"
+    }
+  },
+  "1368870": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "c35109d4"
+    ],
+    "patch_descriptions": [
+      "제작자 : 제네할"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4179gd/field-of-glory-ii-medieval"
     }
   },
   "1369760": {
@@ -46276,18 +46478,23 @@
   "1574240": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "020d994f",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 에디",
       "한글 패치 - 에디"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/41q9vm/dread-delusion",
       "quasarplay": "https://store.steampowered.com/app/1574240/?curator_clanid=30894603"
     }
   },
@@ -46335,6 +46542,24 @@
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/l7o0r0/sucker-for-love-first-date",
       "quasarplay": "https://store.steampowered.com/app/1574270/?curator_clanid=42788178"
+    }
+  },
+  "1574570": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "317a5f78"
+    ],
+    "patch_descriptions": [
+      "제작자 : sirecoymarsh"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jv1011/choice-of-life-samosbor"
     }
   },
   "1574820": {
@@ -47465,6 +47690,27 @@
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/4odryx/the-bridge-curse-road-to-salvation",
       "quasarplay": "https://store.steampowered.com/app/1611430/?curator_clanid=42788178"
+    }
+  },
+  "1611600": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "0d2eec5e",
+      "93a1902e"
+    ],
+    "patch_descriptions": [
+      "제작자 : aszx",
+      "제작자 : MIKO"
+    ],
+    "patch_sources": [
+      "steamapp",
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jp9zro/warno"
     }
   },
   "1611910": {
@@ -49284,18 +49530,23 @@
   "1714580": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "f065af2a",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : enthhende",
       "한글 패치 - 러브델릭(엔스헨데)"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j92vp6/moon-remix-rpg-adventure",
       "quasarplay": "https://store.steampowered.com/app/1714580/?curator_clanid=30894603"
     }
   },
@@ -52991,13 +53242,16 @@
     ],
     "links": [
       "b8cc437d",
+      "54335a9e",
       "exist"
     ],
     "patch_descriptions": [
       "제작자 : Mag",
+      "제작자 : sirecoymarsh",
       "유저 한글 패치 - Mag 님"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp",
       "quasarplay"
     ],
@@ -53268,6 +53522,24 @@
       "quasarplay": "https://store.steampowered.com/app/1932640/?curator_clanid=30894603"
     }
   },
+  "1932690": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "aff8a3c0"
+    ],
+    "patch_descriptions": [
+      "제작자 : 나이트하르트 (번역: 이카닌)"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/lzzx11/%E8%B0%8E%E6%9C%88%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89"
+    }
+  },
   "1933660": {
     "type": "user",
     "sources": [
@@ -53313,14 +53585,17 @@
     "links": [
       "8cf3e79b",
       "1b430b5b",
+      "84984745",
       "exist"
     ],
     "patch_descriptions": [
       "공식 한글 개선 패치",
       "더빙 개선 패치",
+      "공식 한글 개선 모드 제작자 : 월갤러",
       "리톨드의 한글 자막과 더빙 퀄리티 이슈로 구판 패치가 등장했습니다\n구판 자막 적용 패치 - \n구판 더빙 적용 패치 -"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp",
       "steamapp",
       "quasarplay"
@@ -53934,6 +54209,24 @@
       "stove": "https://store.onstove.com/ko/games/102358"
     }
   },
+  "1969060": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "c7e65309"
+    ],
+    "patch_descriptions": [
+      "제작자 : sirecoymarsh"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4en1p1/path-of-the-midnight-sun"
+    }
+  },
   "1969810": {
     "type": "user",
     "sources": [
@@ -53996,18 +54289,23 @@
   "1976950": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "9bbc449b",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 :한국어 패치 저장소",
       "한글 패치 - 엘"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jvk2p9/desktop-dungeons-rewind",
       "quasarplay": "https://store.steampowered.com/app/1976950/?curator_clanid=30894603"
     }
   },
@@ -54086,6 +54384,24 @@
     ],
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/j56wwr/drago-noka"
+    }
+  },
+  "1985050": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "4e1dda35"
+    ],
+    "patch_descriptions": [
+      "제작자 : 제네할"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jp5q0o/field-of-glory-kingdoms"
     }
   },
   "1985420": {
@@ -56155,13 +56471,13 @@
       "quasarplay"
     ],
     "links": [
-      "60701504",
       "00008468",
+      "60701504",
       "exist"
     ],
     "patch_descriptions": [
-      "제작자 : myjung",
       "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : 한글님",
+      "제작자 : myjung",
       "유저 한글 패치 - 응원중"
     ],
     "patch_sources": [
@@ -61280,13 +61596,16 @@
     ],
     "links": [
       "cb2ee7a1",
+      "3805f26b",
       "exist"
     ],
     "patch_descriptions": [
       "제작자 : BENBENNBEN",
+      "제작자 : 아스티",
       "유저 한글 패치 - BENBENNBEN"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp",
       "quasarplay"
     ],
@@ -64591,13 +64910,19 @@
     ],
     "links": [
       "be266aa8",
+      "71e10f49",
+      "e22fb7fb",
       "exist"
     ],
     "patch_descriptions": [
       "제작자 : 정보없음",
+      "제작자 : 아스티",
+      "제작자 : 정보없음",
       "유저 한글 패치"
     ],
     "patch_sources": [
+      "steamapp",
+      "steamapp",
       "steamapp",
       "quasarplay"
     ],
@@ -65306,13 +65631,13 @@
       "quasarplay"
     ],
     "links": [
-      "8482307f",
       "caddca16",
+      "8482307f",
       "exist"
     ],
     "patch_descriptions": [
-      "제작자 : 우육친구",
       "제작자 : 천지회 기술지원 : 시리우스",
+      "제작자 : 우육친구",
       "유저 한글 패치 - 천지회, 우육친구"
     ],
     "patch_sources": [
@@ -77267,14 +77592,14 @@
       "stove"
     ],
     "links": [
-      "1e9dec4f",
       "b0881085",
+      "1e9dec4f",
       "exist",
       "exist"
     ],
     "patch_descriptions": [
-      "제작자 : 정보없음",
       "제작자 : Pixel4a",
+      "제작자 : 정보없음",
       "유저 한글 패치 - Pixel4a",
       ""
     ],
@@ -79191,6 +79516,24 @@
       "quasarplay": "https://store.steampowered.com/app/3618030/?curator_clanid=30894603"
     }
   },
+  "3619760": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "83f83627"
+    ],
+    "patch_descriptions": [
+      "제작자 : 장석"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4g1gx0/yoiyami-biscuit"
+    }
+  },
   "3620180": {
     "type": "user",
     "sources": [
@@ -79920,18 +80263,23 @@
   "3713940": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "2cb4e7ba",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 슈펠",
       "한글 패치 - 슈펠"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j0m9x7/triggerheart-exelica-enhanced",
       "quasarplay": "https://store.steampowered.com/app/3713940/?curator_clanid=30894603"
     }
   },
@@ -82990,18 +83338,23 @@
   "4141950": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "cd1ae62a",
       "exist"
     ],
     "patch_descriptions": [
+      "번역·검수: 루밍 이미지 편집: JAGUAR 재규어, RUNE RAY, 무스스, 융융, 이칠공 프로그래밍 기술 지원: Snowyegret 영상 편집: BY, 기코지기",
       "한글 패치 - 루밍 외 다수"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jvdq51/%E4%B9%85%E6%88%91%E5%B1%B1%E6%A0%9E%E3%81%AE%E6%AD%BB%E6%A7%98%E6%89%8B%E5%B8%96",
       "quasarplay": "https://store.steampowered.com/app/4141950/?curator_clanid=30894603"
     }
   },
@@ -83493,19 +83846,63 @@
   "4249100": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "86f2c57a",
+      "acf13919",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : sucream",
+      "제작자 : fury7305",
       "한글 패치 - 힛맨"
     ],
     "patch_sources": [
+      "steamapp",
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4eek01/biohazard-1996",
       "quasarplay": "https://store.steampowered.com/app/4249100/?curator_clanid=30894603"
+    }
+  },
+  "4249110": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "40bf301b"
+    ],
+    "patch_descriptions": [
+      "제작자 : 정보없음"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j8pn6z/biohazard-2-1998"
+    }
+  },
+  "4249120": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "3f7b9bf7"
+    ],
+    "patch_descriptions": [
+      "제작자 : 정보없음"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/lxgkx0/biohazard-3-last-escape-1999"
     }
   },
   "4249150": {
@@ -84168,6 +84565,24 @@
     ],
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/jmn8v5/%E3%81%86%E3%81%A4%E3%82%89%E3%81%86%E3%81%A4%E3%82%89%E3%81%A8%E3%81%A4%E3%81%A4%E3%81%86%E3%82%89%E3%81%86%E3%82%89%E3%81%A8"
+    }
+  },
+  "4428460": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "30dfb541"
+    ],
+    "patch_descriptions": [
+      "제작자 : 잭더윌로"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j9zrkq/sindikat"
     }
   },
   "4429720": {
@@ -85362,7 +85777,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-11-09T00:26:47.024Z",
-    "total": 3994
+    "generated_at": "2026-11-12T02:06:19.144Z",
+    "total": 4013
   }
 }
