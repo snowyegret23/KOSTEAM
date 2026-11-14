@@ -6569,13 +6569,22 @@
     ],
     "links": [
       "a36d4197",
+      "a4c0e547",
+      "9c1cb250",
+      "51889092",
       "exist"
     ],
     "patch_descriptions": [
-      "P Cube님 제작 (미완성) [번역] 겨울란향, hhwy467, 알게뭐야, 셈평, tagd12, megadeus, 공갈백, call5040, fox4753, 오크, Zephynis, kjh09800, 초록괴물, Niko, Kibmer, savernova, Margaretaid, 김현영, zephyr, nyoloo, ehswns, srpark4, snoo999, GWKim, LDFifty, STHuman, og, 1luminate, SiF, 테더, SunghyunKim, ecosh5, moqu, neix, GogongZID, BFFox, Kylekun, 최욱태, LeaderKay, Pcube, 청월광BMlight, 히낫타, Kagerow, Aqianix, 갱맨, bbotsu, 박루온, 선진입후판단, Greythorn032, 팬더, meju, rapampam, ohmurasio, yoonjb0929, JOHN-KIM, coffee1st, cjsal95, sohb0403, leolimjr, 고음, kkakkamerri205, Almond123, paramour, Tiyen, ceoooofm, 스코티아, davil974, lovinix, Stauge, bij0602, lucani, 시스, Hayoung_Yang, 훼더아님, Marisa, NAZZ, killme5, 허소미, ORU, CoolingSoul, DidmoarRatios, shim3194, toru7415, 프란치스코_하비에르, 꼬추참치, arkis, 진_아, aog1912, 설치류, McNydia, TricksterGM, 강기준 코덱스와 일부 대사 번역: 팀 별튀 구글 스프레드시트 번역 참여자분들 폰트 제작: SunghyunKim, Kibmer 스타바운드 다국어 번역 사이트 호스팅 및 제작: Vorlif",
+      "더이상 사용할 수 없는 한글패치입니다 P Cube님 제작 (미완성) [번역] 겨울란향, hhwy467, 알게뭐야, 셈평, tagd12, megadeus, 공갈백, call5040, fox4753, 오크, Zephynis, kjh09800, 초록괴물, Niko, Kibmer, savernova, Margaretaid, 김현영, zephyr, nyoloo, ehswns, srpark4, snoo999, GWKim, LDFifty, STHuman, og, 1luminate, SiF, 테더, SunghyunKim, ecosh5, moqu, neix, GogongZID, BFFox, Kylekun, 최욱태, LeaderKay, Pcube, 청월광BMlight, 히낫타, Kagerow, Aqianix, 갱맨, bbotsu, 박루온, 선진입후판단, Greythorn032, 팬더, meju, rapampam, ohmurasio, yoonjb0929, JOHN-KIM, coffee1st, cjsal95, sohb0403, leolimjr, 고음, kkakkamerri205, Almond123, paramour, Tiyen, ceoooofm, 스코티아, davil974, lovinix, Stauge, bij0602, lucani, 시스, Hayoung_Yang, 훼더아님, Marisa, NAZZ, killme5, 허소미, ORU, CoolingSoul, DidmoarRatios, shim3194, toru7415, 프란치스코_하비에르, 꼬추참치, arkis, 진_아, aog1912, 설치류, McNydia, TricksterGM, 강기준 코덱스와 일부 대사 번역: 팀 별튀 구글 스프레드시트 번역 참여자분들 폰트 제작: SunghyunKim, Kibmer 스타바운드 다국어 번역 사이트 호스팅 및 제작: Vorlif",
+      "-아이템 번역- Blue-ON, 푸른여우, Null0Null0, 돼지빌런, Kamakk, 최욱태 -인터페이스 번역- Blue-ON -코덱스 번역- OABHs",
+      "실사용을 가능하게 하기 위해 기존의 패치(삭제됨)와 Continued 패치를 합친 버전 -아이템 번역- Blue-ON, 푸른여우, Null0Null0, 돼지빌런, Kamakk, 최욱태 -인터페이스 번역- Blue-ON -코덱스 번역- OABHs",
+      "제작자 : Ru1er",
       "유저 한글 패치 - Ru1er 님,\n유저 한글 패치 - Blue-ON 님 외 다수"
     ],
     "patch_sources": [
+      "steamapp",
+      "steamapp",
+      "steamapp",
       "steamapp",
       "quasarplay"
     ],
@@ -21790,6 +21799,24 @@
       "quasarplay": "https://store.steampowered.com/app/493900/?curator_clanid=42788178"
     }
   },
+  "495140": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "79e44ca3"
+    ],
+    "patch_descriptions": [
+      "제작자 : 태스크마스터"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jve8y8/naruto-ultimate-ninja-storm"
+    }
+  },
   "495420": {
     "type": "user",
     "sources": [
@@ -22672,13 +22699,13 @@
       "quasarplay"
     ],
     "links": [
-      "39d2fa7b",
       "a1a6a6e7",
+      "39d2fa7b",
       "exist"
     ],
     "patch_descriptions": [
-      "원판 번역 및 패치 제작: 에스티 랜드마크 에디션판 메뉴 번역 및 기존 패치 변환: EpikFail",
       "제작자 : st135",
+      "원판 번역 및 패치 제작: 에스티 랜드마크 에디션판 메뉴 번역 및 기존 패치 변환: EpikFail",
       "유저 한국어 패치 - 에스티, EpikFail 님"
     ],
     "patch_sources": [
@@ -23290,6 +23317,24 @@
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/jp86n3/wonder-boy-the-dragons-trap",
       "quasarplay": "https://store.steampowered.com/app/543260/?curator_clanid=42788178"
+    }
+  },
+  "543870": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "14f19c13"
+    ],
+    "patch_descriptions": [
+      "제작자 : 태스크마스터"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4gdmoy/naruto-shippuden-ultimate-ninja-storm-2"
     }
   },
   "544330": {
@@ -34991,13 +35036,13 @@
       "quasarplay"
     ],
     "links": [
-      "238a640d",
       "8b7d85b2",
+      "238a640d",
       "exist"
     ],
     "patch_descriptions": [
-      "한글패치 개선 버전 제작자 : 사이버 엘프",
       "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 적용 방법 :",
+      "한글패치 개선 버전 제작자 : 사이버 엘프",
       "유저 한글 패치 - rhona78 님,\n유저 한글 패치 - Kheeman 님"
     ],
     "patch_sources": [
@@ -53503,13 +53548,13 @@
       "quasarplay"
     ],
     "links": [
-      "a5eeeac6",
       "4a8636e4",
+      "a5eeeac6",
       "exist"
     ],
     "patch_descriptions": [
-      "한 글 팀 : 플스대마왕",
       "제작자 : 천지회 기술지원 : 으잌",
+      "한 글 팀 : 플스대마왕",
       "유저 한글 패치 - 플스대마왕(PSP 번역 기반)\n유저 한글 패치 - 천지회, lacsoujiro"
     ],
     "patch_sources": [
@@ -85777,7 +85822,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-11-12T02:06:19.144Z",
-    "total": 4013
+    "generated_at": "2026-11-14T01:13:04.661Z",
+    "total": 4015
   }
 }

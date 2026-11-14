@@ -3776,10 +3776,16 @@
     "source_site_url": "https://hanpe.net/app/jvedg5/starbound",
     "patch_type": "user",
     "patch_links": [
-      "a36d4197"
+      "a36d4197",
+      "a4c0e547",
+      "9c1cb250",
+      "51889092"
     ],
     "patch_descriptions": [
-      "P Cube님 제작 (미완성) [번역] 겨울란향, hhwy467, 알게뭐야, 셈평, tagd12, megadeus, 공갈백, call5040, fox4753, 오크, Zephynis, kjh09800, 초록괴물, Niko, Kibmer, savernova, Margaretaid, 김현영, zephyr, nyoloo, ehswns, srpark4, snoo999, GWKim, LDFifty, STHuman, og, 1luminate, SiF, 테더, SunghyunKim, ecosh5, moqu, neix, GogongZID, BFFox, Kylekun, 최욱태, LeaderKay, Pcube, 청월광BMlight, 히낫타, Kagerow, Aqianix, 갱맨, bbotsu, 박루온, 선진입후판단, Greythorn032, 팬더, meju, rapampam, ohmurasio, yoonjb0929, JOHN-KIM, coffee1st, cjsal95, sohb0403, leolimjr, 고음, kkakkamerri205, Almond123, paramour, Tiyen, ceoooofm, 스코티아, davil974, lovinix, Stauge, bij0602, lucani, 시스, Hayoung_Yang, 훼더아님, Marisa, NAZZ, killme5, 허소미, ORU, CoolingSoul, DidmoarRatios, shim3194, toru7415, 프란치스코_하비에르, 꼬추참치, arkis, 진_아, aog1912, 설치류, McNydia, TricksterGM, 강기준 코덱스와 일부 대사 번역: 팀 별튀 구글 스프레드시트 번역 참여자분들 폰트 제작: SunghyunKim, Kibmer 스타바운드 다국어 번역 사이트 호스팅 및 제작: Vorlif"
+      "더이상 사용할 수 없는 한글패치입니다 P Cube님 제작 (미완성) [번역] 겨울란향, hhwy467, 알게뭐야, 셈평, tagd12, megadeus, 공갈백, call5040, fox4753, 오크, Zephynis, kjh09800, 초록괴물, Niko, Kibmer, savernova, Margaretaid, 김현영, zephyr, nyoloo, ehswns, srpark4, snoo999, GWKim, LDFifty, STHuman, og, 1luminate, SiF, 테더, SunghyunKim, ecosh5, moqu, neix, GogongZID, BFFox, Kylekun, 최욱태, LeaderKay, Pcube, 청월광BMlight, 히낫타, Kagerow, Aqianix, 갱맨, bbotsu, 박루온, 선진입후판단, Greythorn032, 팬더, meju, rapampam, ohmurasio, yoonjb0929, JOHN-KIM, coffee1st, cjsal95, sohb0403, leolimjr, 고음, kkakkamerri205, Almond123, paramour, Tiyen, ceoooofm, 스코티아, davil974, lovinix, Stauge, bij0602, lucani, 시스, Hayoung_Yang, 훼더아님, Marisa, NAZZ, killme5, 허소미, ORU, CoolingSoul, DidmoarRatios, shim3194, toru7415, 프란치스코_하비에르, 꼬추참치, arkis, 진_아, aog1912, 설치류, McNydia, TricksterGM, 강기준 코덱스와 일부 대사 번역: 팀 별튀 구글 스프레드시트 번역 참여자분들 폰트 제작: SunghyunKim, Kibmer 스타바운드 다국어 번역 사이트 호스팅 및 제작: Vorlif",
+      "-아이템 번역- Blue-ON, 푸른여우, Null0Null0, 돼지빌런, Kamakk, 최욱태 -인터페이스 번역- Blue-ON -코덱스 번역- OABHs",
+      "실사용을 가능하게 하기 위해 기존의 패치(삭제됨)와 Continued 패치를 합친 버전 -아이템 번역- Blue-ON, 푸른여우, Null0Null0, 돼지빌런, Kamakk, 최욱태 -인터페이스 번역- Blue-ON -코덱스 번역- OABHs",
+      "제작자 : Ru1er"
     ]
   },
   {
@@ -11992,6 +11998,19 @@
     ]
   },
   {
+    "app_id": "495140",
+    "game_title": "NARUTO: Ultimate Ninja STORM",
+    "steam_link": "https://store.steampowered.com/app/495140",
+    "source_site_url": "https://hanpe.net/app/jve8y8/naruto-ultimate-ninja-storm",
+    "patch_type": "user",
+    "patch_links": [
+      "79e44ca3"
+    ],
+    "patch_descriptions": [
+      "제작자 : 태스크마스터"
+    ]
+  },
+  {
     "app_id": "495420",
     "game_title": "State of Decay 2: Juggernaut Edition",
     "steam_link": "https://store.steampowered.com/app/495420",
@@ -12456,12 +12475,12 @@
     "source_site_url": "https://hanpe.net/app/4ekznx/dear-esther-landmark-edition",
     "patch_type": "user",
     "patch_links": [
-      "39d2fa7b",
-      "a1a6a6e7"
+      "a1a6a6e7",
+      "39d2fa7b"
     ],
     "patch_descriptions": [
-      "원판 번역 및 패치 제작: 에스티 랜드마크 에디션판 메뉴 번역 및 기존 패치 변환: EpikFail",
-      "제작자 : st135"
+      "제작자 : st135",
+      "원판 번역 및 패치 제작: 에스티 랜드마크 에디션판 메뉴 번역 및 기존 패치 변환: EpikFail"
     ]
   },
   {
@@ -12795,6 +12814,19 @@
     ],
     "patch_descriptions": [
       "사과향잉크님 제작"
+    ]
+  },
+  {
+    "app_id": "543870",
+    "game_title": "NARUTO SHIPPUDEN: Ultimate Ninja STORM 2",
+    "steam_link": "https://store.steampowered.com/app/543870",
+    "source_site_url": "https://hanpe.net/app/4gdmoy/naruto-shippuden-ultimate-ninja-storm-2",
+    "patch_type": "user",
+    "patch_links": [
+      "14f19c13"
+    ],
+    "patch_descriptions": [
+      "제작자 : 태스크마스터"
     ]
   },
   {
@@ -18708,12 +18740,12 @@
     "source_site_url": "https://hanpe.net/app/4yvdne/dinkum%EB%94%A9%EC%BB%B4",
     "patch_type": "official",
     "patch_links": [
-      "238a640d",
-      "8b7d85b2"
+      "8b7d85b2",
+      "238a640d"
     ],
     "patch_descriptions": [
-      "한글패치 개선 버전 제작자 : 사이버 엘프",
-      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 적용 방법 :"
+      "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 적용 방법 :",
+      "한글패치 개선 버전 제작자 : 사이버 엘프"
     ]
   },
   {
@@ -26380,12 +26412,12 @@
     "source_site_url": "https://hanpe.net/app/l25w7m/suikoden-iii-hd-remaster-gate-rune-and-dunan-unification-wars",
     "patch_type": "user",
     "patch_links": [
-      "a5eeeac6",
-      "4a8636e4"
+      "4a8636e4",
+      "a5eeeac6"
     ],
     "patch_descriptions": [
-      "한 글 팀 : 플스대마왕",
-      "제작자 : 천지회 기술지원 : 으잌"
+      "제작자 : 천지회 기술지원 : 으잌",
+      "한 글 팀 : 플스대마왕"
     ]
   },
   {
