@@ -2265,21 +2265,6 @@
     "stove_url": "https://store.onstove.com/ko/games/1724"
   },
   {
-    "app_id": "2020710",
-    "stove_game_no": "3596",
-    "stove_product_no": "1851",
-    "game_title": "헤이븐독 (Havendock)",
-    "steam_link": "https://store.steampowered.com/app/2020710",
-    "patch_type": "official",
-    "patch_links": [
-      "exist"
-    ],
-    "patch_descriptions": [
-      ""
-    ],
-    "stove_url": "https://store.onstove.com/ko/games/1851"
-  },
-  {
     "app_id": "1592110",
     "stove_game_no": "3281",
     "stove_product_no": "1653",
@@ -2293,6 +2278,21 @@
       ""
     ],
     "stove_url": "https://store.onstove.com/ko/games/1653"
+  },
+  {
+    "app_id": "2020710",
+    "stove_game_no": "3596",
+    "stove_product_no": "1851",
+    "game_title": "헤이븐독 (Havendock)",
+    "steam_link": "https://store.steampowered.com/app/2020710",
+    "patch_type": "official",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "stove_url": "https://store.onstove.com/ko/games/1851"
   },
   {
     "app_id": "1322970",

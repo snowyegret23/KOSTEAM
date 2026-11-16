@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-11-14T01:13:04.661Z",
-    "total_with_steam_link": 4015,
+    "generated_at": "2026-11-16T00:40:28.914Z",
+    "total_with_steam_link": 4037,
     "total_without_steam_link": 15,
     "sources": [
       "steamapp",
@@ -259,153 +259,6 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/3755350/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "1946070",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/1946070/Ten_Dates/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - 젠갤러"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/1946070/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "2873760",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/2873760/Beauties_Theyre_All_After_Me/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "번역 개선 패치 - 호트구트"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/2873760/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "4164580",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/4164580/Rebooted_Fate/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "번역 개선 패치 - 호트구트"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/4164580/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "1514930",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/1514930/Erica/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - 민초소주"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/1514930/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "3196550",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/3196550/花奴令_Huanu_Poems/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - 호트구트"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/3196550/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "3946830",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/3946830/欢迎来到林葬屋/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "번역 개선 패치 - 민초소주"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/3946830/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "4025330",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/4025330/林葬屋前传冥声/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - 민초소주"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/4025330/?curator_clanid=30894603"
       },
       "sources": [
         "quasarplay"
@@ -1288,27 +1141,6 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/3029990/?curator_clanid=30894603"
-      },
-      "sources": [
-        "quasarplay"
-      ]
-    },
-    {
-      "app_id": "3271280",
-      "game_title": "",
-      "steam_link": "https://store.steampowered.com/app/3271280/Shroom_and_Gloom/",
-      "patch_type": "user",
-      "patch_links": [
-        "exist"
-      ],
-      "patch_descriptions": [
-        "한글 패치 - YU-Kangg"
-      ],
-      "patch_sources": [
-        "quasarplay"
-      ],
-      "source_site_urls": {
-        "quasarplay": "https://store.steampowered.com/app/3271280/?curator_clanid=30894603"
       },
       "sources": [
         "quasarplay"
@@ -24647,6 +24479,27 @@
       ]
     },
     {
+      "app_id": "15100",
+      "game_title": "Assassin's Creed™: Director's Cut Edition",
+      "steam_link": "https://store.steampowered.com/app/15100",
+      "patch_type": "user",
+      "patch_links": [
+        "a7fb5eeb"
+      ],
+      "patch_descriptions": [
+        "제작자 : 정보없음"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/lx27qp/assassins-creedtm-directors-cut-edition"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "250110",
       "game_title": "Assault Android Cactus+",
       "steam_link": "https://store.steampowered.com/app/250110",
@@ -38938,6 +38791,32 @@
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/4r99d7/enslavedtm-odyssey-to-the-westtm-premium-edition",
         "quasarplay": "https://store.steampowered.com/app/245280/?curator_clanid=42788178"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "1514930",
+      "game_title": "Erica",
+      "steam_link": "https://store.steampowered.com/app/1514930",
+      "patch_type": "user",
+      "patch_links": [
+        "a7af325d",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 민초소주",
+        "한글 패치 - 민초소주"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l288oe/erica",
+        "quasarplay": "https://store.steampowered.com/app/1514930/?curator_clanid=30894603"
       },
       "sources": [
         "steamapp",
@@ -54066,13 +53945,16 @@
       "patch_type": "user",
       "patch_links": [
         "cf404f09",
+        "4e8391d0",
         "exist"
       ],
       "patch_descriptions": [
         "제작자 : 정보없음",
+        "제작자 : 훈",
         "유저 한국어 패치 -"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "quasarplay"
       ],
@@ -67490,6 +67372,27 @@
       ]
     },
     {
+      "app_id": "2774830",
+      "game_title": "Seven Lovers In The House",
+      "steam_link": "https://store.steampowered.com/app/2774830",
+      "patch_type": "user",
+      "patch_links": [
+        "52b39830"
+      ],
+      "patch_descriptions": [
+        "제작자 : 민초소주"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4o219k/seven-lovers-in-the-house"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "2382250",
       "game_title": "Seven Nights Ghost",
       "steam_link": "https://store.steampowered.com/app/2382250",
@@ -67974,6 +67877,27 @@
       ]
     },
     {
+      "app_id": "4292950",
+      "game_title": "Shao Song I",
+      "steam_link": "https://store.steampowered.com/app/4292950",
+      "patch_type": "user",
+      "patch_links": [
+        "fdc14725"
+      ],
+      "patch_descriptions": [
+        "제작자 : 민초소주"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j8zm8r/shao-song-i"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "336130",
       "game_title": "Shardlight",
       "steam_link": "https://store.steampowered.com/app/336130",
@@ -68317,6 +68241,32 @@
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/l2ezo5/showgunners",
         "quasarplay": "https://store.steampowered.com/app/1155330/?curator_clanid=42788178"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "3271280",
+      "game_title": "Shroom and Gloom",
+      "steam_link": "https://store.steampowered.com/app/3271280",
+      "patch_type": "user",
+      "patch_links": [
+        "85d0873b",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : YU-Kangg",
+        "한글 패치 - YU-Kangg"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4r2z8o/shroom-and-gloom",
+        "quasarplay": "https://store.steampowered.com/app/3271280/?curator_clanid=30894603"
       },
       "sources": [
         "steamapp",
@@ -74259,6 +74209,32 @@
       ]
     },
     {
+      "app_id": "1946070",
+      "game_title": "Ten Dates",
+      "steam_link": "https://store.steampowered.com/app/1946070",
+      "patch_type": "user",
+      "patch_links": [
+        "96d18245",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 민초소주",
+        "한글 패치 - 젠갤러"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j9qxn5/ten-dates",
+        "quasarplay": "https://store.steampowered.com/app/1946070/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "1839950",
       "game_title": "Terminator: Dark Fate - Defiance",
       "steam_link": "https://store.steampowered.com/app/1839950",
@@ -76556,6 +76532,27 @@
       ]
     },
     {
+      "app_id": "1892950",
+      "game_title": "The Golden Rose: Book One",
+      "steam_link": "https://store.steampowered.com/app/1892950",
+      "patch_type": "user",
+      "patch_links": [
+        "d8de0ccc"
+      ],
+      "patch_descriptions": [
+        "데모판 한글화 제작자 : xiah5353"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l2no33/the-golden-rose-book-one"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "1158850",
       "game_title": "The Great Ace Attorney Chronicles",
       "steam_link": "https://store.steampowered.com/app/1158850",
@@ -78231,6 +78228,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "3785560",
+      "game_title": "The Narcotic Operation",
+      "steam_link": "https://store.steampowered.com/app/3785560",
+      "patch_type": "user",
+      "patch_links": [
+        "d4edd700"
+      ],
+      "patch_descriptions": [
+        "제작자 : 민초소주"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4ek1dk/the-narcotic-operation"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -87416,6 +87434,27 @@
       ]
     },
     {
+      "app_id": "4539480",
+      "game_title": "같이 사는 연인: 사랑 중",
+      "steam_link": "https://store.steampowered.com/app/4539480",
+      "patch_type": "user",
+      "patch_links": [
+        "c0b5f484"
+      ],
+      "patch_descriptions": [
+        "공식 한글 개선 패치 제작자 : 민초소주"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4rk2vg/%EA%B0%99%EC%9D%B4-%EC%82%AC%EB%8A%94-%EC%97%B0%EC%9D%B8-%EC%82%AC%EB%9E%91-%EC%A4%91"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "2118420",
       "game_title": "건도그 - 태양계 이야기 (Stories from Sol: The Gun-Dog)",
       "steam_link": "https://store.steampowered.com/app/2118420",
@@ -88944,6 +88983,32 @@
       },
       "sources": [
         "stove"
+      ]
+    },
+    {
+      "app_id": "2873760",
+      "game_title": "미녀들! 다들 나를 노려！Beauties! They're All After Me",
+      "steam_link": "https://store.steampowered.com/app/2873760",
+      "patch_type": "user",
+      "patch_links": [
+        "3e67ce4d",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "공식 한글 개선 패치 제작자 : 민초소주",
+        "번역 개선 패치 - 호트구트"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jnkep8/%EB%AF%B8%EB%85%80%EB%93%A4-%EB%8B%A4%EB%93%A4-%EB%82%98%EB%A5%BC-%EB%85%B8%EB%A0%A4beauties-theyre-all-after-me",
+        "quasarplay": "https://store.steampowered.com/app/2873760/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
       ]
     },
     {
@@ -91087,6 +91152,32 @@
       },
       "sources": [
         "stove"
+      ]
+    },
+    {
+      "app_id": "4164580",
+      "game_title": "재부팅된 운명",
+      "steam_link": "https://store.steampowered.com/app/4164580",
+      "patch_type": "user",
+      "patch_links": [
+        "15a0a6b8",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "공식 한글 개선 패치 제작자 : 민초소주",
+        "번역 개선 패치 - 호트구트"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/lz3qv9/%EC%9E%AC%EB%B6%80%ED%8C%85%EB%90%9C-%EC%9A%B4%EB%AA%85",
+        "quasarplay": "https://store.steampowered.com/app/4164580/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
       ]
     },
     {
@@ -94061,6 +94152,48 @@
       ]
     },
     {
+      "app_id": "4209920",
+      "game_title": "不问凡尘",
+      "steam_link": "https://store.steampowered.com/app/4209920",
+      "patch_type": "user",
+      "patch_links": [
+        "83068f4f"
+      ],
+      "patch_descriptions": [
+        "제작자 : 민초소주"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4o1vp5/%E4%B8%8D%E9%97%AE%E5%87%A1%E5%B0%98"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "3090080",
+      "game_title": "与美女合租的99种死法",
+      "steam_link": "https://store.steampowered.com/app/3090080",
+      "patch_type": "user",
+      "patch_links": [
+        "e4a79b82"
+      ],
+      "patch_descriptions": [
+        "제작자 : 민초소주"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4g97g9/%E4%B8%8E%E7%BE%8E%E5%A5%B3%E5%90%88%E7%A7%9F%E7%9A%8499%E7%A7%8D%E6%AD%BB%E6%B3%95"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "4056810",
       "game_title": "东北往事",
       "steam_link": "https://store.steampowered.com/app/4056810",
@@ -94515,6 +94648,27 @@
       ]
     },
     {
+      "app_id": "3593940",
+      "game_title": "出马",
+      "steam_link": "https://store.steampowered.com/app/3593940",
+      "patch_type": "user",
+      "patch_links": [
+        "23a0e858"
+      ],
+      "patch_descriptions": [
+        "제작자 : 민초소주"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/463rny/%E5%87%BA%E9%A9%AC"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "3757210",
       "game_title": "利用規約に同意したい",
       "steam_link": "https://store.steampowered.com/app/3757210",
@@ -94585,6 +94739,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2685620",
+      "game_title": "反转21克",
+      "steam_link": "https://store.steampowered.com/app/2685620",
+      "patch_type": "user",
+      "patch_links": [
+        "d4edd700"
+      ],
+      "patch_descriptions": [
+        "제작자 : 민초소주"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4yn6ve/%E5%8F%8D%E8%BD%AC21%E5%85%8B"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -94970,6 +95145,48 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2770340",
+      "game_title": "天呐！我该怎么选？",
+      "steam_link": "https://store.steampowered.com/app/2770340",
+      "patch_type": "user",
+      "patch_links": [
+        "a363f6d1"
+      ],
+      "patch_descriptions": [
+        "제작자 : 민초소주"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jdomxo/%E5%A4%A9%E5%91%90%E6%88%91%E8%AF%A5%E6%80%8E%E4%B9%88%E9%80%89"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "2817690",
+      "game_title": "天呐！找不到真爱就扑街！",
+      "steam_link": "https://store.steampowered.com/app/2817690",
+      "patch_type": "user",
+      "patch_links": [
+        "d4edd700"
+      ],
+      "patch_descriptions": [
+        "제작자 : 민초소주"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4yeqv0/%E5%A4%A9%E5%91%90%E6%89%BE%E4%B8%8D%E5%88%B0%E7%9C%9F%E7%88%B1%E5%B0%B1%E6%89%91%E8%A1%97"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -95450,12 +95667,15 @@
       "steam_link": "https://store.steampowered.com/app/3676850",
       "patch_type": "user",
       "patch_links": [
-        "165c118b"
+        "165c118b",
+        "d4edd700"
       ],
       "patch_descriptions": [
-        "제작자 : 바라미"
+        "제작자 : 바라미",
+        "제작자 : 민초소주"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp"
       ],
       "source_site_urls": {
@@ -95821,6 +96041,27 @@
       ]
     },
     {
+      "app_id": "3370100",
+      "game_title": "我的同事不对劲",
+      "steam_link": "https://store.steampowered.com/app/3370100",
+      "patch_type": "user",
+      "patch_links": [
+        "d4edd700"
+      ],
+      "patch_descriptions": [
+        "제작자 : 민초소주"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/lkod5r/%E6%88%91%E7%9A%84%E5%90%8C%E4%BA%8B%E4%B8%8D%E5%AF%B9%E5%8A%B2"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "4137460",
       "game_title": "我的机器人女友",
       "steam_link": "https://store.steampowered.com/app/4137460",
@@ -95920,6 +96161,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "5123270",
+      "game_title": "撩妹模拟器：备胎的觉醒",
+      "steam_link": "https://store.steampowered.com/app/5123270",
+      "patch_type": "user",
+      "patch_links": [
+        "7c7a25d3"
+      ],
+      "patch_descriptions": [
+        "제작자 : 민초소주"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4yov2w/%E6%92%A9%E5%A6%B9%E6%A8%A1%E6%8B%9F%E5%99%A8%E5%A4%87%E8%83%8E%E7%9A%84%E8%A7%89%E9%86%92"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -96040,6 +96302,27 @@
       ],
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/l2dqxq/%E6%98%A5%E7%90%89%E3%83%88%E6%80%AA%E5%A4%9C"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "2461050",
+      "game_title": "晨昏线",
+      "steam_link": "https://store.steampowered.com/app/2461050",
+      "patch_type": "user",
+      "patch_links": [
+        "d4edd700"
+      ],
+      "patch_descriptions": [
+        "제작자 : 민초소주"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jv5goo/%E6%99%A8%E6%98%8F%E7%BA%BF"
       },
       "sources": [
         "steamapp"
@@ -96464,6 +96747,32 @@
       ]
     },
     {
+      "app_id": "4025330",
+      "game_title": "林葬屋前传：冥声",
+      "steam_link": "https://store.steampowered.com/app/4025330",
+      "patch_type": "user",
+      "patch_links": [
+        "6ab9de83",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 민초소주",
+        "한글 패치 - 민초소주"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jwv667/%E6%9E%97%E8%91%AC%E5%B1%8B%E5%89%8D%E4%BC%A0%E5%86%A5%E5%A3%B0",
+        "quasarplay": "https://store.steampowered.com/app/4025330/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
       "app_id": "3446770",
       "game_title": "桜降る代に決闘を〜絢爛競演〜",
       "steam_link": "https://store.steampowered.com/app/3446770",
@@ -96551,6 +96860,32 @@
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/l2vvp2/%E6%A2%A6%E7%81%AF%E8%8A%B1-noctuary",
         "quasarplay": "https://store.steampowered.com/app/2143680/?curator_clanid=30894603"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "3946830",
+      "game_title": "欢迎来到林葬屋",
+      "steam_link": "https://store.steampowered.com/app/3946830",
+      "patch_type": "user",
+      "patch_links": [
+        "46a98e02",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "공식 한글 개선 패치 제작자 : 민초소주",
+        "번역 개선 패치 - 민초소주"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4o020k/%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%9E%97%E8%91%AC%E5%B1%8B",
+        "quasarplay": "https://store.steampowered.com/app/3946830/?curator_clanid=30894603"
       },
       "sources": [
         "steamapp",
@@ -97003,6 +97338,27 @@
       ]
     },
     {
+      "app_id": "2958700",
+      "game_title": "相亲攻略之宝贝别再选我了",
+      "steam_link": "https://store.steampowered.com/app/2958700",
+      "patch_type": "user",
+      "patch_links": [
+        "8e42b59d"
+      ],
+      "patch_descriptions": [
+        "제작자 : 민초소주"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/lkn2rl/%E7%9B%B8%E4%BA%B2%E6%94%BB%E7%95%A5%E4%B9%8B%E5%AE%9D%E8%B4%9D%E5%88%AB%E5%86%8D%E9%80%89%E6%88%91%E4%BA%86"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "3639970",
       "game_title": "神椿學園新聞部(KAMITSUBAKI ACADEMY NEWSPAPER CLUB)",
       "steam_link": "https://store.steampowered.com/app/3639970",
@@ -97166,6 +97522,27 @@
       ]
     },
     {
+      "app_id": "2852100",
+      "game_title": "糟糕，我要坠入爱河啦！",
+      "steam_link": "https://store.steampowered.com/app/2852100",
+      "patch_type": "user",
+      "patch_links": [
+        "0a2e78b0"
+      ],
+      "patch_descriptions": [
+        "제작자 : 민초소주"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jmq7n4/%E7%B3%9F%E7%B3%95%E6%88%91%E8%A6%81%E5%9D%A0%E5%85%A5%E7%88%B1%E6%B2%B3%E5%95%A6"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
       "app_id": "1696440",
       "game_title": "绝世好武功 The Matchless KungFu",
       "steam_link": "https://store.steampowered.com/app/1696440",
@@ -97185,6 +97562,53 @@
       "source_site_urls": {
         "steamapp": "https://hanpe.net/app/j8gekr/%E7%BB%9D%E4%B8%96%E5%A5%BD%E6%AD%A6%E5%8A%9F-the-matchless-kungfu",
         "quasarplay": "https://store.steampowered.com/app/1696440/?curator_clanid=42788178"
+      },
+      "sources": [
+        "steamapp",
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2753730",
+      "game_title": "美女,应接不暇",
+      "steam_link": "https://store.steampowered.com/app/2753730",
+      "patch_type": "user",
+      "patch_links": [
+        "f99cb51a"
+      ],
+      "patch_descriptions": [
+        "제작자 : 민초소주"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jne836/%E7%BE%8E%E5%A5%B3%E5%BA%94%E6%8E%A5%E4%B8%8D%E6%9A%87"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "3196550",
+      "game_title": "花奴令 Huanu Poems",
+      "steam_link": "https://store.steampowered.com/app/3196550",
+      "patch_type": "user",
+      "patch_links": [
+        "79c1867b",
+        "exist"
+      ],
+      "patch_descriptions": [
+        "제작자 : 민초소주",
+        "한글 패치 - 호트구트"
+      ],
+      "patch_sources": [
+        "steamapp",
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jvpk91/%E8%8A%B1%E5%A5%B4%E4%BB%A4-huanu-poems",
+        "quasarplay": "https://store.steampowered.com/app/3196550/?curator_clanid=30894603"
       },
       "sources": [
         "steamapp",
@@ -97265,12 +97689,15 @@
       "steam_link": "https://store.steampowered.com/app/2867510",
       "patch_type": "user",
       "patch_links": [
-        "32826570"
+        "32826570",
+        "8e42b59d"
       ],
       "patch_descriptions": [
-        "제작자 : nutcrackr"
+        "제작자 : nutcrackr",
+        "제작자 : 민초소주"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp"
       ],
       "source_site_urls": {
@@ -97393,6 +97820,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "3570340",
+      "game_title": "这个CEO我当定了！",
+      "steam_link": "https://store.steampowered.com/app/3570340",
+      "patch_type": "user",
+      "patch_links": [
+        "d4edd700"
+      ],
+      "patch_descriptions": [
+        "제작자 : 민초소주"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/jp88do/%E8%BF%99%E4%B8%AAceo%E6%88%91%E5%BD%93%E5%AE%9A%E4%BA%86"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {
@@ -97526,6 +97974,69 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "2804510",
+      "game_title": "重生了还要我谈恋爱？",
+      "steam_link": "https://store.steampowered.com/app/2804510",
+      "patch_type": "user",
+      "patch_links": [
+        "d4edd700"
+      ],
+      "patch_descriptions": [
+        "제작자 : 민초소주"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/4682y9/%E9%87%8D%E7%94%9F%E4%BA%86%E8%BF%98%E8%A6%81%E6%88%91%E8%B0%88%E6%81%8B%E7%88%B1"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "3311560",
+      "game_title": "重返现场：真人版",
+      "steam_link": "https://store.steampowered.com/app/3311560",
+      "patch_type": "user",
+      "patch_links": [
+        "d4edd700"
+      ],
+      "patch_descriptions": [
+        "제작자 : 민초소주"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/l7roke/%E9%87%8D%E8%BF%94%E7%8E%B0%E5%9C%BA%E7%9C%9F%E4%BA%BA%E7%89%88"
+      },
+      "sources": [
+        "steamapp"
+      ]
+    },
+    {
+      "app_id": "4143220",
+      "game_title": "金宵公寓事件",
+      "steam_link": "https://store.steampowered.com/app/4143220",
+      "patch_type": "user",
+      "patch_links": [
+        "0d89820d"
+      ],
+      "patch_descriptions": [
+        "제작자 : 민초소주"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/lz8px1/%E9%87%91%E5%AE%B5%E5%85%AC%E5%AF%93%E4%BA%8B%E4%BB%B6"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {

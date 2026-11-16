@@ -918,10 +918,12 @@
     "source_site_url": "https://hanpe.net/app/4orgv0/max-payne",
     "patch_type": "user",
     "patch_links": [
-      "cf404f09"
+      "cf404f09",
+      "4e8391d0"
     ],
     "patch_descriptions": [
-      "제작자 : 정보없음"
+      "제작자 : 정보없음",
+      "제작자 : 훈"
     ]
   },
   {
@@ -1071,6 +1073,19 @@
     ],
     "patch_descriptions": [
       "한국어 음성 패치"
+    ]
+  },
+  {
+    "app_id": "15100",
+    "game_title": "Assassin's Creed™: Director's Cut Edition",
+    "steam_link": "https://store.steampowered.com/app/15100",
+    "source_site_url": "https://hanpe.net/app/lx27qp/assassins-creedtm-directors-cut-edition",
+    "patch_type": "user",
+    "patch_links": [
+      "a7fb5eeb"
+    ],
+    "patch_descriptions": [
+      "제작자 : 정보없음"
     ]
   },
   {
@@ -23260,6 +23275,19 @@
     ]
   },
   {
+    "app_id": "1514930",
+    "game_title": "Erica",
+    "steam_link": "https://store.steampowered.com/app/1514930",
+    "source_site_url": "https://hanpe.net/app/l288oe/erica",
+    "patch_type": "user",
+    "patch_links": [
+      "a7af325d"
+    ],
+    "patch_descriptions": [
+      "제작자 : 민초소주"
+    ]
+  },
+  {
     "app_id": "1515890",
     "game_title": "TAISHO x ALICE episode 3",
     "steam_link": "https://store.steampowered.com/app/1515890",
@@ -26168,6 +26196,19 @@
     ]
   },
   {
+    "app_id": "1892950",
+    "game_title": "The Golden Rose: Book One",
+    "steam_link": "https://store.steampowered.com/app/1892950",
+    "source_site_url": "https://hanpe.net/app/l2no33/the-golden-rose-book-one",
+    "patch_type": "user",
+    "patch_links": [
+      "d8de0ccc"
+    ],
+    "patch_descriptions": [
+      "데모판 한글화 제작자 : xiah5353"
+    ]
+  },
+  {
     "app_id": "1895350",
     "game_title": "I Wani Hug that Gator!",
     "steam_link": "https://store.steampowered.com/app/1895350",
@@ -26537,6 +26578,19 @@
     ],
     "patch_descriptions": [
       "제작자 : Cielo"
+    ]
+  },
+  {
+    "app_id": "1946070",
+    "game_title": "Ten Dates",
+    "steam_link": "https://store.steampowered.com/app/1946070",
+    "source_site_url": "https://hanpe.net/app/j9qxn5/ten-dates",
+    "patch_type": "user",
+    "patch_links": [
+      "96d18245"
+    ],
+    "patch_descriptions": [
+      "제작자 : 민초소주"
     ]
   },
   {
@@ -29807,6 +29861,19 @@
     ]
   },
   {
+    "app_id": "2461050",
+    "game_title": "晨昏线",
+    "steam_link": "https://store.steampowered.com/app/2461050",
+    "source_site_url": "https://hanpe.net/app/jv5goo/%E6%99%A8%E6%98%8F%E7%BA%BF",
+    "patch_type": "user",
+    "patch_links": [
+      "d4edd700"
+    ],
+    "patch_descriptions": [
+      "제작자 : 민초소주"
+    ]
+  },
+  {
     "app_id": "2463800",
     "game_title": "기동전대 VS",
     "steam_link": "https://store.steampowered.com/app/2463800",
@@ -31126,6 +31193,19 @@
     ]
   },
   {
+    "app_id": "2685620",
+    "game_title": "反转21克",
+    "steam_link": "https://store.steampowered.com/app/2685620",
+    "source_site_url": "https://hanpe.net/app/4yn6ve/%E5%8F%8D%E8%BD%AC21%E5%85%8B",
+    "patch_type": "user",
+    "patch_links": [
+      "d4edd700"
+    ],
+    "patch_descriptions": [
+      "제작자 : 민초소주"
+    ]
+  },
+  {
     "app_id": "2688570",
     "game_title": "The Inn-Sanity",
     "steam_link": "https://store.steampowered.com/app/2688570",
@@ -31518,6 +31598,19 @@
     ]
   },
   {
+    "app_id": "2753730",
+    "game_title": "美女,应接不暇",
+    "steam_link": "https://store.steampowered.com/app/2753730",
+    "source_site_url": "https://hanpe.net/app/jne836/%E7%BE%8E%E5%A5%B3%E5%BA%94%E6%8E%A5%E4%B8%8D%E6%9A%87",
+    "patch_type": "user",
+    "patch_links": [
+      "f99cb51a"
+    ],
+    "patch_descriptions": [
+      "제작자 : 민초소주"
+    ]
+  },
+  {
     "app_id": "2754380",
     "game_title": "The Roottrees are Dead",
     "steam_link": "https://store.steampowered.com/app/2754380",
@@ -31686,6 +31779,32 @@
     ],
     "patch_descriptions": [
       "제작자 : 짬라이거"
+    ]
+  },
+  {
+    "app_id": "2770340",
+    "game_title": "天呐！我该怎么选？",
+    "steam_link": "https://store.steampowered.com/app/2770340",
+    "source_site_url": "https://hanpe.net/app/jdomxo/%E5%A4%A9%E5%91%90%E6%88%91%E8%AF%A5%E6%80%8E%E4%B9%88%E9%80%89",
+    "patch_type": "user",
+    "patch_links": [
+      "a363f6d1"
+    ],
+    "patch_descriptions": [
+      "제작자 : 민초소주"
+    ]
+  },
+  {
+    "app_id": "2774830",
+    "game_title": "Seven Lovers In The House",
+    "steam_link": "https://store.steampowered.com/app/2774830",
+    "source_site_url": "https://hanpe.net/app/4o219k/seven-lovers-in-the-house",
+    "patch_type": "user",
+    "patch_links": [
+      "52b39830"
+    ],
+    "patch_descriptions": [
+      "제작자 : 민초소주"
     ]
   },
   {
@@ -31912,6 +32031,19 @@
     ]
   },
   {
+    "app_id": "2804510",
+    "game_title": "重生了还要我谈恋爱？",
+    "steam_link": "https://store.steampowered.com/app/2804510",
+    "source_site_url": "https://hanpe.net/app/4682y9/%E9%87%8D%E7%94%9F%E4%BA%86%E8%BF%98%E8%A6%81%E6%88%91%E8%B0%88%E6%81%8B%E7%88%B1",
+    "patch_type": "user",
+    "patch_links": [
+      "d4edd700"
+    ],
+    "patch_descriptions": [
+      "제작자 : 민초소주"
+    ]
+  },
+  {
     "app_id": "2807170",
     "game_title": "Stray Gods: Orpheus",
     "steam_link": "https://store.steampowered.com/app/2807170",
@@ -31991,6 +32123,19 @@
     ],
     "patch_descriptions": [
       "제작자 : andrea"
+    ]
+  },
+  {
+    "app_id": "2817690",
+    "game_title": "天呐！找不到真爱就扑街！",
+    "steam_link": "https://store.steampowered.com/app/2817690",
+    "source_site_url": "https://hanpe.net/app/4yeqv0/%E5%A4%A9%E5%91%90%E6%89%BE%E4%B8%8D%E5%88%B0%E7%9C%9F%E7%88%B1%E5%B0%B1%E6%89%91%E8%A1%97",
+    "patch_type": "user",
+    "patch_links": [
+      "d4edd700"
+    ],
+    "patch_descriptions": [
+      "제작자 : 민초소주"
     ]
   },
   {
@@ -32223,6 +32368,19 @@
     ]
   },
   {
+    "app_id": "2852100",
+    "game_title": "糟糕，我要坠入爱河啦！",
+    "steam_link": "https://store.steampowered.com/app/2852100",
+    "source_site_url": "https://hanpe.net/app/jmq7n4/%E7%B3%9F%E7%B3%95%E6%88%91%E8%A6%81%E5%9D%A0%E5%85%A5%E7%88%B1%E6%B2%B3%E5%95%A6",
+    "patch_type": "user",
+    "patch_links": [
+      "0a2e78b0"
+    ],
+    "patch_descriptions": [
+      "제작자 : 민초소주"
+    ]
+  },
+  {
     "app_id": "2855180",
     "game_title": "Midnight Mazesoba",
     "steam_link": "https://store.steampowered.com/app/2855180",
@@ -32318,10 +32476,12 @@
     "source_site_url": "https://hanpe.net/app/jv806o/%E8%AE%B8%E6%84%BF%E6%88%91%E8%A6%81%E5%B8%A6%E5%A5%B9%E4%BB%AC%E5%9B%9E%E7%8E%B0%E4%BB%A3",
     "patch_type": "user",
     "patch_links": [
-      "32826570"
+      "32826570",
+      "8e42b59d"
     ],
     "patch_descriptions": [
-      "제작자 : nutcrackr"
+      "제작자 : nutcrackr",
+      "제작자 : 민초소주"
     ]
   },
   {
@@ -32400,6 +32560,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 이칠공"
+    ]
+  },
+  {
+    "app_id": "2873760",
+    "game_title": "미녀들! 다들 나를 노려！Beauties! They're All After Me",
+    "steam_link": "https://store.steampowered.com/app/2873760",
+    "source_site_url": "https://hanpe.net/app/jnkep8/%EB%AF%B8%EB%85%80%EB%93%A4-%EB%8B%A4%EB%93%A4-%EB%82%98%EB%A5%BC-%EB%85%B8%EB%A0%A4beauties-theyre-all-after-me",
+    "patch_type": "user",
+    "patch_links": [
+      "3e67ce4d"
+    ],
+    "patch_descriptions": [
+      "공식 한글 개선 패치 제작자 : 민초소주"
     ]
   },
   {
@@ -32880,6 +33053,19 @@
     ],
     "patch_descriptions": [
       "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : 가무차"
+    ]
+  },
+  {
+    "app_id": "2958700",
+    "game_title": "相亲攻略之宝贝别再选我了",
+    "steam_link": "https://store.steampowered.com/app/2958700",
+    "source_site_url": "https://hanpe.net/app/lkn2rl/%E7%9B%B8%E4%BA%B2%E6%94%BB%E7%95%A5%E4%B9%8B%E5%AE%9D%E8%B4%9D%E5%88%AB%E5%86%8D%E9%80%89%E6%88%91%E4%BA%86",
+    "patch_type": "user",
+    "patch_links": [
+      "8e42b59d"
+    ],
+    "patch_descriptions": [
+      "제작자 : 민초소주"
     ]
   },
   {
@@ -33672,6 +33858,19 @@
     ]
   },
   {
+    "app_id": "3090080",
+    "game_title": "与美女合租的99种死法",
+    "steam_link": "https://store.steampowered.com/app/3090080",
+    "source_site_url": "https://hanpe.net/app/4g97g9/%E4%B8%8E%E7%BE%8E%E5%A5%B3%E5%90%88%E7%A7%9F%E7%9A%8499%E7%A7%8D%E6%AD%BB%E6%B3%95",
+    "patch_type": "user",
+    "patch_links": [
+      "e4a79b82"
+    ],
+    "patch_descriptions": [
+      "제작자 : 민초소주"
+    ]
+  },
+  {
     "app_id": "3090100",
     "game_title": "Prison Princess: Trapped Allure",
     "steam_link": "https://store.steampowered.com/app/3090100",
@@ -34284,6 +34483,19 @@
     ]
   },
   {
+    "app_id": "3196550",
+    "game_title": "花奴令 Huanu Poems",
+    "steam_link": "https://store.steampowered.com/app/3196550",
+    "source_site_url": "https://hanpe.net/app/jvpk91/%E8%8A%B1%E5%A5%B4%E4%BB%A4-huanu-poems",
+    "patch_type": "user",
+    "patch_links": [
+      "79c1867b"
+    ],
+    "patch_descriptions": [
+      "제작자 : 민초소주"
+    ]
+  },
+  {
     "app_id": "3200060",
     "game_title": "SANAE's Sylphid Breeze",
     "steam_link": "https://store.steampowered.com/app/3200060",
@@ -34691,6 +34903,19 @@
     ]
   },
   {
+    "app_id": "3271280",
+    "game_title": "Shroom and Gloom",
+    "steam_link": "https://store.steampowered.com/app/3271280",
+    "source_site_url": "https://hanpe.net/app/4r2z8o/shroom-and-gloom",
+    "patch_type": "user",
+    "patch_links": [
+      "85d0873b"
+    ],
+    "patch_descriptions": [
+      "제작자 : YU-Kangg"
+    ]
+  },
+  {
     "app_id": "3272110",
     "game_title": "Mystic Rest Stop",
     "steam_link": "https://store.steampowered.com/app/3272110",
@@ -34876,6 +35101,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 으잌"
+    ]
+  },
+  {
+    "app_id": "3311560",
+    "game_title": "重返现场：真人版",
+    "steam_link": "https://store.steampowered.com/app/3311560",
+    "source_site_url": "https://hanpe.net/app/l7roke/%E9%87%8D%E8%BF%94%E7%8E%B0%E5%9C%BA%E7%9C%9F%E4%BA%BA%E7%89%88",
+    "patch_type": "user",
+    "patch_links": [
+      "d4edd700"
+    ],
+    "patch_descriptions": [
+      "제작자 : 민초소주"
     ]
   },
   {
@@ -35127,6 +35365,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 에스티"
+    ]
+  },
+  {
+    "app_id": "3370100",
+    "game_title": "我的同事不对劲",
+    "steam_link": "https://store.steampowered.com/app/3370100",
+    "source_site_url": "https://hanpe.net/app/lkod5r/%E6%88%91%E7%9A%84%E5%90%8C%E4%BA%8B%E4%B8%8D%E5%AF%B9%E5%8A%B2",
+    "patch_type": "user",
+    "patch_links": [
+      "d4edd700"
+    ],
+    "patch_descriptions": [
+      "제작자 : 민초소주"
     ]
   },
   {
@@ -36131,6 +36382,19 @@
     ]
   },
   {
+    "app_id": "3570340",
+    "game_title": "这个CEO我当定了！",
+    "steam_link": "https://store.steampowered.com/app/3570340",
+    "source_site_url": "https://hanpe.net/app/jp88do/%E8%BF%99%E4%B8%AAceo%E6%88%91%E5%BD%93%E5%AE%9A%E4%BA%86",
+    "patch_type": "user",
+    "patch_links": [
+      "d4edd700"
+    ],
+    "patch_descriptions": [
+      "제작자 : 민초소주"
+    ]
+  },
+  {
     "app_id": "3572020",
     "game_title": "KONKONKON",
     "steam_link": "https://store.steampowered.com/app/3572020",
@@ -36249,6 +36513,19 @@
     "patch_descriptions": [
       "제작자 : 정보없음",
       "제작자 : SummerSpring"
+    ]
+  },
+  {
+    "app_id": "3593940",
+    "game_title": "出马",
+    "steam_link": "https://store.steampowered.com/app/3593940",
+    "source_site_url": "https://hanpe.net/app/463rny/%E5%87%BA%E9%A9%AC",
+    "patch_type": "user",
+    "patch_links": [
+      "23a0e858"
+    ],
+    "patch_descriptions": [
+      "제작자 : 민초소주"
     ]
   },
   {
@@ -36537,10 +36814,12 @@
     "source_site_url": "https://hanpe.net/app/j97np6/%E5%BF%83%E5%8A%A8%E6%81%8B%E6%97%85%E6%A8%B1%E8%8A%B1%E7%AF%87",
     "patch_type": "user",
     "patch_links": [
-      "165c118b"
+      "165c118b",
+      "d4edd700"
     ],
     "patch_descriptions": [
-      "제작자 : 바라미"
+      "제작자 : 바라미",
+      "제작자 : 민초소주"
     ]
   },
   {
@@ -36840,6 +37119,19 @@
     ],
     "patch_descriptions": [
       "(이제 공식 한글화 되어서 유저 패치를 안 해도 됩니다) 제작자 : 으잌"
+    ]
+  },
+  {
+    "app_id": "3785560",
+    "game_title": "The Narcotic Operation",
+    "steam_link": "https://store.steampowered.com/app/3785560",
+    "source_site_url": "https://hanpe.net/app/4ek1dk/the-narcotic-operation",
+    "patch_type": "user",
+    "patch_links": [
+      "d4edd700"
+    ],
+    "patch_descriptions": [
+      "제작자 : 민초소주"
     ]
   },
   {
@@ -37391,6 +37683,19 @@
     ]
   },
   {
+    "app_id": "3946830",
+    "game_title": "欢迎来到林葬屋",
+    "steam_link": "https://store.steampowered.com/app/3946830",
+    "source_site_url": "https://hanpe.net/app/4o020k/%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%9E%97%E8%91%AC%E5%B1%8B",
+    "patch_type": "user",
+    "patch_links": [
+      "46a98e02"
+    ],
+    "patch_descriptions": [
+      "공식 한글 개선 패치 제작자 : 민초소주"
+    ]
+  },
+  {
     "app_id": "3950050",
     "game_title": "Touhou Witch's Night Market",
     "steam_link": "https://store.steampowered.com/app/3950050",
@@ -37561,6 +37866,19 @@
       "제작자 : 서랍장",
       "제작자 : 유온",
       "제작자 : 여름"
+    ]
+  },
+  {
+    "app_id": "4025330",
+    "game_title": "林葬屋前传：冥声",
+    "steam_link": "https://store.steampowered.com/app/4025330",
+    "source_site_url": "https://hanpe.net/app/jwv667/%E6%9E%97%E8%91%AC%E5%B1%8B%E5%89%8D%E4%BC%A0%E5%86%A5%E5%A3%B0",
+    "patch_type": "user",
+    "patch_links": [
+      "6ab9de83"
+    ],
+    "patch_descriptions": [
+      "제작자 : 민초소주"
     ]
   },
   {
@@ -37875,6 +38193,19 @@
     ]
   },
   {
+    "app_id": "4143220",
+    "game_title": "金宵公寓事件",
+    "steam_link": "https://store.steampowered.com/app/4143220",
+    "source_site_url": "https://hanpe.net/app/lz8px1/%E9%87%91%E5%AE%B5%E5%85%AC%E5%AF%93%E4%BA%8B%E4%BB%B6",
+    "patch_type": "user",
+    "patch_links": [
+      "0d89820d"
+    ],
+    "patch_descriptions": [
+      "제작자 : 민초소주"
+    ]
+  },
+  {
     "app_id": "4164420",
     "game_title": "My Winter Car",
     "steam_link": "https://store.steampowered.com/app/4164420",
@@ -37885,6 +38216,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 감자사라다"
+    ]
+  },
+  {
+    "app_id": "4164580",
+    "game_title": "재부팅된 운명",
+    "steam_link": "https://store.steampowered.com/app/4164580",
+    "source_site_url": "https://hanpe.net/app/lz3qv9/%EC%9E%AC%EB%B6%80%ED%8C%85%EB%90%9C-%EC%9A%B4%EB%AA%85",
+    "patch_type": "user",
+    "patch_links": [
+      "15a0a6b8"
+    ],
+    "patch_descriptions": [
+      "공식 한글 개선 패치 제작자 : 민초소주"
     ]
   },
   {
@@ -38002,6 +38346,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 정보없음"
+    ]
+  },
+  {
+    "app_id": "4209920",
+    "game_title": "不问凡尘",
+    "steam_link": "https://store.steampowered.com/app/4209920",
+    "source_site_url": "https://hanpe.net/app/4o1vp5/%E4%B8%8D%E9%97%AE%E5%87%A1%E5%B0%98",
+    "patch_type": "user",
+    "patch_links": [
+      "83068f4f"
+    ],
+    "patch_descriptions": [
+      "제작자 : 민초소주"
     ]
   },
   {
@@ -38203,6 +38560,19 @@
     ],
     "patch_descriptions": [
       "만든이 : qhtjr(글쓴이) 데모판 한글화"
+    ]
+  },
+  {
+    "app_id": "4292950",
+    "game_title": "Shao Song I",
+    "steam_link": "https://store.steampowered.com/app/4292950",
+    "source_site_url": "https://hanpe.net/app/j8zm8r/shao-song-i",
+    "patch_type": "user",
+    "patch_links": [
+      "fdc14725"
+    ],
+    "patch_descriptions": [
+      "제작자 : 민초소주"
     ]
   },
   {
@@ -38596,6 +38966,19 @@
     ]
   },
   {
+    "app_id": "4539480",
+    "game_title": "같이 사는 연인: 사랑 중",
+    "steam_link": "https://store.steampowered.com/app/4539480",
+    "source_site_url": "https://hanpe.net/app/4rk2vg/%EA%B0%99%EC%9D%B4-%EC%82%AC%EB%8A%94-%EC%97%B0%EC%9D%B8-%EC%82%AC%EB%9E%91-%EC%A4%91",
+    "patch_type": "user",
+    "patch_links": [
+      "c0b5f484"
+    ],
+    "patch_descriptions": [
+      "공식 한글 개선 패치 제작자 : 민초소주"
+    ]
+  },
+  {
     "app_id": "4540090",
     "game_title": "DISTURBING FEARS - Workplace",
     "steam_link": "https://store.steampowered.com/app/4540090",
@@ -38894,6 +39277,19 @@
       "제작자 : 사에",
       "제작자 : 시라네",
       "제작자 : 코드치기싫음"
+    ]
+  },
+  {
+    "app_id": "5123270",
+    "game_title": "撩妹模拟器：备胎的觉醒",
+    "steam_link": "https://store.steampowered.com/app/5123270",
+    "source_site_url": "https://hanpe.net/app/4yov2w/%E6%92%A9%E5%A6%B9%E6%A8%A1%E6%8B%9F%E5%99%A8%E5%A4%87%E8%83%8E%E7%9A%84%E8%A7%89%E9%86%92",
+    "patch_type": "user",
+    "patch_links": [
+      "7c7a25d3"
+    ],
+    "patch_descriptions": [
+      "제작자 : 민초소주"
     ]
   }
 ]

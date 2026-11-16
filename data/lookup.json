@@ -1573,13 +1573,16 @@
     ],
     "links": [
       "cf404f09",
+      "4e8391d0",
       "exist"
     ],
     "patch_descriptions": [
       "제작자 : 정보없음",
+      "제작자 : 훈",
       "유저 한국어 패치 -"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp",
       "quasarplay"
     ],
@@ -1846,6 +1849,24 @@
     ],
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/jvr8r1/prince-of-persia-the-sands-of-time"
+    }
+  },
+  "15100": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "a7fb5eeb"
+    ],
+    "patch_descriptions": [
+      "제작자 : 정보없음"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/lx27qp/assassins-creedtm-directors-cut-edition"
     }
   },
   "15120": {
@@ -45443,18 +45464,23 @@
   "1514930": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "a7af325d",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 민초소주",
       "한글 패치 - 민초소주"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/l288oe/erica",
       "quasarplay": "https://store.steampowered.com/app/1514930/?curator_clanid=30894603"
     }
   },
@@ -52907,6 +52933,24 @@
       "stove": "https://store.onstove.com/ko/games/1724"
     }
   },
+  "1892950": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "d8de0ccc"
+    ],
+    "patch_descriptions": [
+      "데모판 한글화 제작자 : xiah5353"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/l2no33/the-golden-rose-book-one"
+    }
+  },
   "1895350": {
     "type": "user",
     "sources": [
@@ -53807,18 +53851,23 @@
   "1946070": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "96d18245",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 민초소주",
       "한글 패치 - 젠갤러"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j9qxn5/ten-dates",
       "quasarplay": "https://store.steampowered.com/app/1946070/?curator_clanid=30894603"
     }
   },
@@ -62485,6 +62534,24 @@
       "quasarplay": "https://store.steampowered.com/app/2458980/?curator_clanid=30894603"
     }
   },
+  "2461050": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "d4edd700"
+    ],
+    "patch_descriptions": [
+      "제작자 : 민초소주"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jv5goo/%E6%99%A8%E6%98%8F%E7%BA%BF"
+    }
+  },
   "2461440": {
     "type": "user",
     "sources": [
@@ -66088,6 +66155,24 @@
       "quasarplay": "https://store.steampowered.com/app/2684630/?curator_clanid=30894603"
     }
   },
+  "2685620": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "d4edd700"
+    ],
+    "patch_descriptions": [
+      "제작자 : 민초소주"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4yn6ve/%E5%8F%8D%E8%BD%AC21%E5%85%8B"
+    }
+  },
   "2688570": {
     "type": "user",
     "sources": [
@@ -67034,6 +67119,24 @@
       "steamapp": "https://hanpe.net/app/4ezrpx/%E3%82%AF%E3%83%93%E3%83%88%E3%83%AA%E3%83%89%E3%82%AA%E3%83%AB%E3%82%BA%E3%83%AC%E3%83%88%E3%83%AA%E3%83%BC%E3%83%90%E3%83%BC-%E5%B3%B6%E6%B4%A5%E6%80%AA%E8%AB%8701"
     }
   },
+  "2753730": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "f99cb51a"
+    ],
+    "patch_descriptions": [
+      "제작자 : 민초소주"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jne836/%E7%BE%8E%E5%A5%B3%E5%BA%94%E6%8E%A5%E4%B8%8D%E6%9A%87"
+    }
+  },
   "2753900": {
     "type": "user",
     "sources": [
@@ -67399,6 +67502,24 @@
       "quasarplay": "https://store.steampowered.com/app/2770330/?curator_clanid=30894603"
     }
   },
+  "2770340": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "a363f6d1"
+    ],
+    "patch_descriptions": [
+      "제작자 : 민초소주"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jdomxo/%E5%A4%A9%E5%91%90%E6%88%91%E8%AF%A5%E6%80%8E%E4%B9%88%E9%80%89"
+    }
+  },
   "2773280": {
     "type": "user",
     "sources": [
@@ -67415,6 +67536,24 @@
     ],
     "source_site_urls": {
       "quasarplay": "https://store.steampowered.com/app/2773280/?curator_clanid=30894603"
+    }
+  },
+  "2774830": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "52b39830"
+    ],
+    "patch_descriptions": [
+      "제작자 : 민초소주"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4o219k/seven-lovers-in-the-house"
     }
   },
   "2775310": {
@@ -67920,6 +68059,24 @@
       "quasarplay": "https://store.steampowered.com/app/2803810/?curator_clanid=42788178"
     }
   },
+  "2804510": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "d4edd700"
+    ],
+    "patch_descriptions": [
+      "제작자 : 민초소주"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4682y9/%E9%87%8D%E7%94%9F%E4%BA%86%E8%BF%98%E8%A6%81%E6%88%91%E8%B0%88%E6%81%8B%E7%88%B1"
+    }
+  },
   "2804970": {
     "type": "user",
     "sources": [
@@ -68147,6 +68304,24 @@
     ],
     "source_site_urls": {
       "quasarplay": "https://store.steampowered.com/app/2817530/?curator_clanid=30894603"
+    }
+  },
+  "2817690": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "d4edd700"
+    ],
+    "patch_descriptions": [
+      "제작자 : 민초소주"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4yeqv0/%E5%A4%A9%E5%91%90%E6%89%BE%E4%B8%8D%E5%88%B0%E7%9C%9F%E7%88%B1%E5%B0%B1%E6%89%91%E8%A1%97"
     }
   },
   "2818150": {
@@ -68735,6 +68910,24 @@
       "steamapp": "https://hanpe.net/app/4128zq/g-mode%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%E3%82%B9-%E3%83%9A%E3%83%AB%E3%82%BD%E3%83%8A3-%E3%82%A2%E3%82%A4%E3%82%AE%E3%82%B9-the-first-mission"
     }
   },
+  "2852100": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "0a2e78b0"
+    ],
+    "patch_descriptions": [
+      "제작자 : 민초소주"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jmq7n4/%E7%B3%9F%E7%B3%95%E6%88%91%E8%A6%81%E5%9D%A0%E5%85%A5%E7%88%B1%E6%B2%B3%E5%95%A6"
+    }
+  },
   "2855180": {
     "type": "user",
     "sources": [
@@ -68903,12 +69096,15 @@
       "steamapp"
     ],
     "links": [
-      "32826570"
+      "32826570",
+      "8e42b59d"
     ],
     "patch_descriptions": [
-      "제작자 : nutcrackr"
+      "제작자 : nutcrackr",
+      "제작자 : 민초소주"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp"
     ],
     "source_site_urls": {
@@ -69149,18 +69345,23 @@
   "2873760": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "3e67ce4d",
       "exist"
     ],
     "patch_descriptions": [
+      "공식 한글 개선 패치 제작자 : 민초소주",
       "번역 개선 패치 - 호트구트"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jnkep8/%EB%AF%B8%EB%85%80%EB%93%A4-%EB%8B%A4%EB%93%A4-%EB%82%98%EB%A5%BC-%EB%85%B8%EB%A0%A4beauties-theyre-all-after-me",
       "quasarplay": "https://store.steampowered.com/app/2873760/?curator_clanid=30894603"
     }
   },
@@ -70400,6 +70601,24 @@
     ],
     "source_site_urls": {
       "quasarplay": "https://store.steampowered.com/app/2957670/?curator_clanid=30894603"
+    }
+  },
+  "2958700": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "8e42b59d"
+    ],
+    "patch_descriptions": [
+      "제작자 : 민초소주"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/lkn2rl/%E7%9B%B8%E4%BA%B2%E6%94%BB%E7%95%A5%E4%B9%8B%E5%AE%9D%E8%B4%9D%E5%88%AB%E5%86%8D%E9%80%89%E6%88%91%E4%BA%86"
     }
   },
   "2958780": {
@@ -72668,6 +72887,24 @@
       "quasarplay": "https://store.steampowered.com/app/3088670/?curator_clanid=30894603"
     }
   },
+  "3090080": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "e4a79b82"
+    ],
+    "patch_descriptions": [
+      "제작자 : 민초소주"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4g97g9/%E4%B8%8E%E7%BE%8E%E5%A5%B3%E5%90%88%E7%A7%9F%E7%9A%8499%E7%A7%8D%E6%AD%BB%E6%B3%95"
+    }
+  },
   "3090100": {
     "type": "user",
     "sources": [
@@ -74204,18 +74441,23 @@
   "3196550": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "79c1867b",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 민초소주",
       "한글 패치 - 호트구트"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jvpk91/%E8%8A%B1%E5%A5%B4%E4%BB%A4-huanu-poems",
       "quasarplay": "https://store.steampowered.com/app/3196550/?curator_clanid=30894603"
     }
   },
@@ -75338,18 +75580,23 @@
   "3271280": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "85d0873b",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : YU-Kangg",
       "한글 패치 - YU-Kangg"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4r2z8o/shroom-and-gloom",
       "quasarplay": "https://store.steampowered.com/app/3271280/?curator_clanid=30894603"
     }
   },
@@ -75875,6 +76122,24 @@
     ],
     "source_site_urls": {
       "quasarplay": "https://store.steampowered.com/app/3310590/?curator_clanid=30894603"
+    }
+  },
+  "3311560": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "d4edd700"
+    ],
+    "patch_descriptions": [
+      "제작자 : 민초소주"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/l7roke/%E9%87%8D%E8%BF%94%E7%8E%B0%E5%9C%BA%E7%9C%9F%E4%BA%BA%E7%89%88"
     }
   },
   "3312130": {
@@ -76522,6 +76787,24 @@
     ],
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/4q062d/%E5%B0%91%E5%A5%B3%E5%9C%B0%E7%8D%84%E3%82%AB%E3%83%AB%E3%83%87%E3%82%A2galaxy-express-chaldea"
+    }
+  },
+  "3370100": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "d4edd700"
+    ],
+    "patch_descriptions": [
+      "제작자 : 민초소주"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/lkod5r/%E6%88%91%E7%9A%84%E5%90%8C%E4%BA%8B%E4%B8%8D%E5%AF%B9%E5%8A%B2"
     }
   },
   "3370870": {
@@ -79158,6 +79441,24 @@
       "quasarplay": "https://store.steampowered.com/app/3566870/?curator_clanid=30894603"
     }
   },
+  "3570340": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "d4edd700"
+    ],
+    "patch_descriptions": [
+      "제작자 : 민초소주"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jp88do/%E8%BF%99%E4%B8%AAceo%E6%88%91%E5%BD%93%E5%AE%9A%E4%BA%86"
+    }
+  },
   "3572020": {
     "type": "user",
     "sources": [
@@ -79382,6 +79683,24 @@
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/l7nz3e/dive-or-die-children-of-rain",
       "quasarplay": "https://store.steampowered.com/app/3590290/?curator_clanid=30894603"
+    }
+  },
+  "3593940": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "23a0e858"
+    ],
+    "patch_descriptions": [
+      "제작자 : 민초소주"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/463rny/%E5%87%BA%E9%A9%AC"
     }
   },
   "3595800": {
@@ -80073,12 +80392,15 @@
       "steamapp"
     ],
     "links": [
-      "165c118b"
+      "165c118b",
+      "d4edd700"
     ],
     "patch_descriptions": [
-      "제작자 : 바라미"
+      "제작자 : 바라미",
+      "제작자 : 민초소주"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp"
     ],
     "source_site_urls": {
@@ -80772,6 +81094,24 @@
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/j0e61x/elfie-%EC%BD%94%EB%81%BC%EB%A6%AC%EB%9E%91-%EB%AA%A8%EB%9E%98%EC%84%B1%EC%9D%B4%EB%9E%91",
       "quasarplay": "https://store.steampowered.com/app/3784760/?curator_clanid=30894603"
+    }
+  },
+  "3785560": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "d4edd700"
+    ],
+    "patch_descriptions": [
+      "제작자 : 민초소주"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4ek1dk/the-narcotic-operation"
     }
   },
   "3788590": {
@@ -82213,18 +82553,23 @@
   "3946830": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "46a98e02",
       "exist"
     ],
     "patch_descriptions": [
+      "공식 한글 개선 패치 제작자 : 민초소주",
       "번역 개선 패치 - 민초소주"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4o020k/%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%9E%97%E8%91%AC%E5%B1%8B",
       "quasarplay": "https://store.steampowered.com/app/3946830/?curator_clanid=30894603"
     }
   },
@@ -82724,18 +83069,23 @@
   "4025330": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "6ab9de83",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 민초소주",
       "한글 패치 - 민초소주"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jwv667/%E6%9E%97%E8%91%AC%E5%B1%8B%E5%89%8D%E4%BC%A0%E5%86%A5%E5%A3%B0",
       "quasarplay": "https://store.steampowered.com/app/4025330/?curator_clanid=30894603"
     }
   },
@@ -83403,6 +83753,24 @@
       "quasarplay": "https://store.steampowered.com/app/4141950/?curator_clanid=30894603"
     }
   },
+  "4143220": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "0d89820d"
+    ],
+    "patch_descriptions": [
+      "제작자 : 민초소주"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/lz8px1/%E9%87%91%E5%AE%B5%E5%85%AC%E5%AF%93%E4%BA%8B%E4%BB%B6"
+    }
+  },
   "4144510": {
     "type": "user",
     "sources": [
@@ -83465,18 +83833,23 @@
   "4164580": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "15a0a6b8",
       "exist"
     ],
     "patch_descriptions": [
+      "공식 한글 개선 패치 제작자 : 민초소주",
       "번역 개선 패치 - 호트구트"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/lz3qv9/%EC%9E%AC%EB%B6%80%ED%8C%85%EB%90%9C-%EC%9A%B4%EB%AA%85",
       "quasarplay": "https://store.steampowered.com/app/4164580/?curator_clanid=30894603"
     }
   },
@@ -83734,6 +84107,24 @@
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/4ykppr/elbab",
       "quasarplay": "https://store.steampowered.com/app/4209630/?curator_clanid=30894603"
+    }
+  },
+  "4209920": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "83068f4f"
+    ],
+    "patch_descriptions": [
+      "제작자 : 민초소주"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4o1vp5/%E4%B8%8D%E9%97%AE%E5%87%A1%E5%B0%98"
     }
   },
   "4217140": {
@@ -84166,6 +84557,24 @@
     ],
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/41ygm5/dreamtone"
+    }
+  },
+  "4292950": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "fdc14725"
+    ],
+    "patch_descriptions": [
+      "제작자 : 민초소주"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j8zm8r/shao-song-i"
     }
   },
   "4293910": {
@@ -85019,6 +85428,24 @@
       "quasarplay": "https://store.steampowered.com/app/4538140/?curator_clanid=30894603"
     }
   },
+  "4539480": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "c0b5f484"
+    ],
+    "patch_descriptions": [
+      "공식 한글 개선 패치 제작자 : 민초소주"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4rk2vg/%EA%B0%99%EC%9D%B4-%EC%82%AC%EB%8A%94-%EC%97%B0%EC%9D%B8-%EC%82%AC%EB%9E%91-%EC%A4%91"
+    }
+  },
   "4540090": {
     "type": "user",
     "sources": [
@@ -85821,8 +86248,26 @@
       "steamapp": "https://hanpe.net/app/jvwzz7/%EB%8D%B0%EC%8A%A4%EA%B2%8C%EC%9E%84-%EB%B3%B4%EA%B3%A0%EC%84%9C"
     }
   },
+  "5123270": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "7c7a25d3"
+    ],
+    "patch_descriptions": [
+      "제작자 : 민초소주"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4yov2w/%E6%92%A9%E5%A6%B9%E6%A8%A1%E6%8B%9F%E5%99%A8%E5%A4%87%E8%83%8E%E7%9A%84%E8%A7%89%E9%86%92"
+    }
+  },
   "_meta": {
-    "generated_at": "2026-11-14T01:13:04.661Z",
-    "total": 4015
+    "generated_at": "2026-11-16T00:40:28.914Z",
+    "total": 4037
   }
 }
