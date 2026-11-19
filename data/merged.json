@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-11-16T00:40:28.914Z",
-    "total_with_steam_link": 4037,
+    "generated_at": "2026-11-19T02:12:46.693Z",
+    "total_with_steam_link": 4038,
     "total_without_steam_link": 15,
     "sources": [
       "steamapp",
@@ -35230,14 +35230,17 @@
       "patch_links": [
         "50da19b1",
         "3b48ac2d",
+        "24c54afc",
         "exist"
       ],
       "patch_descriptions": [
         "제작자 : 단갤러 2편 한글화",
         "DMC1 한글 패치 제작자 : 문고리단속반",
+        "1,2,3 한글화 DMC1 1차 번역 - 따르방 DMC1 2차 번역 - AI DMC3 번역 - 클로드 DMC1 그래픽 - 미니쿠다22 그 외 - 행복한나라",
         "한글 패치 - 행복한나라\n2편 한글 패치 -"
       ],
       "patch_sources": [
+        "steamapp",
         "steamapp",
         "steamapp",
         "quasarplay"
@@ -82388,6 +82391,27 @@
       "sources": [
         "steamapp",
         "quasarplay"
+      ]
+    },
+    {
+      "app_id": "3390890",
+      "game_title": "UCOPIA",
+      "steam_link": "https://store.steampowered.com/app/3390890",
+      "patch_type": "user",
+      "patch_links": [
+        "699bb1c0"
+      ],
+      "patch_descriptions": [
+        "제작자 : 마히히"
+      ],
+      "patch_sources": [
+        "steamapp"
+      ],
+      "source_site_urls": {
+        "steamapp": "https://hanpe.net/app/j5qm5r/ucopia"
+      },
+      "sources": [
+        "steamapp"
       ]
     },
     {

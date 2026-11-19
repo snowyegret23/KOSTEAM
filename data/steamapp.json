@@ -14404,11 +14404,13 @@
     "patch_type": "user",
     "patch_links": [
       "50da19b1",
-      "3b48ac2d"
+      "3b48ac2d",
+      "24c54afc"
     ],
     "patch_descriptions": [
       "제작자 : 단갤러 2편 한글화",
-      "DMC1 한글 패치 제작자 : 문고리단속반"
+      "DMC1 한글 패치 제작자 : 문고리단속반",
+      "1,2,3 한글화 DMC1 1차 번역 - 따르방 DMC1 2차 번역 - AI DMC3 번역 - 클로드 DMC1 그래픽 - 미니쿠다22 그 외 - 행복한나라"
     ]
   },
   {
@@ -35583,6 +35585,19 @@
     "patch_descriptions": [
       "제작자 : 우육친구",
       "제작자 : 천지회"
+    ]
+  },
+  {
+    "app_id": "3390890",
+    "game_title": "UCOPIA",
+    "steam_link": "https://store.steampowered.com/app/3390890",
+    "source_site_url": "https://hanpe.net/app/j5qm5r/ucopia",
+    "patch_type": "user",
+    "patch_links": [
+      "699bb1c0"
+    ],
+    "patch_descriptions": [
+      "제작자 : 마히히"
     ]
   },
   {
