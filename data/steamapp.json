@@ -18141,10 +18141,12 @@
     "source_site_url": "https://hanpe.net/app/j5k3ye/mega-man-zerozx-legacy-collection",
     "patch_type": "user",
     "patch_links": [
-      "b42dcac5"
+      "b42dcac5",
+      "7200ebf3"
     ],
     "patch_descriptions": [
-      "제작자 : ㎙☆"
+      "제작자 : ㎙☆",
+      "크레딧 번역 - 시니탈프 그래픽 - 제넥스, 오메가코드 프로그램 - 노멀맨, 시니탈프, 행복한나라 PC 이식 - 시니탈프, 제넥스, 행복한나라"
     ]
   },
   {
@@ -18508,6 +18510,19 @@
     ],
     "patch_descriptions": [
       "한글 패치 제작 : 바람 번역단 - LSW 번역, 검수 : LSW 전체 이미지 작업 : LSW"
+    ]
+  },
+  {
+    "app_id": "1041720",
+    "game_title": "Kingdoms of Amalur: Re-Reckoning",
+    "steam_link": "https://store.steampowered.com/app/1041720",
+    "source_site_url": "https://hanpe.net/app/j0z131/kingdoms-of-amalur-re-reckoning",
+    "patch_type": "user",
+    "patch_links": [
+      "e5288997"
+    ],
+    "patch_descriptions": [
+      "제작자 : 대한글화시대"
     ]
   },
   {
@@ -26609,6 +26624,19 @@
     ]
   },
   {
+    "app_id": "1952370",
+    "game_title": "Oblivion Override",
+    "steam_link": "https://store.steampowered.com/app/1952370",
+    "source_site_url": "https://hanpe.net/app/lxven0/oblivion-override",
+    "patch_type": "user",
+    "patch_links": [
+      "4c95a935"
+    ],
+    "patch_descriptions": [
+      "제작자 : 정보없음"
+    ]
+  },
+  {
     "app_id": "1955390",
     "game_title": "Playable Mockup",
     "steam_link": "https://store.steampowered.com/app/1955390",
@@ -33393,6 +33421,19 @@
     ]
   },
   {
+    "app_id": "3000960",
+    "game_title": "吸血鬼の花嫁 ヴァンプドールのはなよめ The Novel Game",
+    "steam_link": "https://store.steampowered.com/app/3000960",
+    "source_site_url": "https://hanpe.net/app/4ex3vv/%E5%90%B8%E8%A1%80%E9%AC%BC%E3%81%AE%E8%8A%B1%E5%AB%81-%E3%83%B4%E3%82%A1%E3%83%B3%E3%83%97%E3%83%89%E3%83%BC%E3%83%AB%E3%81%AE%E3%81%AF%E3%81%AA%E3%82%88%E3%82%81-the-novel-game",
+    "patch_type": "user",
+    "patch_links": [
+      "f14bebf0"
+    ],
+    "patch_descriptions": [
+      "제작자 : 마히히"
+    ]
+  },
+  {
     "app_id": "3001730",
     "game_title": "[Bober Bros] It's Just A Prank",
     "steam_link": "https://store.steampowered.com/app/3001730",
@@ -35129,6 +35170,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 휠맨"
+    ]
+  },
+  {
+    "app_id": "3323850",
+    "game_title": "Blippo+",
+    "steam_link": "https://store.steampowered.com/app/3323850",
+    "source_site_url": "https://hanpe.net/app/4e237z/blippo",
+    "patch_type": "user",
+    "patch_links": [
+      "9e8beb0b"
+    ],
+    "patch_descriptions": [
+      "제작자 : soebq2qs"
     ]
   },
   {
@@ -37734,6 +37788,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 닉늬닉늬"
+    ]
+  },
+  {
+    "app_id": "3966350",
+    "game_title": "崩壊世界のナヴィガトーレ",
+    "steam_link": "https://store.steampowered.com/app/3966350",
+    "source_site_url": "https://hanpe.net/app/l3mger/%E5%B4%A9%E5%A3%8A%E4%B8%96%E7%95%8C%E3%81%AE%E3%83%8A%E3%83%B4%E3%82%A3%E3%82%AC%E3%83%88%E3%83%BC%E3%83%AC",
+    "patch_type": "user",
+    "patch_links": [
+      "e3a4718d"
+    ],
+    "patch_descriptions": [
+      "제작자 : NomoreSummer"
     ]
   },
   {

@@ -33698,13 +33698,16 @@
     ],
     "links": [
       "b42dcac5",
+      "7200ebf3",
       "exist"
     ],
     "patch_descriptions": [
       "제작자 : ㎙☆",
+      "크레딧 번역 - 시니탈프 그래픽 - 제넥스, 오메가코드 프로그램 - 노멀맨, 시니탈프, 행복한나라 PC 이식 - 시니탈프, 제넥스, 행복한나라",
       "한글 패치 - fm\n한글 패치 - 행복한 나라"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp",
       "quasarplay"
     ],
@@ -34530,18 +34533,23 @@
   "1041720": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "e5288997",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 대한글화시대",
       "한글 패치 - 동마수\n한글 패치 - 한무테"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j0z131/kingdoms-of-amalur-re-reckoning",
       "quasarplay": "https://store.steampowered.com/app/1041720/?curator_clanid=30894603"
     }
   },
@@ -53936,18 +53944,23 @@
   "1952370": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "4c95a935",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 정보없음",
       "한글 패치"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/lxven0/oblivion-override",
       "quasarplay": "https://store.steampowered.com/app/1952370/?curator_clanid=30894603"
     }
   },
@@ -71508,6 +71521,24 @@
       "quasarplay": "https://store.steampowered.com/app/2999910/?curator_clanid=30894603"
     }
   },
+  "3000960": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "f14bebf0"
+    ],
+    "patch_descriptions": [
+      "제작자 : 마히히"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4ex3vv/%E5%90%B8%E8%A1%80%E9%AC%BC%E3%81%AE%E8%8A%B1%E5%AB%81-%E3%83%B4%E3%82%A1%E3%83%B3%E3%83%97%E3%83%89%E3%83%BC%E3%83%AB%E3%81%AE%E3%81%AF%E3%81%AA%E3%82%88%E3%82%81-the-novel-game"
+    }
+  },
   "3001730": {
     "type": "user",
     "sources": [
@@ -76189,18 +76220,23 @@
   "3323850": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "9e8beb0b",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : soebq2qs",
       "한글 패치 - soebq2qs"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4e237z/blippo",
       "quasarplay": "https://store.steampowered.com/app/3323850/?curator_clanid=30894603"
     }
   },
@@ -82733,18 +82769,23 @@
   "3966350": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "e3a4718d",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : NomoreSummer",
       "한글 패치 - NomoreSummer"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/l3mger/%E5%B4%A9%E5%A3%8A%E4%B8%96%E7%95%8C%E3%81%AE%E3%83%8A%E3%83%B4%E3%82%A3%E3%82%AC%E3%83%88%E3%83%BC%E3%83%AC",
       "quasarplay": "https://store.steampowered.com/app/3966350/?curator_clanid=30894603"
     }
   },
@@ -86288,7 +86329,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-11-19T02:12:46.693Z",
-    "total": 4038
+    "generated_at": "2026-11-21T01:57:09.292Z",
+    "total": 4039
   }
 }
