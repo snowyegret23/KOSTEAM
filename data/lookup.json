@@ -22449,6 +22449,24 @@
       "quasarplay": "https://store.steampowered.com/app/510540/?curator_clanid=30894603"
     }
   },
+  "511740": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "f5819790"
+    ],
+    "patch_descriptions": [
+      "제작자 : 아스나"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jv50e5/%EA%B1%B8%EA%B1%B4-%EB%8D%94%EB%B8%94-%ED%94%BC%EC%8A%A4"
+    }
+  },
   "512060": {
     "type": "user",
     "sources": [
@@ -32215,12 +32233,15 @@
       "steamapp"
     ],
     "links": [
-      "c68b7d30"
+      "c68b7d30",
+      "99d5f208"
     ],
     "patch_descriptions": [
-      "Kimgaemandoo 님 제작 *현재 배포 중단"
+      "Kimgaemandoo 님 제작 *현재 배포 중단",
+      "제작자 : 마히히"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp"
     ],
     "source_site_urls": {
@@ -39641,14 +39662,14 @@
     ],
     "links": [
       "8ee038bc",
-      "a99fd166",
       "a05ad98a",
+      "a99fd166",
       "exist"
     ],
     "patch_descriptions": [
       "제작자 : 우리집드래곤뽀삐",
-      "제작자 : 루_퍼 DLC 한글화",
       "제작자 : rkrkrr0101 DLC Spirit Island - Jagged Earth 한글화",
+      "제작자 : 루_퍼 DLC 한글화",
       "유저 한글 패치 - 우리집드래곤뽀삐\n유저 한글 패치 - rkrkrr0101"
     ],
     "patch_sources": [
@@ -41265,6 +41286,24 @@
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/l2m5xm/blind-drive",
       "quasarplay": "https://store.steampowered.com/app/1300600/?curator_clanid=30894603"
+    }
+  },
+  "1300860": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "73f94e73"
+    ],
+    "patch_descriptions": [
+      "제작자 : 마히히"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4yende/strawberry-chocolate-miner-8ad-4ss"
     }
   },
   "1301220": {
@@ -54077,6 +54116,24 @@
       "quasarplay": "https://store.steampowered.com/app/1956800/?curator_clanid=42788178"
     }
   },
+  "1959530": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "1defa2a9"
+    ],
+    "patch_descriptions": [
+      "제작자 : endure1100"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j5po6e/extra-case-my-girlfriends-secrets"
+    }
+  },
   "1960270": {
     "type": "user",
     "sources": [
@@ -58396,6 +58453,24 @@
       "steamapp": "https://hanpe.net/app/4edx7k/sid-meier%EC%9D%98-alpha-centauritm-planetary-%ED%8C%A9"
     }
   },
+  "2205290": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "bfd589da"
+    ],
+    "patch_descriptions": [
+      "제작자 : 마히히"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jmxg2o/%E6%B5%81%E5%85%89%E6%98%93%E9%80%9D%E7%9A%84%E5%A4%8F%E6%9C%AB-fleeting-summers-end"
+    }
+  },
   "2207490": {
     "type": "user",
     "sources": [
@@ -60752,6 +60827,24 @@
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/lx8z6y/thank-goodness-youre-here",
       "quasarplay": "https://store.steampowered.com/app/2366980/?curator_clanid=42788178"
+    }
+  },
+  "2367120": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "cb1942f2"
+    ],
+    "patch_descriptions": [
+      "제작자 : endure1100"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/lz1er7/blood-lily-ghoststories"
     }
   },
   "2369900": {
@@ -66036,12 +66129,15 @@
       "steamapp"
     ],
     "links": [
-      "ffe494d4"
+      "ffe494d4",
+      "4b261b9e"
     ],
     "patch_descriptions": [
-      "데모판 한글 패치 제작자 : 라멜"
+      "데모판 한글 패치 제작자 : 라멜",
+      "제작자 : endure1100"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp"
     ],
     "source_site_urls": {
@@ -66064,6 +66160,24 @@
     ],
     "source_site_urls": {
       "quasarplay": "https://store.steampowered.com/app/2676410/?curator_clanid=42788178"
+    }
+  },
+  "2677040": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "dc7b7c31"
+    ],
+    "patch_descriptions": [
+      "제작자 : 마히히"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4ymn3e/%E7%9C%9F%E5%A4%9C%E7%9A%84%E5%B1%85%E6%89%80-chanyes-home"
     }
   },
   "2678640": {
@@ -70220,6 +70334,24 @@
       "steamapp": "https://hanpe.net/app/4q32me/grand-shooter"
     }
   },
+  "2936180": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "bdefa681"
+    ],
+    "patch_descriptions": [
+      "제작자 : 마히히"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jp3kon/%E8%8C%9C%E8%89%B2"
+    }
+  },
   "2937590": {
     "type": "user",
     "sources": [
@@ -70712,6 +70844,24 @@
     ],
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/j0gdpo/tempus-triad"
+    }
+  },
+  "2961460": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "647b5a16"
+    ],
+    "patch_descriptions": [
+      "제작자 : 마히히"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j8y1w0/%E7%A5%9E%E6%A0%91%E6%AE%8B%E5%93%8Dechoes-of-the-divine-tree"
     }
   },
   "2961530": {
@@ -75060,18 +75210,23 @@
   "3230470": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "8f6b5419",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : endure1100",
       "한글 패치 - CurlyR\n한글 패치"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4qenex/%E9%80%83%E5%87%BA%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E4%B9%8B%E5%AE%B6",
       "quasarplay": "https://store.steampowered.com/app/3230470/?curator_clanid=30894603"
     }
   },
@@ -81371,6 +81526,24 @@
       "quasarplay": "https://store.steampowered.com/app/3809110/?curator_clanid=30894603"
     }
   },
+  "3809340": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "86b6c390"
+    ],
+    "patch_descriptions": [
+      "제작자 : 마히히"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4636nx/%E6%98%9F%E5%A4%A9%E3%81%B8%E7%99%BA%E3%81%A4%E6%97%A5"
+    }
+  },
   "3809940": {
     "type": "user",
     "sources": [
@@ -81982,6 +82155,24 @@
     ],
     "source_site_urls": {
       "quasarplay": "https://store.steampowered.com/app/3862670/?curator_clanid=30894603"
+    }
+  },
+  "3863090": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "9789dcc3"
+    ],
+    "patch_descriptions": [
+      "제작자 : endure1100"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/415z6p/blood-lily-killers-cant-sink-a-yuri-ship"
     }
   },
   "3863340": {
@@ -83433,6 +83624,24 @@
     ],
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/j531e3/beastfolk-barber"
+    }
+  },
+  "4093400": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "73a4a85b"
+    ],
+    "patch_descriptions": [
+      "제작자 : 마히히"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/416wyv/sisterly-bliss-dont-let-mom-find-out"
     }
   },
   "4093970": {
@@ -85454,6 +85663,24 @@
       "quasarplay": "https://store.steampowered.com/app/4519130/?curator_clanid=30894603"
     }
   },
+  "4530240": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "976e398c"
+    ],
+    "patch_descriptions": [
+      "제작자 : endure1100"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/462z72/dissolution-of-the-silent-union"
+    }
+  },
   "4532150": {
     "type": "user",
     "sources": [
@@ -86329,7 +86556,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-11-21T01:57:09.292Z",
-    "total": 4039
+    "generated_at": "2026-11-23T01:22:13.717Z",
+    "total": 4051
   }
 }

@@ -12365,6 +12365,19 @@
     ]
   },
   {
+    "app_id": "511740",
+    "game_title": "걸☆건 더블 피스",
+    "steam_link": "https://store.steampowered.com/app/511740",
+    "source_site_url": "https://hanpe.net/app/jv50e5/%EA%B1%B8%EA%B1%B4-%EB%8D%94%EB%B8%94-%ED%94%BC%EC%8A%A4",
+    "patch_type": "user",
+    "patch_links": [
+      "f5819790"
+    ],
+    "patch_descriptions": [
+      "제작자 : 아스나"
+    ]
+  },
+  {
     "app_id": "512060",
     "game_title": "Stay! Stay! Democratic People's Republic of Korea!",
     "steam_link": "https://store.steampowered.com/app/512060",
@@ -17384,10 +17397,12 @@
     "source_site_url": "https://hanpe.net/app/jmvxyn/sakura-mmo",
     "patch_type": "user",
     "patch_links": [
-      "c68b7d30"
+      "c68b7d30",
+      "99d5f208"
     ],
     "patch_descriptions": [
-      "Kimgaemandoo 님 제작 *현재 배포 중단"
+      "Kimgaemandoo 님 제작 *현재 배포 중단",
+      "제작자 : 마히히"
     ]
   },
   {
@@ -20903,13 +20918,13 @@
     "patch_type": "user",
     "patch_links": [
       "8ee038bc",
-      "a99fd166",
-      "a05ad98a"
+      "a05ad98a",
+      "a99fd166"
     ],
     "patch_descriptions": [
       "제작자 : 우리집드래곤뽀삐",
-      "제작자 : 루_퍼 DLC 한글화",
-      "제작자 : rkrkrr0101 DLC Spirit Island - Jagged Earth 한글화"
+      "제작자 : rkrkrr0101 DLC Spirit Island - Jagged Earth 한글화",
+      "제작자 : 루_퍼 DLC 한글화"
     ]
   },
   {
@@ -21638,6 +21653,19 @@
     ],
     "patch_descriptions": [
       "제작자 : killterm"
+    ]
+  },
+  {
+    "app_id": "1300860",
+    "game_title": "Strawberry Chocolate: Miner 8AD 4SS",
+    "steam_link": "https://store.steampowered.com/app/1300860",
+    "source_site_url": "https://hanpe.net/app/4yende/strawberry-chocolate-miner-8ad-4ss",
+    "patch_type": "user",
+    "patch_links": [
+      "73f94e73"
+    ],
+    "patch_descriptions": [
+      "제작자 : 마히히"
     ]
   },
   {
@@ -26704,6 +26732,19 @@
     ]
   },
   {
+    "app_id": "1959530",
+    "game_title": "Extra Case: My Girlfriend's Secrets",
+    "steam_link": "https://store.steampowered.com/app/1959530",
+    "source_site_url": "https://hanpe.net/app/j5po6e/extra-case-my-girlfriends-secrets",
+    "patch_type": "user",
+    "patch_links": [
+      "1defa2a9"
+    ],
+    "patch_descriptions": [
+      "제작자 : endure1100"
+    ]
+  },
+  {
     "app_id": "1960270",
     "game_title": "Lootun",
     "steam_link": "https://store.steampowered.com/app/1960270",
@@ -28306,6 +28347,19 @@
     ]
   },
   {
+    "app_id": "2205290",
+    "game_title": "流光易逝的夏末 - Fleeting Summer's End",
+    "steam_link": "https://store.steampowered.com/app/2205290",
+    "source_site_url": "https://hanpe.net/app/jmxg2o/%E6%B5%81%E5%85%89%E6%98%93%E9%80%9D%E7%9A%84%E5%A4%8F%E6%9C%AB-fleeting-summers-end",
+    "patch_type": "user",
+    "patch_links": [
+      "bfd589da"
+    ],
+    "patch_descriptions": [
+      "제작자 : 마히히"
+    ]
+  },
+  {
     "app_id": "2207490",
     "game_title": "Factory Town Idle",
     "steam_link": "https://store.steampowered.com/app/2207490",
@@ -29190,6 +29244,19 @@
     ],
     "patch_descriptions": [
       "공식 한글 개선 패치 제작자 : 김귤감귤"
+    ]
+  },
+  {
+    "app_id": "2367120",
+    "game_title": "Blood Lily Ghoststories",
+    "steam_link": "https://store.steampowered.com/app/2367120",
+    "source_site_url": "https://hanpe.net/app/lz1er7/blood-lily-ghoststories",
+    "patch_type": "user",
+    "patch_links": [
+      "cb1942f2"
+    ],
+    "patch_descriptions": [
+      "제작자 : endure1100"
     ]
   },
   {
@@ -31177,10 +31244,25 @@
     "source_site_url": "https://hanpe.net/app/jpg3rk/blood-lily-loop",
     "patch_type": "user",
     "patch_links": [
-      "ffe494d4"
+      "ffe494d4",
+      "4b261b9e"
     ],
     "patch_descriptions": [
-      "데모판 한글 패치 제작자 : 라멜"
+      "데모판 한글 패치 제작자 : 라멜",
+      "제작자 : endure1100"
+    ]
+  },
+  {
+    "app_id": "2677040",
+    "game_title": "真夜的居所 - Chanye's Home",
+    "steam_link": "https://store.steampowered.com/app/2677040",
+    "source_site_url": "https://hanpe.net/app/4ymn3e/%E7%9C%9F%E5%A4%9C%E7%9A%84%E5%B1%85%E6%89%80-chanyes-home",
+    "patch_type": "user",
+    "patch_links": [
+      "dc7b7c31"
+    ],
+    "patch_descriptions": [
+      "제작자 : 마히히"
     ]
   },
   {
@@ -32961,6 +33043,19 @@
     ]
   },
   {
+    "app_id": "2936180",
+    "game_title": "茜色",
+    "steam_link": "https://store.steampowered.com/app/2936180",
+    "source_site_url": "https://hanpe.net/app/jp3kon/%E8%8C%9C%E8%89%B2",
+    "patch_type": "user",
+    "patch_links": [
+      "bdefa681"
+    ],
+    "patch_descriptions": [
+      "제작자 : 마히히"
+    ]
+  },
+  {
     "app_id": "2939550",
     "game_title": "Urayama | ウラヤマ",
     "steam_link": "https://store.steampowered.com/app/2939550",
@@ -33122,6 +33217,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 코스노우 데모판 한글화"
+    ]
+  },
+  {
+    "app_id": "2961460",
+    "game_title": "神树残响（Echoes of the Divine Tree）",
+    "steam_link": "https://store.steampowered.com/app/2961460",
+    "source_site_url": "https://hanpe.net/app/j8y1w0/%E7%A5%9E%E6%A0%91%E6%AE%8B%E5%93%8Dechoes-of-the-divine-tree",
+    "patch_type": "user",
+    "patch_links": [
+      "647b5a16"
+    ],
+    "patch_descriptions": [
+      "제작자 : 마히히"
     ]
   },
   {
@@ -34720,6 +34828,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 우육친구 (두번째 항목에 패치가 있습니다)"
+    ]
+  },
+  {
+    "app_id": "3230470",
+    "game_title": "逃出魔法少女之家☆",
+    "steam_link": "https://store.steampowered.com/app/3230470",
+    "source_site_url": "https://hanpe.net/app/4qenex/%E9%80%83%E5%87%BA%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E4%B9%8B%E5%AE%B6",
+    "patch_type": "user",
+    "patch_links": [
+      "8f6b5419"
+    ],
+    "patch_descriptions": [
+      "제작자 : endure1100"
     ]
   },
   {
@@ -37295,6 +37416,19 @@
     ]
   },
   {
+    "app_id": "3809340",
+    "game_title": "星天へ発つ日",
+    "steam_link": "https://store.steampowered.com/app/3809340",
+    "source_site_url": "https://hanpe.net/app/4636nx/%E6%98%9F%E5%A4%A9%E3%81%B8%E7%99%BA%E3%81%A4%E6%97%A5",
+    "patch_type": "user",
+    "patch_links": [
+      "86b6c390"
+    ],
+    "patch_descriptions": [
+      "제작자 : 마히히"
+    ]
+  },
+  {
     "app_id": "3809940",
     "game_title": "Drill Bird",
     "steam_link": "https://store.steampowered.com/app/3809940",
@@ -37554,6 +37688,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 으잌"
+    ]
+  },
+  {
+    "app_id": "3863090",
+    "game_title": "Blood Lily: Killers Can't Sink a Yuri Ship",
+    "steam_link": "https://store.steampowered.com/app/3863090",
+    "source_site_url": "https://hanpe.net/app/415z6p/blood-lily-killers-cant-sink-a-yuri-ship",
+    "patch_type": "user",
+    "patch_links": [
+      "9789dcc3"
+    ],
+    "patch_descriptions": [
+      "제작자 : endure1100"
     ]
   },
   {
@@ -38073,6 +38220,19 @@
     ],
     "patch_descriptions": [
       "데모판 한글화 제작자 : 가치무치"
+    ]
+  },
+  {
+    "app_id": "4093400",
+    "game_title": "Sisterly Bliss ~Don't Let Mom Find Out~",
+    "steam_link": "https://store.steampowered.com/app/4093400",
+    "source_site_url": "https://hanpe.net/app/416wyv/sisterly-bliss-dont-let-mom-find-out",
+    "patch_type": "user",
+    "patch_links": [
+      "73a4a85b"
+    ],
+    "patch_descriptions": [
+      "제작자 : 마히히"
     ]
   },
   {
@@ -39032,6 +39192,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 으잌"
+    ]
+  },
+  {
+    "app_id": "4530240",
+    "game_title": "Dissolution of the Silent Union",
+    "steam_link": "https://store.steampowered.com/app/4530240",
+    "source_site_url": "https://hanpe.net/app/462z72/dissolution-of-the-silent-union",
+    "patch_type": "user",
+    "patch_links": [
+      "976e398c"
+    ],
+    "patch_descriptions": [
+      "제작자 : endure1100"
     ]
   },
   {
