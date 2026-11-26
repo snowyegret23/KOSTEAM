@@ -4017,6 +4017,24 @@
       "steamapp": "https://hanpe.net/app/j0yxoo/the-bards-tale-arpg-remastered-and-resnarkled"
     }
   },
+  "42680": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "b5985178"
+    ],
+    "patch_descriptions": [
+      "제작자 : 정보없음"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jnke1k/call-of-duty-modern-warfare-3-2011"
+    }
+  },
   "42700": {
     "type": "user",
     "sources": [
@@ -26318,15 +26336,18 @@
       "50da19b1",
       "3b48ac2d",
       "24c54afc",
+      "d0373e06",
       "exist"
     ],
     "patch_descriptions": [
       "제작자 : 단갤러 2편 한글화",
       "DMC1 한글 패치 제작자 : 문고리단속반",
       "1,2,3 한글화 DMC1 1차 번역 - 따르방 DMC1 2차 번역 - AI DMC3 번역 - 클로드 DMC1 그래픽 - 미니쿠다22 그 외 - 행복한나라",
+      "3편만 한글화 제작자 : nuttinutti",
       "한글 패치 - 행복한나라\n2편 한글 패치 -"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp",
       "steamapp",
       "steamapp",
@@ -28972,13 +28993,16 @@
     ],
     "links": [
       "b0ad2b77",
+      "e5e41eb0",
       "exist"
     ],
     "patch_descriptions": [
       "제작자 : 테시스 공식 한글 개선 패치",
+      "공식 한글 개선 패치 제작자 : 메께라",
       "유저 한글 패치 - 테시스"
     ],
     "patch_sources": [
+      "steamapp",
       "steamapp",
       "quasarplay"
     ],
@@ -56922,18 +56946,29 @@
   "2121510": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "60e33d04",
+      "8761d12c",
+      "3a4cbf56",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : 미로롱",
+      "제작자 : 으잌㉪",
+      "제작자 : 김까까",
       "유저 한글 패치 - 으잌㉪"
     ],
     "patch_sources": [
+      "steamapp",
+      "steamapp",
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/4o330k/tenebris-somnia",
       "quasarplay": "https://store.steampowered.com/app/2121510/?curator_clanid=42788178"
     }
   },
@@ -56976,6 +57011,24 @@
     ],
     "source_site_urls": {
       "quasarplay": "https://store.steampowered.com/app/2123640/?curator_clanid=30894603"
+    }
+  },
+  "2124380": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "bd60e3f2"
+    ],
+    "patch_descriptions": [
+      "제작자 : 두빛"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/l7n85e/super-lesbian-animal-rpg"
     }
   },
   "2124420": {
@@ -58888,6 +58941,24 @@
       "quasarplay": "https://store.steampowered.com/app/2231450/?curator_clanid=42788178"
     }
   },
+  "2232880": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "3fef7011"
+    ],
+    "patch_descriptions": [
+      "제작자 : jjpatch12"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/l7n6nv/%E7%81%B5%E5%85%BD%E6%B1%9F%E6%B9%96"
+    }
+  },
   "2233120": {
     "type": "user",
     "sources": [
@@ -60368,18 +60439,23 @@
   "2340520": {
     "type": "user",
     "sources": [
+      "steamapp",
       "quasarplay"
     ],
     "links": [
+      "d3743469",
       "exist"
     ],
     "patch_descriptions": [
+      "제작자 : yuniwon",
       "유저 한글 패치 - 한무테"
     ],
     "patch_sources": [
+      "steamapp",
       "quasarplay"
     ],
     "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jm5vm8/%EC%84%B8%EC%9D%B4%ED%81%90-%EC%9D%B4%EC%95%BC%EA%B8%B0",
       "quasarplay": "https://store.steampowered.com/app/2340520/?curator_clanid=30894603"
     }
   },
@@ -65103,6 +65179,24 @@
     ],
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/jpqxzo/from-glory-to-goo"
+    }
+  },
+  "2609610": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "bcea6684"
+    ],
+    "patch_descriptions": [
+      "제작자 : 제콜"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j03716/convrgence"
     }
   },
   "2612660": {
@@ -80372,6 +80466,24 @@
       "quasarplay": "https://store.steampowered.com/app/3649580/?curator_clanid=30894603"
     }
   },
+  "3649700": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "c694dbe1"
+    ],
+    "patch_descriptions": [
+      "제작자 : 희망의가위"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jwq95e/s-mail"
+    }
+  },
   "3652650": {
     "type": "user",
     "sources": [
@@ -82988,13 +83100,19 @@
     ],
     "links": [
       "b03878ce",
+      "e1609aa6",
+      "3019a134",
       "exist"
     ],
     "patch_descriptions": [
       "제작자 : 네로링",
+      "제작자 : meldavy",
+      "기존 한글패치 + 이미지 한글화",
       "한글 패치 - 네로링\n한글 패치 - 한무테"
     ],
     "patch_sources": [
+      "steamapp",
+      "steamapp",
       "steamapp",
       "quasarplay"
     ],
@@ -83922,6 +84040,24 @@
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/4qkk3o/ebaseballtm-pro-spirit",
       "quasarplay": "https://store.steampowered.com/app/4128400/?curator_clanid=30894603"
+    }
+  },
+  "4129770": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "9474e119"
+    ],
+    "patch_descriptions": [
+      "제작자 : ☀️"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/jwd700/dream-about-you"
     }
   },
   "4137460": {
@@ -85122,6 +85258,24 @@
     ],
     "source_site_urls": {
       "steamapp": "https://hanpe.net/app/jp75qw/balorizon"
+    }
+  },
+  "4368560": {
+    "type": "user",
+    "sources": [
+      "steamapp"
+    ],
+    "links": [
+      "72c383c1"
+    ],
+    "patch_descriptions": [
+      "제작자 : 바나나우유"
+    ],
+    "patch_sources": [
+      "steamapp"
+    ],
+    "source_site_urls": {
+      "steamapp": "https://hanpe.net/app/j5zowe/the-dandelion-endures"
     }
   },
   "4369130": {
@@ -86556,7 +86710,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-11-23T01:22:13.717Z",
-    "total": 4051
+    "generated_at": "2026-11-26T03:21:28.582Z",
+    "total": 4058
   }
 }

@@ -3148,6 +3148,19 @@
     ]
   },
   {
+    "app_id": "115300",
+    "game_title": "Call of Duty®: Modern Warfare® 3 (2011)",
+    "steam_link": "https://store.steampowered.com/app/115300",
+    "source_site_url": "https://hanpe.net/app/jnke1k/call-of-duty-modern-warfare-3-2011",
+    "patch_type": "user",
+    "patch_links": [
+      "b5985178"
+    ],
+    "patch_descriptions": [
+      "제작자 : 정보없음"
+    ]
+  },
+  {
     "app_id": "115320",
     "game_title": "Prototype 2",
     "steam_link": "https://store.steampowered.com/app/115320",
@@ -14418,12 +14431,14 @@
     "patch_links": [
       "50da19b1",
       "3b48ac2d",
-      "24c54afc"
+      "24c54afc",
+      "d0373e06"
     ],
     "patch_descriptions": [
       "제작자 : 단갤러 2편 한글화",
       "DMC1 한글 패치 제작자 : 문고리단속반",
-      "1,2,3 한글화 DMC1 1차 번역 - 따르방 DMC1 2차 번역 - AI DMC3 번역 - 클로드 DMC1 그래픽 - 미니쿠다22 그 외 - 행복한나라"
+      "1,2,3 한글화 DMC1 1차 번역 - 따르방 DMC1 2차 번역 - AI DMC3 번역 - 클로드 DMC1 그래픽 - 미니쿠다22 그 외 - 행복한나라",
+      "3편만 한글화 제작자 : nuttinutti"
     ]
   },
   {
@@ -15827,10 +15842,12 @@
     "source_site_url": "https://hanpe.net/app/46pg59/kynseed",
     "patch_type": "official",
     "patch_links": [
-      "b0ad2b77"
+      "b0ad2b77",
+      "e5e41eb0"
     ],
     "patch_descriptions": [
-      "제작자 : 테시스 공식 한글 개선 패치"
+      "제작자 : 테시스 공식 한글 개선 패치",
+      "공식 한글 개선 패치 제작자 : 메께라"
     ]
   },
   {
@@ -27794,6 +27811,23 @@
     ]
   },
   {
+    "app_id": "2121510",
+    "game_title": "Tenebris Somnia",
+    "steam_link": "https://store.steampowered.com/app/2121510",
+    "source_site_url": "https://hanpe.net/app/4o330k/tenebris-somnia",
+    "patch_type": "user",
+    "patch_links": [
+      "60e33d04",
+      "8761d12c",
+      "3a4cbf56"
+    ],
+    "patch_descriptions": [
+      "제작자 : 미로롱",
+      "제작자 : 으잌㉪",
+      "제작자 : 김까까"
+    ]
+  },
+  {
     "app_id": "2121980",
     "game_title": "Void Stranger",
     "steam_link": "https://store.steampowered.com/app/2121980",
@@ -27804,6 +27838,19 @@
     ],
     "patch_descriptions": [
       "제작자 : Robeureu"
+    ]
+  },
+  {
+    "app_id": "2124380",
+    "game_title": "Super Lesbian Animal RPG",
+    "steam_link": "https://store.steampowered.com/app/2124380",
+    "source_site_url": "https://hanpe.net/app/l7n85e/super-lesbian-animal-rpg",
+    "patch_type": "user",
+    "patch_links": [
+      "bd60e3f2"
+    ],
+    "patch_descriptions": [
+      "제작자 : 두빛"
     ]
   },
   {
@@ -28509,6 +28556,19 @@
     ]
   },
   {
+    "app_id": "2232880",
+    "game_title": "灵兽江湖",
+    "steam_link": "https://store.steampowered.com/app/2232880",
+    "source_site_url": "https://hanpe.net/app/l7n6nv/%E7%81%B5%E5%85%BD%E6%B1%9F%E6%B9%96",
+    "patch_type": "user",
+    "patch_links": [
+      "3fef7011"
+    ],
+    "patch_descriptions": [
+      "제작자 : jjpatch12"
+    ]
+  },
+  {
     "app_id": "2235430",
     "game_title": "Holstin",
     "steam_link": "https://store.steampowered.com/app/2235430",
@@ -29075,6 +29135,19 @@
     ],
     "patch_descriptions": [
       "제작자 : 정보없음"
+    ]
+  },
+  {
+    "app_id": "2340520",
+    "game_title": "세이큐 이야기",
+    "steam_link": "https://store.steampowered.com/app/2340520",
+    "source_site_url": "https://hanpe.net/app/jm5vm8/%EC%84%B8%EC%9D%B4%ED%81%90-%EC%9D%B4%EC%95%BC%EA%B8%B0",
+    "patch_type": "user",
+    "patch_links": [
+      "d3743469"
+    ],
+    "patch_descriptions": [
+      "제작자 : yuniwon"
     ]
   },
   {
@@ -30831,6 +30904,19 @@
     "patch_links": [],
     "patch_descriptions": [
       "실제로는 한글 지원"
+    ]
+  },
+  {
+    "app_id": "2609610",
+    "game_title": "CONVRGENCE",
+    "steam_link": "https://store.steampowered.com/app/2609610",
+    "source_site_url": "https://hanpe.net/app/j03716/convrgence",
+    "patch_type": "user",
+    "patch_links": [
+      "bcea6684"
+    ],
+    "patch_descriptions": [
+      "제작자 : 제콜"
     ]
   },
   {
@@ -36877,6 +36963,19 @@
     ]
   },
   {
+    "app_id": "3649700",
+    "game_title": "S-mail",
+    "steam_link": "https://store.steampowered.com/app/3649700",
+    "source_site_url": "https://hanpe.net/app/jwq95e/s-mail",
+    "patch_type": "user",
+    "patch_links": [
+      "c694dbe1"
+    ],
+    "patch_descriptions": [
+      "제작자 : 희망의가위"
+    ]
+  },
+  {
     "app_id": "3652650",
     "game_title": "恋爱从离别开始",
     "steam_link": "https://store.steampowered.com/app/3652650",
@@ -37957,10 +38056,14 @@
     "source_site_url": "https://hanpe.net/app/j53p5e/in-falsus",
     "patch_type": "user",
     "patch_links": [
-      "b03878ce"
+      "b03878ce",
+      "e1609aa6",
+      "3019a134"
     ],
     "patch_descriptions": [
-      "제작자 : 네로링"
+      "제작자 : 네로링",
+      "제작자 : meldavy",
+      "기존 한글패치 + 이미지 한글화"
     ]
   },
   {
@@ -38380,6 +38483,19 @@
     ],
     "patch_descriptions": [
       "공식 한글 개선 패치 제작자 : 언제종강하냐"
+    ]
+  },
+  {
+    "app_id": "4129770",
+    "game_title": "Dream about yoU",
+    "steam_link": "https://store.steampowered.com/app/4129770",
+    "source_site_url": "https://hanpe.net/app/jwd700/dream-about-you",
+    "patch_type": "user",
+    "patch_links": [
+      "9474e119"
+    ],
+    "patch_descriptions": [
+      "제작자 : ☀️"
     ]
   },
   {
@@ -38919,6 +39035,19 @@
     "patch_links": [],
     "patch_descriptions": [
       "실제로는 공식한글"
+    ]
+  },
+  {
+    "app_id": "4368560",
+    "game_title": "The Dandelion Endures.",
+    "steam_link": "https://store.steampowered.com/app/4368560",
+    "source_site_url": "https://hanpe.net/app/j5zowe/the-dandelion-endures",
+    "patch_type": "user",
+    "patch_links": [
+      "72c383c1"
+    ],
+    "patch_descriptions": [
+      "제작자 : 바나나우유"
     ]
   },
   {
