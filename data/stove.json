@@ -540,21 +540,6 @@
     "stove_url": "https://store.onstove.com/ko/games/101668"
   },
   {
-    "app_id": "3145320",
-    "stove_game_no": "12437",
-    "stove_product_no": "102348",
-    "game_title": "원소와 빌드 (Elements and Build)",
-    "steam_link": "https://store.steampowered.com/app/3145320",
-    "patch_type": "official",
-    "patch_links": [
-      "exist"
-    ],
-    "patch_descriptions": [
-      ""
-    ],
-    "stove_url": "https://store.onstove.com/ko/games/102348"
-  },
-  {
     "app_id": "1967820",
     "stove_game_no": "12447",
     "stove_product_no": "102358",
@@ -568,6 +553,21 @@
       ""
     ],
     "stove_url": "https://store.onstove.com/ko/games/102358"
+  },
+  {
+    "app_id": "3145320",
+    "stove_game_no": "12437",
+    "stove_product_no": "102348",
+    "game_title": "원소와 빌드 (Elements and Build)",
+    "steam_link": "https://store.steampowered.com/app/3145320",
+    "patch_type": "official",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "stove_url": "https://store.onstove.com/ko/games/102348"
   },
   {
     "app_id": "2593370",
@@ -1905,21 +1905,6 @@
     "stove_url": "https://store.onstove.com/ko/games/2677"
   },
   {
-    "app_id": "792040",
-    "stove_game_no": "3886",
-    "stove_product_no": "2036",
-    "game_title": "적인걸: 금장미 살인사건 (Detective Di: The Silk Rose Murders)",
-    "steam_link": "https://store.steampowered.com/app/792040",
-    "patch_type": "official",
-    "patch_links": [
-      "exist"
-    ],
-    "patch_descriptions": [
-      ""
-    ],
-    "stove_url": "https://store.onstove.com/ko/games/2036"
-  },
-  {
     "app_id": "1314770",
     "stove_game_no": "4155",
     "stove_product_no": "2198",
@@ -1933,6 +1918,21 @@
       ""
     ],
     "stove_url": "https://store.onstove.com/ko/games/2198"
+  },
+  {
+    "app_id": "792040",
+    "stove_game_no": "3886",
+    "stove_product_no": "2036",
+    "game_title": "적인걸: 금장미 살인사건 (Detective Di: The Silk Rose Murders)",
+    "steam_link": "https://store.steampowered.com/app/792040",
+    "patch_type": "official",
+    "patch_links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      ""
+    ],
+    "stove_url": "https://store.onstove.com/ko/games/2036"
   },
   {
     "app_id": "2288210",

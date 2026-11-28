@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-11-26T03:21:28.582Z",
-    "total_with_steam_link": 4058,
+    "generated_at": "2026-11-28T03:02:18.798Z",
+    "total_with_steam_link": 4059,
     "total_without_steam_link": 15,
     "sources": [
       "steamapp",
@@ -28,6 +28,27 @@
       ],
       "source_site_urls": {
         "quasarplay": "https://store.steampowered.com/app/4836310/?curator_clanid=30894603"
+      },
+      "sources": [
+        "quasarplay"
+      ]
+    },
+    {
+      "app_id": "3114360",
+      "game_title": "",
+      "steam_link": "https://store.steampowered.com/app/3114360/ViruStream/",
+      "patch_type": "user",
+      "patch_links": [
+        "exist"
+      ],
+      "patch_descriptions": [
+        "한글 패치 - CurlyR"
+      ],
+      "patch_sources": [
+        "quasarplay"
+      ],
+      "source_site_urls": {
+        "quasarplay": "https://store.steampowered.com/app/3114360/?curator_clanid=30894603"
       },
       "sources": [
         "quasarplay"

@@ -73715,6 +73715,24 @@
       "quasarplay": "https://store.steampowered.com/app/3113990/?curator_clanid=30894603"
     }
   },
+  "3114360": {
+    "type": "user",
+    "sources": [
+      "quasarplay"
+    ],
+    "links": [
+      "exist"
+    ],
+    "patch_descriptions": [
+      "한글 패치 - CurlyR"
+    ],
+    "patch_sources": [
+      "quasarplay"
+    ],
+    "source_site_urls": {
+      "quasarplay": "https://store.steampowered.com/app/3114360/?curator_clanid=30894603"
+    }
+  },
   "3117820": {
     "type": "user",
     "sources": [
@@ -86710,7 +86728,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-11-26T03:21:28.582Z",
-    "total": 4058
+    "generated_at": "2026-11-28T03:02:18.798Z",
+    "total": 4059
   }
 }

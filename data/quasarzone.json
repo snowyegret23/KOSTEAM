@@ -2,8 +2,8 @@
   "curator_id": 30894603,
   "curator_name": "Curator #30894603",
   "curator_url": "https://store.steampowered.com/curator/30894603/",
-  "total_games": 1384,
-  "exported_at": "2026-11-26T03:21:14.635137",
+  "total_games": 1385,
+  "exported_at": "2026-11-28T03:02:04.952246",
   "games": [
     {
       "appid": "384630",
@@ -19,6 +19,15 @@
       "url": "https://store.steampowered.com/app/4836310/Vice_Signalling/",
       "curator_url": "https://store.steampowered.com/app/4836310/?curator_clanid=30894603",
       "review": "한글 패치",
+      "review_has_url": true,
+      "review_url_count": 1,
+      "type": "recommended"
+    },
+    {
+      "appid": "3114360",
+      "url": "https://store.steampowered.com/app/3114360/ViruStream/",
+      "curator_url": "https://store.steampowered.com/app/3114360/?curator_clanid=30894603",
+      "review": "한글 패치 - CurlyR",
       "review_has_url": true,
       "review_url_count": 1,
       "type": "recommended"
